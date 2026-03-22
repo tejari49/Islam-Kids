@@ -6,6 +6,11 @@
       "de": "Prophet Muhammad",
       "al": "Profeti Muhamed",
       "tr": "Hz. Muhammed"
+    },
+    "content": {
+      "de": "Prophet Muhammad (s.a.w.) war der letzte Gesandte Allahs...",
+      "al": "Profeti Muhamed (s.a.w.) ishte i dërguari i fundit i Allahut...",
+      "tr": "Hz. Muhammed (s.a.v.) Allah'ın son elçisidir..."
     }
   },
   {
@@ -15,6 +20,11 @@
       "de": "Prophet Nuh",
       "al": "Profeti Nuh",
       "tr": "Hz. Nuh"
+    },
+    "content": {
+      "de": "Prophet Nuh baute eine große Arche...",
+      "al": "Profeti Nuh ndërtoi një varkë të madhe...",
+      "tr": "Hz. Nuh büyük bir gemi inşa etti..."
     }
   },
   {
@@ -24,6 +34,11 @@
       "de": "Prophet Musa",
       "al": "Profeti Musa",
       "tr": "Hz. Musa"
+    },
+    "content": {
+      "de": "Prophet Musa teilte das Meer mit seinem Stab...",
+      "al": "Profeti Musa ndau detin me shkopin e tij...",
+      "tr": "Hz. Musa denizi asasıyla yardı..."
     }
   },
   {
@@ -33,6 +48,11 @@
       "de": "Prophet Ibrahim",
       "al": "Profeti Ibrahim",
       "tr": "Hz. Ibrahim"
+    },
+    "content": {
+      "de": "Prophet Ibrahim vertraute Allah im Feuer...",
+      "al": "Profeti Ibrahim i besoi Allahut në zjarr...",
+      "tr": "Hz. İbrahim ateşte Allah'a tevekkül etti..."
     }
   },
   {
@@ -42,6 +62,11 @@
       "de": "Prophet Yunus",
       "al": "Profeti Junus",
       "tr": "Hz. Yunus"
+    },
+    "content": {
+      "de": "Prophet Yunus war im Bauch des Waldes...",
+      "al": "Profeti Junus ishte në barkun e balenës...",
+      "tr": "Hz. Yunus balığın karnındaydı..."
     }
   },
   {
@@ -51,6 +76,11 @@
       "de": "Die Engel",
       "al": "Engjëjt",
       "tr": "Melekler"
+    },
+    "content": {
+      "de": "Engel sind Wesen aus Licht...",
+      "al": "Engjëjt janë qenie prej drite...",
+      "tr": "Melekler nurdan varlıklardır..."
     }
   },
   {
@@ -60,6 +90,11 @@
       "de": "Die Kabah",
       "al": "Qabja",
       "tr": "Kabe"
+    },
+    "content": {
+      "de": "Die Kabah ist das Haus Allahs...",
+      "al": "Qabja është shtëpia e Allahut...",
+      "tr": "Kabe Allah'ın evidir..."
     }
   },
   {
@@ -69,6 +104,11 @@
       "de": "Allahs Schöpfung",
       "al": "Krijimi i Allahut",
       "tr": "Allah'ın Yaratışı"
+    },
+    "content": {
+      "de": "Himmel und Erde sind von Allah erschaffen...",
+      "al": "Qielli dhe toka janë krijuar nga Allahu...",
+      "tr": "Gökleri ve yeri Allah yarattı..."
     }
   },
   {
@@ -78,6 +118,11 @@
       "de": "Prophet Sulaiman",
       "al": "Profeti Sulejman",
       "tr": "Hz. Süleyman"
+    },
+    "content": {
+      "de": "Prophet Sulaiman konnte mit Tieren sprechen...",
+      "al": "Profeti Sulejman mund të fliste me kafshët...",
+      "tr": "Hz. Süleyman hayvanlarla konuşabiliyordu..."
     }
   },
   {
@@ -87,6 +132,11 @@
       "de": "Der mutige Ali",
       "al": "Aliu i guximshëm",
       "tr": "Cesur Ali"
+    },
+    "content": {
+      "de": "Ali war ein tapferer Freund des Propheten...",
+      "al": "Aliu ishte një mik trim i Profetit...",
+      "tr": "Hz. Ali Peygamber'in cesur bir dostuydu..."
     }
   },
   {
@@ -98,9 +148,9 @@
       "tr": "Aile Hikayesi 11"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 11)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 11)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 11)..."
     }
   },
   {
@@ -112,9 +162,9 @@
       "tr": "Af Hikayesi 12"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 12)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 12)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 12)..."
     }
   },
   {
@@ -126,9 +176,9 @@
       "tr": "Başarı Hikayesi 13"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 13)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 13)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 13)..."
     }
   },
   {
@@ -140,9 +190,9 @@
       "tr": "Barış Hikayesi 14"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 14)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 14)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 14)..."
     }
   },
   {
@@ -154,9 +204,9 @@
       "tr": "Sevgi Hikayesi 15"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 15)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 15)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 15)..."
     }
   },
   {
@@ -168,9 +218,9 @@
       "tr": "Şükür Hikayesi 16"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 16)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 16)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 16)..."
     }
   },
   {
@@ -182,9 +232,9 @@
       "tr": "Sabır Hikayesi 17"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 17)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 17)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 17)..."
     }
   },
   {
@@ -196,9 +246,9 @@
       "tr": "Korunma Hikayesi 18"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 18)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 18)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 18)..."
     }
   },
   {
@@ -210,9 +260,9 @@
       "tr": "Aile Hikayesi 19"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 19)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 19)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 19)..."
     }
   },
   {
@@ -224,9 +274,9 @@
       "tr": "Af Hikayesi 20"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 20)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 20)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 20)..."
     }
   },
   {
@@ -238,9 +288,9 @@
       "tr": "Başarı Hikayesi 21"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 21)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 21)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 21)..."
     }
   },
   {
@@ -252,9 +302,9 @@
       "tr": "Barış Hikayesi 22"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 22)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 22)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 22)..."
     }
   },
   {
@@ -266,9 +316,9 @@
       "tr": "Sevgi Hikayesi 23"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 23)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 23)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 23)..."
     }
   },
   {
@@ -280,9 +330,9 @@
       "tr": "Şükür Hikayesi 24"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 24)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 24)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 24)..."
     }
   },
   {
@@ -294,9 +344,9 @@
       "tr": "Sabır Hikayesi 25"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 25)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 25)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 25)..."
     }
   },
   {
@@ -308,9 +358,9 @@
       "tr": "Korunma Hikayesi 26"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 26)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 26)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 26)..."
     }
   },
   {
@@ -322,9 +372,9 @@
       "tr": "Aile Hikayesi 27"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 27)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 27)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 27)..."
     }
   },
   {
@@ -336,9 +386,9 @@
       "tr": "Af Hikayesi 28"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 28)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 28)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 28)..."
     }
   },
   {
@@ -350,9 +400,9 @@
       "tr": "Başarı Hikayesi 29"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 29)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 29)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 29)..."
     }
   },
   {
@@ -364,9 +414,9 @@
       "tr": "Barış Hikayesi 30"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 30)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 30)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 30)..."
     }
   },
   {
@@ -378,9 +428,9 @@
       "tr": "Sevgi Hikayesi 31"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 31)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 31)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 31)..."
     }
   },
   {
@@ -392,9 +442,9 @@
       "tr": "Şükür Hikayesi 32"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 32)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 32)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 32)..."
     }
   },
   {
@@ -406,9 +456,9 @@
       "tr": "Sabır Hikayesi 33"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 33)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 33)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 33)..."
     }
   },
   {
@@ -420,9 +470,9 @@
       "tr": "Korunma Hikayesi 34"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 34)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 34)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 34)..."
     }
   },
   {
@@ -434,9 +484,9 @@
       "tr": "Aile Hikayesi 35"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 35)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 35)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 35)..."
     }
   },
   {
@@ -448,9 +498,9 @@
       "tr": "Af Hikayesi 36"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 36)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 36)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 36)..."
     }
   },
   {
@@ -462,9 +512,9 @@
       "tr": "Başarı Hikayesi 37"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 37)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 37)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 37)..."
     }
   },
   {
@@ -476,9 +526,9 @@
       "tr": "Barış Hikayesi 38"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 38)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 38)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 38)..."
     }
   },
   {
@@ -490,9 +540,9 @@
       "tr": "Sevgi Hikayesi 39"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 39)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 39)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 39)..."
     }
   },
   {
@@ -504,9 +554,9 @@
       "tr": "Şükür Hikayesi 40"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 40)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 40)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 40)..."
     }
   },
   {
@@ -518,9 +568,9 @@
       "tr": "Sabır Hikayesi 41"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 41)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 41)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 41)..."
     }
   },
   {
@@ -532,9 +582,9 @@
       "tr": "Korunma Hikayesi 42"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 42)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 42)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 42)..."
     }
   },
   {
@@ -546,9 +596,9 @@
       "tr": "Aile Hikayesi 43"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 43)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 43)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 43)..."
     }
   },
   {
@@ -560,9 +610,9 @@
       "tr": "Af Hikayesi 44"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 44)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 44)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 44)..."
     }
   },
   {
@@ -574,9 +624,9 @@
       "tr": "Başarı Hikayesi 45"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 45)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 45)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 45)..."
     }
   },
   {
@@ -588,9 +638,9 @@
       "tr": "Barış Hikayesi 46"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 46)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 46)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 46)..."
     }
   },
   {
@@ -602,9 +652,9 @@
       "tr": "Sevgi Hikayesi 47"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 47)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 47)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 47)..."
     }
   },
   {
@@ -616,9 +666,9 @@
       "tr": "Şükür Hikayesi 48"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 48)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 48)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 48)..."
     }
   },
   {
@@ -630,9 +680,9 @@
       "tr": "Sabır Hikayesi 49"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 49)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 49)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 49)..."
     }
   },
   {
@@ -644,9 +694,9 @@
       "tr": "Korunma Hikayesi 50"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 50)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 50)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 50)..."
     }
   },
   {
@@ -658,9 +708,9 @@
       "tr": "Aile Hikayesi 51"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 51)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 51)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 51)..."
     }
   },
   {
@@ -672,9 +722,9 @@
       "tr": "Af Hikayesi 52"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 52)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 52)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 52)..."
     }
   },
   {
@@ -686,9 +736,9 @@
       "tr": "Başarı Hikayesi 53"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 53)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 53)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 53)..."
     }
   },
   {
@@ -700,9 +750,9 @@
       "tr": "Barış Hikayesi 54"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 54)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 54)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 54)..."
     }
   },
   {
@@ -714,9 +764,9 @@
       "tr": "Sevgi Hikayesi 55"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 55)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 55)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 55)..."
     }
   },
   {
@@ -728,9 +778,9 @@
       "tr": "Şükür Hikayesi 56"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 56)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 56)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 56)..."
     }
   },
   {
@@ -742,9 +792,9 @@
       "tr": "Sabır Hikayesi 57"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 57)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 57)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 57)..."
     }
   },
   {
@@ -756,9 +806,9 @@
       "tr": "Korunma Hikayesi 58"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 58)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 58)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 58)..."
     }
   },
   {
@@ -770,9 +820,9 @@
       "tr": "Aile Hikayesi 59"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 59)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 59)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 59)..."
     }
   },
   {
@@ -784,9 +834,9 @@
       "tr": "Af Hikayesi 60"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 60)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 60)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 60)..."
     }
   },
   {
@@ -798,9 +848,9 @@
       "tr": "Başarı Hikayesi 61"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 61)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 61)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 61)..."
     }
   },
   {
@@ -812,9 +862,9 @@
       "tr": "Barış Hikayesi 62"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 62)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 62)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 62)..."
     }
   },
   {
@@ -826,9 +876,9 @@
       "tr": "Sevgi Hikayesi 63"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 63)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 63)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 63)..."
     }
   },
   {
@@ -840,9 +890,9 @@
       "tr": "Şükür Hikayesi 64"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 64)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 64)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 64)..."
     }
   },
   {
@@ -854,9 +904,9 @@
       "tr": "Sabır Hikayesi 65"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 65)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 65)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 65)..."
     }
   },
   {
@@ -868,9 +918,9 @@
       "tr": "Korunma Hikayesi 66"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 66)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 66)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 66)..."
     }
   },
   {
@@ -882,9 +932,9 @@
       "tr": "Aile Hikayesi 67"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 67)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 67)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 67)..."
     }
   },
   {
@@ -896,9 +946,9 @@
       "tr": "Af Hikayesi 68"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 68)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 68)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 68)..."
     }
   },
   {
@@ -910,9 +960,9 @@
       "tr": "Başarı Hikayesi 69"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 69)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 69)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 69)..."
     }
   },
   {
@@ -924,9 +974,9 @@
       "tr": "Barış Hikayesi 70"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 70)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 70)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 70)..."
     }
   },
   {
@@ -938,9 +988,9 @@
       "tr": "Sevgi Hikayesi 71"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 71)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 71)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 71)..."
     }
   },
   {
@@ -952,9 +1002,9 @@
       "tr": "Şükür Hikayesi 72"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 72)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 72)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 72)..."
     }
   },
   {
@@ -966,9 +1016,9 @@
       "tr": "Sabır Hikayesi 73"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 73)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 73)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 73)..."
     }
   },
   {
@@ -980,9 +1030,9 @@
       "tr": "Korunma Hikayesi 74"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 74)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 74)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 74)..."
     }
   },
   {
@@ -994,9 +1044,9 @@
       "tr": "Aile Hikayesi 75"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 75)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 75)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 75)..."
     }
   },
   {
@@ -1008,9 +1058,9 @@
       "tr": "Af Hikayesi 76"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 76)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 76)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 76)..."
     }
   },
   {
@@ -1022,9 +1072,9 @@
       "tr": "Başarı Hikayesi 77"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 77)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 77)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 77)..."
     }
   },
   {
@@ -1036,9 +1086,9 @@
       "tr": "Barış Hikayesi 78"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 78)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 78)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 78)..."
     }
   },
   {
@@ -1050,9 +1100,9 @@
       "tr": "Sevgi Hikayesi 79"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 79)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 79)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 79)..."
     }
   },
   {
@@ -1064,9 +1114,9 @@
       "tr": "Şükür Hikayesi 80"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 80)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 80)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 80)..."
     }
   },
   {
@@ -1078,9 +1128,9 @@
       "tr": "Sabır Hikayesi 81"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 81)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 81)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 81)..."
     }
   },
   {
@@ -1092,9 +1142,9 @@
       "tr": "Korunma Hikayesi 82"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 82)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 82)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 82)..."
     }
   },
   {
@@ -1106,9 +1156,9 @@
       "tr": "Aile Hikayesi 83"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 83)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 83)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 83)..."
     }
   },
   {
@@ -1120,9 +1170,9 @@
       "tr": "Af Hikayesi 84"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 84)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 84)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 84)..."
     }
   },
   {
@@ -1134,9 +1184,9 @@
       "tr": "Başarı Hikayesi 85"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 85)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 85)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 85)..."
     }
   },
   {
@@ -1148,9 +1198,9 @@
       "tr": "Barış Hikayesi 86"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 86)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 86)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 86)..."
     }
   },
   {
@@ -1162,9 +1212,9 @@
       "tr": "Sevgi Hikayesi 87"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 87)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 87)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 87)..."
     }
   },
   {
@@ -1176,9 +1226,9 @@
       "tr": "Şükür Hikayesi 88"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 88)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 88)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 88)..."
     }
   },
   {
@@ -1190,9 +1240,9 @@
       "tr": "Sabır Hikayesi 89"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 89)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 89)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 89)..."
     }
   },
   {
@@ -1204,9 +1254,9 @@
       "tr": "Korunma Hikayesi 90"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 90)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 90)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 90)..."
     }
   },
   {
@@ -1218,9 +1268,9 @@
       "tr": "Aile Hikayesi 91"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 91)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 91)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 91)..."
     }
   },
   {
@@ -1232,9 +1282,9 @@
       "tr": "Af Hikayesi 92"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 92)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 92)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 92)..."
     }
   },
   {
@@ -1246,9 +1296,9 @@
       "tr": "Başarı Hikayesi 93"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 93)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 93)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 93)..."
     }
   },
   {
@@ -1260,9 +1310,9 @@
       "tr": "Barış Hikayesi 94"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 94)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 94)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 94)..."
     }
   },
   {
@@ -1274,9 +1324,9 @@
       "tr": "Sevgi Hikayesi 95"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 95)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 95)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 95)..."
     }
   },
   {
@@ -1288,9 +1338,9 @@
       "tr": "Şükür Hikayesi 96"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 96)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 96)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 96)..."
     }
   },
   {
@@ -1302,9 +1352,9 @@
       "tr": "Sabır Hikayesi 97"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 97)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 97)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 97)..."
     }
   },
   {
@@ -1316,9 +1366,9 @@
       "tr": "Korunma Hikayesi 98"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 98)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 98)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 98)..."
     }
   },
   {
@@ -1330,9 +1380,9 @@
       "tr": "Aile Hikayesi 99"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 99)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 99)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 99)..."
     }
   },
   {
@@ -1344,9 +1394,9 @@
       "tr": "Af Hikayesi 100"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 100)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 100)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 100)..."
     }
   },
   {
@@ -1358,9 +1408,9 @@
       "tr": "Başarı Hikayesi 101"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 101)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 101)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 101)..."
     }
   },
   {
@@ -1372,9 +1422,9 @@
       "tr": "Barış Hikayesi 102"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 102)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 102)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 102)..."
     }
   },
   {
@@ -1386,9 +1436,9 @@
       "tr": "Sevgi Hikayesi 103"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 103)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 103)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 103)..."
     }
   },
   {
@@ -1400,9 +1450,9 @@
       "tr": "Şükür Hikayesi 104"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 104)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 104)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 104)..."
     }
   },
   {
@@ -1414,9 +1464,9 @@
       "tr": "Sabır Hikayesi 105"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 105)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 105)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 105)..."
     }
   },
   {
@@ -1428,9 +1478,9 @@
       "tr": "Korunma Hikayesi 106"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 106)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 106)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 106)..."
     }
   },
   {
@@ -1442,9 +1492,9 @@
       "tr": "Aile Hikayesi 107"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 107)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 107)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 107)..."
     }
   },
   {
@@ -1456,9 +1506,9 @@
       "tr": "Af Hikayesi 108"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 108)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 108)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 108)..."
     }
   },
   {
@@ -1470,9 +1520,9 @@
       "tr": "Başarı Hikayesi 109"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 109)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 109)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 109)..."
     }
   },
   {
@@ -1484,9 +1534,9 @@
       "tr": "Barış Hikayesi 110"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 110)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 110)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 110)..."
     }
   },
   {
@@ -1498,9 +1548,9 @@
       "tr": "Sevgi Hikayesi 111"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 111)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 111)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 111)..."
     }
   },
   {
@@ -1512,9 +1562,9 @@
       "tr": "Şükür Hikayesi 112"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 112)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 112)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 112)..."
     }
   },
   {
@@ -1526,9 +1576,9 @@
       "tr": "Sabır Hikayesi 113"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 113)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 113)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 113)..."
     }
   },
   {
@@ -1540,9 +1590,9 @@
       "tr": "Korunma Hikayesi 114"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 114)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 114)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 114)..."
     }
   },
   {
@@ -1554,9 +1604,9 @@
       "tr": "Aile Hikayesi 115"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 115)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 115)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 115)..."
     }
   },
   {
@@ -1568,9 +1618,9 @@
       "tr": "Af Hikayesi 116"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 116)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 116)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 116)..."
     }
   },
   {
@@ -1582,9 +1632,9 @@
       "tr": "Başarı Hikayesi 117"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 117)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 117)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 117)..."
     }
   },
   {
@@ -1596,9 +1646,9 @@
       "tr": "Barış Hikayesi 118"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 118)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 118)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 118)..."
     }
   },
   {
@@ -1610,9 +1660,9 @@
       "tr": "Sevgi Hikayesi 119"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 119)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 119)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 119)..."
     }
   },
   {
@@ -1624,9 +1674,9 @@
       "tr": "Şükür Hikayesi 120"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 120)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 120)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 120)..."
     }
   },
   {
@@ -1638,9 +1688,9 @@
       "tr": "Sabır Hikayesi 121"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 121)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 121)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 121)..."
     }
   },
   {
@@ -1652,9 +1702,9 @@
       "tr": "Korunma Hikayesi 122"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 122)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 122)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 122)..."
     }
   },
   {
@@ -1666,9 +1716,9 @@
       "tr": "Aile Hikayesi 123"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 123)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 123)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 123)..."
     }
   },
   {
@@ -1680,9 +1730,9 @@
       "tr": "Af Hikayesi 124"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 124)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 124)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 124)..."
     }
   },
   {
@@ -1694,9 +1744,9 @@
       "tr": "Başarı Hikayesi 125"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 125)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 125)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 125)..."
     }
   },
   {
@@ -1708,9 +1758,9 @@
       "tr": "Barış Hikayesi 126"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 126)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 126)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 126)..."
     }
   },
   {
@@ -1722,9 +1772,9 @@
       "tr": "Sevgi Hikayesi 127"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 127)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 127)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 127)..."
     }
   },
   {
@@ -1736,9 +1786,9 @@
       "tr": "Şükür Hikayesi 128"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 128)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 128)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 128)..."
     }
   },
   {
@@ -1750,9 +1800,9 @@
       "tr": "Sabır Hikayesi 129"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 129)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 129)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 129)..."
     }
   },
   {
@@ -1764,9 +1814,9 @@
       "tr": "Korunma Hikayesi 130"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 130)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 130)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 130)..."
     }
   },
   {
@@ -1778,9 +1828,9 @@
       "tr": "Aile Hikayesi 131"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 131)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 131)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 131)..."
     }
   },
   {
@@ -1792,9 +1842,9 @@
       "tr": "Af Hikayesi 132"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 132)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 132)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 132)..."
     }
   },
   {
@@ -1806,9 +1856,9 @@
       "tr": "Başarı Hikayesi 133"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 133)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 133)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 133)..."
     }
   },
   {
@@ -1820,9 +1870,9 @@
       "tr": "Barış Hikayesi 134"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 134)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 134)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 134)..."
     }
   },
   {
@@ -1834,9 +1884,9 @@
       "tr": "Sevgi Hikayesi 135"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 135)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 135)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 135)..."
     }
   },
   {
@@ -1848,9 +1898,9 @@
       "tr": "Şükür Hikayesi 136"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 136)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 136)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 136)..."
     }
   },
   {
@@ -1862,9 +1912,9 @@
       "tr": "Sabır Hikayesi 137"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 137)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 137)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 137)..."
     }
   },
   {
@@ -1876,9 +1926,9 @@
       "tr": "Korunma Hikayesi 138"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 138)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 138)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 138)..."
     }
   },
   {
@@ -1890,9 +1940,9 @@
       "tr": "Aile Hikayesi 139"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 139)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 139)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 139)..."
     }
   },
   {
@@ -1904,9 +1954,9 @@
       "tr": "Af Hikayesi 140"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 140)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 140)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 140)..."
     }
   },
   {
@@ -1918,9 +1968,9 @@
       "tr": "Başarı Hikayesi 141"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 141)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 141)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 141)..."
     }
   },
   {
@@ -1932,9 +1982,9 @@
       "tr": "Barış Hikayesi 142"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 142)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 142)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 142)..."
     }
   },
   {
@@ -1946,9 +1996,9 @@
       "tr": "Sevgi Hikayesi 143"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Liebe ist (Nr. 143)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Dashuria (Nr. 143)...",
+      "tr": "Bir zamanlar Sevginün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 143)..."
     }
   },
   {
@@ -1960,9 +2010,9 @@
       "tr": "Şükür Hikayesi 144"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Dankbarkeit ist (Nr. 144)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mirënjohja (Nr. 144)...",
+      "tr": "Bir zamanlar Şükürnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 144)..."
     }
   },
   {
@@ -1974,9 +2024,9 @@
       "tr": "Sabır Hikayesi 145"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Geduld ist (Nr. 145)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Durimi (Nr. 145)...",
+      "tr": "Bir zamanlar Sabırnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 145)..."
     }
   },
   {
@@ -1988,9 +2038,9 @@
       "tr": "Korunma Hikayesi 146"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Schutz ist (Nr. 146)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Mbrojtja (Nr. 146)...",
+      "tr": "Bir zamanlar Korunmanün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 146)..."
     }
   },
   {
@@ -2002,9 +2052,9 @@
       "tr": "Aile Hikayesi 147"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Familie ist (Nr. 147)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Familja (Nr. 147)...",
+      "tr": "Bir zamanlar Ailenün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 147)..."
     }
   },
   {
@@ -2016,9 +2066,9 @@
       "tr": "Af Hikayesi 148"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Vergebung ist (Nr. 148)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Falja (Nr. 148)...",
+      "tr": "Bir zamanlar Afnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 148)..."
     }
   },
   {
@@ -2030,9 +2080,9 @@
       "tr": "Başarı Hikayesi 149"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Erfolg ist (Nr. 149)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Suksesi (Nr. 149)...",
+      "tr": "Bir zamanlar Başarınün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 149)..."
     }
   },
   {
@@ -2044,9 +2094,9 @@
       "tr": "Barış Hikayesi 150"
     },
     "content": {
-      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
-      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
-      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Frieden ist (Nr. 150)...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 150)...",
+      "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 150)..."
     }
   }
 ]

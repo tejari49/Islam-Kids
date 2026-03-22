@@ -232,13 +232,24 @@ export default function App() {
                     favorites={favorites}
                   />
                 )}
-                {activeTab === 'stories' && !selectedDua && !selectedStory && !selectedHadith && (
+                {activeTab === 'stories' && !selectedDua && !selectedStory && !selectedHadith && !selectedSure && (
                   <StoriesList 
                     selectedLang={selectedLang} 
                     uiTexts={uiTexts} 
                     setSelectedStory={setSelectedStory} 
                     stories={stories} 
                     isDarkMode={isDarkMode}
+                    toggleFavorite={toggleFavorite}
+                    favorites={favorites}
+                  />
+                )}
+                {activeTab === 'suren' && !selectedDua && !selectedStory && !selectedHadith && !selectedSure && (
+                  <SurenList 
+                    selectedLang={selectedLang} 
+                    setSelectedSure={setSelectedSure} 
+                    suren={suren} 
+                    isDarkMode={isDarkMode}
+                    onSelect={setSelectedSure}
                     toggleFavorite={toggleFavorite}
                     favorites={favorites}
                   />

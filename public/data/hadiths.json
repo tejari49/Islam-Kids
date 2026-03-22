@@ -7,6 +7,16 @@
       "al": "Buzëqeshja është Sadaka",
       "tr": "Gülümsemek Sadakadır"
     },
+    "text": {
+      "de": "Dein Lächeln für deinen Bruder ist eine Almosen (Sadaqa).",
+      "al": "Buzëqeshja jote për vëllain tënd është sadaka.",
+      "tr": "Senin gülümsemen bir sadakadır."
+    },
+    "explanation": {
+      "de": "Güte beginnt mit einem Lächeln.",
+      "al": "Mirësia fillon me një buzëqeshje.",
+      "tr": "İyilik bir tebessümle başlar."
+    },
     "source": "Tirmidhi"
   },
   {
@@ -16,6 +26,16 @@
       "de": "Gutes Sprechen",
       "al": "Të folurit e mirë",
       "tr": "Güzel Konuşmak"
+    },
+    "text": {
+      "de": "Wer an Allah glaubt, soll Gutes sprechen oder schweigen.",
+      "al": "Kush beson në Allahun, le të flasë mirë ose të heshtë.",
+      "tr": "Allah'a inanan ya hayır söylesin ya sussun."
+    },
+    "explanation": {
+      "de": "Worte können Herzen heilen oder verletzen.",
+      "al": "Fjalët mund të shërojnë ose të lëndojnë zemrat.",
+      "tr": "Kelimeler kalbe dokunur."
     },
     "source": "Bukhari"
   },
@@ -27,6 +47,16 @@
       "al": "Pastërtia",
       "tr": "Temizlik"
     },
+    "text": {
+      "de": "Die Reinheit ist die Hälfte des Glaubens.",
+      "al": "Pastërtia është gjysma e besimit.",
+      "tr": "Temizlik imanın yarısıdır."
+    },
+    "explanation": {
+      "de": "Sauberkeit ist wichtig für Körper und Seele.",
+      "al": "Pastërtia është e rëndësishme për trupin dhe shpirtin.",
+      "tr": "Temizlik ruhun gıdasıdır."
+    },
     "source": "Muslim"
   },
   {
@@ -36,6 +66,16 @@
       "de": "Güte zu Tieren",
       "al": "Mëshira ndaj kafshëve",
       "tr": "Hayvanlara Merhamet"
+    },
+    "text": {
+      "de": "In jedem Lebewesen gibt es eine Belohnung für Güte.",
+      "al": "Për çdo krijesë të gjallë ka shpërblim për mirësi.",
+      "tr": "Her canlıya yapılan iyilikte sevap vardır."
+    },
+    "explanation": {
+      "de": "Tiere sind Teil von Allahs Schöpfung.",
+      "al": "Kafshët janë pjesë e krijimit të Allahut.",
+      "tr": "Hayvanlar Allah'ın emanetidir."
     },
     "source": "Bukhari"
   },
@@ -47,6 +87,16 @@
       "al": "Dashuria për të tjerët",
       "tr": "Başkaları için sevmek"
     },
+    "text": {
+      "de": "Keiner von euch glaubt wirklich, bis er für seinen Bruder liebt, was er für sich selbst liebt.",
+      "al": "Askush prej jush nuk beson derisa të dojë për vëllanë e tij atë që do për vete.",
+      "tr": "Kendin için istediğini kardeşin için de iste."
+    },
+    "explanation": {
+      "de": "Wahre Freundschaft bedeutet Mitgefühl.",
+      "al": "Miqësia e vërtetë do të thotë dhembshuri.",
+      "tr": "Gerçek dostluk merhamettir."
+    },
     "source": "Muslim"
   },
   {
@@ -56,6 +106,16 @@
       "de": "Wut kontrollieren",
       "al": "Kontrolli i zemërimit",
       "tr": "Öfkeyi Yenmek"
+    },
+    "text": {
+      "de": "Der Starke ist nicht derjenige, der andere niederwirft, sondern derjenige, der sich in Wut beherrscht.",
+      "al": "I forti nuk është ai që mund të tjerët, por ai që përmban veten në zemërim.",
+      "tr": "Güçlü kimse, öfkelendiğinde kendine hakim olandır."
+    },
+    "explanation": {
+      "de": "Selbstbeherrschung ist eine große Stärke.",
+      "al": "Vetëkontrolli është eine große Stärke.",
+      "tr": "Öfke kontrolü büyük bir güçtür."
     },
     "source": "Bukhari"
   },
@@ -67,6 +127,16 @@
       "al": "Ndershmëria",
       "tr": "Dürüstlük"
     },
+    "text": {
+      "de": "Seid ehrlich, denn Ehrlichkeit führt zur Rechtschaffenheit.",
+      "al": "Olani të sinqertë, sepse sinqeriteti çon në drejtësi.",
+      "tr": "Doğruluktan ayrılmayın."
+    },
+    "explanation": {
+      "de": "Ehrlichkeit baut Vertrauen auf.",
+      "al": "Ndershmëria e ndërton besimin.",
+      "tr": "Dürüstlük güven inşa eder."
+    },
     "source": "Muslim"
   },
   {
@@ -76,6 +146,16 @@
       "de": "Geschenke machen",
       "al": "Dhuratat",
       "tr": "Hediyeleşmek"
+    },
+    "text": {
+      "de": "Gebt einander Geschenke, so werdet ihr euch lieben.",
+      "al": "Jepni njëri-tjetrit dhurata, kështu do të doni njëri-tjetrin.",
+      "tr": "Hediyeleşin ki birbirinizi sevesiniz."
+    },
+    "explanation": {
+      "de": "Kleine Aufmerksamkeiten stärken die Gemeinschaft.",
+      "al": "Vëmendjet e vogla e forcojnë komunitetin.",
+      "tr": "Küçük hediyeler bağları güçlendirir."
     },
     "source": "Bukhari"
   },
@@ -87,6 +167,16 @@
       "al": "Vizita në Xhami",
       "tr": "Camiye Gitmek"
     },
+    "text": {
+      "de": "Die liebsten Orte bei Allah sind die Moscheen.",
+      "al": "Vendet më të dashura te Allahu janë xhamitë.",
+      "tr": "Allah'ın en sevdiği yerler camilerdir."
+    },
+    "explanation": {
+      "de": "Die Moschee ist ein Ort des Friedens.",
+      "al": "Xhamia është një vend i paqes.",
+      "tr": "Cami huzur yeridir."
+    },
     "source": "Muslim"
   },
   {
@@ -96,6 +186,16 @@
       "de": "Eltern ehren",
       "al": "Respekti për prindërit",
       "tr": "Anne Babaya Saygı"
+    },
+    "text": {
+      "de": "Das Paradies liegt zu Füßen der Mütter.",
+      "al": "Xheneti është nën këmbët e nënave.",
+      "tr": "Cennet annelerin ayakları altındadır."
+    },
+    "explanation": {
+      "de": "Behandle deine Eltern stets mit Liebe und Respekt.",
+      "al": "Trajtojini prindërit tuaj gjithmonë me dashuri dhe respekt.",
+      "tr": "Anne babanıza saygılı davranın."
     },
     "source": "Bukhari"
   },
@@ -108,9 +208,9 @@
       "tr": "Aile Hikmeti 11"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 11).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 11).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 11)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -128,9 +228,9 @@
       "tr": "Af Hikmeti 12"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 12).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 12).",
+      "tr": "Daima temiz bir kalple hareket et (Af 12)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -148,9 +248,9 @@
       "tr": "Başarı Hikmeti 13"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 13).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 13).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 13)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -168,9 +268,9 @@
       "tr": "Barış Hikmeti 14"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 14).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 14).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 14)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -188,9 +288,9 @@
       "tr": "Sevgi Hikmeti 15"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 15).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 15).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 15)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -208,9 +308,9 @@
       "tr": "Şükür Hikmeti 16"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 16).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 16).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 16)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -228,9 +328,9 @@
       "tr": "Sabır Hikmeti 17"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 17).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 17).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 17)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -248,9 +348,9 @@
       "tr": "Korunma Hikmeti 18"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 18).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 18).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 18)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -268,9 +368,9 @@
       "tr": "Aile Hikmeti 19"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 19).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 19).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 19)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -288,9 +388,9 @@
       "tr": "Af Hikmeti 20"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 20).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 20).",
+      "tr": "Daima temiz bir kalple hareket et (Af 20)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -308,9 +408,9 @@
       "tr": "Başarı Hikmeti 21"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 21).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 21).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 21)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -328,9 +428,9 @@
       "tr": "Barış Hikmeti 22"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 22).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 22).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 22)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -348,9 +448,9 @@
       "tr": "Sevgi Hikmeti 23"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 23).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 23).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 23)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -368,9 +468,9 @@
       "tr": "Şükür Hikmeti 24"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 24).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 24).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 24)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -388,9 +488,9 @@
       "tr": "Sabır Hikmeti 25"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 25).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 25).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 25)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -408,9 +508,9 @@
       "tr": "Korunma Hikmeti 26"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 26).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 26).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 26)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -428,9 +528,9 @@
       "tr": "Aile Hikmeti 27"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 27).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 27).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 27)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -448,9 +548,9 @@
       "tr": "Af Hikmeti 28"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 28).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 28).",
+      "tr": "Daima temiz bir kalple hareket et (Af 28)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -468,9 +568,9 @@
       "tr": "Başarı Hikmeti 29"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 29).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 29).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 29)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -488,9 +588,9 @@
       "tr": "Barış Hikmeti 30"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 30).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 30).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 30)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -508,9 +608,9 @@
       "tr": "Sevgi Hikmeti 31"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 31).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 31).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 31)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -528,9 +628,9 @@
       "tr": "Şükür Hikmeti 32"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 32).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 32).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 32)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -548,9 +648,9 @@
       "tr": "Sabır Hikmeti 33"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 33).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 33).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 33)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -568,9 +668,9 @@
       "tr": "Korunma Hikmeti 34"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 34).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 34).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 34)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -588,9 +688,9 @@
       "tr": "Aile Hikmeti 35"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 35).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 35).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 35)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -608,9 +708,9 @@
       "tr": "Af Hikmeti 36"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 36).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 36).",
+      "tr": "Daima temiz bir kalple hareket et (Af 36)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -628,9 +728,9 @@
       "tr": "Başarı Hikmeti 37"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 37).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 37).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 37)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -648,9 +748,9 @@
       "tr": "Barış Hikmeti 38"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 38).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 38).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 38)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -668,9 +768,9 @@
       "tr": "Sevgi Hikmeti 39"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 39).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 39).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 39)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -688,9 +788,9 @@
       "tr": "Şükür Hikmeti 40"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 40).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 40).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 40)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -708,9 +808,9 @@
       "tr": "Sabır Hikmeti 41"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 41).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 41).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 41)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -728,9 +828,9 @@
       "tr": "Korunma Hikmeti 42"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 42).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 42).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 42)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -748,9 +848,9 @@
       "tr": "Aile Hikmeti 43"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 43).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 43).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 43)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -768,9 +868,9 @@
       "tr": "Af Hikmeti 44"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 44).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 44).",
+      "tr": "Daima temiz bir kalple hareket et (Af 44)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -788,9 +888,9 @@
       "tr": "Başarı Hikmeti 45"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 45).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 45).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 45)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -808,9 +908,9 @@
       "tr": "Barış Hikmeti 46"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 46).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 46).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 46)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -828,9 +928,9 @@
       "tr": "Sevgi Hikmeti 47"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 47).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 47).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 47)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -848,9 +948,9 @@
       "tr": "Şükür Hikmeti 48"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 48).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 48).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 48)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -868,9 +968,9 @@
       "tr": "Sabır Hikmeti 49"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 49).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 49).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 49)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -888,9 +988,9 @@
       "tr": "Korunma Hikmeti 50"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 50).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 50).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 50)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -908,9 +1008,9 @@
       "tr": "Aile Hikmeti 51"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 51).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 51).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 51)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -928,9 +1028,9 @@
       "tr": "Af Hikmeti 52"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 52).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 52).",
+      "tr": "Daima temiz bir kalple hareket et (Af 52)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -948,9 +1048,9 @@
       "tr": "Başarı Hikmeti 53"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 53).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 53).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 53)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -968,9 +1068,9 @@
       "tr": "Barış Hikmeti 54"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 54).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 54).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 54)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -988,9 +1088,9 @@
       "tr": "Sevgi Hikmeti 55"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 55).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 55).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 55)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1008,9 +1108,9 @@
       "tr": "Şükür Hikmeti 56"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 56).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 56).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 56)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1028,9 +1128,9 @@
       "tr": "Sabır Hikmeti 57"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 57).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 57).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 57)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1048,9 +1148,9 @@
       "tr": "Korunma Hikmeti 58"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 58).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 58).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 58)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1068,9 +1168,9 @@
       "tr": "Aile Hikmeti 59"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 59).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 59).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 59)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1088,9 +1188,9 @@
       "tr": "Af Hikmeti 60"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 60).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 60).",
+      "tr": "Daima temiz bir kalple hareket et (Af 60)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1108,9 +1208,9 @@
       "tr": "Başarı Hikmeti 61"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 61).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 61).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 61)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1128,9 +1228,9 @@
       "tr": "Barış Hikmeti 62"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 62).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 62).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 62)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1148,9 +1248,9 @@
       "tr": "Sevgi Hikmeti 63"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 63).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 63).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 63)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1168,9 +1268,9 @@
       "tr": "Şükür Hikmeti 64"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 64).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 64).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 64)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1188,9 +1288,9 @@
       "tr": "Sabır Hikmeti 65"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 65).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 65).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 65)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1208,9 +1308,9 @@
       "tr": "Korunma Hikmeti 66"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 66).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 66).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 66)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1228,9 +1328,9 @@
       "tr": "Aile Hikmeti 67"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 67).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 67).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 67)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1248,9 +1348,9 @@
       "tr": "Af Hikmeti 68"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 68).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 68).",
+      "tr": "Daima temiz bir kalple hareket et (Af 68)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1268,9 +1368,9 @@
       "tr": "Başarı Hikmeti 69"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 69).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 69).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 69)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1288,9 +1388,9 @@
       "tr": "Barış Hikmeti 70"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 70).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 70).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 70)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1308,9 +1408,9 @@
       "tr": "Sevgi Hikmeti 71"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 71).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 71).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 71)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1328,9 +1428,9 @@
       "tr": "Şükür Hikmeti 72"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 72).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 72).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 72)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1348,9 +1448,9 @@
       "tr": "Sabır Hikmeti 73"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 73).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 73).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 73)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1368,9 +1468,9 @@
       "tr": "Korunma Hikmeti 74"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 74).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 74).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 74)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1388,9 +1488,9 @@
       "tr": "Aile Hikmeti 75"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 75).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 75).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 75)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1408,9 +1508,9 @@
       "tr": "Af Hikmeti 76"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 76).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 76).",
+      "tr": "Daima temiz bir kalple hareket et (Af 76)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1428,9 +1528,9 @@
       "tr": "Başarı Hikmeti 77"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 77).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 77).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 77)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1448,9 +1548,9 @@
       "tr": "Barış Hikmeti 78"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 78).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 78).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 78)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1468,9 +1568,9 @@
       "tr": "Sevgi Hikmeti 79"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 79).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 79).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 79)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1488,9 +1588,9 @@
       "tr": "Şükür Hikmeti 80"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 80).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 80).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 80)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1508,9 +1608,9 @@
       "tr": "Sabır Hikmeti 81"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 81).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 81).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 81)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1528,9 +1628,9 @@
       "tr": "Korunma Hikmeti 82"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 82).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 82).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 82)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1548,9 +1648,9 @@
       "tr": "Aile Hikmeti 83"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 83).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 83).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 83)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1568,9 +1668,9 @@
       "tr": "Af Hikmeti 84"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 84).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 84).",
+      "tr": "Daima temiz bir kalple hareket et (Af 84)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1588,9 +1688,9 @@
       "tr": "Başarı Hikmeti 85"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 85).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 85).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 85)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1608,9 +1708,9 @@
       "tr": "Barış Hikmeti 86"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 86).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 86).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 86)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1628,9 +1728,9 @@
       "tr": "Sevgi Hikmeti 87"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 87).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 87).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 87)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1648,9 +1748,9 @@
       "tr": "Şükür Hikmeti 88"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 88).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 88).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 88)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1668,9 +1768,9 @@
       "tr": "Sabır Hikmeti 89"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 89).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 89).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 89)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1688,9 +1788,9 @@
       "tr": "Korunma Hikmeti 90"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 90).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 90).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 90)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1708,9 +1808,9 @@
       "tr": "Aile Hikmeti 91"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 91).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 91).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 91)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1728,9 +1828,9 @@
       "tr": "Af Hikmeti 92"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 92).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 92).",
+      "tr": "Daima temiz bir kalple hareket et (Af 92)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1748,9 +1848,9 @@
       "tr": "Başarı Hikmeti 93"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 93).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 93).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 93)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1768,9 +1868,9 @@
       "tr": "Barış Hikmeti 94"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 94).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 94).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 94)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1788,9 +1888,9 @@
       "tr": "Sevgi Hikmeti 95"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 95).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 95).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 95)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1808,9 +1908,9 @@
       "tr": "Şükür Hikmeti 96"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 96).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 96).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 96)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1828,9 +1928,9 @@
       "tr": "Sabır Hikmeti 97"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 97).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 97).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 97)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1848,9 +1948,9 @@
       "tr": "Korunma Hikmeti 98"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 98).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 98).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 98)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1868,9 +1968,9 @@
       "tr": "Aile Hikmeti 99"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 99).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 99).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 99)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1888,9 +1988,9 @@
       "tr": "Af Hikmeti 100"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 100).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 100).",
+      "tr": "Daima temiz bir kalple hareket et (Af 100)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1908,9 +2008,9 @@
       "tr": "Başarı Hikmeti 101"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 101).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 101).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 101)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1928,9 +2028,9 @@
       "tr": "Barış Hikmeti 102"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 102).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 102).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 102)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1948,9 +2048,9 @@
       "tr": "Sevgi Hikmeti 103"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 103).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 103).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 103)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1968,9 +2068,9 @@
       "tr": "Şükür Hikmeti 104"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 104).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 104).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 104)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -1988,9 +2088,9 @@
       "tr": "Sabır Hikmeti 105"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 105).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 105).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 105)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2008,9 +2108,9 @@
       "tr": "Korunma Hikmeti 106"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 106).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 106).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 106)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2028,9 +2128,9 @@
       "tr": "Aile Hikmeti 107"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 107).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 107).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 107)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2048,9 +2148,9 @@
       "tr": "Af Hikmeti 108"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 108).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 108).",
+      "tr": "Daima temiz bir kalple hareket et (Af 108)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2068,9 +2168,9 @@
       "tr": "Başarı Hikmeti 109"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 109).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 109).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 109)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2088,9 +2188,9 @@
       "tr": "Barış Hikmeti 110"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 110).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 110).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 110)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2108,9 +2208,9 @@
       "tr": "Sevgi Hikmeti 111"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 111).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 111).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 111)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2128,9 +2228,9 @@
       "tr": "Şükür Hikmeti 112"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 112).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 112).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 112)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2148,9 +2248,9 @@
       "tr": "Sabır Hikmeti 113"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 113).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 113).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 113)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2168,9 +2268,9 @@
       "tr": "Korunma Hikmeti 114"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 114).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 114).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 114)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2188,9 +2288,9 @@
       "tr": "Aile Hikmeti 115"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 115).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 115).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 115)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2208,9 +2308,9 @@
       "tr": "Af Hikmeti 116"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 116).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 116).",
+      "tr": "Daima temiz bir kalple hareket et (Af 116)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2228,9 +2328,9 @@
       "tr": "Başarı Hikmeti 117"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 117).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 117).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 117)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2248,9 +2348,9 @@
       "tr": "Barış Hikmeti 118"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 118).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 118).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 118)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2268,9 +2368,9 @@
       "tr": "Sevgi Hikmeti 119"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 119).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 119).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 119)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2288,9 +2388,9 @@
       "tr": "Şükür Hikmeti 120"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 120).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 120).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 120)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2308,9 +2408,9 @@
       "tr": "Sabır Hikmeti 121"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 121).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 121).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 121)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2328,9 +2428,9 @@
       "tr": "Korunma Hikmeti 122"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 122).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 122).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 122)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2348,9 +2448,9 @@
       "tr": "Aile Hikmeti 123"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 123).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 123).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 123)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2368,9 +2468,9 @@
       "tr": "Af Hikmeti 124"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 124).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 124).",
+      "tr": "Daima temiz bir kalple hareket et (Af 124)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2388,9 +2488,9 @@
       "tr": "Başarı Hikmeti 125"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 125).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 125).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 125)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2408,9 +2508,9 @@
       "tr": "Barış Hikmeti 126"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 126).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 126).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 126)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2428,9 +2528,9 @@
       "tr": "Sevgi Hikmeti 127"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 127).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 127).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 127)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2448,9 +2548,9 @@
       "tr": "Şükür Hikmeti 128"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 128).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 128).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 128)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2468,9 +2568,9 @@
       "tr": "Sabır Hikmeti 129"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 129).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 129).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 129)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2488,9 +2588,9 @@
       "tr": "Korunma Hikmeti 130"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 130).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 130).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 130)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2508,9 +2608,9 @@
       "tr": "Aile Hikmeti 131"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 131).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 131).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 131)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2528,9 +2628,9 @@
       "tr": "Af Hikmeti 132"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 132).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 132).",
+      "tr": "Daima temiz bir kalple hareket et (Af 132)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2548,9 +2648,9 @@
       "tr": "Başarı Hikmeti 133"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 133).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 133).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 133)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2568,9 +2668,9 @@
       "tr": "Barış Hikmeti 134"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 134).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 134).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 134)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2588,9 +2688,9 @@
       "tr": "Sevgi Hikmeti 135"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 135).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 135).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 135)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2608,9 +2708,9 @@
       "tr": "Şükür Hikmeti 136"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 136).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 136).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 136)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2628,9 +2728,9 @@
       "tr": "Sabır Hikmeti 137"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 137).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 137).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 137)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2648,9 +2748,9 @@
       "tr": "Korunma Hikmeti 138"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 138).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 138).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 138)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2668,9 +2768,9 @@
       "tr": "Aile Hikmeti 139"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 139).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 139).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 139)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2688,9 +2788,9 @@
       "tr": "Af Hikmeti 140"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 140).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 140).",
+      "tr": "Daima temiz bir kalple hareket et (Af 140)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2708,9 +2808,9 @@
       "tr": "Başarı Hikmeti 141"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 141).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 141).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 141)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2728,9 +2828,9 @@
       "tr": "Barış Hikmeti 142"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 142).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 142).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 142)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2748,9 +2848,9 @@
       "tr": "Sevgi Hikmeti 143"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Liebe 143).",
+      "al": "Vepro gjithmonë me zemër të pastër (Dashuria 143).",
+      "tr": "Daima temiz bir kalple hareket et (Sevgi 143)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2768,9 +2868,9 @@
       "tr": "Şükür Hikmeti 144"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Dankbarkeit 144).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mirënjohja 144).",
+      "tr": "Daima temiz bir kalple hareket et (Şükür 144)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2788,9 +2888,9 @@
       "tr": "Sabır Hikmeti 145"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Geduld 145).",
+      "al": "Vepro gjithmonë me zemër të pastër (Durimi 145).",
+      "tr": "Daima temiz bir kalple hareket et (Sabır 145)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2808,9 +2908,9 @@
       "tr": "Korunma Hikmeti 146"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Schutz 146).",
+      "al": "Vepro gjithmonë me zemër të pastër (Mbrojtja 146).",
+      "tr": "Daima temiz bir kalple hareket et (Korunma 146)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2828,9 +2928,9 @@
       "tr": "Aile Hikmeti 147"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Familie 147).",
+      "al": "Vepro gjithmonë me zemër të pastër (Familja 147).",
+      "tr": "Daima temiz bir kalple hareket et (Aile 147)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2848,9 +2948,9 @@
       "tr": "Af Hikmeti 148"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Vergebung 148).",
+      "al": "Vepro gjithmonë me zemër të pastër (Falja 148).",
+      "tr": "Daima temiz bir kalple hareket et (Af 148)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2868,9 +2968,9 @@
       "tr": "Başarı Hikmeti 149"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Erfolg 149).",
+      "al": "Vepro gjithmonë me zemër të pastër (Suksesi 149).",
+      "tr": "Daima temiz bir kalple hareket et (Başarı 149)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
@@ -2888,9 +2988,9 @@
       "tr": "Barış Hikmeti 150"
     },
     "text": {
-      "de": "Handle stets mit einem reinen Herzen.",
-      "al": "Vepro gjithmonë me zemër të pastër.",
-      "tr": "Daima temiz bir kalple hareket et."
+      "de": "Handle stets mit einem reinen Herzen (Frieden 150).",
+      "al": "Vepro gjithmonë me zemër të pastër (Paqja 150).",
+      "tr": "Daima temiz bir kalple hareket et (Barış 150)."
     },
     "explanation": {
       "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
