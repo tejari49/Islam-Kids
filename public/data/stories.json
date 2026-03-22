@@ -3,2100 +3,2050 @@
     "id": 1,
     "icon": "🌙",
     "title": {
-      "de": "Wer war Prophet Muhammad?",
-      "al": "Kush ishte Profeti Muhamed?",
-      "tr": "Peygamberimiz Hz. Muhammed Kimdi?"
-    },
-    "content": {
-      "de": "Unser Prophet hieß Muhammad (Friede sei mit ihm). Er war ein sehr ehrlicher, gerechter und freundlicher Mensch. Die Menschen in seiner Stadt nannten ihn 'Al-Amin', was 'der Vertrauenswürdige' bedeutet. Er liebte Kinder sehr und war immer nett zu Tieren. Allah wählte ihn aus, um den Menschen den Islam (den Weg des Friedens) zu bringen und ihnen zu zeigen, wie man ein gutes Herz hat.",
-      "al": "Profeti ynë quhej Muhamed (paqja dhe mëshira e Allahut qofshin mbi të). Ai ishte një njeri shumë i ndershëm dhe i sjellshëm. Njerëzit e quanin 'El-Emin' (i besueshmi). Ai i donte shumë fëmijët dhe ishte gjithmonë i mirë me kafshët. Allahu e zgjodhi atë për t'u sjellë njerëzve Islamin dhe për t'u treguar atyre se si të kenë një zemër të mirë.",
-      "tr": "Peygamberimizin adı Muhammed'dir (s.a.v.). O çok dürüst, adaletli ve kibar bir insandı. İnsanlar ona 'El-Emin' (Güvenilir) derlerdi. Çocukları çok severdi ve hayvanlara karşı her zaman merhametliydi. Allah onu insanlara İslam'ı getirmesi ve onlara nasıl iyi bir kalbe sahip olacaklarını göstermesi için seçti."
+      "de": "Prophet Muhammad",
+      "al": "Profeti Muhamed",
+      "tr": "Hz. Muhammed"
     }
   },
   {
     "id": 2,
     "icon": "⛵",
     "title": {
-      "de": "Prophet Nuh und die Arche",
-      "al": "Profeti Nuh dhe Arka",
-      "tr": "Nuh Peygamber ve Gemi"
-    },
-    "content": {
-      "de": "Prophet Nuh baute ein riesiges Schiff (die Arche), weil Allah es ihm befahl. Die Menschen lachten ihn aus, aber er blieb geduldig. Als die große Flut kam, waren nur Nuh, die Tiere (von jeder Art zwei) und die guten Menschen auf dem Schiff sicher. Das lehrt uns: Wer auf Allah vertraut und geduldig ist, wird immer beschützt!",
-      "al": "Profeti Nuh ndërtoi një anije gjigante (Arkën) sepse Allahu e urdhëroi. Njerëzit qeshnin me të, por ai mbeti i durueshëm. Kur erdhi përmbytja e madhe, vetëm Nuhu, kafshët (nga dy të secilit lloj) dhe njerëzit e mirë në anije ishin të sigurt. Kjo na mëson: Kush ka besim tek Allahu dhe është i durueshëm, është gjithmonë i mbrojtur!",
-      "tr": "Nuh Peygamber, Allah'ın emriyle devasa bir gemi inşa etti. İnsanlar onunla alay etti ama o sabırlı kaldı. Büyük tufan geldiğinde, sadece Nuh, hayvanlar (her türden iki tane) ve gemideki iyi insanlar güvendeydi. Bu bize şunu öğretir: Allah'a güvenen ve sabırlı olan her zaman korunur!"
+      "de": "Prophet Nuh",
+      "al": "Profeti Nuh",
+      "tr": "Hz. Nuh"
     }
   },
   {
     "id": 3,
-    "icon": "🕊️",
+    "icon": "🌊",
     "title": {
-      "de": "Die Engel (Malaika)",
-      "al": "Engjëjt (Melaiket)",
-      "tr": "Melekler"
-    },
-    "content": {
-      "de": "Engel sind unsichtbare Diener Allahs, erschaffen aus purem Licht. Sie essen nicht, trinken nicht und machen niemals Fehler. Jeder Mensch hat Schutzengel, die auf ihn aufpassen, und Engel, die unsere guten Taten aufschreiben. Der bekannteste Engel ist Jibril (Gabriel), der den Propheten den Koran brachte.",
-      "al": "Engjëjt janë shërbëtorë të padukshëm të Allahut, të krijuar nga drita e pastër. Ata nuk hanë, nuk pinë dhe nuk bëjnë kurrë gabime. Çdo njeri ka engjëj mbrojtës që kujdesen për të, dhe engjëj që shkruajnë veprat tona të mira. Engjëlli më i njohur është Xhibrili, i cili u solli Kuranin profetëve.",
-      "tr": "Melekler, Allah'ın saf nurdan yarattığı görünmez kullarıdır. Yemezler, içmezler ve asla hata yapmazlar. Her insanın onu koruyan melekleri ve iyiliklerini yazan melekleri vardır. En bilinen melek, peygamberlere Kuran'ı getiren Cebrail'dir (A.S.)."
+      "de": "Prophet Musa",
+      "al": "Profeti Musa",
+      "tr": "Hz. Musa"
     }
   },
   {
     "id": 4,
-    "icon": "🚫🐷",
+    "icon": "🔥",
     "title": {
-      "de": "Warum essen wir kein Schweinefleisch?",
-      "al": "Pse nuk hamë mish derri?",
-      "tr": "Neden domuz eti yemiyoruz?"
-    },
-    "content": {
-      "de": "Allah hat uns im Koran gesagt, dass wir kein Schweinefleisch essen sollen. Schweine sind Tiere, die in der Natur alles fressen, auch Dinge, die nicht sauber sind. Allah hat uns Menschen sehr lieb und möchte unseren Körper beschützen. Deshalb sollen wir nur saubere und gesunde Dinge (Halal) essen. Wir gehorchen Allah, weil Er unser Schöpfer ist und am allerbesten weiß, was gut für uns ist!",
-      "al": "Allahu na ka thënë në Kuran të mos hamë mish derri. Derrat janë kafshë që hanë gjithçka, madje edhe papastërti. Allahu na do shumë dhe dëshiron të mbrojë trupin tonë. Prandaj ne duhet të hamë vetëm gjëra të pastra dhe të shëndetshme (Hallall). Ne i bindemi Allahut sepse Ai është Krijuesi ynë dhe e di më së miri se çfarë është e mirë për ne!",
-      "tr": "Allah Kuran'da bize domuz eti yemememizi söylemiştir. Domuzlar doğada kirli şeyler dahil her şeyi yiyen hayvanlardır. Allah bizi çok sever ve vücudumuzu korumak ister. Bu yüzden sadece temiz ve sağlıklı (Helal) şeyler yemeliyiz. Biz Allah'a itaat ederiz çünkü O bizim Yaratıcımızdır ve bizim için neyin iyi olduğunu en iyi O bilir!"
+      "de": "Prophet Ibrahim",
+      "al": "Profeti Ibrahim",
+      "tr": "Hz. Ibrahim"
     }
   },
   {
     "id": 5,
-    "icon": "🕌",
+    "icon": "🐳",
     "title": {
-      "de": "Warum beten wir (Salah)?",
-      "al": "Pse falemi (Namazi)?",
-      "tr": "Neden namaz kılıyoruz?"
-    },
-    "content": {
-      "de": "Beten ist wie eine ganz besondere Verabredung mit Allah. Wir Muslime beten fünfmal am Tag. Dabei waschen wir uns vorher sauber (Wudu). Im Gebet sagen wir Allah 'Danke' für alles Schöne: unsere Familie, unser Essen, dass wir sehen und spielen können. Wenn wir beten, wird unser Herz ganz ruhig und wir fühlen uns Allah sehr nah.",
-      "al": "Falja është si një takim shumë i veçantë me Allahun. Ne muslimanët falemi pesë herë në ditë. Para se të falemi, ne pastrohemi (Marrim abdes). Gjatë namazit ne i themi Allahut 'Faleminderit' për çdo gjë të bukur: familjen tonë, ushqimin, shikimin dhe mundësinë për të luajtur. Kur falemi, zemra jonë qetësohet dhe ndihemi shumë afër Allahut.",
-      "tr": "Namaz kılmak Allah ile olan çok özel bir buluşma gibidir. Biz Müslümanlar günde beş vakit namaz kılarız. Namazdan önce temizleniriz (Abdest alırız). Namazda Allah'a bize verdiği her güzel şey için (ailemiz, yemeğimiz, görebilmemiz ve oynayabilmemiz) 'Teşekkür ederim' deriz. Namaz kıldığımızda kalbimiz huzur bulur ve kendimizi Allah'a çok yakın hissederiz."
+      "de": "Prophet Yunus",
+      "al": "Profeti Junus",
+      "tr": "Hz. Yunus"
     }
   },
   {
     "id": 6,
-    "icon": "📅",
+    "icon": "✨",
     "title": {
-      "de": "Warum fasten wir im Ramadan?",
-      "al": "Pse agjërojmë në Ramazan?",
-      "tr": "Ramazan'da neden oruç tutuyoruz?"
-    },
-    "content": {
-      "de": "Im Monat Ramadan essen und trinken wir tagsüber nicht, bis die Sonne untergeht. Das nennt man Fasten. Allah hat uns das Fasten aufgetragen, damit wir lernen, geduldig zu sein. Wenn wir Hunger haben, erinnern wir uns an die armen Menschen, die nicht genug zu essen haben, und wir werden dankbarer für all das leckere Essen, das Allah uns gibt. Am Abend brechen wir das Fasten freudig mit unserer Familie beim Iftar!",
-      "al": "Në muajin e Ramazanit ne nuk hamë dhe nuk pimë gjatë ditës, derisa të perëndojë dielli. Kjo quhet agjërim. Allahu na ka urdhëruar të agjërojmë që të mësojmë të jemi të durueshëm. Kur jemi të uritur, kujtojmë njerëzit e varfër që nuk kanë mjaftueshëm për të ngrënë, dhe bëhemi më falënderues për ushqimin e shijshëm që na jep Allahu. Në mbrëmje, ne e prishim agjërimin me gëzim me familjen tonë në Iftar!",
-      "tr": "Ramazan ayında güneş batana kadar gün boyunca yemek yemez ve su içmeyiz. Buna oruç tutmak denir. Allah bize sabırlı olmayı öğrenmemiz için oruç tutmayı emretmiştir. Acıktığımızda, yeterince yiyeceği olmayan fakir insanları hatırlarız ve Allah'ın bize verdiği tüm lezzetli yiyecekler için daha çok şükrederiz. Akşamları orucumuzu ailemizle birlikte İftar'da sevinçle açarız!"
+      "de": "Die Engel",
+      "al": "Engjëjt",
+      "tr": "Melekler"
     }
   },
   {
     "id": 7,
-    "icon": "✅❌",
+    "icon": "🕋",
     "title": {
-      "de": "Was ist Halal und Haram?",
-      "al": "Çfarë është Hallall dhe Haram?",
-      "tr": "Helal ve Haram nedir?"
-    },
-    "content": {
-      "de": "Als Muslime achten wir auf 'Halal' (erlaubt) und 'Haram' (verboten). Halal ist alles, was gut und gesund für uns ist, wie frisches Obst, ehrliches Teilen und nett zu anderen zu sein. Haram ist das, was uns oder anderen schadet, wie Lügen, Stehlen oder Dinge essen, die schlecht für unseren Körper sind. Allah hat uns diese Regeln aus großer Liebe gegeben, weil Er uns beschützen möchte. Wenn wir uns daran halten, werden wir glücklich und belohnt!",
-      "al": "Si muslimanë ne i kushtojmë rëndësi 'Hallallit' (e lejuar) dhe 'Haramit' (e ndaluar). Hallall është gjithçka që është e mirë dhe e shëndetshme për ne, si pemët e freskëta, të qenurit i sinqertë dhe i sjellshëm me të tjerët. Haram është ajo që na dëmton ne ose të tjerët, si gënjeshtra, vjedhja ose ngrënia e gjërave të dëmshme për trupin tonë. Allahu na i dha këto rregulla me shumë dashuri për të na mbrojtur. Nëse i ndjekim, do të jemi të lumtur dhe të shpërblyer!",
-      "tr": "Müslümanlar olarak 'Helal' (izin verilen) ve 'Haram' (yasaklanan) kavramlarına dikkat ederiz. Helal, taze meyveler yemek, dürüstçe paylaşmak ve başkalarına karşı nazik olmak gibi bizim için iyi ve sağlıklı olan her şeydir. Haram ise, yalan söylemek, çalmak veya vücudumuza zarar veren şeyler yemek gibi bize veya başkalarına zarar veren şeylerdir. Allah bizi korumak için büyük sevgisiyle bize bu kuralları vermiştir. Onlara uyarsak mutlu olur ve mükafatlandırılırız!"
+      "de": "Die Kabah",
+      "al": "Qabja",
+      "tr": "Kabe"
     }
   },
   {
     "id": 8,
-    "icon": "🔥",
+    "icon": "🎨",
     "title": {
-      "de": "Prophet Ibrahim und das Feuer",
-      "al": "Profeti Ibrahim dhe Zjarri",
-      "tr": "İbrahim Peygamber ve Ateş"
-    },
-    "content": {
-      "de": "Prophet Ibrahim glaubte nur an den einen Allah, während alle anderen Steinstatuen anbeteten. Der böse König wurde sehr wütend und warf Ibrahim in ein riesiges Feuer. Aber Ibrahim hatte keine Angst, denn er vertraute auf Allah. Da befahl Allah dem Feuer: 'Sei kühl und friedlich für Ibrahim!' Das Feuer verbrannte ihn überhaupt nicht und er kam unversehrt heraus. Das zeigt uns: Allah beschützt diejenigen, die an Ihn glauben!",
-      "al": "Profeti Ibrahim besonte vetëm në një Allah, ndërsa të gjithë të tjerët adhuronin statuja guri. Mbreti i keq u zemërua shumë dhe e hodhi Ibrahimin në një zjarr gjigant. Por Ibrahimi nuk kishte frikë sepse ai besonte në Allahun. Atëherë Allahu e urdhëroi zjarrin: 'Bëhu i ftohtë dhe i padëmshëm për Ibrahimin!' Zjarri nuk e dogji fare dhe ai doli i padëmtuar. Kjo na tregon: Allahu i mbron ata që besojnë tek Ai!",
-      "tr": "İbrahim Peygamber, diğer herkes taştan heykellere taparken sadece tek olan Allah'a inanırdı. Kötü kral buna çok kızdı ve İbrahim'i devasa bir ateşe attı. Ancak İbrahim korkmadı çünkü Allah'a güveniyordu. Sonra Allah ateşe şöyle emretti: 'İbrahim için serin ve selamet ol!' Ateş onu hiç yakmadı ve yara almadan dışarı çıktı. Bu bize şunu gösterir: Allah, Kendisine inananları korur!"
+      "de": "Allahs Schöpfung",
+      "al": "Krijimi i Allahut",
+      "tr": "Allah'ın Yaratışı"
     }
   },
   {
     "id": 9,
-    "icon": "🌊",
+    "icon": "🐜",
     "title": {
-      "de": "Prophet Musa und das Rote Meer",
-      "al": "Profeti Musa dhe Deti i Kuq",
-      "tr": "Musa Peygamber ve Kızıldeniz"
-    },
-    "content": {
-      "de": "Prophet Musa floh mit seinem Volk vor dem grausamen Pharao und seiner Armee. Plötzlich standen sie am Ufer eines tiefen Meeres und konnten nicht weiter. Die Armee war direkt hinter ihnen! Aber Musa verzweifelte nicht. Allah befahl ihm, mit seinem Stock auf das Wasser zu schlagen. Da teilte sich das Meer auf wundersame Weise und bildete einen trockenen Weg! Musa und sein Volk konnten sicher auf die andere Seite gehen. Echte Rettung kommt immer von Allah.",
-      "al": "Profeti Musa iku me popullin e tij nga Faraoni mizor dhe ushtria e tij. Papritmas u gjendën në bregun e një deti të thellë dhe nuk mund të shkonin më tej. Ushtria ishte pikërisht pas tyre! Por Musa nuk i humbi shpresat. Allahu e urdhëroi ta godiste ujin me shkopin e tij. Atëherë deti u nda në mënyrë të mrekullueshme dhe formoi një rrugë të thatë! Musa dhe njerëzit e tij kaluan të sigurt në anën tjetër. Shpëtimi i vërtetë vjen gjithmonë nga Allahu.",
-      "tr": "Musa Peygamber, zalim Firavun ve ordusundan kavmiyle birlikte kaçıyordu. Aniden derin bir denizin kıyısına geldiler ve daha fazla ilerleyemediler. Ordu hemen arkalarındaydı! Ama Musa umutsuzluğa kapılmadı. Allah ona asasını suya vurmasını emretti. Sonra deniz mucizevi bir şekilde ikiye yarıldı ve kuru bir yol oluşturdu! Musa ve kavmi güvenle karşıya geçebildiler. Gerçek kurtuluş her zaman Allah'tan gelir."
+      "de": "Prophet Sulaiman",
+      "al": "Profeti Sulejman",
+      "tr": "Hz. Süleyman"
     }
   },
   {
     "id": 10,
-    "icon": "🕷️",
+    "icon": "🦁",
     "title": {
-      "de": "Prophet Muhammad und die Spinne",
-      "al": "Profeti Muhamed dhe Merimanga",
-      "tr": "Muhammed Peygamber ve Örümcek"
-    },
-    "content": {
-      "de": "Als Prophet Muhammad (saw) und sein bester Freund Abu Bakr vor Feinden fliehen mussten, versteckten sie sich in der Höhle Thawr. Die Feinde suchten überall nach ihnen. Doch Allah schickte eine kleine Spinne, die in Rekordzeit ein Netz über den Höhleneingang spann! Als die Feinde kamen, sahen sie das Spinnennetz und dachten: 'Hier kann niemand reingegangen sein, sonst wäre das Netz kaputt.' So beschützte Allah unseren Propheten durch eine kleine, fleißige Spinne.",
-      "al": "Kur Profeti Muhamed (a.s) dhe shoku i tij i ngushtë Ebu Bekri u detyruan të iknin nga armiqtë, ata u fshehën në shpellën Theur. Armiqtë po i kërkonin kudo. Por Allahu dërgoi një merimangë të vogël, e cila në kohë rekord thuri një rrjetë mbi hyrjen e shpellës! Kur erdhën armiqtë, panë rrjetën dhe menduan: 'Askush nuk mund të ketë hyrë këtu, përndryshe rrjeta do të ishte prishur.' Kështu Allahu e mbrojti Profetin tonë përmes një merimange të vogël.",
-      "tr": "Peygamberimiz Muhammed (s.a.v.) ve en yakın arkadaşı Ebu Bekir düşmanlardan kaçmak zorunda kaldıklarında Sevr Mağarası'na saklandılar. Düşmanlar onları her yerde aradı. Ancak Allah, mağaranın girişine rekor sürede ağ ören küçük bir örümcek gönderdi! Düşmanlar geldiğinde ağı gördüler ve 'Buraya kimse girmiş olamaz, yoksa ağ bozulurdu' diye düşündüler. Böylece Allah, Peygamberimizi küçük ve çalışkan bir örümcek aracılığıyla korudu."
+      "de": "Der mutige Ali",
+      "al": "Aliu i guximshëm",
+      "tr": "Cesur Ali"
     }
   },
   {
     "id": 11,
-    "icon": "🐜",
+    "icon": "📖",
     "title": {
-      "de": "Prophet Sulaiman und die winzige Ameise",
-      "al": "Profeti Sulejman dhe Milingona e vogël",
-      "tr": "Süleyman Peygamber ve Küçük Karınca"
+      "de": "Familie-Geschichte 11",
+      "al": "Histori Familja 11",
+      "tr": "Aile Hikayesi 11"
     },
     "content": {
-      "de": "Prophet Sulaiman (Salomo) konnte die Sprache aller Tiere verstehen! Eines Tages marschierte er mit seiner riesigen Armee. Da hörte er, wie eine winzige Ameise rief: 'Ameisen, geht schnell in eure Häuser, damit Sulaiman und seine Armee euch nicht zertreten!' Sulaiman lächelte und ließ seine Armee anhalten, damit keine einzige Ameise verletzt wurde. Er dankte Allah für diese Gnade, selbst auf die kleinsten Tiere Rücksicht nehmen zu können.",
-      "al": "Profeti Sulejman mund të kuptonte gjuhën e të gjitha kafshëve! Një ditë ai po marshonte me ushtrinë e tij të madhe. Atëherë ai dëgjoi një milingonë të vogël duke thirrur: 'O milingona, hyni shpejt në shtëpitë tuaja, që Sulejmani dhe ushtria e tij të mos ju shkelin!' Sulejmani buzëqeshi dhe ndaloi ushtrinë e tij në mënyrë që asnjë milingonë e vetme të mos lëndohej. Ai falënderoi Allahun për këtë mëshirë.",
-      "tr": "Süleyman Peygamber tüm hayvanların dilini anlayabiliyordu! Bir gün devasa ordusuyla yürüyordu. Sonra küçük bir karıncanın şöyle bağırdığını duydu: 'Karıncalar, hemen evlerinize girin, Süleyman ve ordusu sizi ezmesin!' Süleyman gülümsedi ve hiçbir karıncanın zarar görmemesi için ordusunu durdurdu. En küçük hayvanlara bile merhamet edebildiği için Allah'a şükretti."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 12,
-    "icon": "👶",
+    "icon": "📖",
     "title": {
-      "de": "Der junge Prophet Ismail",
-      "al": "Profeti i ri Ismail",
-      "tr": "Genç İsmail Peygamber"
+      "de": "Vergebung-Geschichte 12",
+      "al": "Histori Falja 12",
+      "tr": "Af Hikayesi 12"
     },
     "content": {
-      "de": "Als Prophet Ismail noch ein kleines Baby war, wurde er mit seiner Mutter Hadschar in einer einsamen, heißen Wüste gelassen. Das Wasser war leer und Ismail weinte vor Durst. Seine Mutter lief panisch zwischen zwei Hügeln (Safa und Marwa) hin und her, um Hilfe zu suchen. Da ließ Allah plötzlich eine Quelle mit frischem Wasser direkt neben Ismails kleinen Füßen aus dem Boden sprudeln! Diese heilige Quelle heißt 'Zamzam' und fließt noch bis heute in Mekka.",
-      "al": "Kur Profeti Ismail ishte ende një foshnjë e vogël, ai mbeti me nënën e tij Haxharen në një shkretëtirë të vetmuar dhe të nxehtë. Uji u mbarua dhe Ismaili po qante nga etja. Nëna e tij vrapoi në panik mes dy kodrave (Safa dhe Merve) për të kërkuar ndihmë. Papritur, Allahu bëri që një burim me ujë të freskët të shpërthejë direkt pranë këmbëve të vogla të Ismailit! Ky burim i shenjtë quhet 'Zemzem' dhe rrjedh edhe sot në Mekë.",
-      "tr": "İsmail Peygamber henüz küçük bir bebekken, annesi Hacer ile birlikte ıssız ve sıcak bir çölde bırakılmıştı. Su bitmişti ve İsmail susuzluktan ağlıyordu. Annesi yardım aramak için Safa ve Merve tepeleri arasında çaresizce koştu. Derken Allah aniden İsmail'in küçük ayaklarının hemen yanından taze su fışkırtıverdi! Bu kutsal kaynağın adı 'Zemzem'dir ve bugün hala Mekke'de akmaktadır."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 13,
-    "icon": "🐪",
+    "icon": "📖",
     "title": {
-      "de": "Das weinende Kamel",
-      "al": "Deveja që qante",
-      "tr": "Ağlayan Deve"
+      "de": "Erfolg-Geschichte 13",
+      "al": "Histori Suksesi 13",
+      "tr": "Başarı Hikayesi 13"
     },
     "content": {
-      "de": "Einmal ging der Prophet Muhammad (saw) in einen Garten. Dort war ein Kamel, das sehr traurig war. Als das Kamel den Propheten sah, kamen ihm Tränen aus den Augen. Der Prophet ging liebevoll zu ihm, streichelte es und fragte, wem das Kamel gehört. Er rief den Besitzer und sagte streng: 'Fürchtest du Allah nicht wegen dieses Tieres? Das Kamel hat sich bei mir beschwert, dass du ihm zu wenig zu essen gibst und es zu hart arbeiten lässt!' Der Islam lehrt uns, immer gut zu Tieren zu sein.",
-      "al": "Njëherë Profeti Muhamed (a.s) shkoi në një kopsht. Aty kishte një deve që ishte shumë e trishtuar. Kur deveja pa Profetin, i dolën lot nga sytë. Profeti u afrua me dashuri, e përkëdheli dhe pyeti se e kujt ishte deveja. Ai thirri pronarin dhe i tha rreptësisht: 'A nuk i frikësohesh Allahut për këtë kafshë? Deveja m'u ankua se ti i jep pak për të ngrënë dhe e bën të punojë shumë!' Islami na mëson të jemi gjithmonë të mirë me kafshët.",
-      "tr": "Bir keresinde Peygamberimiz Muhammed (s.a.v.) bir bahçeye gitti. Orada çok üzgün bir deve vardı. Deve Peygamber'i görünce gözlerinden yaşlar süzüldü. Peygamber sevgiyle ona yaklaştı, başını okşadı ve devenin kime ait olduğunu sordu. Sahibini çağırdı ve sertçe şöyle dedi: 'Bu hayvan hakkında Allah'tan korkmuyor musun? Deve bana, ona çok az yiyecek verdiğini ve onu çok fazla çalıştırdığını şikayet etti!' İslam bize her zaman hayvanlara iyi davranmayı öğretir."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 14,
-    "icon": "🐋",
+    "icon": "📖",
     "title": {
-      "de": "Prophet Yunus im Bauch des Wals",
-      "al": "Profeti Junus në barkun e balenës",
-      "tr": "Yunus Peygamber ve Balina"
+      "de": "Frieden-Geschichte 14",
+      "al": "Histori Paqja 14",
+      "tr": "Barış Hikayesi 14"
     },
     "content": {
-      "de": "Prophet Yunus war traurig, weil die Menschen ihm nicht zuhören wollten, und fuhr heimlich mit einem Schiff weg. Da kam ein schlimmer Sturm auf! Yunus sprang ins Meer und wurde von einem RIESIGEN Wal verschluckt. Es war dunkel, gruselig und kalt im Bauch des Fisches. Aber Yunus betete intensiv und bat Allah um Verzeihung (La ilaha illa anta, subhanaka). Allah erhörte sein Dua, und der Wal spuckte ihn sicher an den Strand! Mit Reue und Gebet kann Allah uns aus jeder großen Gefahr retten.",
-      "al": "Profeti Junus ishte i trishtuar sepse njerëzit nuk donin ta dëgjonin dhe iku fshehurazi me një anije. Aty shpërtheu një stuhi e tmerrshme! Junusi u hodh në det dhe u gëlltit nga një balenë GJIGANTE. Ishte errësirë ​​dhe ftohtë në barkun e peshkut. Por Junusi u lut me intensitet dhe i kërkoi falje Allahut (La ilahe il-la ente, subhaneke). Allahu ia pranoi lutjen dhe balena e nxori të sigurt në plazh! Me pendim dhe lutje, Allahu mund të na shpëtojë nga çdo rrezik.",
-      "tr": "Yunus Peygamber, insanlar onu dinlemediği için üzüldü ve gizlice bir gemiyle uzaklaştı. Sonra korkunç bir fırtına koptu! Yunus denize atladı ve DEVASA bir balina onu yuttu. Balığın karnı karanlık, korkutucu ve soğuktu. Ancak Yunus şiddetle dua etti ve Allah'tan af diledi (La ilahe illa ente, subhaneke). Allah duasını kabul etti ve balina onu güvenli bir şekilde sahile tükürdü! Tövbe ve dua ile Allah bizi her büyük tehlikeden kurtarabilir."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 15,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 15",
-      "al": "Mësimi i Profetit 15",
-      "tr": "Peygamber Dersi 15"
+      "de": "Liebe-Geschichte 15",
+      "al": "Histori Dashuria 15",
+      "tr": "Sevgi Hikayesi 15"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 16,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 16",
-      "al": "Mësimi i Profetit 16",
-      "tr": "Peygamber Dersi 16"
+      "de": "Dankbarkeit-Geschichte 16",
+      "al": "Histori Mirënjohja 16",
+      "tr": "Şükür Hikayesi 16"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 17,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 17",
-      "al": "Mësimi i Profetit 17",
-      "tr": "Peygamber Dersi 17"
+      "de": "Geduld-Geschichte 17",
+      "al": "Histori Durimi 17",
+      "tr": "Sabır Hikayesi 17"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 18,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 18",
-      "al": "Mësimi i Profetit 18",
-      "tr": "Peygamber Dersi 18"
+      "de": "Schutz-Geschichte 18",
+      "al": "Histori Mbrojtja 18",
+      "tr": "Korunma Hikayesi 18"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 19,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 19",
-      "al": "Mësimi i Profetit 19",
-      "tr": "Peygamber Dersi 19"
+      "de": "Familie-Geschichte 19",
+      "al": "Histori Familja 19",
+      "tr": "Aile Hikayesi 19"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 20,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 20",
-      "al": "Mësimi i Profetit 20",
-      "tr": "Peygamber Dersi 20"
+      "de": "Vergebung-Geschichte 20",
+      "al": "Histori Falja 20",
+      "tr": "Af Hikayesi 20"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 21,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 21",
-      "al": "Mësimi i Profetit 21",
-      "tr": "Peygamber Dersi 21"
+      "de": "Erfolg-Geschichte 21",
+      "al": "Histori Suksesi 21",
+      "tr": "Başarı Hikayesi 21"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 22,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 22",
-      "al": "Mësimi i Profetit 22",
-      "tr": "Peygamber Dersi 22"
+      "de": "Frieden-Geschichte 22",
+      "al": "Histori Paqja 22",
+      "tr": "Barış Hikayesi 22"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 23,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 23",
-      "al": "Mësimi i Profetit 23",
-      "tr": "Peygamber Dersi 23"
+      "de": "Liebe-Geschichte 23",
+      "al": "Histori Dashuria 23",
+      "tr": "Sevgi Hikayesi 23"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 24,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 24",
-      "al": "Mësimi i Profetit 24",
-      "tr": "Peygamber Dersi 24"
+      "de": "Dankbarkeit-Geschichte 24",
+      "al": "Histori Mirënjohja 24",
+      "tr": "Şükür Hikayesi 24"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 25,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 25",
-      "al": "Mësimi i Profetit 25",
-      "tr": "Peygamber Dersi 25"
+      "de": "Geduld-Geschichte 25",
+      "al": "Histori Durimi 25",
+      "tr": "Sabır Hikayesi 25"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 26,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 26",
-      "al": "Mësimi i Profetit 26",
-      "tr": "Peygamber Dersi 26"
+      "de": "Schutz-Geschichte 26",
+      "al": "Histori Mbrojtja 26",
+      "tr": "Korunma Hikayesi 26"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 27,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 27",
-      "al": "Mësimi i Profetit 27",
-      "tr": "Peygamber Dersi 27"
+      "de": "Familie-Geschichte 27",
+      "al": "Histori Familja 27",
+      "tr": "Aile Hikayesi 27"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 28,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 28",
-      "al": "Mësimi i Profetit 28",
-      "tr": "Peygamber Dersi 28"
+      "de": "Vergebung-Geschichte 28",
+      "al": "Histori Falja 28",
+      "tr": "Af Hikayesi 28"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 29,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 29",
-      "al": "Mësimi i Profetit 29",
-      "tr": "Peygamber Dersi 29"
+      "de": "Erfolg-Geschichte 29",
+      "al": "Histori Suksesi 29",
+      "tr": "Başarı Hikayesi 29"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 30,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 30",
-      "al": "Mësimi i Profetit 30",
-      "tr": "Peygamber Dersi 30"
+      "de": "Frieden-Geschichte 30",
+      "al": "Histori Paqja 30",
+      "tr": "Barış Hikayesi 30"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 31,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 31",
-      "al": "Mësimi i Profetit 31",
-      "tr": "Peygamber Dersi 31"
+      "de": "Liebe-Geschichte 31",
+      "al": "Histori Dashuria 31",
+      "tr": "Sevgi Hikayesi 31"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 32,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 32",
-      "al": "Mësimi i Profetit 32",
-      "tr": "Peygamber Dersi 32"
+      "de": "Dankbarkeit-Geschichte 32",
+      "al": "Histori Mirënjohja 32",
+      "tr": "Şükür Hikayesi 32"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 33,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 33",
-      "al": "Mësimi i Profetit 33",
-      "tr": "Peygamber Dersi 33"
+      "de": "Geduld-Geschichte 33",
+      "al": "Histori Durimi 33",
+      "tr": "Sabır Hikayesi 33"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 34,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 34",
-      "al": "Mësimi i Profetit 34",
-      "tr": "Peygamber Dersi 34"
+      "de": "Schutz-Geschichte 34",
+      "al": "Histori Mbrojtja 34",
+      "tr": "Korunma Hikayesi 34"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 35,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 35",
-      "al": "Mësimi i Profetit 35",
-      "tr": "Peygamber Dersi 35"
+      "de": "Familie-Geschichte 35",
+      "al": "Histori Familja 35",
+      "tr": "Aile Hikayesi 35"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 36,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 36",
-      "al": "Mësimi i Profetit 36",
-      "tr": "Peygamber Dersi 36"
+      "de": "Vergebung-Geschichte 36",
+      "al": "Histori Falja 36",
+      "tr": "Af Hikayesi 36"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 37,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 37",
-      "al": "Mësimi i Profetit 37",
-      "tr": "Peygamber Dersi 37"
+      "de": "Erfolg-Geschichte 37",
+      "al": "Histori Suksesi 37",
+      "tr": "Başarı Hikayesi 37"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 38,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 38",
-      "al": "Mësimi i Profetit 38",
-      "tr": "Peygamber Dersi 38"
+      "de": "Frieden-Geschichte 38",
+      "al": "Histori Paqja 38",
+      "tr": "Barış Hikayesi 38"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 39,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 39",
-      "al": "Mësimi i Profetit 39",
-      "tr": "Peygamber Dersi 39"
+      "de": "Liebe-Geschichte 39",
+      "al": "Histori Dashuria 39",
+      "tr": "Sevgi Hikayesi 39"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 40,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 40",
-      "al": "Mësimi i Profetit 40",
-      "tr": "Peygamber Dersi 40"
+      "de": "Dankbarkeit-Geschichte 40",
+      "al": "Histori Mirënjohja 40",
+      "tr": "Şükür Hikayesi 40"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 41,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 41",
-      "al": "Mësimi i Profetit 41",
-      "tr": "Peygamber Dersi 41"
+      "de": "Geduld-Geschichte 41",
+      "al": "Histori Durimi 41",
+      "tr": "Sabır Hikayesi 41"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 42,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 42",
-      "al": "Mësimi i Profetit 42",
-      "tr": "Peygamber Dersi 42"
+      "de": "Schutz-Geschichte 42",
+      "al": "Histori Mbrojtja 42",
+      "tr": "Korunma Hikayesi 42"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 43,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 43",
-      "al": "Mësimi i Profetit 43",
-      "tr": "Peygamber Dersi 43"
+      "de": "Familie-Geschichte 43",
+      "al": "Histori Familja 43",
+      "tr": "Aile Hikayesi 43"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 44,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 44",
-      "al": "Mësimi i Profetit 44",
-      "tr": "Peygamber Dersi 44"
+      "de": "Vergebung-Geschichte 44",
+      "al": "Histori Falja 44",
+      "tr": "Af Hikayesi 44"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 45,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 45",
-      "al": "Mësimi i Profetit 45",
-      "tr": "Peygamber Dersi 45"
+      "de": "Erfolg-Geschichte 45",
+      "al": "Histori Suksesi 45",
+      "tr": "Başarı Hikayesi 45"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 46,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 46",
-      "al": "Mësimi i Profetit 46",
-      "tr": "Peygamber Dersi 46"
+      "de": "Frieden-Geschichte 46",
+      "al": "Histori Paqja 46",
+      "tr": "Barış Hikayesi 46"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 47,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 47",
-      "al": "Mësimi i Profetit 47",
-      "tr": "Peygamber Dersi 47"
+      "de": "Liebe-Geschichte 47",
+      "al": "Histori Dashuria 47",
+      "tr": "Sevgi Hikayesi 47"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 48,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 48",
-      "al": "Mësimi i Profetit 48",
-      "tr": "Peygamber Dersi 48"
+      "de": "Dankbarkeit-Geschichte 48",
+      "al": "Histori Mirënjohja 48",
+      "tr": "Şükür Hikayesi 48"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 49,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 49",
-      "al": "Mësimi i Profetit 49",
-      "tr": "Peygamber Dersi 49"
+      "de": "Geduld-Geschichte 49",
+      "al": "Histori Durimi 49",
+      "tr": "Sabır Hikayesi 49"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 50,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 50",
-      "al": "Mësimi i Profetit 50",
-      "tr": "Peygamber Dersi 50"
+      "de": "Schutz-Geschichte 50",
+      "al": "Histori Mbrojtja 50",
+      "tr": "Korunma Hikayesi 50"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 51,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 51",
-      "al": "Mësimi i Profetit 51",
-      "tr": "Peygamber Dersi 51"
+      "de": "Familie-Geschichte 51",
+      "al": "Histori Familja 51",
+      "tr": "Aile Hikayesi 51"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 52,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 52",
-      "al": "Mësimi i Profetit 52",
-      "tr": "Peygamber Dersi 52"
+      "de": "Vergebung-Geschichte 52",
+      "al": "Histori Falja 52",
+      "tr": "Af Hikayesi 52"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 53,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 53",
-      "al": "Mësimi i Profetit 53",
-      "tr": "Peygamber Dersi 53"
+      "de": "Erfolg-Geschichte 53",
+      "al": "Histori Suksesi 53",
+      "tr": "Başarı Hikayesi 53"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 54,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 54",
-      "al": "Mësimi i Profetit 54",
-      "tr": "Peygamber Dersi 54"
+      "de": "Frieden-Geschichte 54",
+      "al": "Histori Paqja 54",
+      "tr": "Barış Hikayesi 54"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 55,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 55",
-      "al": "Mësimi i Profetit 55",
-      "tr": "Peygamber Dersi 55"
+      "de": "Liebe-Geschichte 55",
+      "al": "Histori Dashuria 55",
+      "tr": "Sevgi Hikayesi 55"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 56,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 56",
-      "al": "Mësimi i Profetit 56",
-      "tr": "Peygamber Dersi 56"
+      "de": "Dankbarkeit-Geschichte 56",
+      "al": "Histori Mirënjohja 56",
+      "tr": "Şükür Hikayesi 56"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 57,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 57",
-      "al": "Mësimi i Profetit 57",
-      "tr": "Peygamber Dersi 57"
+      "de": "Geduld-Geschichte 57",
+      "al": "Histori Durimi 57",
+      "tr": "Sabır Hikayesi 57"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 58,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 58",
-      "al": "Mësimi i Profetit 58",
-      "tr": "Peygamber Dersi 58"
+      "de": "Schutz-Geschichte 58",
+      "al": "Histori Mbrojtja 58",
+      "tr": "Korunma Hikayesi 58"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 59,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 59",
-      "al": "Mësimi i Profetit 59",
-      "tr": "Peygamber Dersi 59"
+      "de": "Familie-Geschichte 59",
+      "al": "Histori Familja 59",
+      "tr": "Aile Hikayesi 59"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 60,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 60",
-      "al": "Mësimi i Profetit 60",
-      "tr": "Peygamber Dersi 60"
+      "de": "Vergebung-Geschichte 60",
+      "al": "Histori Falja 60",
+      "tr": "Af Hikayesi 60"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 61,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 61",
-      "al": "Mësimi i Profetit 61",
-      "tr": "Peygamber Dersi 61"
+      "de": "Erfolg-Geschichte 61",
+      "al": "Histori Suksesi 61",
+      "tr": "Başarı Hikayesi 61"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 62,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 62",
-      "al": "Mësimi i Profetit 62",
-      "tr": "Peygamber Dersi 62"
+      "de": "Frieden-Geschichte 62",
+      "al": "Histori Paqja 62",
+      "tr": "Barış Hikayesi 62"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 63,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 63",
-      "al": "Mësimi i Profetit 63",
-      "tr": "Peygamber Dersi 63"
+      "de": "Liebe-Geschichte 63",
+      "al": "Histori Dashuria 63",
+      "tr": "Sevgi Hikayesi 63"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 64,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 64",
-      "al": "Mësimi i Profetit 64",
-      "tr": "Peygamber Dersi 64"
+      "de": "Dankbarkeit-Geschichte 64",
+      "al": "Histori Mirënjohja 64",
+      "tr": "Şükür Hikayesi 64"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 65,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 65",
-      "al": "Mësimi i Profetit 65",
-      "tr": "Peygamber Dersi 65"
+      "de": "Geduld-Geschichte 65",
+      "al": "Histori Durimi 65",
+      "tr": "Sabır Hikayesi 65"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 66,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 66",
-      "al": "Mësimi i Profetit 66",
-      "tr": "Peygamber Dersi 66"
+      "de": "Schutz-Geschichte 66",
+      "al": "Histori Mbrojtja 66",
+      "tr": "Korunma Hikayesi 66"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 67,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 67",
-      "al": "Mësimi i Profetit 67",
-      "tr": "Peygamber Dersi 67"
+      "de": "Familie-Geschichte 67",
+      "al": "Histori Familja 67",
+      "tr": "Aile Hikayesi 67"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 68,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 68",
-      "al": "Mësimi i Profetit 68",
-      "tr": "Peygamber Dersi 68"
+      "de": "Vergebung-Geschichte 68",
+      "al": "Histori Falja 68",
+      "tr": "Af Hikayesi 68"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 69,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 69",
-      "al": "Mësimi i Profetit 69",
-      "tr": "Peygamber Dersi 69"
+      "de": "Erfolg-Geschichte 69",
+      "al": "Histori Suksesi 69",
+      "tr": "Başarı Hikayesi 69"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 70,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 70",
-      "al": "Mësimi i Profetit 70",
-      "tr": "Peygamber Dersi 70"
+      "de": "Frieden-Geschichte 70",
+      "al": "Histori Paqja 70",
+      "tr": "Barış Hikayesi 70"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 71,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 71",
-      "al": "Mësimi i Profetit 71",
-      "tr": "Peygamber Dersi 71"
+      "de": "Liebe-Geschichte 71",
+      "al": "Histori Dashuria 71",
+      "tr": "Sevgi Hikayesi 71"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 72,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 72",
-      "al": "Mësimi i Profetit 72",
-      "tr": "Peygamber Dersi 72"
+      "de": "Dankbarkeit-Geschichte 72",
+      "al": "Histori Mirënjohja 72",
+      "tr": "Şükür Hikayesi 72"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 73,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 73",
-      "al": "Mësimi i Profetit 73",
-      "tr": "Peygamber Dersi 73"
+      "de": "Geduld-Geschichte 73",
+      "al": "Histori Durimi 73",
+      "tr": "Sabır Hikayesi 73"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 74,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 74",
-      "al": "Mësimi i Profetit 74",
-      "tr": "Peygamber Dersi 74"
+      "de": "Schutz-Geschichte 74",
+      "al": "Histori Mbrojtja 74",
+      "tr": "Korunma Hikayesi 74"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 75,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 75",
-      "al": "Mësimi i Profetit 75",
-      "tr": "Peygamber Dersi 75"
+      "de": "Familie-Geschichte 75",
+      "al": "Histori Familja 75",
+      "tr": "Aile Hikayesi 75"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 76,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 76",
-      "al": "Mësimi i Profetit 76",
-      "tr": "Peygamber Dersi 76"
+      "de": "Vergebung-Geschichte 76",
+      "al": "Histori Falja 76",
+      "tr": "Af Hikayesi 76"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 77,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 77",
-      "al": "Mësimi i Profetit 77",
-      "tr": "Peygamber Dersi 77"
+      "de": "Erfolg-Geschichte 77",
+      "al": "Histori Suksesi 77",
+      "tr": "Başarı Hikayesi 77"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 78,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 78",
-      "al": "Mësimi i Profetit 78",
-      "tr": "Peygamber Dersi 78"
+      "de": "Frieden-Geschichte 78",
+      "al": "Histori Paqja 78",
+      "tr": "Barış Hikayesi 78"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 79,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 79",
-      "al": "Mësimi i Profetit 79",
-      "tr": "Peygamber Dersi 79"
+      "de": "Liebe-Geschichte 79",
+      "al": "Histori Dashuria 79",
+      "tr": "Sevgi Hikayesi 79"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 80,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 80",
-      "al": "Mësimi i Profetit 80",
-      "tr": "Peygamber Dersi 80"
+      "de": "Dankbarkeit-Geschichte 80",
+      "al": "Histori Mirënjohja 80",
+      "tr": "Şükür Hikayesi 80"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 81,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 81",
-      "al": "Mësimi i Profetit 81",
-      "tr": "Peygamber Dersi 81"
+      "de": "Geduld-Geschichte 81",
+      "al": "Histori Durimi 81",
+      "tr": "Sabır Hikayesi 81"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 82,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 82",
-      "al": "Mësimi i Profetit 82",
-      "tr": "Peygamber Dersi 82"
+      "de": "Schutz-Geschichte 82",
+      "al": "Histori Mbrojtja 82",
+      "tr": "Korunma Hikayesi 82"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 83,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 83",
-      "al": "Mësimi i Profetit 83",
-      "tr": "Peygamber Dersi 83"
+      "de": "Familie-Geschichte 83",
+      "al": "Histori Familja 83",
+      "tr": "Aile Hikayesi 83"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 84,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 84",
-      "al": "Mësimi i Profetit 84",
-      "tr": "Peygamber Dersi 84"
+      "de": "Vergebung-Geschichte 84",
+      "al": "Histori Falja 84",
+      "tr": "Af Hikayesi 84"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 85,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 85",
-      "al": "Mësimi i Profetit 85",
-      "tr": "Peygamber Dersi 85"
+      "de": "Erfolg-Geschichte 85",
+      "al": "Histori Suksesi 85",
+      "tr": "Başarı Hikayesi 85"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 86,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 86",
-      "al": "Mësimi i Profetit 86",
-      "tr": "Peygamber Dersi 86"
+      "de": "Frieden-Geschichte 86",
+      "al": "Histori Paqja 86",
+      "tr": "Barış Hikayesi 86"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 87,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 87",
-      "al": "Mësimi i Profetit 87",
-      "tr": "Peygamber Dersi 87"
+      "de": "Liebe-Geschichte 87",
+      "al": "Histori Dashuria 87",
+      "tr": "Sevgi Hikayesi 87"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 88,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 88",
-      "al": "Mësimi i Profetit 88",
-      "tr": "Peygamber Dersi 88"
+      "de": "Dankbarkeit-Geschichte 88",
+      "al": "Histori Mirënjohja 88",
+      "tr": "Şükür Hikayesi 88"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 89,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 89",
-      "al": "Mësimi i Profetit 89",
-      "tr": "Peygamber Dersi 89"
+      "de": "Geduld-Geschichte 89",
+      "al": "Histori Durimi 89",
+      "tr": "Sabır Hikayesi 89"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 90,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 90",
-      "al": "Mësimi i Profetit 90",
-      "tr": "Peygamber Dersi 90"
+      "de": "Schutz-Geschichte 90",
+      "al": "Histori Mbrojtja 90",
+      "tr": "Korunma Hikayesi 90"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 91,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 91",
-      "al": "Mësimi i Profetit 91",
-      "tr": "Peygamber Dersi 91"
+      "de": "Familie-Geschichte 91",
+      "al": "Histori Familja 91",
+      "tr": "Aile Hikayesi 91"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 92,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 92",
-      "al": "Mësimi i Profetit 92",
-      "tr": "Peygamber Dersi 92"
+      "de": "Vergebung-Geschichte 92",
+      "al": "Histori Falja 92",
+      "tr": "Af Hikayesi 92"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 93,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 93",
-      "al": "Mësimi i Profetit 93",
-      "tr": "Peygamber Dersi 93"
+      "de": "Erfolg-Geschichte 93",
+      "al": "Histori Suksesi 93",
+      "tr": "Başarı Hikayesi 93"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 94,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 94",
-      "al": "Mësimi i Profetit 94",
-      "tr": "Peygamber Dersi 94"
+      "de": "Frieden-Geschichte 94",
+      "al": "Histori Paqja 94",
+      "tr": "Barış Hikayesi 94"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 95,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 95",
-      "al": "Mësimi i Profetit 95",
-      "tr": "Peygamber Dersi 95"
+      "de": "Liebe-Geschichte 95",
+      "al": "Histori Dashuria 95",
+      "tr": "Sevgi Hikayesi 95"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 96,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 96",
-      "al": "Mësimi i Profetit 96",
-      "tr": "Peygamber Dersi 96"
+      "de": "Dankbarkeit-Geschichte 96",
+      "al": "Histori Mirënjohja 96",
+      "tr": "Şükür Hikayesi 96"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 97,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 97",
-      "al": "Mësimi i Profetit 97",
-      "tr": "Peygamber Dersi 97"
+      "de": "Geduld-Geschichte 97",
+      "al": "Histori Durimi 97",
+      "tr": "Sabır Hikayesi 97"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 98,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 98",
-      "al": "Mësimi i Profetit 98",
-      "tr": "Peygamber Dersi 98"
+      "de": "Schutz-Geschichte 98",
+      "al": "Histori Mbrojtja 98",
+      "tr": "Korunma Hikayesi 98"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 99,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 99",
-      "al": "Mësimi i Profetit 99",
-      "tr": "Peygamber Dersi 99"
+      "de": "Familie-Geschichte 99",
+      "al": "Histori Familja 99",
+      "tr": "Aile Hikayesi 99"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 100,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 100",
-      "al": "Mësimi i Profetit 100",
-      "tr": "Peygamber Dersi 100"
+      "de": "Vergebung-Geschichte 100",
+      "al": "Histori Falja 100",
+      "tr": "Af Hikayesi 100"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 101,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 101",
-      "al": "Mësimi i Profetit 101",
-      "tr": "Peygamber Dersi 101"
+      "de": "Erfolg-Geschichte 101",
+      "al": "Histori Suksesi 101",
+      "tr": "Başarı Hikayesi 101"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 102,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 102",
-      "al": "Mësimi i Profetit 102",
-      "tr": "Peygamber Dersi 102"
+      "de": "Frieden-Geschichte 102",
+      "al": "Histori Paqja 102",
+      "tr": "Barış Hikayesi 102"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 103,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 103",
-      "al": "Mësimi i Profetit 103",
-      "tr": "Peygamber Dersi 103"
+      "de": "Liebe-Geschichte 103",
+      "al": "Histori Dashuria 103",
+      "tr": "Sevgi Hikayesi 103"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 104,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 104",
-      "al": "Mësimi i Profetit 104",
-      "tr": "Peygamber Dersi 104"
+      "de": "Dankbarkeit-Geschichte 104",
+      "al": "Histori Mirënjohja 104",
+      "tr": "Şükür Hikayesi 104"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 105,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 105",
-      "al": "Mësimi i Profetit 105",
-      "tr": "Peygamber Dersi 105"
+      "de": "Geduld-Geschichte 105",
+      "al": "Histori Durimi 105",
+      "tr": "Sabır Hikayesi 105"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 106,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 106",
-      "al": "Mësimi i Profetit 106",
-      "tr": "Peygamber Dersi 106"
+      "de": "Schutz-Geschichte 106",
+      "al": "Histori Mbrojtja 106",
+      "tr": "Korunma Hikayesi 106"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 107,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 107",
-      "al": "Mësimi i Profetit 107",
-      "tr": "Peygamber Dersi 107"
+      "de": "Familie-Geschichte 107",
+      "al": "Histori Familja 107",
+      "tr": "Aile Hikayesi 107"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 108,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 108",
-      "al": "Mësimi i Profetit 108",
-      "tr": "Peygamber Dersi 108"
+      "de": "Vergebung-Geschichte 108",
+      "al": "Histori Falja 108",
+      "tr": "Af Hikayesi 108"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 109,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 109",
-      "al": "Mësimi i Profetit 109",
-      "tr": "Peygamber Dersi 109"
+      "de": "Erfolg-Geschichte 109",
+      "al": "Histori Suksesi 109",
+      "tr": "Başarı Hikayesi 109"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 110,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 110",
-      "al": "Mësimi i Profetit 110",
-      "tr": "Peygamber Dersi 110"
+      "de": "Frieden-Geschichte 110",
+      "al": "Histori Paqja 110",
+      "tr": "Barış Hikayesi 110"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 111,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 111",
-      "al": "Mësimi i Profetit 111",
-      "tr": "Peygamber Dersi 111"
+      "de": "Liebe-Geschichte 111",
+      "al": "Histori Dashuria 111",
+      "tr": "Sevgi Hikayesi 111"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 112,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 112",
-      "al": "Mësimi i Profetit 112",
-      "tr": "Peygamber Dersi 112"
+      "de": "Dankbarkeit-Geschichte 112",
+      "al": "Histori Mirënjohja 112",
+      "tr": "Şükür Hikayesi 112"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 113,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 113",
-      "al": "Mësimi i Profetit 113",
-      "tr": "Peygamber Dersi 113"
+      "de": "Geduld-Geschichte 113",
+      "al": "Histori Durimi 113",
+      "tr": "Sabır Hikayesi 113"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 114,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 114",
-      "al": "Mësimi i Profetit 114",
-      "tr": "Peygamber Dersi 114"
+      "de": "Schutz-Geschichte 114",
+      "al": "Histori Mbrojtja 114",
+      "tr": "Korunma Hikayesi 114"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 115,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 115",
-      "al": "Mësimi i Profetit 115",
-      "tr": "Peygamber Dersi 115"
+      "de": "Familie-Geschichte 115",
+      "al": "Histori Familja 115",
+      "tr": "Aile Hikayesi 115"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 116,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 116",
-      "al": "Mësimi i Profetit 116",
-      "tr": "Peygamber Dersi 116"
+      "de": "Vergebung-Geschichte 116",
+      "al": "Histori Falja 116",
+      "tr": "Af Hikayesi 116"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 117,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 117",
-      "al": "Mësimi i Profetit 117",
-      "tr": "Peygamber Dersi 117"
+      "de": "Erfolg-Geschichte 117",
+      "al": "Histori Suksesi 117",
+      "tr": "Başarı Hikayesi 117"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 118,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 118",
-      "al": "Mësimi i Profetit 118",
-      "tr": "Peygamber Dersi 118"
+      "de": "Frieden-Geschichte 118",
+      "al": "Histori Paqja 118",
+      "tr": "Barış Hikayesi 118"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 119,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 119",
-      "al": "Mësimi i Profetit 119",
-      "tr": "Peygamber Dersi 119"
+      "de": "Liebe-Geschichte 119",
+      "al": "Histori Dashuria 119",
+      "tr": "Sevgi Hikayesi 119"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 120,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 120",
-      "al": "Mësimi i Profetit 120",
-      "tr": "Peygamber Dersi 120"
+      "de": "Dankbarkeit-Geschichte 120",
+      "al": "Histori Mirënjohja 120",
+      "tr": "Şükür Hikayesi 120"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 121,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 121",
-      "al": "Mësimi i Profetit 121",
-      "tr": "Peygamber Dersi 121"
+      "de": "Geduld-Geschichte 121",
+      "al": "Histori Durimi 121",
+      "tr": "Sabır Hikayesi 121"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 122,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 122",
-      "al": "Mësimi i Profetit 122",
-      "tr": "Peygamber Dersi 122"
+      "de": "Schutz-Geschichte 122",
+      "al": "Histori Mbrojtja 122",
+      "tr": "Korunma Hikayesi 122"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 123,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 123",
-      "al": "Mësimi i Profetit 123",
-      "tr": "Peygamber Dersi 123"
+      "de": "Familie-Geschichte 123",
+      "al": "Histori Familja 123",
+      "tr": "Aile Hikayesi 123"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 124,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 124",
-      "al": "Mësimi i Profetit 124",
-      "tr": "Peygamber Dersi 124"
+      "de": "Vergebung-Geschichte 124",
+      "al": "Histori Falja 124",
+      "tr": "Af Hikayesi 124"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 125,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 125",
-      "al": "Mësimi i Profetit 125",
-      "tr": "Peygamber Dersi 125"
+      "de": "Erfolg-Geschichte 125",
+      "al": "Histori Suksesi 125",
+      "tr": "Başarı Hikayesi 125"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 126,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 126",
-      "al": "Mësimi i Profetit 126",
-      "tr": "Peygamber Dersi 126"
+      "de": "Frieden-Geschichte 126",
+      "al": "Histori Paqja 126",
+      "tr": "Barış Hikayesi 126"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 127,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 127",
-      "al": "Mësimi i Profetit 127",
-      "tr": "Peygamber Dersi 127"
+      "de": "Liebe-Geschichte 127",
+      "al": "Histori Dashuria 127",
+      "tr": "Sevgi Hikayesi 127"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 128,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 128",
-      "al": "Mësimi i Profetit 128",
-      "tr": "Peygamber Dersi 128"
+      "de": "Dankbarkeit-Geschichte 128",
+      "al": "Histori Mirënjohja 128",
+      "tr": "Şükür Hikayesi 128"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 129,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 129",
-      "al": "Mësimi i Profetit 129",
-      "tr": "Peygamber Dersi 129"
+      "de": "Geduld-Geschichte 129",
+      "al": "Histori Durimi 129",
+      "tr": "Sabır Hikayesi 129"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 130,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 130",
-      "al": "Mësimi i Profetit 130",
-      "tr": "Peygamber Dersi 130"
+      "de": "Schutz-Geschichte 130",
+      "al": "Histori Mbrojtja 130",
+      "tr": "Korunma Hikayesi 130"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 131,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 131",
-      "al": "Mësimi i Profetit 131",
-      "tr": "Peygamber Dersi 131"
+      "de": "Familie-Geschichte 131",
+      "al": "Histori Familja 131",
+      "tr": "Aile Hikayesi 131"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 132,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 132",
-      "al": "Mësimi i Profetit 132",
-      "tr": "Peygamber Dersi 132"
+      "de": "Vergebung-Geschichte 132",
+      "al": "Histori Falja 132",
+      "tr": "Af Hikayesi 132"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 133,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 133",
-      "al": "Mësimi i Profetit 133",
-      "tr": "Peygamber Dersi 133"
+      "de": "Erfolg-Geschichte 133",
+      "al": "Histori Suksesi 133",
+      "tr": "Başarı Hikayesi 133"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 134,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 134",
-      "al": "Mësimi i Profetit 134",
-      "tr": "Peygamber Dersi 134"
+      "de": "Frieden-Geschichte 134",
+      "al": "Histori Paqja 134",
+      "tr": "Barış Hikayesi 134"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 135,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 135",
-      "al": "Mësimi i Profetit 135",
-      "tr": "Peygamber Dersi 135"
+      "de": "Liebe-Geschichte 135",
+      "al": "Histori Dashuria 135",
+      "tr": "Sevgi Hikayesi 135"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 136,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 136",
-      "al": "Mësimi i Profetit 136",
-      "tr": "Peygamber Dersi 136"
+      "de": "Dankbarkeit-Geschichte 136",
+      "al": "Histori Mirënjohja 136",
+      "tr": "Şükür Hikayesi 136"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 137,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 137",
-      "al": "Mësimi i Profetit 137",
-      "tr": "Peygamber Dersi 137"
+      "de": "Geduld-Geschichte 137",
+      "al": "Histori Durimi 137",
+      "tr": "Sabır Hikayesi 137"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 138,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 138",
-      "al": "Mësimi i Profetit 138",
-      "tr": "Peygamber Dersi 138"
+      "de": "Schutz-Geschichte 138",
+      "al": "Histori Mbrojtja 138",
+      "tr": "Korunma Hikayesi 138"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 139,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 139",
-      "al": "Mësimi i Profetit 139",
-      "tr": "Peygamber Dersi 139"
+      "de": "Familie-Geschichte 139",
+      "al": "Histori Familja 139",
+      "tr": "Aile Hikayesi 139"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 140,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 140",
-      "al": "Mësimi i Profetit 140",
-      "tr": "Peygamber Dersi 140"
+      "de": "Vergebung-Geschichte 140",
+      "al": "Histori Falja 140",
+      "tr": "Af Hikayesi 140"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 141,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 141",
-      "al": "Mësimi i Profetit 141",
-      "tr": "Peygamber Dersi 141"
+      "de": "Erfolg-Geschichte 141",
+      "al": "Histori Suksesi 141",
+      "tr": "Başarı Hikayesi 141"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 142,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 142",
-      "al": "Mësimi i Profetit 142",
-      "tr": "Peygamber Dersi 142"
+      "de": "Frieden-Geschichte 142",
+      "al": "Histori Paqja 142",
+      "tr": "Barış Hikayesi 142"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 143,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 143",
-      "al": "Mësimi i Profetit 143",
-      "tr": "Peygamber Dersi 143"
+      "de": "Liebe-Geschichte 143",
+      "al": "Histori Dashuria 143",
+      "tr": "Sevgi Hikayesi 143"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 144,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 144",
-      "al": "Mësimi i Profetit 144",
-      "tr": "Peygamber Dersi 144"
+      "de": "Dankbarkeit-Geschichte 144",
+      "al": "Histori Mirënjohja 144",
+      "tr": "Şükür Hikayesi 144"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 145,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 145",
-      "al": "Mësimi i Profetit 145",
-      "tr": "Peygamber Dersi 145"
+      "de": "Geduld-Geschichte 145",
+      "al": "Histori Durimi 145",
+      "tr": "Sabır Hikayesi 145"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 146,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 146",
-      "al": "Mësimi i Profetit 146",
-      "tr": "Peygamber Dersi 146"
+      "de": "Schutz-Geschichte 146",
+      "al": "Histori Mbrojtja 146",
+      "tr": "Korunma Hikayesi 146"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 147,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 147",
-      "al": "Mësimi i Profetit 147",
-      "tr": "Peygamber Dersi 147"
+      "de": "Familie-Geschichte 147",
+      "al": "Histori Familja 147",
+      "tr": "Aile Hikayesi 147"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 148,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 148",
-      "al": "Mësimi i Profetit 148",
-      "tr": "Peygamber Dersi 148"
+      "de": "Vergebung-Geschichte 148",
+      "al": "Histori Falja 148",
+      "tr": "Af Hikayesi 148"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 149,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 149",
-      "al": "Mësimi i Profetit 149",
-      "tr": "Peygamber Dersi 149"
+      "de": "Erfolg-Geschichte 149",
+      "al": "Histori Suksesi 149",
+      "tr": "Başarı Hikayesi 149"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   },
   {
     "id": 150,
-    "icon": "🛡️",
+    "icon": "📖",
     "title": {
-      "de": "Propheten-Lehre 150",
-      "al": "Mësimi i Profetit 150",
-      "tr": "Peygamber Dersi 150"
+      "de": "Frieden-Geschichte 150",
+      "al": "Histori Paqja 150",
+      "tr": "Barış Hikayesi 150"
     },
     "content": {
-      "de": "Eine Geschichte über Geduld und Gottvertrauen.",
-      "al": "Një histori për durimin dhe besimin në Zot.",
-      "tr": "Sabır ve tevekkül üzerine bir hikaye."
+      "de": "Es war einmal ein Kind, das lernte, wie wichtig Ehrlichkeit ist...",
+      "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është ndershmëria...",
+      "tr": "Bir zamanlar dürüstlüğün ne kadar önemli olduğunu öğrenen bir çocuk varmış..."
     }
   }
 ]

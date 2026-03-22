@@ -11,23 +11,26 @@ import PrayerFlow from './components/PrayerFlow';
 import Quiz from './components/Quiz';
 import QuranTrainer from './components/QuranTrainer';
 import Achievements from './components/Achievements';
+import SurenList from './components/SurenList';
+import SureDetail from './components/SureDetail';
 
 import { useData } from './hooks/useData';
 
 export default function App() {
-  const { duas, hadiths, stories, loading } = useData();
+  const { duas, hadiths, stories, suren, loading } = useData();
   const [activeTab, setActiveTab] = useState('home');
   const [selectedLang, setSelectedLang] = useState('de');
   const [selectedDua, setSelectedDua] = useState(null);
   const [selectedStory, setSelectedStory] = useState(null);
   const [selectedHadith, setSelectedHadith] = useState(null);
+  const [selectedSure, setSelectedSure] = useState(null);
   const [selectedFeature, setSelectedFeature] = useState(null);
   
   // New States for Phase 1 & 2
   const [isDarkMode, setIsDarkMode] = useState(() => localStorage.getItem('theme') === 'dark');
   const [favorites, setFavorites] = useState(() => {
     const saved = localStorage.getItem('favorites');
-    return saved ? JSON.parse(saved) : { duas: [], hadiths: [], stories: [] };
+    return saved ? JSON.parse(saved) : { duas: [], hadiths: [], stories: [], suren: [] };
   });
 
   const [stats, setStats] = useState(() => {
@@ -72,9 +75,9 @@ export default function App() {
   };
 
   const uiTexts = {
-    de: { welcome: "Hallo! Lass uns lernen 🌟", duas: "Meine Duas", stories: "Geschichten", hadiths: "Hadithe", selectDua: "Wähle ein Dua aus:", selectStory: "Wähle eine Geschichte:", selectHadith: "Wähle einen Hadith:", listen: "Anhören", source: "Quelle", prophet: "Prophet", sleep: "Schlafen", parents: "Eltern", level: "Level", xp: "EP" },
-    al: { welcome: "Përshëndetje! Le të mësojmë 🌟", duas: "Duatë e mia", stories: "Tregime", hadiths: "Hadithe", selectDua: "Zgjidh një Dua:", selectStory: "Zgjidh një tregim:", selectHadith: "Zgjidh një Hadith:", listen: "Dëgjo", source: "Burimi", prophet: "Profeti", sleep: "Gjumi", parents: "Prindërit", level: "Niveli", xp: "XP" },
-    tr: { welcome: "Merhaba! Hadi öğrenelim 🌟", duas: "Dualarım", stories: "Hikayeler", hadiths: "Hadisler", selectDua: "Bir Dua seç:", selectStory: "Bir hikaye seç:", selectHadith: "Bir Hadis seç:", listen: "Dinle", source: "Kaynak", prophet: "Peygamber", sleep: "Uyku", parents: "Anne Baba", level: "Seviye", xp: "XP" }
+    de: { welcome: "Hallo! Lass uns lernen 🌟", duas: "Duas", stories: "Stories", hadiths: "Hadithe", suren: "Suren", selectDua: "Wähle ein Dua aus:", selectStory: "Wähle eine Geschichte:", selectHadith: "Wähle einen Hadith:", listen: "Anhören", source: "Quelle", prophet: "Prophet", sleep: "Schlafen", parents: "Eltern", level: "Level", xp: "EP" },
+    al: { welcome: "Përshëndetje! Le të mësojmë 🌟", duas: "Duatë", stories: "Tregime", hadiths: "Hadithe", suren: "Suret", selectDua: "Zgjidh një Dua:", selectStory: "Zgjidh një tregim:", selectHadith: "Zgjidh një Hadith:", listen: "Dëgjo", source: "Burimi", prophet: "Profeti", sleep: "Gjumi", parents: "Prindërit", level: "Niveli", xp: "XP" },
+    tr: { welcome: "Merhaba! Hadi öğrenelim 🌟", duas: "Dualar", stories: "Hikayeler", hadiths: "Hadisler", suren: "Sureler", selectDua: "Bir Dua seç:", selectStory: "Bir hikaye seç:", selectHadith: "Bir Hadis seç:", listen: "Dinle", source: "Kaynak", prophet: "Peygamber", sleep: "Uyku", parents: "Anne Baba", level: "Seviye", xp: "XP" }
   };
 
   const langMap = {
@@ -94,6 +97,7 @@ export default function App() {
     setSelectedDua(null);
     setSelectedStory(null);
     setSelectedHadith(null);
+    setSelectedSure(null);
     setSelectedFeature(null);
   };
 
@@ -143,7 +147,7 @@ export default function App() {
         </div>
       </div>
 
-      <div className="h-[calc(100vh-160px)] overflow-y-auto">
+      <div className="h-[calc(100vh-170px)] overflow-y-auto">
         {loading ? (
           <div className="flex flex-col items-center justify-center h-full space-y-4">
             <div className={`w-12 h-12 border-4 rounded-full animate-spin ${isDarkMode ? 'border-slate-700 border-t-green-500' : 'border-green-200 border-t-green-500'}`}></div>
@@ -163,6 +167,7 @@ export default function App() {
                 duas={duas} 
                 hadiths={hadiths} 
                 stories={stories} 
+                suren={suren}
                 addXp={addXp}
                 incrementStat={incrementStat}
               />
@@ -198,9 +203,11 @@ export default function App() {
                     duas={duas}
                     hadiths={hadiths}
                     stories={stories}
+                    suren={suren}
                     isDarkMode={isDarkMode}
                     favorites={favorites}
                     stats={stats}
+                    setSelectedSure={setSelectedSure}
                   />
                 )}
                 {activeTab === 'duas' && !selectedDua && !selectedStory && !selectedHadith && (
@@ -271,6 +278,17 @@ export default function App() {
                     incrementStat={incrementStat}
                   />
                 )}
+                {selectedSure && (
+                  <SureDetail 
+                    item={selectedSure} 
+                    selectedLang={selectedLang} 
+                    onBack={() => setSelectedSure(null)} 
+                    isDarkMode={isDarkMode}
+                    toggleFavorite={toggleFavorite}
+                    favorites={favorites}
+                    incrementStat={incrementStat}
+                  />
+                )}
               </>
             )}
           </>
@@ -282,7 +300,7 @@ export default function App() {
         <div className={`fixed bottom-0 max-w-md w-full border-t flex justify-between px-2 py-3 pb-6 shadow-[0_-10px_40px_rgba(0,0,0,0.05)] z-20 transition-colors ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-100'}`}>
           <button 
             onClick={() => handleTabChange('home')}
-            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'home' ? 'text-green-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'home' ? 'text-green-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
           >
             <HomeIcon size={22} />
             <span className="text-[10px] font-bold">Home</span>
@@ -290,15 +308,23 @@ export default function App() {
           
           <button 
             onClick={() => handleTabChange('duas')}
-            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'duas' ? 'text-green-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'duas' ? 'text-green-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
           >
             <BookOpen size={22} />
             <span className="text-[10px] font-bold">{uiTexts[selectedLang].duas}</span>
           </button>
 
           <button 
+            onClick={() => handleTabChange('suren')}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'suren' ? 'text-green-600' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
+          >
+            <BookOpen size={22} />
+            <span className="text-[10px] font-bold">{uiTexts[selectedLang].suren}</span>
+          </button>
+          
+          <button 
             onClick={() => handleTabChange('hadiths')}
-            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'hadiths' ? 'text-yellow-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'hadiths' ? 'text-yellow-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
           >
             <MessageCircle size={22} />
             <span className="text-[10px] font-bold">{uiTexts[selectedLang].hadiths}</span>
@@ -306,7 +332,7 @@ export default function App() {
 
           <button 
             onClick={() => handleTabChange('stories')}
-            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'stories' ? 'text-purple-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'stories' ? 'text-purple-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
           >
             <Library size={22} />
             <span className="text-[10px] font-bold">{uiTexts[selectedLang].stories}</span>

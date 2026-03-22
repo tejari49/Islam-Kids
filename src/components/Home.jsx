@@ -8,10 +8,12 @@ export default function Home({
   setSelectedDua, 
   setSelectedStory,
   setSelectedHadith,
+  setSelectedSure,
   setSelectedFeature,
   duas, 
   hadiths, 
   stories, 
+  suren,
   isDarkMode, 
   favorites,
   stats
@@ -28,16 +30,18 @@ export default function Home({
         hash |= 0;
     }
     const absHash = Math.abs(hash);
-    return {
-      dua: absHash % (duas.length || 1),
-      hadith: absHash % (hadiths.length || 1),
-      story: absHash % (stories.length || 1)
-    };
-  }, [duas.length, hadiths.length, stories.length]);
-
-  const dailyDua = duas[dailyIndices.dua];
-  const dailyHadith = hadiths[dailyIndices.hadith];
-  const dailyStory = stories[dailyIndices.story];
+     return {
+       dua: absHash % (duas.length || 1),
+       hadith: absHash % (hadiths.length || 1),
+       story: absHash % (stories.length || 1),
+       sure: absHash % (suren.length || 1)
+     };
+   }, [duas.length, hadiths.length, stories.length, suren.length]);
+ 
+   const dailyDua = duas[dailyIndices.dua];
+   const dailyHadith = hadiths[dailyIndices.hadith];
+   const dailyStory = stories[dailyIndices.story];
+   const dailySure = suren[dailyIndices.sure];
 
   useEffect(() => {
     const fetchPrayerTimes = async () => {
@@ -56,9 +60,10 @@ export default function Home({
 
   const favoriteItems = [
     ...(favorites.duas || []).map(id => ({ ...duas.find(d => d.id === id), type: 'duas' })),
-    ...(favorites.hadiths || []).map(id => ({ ...hadiths.find(h => h.id === id), type: 'hadiths' })),
-    ...(favorites.stories || []).map(id => ({ ...stories.find(s => s.id === id), type: 'stories' }))
-  ].filter(item => item.id);
+     ...(favorites.hadiths || []).map(id => ({ ...hadiths.find(h => h.id === id), type: 'hadiths' })),
+     ...(favorites.stories || []).map(id => ({ ...stories.find(s => s.id === id), type: 'stories' })),
+     ...(favorites.suren || []).map(id => ({ ...suren.find(s => s.id === id), type: 'suren' }))
+   ].filter(item => item && item.id);
 
   return (
     <div className={`p-6 pb-24 space-y-8 transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-gray-50'}`}>
@@ -106,6 +111,17 @@ export default function Home({
               {selectedLang === 'de' ? 'Suren lernen' : selectedLang === 'al' ? 'Mëso Sura' : 'Sure Ezberle'}
             </h3>
             <span className="text-[10px] font-black text-emerald-500 bg-emerald-50 border border-emerald-100 px-2 py-0.5 rounded-full uppercase">XP +50</span>
+          </button>
+
+          <button 
+            onClick={() => handleTabChange('suren')}
+            className={`p-5 rounded-3xl border-2 flex flex-col items-center gap-3 transition-all hover:scale-[1.02] active:scale-[0.95] shadow-md ${isDarkMode ? 'bg-blue-900/20 border-blue-500/30' : 'bg-white border-blue-100'}`}
+          >
+            <div className="text-4xl">📜</div>
+            <h3 className={`font-black text-sm transition-colors ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>
+              {selectedLang === 'de' ? 'Alle Suren' : selectedLang === 'al' ? 'Të gjitha Suret' : 'Tüm Sureler'}
+            </h3>
+            <span className="text-[10px] font-black text-blue-500 bg-blue-50 border border-blue-100 px-2 py-0.5 rounded-full uppercase">114 + 36</span>
           </button>
 
           <button 
@@ -164,6 +180,7 @@ export default function Home({
                   if (item.type === 'duas') setSelectedDua(item);
                   else if (item.type === 'hadiths') setSelectedHadith(item);
                   else if (item.type === 'stories') setSelectedStory(item);
+                  else if (item.type === 'suren') setSelectedSure(item);
                 }}
                 className={`flex-shrink-0 w-32 p-4 rounded-3xl border-2 flex flex-col items-center gap-2 transition-all hover:scale-105 active:scale-95 shadow-sm ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-100'}`}
               >
@@ -214,15 +231,15 @@ export default function Home({
             </button>
           )}
 
-          {dailyStory && (
+           {dailySure && (
             <button 
-              onClick={() => setSelectedStory(dailyStory)}
-              className={`w-full p-6 rounded-[2.5rem] border-2 flex items-center gap-5 transition-all hover:scale-[1.01] active:scale-[0.98] shadow-sm ${isDarkMode ? 'bg-slate-800 border-purple-900/30 shadow-slate-950/30' : 'bg-white border-purple-50'}`}
+              onClick={() => setSelectedSure(dailySure)}
+              className={`w-full p-6 rounded-[2.5rem] border-2 flex items-center gap-5 transition-all hover:scale-[1.01] active:scale-[0.98] shadow-sm ${isDarkMode ? 'bg-slate-800 border-green-900/30 shadow-slate-950/30' : 'bg-white border-green-50'}`}
             >
-              <div className="text-5xl">🌙</div>
+              <div className="text-5xl">📖</div>
               <div className="text-left flex-1">
-                <p className="text-[10px] font-black text-purple-500 uppercase tracking-widest mb-1">Gute Nacht Geschichte</p>
-                <h3 className={`font-bold text-xl leading-tight transition-colors ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{dailyStory.title[selectedLang]}</h3>
+                <p className="text-[10px] font-black text-green-600 uppercase tracking-widest mb-1">Sure des Tages</p>
+                <h3 className={`font-bold text-xl leading-tight transition-colors ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{dailySure.title[selectedLang]}</h3>
               </div>
             </button>
           )}

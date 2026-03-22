@@ -1,0 +1,2252 @@
+[
+  {
+    "id": 1,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Fatiha",
+      "al": "Sureja Al-Fatiha",
+      "tr": "Al-Fatiha Suresi"
+    },
+    "arabic": "سورة Al-Fatiha",
+    "meaning": {
+      "de": "Dies ist die 1. Sure des Korans.",
+      "al": "Kjo është surja e 1 e Kuranit.",
+      "tr": "Bu Kur'an'ın 1. suresidir."
+    }
+  },
+  {
+    "id": 2,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Baqarah",
+      "al": "Sureja Al-Baqarah",
+      "tr": "Al-Baqarah Suresi"
+    },
+    "arabic": "سورة Al-Baqarah",
+    "meaning": {
+      "de": "Dies ist die 2. Sure des Korans.",
+      "al": "Kjo është surja e 2 e Kuranit.",
+      "tr": "Bu Kur'an'ın 2. suresidir."
+    }
+  },
+  {
+    "id": 3,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Imran",
+      "al": "Sureja Al-Imran",
+      "tr": "Al-Imran Suresi"
+    },
+    "arabic": "سورة Al-Imran",
+    "meaning": {
+      "de": "Dies ist die 3. Sure des Korans.",
+      "al": "Kjo është surja e 3 e Kuranit.",
+      "tr": "Bu Kur'an'ın 3. suresidir."
+    }
+  },
+  {
+    "id": 4,
+    "icon": "📖",
+    "title": {
+      "de": "Sure An-Nisa",
+      "al": "Sureja An-Nisa",
+      "tr": "An-Nisa Suresi"
+    },
+    "arabic": "سورة An-Nisa",
+    "meaning": {
+      "de": "Dies ist die 4. Sure des Korans.",
+      "al": "Kjo është surja e 4 e Kuranit.",
+      "tr": "Bu Kur'an'ın 4. suresidir."
+    }
+  },
+  {
+    "id": 5,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Ma'idah",
+      "al": "Sureja Al-Ma'idah",
+      "tr": "Al-Ma'idah Suresi"
+    },
+    "arabic": "سورة Al-Ma'idah",
+    "meaning": {
+      "de": "Dies ist die 5. Sure des Korans.",
+      "al": "Kjo është surja e 5 e Kuranit.",
+      "tr": "Bu Kur'an'ın 5. suresidir."
+    }
+  },
+  {
+    "id": 6,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-An'am",
+      "al": "Sureja Al-An'am",
+      "tr": "Al-An'am Suresi"
+    },
+    "arabic": "سورة Al-An'am",
+    "meaning": {
+      "de": "Dies ist die 6. Sure des Korans.",
+      "al": "Kjo është surja e 6 e Kuranit.",
+      "tr": "Bu Kur'an'ın 6. suresidir."
+    }
+  },
+  {
+    "id": 7,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-A'raf",
+      "al": "Sureja Al-A'raf",
+      "tr": "Al-A'raf Suresi"
+    },
+    "arabic": "سورة Al-A'raf",
+    "meaning": {
+      "de": "Dies ist die 7. Sure des Korans.",
+      "al": "Kjo është surja e 7 e Kuranit.",
+      "tr": "Bu Kur'an'ın 7. suresidir."
+    }
+  },
+  {
+    "id": 8,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Anfal",
+      "al": "Sureja Al-Anfal",
+      "tr": "Al-Anfal Suresi"
+    },
+    "arabic": "سورة Al-Anfal",
+    "meaning": {
+      "de": "Dies ist die 8. Sure des Korans.",
+      "al": "Kjo është surja e 8 e Kuranit.",
+      "tr": "Bu Kur'an'ın 8. suresidir."
+    }
+  },
+  {
+    "id": 9,
+    "icon": "📖",
+    "title": {
+      "de": "Sure At-Tawbah",
+      "al": "Sureja At-Tawbah",
+      "tr": "At-Tawbah Suresi"
+    },
+    "arabic": "سورة At-Tawbah",
+    "meaning": {
+      "de": "Dies ist die 9. Sure des Korans.",
+      "al": "Kjo është surja e 9 e Kuranit.",
+      "tr": "Bu Kur'an'ın 9. suresidir."
+    }
+  },
+  {
+    "id": 10,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Yunus",
+      "al": "Sureja Yunus",
+      "tr": "Yunus Suresi"
+    },
+    "arabic": "سورة Yunus",
+    "meaning": {
+      "de": "Dies ist die 10. Sure des Korans.",
+      "al": "Kjo është surja e 10 e Kuranit.",
+      "tr": "Bu Kur'an'ın 10. suresidir."
+    }
+  },
+  {
+    "id": 11,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Hud",
+      "al": "Sureja Hud",
+      "tr": "Hud Suresi"
+    },
+    "arabic": "سورة Hud",
+    "meaning": {
+      "de": "Dies ist die 11. Sure des Korans.",
+      "al": "Kjo është surja e 11 e Kuranit.",
+      "tr": "Bu Kur'an'ın 11. suresidir."
+    }
+  },
+  {
+    "id": 12,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Yusuf",
+      "al": "Sureja Yusuf",
+      "tr": "Yusuf Suresi"
+    },
+    "arabic": "سورة Yusuf",
+    "meaning": {
+      "de": "Dies ist die 12. Sure des Korans.",
+      "al": "Kjo është surja e 12 e Kuranit.",
+      "tr": "Bu Kur'an'ın 12. suresidir."
+    }
+  },
+  {
+    "id": 13,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Ar-Ra'd",
+      "al": "Sureja Ar-Ra'd",
+      "tr": "Ar-Ra'd Suresi"
+    },
+    "arabic": "سورة Ar-Ra'd",
+    "meaning": {
+      "de": "Dies ist die 13. Sure des Korans.",
+      "al": "Kjo është surja e 13 e Kuranit.",
+      "tr": "Bu Kur'an'ın 13. suresidir."
+    }
+  },
+  {
+    "id": 14,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Ibrahim",
+      "al": "Sureja Ibrahim",
+      "tr": "Ibrahim Suresi"
+    },
+    "arabic": "سورة Ibrahim",
+    "meaning": {
+      "de": "Dies ist die 14. Sure des Korans.",
+      "al": "Kjo është surja e 14 e Kuranit.",
+      "tr": "Bu Kur'an'ın 14. suresidir."
+    }
+  },
+  {
+    "id": 15,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Hijr",
+      "al": "Sureja Al-Hijr",
+      "tr": "Al-Hijr Suresi"
+    },
+    "arabic": "سورة Al-Hijr",
+    "meaning": {
+      "de": "Dies ist die 15. Sure des Korans.",
+      "al": "Kjo është surja e 15 e Kuranit.",
+      "tr": "Bu Kur'an'ın 15. suresidir."
+    }
+  },
+  {
+    "id": 16,
+    "icon": "📖",
+    "title": {
+      "de": "Sure An-Nahl",
+      "al": "Sureja An-Nahl",
+      "tr": "An-Nahl Suresi"
+    },
+    "arabic": "سورة An-Nahl",
+    "meaning": {
+      "de": "Dies ist die 16. Sure des Korans.",
+      "al": "Kjo është surja e 16 e Kuranit.",
+      "tr": "Bu Kur'an'ın 16. suresidir."
+    }
+  },
+  {
+    "id": 17,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Isra",
+      "al": "Sureja Al-Isra",
+      "tr": "Al-Isra Suresi"
+    },
+    "arabic": "سورة Al-Isra",
+    "meaning": {
+      "de": "Dies ist die 17. Sure des Korans.",
+      "al": "Kjo është surja e 17 e Kuranit.",
+      "tr": "Bu Kur'an'ın 17. suresidir."
+    }
+  },
+  {
+    "id": 18,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Kahf",
+      "al": "Sureja Al-Kahf",
+      "tr": "Al-Kahf Suresi"
+    },
+    "arabic": "سورة Al-Kahf",
+    "meaning": {
+      "de": "Dies ist die 18. Sure des Korans.",
+      "al": "Kjo është surja e 18 e Kuranit.",
+      "tr": "Bu Kur'an'ın 18. suresidir."
+    }
+  },
+  {
+    "id": 19,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Maryam",
+      "al": "Sureja Maryam",
+      "tr": "Maryam Suresi"
+    },
+    "arabic": "سورة Maryam",
+    "meaning": {
+      "de": "Dies ist die 19. Sure des Korans.",
+      "al": "Kjo është surja e 19 e Kuranit.",
+      "tr": "Bu Kur'an'ın 19. suresidir."
+    }
+  },
+  {
+    "id": 20,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Ta-Ha",
+      "al": "Sureja Ta-Ha",
+      "tr": "Ta-Ha Suresi"
+    },
+    "arabic": "سورة Ta-Ha",
+    "meaning": {
+      "de": "Dies ist die 20. Sure des Korans.",
+      "al": "Kjo është surja e 20 e Kuranit.",
+      "tr": "Bu Kur'an'ın 20. suresidir."
+    }
+  },
+  {
+    "id": 21,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Anbiya",
+      "al": "Sureja Al-Anbiya",
+      "tr": "Al-Anbiya Suresi"
+    },
+    "arabic": "سورة Al-Anbiya",
+    "meaning": {
+      "de": "Dies ist die 21. Sure des Korans.",
+      "al": "Kjo është surja e 21 e Kuranit.",
+      "tr": "Bu Kur'an'ın 21. suresidir."
+    }
+  },
+  {
+    "id": 22,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Hajj",
+      "al": "Sureja Al-Hajj",
+      "tr": "Al-Hajj Suresi"
+    },
+    "arabic": "سورة Al-Hajj",
+    "meaning": {
+      "de": "Dies ist die 22. Sure des Korans.",
+      "al": "Kjo është surja e 22 e Kuranit.",
+      "tr": "Bu Kur'an'ın 22. suresidir."
+    }
+  },
+  {
+    "id": 23,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Mu'minun",
+      "al": "Sureja Al-Mu'minun",
+      "tr": "Al-Mu'minun Suresi"
+    },
+    "arabic": "سورة Al-Mu'minun",
+    "meaning": {
+      "de": "Dies ist die 23. Sure des Korans.",
+      "al": "Kjo është surja e 23 e Kuranit.",
+      "tr": "Bu Kur'an'ın 23. suresidir."
+    }
+  },
+  {
+    "id": 24,
+    "icon": "📖",
+    "title": {
+      "de": "Sure An-Nur",
+      "al": "Sureja An-Nur",
+      "tr": "An-Nur Suresi"
+    },
+    "arabic": "سورة An-Nur",
+    "meaning": {
+      "de": "Dies ist die 24. Sure des Korans.",
+      "al": "Kjo është surja e 24 e Kuranit.",
+      "tr": "Bu Kur'an'ın 24. suresidir."
+    }
+  },
+  {
+    "id": 25,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Furqan",
+      "al": "Sureja Al-Furqan",
+      "tr": "Al-Furqan Suresi"
+    },
+    "arabic": "سورة Al-Furqan",
+    "meaning": {
+      "de": "Dies ist die 25. Sure des Korans.",
+      "al": "Kjo është surja e 25 e Kuranit.",
+      "tr": "Bu Kur'an'ın 25. suresidir."
+    }
+  },
+  {
+    "id": 26,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Ash-Shu'ara",
+      "al": "Sureja Ash-Shu'ara",
+      "tr": "Ash-Shu'ara Suresi"
+    },
+    "arabic": "سورة Ash-Shu'ara",
+    "meaning": {
+      "de": "Dies ist die 26. Sure des Korans.",
+      "al": "Kjo është surja e 26 e Kuranit.",
+      "tr": "Bu Kur'an'ın 26. suresidir."
+    }
+  },
+  {
+    "id": 27,
+    "icon": "📖",
+    "title": {
+      "de": "Sure An-Naml",
+      "al": "Sureja An-Naml",
+      "tr": "An-Naml Suresi"
+    },
+    "arabic": "سورة An-Naml",
+    "meaning": {
+      "de": "Dies ist die 27. Sure des Korans.",
+      "al": "Kjo është surja e 27 e Kuranit.",
+      "tr": "Bu Kur'an'ın 27. suresidir."
+    }
+  },
+  {
+    "id": 28,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Qasas",
+      "al": "Sureja Al-Qasas",
+      "tr": "Al-Qasas Suresi"
+    },
+    "arabic": "سورة Al-Qasas",
+    "meaning": {
+      "de": "Dies ist die 28. Sure des Korans.",
+      "al": "Kjo është surja e 28 e Kuranit.",
+      "tr": "Bu Kur'an'ın 28. suresidir."
+    }
+  },
+  {
+    "id": 29,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Ankabut",
+      "al": "Sureja Al-Ankabut",
+      "tr": "Al-Ankabut Suresi"
+    },
+    "arabic": "سورة Al-Ankabut",
+    "meaning": {
+      "de": "Dies ist die 29. Sure des Korans.",
+      "al": "Kjo është surja e 29 e Kuranit.",
+      "tr": "Bu Kur'an'ın 29. suresidir."
+    }
+  },
+  {
+    "id": 30,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Ar-Rum",
+      "al": "Sureja Ar-Rum",
+      "tr": "Ar-Rum Suresi"
+    },
+    "arabic": "سورة Ar-Rum",
+    "meaning": {
+      "de": "Dies ist die 30. Sure des Korans.",
+      "al": "Kjo është surja e 30 e Kuranit.",
+      "tr": "Bu Kur'an'ın 30. suresidir."
+    }
+  },
+  {
+    "id": 31,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Luqman",
+      "al": "Sureja Luqman",
+      "tr": "Luqman Suresi"
+    },
+    "arabic": "سورة Luqman",
+    "meaning": {
+      "de": "Dies ist die 31. Sure des Korans.",
+      "al": "Kjo është surja e 31 e Kuranit.",
+      "tr": "Bu Kur'an'ın 31. suresidir."
+    }
+  },
+  {
+    "id": 32,
+    "icon": "📖",
+    "title": {
+      "de": "Sure As-Sajdah",
+      "al": "Sureja As-Sajdah",
+      "tr": "As-Sajdah Suresi"
+    },
+    "arabic": "سورة As-Sajdah",
+    "meaning": {
+      "de": "Dies ist die 32. Sure des Korans.",
+      "al": "Kjo është surja e 32 e Kuranit.",
+      "tr": "Bu Kur'an'ın 32. suresidir."
+    }
+  },
+  {
+    "id": 33,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Ahzab",
+      "al": "Sureja Al-Ahzab",
+      "tr": "Al-Ahzab Suresi"
+    },
+    "arabic": "سورة Al-Ahzab",
+    "meaning": {
+      "de": "Dies ist die 33. Sure des Korans.",
+      "al": "Kjo është surja e 33 e Kuranit.",
+      "tr": "Bu Kur'an'ın 33. suresidir."
+    }
+  },
+  {
+    "id": 34,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Saba",
+      "al": "Sureja Saba",
+      "tr": "Saba Suresi"
+    },
+    "arabic": "سورة Saba",
+    "meaning": {
+      "de": "Dies ist die 34. Sure des Korans.",
+      "al": "Kjo është surja e 34 e Kuranit.",
+      "tr": "Bu Kur'an'ın 34. suresidir."
+    }
+  },
+  {
+    "id": 35,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Fatir",
+      "al": "Sureja Fatir",
+      "tr": "Fatir Suresi"
+    },
+    "arabic": "سورة Fatir",
+    "meaning": {
+      "de": "Dies ist die 35. Sure des Korans.",
+      "al": "Kjo është surja e 35 e Kuranit.",
+      "tr": "Bu Kur'an'ın 35. suresidir."
+    }
+  },
+  {
+    "id": 36,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Ya-Sin",
+      "al": "Sureja Ya-Sin",
+      "tr": "Ya-Sin Suresi"
+    },
+    "arabic": "سورة Ya-Sin",
+    "meaning": {
+      "de": "Dies ist die 36. Sure des Korans.",
+      "al": "Kjo është surja e 36 e Kuranit.",
+      "tr": "Bu Kur'an'ın 36. suresidir."
+    }
+  },
+  {
+    "id": 37,
+    "icon": "📖",
+    "title": {
+      "de": "Sure As-Saffat",
+      "al": "Sureja As-Saffat",
+      "tr": "As-Saffat Suresi"
+    },
+    "arabic": "سورة As-Saffat",
+    "meaning": {
+      "de": "Dies ist die 37. Sure des Korans.",
+      "al": "Kjo është surja e 37 e Kuranit.",
+      "tr": "Bu Kur'an'ın 37. suresidir."
+    }
+  },
+  {
+    "id": 38,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Sad",
+      "al": "Sureja Sad",
+      "tr": "Sad Suresi"
+    },
+    "arabic": "سورة Sad",
+    "meaning": {
+      "de": "Dies ist die 38. Sure des Korans.",
+      "al": "Kjo është surja e 38 e Kuranit.",
+      "tr": "Bu Kur'an'ın 38. suresidir."
+    }
+  },
+  {
+    "id": 39,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Az-Zumar",
+      "al": "Sureja Az-Zumar",
+      "tr": "Az-Zumar Suresi"
+    },
+    "arabic": "سورة Az-Zumar",
+    "meaning": {
+      "de": "Dies ist die 39. Sure des Korans.",
+      "al": "Kjo është surja e 39 e Kuranit.",
+      "tr": "Bu Kur'an'ın 39. suresidir."
+    }
+  },
+  {
+    "id": 40,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Ghafir",
+      "al": "Sureja Ghafir",
+      "tr": "Ghafir Suresi"
+    },
+    "arabic": "سورة Ghafir",
+    "meaning": {
+      "de": "Dies ist die 40. Sure des Korans.",
+      "al": "Kjo është surja e 40 e Kuranit.",
+      "tr": "Bu Kur'an'ın 40. suresidir."
+    }
+  },
+  {
+    "id": 41,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Fussilat",
+      "al": "Sureja Fussilat",
+      "tr": "Fussilat Suresi"
+    },
+    "arabic": "سورة Fussilat",
+    "meaning": {
+      "de": "Dies ist die 41. Sure des Korans.",
+      "al": "Kjo është surja e 41 e Kuranit.",
+      "tr": "Bu Kur'an'ın 41. suresidir."
+    }
+  },
+  {
+    "id": 42,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Ash-Shura",
+      "al": "Sureja Ash-Shura",
+      "tr": "Ash-Shura Suresi"
+    },
+    "arabic": "سورة Ash-Shura",
+    "meaning": {
+      "de": "Dies ist die 42. Sure des Korans.",
+      "al": "Kjo është surja e 42 e Kuranit.",
+      "tr": "Bu Kur'an'ın 42. suresidir."
+    }
+  },
+  {
+    "id": 43,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Az-Zukhruf",
+      "al": "Sureja Az-Zukhruf",
+      "tr": "Az-Zukhruf Suresi"
+    },
+    "arabic": "سورة Az-Zukhruf",
+    "meaning": {
+      "de": "Dies ist die 43. Sure des Korans.",
+      "al": "Kjo është surja e 43 e Kuranit.",
+      "tr": "Bu Kur'an'ın 43. suresidir."
+    }
+  },
+  {
+    "id": 44,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Ad-Dukhan",
+      "al": "Sureja Ad-Dukhan",
+      "tr": "Ad-Dukhan Suresi"
+    },
+    "arabic": "سورة Ad-Dukhan",
+    "meaning": {
+      "de": "Dies ist die 44. Sure des Korans.",
+      "al": "Kjo është surja e 44 e Kuranit.",
+      "tr": "Bu Kur'an'ın 44. suresidir."
+    }
+  },
+  {
+    "id": 45,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Jathiyah",
+      "al": "Sureja Al-Jathiyah",
+      "tr": "Al-Jathiyah Suresi"
+    },
+    "arabic": "سورة Al-Jathiyah",
+    "meaning": {
+      "de": "Dies ist die 45. Sure des Korans.",
+      "al": "Kjo është surja e 45 e Kuranit.",
+      "tr": "Bu Kur'an'ın 45. suresidir."
+    }
+  },
+  {
+    "id": 46,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Ahqaf",
+      "al": "Sureja Al-Ahqaf",
+      "tr": "Al-Ahqaf Suresi"
+    },
+    "arabic": "سورة Al-Ahqaf",
+    "meaning": {
+      "de": "Dies ist die 46. Sure des Korans.",
+      "al": "Kjo është surja e 46 e Kuranit.",
+      "tr": "Bu Kur'an'ın 46. suresidir."
+    }
+  },
+  {
+    "id": 47,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Muhammad",
+      "al": "Sureja Muhammad",
+      "tr": "Muhammad Suresi"
+    },
+    "arabic": "سورة Muhammad",
+    "meaning": {
+      "de": "Dies ist die 47. Sure des Korans.",
+      "al": "Kjo është surja e 47 e Kuranit.",
+      "tr": "Bu Kur'an'ın 47. suresidir."
+    }
+  },
+  {
+    "id": 48,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Fath",
+      "al": "Sureja Al-Fath",
+      "tr": "Al-Fath Suresi"
+    },
+    "arabic": "سورة Al-Fath",
+    "meaning": {
+      "de": "Dies ist die 48. Sure des Korans.",
+      "al": "Kjo është surja e 48 e Kuranit.",
+      "tr": "Bu Kur'an'ın 48. suresidir."
+    }
+  },
+  {
+    "id": 49,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Hujurat",
+      "al": "Sureja Al-Hujurat",
+      "tr": "Al-Hujurat Suresi"
+    },
+    "arabic": "سورة Al-Hujurat",
+    "meaning": {
+      "de": "Dies ist die 49. Sure des Korans.",
+      "al": "Kjo është surja e 49 e Kuranit.",
+      "tr": "Bu Kur'an'ın 49. suresidir."
+    }
+  },
+  {
+    "id": 50,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Qaf",
+      "al": "Sureja Qaf",
+      "tr": "Qaf Suresi"
+    },
+    "arabic": "سورة Qaf",
+    "meaning": {
+      "de": "Dies ist die 50. Sure des Korans.",
+      "al": "Kjo është surja e 50 e Kuranit.",
+      "tr": "Bu Kur'an'ın 50. suresidir."
+    }
+  },
+  {
+    "id": 51,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Adh-Dhariyat",
+      "al": "Sureja Adh-Dhariyat",
+      "tr": "Adh-Dhariyat Suresi"
+    },
+    "arabic": "سورة Adh-Dhariyat",
+    "meaning": {
+      "de": "Dies ist die 51. Sure des Korans.",
+      "al": "Kjo është surja e 51 e Kuranit.",
+      "tr": "Bu Kur'an'ın 51. suresidir."
+    }
+  },
+  {
+    "id": 52,
+    "icon": "📖",
+    "title": {
+      "de": "Sure At-Tur",
+      "al": "Sureja At-Tur",
+      "tr": "At-Tur Suresi"
+    },
+    "arabic": "سورة At-Tur",
+    "meaning": {
+      "de": "Dies ist die 52. Sure des Korans.",
+      "al": "Kjo është surja e 52 e Kuranit.",
+      "tr": "Bu Kur'an'ın 52. suresidir."
+    }
+  },
+  {
+    "id": 53,
+    "icon": "📖",
+    "title": {
+      "de": "Sure An-Najm",
+      "al": "Sureja An-Najm",
+      "tr": "An-Najm Suresi"
+    },
+    "arabic": "سورة An-Najm",
+    "meaning": {
+      "de": "Dies ist die 53. Sure des Korans.",
+      "al": "Kjo është surja e 53 e Kuranit.",
+      "tr": "Bu Kur'an'ın 53. suresidir."
+    }
+  },
+  {
+    "id": 54,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Qamar",
+      "al": "Sureja Al-Qamar",
+      "tr": "Al-Qamar Suresi"
+    },
+    "arabic": "سورة Al-Qamar",
+    "meaning": {
+      "de": "Dies ist die 54. Sure des Korans.",
+      "al": "Kjo është surja e 54 e Kuranit.",
+      "tr": "Bu Kur'an'ın 54. suresidir."
+    }
+  },
+  {
+    "id": 55,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Ar-Rahman",
+      "al": "Sureja Ar-Rahman",
+      "tr": "Ar-Rahman Suresi"
+    },
+    "arabic": "سورة Ar-Rahman",
+    "meaning": {
+      "de": "Dies ist die 55. Sure des Korans.",
+      "al": "Kjo është surja e 55 e Kuranit.",
+      "tr": "Bu Kur'an'ın 55. suresidir."
+    }
+  },
+  {
+    "id": 56,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Waqi'ah",
+      "al": "Sureja Al-Waqi'ah",
+      "tr": "Al-Waqi'ah Suresi"
+    },
+    "arabic": "سورة Al-Waqi'ah",
+    "meaning": {
+      "de": "Dies ist die 56. Sure des Korans.",
+      "al": "Kjo është surja e 56 e Kuranit.",
+      "tr": "Bu Kur'an'ın 56. suresidir."
+    }
+  },
+  {
+    "id": 57,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Hadid",
+      "al": "Sureja Al-Hadid",
+      "tr": "Al-Hadid Suresi"
+    },
+    "arabic": "سورة Al-Hadid",
+    "meaning": {
+      "de": "Dies ist die 57. Sure des Korans.",
+      "al": "Kjo është surja e 57 e Kuranit.",
+      "tr": "Bu Kur'an'ın 57. suresidir."
+    }
+  },
+  {
+    "id": 58,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Mujadila",
+      "al": "Sureja Al-Mujadila",
+      "tr": "Al-Mujadila Suresi"
+    },
+    "arabic": "سورة Al-Mujadila",
+    "meaning": {
+      "de": "Dies ist die 58. Sure des Korans.",
+      "al": "Kjo është surja e 58 e Kuranit.",
+      "tr": "Bu Kur'an'ın 58. suresidir."
+    }
+  },
+  {
+    "id": 59,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Hashr",
+      "al": "Sureja Al-Hashr",
+      "tr": "Al-Hashr Suresi"
+    },
+    "arabic": "سورة Al-Hashr",
+    "meaning": {
+      "de": "Dies ist die 59. Sure des Korans.",
+      "al": "Kjo është surja e 59 e Kuranit.",
+      "tr": "Bu Kur'an'ın 59. suresidir."
+    }
+  },
+  {
+    "id": 60,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Mumtahanah",
+      "al": "Sureja Al-Mumtahanah",
+      "tr": "Al-Mumtahanah Suresi"
+    },
+    "arabic": "سورة Al-Mumtahanah",
+    "meaning": {
+      "de": "Dies ist die 60. Sure des Korans.",
+      "al": "Kjo është surja e 60 e Kuranit.",
+      "tr": "Bu Kur'an'ın 60. suresidir."
+    }
+  },
+  {
+    "id": 61,
+    "icon": "📖",
+    "title": {
+      "de": "Sure As-Saff",
+      "al": "Sureja As-Saff",
+      "tr": "As-Saff Suresi"
+    },
+    "arabic": "سورة As-Saff",
+    "meaning": {
+      "de": "Dies ist die 61. Sure des Korans.",
+      "al": "Kjo është surja e 61 e Kuranit.",
+      "tr": "Bu Kur'an'ın 61. suresidir."
+    }
+  },
+  {
+    "id": 62,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Jumu'ah",
+      "al": "Sureja Al-Jumu'ah",
+      "tr": "Al-Jumu'ah Suresi"
+    },
+    "arabic": "سورة Al-Jumu'ah",
+    "meaning": {
+      "de": "Dies ist die 62. Sure des Korans.",
+      "al": "Kjo është surja e 62 e Kuranit.",
+      "tr": "Bu Kur'an'ın 62. suresidir."
+    }
+  },
+  {
+    "id": 63,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Munafiqun",
+      "al": "Sureja Al-Munafiqun",
+      "tr": "Al-Munafiqun Suresi"
+    },
+    "arabic": "سورة Al-Munafiqun",
+    "meaning": {
+      "de": "Dies ist die 63. Sure des Korans.",
+      "al": "Kjo është surja e 63 e Kuranit.",
+      "tr": "Bu Kur'an'ın 63. suresidir."
+    }
+  },
+  {
+    "id": 64,
+    "icon": "📖",
+    "title": {
+      "de": "Sure At-Taghabun",
+      "al": "Sureja At-Taghabun",
+      "tr": "At-Taghabun Suresi"
+    },
+    "arabic": "سورة At-Taghabun",
+    "meaning": {
+      "de": "Dies ist die 64. Sure des Korans.",
+      "al": "Kjo është surja e 64 e Kuranit.",
+      "tr": "Bu Kur'an'ın 64. suresidir."
+    }
+  },
+  {
+    "id": 65,
+    "icon": "📖",
+    "title": {
+      "de": "Sure At-Talaq",
+      "al": "Sureja At-Talaq",
+      "tr": "At-Talaq Suresi"
+    },
+    "arabic": "سورة At-Talaq",
+    "meaning": {
+      "de": "Dies ist die 65. Sure des Korans.",
+      "al": "Kjo është surja e 65 e Kuranit.",
+      "tr": "Bu Kur'an'ın 65. suresidir."
+    }
+  },
+  {
+    "id": 66,
+    "icon": "📖",
+    "title": {
+      "de": "Sure At-Tahrim",
+      "al": "Sureja At-Tahrim",
+      "tr": "At-Tahrim Suresi"
+    },
+    "arabic": "سورة At-Tahrim",
+    "meaning": {
+      "de": "Dies ist die 66. Sure des Korans.",
+      "al": "Kjo është surja e 66 e Kuranit.",
+      "tr": "Bu Kur'an'ın 66. suresidir."
+    }
+  },
+  {
+    "id": 67,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Mulk",
+      "al": "Sureja Al-Mulk",
+      "tr": "Al-Mulk Suresi"
+    },
+    "arabic": "سورة Al-Mulk",
+    "meaning": {
+      "de": "Dies ist die 67. Sure des Korans.",
+      "al": "Kjo është surja e 67 e Kuranit.",
+      "tr": "Bu Kur'an'ın 67. suresidir."
+    }
+  },
+  {
+    "id": 68,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Qalam",
+      "al": "Sureja Al-Qalam",
+      "tr": "Al-Qalam Suresi"
+    },
+    "arabic": "سورة Al-Qalam",
+    "meaning": {
+      "de": "Dies ist die 68. Sure des Korans.",
+      "al": "Kjo është surja e 68 e Kuranit.",
+      "tr": "Bu Kur'an'ın 68. suresidir."
+    }
+  },
+  {
+    "id": 69,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Haqqah",
+      "al": "Sureja Al-Haqqah",
+      "tr": "Al-Haqqah Suresi"
+    },
+    "arabic": "سورة Al-Haqqah",
+    "meaning": {
+      "de": "Dies ist die 69. Sure des Korans.",
+      "al": "Kjo është surja e 69 e Kuranit.",
+      "tr": "Bu Kur'an'ın 69. suresidir."
+    }
+  },
+  {
+    "id": 70,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Ma'arij",
+      "al": "Sureja Al-Ma'arij",
+      "tr": "Al-Ma'arij Suresi"
+    },
+    "arabic": "سورة Al-Ma'arij",
+    "meaning": {
+      "de": "Dies ist die 70. Sure des Korans.",
+      "al": "Kjo është surja e 70 e Kuranit.",
+      "tr": "Bu Kur'an'ın 70. suresidir."
+    }
+  },
+  {
+    "id": 71,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Nuh",
+      "al": "Sureja Nuh",
+      "tr": "Nuh Suresi"
+    },
+    "arabic": "سورة Nuh",
+    "meaning": {
+      "de": "Dies ist die 71. Sure des Korans.",
+      "al": "Kjo është surja e 71 e Kuranit.",
+      "tr": "Bu Kur'an'ın 71. suresidir."
+    }
+  },
+  {
+    "id": 72,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Jinn",
+      "al": "Sureja Al-Jinn",
+      "tr": "Al-Jinn Suresi"
+    },
+    "arabic": "سورة Al-Jinn",
+    "meaning": {
+      "de": "Dies ist die 72. Sure des Korans.",
+      "al": "Kjo është surja e 72 e Kuranit.",
+      "tr": "Bu Kur'an'ın 72. suresidir."
+    }
+  },
+  {
+    "id": 73,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Muzzammil",
+      "al": "Sureja Al-Muzzammil",
+      "tr": "Al-Muzzammil Suresi"
+    },
+    "arabic": "سورة Al-Muzzammil",
+    "meaning": {
+      "de": "Dies ist die 73. Sure des Korans.",
+      "al": "Kjo është surja e 73 e Kuranit.",
+      "tr": "Bu Kur'an'ın 73. suresidir."
+    }
+  },
+  {
+    "id": 74,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Muddaththir",
+      "al": "Sureja Al-Muddaththir",
+      "tr": "Al-Muddaththir Suresi"
+    },
+    "arabic": "سورة Al-Muddaththir",
+    "meaning": {
+      "de": "Dies ist die 74. Sure des Korans.",
+      "al": "Kjo është surja e 74 e Kuranit.",
+      "tr": "Bu Kur'an'ın 74. suresidir."
+    }
+  },
+  {
+    "id": 75,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Qiyamah",
+      "al": "Sureja Al-Qiyamah",
+      "tr": "Al-Qiyamah Suresi"
+    },
+    "arabic": "سورة Al-Qiyamah",
+    "meaning": {
+      "de": "Dies ist die 75. Sure des Korans.",
+      "al": "Kjo është surja e 75 e Kuranit.",
+      "tr": "Bu Kur'an'ın 75. suresidir."
+    }
+  },
+  {
+    "id": 76,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Insan",
+      "al": "Sureja Al-Insan",
+      "tr": "Al-Insan Suresi"
+    },
+    "arabic": "سورة Al-Insan",
+    "meaning": {
+      "de": "Dies ist die 76. Sure des Korans.",
+      "al": "Kjo është surja e 76 e Kuranit.",
+      "tr": "Bu Kur'an'ın 76. suresidir."
+    }
+  },
+  {
+    "id": 77,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Mursalat",
+      "al": "Sureja Al-Mursalat",
+      "tr": "Al-Mursalat Suresi"
+    },
+    "arabic": "سورة Al-Mursalat",
+    "meaning": {
+      "de": "Dies ist die 77. Sure des Korans.",
+      "al": "Kjo është surja e 77 e Kuranit.",
+      "tr": "Bu Kur'an'ın 77. suresidir."
+    }
+  },
+  {
+    "id": 78,
+    "icon": "📖",
+    "title": {
+      "de": "Sure An-Naba",
+      "al": "Sureja An-Naba",
+      "tr": "An-Naba Suresi"
+    },
+    "arabic": "سورة An-Naba",
+    "meaning": {
+      "de": "Dies ist die 78. Sure des Korans.",
+      "al": "Kjo është surja e 78 e Kuranit.",
+      "tr": "Bu Kur'an'ın 78. suresidir."
+    }
+  },
+  {
+    "id": 79,
+    "icon": "📖",
+    "title": {
+      "de": "Sure An-Nazi'at",
+      "al": "Sureja An-Nazi'at",
+      "tr": "An-Nazi'at Suresi"
+    },
+    "arabic": "سورة An-Nazi'at",
+    "meaning": {
+      "de": "Dies ist die 79. Sure des Korans.",
+      "al": "Kjo është surja e 79 e Kuranit.",
+      "tr": "Bu Kur'an'ın 79. suresidir."
+    }
+  },
+  {
+    "id": 80,
+    "icon": "📖",
+    "title": {
+      "de": "Sure 'Abasa",
+      "al": "Sureja 'Abasa",
+      "tr": "'Abasa Suresi"
+    },
+    "arabic": "سورة 'Abasa",
+    "meaning": {
+      "de": "Dies ist die 80. Sure des Korans.",
+      "al": "Kjo është surja e 80 e Kuranit.",
+      "tr": "Bu Kur'an'ın 80. suresidir."
+    }
+  },
+  {
+    "id": 81,
+    "icon": "📖",
+    "title": {
+      "de": "Sure At-Takwir",
+      "al": "Sureja At-Takwir",
+      "tr": "At-Takwir Suresi"
+    },
+    "arabic": "سورة At-Takwir",
+    "meaning": {
+      "de": "Dies ist die 81. Sure des Korans.",
+      "al": "Kjo është surja e 81 e Kuranit.",
+      "tr": "Bu Kur'an'ın 81. suresidir."
+    }
+  },
+  {
+    "id": 82,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Infitar",
+      "al": "Sureja Al-Infitar",
+      "tr": "Al-Infitar Suresi"
+    },
+    "arabic": "سورة Al-Infitar",
+    "meaning": {
+      "de": "Dies ist die 82. Sure des Korans.",
+      "al": "Kjo është surja e 82 e Kuranit.",
+      "tr": "Bu Kur'an'ın 82. suresidir."
+    }
+  },
+  {
+    "id": 83,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Mutaffifin",
+      "al": "Sureja Al-Mutaffifin",
+      "tr": "Al-Mutaffifin Suresi"
+    },
+    "arabic": "سورة Al-Mutaffifin",
+    "meaning": {
+      "de": "Dies ist die 83. Sure des Korans.",
+      "al": "Kjo është surja e 83 e Kuranit.",
+      "tr": "Bu Kur'an'ın 83. suresidir."
+    }
+  },
+  {
+    "id": 84,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Inshiqaq",
+      "al": "Sureja Al-Inshiqaq",
+      "tr": "Al-Inshiqaq Suresi"
+    },
+    "arabic": "سورة Al-Inshiqaq",
+    "meaning": {
+      "de": "Dies ist die 84. Sure des Korans.",
+      "al": "Kjo është surja e 84 e Kuranit.",
+      "tr": "Bu Kur'an'ın 84. suresidir."
+    }
+  },
+  {
+    "id": 85,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Buruj",
+      "al": "Sureja Al-Buruj",
+      "tr": "Al-Buruj Suresi"
+    },
+    "arabic": "سورة Al-Buruj",
+    "meaning": {
+      "de": "Dies ist die 85. Sure des Korans.",
+      "al": "Kjo është surja e 85 e Kuranit.",
+      "tr": "Bu Kur'an'ın 85. suresidir."
+    }
+  },
+  {
+    "id": 86,
+    "icon": "📖",
+    "title": {
+      "de": "Sure At-Tariq",
+      "al": "Sureja At-Tariq",
+      "tr": "At-Tariq Suresi"
+    },
+    "arabic": "سورة At-Tariq",
+    "meaning": {
+      "de": "Dies ist die 86. Sure des Korans.",
+      "al": "Kjo është surja e 86 e Kuranit.",
+      "tr": "Bu Kur'an'ın 86. suresidir."
+    }
+  },
+  {
+    "id": 87,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-A'la",
+      "al": "Sureja Al-A'la",
+      "tr": "Al-A'la Suresi"
+    },
+    "arabic": "سورة Al-A'la",
+    "meaning": {
+      "de": "Dies ist die 87. Sure des Korans.",
+      "al": "Kjo është surja e 87 e Kuranit.",
+      "tr": "Bu Kur'an'ın 87. suresidir."
+    }
+  },
+  {
+    "id": 88,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Ghashiyah",
+      "al": "Sureja Al-Ghashiyah",
+      "tr": "Al-Ghashiyah Suresi"
+    },
+    "arabic": "سورة Al-Ghashiyah",
+    "meaning": {
+      "de": "Dies ist die 88. Sure des Korans.",
+      "al": "Kjo është surja e 88 e Kuranit.",
+      "tr": "Bu Kur'an'ın 88. suresidir."
+    }
+  },
+  {
+    "id": 89,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Fajr",
+      "al": "Sureja Al-Fajr",
+      "tr": "Al-Fajr Suresi"
+    },
+    "arabic": "سورة Al-Fajr",
+    "meaning": {
+      "de": "Dies ist die 89. Sure des Korans.",
+      "al": "Kjo është surja e 89 e Kuranit.",
+      "tr": "Bu Kur'an'ın 89. suresidir."
+    }
+  },
+  {
+    "id": 90,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Balad",
+      "al": "Sureja Al-Balad",
+      "tr": "Al-Balad Suresi"
+    },
+    "arabic": "سورة Al-Balad",
+    "meaning": {
+      "de": "Dies ist die 90. Sure des Korans.",
+      "al": "Kjo është surja e 90 e Kuranit.",
+      "tr": "Bu Kur'an'ın 90. suresidir."
+    }
+  },
+  {
+    "id": 91,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Ash-Shams",
+      "al": "Sureja Ash-Shams",
+      "tr": "Ash-Shams Suresi"
+    },
+    "arabic": "سورة Ash-Shams",
+    "meaning": {
+      "de": "Dies ist die 91. Sure des Korans.",
+      "al": "Kjo është surja e 91 e Kuranit.",
+      "tr": "Bu Kur'an'ın 91. suresidir."
+    }
+  },
+  {
+    "id": 92,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Layl",
+      "al": "Sureja Al-Layl",
+      "tr": "Al-Layl Suresi"
+    },
+    "arabic": "سورة Al-Layl",
+    "meaning": {
+      "de": "Dies ist die 92. Sure des Korans.",
+      "al": "Kjo është surja e 92 e Kuranit.",
+      "tr": "Bu Kur'an'ın 92. suresidir."
+    }
+  },
+  {
+    "id": 93,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Ad-Duha",
+      "al": "Sureja Ad-Duha",
+      "tr": "Ad-Duha Suresi"
+    },
+    "arabic": "سورة Ad-Duha",
+    "meaning": {
+      "de": "Dies ist die 93. Sure des Korans.",
+      "al": "Kjo është surja e 93 e Kuranit.",
+      "tr": "Bu Kur'an'ın 93. suresidir."
+    }
+  },
+  {
+    "id": 94,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Ash-Sharh",
+      "al": "Sureja Ash-Sharh",
+      "tr": "Ash-Sharh Suresi"
+    },
+    "arabic": "سورة Ash-Sharh",
+    "meaning": {
+      "de": "Dies ist die 94. Sure des Korans.",
+      "al": "Kjo është surja e 94 e Kuranit.",
+      "tr": "Bu Kur'an'ın 94. suresidir."
+    }
+  },
+  {
+    "id": 95,
+    "icon": "📖",
+    "title": {
+      "de": "Sure At-Tin",
+      "al": "Sureja At-Tin",
+      "tr": "At-Tin Suresi"
+    },
+    "arabic": "سورة At-Tin",
+    "meaning": {
+      "de": "Dies ist die 95. Sure des Korans.",
+      "al": "Kjo është surja e 95 e Kuranit.",
+      "tr": "Bu Kur'an'ın 95. suresidir."
+    }
+  },
+  {
+    "id": 96,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-'Alaq",
+      "al": "Sureja Al-'Alaq",
+      "tr": "Al-'Alaq Suresi"
+    },
+    "arabic": "سورة Al-'Alaq",
+    "meaning": {
+      "de": "Dies ist die 96. Sure des Korans.",
+      "al": "Kjo është surja e 96 e Kuranit.",
+      "tr": "Bu Kur'an'ın 96. suresidir."
+    }
+  },
+  {
+    "id": 97,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Qadr",
+      "al": "Sureja Al-Qadr",
+      "tr": "Al-Qadr Suresi"
+    },
+    "arabic": "سورة Al-Qadr",
+    "meaning": {
+      "de": "Dies ist die 97. Sure des Korans.",
+      "al": "Kjo është surja e 97 e Kuranit.",
+      "tr": "Bu Kur'an'ın 97. suresidir."
+    }
+  },
+  {
+    "id": 98,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Bayyinah",
+      "al": "Sureja Al-Bayyinah",
+      "tr": "Al-Bayyinah Suresi"
+    },
+    "arabic": "سورة Al-Bayyinah",
+    "meaning": {
+      "de": "Dies ist die 98. Sure des Korans.",
+      "al": "Kjo është surja e 98 e Kuranit.",
+      "tr": "Bu Kur'an'ın 98. suresidir."
+    }
+  },
+  {
+    "id": 99,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Az-Zalzalah",
+      "al": "Sureja Az-Zalzalah",
+      "tr": "Az-Zalzalah Suresi"
+    },
+    "arabic": "سورة Az-Zalzalah",
+    "meaning": {
+      "de": "Dies ist die 99. Sure des Korans.",
+      "al": "Kjo është surja e 99 e Kuranit.",
+      "tr": "Bu Kur'an'ın 99. suresidir."
+    }
+  },
+  {
+    "id": 100,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-'Adiyat",
+      "al": "Sureja Al-'Adiyat",
+      "tr": "Al-'Adiyat Suresi"
+    },
+    "arabic": "سورة Al-'Adiyat",
+    "meaning": {
+      "de": "Dies ist die 100. Sure des Korans.",
+      "al": "Kjo është surja e 100 e Kuranit.",
+      "tr": "Bu Kur'an'ın 100. suresidir."
+    }
+  },
+  {
+    "id": 101,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Qari'ah",
+      "al": "Sureja Al-Qari'ah",
+      "tr": "Al-Qari'ah Suresi"
+    },
+    "arabic": "سورة Al-Qari'ah",
+    "meaning": {
+      "de": "Dies ist die 101. Sure des Korans.",
+      "al": "Kjo është surja e 101 e Kuranit.",
+      "tr": "Bu Kur'an'ın 101. suresidir."
+    }
+  },
+  {
+    "id": 102,
+    "icon": "📖",
+    "title": {
+      "de": "Sure At-Takathur",
+      "al": "Sureja At-Takathur",
+      "tr": "At-Takathur Suresi"
+    },
+    "arabic": "سورة At-Takathur",
+    "meaning": {
+      "de": "Dies ist die 102. Sure des Korans.",
+      "al": "Kjo është surja e 102 e Kuranit.",
+      "tr": "Bu Kur'an'ın 102. suresidir."
+    }
+  },
+  {
+    "id": 103,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-'Asr",
+      "al": "Sureja Al-'Asr",
+      "tr": "Al-'Asr Suresi"
+    },
+    "arabic": "سورة Al-'Asr",
+    "meaning": {
+      "de": "Dies ist die 103. Sure des Korans.",
+      "al": "Kjo është surja e 103 e Kuranit.",
+      "tr": "Bu Kur'an'ın 103. suresidir."
+    }
+  },
+  {
+    "id": 104,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Humazah",
+      "al": "Sureja Al-Humazah",
+      "tr": "Al-Humazah Suresi"
+    },
+    "arabic": "سورة Al-Humazah",
+    "meaning": {
+      "de": "Dies ist die 104. Sure des Korans.",
+      "al": "Kjo është surja e 104 e Kuranit.",
+      "tr": "Bu Kur'an'ın 104. suresidir."
+    }
+  },
+  {
+    "id": 105,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Fil",
+      "al": "Sureja Al-Fil",
+      "tr": "Al-Fil Suresi"
+    },
+    "arabic": "سورة Al-Fil",
+    "meaning": {
+      "de": "Dies ist die 105. Sure des Korans.",
+      "al": "Kjo është surja e 105 e Kuranit.",
+      "tr": "Bu Kur'an'ın 105. suresidir."
+    }
+  },
+  {
+    "id": 106,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Quraysh",
+      "al": "Sureja Quraysh",
+      "tr": "Quraysh Suresi"
+    },
+    "arabic": "سورة Quraysh",
+    "meaning": {
+      "de": "Dies ist die 106. Sure des Korans.",
+      "al": "Kjo është surja e 106 e Kuranit.",
+      "tr": "Bu Kur'an'ın 106. suresidir."
+    }
+  },
+  {
+    "id": 107,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Ma'un",
+      "al": "Sureja Al-Ma'un",
+      "tr": "Al-Ma'un Suresi"
+    },
+    "arabic": "سورة Al-Ma'un",
+    "meaning": {
+      "de": "Dies ist die 107. Sure des Korans.",
+      "al": "Kjo është surja e 107 e Kuranit.",
+      "tr": "Bu Kur'an'ın 107. suresidir."
+    }
+  },
+  {
+    "id": 108,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Kawthar",
+      "al": "Sureja Al-Kawthar",
+      "tr": "Al-Kawthar Suresi"
+    },
+    "arabic": "سورة Al-Kawthar",
+    "meaning": {
+      "de": "Dies ist die 108. Sure des Korans.",
+      "al": "Kjo është surja e 108 e Kuranit.",
+      "tr": "Bu Kur'an'ın 108. suresidir."
+    }
+  },
+  {
+    "id": 109,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Kafirun",
+      "al": "Sureja Al-Kafirun",
+      "tr": "Al-Kafirun Suresi"
+    },
+    "arabic": "سورة Al-Kafirun",
+    "meaning": {
+      "de": "Dies ist die 109. Sure des Korans.",
+      "al": "Kjo është surja e 109 e Kuranit.",
+      "tr": "Bu Kur'an'ın 109. suresidir."
+    }
+  },
+  {
+    "id": 110,
+    "icon": "📖",
+    "title": {
+      "de": "Sure An-Nasr",
+      "al": "Sureja An-Nasr",
+      "tr": "An-Nasr Suresi"
+    },
+    "arabic": "سورة An-Nasr",
+    "meaning": {
+      "de": "Dies ist die 110. Sure des Korans.",
+      "al": "Kjo është surja e 110 e Kuranit.",
+      "tr": "Bu Kur'an'ın 110. suresidir."
+    }
+  },
+  {
+    "id": 111,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Masad",
+      "al": "Sureja Al-Masad",
+      "tr": "Al-Masad Suresi"
+    },
+    "arabic": "سورة Al-Masad",
+    "meaning": {
+      "de": "Dies ist die 111. Sure des Korans.",
+      "al": "Kjo është surja e 111 e Kuranit.",
+      "tr": "Bu Kur'an'ın 111. suresidir."
+    }
+  },
+  {
+    "id": 112,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Ikhlas",
+      "al": "Sureja Al-Ikhlas",
+      "tr": "Al-Ikhlas Suresi"
+    },
+    "arabic": "سورة Al-Ikhlas",
+    "meaning": {
+      "de": "Dies ist die 112. Sure des Korans.",
+      "al": "Kjo është surja e 112 e Kuranit.",
+      "tr": "Bu Kur'an'ın 112. suresidir."
+    }
+  },
+  {
+    "id": 113,
+    "icon": "📖",
+    "title": {
+      "de": "Sure Al-Falaq",
+      "al": "Sureja Al-Falaq",
+      "tr": "Al-Falaq Suresi"
+    },
+    "arabic": "سورة Al-Falaq",
+    "meaning": {
+      "de": "Dies ist die 113. Sure des Korans.",
+      "al": "Kjo është surja e 113 e Kuranit.",
+      "tr": "Bu Kur'an'ın 113. suresidir."
+    }
+  },
+  {
+    "id": 114,
+    "icon": "📖",
+    "title": {
+      "de": "Sure An-Nas",
+      "al": "Sureja An-Nas",
+      "tr": "An-Nas Suresi"
+    },
+    "arabic": "سورة An-Nas",
+    "meaning": {
+      "de": "Dies ist die 114. Sure des Korans.",
+      "al": "Kjo është surja e 114 e Kuranit.",
+      "tr": "Bu Kur'an'ın 114. suresidir."
+    }
+  },
+  {
+    "id": 115,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 115",
+      "al": "Xhevahir Kurani 115",
+      "tr": "Kur'an İncisi 115"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 116,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 116",
+      "al": "Xhevahir Kurani 116",
+      "tr": "Kur'an İncisi 116"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 117,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 117",
+      "al": "Xhevahir Kurani 117",
+      "tr": "Kur'an İncisi 117"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 118,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 118",
+      "al": "Xhevahir Kurani 118",
+      "tr": "Kur'an İncisi 118"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 119,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 119",
+      "al": "Xhevahir Kurani 119",
+      "tr": "Kur'an İncisi 119"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 120,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 120",
+      "al": "Xhevahir Kurani 120",
+      "tr": "Kur'an İncisi 120"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 121,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 121",
+      "al": "Xhevahir Kurani 121",
+      "tr": "Kur'an İncisi 121"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 122,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 122",
+      "al": "Xhevahir Kurani 122",
+      "tr": "Kur'an İncisi 122"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 123,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 123",
+      "al": "Xhevahir Kurani 123",
+      "tr": "Kur'an İncisi 123"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 124,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 124",
+      "al": "Xhevahir Kurani 124",
+      "tr": "Kur'an İncisi 124"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 125,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 125",
+      "al": "Xhevahir Kurani 125",
+      "tr": "Kur'an İncisi 125"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 126,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 126",
+      "al": "Xhevahir Kurani 126",
+      "tr": "Kur'an İncisi 126"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 127,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 127",
+      "al": "Xhevahir Kurani 127",
+      "tr": "Kur'an İncisi 127"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 128,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 128",
+      "al": "Xhevahir Kurani 128",
+      "tr": "Kur'an İncisi 128"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 129,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 129",
+      "al": "Xhevahir Kurani 129",
+      "tr": "Kur'an İncisi 129"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 130,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 130",
+      "al": "Xhevahir Kurani 130",
+      "tr": "Kur'an İncisi 130"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 131,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 131",
+      "al": "Xhevahir Kurani 131",
+      "tr": "Kur'an İncisi 131"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 132,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 132",
+      "al": "Xhevahir Kurani 132",
+      "tr": "Kur'an İncisi 132"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 133,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 133",
+      "al": "Xhevahir Kurani 133",
+      "tr": "Kur'an İncisi 133"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 134,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 134",
+      "al": "Xhevahir Kurani 134",
+      "tr": "Kur'an İncisi 134"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 135,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 135",
+      "al": "Xhevahir Kurani 135",
+      "tr": "Kur'an İncisi 135"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 136,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 136",
+      "al": "Xhevahir Kurani 136",
+      "tr": "Kur'an İncisi 136"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 137,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 137",
+      "al": "Xhevahir Kurani 137",
+      "tr": "Kur'an İncisi 137"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 138,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 138",
+      "al": "Xhevahir Kurani 138",
+      "tr": "Kur'an İncisi 138"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 139,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 139",
+      "al": "Xhevahir Kurani 139",
+      "tr": "Kur'an İncisi 139"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 140,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 140",
+      "al": "Xhevahir Kurani 140",
+      "tr": "Kur'an İncisi 140"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 141,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 141",
+      "al": "Xhevahir Kurani 141",
+      "tr": "Kur'an İncisi 141"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 142,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 142",
+      "al": "Xhevahir Kurani 142",
+      "tr": "Kur'an İncisi 142"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 143,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 143",
+      "al": "Xhevahir Kurani 143",
+      "tr": "Kur'an İncisi 143"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 144,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 144",
+      "al": "Xhevahir Kurani 144",
+      "tr": "Kur'an İncisi 144"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 145,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 145",
+      "al": "Xhevahir Kurani 145",
+      "tr": "Kur'an İncisi 145"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 146,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 146",
+      "al": "Xhevahir Kurani 146",
+      "tr": "Kur'an İncisi 146"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 147,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 147",
+      "al": "Xhevahir Kurani 147",
+      "tr": "Kur'an İncisi 147"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 148,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 148",
+      "al": "Xhevahir Kurani 148",
+      "tr": "Kur'an İncisi 148"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 149,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 149",
+      "al": "Xhevahir Kurani 149",
+      "tr": "Kur'an İncisi 149"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  },
+  {
+    "id": 150,
+    "icon": "💎",
+    "title": {
+      "de": "Koran-Juwel 150",
+      "al": "Xhevahir Kurani 150",
+      "tr": "Kur'an İncisi 150"
+    },
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "meaning": {
+      "de": "Mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi.",
+      "tr": "Zorlukla beraber bir kolaylık vardır."
+    }
+  }
+]

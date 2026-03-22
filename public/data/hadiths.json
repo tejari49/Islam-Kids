@@ -3,19 +3,9 @@
     "id": 1,
     "icon": "😊",
     "title": {
-      "de": "Lächeln ist Sadaqah",
+      "de": "Lächeln ist Sadaqa",
       "al": "Buzëqeshja është Sadaka",
       "tr": "Gülümsemek Sadakadır"
-    },
-    "text": {
-      "de": "Ein Lächeln im Gesicht deines Mitmenschen ist wie eine Spende (Sadaqah).",
-      "al": "Të buzëqeshësh në fytyrën e vëllait tënd është lëmoshë (Sadaka).",
-      "tr": "Kardeşinin yüzüne gülümsemen senin için bir sadakadır."
-    },
-    "explanation": {
-      "de": "Schon ein einfaches Lächeln wird von Allah belohnt, weil es andere glücklich macht! Es kostet nichts, bringt aber viel Freude.",
-      "al": "Edhe një buzëqeshje e thjeshtë shpërblehet nga Allahu, sepse i bën të tjerët të lumtur! Nuk kushton asgjë, por sjell shumë gëzim.",
-      "tr": "Basit bir gülümseme bile başkalarını mutlu ettiği için Allah tarafından ödüllendirilir! Hiçbir maliyeti yoktur ama çok neşe getirir."
     },
     "source": "Tirmidhi"
   },
@@ -27,17 +17,7 @@
       "al": "Të folurit e mirë",
       "tr": "Güzel Konuşmak"
     },
-    "text": {
-      "de": "Wer an Allah und den Jüngsten Tag glaubt, soll Gutes sprechen oder schweigen.",
-      "al": "Kush beson në Allahun dhe Ditën e Gjykimit, le të flasë mirë ose le të heshtë.",
-      "tr": "Allah'a ve ahiret gününe inanan ya hayır söylesin ya da sussun."
-    },
-    "explanation": {
-      "de": "Worte können manchmal wehtun. Als Muslime sagen wir schöne, nette Dinge zu anderen. Wenn wir nichts Nettes zu sagen haben, ist es besser, leise zu sein.",
-      "al": "Fjalët ndonjëherë mund të lëndojnë. Si muslimanë, ne u themi gjëra të bukura dhe të këndshme të tjerëve. Nëse nuk kemi asgjë të bukur për të thënë, është më mirë të heshtim.",
-      "tr": "Kelimeler bazen incitebilir. Müslümanlar olarak başkalarına güzel, nazik şeyler söyleriz. Söyleyecek güzel bir şeyimiz yoksa sessiz kalmak daha iyidir."
-    },
-    "source": "Bukhari & Muslim"
+    "source": "Bukhari"
   },
   {
     "id": 3,
@@ -47,35 +27,15 @@
       "al": "Pastërtia",
       "tr": "Temizlik"
     },
-    "text": {
-      "de": "Reinlichkeit ist die halbe Religion.",
-      "al": "Pastërtia është gjysma e besimit.",
-      "tr": "Temizlik imanın yarısıdır."
-    },
-    "explanation": {
-      "de": "Allah liebt es, wenn wir sauber sind! Das bedeutet, dass wir uns waschen (Wudu), unsere Zähne putzen und auch unser Zimmer und unsere Umwelt ordentlich halten.",
-      "al": "Allahu e do kur ne jemi të pastër! Kjo do të thotë që ne lahemi (marrim abdes), pastrojmë dhëmbët tanë dhe gjithashtu mbajmë dhomën dhe mjedisin tonë të rregullt.",
-      "tr": "Allah temiz olmamızı sever! Bu, yıkandığımız (abdest), dişlerimizi fırçaladığımız ve ayrıca odamızı ve çevremizi düzenli tuttuğumuz anlamına gelir."
-    },
     "source": "Muslim"
   },
   {
     "id": 4,
-    "icon": "🐈",
+    "icon": "🐕",
     "title": {
-      "de": "Tiere gut behandeln",
-      "al": "Mirësia ndaj kafshëve",
-      "tr": "Hayvanlara iyi davranmak"
-    },
-    "text": {
-      "de": "Eine Frau durfte ins Paradies eintreten, weil sie einem sehr durstigen Hund Wasser aus einem Brunnen gab.",
-      "al": "Një grua hyri në Xhenet sepse i dha ujë një qeni shumë të etur nga një pus.",
-      "tr": "Susuz kalmış bir köpeğe kuyudan su veren bir kadın Cennet'e girdi."
-    },
-    "explanation": {
-      "de": "Islam bedeutet auch, Tiere mit viel Liebe und Respekt zu behandeln. Sie sind Allahs Geschöpfe. Wer gut zu Tieren ist, wird von Allah sehr belohnt!",
-      "al": "Islami do të thotë gjithashtu t'i trajtosh kafshët me shumë dashuri dhe respekt. Ato janë krijesa të Allahut. Kushdo që është i mirë me kafshët do të shpërblehet shumë nga Allahu!",
-      "tr": "İslam aynı zamanda hayvanlara bol sevgi ve saygıyla davranmak demektir. Onlar Allah'ın yaratıklarıdır. Hayvanlara iyi davranan kişi Allah tarafından çokça ödüllendirilecektir!"
+      "de": "Güte zu Tieren",
+      "al": "Mëshira ndaj kafshëve",
+      "tr": "Hayvanlara Merhamet"
     },
     "source": "Bukhari"
   },
@@ -87,36 +47,17 @@
       "al": "Dashuria për të tjerët",
       "tr": "Başkaları için sevmek"
     },
-    "text": {
-      "de": "Keiner von euch glaubt wirklich, bis er für seinen Bruder (oder seine Schwester) das liebt, was er für sich selbst liebt.",
-      "al": "Asnjëri prej jush nuk beson vërtet derisa të dojë për vëllain (ose motrën) e tij atë që do për veten e tij.",
-      "tr": "Hiçbiriniz kendisi için sevdiğini kardeşi için de sevmedikçe tam iman etmiş olmaz."
-    },
-    "explanation": {
-      "de": "Ein gutes Herz zu haben bedeutet, dass man anderen Menschen genauso viel Glück, Essen und Spielzeug gönnt, wie man selbst gerne hätte. Neid gibt es im Islam nicht.",
-      "al": "Të kesh një zemër të mirë do të thotë t'u dëshirosh njerëzve të tjerë po aq lumturi, ushqim dhe lodra sa do të doje për veten tënde. Zilia nuk ekziston në Islam.",
-      "tr": "İyi bir kalbe sahip olmak, başkaları için kendinize dilediğiniz kadar mutluluk, yiyecek ve oyuncak dilemek demektir. İslam'da kıskançlık yoktur."
-    }
+    "source": "Muslim"
   },
   {
     "id": 6,
-    "icon": "🛑",
+    "icon": "🚫",
     "title": {
       "de": "Wut kontrollieren",
-      "al": "Kontrollimi i zemërimit",
-      "tr": "Öfkeyi kontrol etmek"
+      "al": "Kontrolli i zemërimit",
+      "tr": "Öfkeyi Yenmek"
     },
-    "text": {
-      "de": "Der Starke ist nicht derjenige, der die Leute niederringt, sondern derjenige, der sich beim Zorn beherrscht.",
-      "al": "I fortë nuk është ai që i mund njerëzit, por ai që e përmban veten në kohë zemërimi.",
-      "tr": "Gerçek pehlivan güreşte rakiplerini yenen değil, öfkelendiğinde kendisine hakim olan kimsedir."
-    },
-    "explanation": {
-      "de": "Manchmal ärgern wir uns sehr. Aber richtig stark ist nicht jemand mit großen Muskeln, sondern jemand, der tief durchatmet und nicht schreit oder haut, wenn er wütend ist.",
-      "al": "Ndonjëherë ne zemërohemi shumë. Por i fortë me të vërtetë nuk është dikush me muskuj të mëdhenj, por dikush që merr frymë thellë dhe nuk bërtet ose godet kur është i zemëruar.",
-      "tr": "Bazen çok kızarız. Ancak asıl güçlü olan büyük kaslara sahip olan değil, öfkelendiğinde derin nefes alan ve bağırmayan veya vurmayan kişidir."
-    },
-    "source": "Bukhari & Muslim"
+    "source": "Bukhari"
   },
   {
     "id": 7,
@@ -126,17 +67,7 @@
       "al": "Ndershmëria",
       "tr": "Dürüstlük"
     },
-    "text": {
-      "de": "Ehrlichkeit führt zur Rechtschaffenheit und Rechtschaffenheit führt ins Paradies.",
-      "al": "Ndershmëria të çon në mirësi, dhe mirësia të çon në Xhenet.",
-      "tr": "Doğruluk iyiliğe, iyilik ise Cennet'e götürür."
-    },
-    "explanation": {
-      "de": "Immer die Wahrheit zu sagen ist sehr wichtig im Islam. Wenn wir ehrlich sind, machen wir gute Dinge, und Allah liebt ehrliche Menschen so sehr, dass Er sie ins Paradies bringt.",
-      "al": "Të thuash gjithmonë të vërtetën është shumë e rëndësishme në Islam. Kur ne jemi të sinqertë, ne bëjmë gjëra të mira, dhe Allahu i do aq shumë njerëzit e sinqertë sa i çon në Xhenet.",
-      "tr": "Her zaman doğruyu söylemek İslam'da çok önemlidir. Dürüst olduğumuzda iyi şeyler yaparız ve Allah dürüst insanları o kadar sever ki onları Cennet'e koyar."
-    },
-    "source": "Bukhari & Muslim"
+    "source": "Muslim"
   },
   {
     "id": 8,
@@ -146,2856 +77,2826 @@
       "al": "Dhuratat",
       "tr": "Hediyeleşmek"
     },
-    "text": {
-      "de": "Macht einander Geschenke, so werdet ihr einander lieben.",
-      "al": "Bëjini dhurata njëri-tjetrit që të duheni.",
-      "tr": "Hediyeleşin ki birbirinize sevginiz artsın."
-    },
-    "explanation": {
-      "de": "Ein Geschenk zeigt jemandem: 'Ich mag dich und ich denke an dich!'. Es bringt Herzen zusammen und macht beide glücklich – den, der gibt, und den, der bekommt.",
-      "al": "Një dhuratë tregon dikujt: 'Unë të dua dhe po mendoj për ty!'. Kjo bashkon zemrat dhe i bën të dy të lumtur - atë që jep dhe atë që merr.",
-      "tr": "Bir hediye birine 'Seni seviyorum ve seni düşünüyorum!' demektir. Kalpleri birleştirir ve hem vereni hem de alanı mutlu eder."
-    },
-    "source": "Al-Bukhari (Al-Adab Al-Mufrad)"
-  },
-  {
-    "id": 9,
-    "icon": "😺",
-    "title": {
-      "de": "Güte zu Tieren (Die Katze)",
-      "al": "Mirësia ndaj kafshëve (Macja)",
-      "tr": "Hayvanlara Merhamet (Kedi)"
-    },
-    "text": {
-      "de": "Eine Frau wurde im Höllenfeuer bestraft wegen einer Katze. Sie hatte sie eingesperrt, bis sie verhungerte, ohne ihr Essen zu geben oder sie jagen zu lassen.",
-      "al": "Një grua u dënua në zjarrin e Xhehenemit për shkak të një maceje. Ajo e kishte mbyllur derisa ngordhi nga uria, pa i dhënë ushqim dhe pa e lënë të gjuante.",
-      "tr": "Bir kadın bir kedi yüzünden cehennemde cezalandırıldı. Onu, yiyecek vermeden veya avlanmasına izin vermeden açlıktan ölene kadar hapsetmişti."
-    },
-    "explanation": {
-      "de": "Wir müssen alle Tiere respektvoll behandeln! Haustiere müssen gefüttert werden und dürfen nicht gequält werden. Tiere zu quälen ist im Islam eine große Sünde.",
-      "al": "Ne duhet t'i trajtojmë të gjitha kafshët me respekt! Kafshët shtëpiake duhet të ushqehen dhe nuk duhet të torturohen. Torturimi i kafshëve është një mëkat i madh në Islam.",
-      "tr": "Tüm hayvanlara saygıyla davranmalıyız! Evcil hayvanlar beslenmeli ve eziyet görmemelidir. İslam'da hayvanlara eziyet etmek büyük bir günahtır."
-    },
     "source": "Bukhari"
   },
   {
-    "id": 10,
-    "icon": "🧹",
+    "id": 9,
+    "icon": "🕌",
     "title": {
-      "de": "Sauberkeit und Hygiene",
-      "al": "Pastërtia",
-      "tr": "Temizlik"
-    },
-    "text": {
-      "de": "Sauberkeit ist der halbe Glaube.",
-      "al": "Pastërtia është gjysma e besimit.",
-      "tr": "Temizlik imanın yarısıdır."
-    },
-    "explanation": {
-      "de": "Es ist Allah so wichtig, dass wir uns waschen (z.B. Wudu machen), unsere Zähne putzen und ordentliche Kleidung tragen, dass es als die halbe Religion zählt!",
-      "al": "Për Allahun është aq e rëndësishme që ne të lahemi (p.sh. të marrim abdes), të lajmë dhëmbët dhe të mbajmë rroba të pastra, saqë kjo llogaritet si gjysma e fesë!",
-      "tr": "Allah için yıkanmamız (örneğin abdest almamız), dişlerimizi fırçalamamız ve temiz giysiler giymemiz o kadar önemlidir ki bu dinin yarısı sayılır!"
+      "de": "Moschee-Besuch",
+      "al": "Vizita në Xhami",
+      "tr": "Camiye Gitmek"
     },
     "source": "Muslim"
   },
   {
-    "id": 11,
-    "icon": "🤐",
+    "id": 10,
+    "icon": "👵",
     "title": {
-      "de": "Gutes sprechen oder schweigen",
-      "al": "Flasni mirë ose heshtni",
-      "tr": "Ya Hayır Söyle Ya Da Sus"
+      "de": "Eltern ehren",
+      "al": "Respekti për prindërit",
+      "tr": "Anne Babaya Saygı"
+    },
+    "source": "Bukhari"
+  },
+  {
+    "id": 11,
+    "icon": "⭐",
+    "title": {
+      "de": "Familie-Weisheit 11",
+      "al": "Urtësi Familja 11",
+      "tr": "Aile Hikmeti 11"
     },
     "text": {
-      "de": "Wer an Allah und den Jüngsten Tag glaubt, der soll etwas Gutes sagen oder schweigen.",
-      "al": "Kush beson në Allahun dhe Ditën e Gjykimit, le të flasë mirë ose le të heshtë.",
-      "tr": "Allah'a ve ahiret gününe inanan ya hayır söylesin ya da sussun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Wenn wir wütend sind oder über jemanden lästern wollen, sollten wir einfach den Mund halten. Wir sollen unsere Worte nutzen, um anderen eine Freude zu machen!",
-      "al": "Kur jemi të zemëruar ose duam të përgojojmë dikë, thjesht duhet të mbyllim gojën. Ne duhet t'i përdorim fjalët tona për t'i bërë të tjerët të lumtur!",
-      "tr": "Kızgınsak veya birinin arkasından konuşmak istiyorsak, sadece çenemizi kapalı tutmalıyız. Sözlerimizi başkalarını mutlu etmek için kullanmalıyız!"
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Bukhari & Muslim"
+    "source": "Muslim"
   },
   {
     "id": 12,
-    "icon": "🤝",
+    "icon": "⭐",
     "title": {
-      "de": "Streit schnell beenden",
-      "al": "Mos mbani inat",
-      "tr": "Küs Kalmamak"
+      "de": "Vergebung-Weisheit 12",
+      "al": "Urtësi Falja 12",
+      "tr": "Af Hikmeti 12"
     },
     "text": {
-      "de": "Es ist einem Muslim nicht erlaubt, seinen Bruder länger als drei Tage zu meiden.",
-      "al": "Nuk i lejohet muslimanit ta braktisë vëllain e tij për më shumë se tre ditë.",
-      "tr": "Bir Müslümanın kardeşine üç günden fazla dargın kalması helal olmaz."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Streiten ist normal, aber wir sollten uns danach ganz schnell wieder vertragen. Lange böse aufeinander sein, mag Allah überhaupt nicht.",
-      "al": "Grindja është normale, por ne duhet të pajtohemi shumë shpejt. Të jesh i inatosur për një kohë të gjatë nuk i pëlqen Allahut.",
-      "tr": "Tartışmak normaldir ama sonrasında hemen barışmalıyız. Birbirimize uzun süre dargın kalmak Allah'ın hiç hoşuna gitmez."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
     "source": "Bukhari"
   },
   {
     "id": 13,
-    "icon": "😃",
+    "icon": "⭐",
     "title": {
-      "de": "Ein Lächeln ist Sadaqa",
-      "al": "Buzëqeshja është Sadaka",
-      "tr": "Tebessüm Sadakadır"
+      "de": "Erfolg-Weisheit 13",
+      "al": "Urtësi Suksesi 13",
+      "tr": "Başarı Hikmeti 13"
     },
     "text": {
-      "de": "Dein Lächeln für deinen Bruder (oder deine Schwester) ist eine Sadaqa (gute Tat).",
-      "al": "Buzëqeshja jote për vëllain tënd është Sadaka (vepër e mirë).",
-      "tr": "Kardeşine gülümsemen senin için bir sadakadır."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Sadaqa bedeutet spenden. Aber wir müssen nicht immer Geld spenden! Wenn wir einfach freundlich lächeln und andere fröhlich machen, belohnt Allah das wie eine Spende.",
-      "al": "Sadaka do të thotë të dhurosh. Por nuk kemi pse të dhurojmë gjithmonë para! Kur ne thjesht buzëqeshim dhe i bëjmë të tjerët të lumtur, Allahu na shpërblen njëlloj.",
-      "tr": "Sadaka bağış demektir. Ama her zaman para bağışlamak zorunda değiliz! Nazikçe gülümsediğimizde ve başkalarını mutlu ettiğimizde, Allah bunu bize sevap yazar."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Tirmidhi"
+    "source": "Muslim"
   },
   {
     "id": 14,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 14",
-      "al": "Urtësi 14",
-      "tr": "Hikmet 14"
+      "de": "Frieden-Weisheit 14",
+      "al": "Urtësi Paqja 14",
+      "tr": "Barış Hikmeti 14"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 15,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 15",
-      "al": "Urtësi 15",
-      "tr": "Hikmet 15"
+      "de": "Liebe-Weisheit 15",
+      "al": "Urtësi Dashuria 15",
+      "tr": "Sevgi Hikmeti 15"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 16,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 16",
-      "al": "Urtësi 16",
-      "tr": "Hikmet 16"
+      "de": "Dankbarkeit-Weisheit 16",
+      "al": "Urtësi Mirënjohja 16",
+      "tr": "Şükür Hikmeti 16"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 17,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 17",
-      "al": "Urtësi 17",
-      "tr": "Hikmet 17"
+      "de": "Geduld-Weisheit 17",
+      "al": "Urtësi Durimi 17",
+      "tr": "Sabır Hikmeti 17"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 18,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 18",
-      "al": "Urtësi 18",
-      "tr": "Hikmet 18"
+      "de": "Schutz-Weisheit 18",
+      "al": "Urtësi Mbrojtja 18",
+      "tr": "Korunma Hikmeti 18"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 19,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 19",
-      "al": "Urtësi 19",
-      "tr": "Hikmet 19"
+      "de": "Familie-Weisheit 19",
+      "al": "Urtësi Familja 19",
+      "tr": "Aile Hikmeti 19"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 20,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 20",
-      "al": "Urtësi 20",
-      "tr": "Hikmet 20"
+      "de": "Vergebung-Weisheit 20",
+      "al": "Urtësi Falja 20",
+      "tr": "Af Hikmeti 20"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 21,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 21",
-      "al": "Urtësi 21",
-      "tr": "Hikmet 21"
+      "de": "Erfolg-Weisheit 21",
+      "al": "Urtësi Suksesi 21",
+      "tr": "Başarı Hikmeti 21"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 22,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 22",
-      "al": "Urtësi 22",
-      "tr": "Hikmet 22"
+      "de": "Frieden-Weisheit 22",
+      "al": "Urtësi Paqja 22",
+      "tr": "Barış Hikmeti 22"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 23,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 23",
-      "al": "Urtësi 23",
-      "tr": "Hikmet 23"
+      "de": "Liebe-Weisheit 23",
+      "al": "Urtësi Dashuria 23",
+      "tr": "Sevgi Hikmeti 23"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 24,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 24",
-      "al": "Urtësi 24",
-      "tr": "Hikmet 24"
+      "de": "Dankbarkeit-Weisheit 24",
+      "al": "Urtësi Mirënjohja 24",
+      "tr": "Şükür Hikmeti 24"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 25,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 25",
-      "al": "Urtësi 25",
-      "tr": "Hikmet 25"
+      "de": "Geduld-Weisheit 25",
+      "al": "Urtësi Durimi 25",
+      "tr": "Sabır Hikmeti 25"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 26,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 26",
-      "al": "Urtësi 26",
-      "tr": "Hikmet 26"
+      "de": "Schutz-Weisheit 26",
+      "al": "Urtësi Mbrojtja 26",
+      "tr": "Korunma Hikmeti 26"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 27,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 27",
-      "al": "Urtësi 27",
-      "tr": "Hikmet 27"
+      "de": "Familie-Weisheit 27",
+      "al": "Urtësi Familja 27",
+      "tr": "Aile Hikmeti 27"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 28,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 28",
-      "al": "Urtësi 28",
-      "tr": "Hikmet 28"
+      "de": "Vergebung-Weisheit 28",
+      "al": "Urtësi Falja 28",
+      "tr": "Af Hikmeti 28"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 29,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 29",
-      "al": "Urtësi 29",
-      "tr": "Hikmet 29"
+      "de": "Erfolg-Weisheit 29",
+      "al": "Urtësi Suksesi 29",
+      "tr": "Başarı Hikmeti 29"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 30,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 30",
-      "al": "Urtësi 30",
-      "tr": "Hikmet 30"
+      "de": "Frieden-Weisheit 30",
+      "al": "Urtësi Paqja 30",
+      "tr": "Barış Hikmeti 30"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 31,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 31",
-      "al": "Urtësi 31",
-      "tr": "Hikmet 31"
+      "de": "Liebe-Weisheit 31",
+      "al": "Urtësi Dashuria 31",
+      "tr": "Sevgi Hikmeti 31"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 32,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 32",
-      "al": "Urtësi 32",
-      "tr": "Hikmet 32"
+      "de": "Dankbarkeit-Weisheit 32",
+      "al": "Urtësi Mirënjohja 32",
+      "tr": "Şükür Hikmeti 32"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 33,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 33",
-      "al": "Urtësi 33",
-      "tr": "Hikmet 33"
+      "de": "Geduld-Weisheit 33",
+      "al": "Urtësi Durimi 33",
+      "tr": "Sabır Hikmeti 33"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 34,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 34",
-      "al": "Urtësi 34",
-      "tr": "Hikmet 34"
+      "de": "Schutz-Weisheit 34",
+      "al": "Urtësi Mbrojtja 34",
+      "tr": "Korunma Hikmeti 34"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 35,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 35",
-      "al": "Urtësi 35",
-      "tr": "Hikmet 35"
+      "de": "Familie-Weisheit 35",
+      "al": "Urtësi Familja 35",
+      "tr": "Aile Hikmeti 35"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 36,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 36",
-      "al": "Urtësi 36",
-      "tr": "Hikmet 36"
+      "de": "Vergebung-Weisheit 36",
+      "al": "Urtësi Falja 36",
+      "tr": "Af Hikmeti 36"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 37,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 37",
-      "al": "Urtësi 37",
-      "tr": "Hikmet 37"
+      "de": "Erfolg-Weisheit 37",
+      "al": "Urtësi Suksesi 37",
+      "tr": "Başarı Hikmeti 37"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 38,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 38",
-      "al": "Urtësi 38",
-      "tr": "Hikmet 38"
+      "de": "Frieden-Weisheit 38",
+      "al": "Urtësi Paqja 38",
+      "tr": "Barış Hikmeti 38"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 39,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 39",
-      "al": "Urtësi 39",
-      "tr": "Hikmet 39"
+      "de": "Liebe-Weisheit 39",
+      "al": "Urtësi Dashuria 39",
+      "tr": "Sevgi Hikmeti 39"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 40,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 40",
-      "al": "Urtësi 40",
-      "tr": "Hikmet 40"
+      "de": "Dankbarkeit-Weisheit 40",
+      "al": "Urtësi Mirënjohja 40",
+      "tr": "Şükür Hikmeti 40"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 41,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 41",
-      "al": "Urtësi 41",
-      "tr": "Hikmet 41"
+      "de": "Geduld-Weisheit 41",
+      "al": "Urtësi Durimi 41",
+      "tr": "Sabır Hikmeti 41"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 42,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 42",
-      "al": "Urtësi 42",
-      "tr": "Hikmet 42"
+      "de": "Schutz-Weisheit 42",
+      "al": "Urtësi Mbrojtja 42",
+      "tr": "Korunma Hikmeti 42"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 43,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 43",
-      "al": "Urtësi 43",
-      "tr": "Hikmet 43"
+      "de": "Familie-Weisheit 43",
+      "al": "Urtësi Familja 43",
+      "tr": "Aile Hikmeti 43"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 44,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 44",
-      "al": "Urtësi 44",
-      "tr": "Hikmet 44"
+      "de": "Vergebung-Weisheit 44",
+      "al": "Urtësi Falja 44",
+      "tr": "Af Hikmeti 44"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 45,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 45",
-      "al": "Urtësi 45",
-      "tr": "Hikmet 45"
+      "de": "Erfolg-Weisheit 45",
+      "al": "Urtësi Suksesi 45",
+      "tr": "Başarı Hikmeti 45"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 46,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 46",
-      "al": "Urtësi 46",
-      "tr": "Hikmet 46"
+      "de": "Frieden-Weisheit 46",
+      "al": "Urtësi Paqja 46",
+      "tr": "Barış Hikmeti 46"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 47,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 47",
-      "al": "Urtësi 47",
-      "tr": "Hikmet 47"
+      "de": "Liebe-Weisheit 47",
+      "al": "Urtësi Dashuria 47",
+      "tr": "Sevgi Hikmeti 47"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 48,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 48",
-      "al": "Urtësi 48",
-      "tr": "Hikmet 48"
+      "de": "Dankbarkeit-Weisheit 48",
+      "al": "Urtësi Mirënjohja 48",
+      "tr": "Şükür Hikmeti 48"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 49,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 49",
-      "al": "Urtësi 49",
-      "tr": "Hikmet 49"
+      "de": "Geduld-Weisheit 49",
+      "al": "Urtësi Durimi 49",
+      "tr": "Sabır Hikmeti 49"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 50,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 50",
-      "al": "Urtësi 50",
-      "tr": "Hikmet 50"
+      "de": "Schutz-Weisheit 50",
+      "al": "Urtësi Mbrojtja 50",
+      "tr": "Korunma Hikmeti 50"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 51,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 51",
-      "al": "Urtësi 51",
-      "tr": "Hikmet 51"
+      "de": "Familie-Weisheit 51",
+      "al": "Urtësi Familja 51",
+      "tr": "Aile Hikmeti 51"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 52,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 52",
-      "al": "Urtësi 52",
-      "tr": "Hikmet 52"
+      "de": "Vergebung-Weisheit 52",
+      "al": "Urtësi Falja 52",
+      "tr": "Af Hikmeti 52"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 53,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 53",
-      "al": "Urtësi 53",
-      "tr": "Hikmet 53"
+      "de": "Erfolg-Weisheit 53",
+      "al": "Urtësi Suksesi 53",
+      "tr": "Başarı Hikmeti 53"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 54,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 54",
-      "al": "Urtësi 54",
-      "tr": "Hikmet 54"
+      "de": "Frieden-Weisheit 54",
+      "al": "Urtësi Paqja 54",
+      "tr": "Barış Hikmeti 54"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 55,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 55",
-      "al": "Urtësi 55",
-      "tr": "Hikmet 55"
+      "de": "Liebe-Weisheit 55",
+      "al": "Urtësi Dashuria 55",
+      "tr": "Sevgi Hikmeti 55"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 56,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 56",
-      "al": "Urtësi 56",
-      "tr": "Hikmet 56"
+      "de": "Dankbarkeit-Weisheit 56",
+      "al": "Urtësi Mirënjohja 56",
+      "tr": "Şükür Hikmeti 56"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 57,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 57",
-      "al": "Urtësi 57",
-      "tr": "Hikmet 57"
+      "de": "Geduld-Weisheit 57",
+      "al": "Urtësi Durimi 57",
+      "tr": "Sabır Hikmeti 57"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 58,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 58",
-      "al": "Urtësi 58",
-      "tr": "Hikmet 58"
+      "de": "Schutz-Weisheit 58",
+      "al": "Urtësi Mbrojtja 58",
+      "tr": "Korunma Hikmeti 58"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 59,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 59",
-      "al": "Urtësi 59",
-      "tr": "Hikmet 59"
+      "de": "Familie-Weisheit 59",
+      "al": "Urtësi Familja 59",
+      "tr": "Aile Hikmeti 59"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 60,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 60",
-      "al": "Urtësi 60",
-      "tr": "Hikmet 60"
+      "de": "Vergebung-Weisheit 60",
+      "al": "Urtësi Falja 60",
+      "tr": "Af Hikmeti 60"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 61,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 61",
-      "al": "Urtësi 61",
-      "tr": "Hikmet 61"
+      "de": "Erfolg-Weisheit 61",
+      "al": "Urtësi Suksesi 61",
+      "tr": "Başarı Hikmeti 61"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 62,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 62",
-      "al": "Urtësi 62",
-      "tr": "Hikmet 62"
+      "de": "Frieden-Weisheit 62",
+      "al": "Urtësi Paqja 62",
+      "tr": "Barış Hikmeti 62"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 63,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 63",
-      "al": "Urtësi 63",
-      "tr": "Hikmet 63"
+      "de": "Liebe-Weisheit 63",
+      "al": "Urtësi Dashuria 63",
+      "tr": "Sevgi Hikmeti 63"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 64,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 64",
-      "al": "Urtësi 64",
-      "tr": "Hikmet 64"
+      "de": "Dankbarkeit-Weisheit 64",
+      "al": "Urtësi Mirënjohja 64",
+      "tr": "Şükür Hikmeti 64"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 65,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 65",
-      "al": "Urtësi 65",
-      "tr": "Hikmet 65"
+      "de": "Geduld-Weisheit 65",
+      "al": "Urtësi Durimi 65",
+      "tr": "Sabır Hikmeti 65"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 66,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 66",
-      "al": "Urtësi 66",
-      "tr": "Hikmet 66"
+      "de": "Schutz-Weisheit 66",
+      "al": "Urtësi Mbrojtja 66",
+      "tr": "Korunma Hikmeti 66"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 67,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 67",
-      "al": "Urtësi 67",
-      "tr": "Hikmet 67"
+      "de": "Familie-Weisheit 67",
+      "al": "Urtësi Familja 67",
+      "tr": "Aile Hikmeti 67"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 68,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 68",
-      "al": "Urtësi 68",
-      "tr": "Hikmet 68"
+      "de": "Vergebung-Weisheit 68",
+      "al": "Urtësi Falja 68",
+      "tr": "Af Hikmeti 68"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 69,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 69",
-      "al": "Urtësi 69",
-      "tr": "Hikmet 69"
+      "de": "Erfolg-Weisheit 69",
+      "al": "Urtësi Suksesi 69",
+      "tr": "Başarı Hikmeti 69"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 70,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 70",
-      "al": "Urtësi 70",
-      "tr": "Hikmet 70"
+      "de": "Frieden-Weisheit 70",
+      "al": "Urtësi Paqja 70",
+      "tr": "Barış Hikmeti 70"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 71,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 71",
-      "al": "Urtësi 71",
-      "tr": "Hikmet 71"
+      "de": "Liebe-Weisheit 71",
+      "al": "Urtësi Dashuria 71",
+      "tr": "Sevgi Hikmeti 71"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 72,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 72",
-      "al": "Urtësi 72",
-      "tr": "Hikmet 72"
+      "de": "Dankbarkeit-Weisheit 72",
+      "al": "Urtësi Mirënjohja 72",
+      "tr": "Şükür Hikmeti 72"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 73,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 73",
-      "al": "Urtësi 73",
-      "tr": "Hikmet 73"
+      "de": "Geduld-Weisheit 73",
+      "al": "Urtësi Durimi 73",
+      "tr": "Sabır Hikmeti 73"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 74,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 74",
-      "al": "Urtësi 74",
-      "tr": "Hikmet 74"
+      "de": "Schutz-Weisheit 74",
+      "al": "Urtësi Mbrojtja 74",
+      "tr": "Korunma Hikmeti 74"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 75,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 75",
-      "al": "Urtësi 75",
-      "tr": "Hikmet 75"
+      "de": "Familie-Weisheit 75",
+      "al": "Urtësi Familja 75",
+      "tr": "Aile Hikmeti 75"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 76,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 76",
-      "al": "Urtësi 76",
-      "tr": "Hikmet 76"
+      "de": "Vergebung-Weisheit 76",
+      "al": "Urtësi Falja 76",
+      "tr": "Af Hikmeti 76"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 77,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 77",
-      "al": "Urtësi 77",
-      "tr": "Hikmet 77"
+      "de": "Erfolg-Weisheit 77",
+      "al": "Urtësi Suksesi 77",
+      "tr": "Başarı Hikmeti 77"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 78,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 78",
-      "al": "Urtësi 78",
-      "tr": "Hikmet 78"
+      "de": "Frieden-Weisheit 78",
+      "al": "Urtësi Paqja 78",
+      "tr": "Barış Hikmeti 78"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 79,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 79",
-      "al": "Urtësi 79",
-      "tr": "Hikmet 79"
+      "de": "Liebe-Weisheit 79",
+      "al": "Urtësi Dashuria 79",
+      "tr": "Sevgi Hikmeti 79"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 80,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 80",
-      "al": "Urtësi 80",
-      "tr": "Hikmet 80"
+      "de": "Dankbarkeit-Weisheit 80",
+      "al": "Urtësi Mirënjohja 80",
+      "tr": "Şükür Hikmeti 80"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 81,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 81",
-      "al": "Urtësi 81",
-      "tr": "Hikmet 81"
+      "de": "Geduld-Weisheit 81",
+      "al": "Urtësi Durimi 81",
+      "tr": "Sabır Hikmeti 81"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 82,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 82",
-      "al": "Urtësi 82",
-      "tr": "Hikmet 82"
+      "de": "Schutz-Weisheit 82",
+      "al": "Urtësi Mbrojtja 82",
+      "tr": "Korunma Hikmeti 82"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 83,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 83",
-      "al": "Urtësi 83",
-      "tr": "Hikmet 83"
+      "de": "Familie-Weisheit 83",
+      "al": "Urtësi Familja 83",
+      "tr": "Aile Hikmeti 83"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 84,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 84",
-      "al": "Urtësi 84",
-      "tr": "Hikmet 84"
+      "de": "Vergebung-Weisheit 84",
+      "al": "Urtësi Falja 84",
+      "tr": "Af Hikmeti 84"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 85,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 85",
-      "al": "Urtësi 85",
-      "tr": "Hikmet 85"
+      "de": "Erfolg-Weisheit 85",
+      "al": "Urtësi Suksesi 85",
+      "tr": "Başarı Hikmeti 85"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 86,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 86",
-      "al": "Urtësi 86",
-      "tr": "Hikmet 86"
+      "de": "Frieden-Weisheit 86",
+      "al": "Urtësi Paqja 86",
+      "tr": "Barış Hikmeti 86"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 87,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 87",
-      "al": "Urtësi 87",
-      "tr": "Hikmet 87"
+      "de": "Liebe-Weisheit 87",
+      "al": "Urtësi Dashuria 87",
+      "tr": "Sevgi Hikmeti 87"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 88,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 88",
-      "al": "Urtësi 88",
-      "tr": "Hikmet 88"
+      "de": "Dankbarkeit-Weisheit 88",
+      "al": "Urtësi Mirënjohja 88",
+      "tr": "Şükür Hikmeti 88"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 89,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 89",
-      "al": "Urtësi 89",
-      "tr": "Hikmet 89"
+      "de": "Geduld-Weisheit 89",
+      "al": "Urtësi Durimi 89",
+      "tr": "Sabır Hikmeti 89"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 90,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 90",
-      "al": "Urtësi 90",
-      "tr": "Hikmet 90"
+      "de": "Schutz-Weisheit 90",
+      "al": "Urtësi Mbrojtja 90",
+      "tr": "Korunma Hikmeti 90"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 91,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 91",
-      "al": "Urtësi 91",
-      "tr": "Hikmet 91"
+      "de": "Familie-Weisheit 91",
+      "al": "Urtësi Familja 91",
+      "tr": "Aile Hikmeti 91"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 92,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 92",
-      "al": "Urtësi 92",
-      "tr": "Hikmet 92"
+      "de": "Vergebung-Weisheit 92",
+      "al": "Urtësi Falja 92",
+      "tr": "Af Hikmeti 92"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 93,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 93",
-      "al": "Urtësi 93",
-      "tr": "Hikmet 93"
+      "de": "Erfolg-Weisheit 93",
+      "al": "Urtësi Suksesi 93",
+      "tr": "Başarı Hikmeti 93"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 94,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 94",
-      "al": "Urtësi 94",
-      "tr": "Hikmet 94"
+      "de": "Frieden-Weisheit 94",
+      "al": "Urtësi Paqja 94",
+      "tr": "Barış Hikmeti 94"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 95,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 95",
-      "al": "Urtësi 95",
-      "tr": "Hikmet 95"
+      "de": "Liebe-Weisheit 95",
+      "al": "Urtësi Dashuria 95",
+      "tr": "Sevgi Hikmeti 95"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 96,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 96",
-      "al": "Urtësi 96",
-      "tr": "Hikmet 96"
+      "de": "Dankbarkeit-Weisheit 96",
+      "al": "Urtësi Mirënjohja 96",
+      "tr": "Şükür Hikmeti 96"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 97,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 97",
-      "al": "Urtësi 97",
-      "tr": "Hikmet 97"
+      "de": "Geduld-Weisheit 97",
+      "al": "Urtësi Durimi 97",
+      "tr": "Sabır Hikmeti 97"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 98,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 98",
-      "al": "Urtësi 98",
-      "tr": "Hikmet 98"
+      "de": "Schutz-Weisheit 98",
+      "al": "Urtësi Mbrojtja 98",
+      "tr": "Korunma Hikmeti 98"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 99,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 99",
-      "al": "Urtësi 99",
-      "tr": "Hikmet 99"
+      "de": "Familie-Weisheit 99",
+      "al": "Urtësi Familja 99",
+      "tr": "Aile Hikmeti 99"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 100,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 100",
-      "al": "Urtësi 100",
-      "tr": "Hikmet 100"
+      "de": "Vergebung-Weisheit 100",
+      "al": "Urtësi Falja 100",
+      "tr": "Af Hikmeti 100"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 101,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 101",
-      "al": "Urtësi 101",
-      "tr": "Hikmet 101"
+      "de": "Erfolg-Weisheit 101",
+      "al": "Urtësi Suksesi 101",
+      "tr": "Başarı Hikmeti 101"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 102,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 102",
-      "al": "Urtësi 102",
-      "tr": "Hikmet 102"
+      "de": "Frieden-Weisheit 102",
+      "al": "Urtësi Paqja 102",
+      "tr": "Barış Hikmeti 102"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 103,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 103",
-      "al": "Urtësi 103",
-      "tr": "Hikmet 103"
+      "de": "Liebe-Weisheit 103",
+      "al": "Urtësi Dashuria 103",
+      "tr": "Sevgi Hikmeti 103"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 104,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 104",
-      "al": "Urtësi 104",
-      "tr": "Hikmet 104"
+      "de": "Dankbarkeit-Weisheit 104",
+      "al": "Urtësi Mirënjohja 104",
+      "tr": "Şükür Hikmeti 104"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 105,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 105",
-      "al": "Urtësi 105",
-      "tr": "Hikmet 105"
+      "de": "Geduld-Weisheit 105",
+      "al": "Urtësi Durimi 105",
+      "tr": "Sabır Hikmeti 105"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 106,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 106",
-      "al": "Urtësi 106",
-      "tr": "Hikmet 106"
+      "de": "Schutz-Weisheit 106",
+      "al": "Urtësi Mbrojtja 106",
+      "tr": "Korunma Hikmeti 106"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 107,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 107",
-      "al": "Urtësi 107",
-      "tr": "Hikmet 107"
+      "de": "Familie-Weisheit 107",
+      "al": "Urtësi Familja 107",
+      "tr": "Aile Hikmeti 107"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 108,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 108",
-      "al": "Urtësi 108",
-      "tr": "Hikmet 108"
+      "de": "Vergebung-Weisheit 108",
+      "al": "Urtësi Falja 108",
+      "tr": "Af Hikmeti 108"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 109,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 109",
-      "al": "Urtësi 109",
-      "tr": "Hikmet 109"
+      "de": "Erfolg-Weisheit 109",
+      "al": "Urtësi Suksesi 109",
+      "tr": "Başarı Hikmeti 109"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 110,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 110",
-      "al": "Urtësi 110",
-      "tr": "Hikmet 110"
+      "de": "Frieden-Weisheit 110",
+      "al": "Urtësi Paqja 110",
+      "tr": "Barış Hikmeti 110"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 111,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 111",
-      "al": "Urtësi 111",
-      "tr": "Hikmet 111"
+      "de": "Liebe-Weisheit 111",
+      "al": "Urtësi Dashuria 111",
+      "tr": "Sevgi Hikmeti 111"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 112,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 112",
-      "al": "Urtësi 112",
-      "tr": "Hikmet 112"
+      "de": "Dankbarkeit-Weisheit 112",
+      "al": "Urtësi Mirënjohja 112",
+      "tr": "Şükür Hikmeti 112"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 113,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 113",
-      "al": "Urtësi 113",
-      "tr": "Hikmet 113"
+      "de": "Geduld-Weisheit 113",
+      "al": "Urtësi Durimi 113",
+      "tr": "Sabır Hikmeti 113"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 114,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 114",
-      "al": "Urtësi 114",
-      "tr": "Hikmet 114"
+      "de": "Schutz-Weisheit 114",
+      "al": "Urtësi Mbrojtja 114",
+      "tr": "Korunma Hikmeti 114"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 115,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 115",
-      "al": "Urtësi 115",
-      "tr": "Hikmet 115"
+      "de": "Familie-Weisheit 115",
+      "al": "Urtësi Familja 115",
+      "tr": "Aile Hikmeti 115"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 116,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 116",
-      "al": "Urtësi 116",
-      "tr": "Hikmet 116"
+      "de": "Vergebung-Weisheit 116",
+      "al": "Urtësi Falja 116",
+      "tr": "Af Hikmeti 116"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 117,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 117",
-      "al": "Urtësi 117",
-      "tr": "Hikmet 117"
+      "de": "Erfolg-Weisheit 117",
+      "al": "Urtësi Suksesi 117",
+      "tr": "Başarı Hikmeti 117"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 118,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 118",
-      "al": "Urtësi 118",
-      "tr": "Hikmet 118"
+      "de": "Frieden-Weisheit 118",
+      "al": "Urtësi Paqja 118",
+      "tr": "Barış Hikmeti 118"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 119,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 119",
-      "al": "Urtësi 119",
-      "tr": "Hikmet 119"
+      "de": "Liebe-Weisheit 119",
+      "al": "Urtësi Dashuria 119",
+      "tr": "Sevgi Hikmeti 119"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 120,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 120",
-      "al": "Urtësi 120",
-      "tr": "Hikmet 120"
+      "de": "Dankbarkeit-Weisheit 120",
+      "al": "Urtësi Mirënjohja 120",
+      "tr": "Şükür Hikmeti 120"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 121,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 121",
-      "al": "Urtësi 121",
-      "tr": "Hikmet 121"
+      "de": "Geduld-Weisheit 121",
+      "al": "Urtësi Durimi 121",
+      "tr": "Sabır Hikmeti 121"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 122,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 122",
-      "al": "Urtësi 122",
-      "tr": "Hikmet 122"
+      "de": "Schutz-Weisheit 122",
+      "al": "Urtësi Mbrojtja 122",
+      "tr": "Korunma Hikmeti 122"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 123,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 123",
-      "al": "Urtësi 123",
-      "tr": "Hikmet 123"
+      "de": "Familie-Weisheit 123",
+      "al": "Urtësi Familja 123",
+      "tr": "Aile Hikmeti 123"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 124,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 124",
-      "al": "Urtësi 124",
-      "tr": "Hikmet 124"
+      "de": "Vergebung-Weisheit 124",
+      "al": "Urtësi Falja 124",
+      "tr": "Af Hikmeti 124"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 125,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 125",
-      "al": "Urtësi 125",
-      "tr": "Hikmet 125"
+      "de": "Erfolg-Weisheit 125",
+      "al": "Urtësi Suksesi 125",
+      "tr": "Başarı Hikmeti 125"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 126,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 126",
-      "al": "Urtësi 126",
-      "tr": "Hikmet 126"
+      "de": "Frieden-Weisheit 126",
+      "al": "Urtësi Paqja 126",
+      "tr": "Barış Hikmeti 126"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 127,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 127",
-      "al": "Urtësi 127",
-      "tr": "Hikmet 127"
+      "de": "Liebe-Weisheit 127",
+      "al": "Urtësi Dashuria 127",
+      "tr": "Sevgi Hikmeti 127"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 128,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 128",
-      "al": "Urtësi 128",
-      "tr": "Hikmet 128"
+      "de": "Dankbarkeit-Weisheit 128",
+      "al": "Urtësi Mirënjohja 128",
+      "tr": "Şükür Hikmeti 128"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 129,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 129",
-      "al": "Urtësi 129",
-      "tr": "Hikmet 129"
+      "de": "Geduld-Weisheit 129",
+      "al": "Urtësi Durimi 129",
+      "tr": "Sabır Hikmeti 129"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 130,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 130",
-      "al": "Urtësi 130",
-      "tr": "Hikmet 130"
+      "de": "Schutz-Weisheit 130",
+      "al": "Urtësi Mbrojtja 130",
+      "tr": "Korunma Hikmeti 130"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 131,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 131",
-      "al": "Urtësi 131",
-      "tr": "Hikmet 131"
+      "de": "Familie-Weisheit 131",
+      "al": "Urtësi Familja 131",
+      "tr": "Aile Hikmeti 131"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 132,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 132",
-      "al": "Urtësi 132",
-      "tr": "Hikmet 132"
+      "de": "Vergebung-Weisheit 132",
+      "al": "Urtësi Falja 132",
+      "tr": "Af Hikmeti 132"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 133,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 133",
-      "al": "Urtësi 133",
-      "tr": "Hikmet 133"
+      "de": "Erfolg-Weisheit 133",
+      "al": "Urtësi Suksesi 133",
+      "tr": "Başarı Hikmeti 133"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 134,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 134",
-      "al": "Urtësi 134",
-      "tr": "Hikmet 134"
+      "de": "Frieden-Weisheit 134",
+      "al": "Urtësi Paqja 134",
+      "tr": "Barış Hikmeti 134"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 135,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 135",
-      "al": "Urtësi 135",
-      "tr": "Hikmet 135"
+      "de": "Liebe-Weisheit 135",
+      "al": "Urtësi Dashuria 135",
+      "tr": "Sevgi Hikmeti 135"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 136,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 136",
-      "al": "Urtësi 136",
-      "tr": "Hikmet 136"
+      "de": "Dankbarkeit-Weisheit 136",
+      "al": "Urtësi Mirënjohja 136",
+      "tr": "Şükür Hikmeti 136"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 137,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 137",
-      "al": "Urtësi 137",
-      "tr": "Hikmet 137"
+      "de": "Geduld-Weisheit 137",
+      "al": "Urtësi Durimi 137",
+      "tr": "Sabır Hikmeti 137"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 138,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 138",
-      "al": "Urtësi 138",
-      "tr": "Hikmet 138"
+      "de": "Schutz-Weisheit 138",
+      "al": "Urtësi Mbrojtja 138",
+      "tr": "Korunma Hikmeti 138"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 139,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 139",
-      "al": "Urtësi 139",
-      "tr": "Hikmet 139"
+      "de": "Familie-Weisheit 139",
+      "al": "Urtësi Familja 139",
+      "tr": "Aile Hikmeti 139"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 140,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 140",
-      "al": "Urtësi 140",
-      "tr": "Hikmet 140"
+      "de": "Vergebung-Weisheit 140",
+      "al": "Urtësi Falja 140",
+      "tr": "Af Hikmeti 140"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 141,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 141",
-      "al": "Urtësi 141",
-      "tr": "Hikmet 141"
+      "de": "Erfolg-Weisheit 141",
+      "al": "Urtësi Suksesi 141",
+      "tr": "Başarı Hikmeti 141"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 142,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 142",
-      "al": "Urtësi 142",
-      "tr": "Hikmet 142"
+      "de": "Frieden-Weisheit 142",
+      "al": "Urtësi Paqja 142",
+      "tr": "Barış Hikmeti 142"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 143,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 143",
-      "al": "Urtësi 143",
-      "tr": "Hikmet 143"
+      "de": "Liebe-Weisheit 143",
+      "al": "Urtësi Dashuria 143",
+      "tr": "Sevgi Hikmeti 143"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 144,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 144",
-      "al": "Urtësi 144",
-      "tr": "Hikmet 144"
+      "de": "Dankbarkeit-Weisheit 144",
+      "al": "Urtësi Mirënjohja 144",
+      "tr": "Şükür Hikmeti 144"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 145,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 145",
-      "al": "Urtësi 145",
-      "tr": "Hikmet 145"
+      "de": "Geduld-Weisheit 145",
+      "al": "Urtësi Durimi 145",
+      "tr": "Sabır Hikmeti 145"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 146,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 146",
-      "al": "Urtësi 146",
-      "tr": "Hikmet 146"
+      "de": "Schutz-Weisheit 146",
+      "al": "Urtësi Mbrojtja 146",
+      "tr": "Korunma Hikmeti 146"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 147,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 147",
-      "al": "Urtësi 147",
-      "tr": "Hikmet 147"
+      "de": "Familie-Weisheit 147",
+      "al": "Urtësi Familja 147",
+      "tr": "Aile Hikmeti 147"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 148,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 148",
-      "al": "Urtësi 148",
-      "tr": "Hikmet 148"
+      "de": "Vergebung-Weisheit 148",
+      "al": "Urtësi Falja 148",
+      "tr": "Af Hikmeti 148"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   },
   {
     "id": 149,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 149",
-      "al": "Urtësi 149",
-      "tr": "Hikmet 149"
+      "de": "Erfolg-Weisheit 149",
+      "al": "Urtësi Suksesi 149",
+      "tr": "Başarı Hikmeti 149"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Muslim"
   },
   {
     "id": 150,
     "icon": "⭐",
     "title": {
-      "de": "Weisheit 150",
-      "al": "Urtësi 150",
-      "tr": "Hikmet 150"
+      "de": "Frieden-Weisheit 150",
+      "al": "Urtësi Paqja 150",
+      "tr": "Barış Hikmeti 150"
     },
     "text": {
-      "de": "Seid gütig zueinander.",
-      "al": "Bëhuni të mirë me njëri-tjetrin.",
-      "tr": "Birbirinize karşı nazik olun."
+      "de": "Handle stets mit einem reinen Herzen.",
+      "al": "Vepro gjithmonë me zemër të pastër.",
+      "tr": "Daima temiz bir kalple hareket et."
     },
     "explanation": {
-      "de": "Der Prophet sagte, Freundlichkeit ist ein Geschenk.",
-      "al": "Profeti tha se mirësia është një dhuratë.",
-      "tr": "Peygamber Efendimiz nezaketin bir hediye olduğunu söyledi."
+      "de": "Allah schaut nicht auf dein Aussehen, sondern auf dein Herz.",
+      "al": "Allahu nuk shikon pamjen tënde, por zemrën tënde.",
+      "tr": "Allah suretinize değil, kalbinize bakar."
     },
-    "source": "Hadith Sammlung"
+    "source": "Bukhari"
   }
 ]
