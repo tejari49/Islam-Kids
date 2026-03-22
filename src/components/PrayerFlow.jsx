@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, CheckCircle2, Droplets, ArrowRight, Play, Pause, Loader2, FastForward } from 'lucide-react';
 import { wuduSteps, prayers, prayerSteps } from '../data/prayerData';
+import { canUseSpeechSynthesis, speakArabicText, stopSpeechPlayback, toggleSpeechPause } from '../utils/audio';
 
 export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMode }) {
   const [step, setStep] = useState('select_prayer'); // select_prayer, ask_wudu, wudu_guide, prayer_guide
@@ -19,17 +20,24 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
     }
+    stopSpeechPlayback();
     setIsPlaying(false);
     setIsLoadingAudio(false);
   }, [currentSlide, step]);
 
   const toggleAudio = async () => {
     const currentStepData = prayerSteps[currentSlide];
-    if (!currentStepData || (!currentStepData.ayah && !currentStepData.audio)) return;
+    if (!currentStepData || (!currentStepData.ayah && !currentStepData.audio && !currentStepData.audioAyahs && !currentStepData.arabic)) return;
 
     if (isPlaying) {
       audioRef.current.pause();
+      toggleSpeechPause(true);
       setIsPlaying(false);
+      return;
+    }
+
+    if (toggleSpeechPause(false)) {
+      setIsPlaying(true);
       return;
     }
 
@@ -40,21 +48,72 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
       return;
     }
 
+    if ((!currentStepData.audio && !currentStepData.ayah && !currentStepData.audioAyahs) && canUseSpeechSynthesis()) {
+      speakArabicText(currentStepData.arabic, playbackRate, {
+        onStart: () => setIsPlaying(true),
+        onEnd: () => setIsPlaying(false),
+        onError: (error) => {
+          console.error("Speech audio error:", error);
+          setIsPlaying(false);
+        }
+      });
+      return;
+    }
+
     setIsLoadingAudio(true);
     try {
-      let audioUrl = currentStepData.audio;
-      
-      if (currentStepData.ayah) {
+      let audioUrls = currentStepData.audio ? [currentStepData.audio] : [];
+
+      if (currentStepData.audioAyahs?.length) {
+        const responses = await Promise.all(
+          currentStepData.audioAyahs.map(async (ayahRef) => {
+            const response = await fetch(`https://api.alquran.cloud/v1/ayah/${ayahRef}/ar.alafasy`);
+            const data = await response.json();
+            return data.data.audio;
+          })
+        );
+        audioUrls = responses;
+      } else if (currentStepData.ayah) {
         const response = await fetch(`https://api.alquran.cloud/v1/ayah/${currentStepData.ayah}/ar.alafasy`);
         const data = await response.json();
-        audioUrl = data.data.audio;
+        audioUrls = [data.data.audio];
       }
 
-      if (audioUrl) {
-        audioRef.current.src = audioUrl;
+      if (audioUrls.length > 0) {
+        audioRef.current.src = audioUrls[0];
         audioRef.current.playbackRate = playbackRate;
+
+        if (audioUrls.length > 1) {
+          let nextIndex = 1;
+          audioRef.current.onended = async () => {
+            if (nextIndex < audioUrls.length) {
+              audioRef.current.src = audioUrls[nextIndex];
+              audioRef.current.playbackRate = playbackRate;
+              nextIndex += 1;
+              await audioRef.current.play();
+              return;
+            }
+            audioRef.current.currentTime = 0;
+            setIsPlaying(false);
+          };
+        } else {
+          audioRef.current.onended = () => {
+            audioRef.current.currentTime = 0;
+            setIsPlaying(false);
+          };
+        }
+
         await audioRef.current.play();
         setIsPlaying(true);
+      } else if (canUseSpeechSynthesis()) {
+        speakArabicText(currentStepData.arabic, playbackRate, {
+          onStart: () => setIsPlaying(true),
+          onEnd: () => setIsPlaying(false),
+          onError: (error) => {
+            console.error("Speech audio error:", error);
+            setIsPlaying(false);
+          }
+        });
       }
     } catch (error) {
       console.error("Audio error:", error);
@@ -197,7 +256,7 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
 
   if (step === 'prayer_guide') {
     const currentStep = prayerSteps[currentSlide];
-    const hasAudio = currentStep.ayah || currentStep.audio;
+    const hasAudio = currentStep.ayah || currentStep.audio || currentStep.audioAyahs || currentStep.arabic;
 
     return (
       <div className={`p-6 pb-24 flex flex-col min-h-screen transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-indigo-50'}`}>

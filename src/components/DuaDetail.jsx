@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { ChevronLeft, Play, Pause, Loader2, Heart } from 'lucide-react';
+import { canUseSpeechSynthesis, speakArabicText, stopSpeechPlayback, toggleSpeechPause } from '../utils/audio';
 
 export default function DuaDetail({ 
   selectedDua, 
@@ -30,6 +31,7 @@ export default function DuaDetail({
     if (audioRef.current) {
       audioRef.current.pause();
     }
+    stopSpeechPlayback();
     setIsPlaying(false);
     setIsLoadingAudio(false);
     setCurrentAudioQueue([]);
@@ -66,8 +68,30 @@ export default function DuaDetail({
     
     if (isPlaying) {
       audioRef.current.pause();
+      toggleSpeechPause(true);
       setIsPlaying(false);
       return;
+    }
+
+    if (toggleSpeechPause(false)) {
+      setIsPlaying(true);
+      return;
+    }
+
+    if (canUseSpeechSynthesis()) {
+      try {
+        speakArabicText(selectedDua?.arabic, 0.9, {
+          onStart: () => setIsPlaying(true),
+          onEnd: () => setIsPlaying(false),
+          onError: (error) => {
+            console.error("Sprachausgabe Fehler:", error);
+            setIsPlaying(false);
+          }
+        });
+        return;
+      } catch (error) {
+        console.error("Sprachausgabe konnte nicht gestartet werden:", error);
+      }
     }
 
     if (currentAudioQueue.length > 0) {
@@ -115,7 +139,7 @@ export default function DuaDetail({
         >
           <ChevronLeft size={20} /> {selectedLang === 'de' ? 'Zurück' : selectedLang === 'al' ? 'Mbrapsht' : 'Geri'}
         </button>
-        {audioAyahRefs.length > 0 && (
+        {(audioAyahRefs.length > 0 || canUseSpeechSynthesis()) && (
           <button 
             onClick={toggleAudio}
             disabled={isLoadingAudio}
