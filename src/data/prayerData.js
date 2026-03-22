@@ -36,7 +36,7 @@ export const prayerSteps = [
     image: "📖", 
     illustration: "/images/prayer/qiyam.png",
     title: { de: "Al-Fatiha lesen", al: "Leximi i Fatihasë", tr: "Fatiha'yı okumak" }, 
-    ayah: "1", // Surah 1 (Al-Fatiha)
+    audioAyahs: ["1:1", "1:2", "1:3", "1:4", "1:5", "1:6", "1:7"],
     arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ... الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
     transliteration: "Bismillaahir Rahmaanir Raheem. Alhamdu lillaahi Rabbil 'aalameen...",
     text: { 
