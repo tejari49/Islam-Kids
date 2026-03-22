@@ -6,6 +6,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   const [duration, setDuration] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
   const [isBuffering, setIsBuffering] = useState(false);
+  const [pronunciation, setPronunciation] = useState('');
   const audioRef = useRef(null);
 
   const hasIncremented = useRef(false);
@@ -16,6 +17,36 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
       hasIncremented.current = true;
     }
   }, [incrementStat]);
+
+  useEffect(() => {
+    let isCancelled = false;
+
+    const loadPronunciation = async () => {
+      if (item.id > 114) {
+        setPronunciation('');
+        return;
+      }
+
+      try {
+        const response = await fetch(`https://api.alquran.cloud/v1/surah/${item.id}`);
+        const data = await response.json();
+        if (!isCancelled) {
+          setPronunciation(data?.data?.englishName || '');
+        }
+      } catch (error) {
+        console.error("Fehler beim Laden der Suren-Aussprache:", error);
+        if (!isCancelled) {
+          setPronunciation('');
+        }
+      }
+    };
+
+    loadPronunciation();
+
+    return () => {
+      isCancelled = true;
+    };
+  }, [item.id]);
 
   // Audio Logic
   useEffect(() => {
@@ -79,9 +110,9 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   };
 
   const labels = {
-    de: { back: "Zurück", share: "Teilen", listen: "Anhören", meaning: "Bedeutung", verses: "Verse", revelation: "Offenbarung" },
-    al: { back: "Mbrapa", share: "Shpërndo", listen: "Dëgjo", meaning: "Kuptimi", verses: "Ajete", revelation: "Shpallja" },
-    tr: { back: "Geri", share: "Paylaş", listen: "Dinle", meaning: "Anlamı", verses: "Ayet", revelation: "Nüzul" }
+    de: { back: "Zurück", share: "Teilen", listen: "Anhören", meaning: "Bedeutung", verses: "Verse", revelation: "Offenbarung", pronunciation: "Aussprache" },
+    al: { back: "Mbrapa", share: "Shpërndo", listen: "Dëgjo", meaning: "Kuptimi", verses: "Ajete", revelation: "Shpallja", pronunciation: "Shqiptimi" },
+    tr: { back: "Geri", share: "Paylaş", listen: "Dinle", meaning: "Anlamı", verses: "Ayet", revelation: "Nüzul", pronunciation: "Okunuş" }
   };
 
   return (
@@ -124,6 +155,16 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
                   {labels[selectedLang].revelation}: {item.revelation}
                 </div>
               )}
+            </div>
+          )}
+          {pronunciation && (
+            <div className={`w-full p-4 rounded-[1.5rem] border text-center ${isDarkMode ? 'bg-slate-900/40 border-slate-700' : 'bg-gray-50 border-gray-100'}`}>
+              <p className={`text-[10px] font-black uppercase tracking-widest mb-2 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>
+                {labels[selectedLang].pronunciation}
+              </p>
+              <p className={`text-lg font-semibold ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>
+                {pronunciation}
+              </p>
             </div>
           )}
         </div>

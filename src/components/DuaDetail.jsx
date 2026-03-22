@@ -24,7 +24,11 @@ export default function DuaDetail({
   const showsFullAyahText = Boolean(apiArabicText);
   const displayArabic = showsFullAyahText ? apiArabicText : selectedDua?.arabic;
 
-  const normalizeArabic = (value = '') => value.replace(/[^\p{L}\p{N}]+/gu, '');
+  const normalizeArabic = (value = '') =>
+    value
+      .normalize('NFKD')
+      .replace(/[\u064B-\u065F\u0610-\u061A\u06D6-\u06ED]/g, '')
+      .replace(/[^؀-ۿ0-9A-Za-z]+/g, '');
   const hasTextMismatch = showsFullAyahText && normalizeArabic(apiArabicText) !== normalizeArabic(selectedDua?.arabic || '');
 
   useEffect(() => {

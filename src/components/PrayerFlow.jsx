@@ -7,6 +7,7 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
   const [step, setStep] = useState('select_prayer'); // select_prayer, ask_wudu, wudu_guide, prayer_guide
   const [selectedPrayer, setSelectedPrayer] = useState(null);
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [imageFailed, setImageFailed] = useState(false);
   
   // Audio states
   const [isPlaying, setIsPlaying] = useState(false);
@@ -21,7 +22,7 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
     }
-    stopSpeechPlayback();
+    setImageFailed(false);
     setIsPlaying(false);
     setIsLoadingAudio(false);
   }, [currentSlide, step]);
@@ -58,7 +59,7 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
 
   const toggleAudio = async () => {
     const currentStepData = prayerSteps[currentSlide];
-    if (!currentStepData || (!currentStepData.ayah && !currentStepData.audio && !currentStepData.audioAyahs && !currentStepData.arabic)) return;
+    if (!currentStepData || (!currentStepData.ayah && !currentStepData.audio && !currentStepData.audioAyahs)) return;
 
     if (isPlaying) {
       audioRef.current.pause();
@@ -302,11 +303,12 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
         </div>
 
         <div className={`flex-1 flex flex-col items-center justify-start text-center space-y-6 p-6 rounded-[3rem] shadow-xl border-2 relative overflow-hidden transition-colors ${isDarkMode ? 'bg-slate-800 border-indigo-900/30 shadow-slate-950/50' : 'bg-white border-indigo-100'}`}>
-          {currentStep.illustration ? (
+          {currentStep.illustration && !imageFailed ? (
             <img 
               key={currentStep.id}
               src={currentStep.illustration} 
               alt={currentStep.title[selectedLang]}
+              onError={() => setImageFailed(true)}
               className="h-48 w-48 object-contain mx-auto mt-2 drop-shadow-2xl transition-all duration-300 animate-fade-in"
             />
           ) : (
