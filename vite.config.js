@@ -31,5 +31,5 @@ export default defineConfig({
       }
     })
   ],
-  base: './', // important for GitHub Pages
+  base: '/Islam-Kids/', // Spezifischer Pfad für das GitHub Pages Repository
 })

@@ -1,71 +1,93 @@
-import React from 'react';
-import { Home as HomeIcon, BookOpen, MessageCircle, Library, Sparkles, Star, Moon, Heart } from 'lucide-react';
-import { duas } from '../data/duas';
-import { stories } from '../data/stories';
+import React, { useMemo } from 'react';
+import { Sparkles, ChevronRight, Calendar } from 'lucide-react';
 
-export default function Home({ selectedLang, uiTexts, handleTabChange, setSelectedDua, setSelectedStory }) {
+export default function Home({ selectedLang, uiTexts, setSelectedDua, setSelectedStory, setSelectedHadith, duas, hadiths, stories }) {
+  
+  // Funktion zur Berechnung des "täglichen" Index basierend auf dem Datum
+  const dailyIndices = useMemo(() => {
+    const today = new Date();
+    // Nutze Jahr, Monat und Tag, um jeden Tag genau eine feste Nummer zu bekommen
+    const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+    
+    return {
+      dua: duas.length > 0 ? seed % duas.length : 0,
+      hadith: hadiths.length > 0 ? seed % hadiths.length : 0,
+      story: stories.length > 0 ? seed % stories.length : 0
+    };
+  }, [duas.length, hadiths.length, stories.length]);
+
+  const dailyDua = duas[dailyIndices.dua];
+  const dailyHadith = hadiths[dailyIndices.hadith];
+  const dailyStory = stories[dailyIndices.story];
+
   return (
     <div className="p-6 pb-24 space-y-6">
       <div className="bg-gradient-to-br from-green-400 to-emerald-500 p-6 rounded-3xl text-white shadow-lg text-center relative overflow-hidden">
         <Sparkles className="absolute top-2 right-2 opacity-20" size={48} />
         <h1 className="text-2xl font-bold mb-2 relative z-10">{uiTexts[selectedLang].welcome}</h1>
-        <p className="text-green-50 opacity-90 relative z-10 font-medium">Bismillah ir-Rahman ir-Rahim</p>
+        <p className="text-green-50 opacity-90 relative z-10 font-medium flex items-center justify-center gap-2">
+          <Calendar size={16} /> Heutige Auswahl
+        </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-4">
-        <button 
-          onClick={() => handleTabChange('duas')}
-          className="bg-white p-6 rounded-3xl shadow-sm border-2 border-green-100 flex flex-col items-center justify-center gap-3 hover:bg-green-50 transition-colors cursor-pointer"
-        >
-          <div className="bg-green-100 p-4 rounded-full text-green-600">
-            <BookOpen size={32} />
+      <div className="space-y-4">
+        {/* Dua des Tages */}
+        {dailyDua && (
+          <div className="bg-white rounded-3xl shadow-sm border-2 border-green-100 overflow-hidden">
+            <div className="bg-green-50 px-4 py-2 text-xs font-bold text-green-600 uppercase tracking-wider">
+              Dua des Tages
+            </div>
+            <button 
+              onClick={() => setSelectedDua(dailyDua)}
+              className="w-full text-left p-4 flex items-center gap-4 hover:bg-green-50/50 transition-colors cursor-pointer"
+            >
+              <div className="text-4xl">{dailyDua.icon}</div>
+              <div className="flex-1">
+                <h3 className="font-bold text-gray-800">{dailyDua.title[selectedLang]}</h3>
+                <p className="text-sm text-gray-500 line-clamp-1">{dailyDua.transliteration}</p>
+              </div>
+              <ChevronRight className="text-gray-400 flex-shrink-0" />
+            </button>
           </div>
-          <span className="font-bold text-gray-700 text-sm">{uiTexts[selectedLang].duas}</span>
-        </button>
+        )}
 
-        <button 
-          onClick={() => handleTabChange('hadiths')}
-          className="bg-white p-6 rounded-3xl shadow-sm border-2 border-yellow-100 flex flex-col items-center justify-center gap-3 hover:bg-yellow-50 transition-colors cursor-pointer"
-        >
-          <div className="bg-yellow-100 p-4 rounded-full text-yellow-600">
-            <MessageCircle size={32} />
+        {/* Hadith des Tages */}
+        {dailyHadith && (
+          <div className="bg-white rounded-3xl shadow-sm border-2 border-yellow-100 overflow-hidden">
+            <div className="bg-yellow-50 px-4 py-2 text-xs font-bold text-yellow-600 uppercase tracking-wider">
+              Hadith des Tages
+            </div>
+            <button 
+              onClick={() => setSelectedHadith(dailyHadith)}
+              className="w-full text-left p-4 flex items-center gap-4 hover:bg-yellow-50/50 transition-colors cursor-pointer"
+            >
+              <div className="text-4xl bg-yellow-50 p-2 rounded-xl">{dailyHadith.icon}</div>
+              <div className="flex-1">
+                <h3 className="font-bold text-gray-800">{dailyHadith.title[selectedLang]}</h3>
+              </div>
+              <ChevronRight className="text-gray-400 flex-shrink-0" />
+            </button>
           </div>
-          <span className="font-bold text-gray-700 text-sm">{uiTexts[selectedLang].hadiths}</span>
-        </button>
-      </div>
+        )}
 
-      <button 
-        onClick={() => handleTabChange('stories')}
-        className="w-full bg-white p-4 rounded-3xl shadow-sm border-2 border-purple-100 flex items-center justify-center gap-3 hover:bg-purple-50 transition-colors cursor-pointer"
-      >
-        <div className="bg-purple-100 p-3 rounded-full text-purple-600">
-          <Library size={24} />
-        </div>
-        <span className="font-bold text-gray-700">{uiTexts[selectedLang].stories}</span>
-      </button>
-
-      {/* Quick Links */}
-      <div className="flex justify-around items-center pt-6">
-        <button onClick={() => setSelectedStory(stories[0])} className="flex flex-col items-center gap-2 group cursor-pointer">
-          <div className="bg-yellow-50 p-3 rounded-full group-hover:scale-110 transition-transform">
-            <Star className="text-yellow-400" size={28} />
+        {/* Geschichte des Tages */}
+        {dailyStory && (
+          <div className="bg-white rounded-3xl shadow-sm border-2 border-purple-100 overflow-hidden">
+            <div className="bg-purple-50 px-4 py-2 text-xs font-bold text-purple-600 uppercase tracking-wider">
+              Geschichte des Tages
+            </div>
+            <button 
+              onClick={() => setSelectedStory(dailyStory)}
+              className="w-full text-left p-4 flex items-center gap-4 hover:bg-purple-50/50 transition-colors cursor-pointer"
+            >
+              <div className="text-4xl bg-purple-50 p-3 rounded-xl">{dailyStory.icon}</div>
+              <div className="flex-1">
+                <h3 className="font-bold text-gray-800 leading-tight">{dailyStory.title[selectedLang]}</h3>
+              </div>
+              <ChevronRight className="text-gray-400 flex-shrink-0" />
+            </button>
           </div>
-          <span className="text-[10px] font-bold text-gray-400">{uiTexts[selectedLang].prophet}</span>
-        </button>
-        
-        <button onClick={() => setSelectedDua(duas.find(d => d.id === 3))} className="flex flex-col items-center gap-2 group cursor-pointer">
-          <div className="bg-indigo-50 p-3 rounded-full group-hover:scale-110 transition-transform">
-            <Moon className="text-indigo-400" size={28} />
-          </div>
-          <span className="text-[10px] font-bold text-gray-400">{uiTexts[selectedLang].sleep}</span>
-        </button>
-
-        <button onClick={() => setSelectedDua(duas.find(d => d.id === 9))} className="flex flex-col items-center gap-2 group cursor-pointer">
-          <div className="bg-red-50 p-3 rounded-full group-hover:scale-110 transition-transform">
-            <Heart className="text-red-400" size={28} />
-          </div>
-          <span className="text-[10px] font-bold text-gray-400">{uiTexts[selectedLang].parents}</span>
-        </button>
+        )}
       </div>
     </div>
   );

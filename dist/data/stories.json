@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "icon": "🌙",
+    "title": {
+      "de": "Wer war Prophet Muhammad?",
+      "al": "Kush ishte Profeti Muhamed?",
+      "tr": "Peygamberimiz Hz. Muhammed Kimdi?"
+    },
+    "content": {
+      "de": "Unser Prophet hieß Muhammad (Friede sei mit ihm). Er war ein sehr ehrlicher, gerechter und freundlicher Mensch. Die Menschen in seiner Stadt nannten ihn 'Al-Amin', was 'der Vertrauenswürdige' bedeutet. Er liebte Kinder sehr und war immer nett zu Tieren. Allah wählte ihn aus, um den Menschen den Islam (den Weg des Friedens) zu bringen und ihnen zu zeigen, wie man ein gutes Herz hat.",
+      "al": "Profeti ynë quhej Muhamed (paqja dhe mëshira e Allahut qofshin mbi të). Ai ishte një njeri shumë i ndershëm dhe i sjellshëm. Njerëzit e quanin 'El-Emin' (i besueshmi). Ai i donte shumë fëmijët dhe ishte gjithmonë i mirë me kafshët. Allahu e zgjodhi atë për t'u sjellë njerëzve Islamin dhe për t'u treguar atyre se si të kenë një zemër të mirë.",
+      "tr": "Peygamberimizin adı Muhammed'dir (s.a.v.). O çok dürüst, adaletli ve kibar bir insandı. İnsanlar ona 'El-Emin' (Güvenilir) derlerdi. Çocukları çok severdi ve hayvanlara karşı her zaman merhametliydi. Allah onu insanlara İslam'ı getirmesi ve onlara nasıl iyi bir kalbe sahip olacaklarını göstermesi için seçti."
+    }
+  },
+  {
+    "id": 2,
+    "icon": "⛵",
+    "title": {
+      "de": "Prophet Nuh und die Arche",
+      "al": "Profeti Nuh dhe Arka",
+      "tr": "Nuh Peygamber ve Gemi"
+    },
+    "content": {
+      "de": "Prophet Nuh baute ein riesiges Schiff (die Arche), weil Allah es ihm befahl. Die Menschen lachten ihn aus, aber er blieb geduldig. Als die große Flut kam, waren nur Nuh, die Tiere (von jeder Art zwei) und die guten Menschen auf dem Schiff sicher. Das lehrt uns: Wer auf Allah vertraut und geduldig ist, wird immer beschützt!",
+      "al": "Profeti Nuh ndërtoi një anije gjigante (Arkën) sepse Allahu e urdhëroi. Njerëzit qeshnin me të, por ai mbeti i durueshëm. Kur erdhi përmbytja e madhe, vetëm Nuhu, kafshët (nga dy të secilit lloj) dhe njerëzit e mirë në anije ishin të sigurt. Kjo na mëson: Kush ka besim tek Allahu dhe është i durueshëm, është gjithmonë i mbrojtur!",
+      "tr": "Nuh Peygamber, Allah'ın emriyle devasa bir gemi inşa etti. İnsanlar onunla alay etti ama o sabırlı kaldı. Büyük tufan geldiğinde, sadece Nuh, hayvanlar (her türden iki tane) ve gemideki iyi insanlar güvendeydi. Bu bize şunu öğretir: Allah'a güvenen ve sabırlı olan her zaman korunur!"
+    }
+  },
+  {
+    "id": 3,
+    "icon": "🕊️",
+    "title": {
+      "de": "Die Engel (Malaika)",
+      "al": "Engjëjt (Melaiket)",
+      "tr": "Melekler"
+    },
+    "content": {
+      "de": "Engel sind unsichtbare Diener Allahs, erschaffen aus purem Licht. Sie essen nicht, trinken nicht und machen niemals Fehler. Jeder Mensch hat Schutzengel, die auf ihn aufpassen, und Engel, die unsere guten Taten aufschreiben. Der bekannteste Engel ist Jibril (Gabriel), der den Propheten den Koran brachte.",
+      "al": "Engjëjt janë shërbëtorë të padukshëm të Allahut, të krijuar nga drita e pastër. Ata nuk hanë, nuk pinë dhe nuk bëjnë kurrë gabime. Çdo njeri ka engjëj mbrojtës që kujdesen për të, dhe engjëj që shkruajnë veprat tona të mira. Engjëlli më i njohur është Xhibrili, i cili u solli Kuranin profetëve.",
+      "tr": "Melekler, Allah'ın saf nurdan yarattığı görünmez kullarıdır. Yemezler, içmezler ve asla hata yapmazlar. Her insanın onu koruyan melekleri ve iyiliklerini yazan melekleri vardır. En bilinen melek, peygamberlere Kuran'ı getiren Cebrail'dir (A.S.)."
+    }
+  },
+  {
+    "id": 4,
+    "icon": "🚫🐷",
+    "title": {
+      "de": "Warum essen wir kein Schweinefleisch?",
+      "al": "Pse nuk hamë mish derri?",
+      "tr": "Neden domuz eti yemiyoruz?"
+    },
+    "content": {
+      "de": "Allah hat uns im Koran gesagt, dass wir kein Schweinefleisch essen sollen. Schweine sind Tiere, die in der Natur alles fressen, auch Dinge, die nicht sauber sind. Allah hat uns Menschen sehr lieb und möchte unseren Körper beschützen. Deshalb sollen wir nur saubere und gesunde Dinge (Halal) essen. Wir gehorchen Allah, weil Er unser Schöpfer ist und am allerbesten weiß, was gut für uns ist!",
+      "al": "Allahu na ka thënë në Kuran të mos hamë mish derri. Derrat janë kafshë që hanë gjithçka, madje edhe papastërti. Allahu na do shumë dhe dëshiron të mbrojë trupin tonë. Prandaj ne duhet të hamë vetëm gjëra të pastra dhe të shëndetshme (Hallall). Ne i bindemi Allahut sepse Ai është Krijuesi ynë dhe e di më së miri se çfarë është e mirë për ne!",
+      "tr": "Allah Kuran'da bize domuz eti yemememizi söylemiştir. Domuzlar doğada kirli şeyler dahil her şeyi yiyen hayvanlardır. Allah bizi çok sever ve vücudumuzu korumak ister. Bu yüzden sadece temiz ve sağlıklı (Helal) şeyler yemeliyiz. Biz Allah'a itaat ederiz çünkü O bizim Yaratıcımızdır ve bizim için neyin iyi olduğunu en iyi O bilir!"
+    }
+  },
+  {
+    "id": 5,
+    "icon": "🕌",
+    "title": {
+      "de": "Warum beten wir (Salah)?",
+      "al": "Pse falemi (Namazi)?",
+      "tr": "Neden namaz kılıyoruz?"
+    },
+    "content": {
+      "de": "Beten ist wie eine ganz besondere Verabredung mit Allah. Wir Muslime beten fünfmal am Tag. Dabei waschen wir uns vorher sauber (Wudu). Im Gebet sagen wir Allah 'Danke' für alles Schöne: unsere Familie, unser Essen, dass wir sehen und spielen können. Wenn wir beten, wird unser Herz ganz ruhig und wir fühlen uns Allah sehr nah.",
+      "al": "Falja është si një takim shumë i veçantë me Allahun. Ne muslimanët falemi pesë herë në ditë. Para se të falemi, ne pastrohemi (Marrim abdes). Gjatë namazit ne i themi Allahut 'Faleminderit' për çdo gjë të bukur: familjen tonë, ushqimin, shikimin dhe mundësinë për të luajtur. Kur falemi, zemra jonë qetësohet dhe ndihemi shumë afër Allahut.",
+      "tr": "Namaz kılmak Allah ile olan çok özel bir buluşma gibidir. Biz Müslümanlar günde beş vakit namaz kılarız. Namazdan önce temizleniriz (Abdest alırız). Namazda Allah'a bize verdiği her güzel şey için (ailemiz, yemeğimiz, görebilmemiz ve oynayabilmemiz) 'Teşekkür ederim' deriz. Namaz kıldığımızda kalbimiz huzur bulur ve kendimizi Allah'a çok yakın hissederiz."
+    }
+  },
+  {
+    "id": 6,
+    "icon": "📅",
+    "title": {
+      "de": "Warum fasten wir im Ramadan?",
+      "al": "Pse agjërojmë në Ramazan?",
+      "tr": "Ramazan'da neden oruç tutuyoruz?"
+    },
+    "content": {
+      "de": "Im Monat Ramadan essen und trinken wir tagsüber nicht, bis die Sonne untergeht. Das nennt man Fasten. Allah hat uns das Fasten aufgetragen, damit wir lernen, geduldig zu sein. Wenn wir Hunger haben, erinnern wir uns an die armen Menschen, die nicht genug zu essen haben, und wir werden dankbarer für all das leckere Essen, das Allah uns gibt. Am Abend brechen wir das Fasten freudig mit unserer Familie beim Iftar!",
+      "al": "Në muajin e Ramazanit ne nuk hamë dhe nuk pimë gjatë ditës, derisa të perëndojë dielli. Kjo quhet agjërim. Allahu na ka urdhëruar të agjërojmë që të mësojmë të jemi të durueshëm. Kur jemi të uritur, kujtojmë njerëzit e varfër që nuk kanë mjaftueshëm për të ngrënë, dhe bëhemi më falënderues për ushqimin e shijshëm që na jep Allahu. Në mbrëmje, ne e prishim agjërimin me gëzim me familjen tonë në Iftar!",
+      "tr": "Ramazan ayında güneş batana kadar gün boyunca yemek yemez ve su içmeyiz. Buna oruç tutmak denir. Allah bize sabırlı olmayı öğrenmemiz için oruç tutmayı emretmiştir. Acıktığımızda, yeterince yiyeceği olmayan fakir insanları hatırlarız ve Allah'ın bize verdiği tüm lezzetli yiyecekler için daha çok şükrederiz. Akşamları orucumuzu ailemizle birlikte İftar'da sevinçle açarız!"
+    }
+  },
+  {
+    "id": 7,
+    "icon": "✅❌",
+    "title": {
+      "de": "Was ist Halal und Haram?",
+      "al": "Çfarë është Hallall dhe Haram?",
+      "tr": "Helal ve Haram nedir?"
+    },
+    "content": {
+      "de": "Als Muslime achten wir auf 'Halal' (erlaubt) und 'Haram' (verboten). Halal ist alles, was gut und gesund für uns ist, wie frisches Obst, ehrliches Teilen und nett zu anderen zu sein. Haram ist das, was uns oder anderen schadet, wie Lügen, Stehlen oder Dinge essen, die schlecht für unseren Körper sind. Allah hat uns diese Regeln aus großer Liebe gegeben, weil Er uns beschützen möchte. Wenn wir uns daran halten, werden wir glücklich und belohnt!",
+      "al": "Si muslimanë ne i kushtojmë rëndësi 'Hallallit' (e lejuar) dhe 'Haramit' (e ndaluar). Hallall është gjithçka që është e mirë dhe e shëndetshme për ne, si pemët e freskëta, të qenurit i sinqertë dhe i sjellshëm me të tjerët. Haram është ajo që na dëmton ne ose të tjerët, si gënjeshtra, vjedhja ose ngrënia e gjërave të dëmshme për trupin tonë. Allahu na i dha këto rregulla me shumë dashuri për të na mbrojtur. Nëse i ndjekim, do të jemi të lumtur dhe të shpërblyer!",
+      "tr": "Müslümanlar olarak 'Helal' (izin verilen) ve 'Haram' (yasaklanan) kavramlarına dikkat ederiz. Helal, taze meyveler yemek, dürüstçe paylaşmak ve başkalarına karşı nazik olmak gibi bizim için iyi ve sağlıklı olan her şeydir. Haram ise, yalan söylemek, çalmak veya vücudumuza zarar veren şeyler yemek gibi bize veya başkalarına zarar veren şeylerdir. Allah bizi korumak için büyük sevgisiyle bize bu kuralları vermiştir. Onlara uyarsak mutlu olur ve mükafatlandırılırız!"
+    }
+  },
+  {
+    "id": 8,
+    "icon": "🔥",
+    "title": {
+      "de": "Prophet Ibrahim und das Feuer",
+      "al": "Profeti Ibrahim dhe Zjarri",
+      "tr": "İbrahim Peygamber ve Ateş"
+    },
+    "content": {
+      "de": "Prophet Ibrahim glaubte nur an den einen Allah, während alle anderen Steinstatuen anbeteten. Der böse König wurde sehr wütend und warf Ibrahim in ein riesiges Feuer. Aber Ibrahim hatte keine Angst, denn er vertraute auf Allah. Da befahl Allah dem Feuer: 'Sei kühl und friedlich für Ibrahim!' Das Feuer verbrannte ihn überhaupt nicht und er kam unversehrt heraus. Das zeigt uns: Allah beschützt diejenigen, die an Ihn glauben!",
+      "al": "Profeti Ibrahim besonte vetëm në një Allah, ndërsa të gjithë të tjerët adhuronin statuja guri. Mbreti i keq u zemërua shumë dhe e hodhi Ibrahimin në një zjarr gjigant. Por Ibrahimi nuk kishte frikë sepse ai besonte në Allahun. Atëherë Allahu e urdhëroi zjarrin: 'Bëhu i ftohtë dhe i padëmshëm për Ibrahimin!' Zjarri nuk e dogji fare dhe ai doli i padëmtuar. Kjo na tregon: Allahu i mbron ata që besojnë tek Ai!",
+      "tr": "İbrahim Peygamber, diğer herkes taştan heykellere taparken sadece tek olan Allah'a inanırdı. Kötü kral buna çok kızdı ve İbrahim'i devasa bir ateşe attı. Ancak İbrahim korkmadı çünkü Allah'a güveniyordu. Sonra Allah ateşe şöyle emretti: 'İbrahim için serin ve selamet ol!' Ateş onu hiç yakmadı ve yara almadan dışarı çıktı. Bu bize şunu gösterir: Allah, Kendisine inananları korur!"
+    }
+  },
+  {
+    "id": 9,
+    "icon": "🌊",
+    "title": {
+      "de": "Prophet Musa und das Rote Meer",
+      "al": "Profeti Musa dhe Deti i Kuq",
+      "tr": "Musa Peygamber ve Kızıldeniz"
+    },
+    "content": {
+      "de": "Prophet Musa floh mit seinem Volk vor dem grausamen Pharao und seiner Armee. Plötzlich standen sie am Ufer eines tiefen Meeres und konnten nicht weiter. Die Armee war direkt hinter ihnen! Aber Musa verzweifelte nicht. Allah befahl ihm, mit seinem Stock auf das Wasser zu schlagen. Da teilte sich das Meer auf wundersame Weise und bildete einen trockenen Weg! Musa und sein Volk konnten sicher auf die andere Seite gehen. Echte Rettung kommt immer von Allah.",
+      "al": "Profeti Musa iku me popullin e tij nga Faraoni mizor dhe ushtria e tij. Papritmas u gjendën në bregun e një deti të thellë dhe nuk mund të shkonin më tej. Ushtria ishte pikërisht pas tyre! Por Musa nuk i humbi shpresat. Allahu e urdhëroi ta godiste ujin me shkopin e tij. Atëherë deti u nda në mënyrë të mrekullueshme dhe formoi një rrugë të thatë! Musa dhe njerëzit e tij kaluan të sigurt në anën tjetër. Shpëtimi i vërtetë vjen gjithmonë nga Allahu.",
+      "tr": "Musa Peygamber, zalim Firavun ve ordusundan kavmiyle birlikte kaçıyordu. Aniden derin bir denizin kıyısına geldiler ve daha fazla ilerleyemediler. Ordu hemen arkalarındaydı! Ama Musa umutsuzluğa kapılmadı. Allah ona asasını suya vurmasını emretti. Sonra deniz mucizevi bir şekilde ikiye yarıldı ve kuru bir yol oluşturdu! Musa ve kavmi güvenle karşıya geçebildiler. Gerçek kurtuluş her zaman Allah'tan gelir."
+    }
+  }
+]

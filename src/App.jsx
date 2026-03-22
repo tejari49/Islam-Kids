@@ -8,7 +8,10 @@ import HadithDetail from './components/HadithDetail';
 import StoriesList from './components/StoriesList';
 import StoryDetail from './components/StoryDetail';
 
+import { useData } from './hooks/useData';
+
 export default function App() {
+  const { duas, hadiths, stories, loading } = useData();
   const [activeTab, setActiveTab] = useState('home');
   const [selectedLang, setSelectedLang] = useState('de');
   const [selectedDua, setSelectedDua] = useState(null);
@@ -59,28 +62,41 @@ export default function App() {
       </div>
 
       <div className="h-full overflow-y-auto">
-        {activeTab === 'home' && !selectedDua && !selectedStory && !selectedHadith && (
-          <Home 
-            selectedLang={selectedLang} 
-            uiTexts={uiTexts} 
-            handleTabChange={handleTabChange} 
-            setSelectedDua={setSelectedDua} 
-            setSelectedStory={setSelectedStory} 
-          />
+        {loading ? (
+          <div className="flex flex-col items-center justify-center h-full space-y-4">
+            <div className="w-12 h-12 border-4 border-green-200 border-t-green-500 rounded-full animate-spin"></div>
+            <p className="text-gray-500 font-medium">Lade Inhalte...</p>
+          </div>
+        ) : (
+          <>
+            {activeTab === 'home' && !selectedDua && !selectedStory && !selectedHadith && (
+              <Home 
+                selectedLang={selectedLang} 
+                uiTexts={uiTexts} 
+                handleTabChange={handleTabChange} 
+                setSelectedDua={setSelectedDua} 
+                setSelectedStory={setSelectedStory}
+                setSelectedHadith={setSelectedHadith}
+                duas={duas}
+                hadiths={hadiths}
+                stories={stories}
+              />
+            )}
+            {activeTab === 'duas' && !selectedDua && !selectedStory && !selectedHadith && (
+              <DuasList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedDua={setSelectedDua} duas={duas} />
+            )}
+            {activeTab === 'hadiths' && !selectedDua && !selectedStory && !selectedHadith && (
+              <HadithsList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedHadith={setSelectedHadith} hadiths={hadiths} />
+            )}
+            {activeTab === 'stories' && !selectedDua && !selectedStory && !selectedHadith && (
+              <StoriesList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedStory={setSelectedStory} stories={stories} />
+            )}
+            
+            {selectedDua && <DuaDetail selectedDua={selectedDua} selectedLang={selectedLang} uiTexts={uiTexts} setSelectedDua={setSelectedDua} />}
+            {selectedHadith && <HadithDetail selectedHadith={selectedHadith} selectedLang={selectedLang} setSelectedHadith={setSelectedHadith} />}
+            {selectedStory && <StoryDetail selectedStory={selectedStory} selectedLang={selectedLang} setSelectedStory={setSelectedStory} />}
+          </>
         )}
-        {activeTab === 'duas' && !selectedDua && !selectedStory && !selectedHadith && (
-          <DuasList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedDua={setSelectedDua} />
-        )}
-        {activeTab === 'hadiths' && !selectedDua && !selectedStory && !selectedHadith && (
-          <HadithsList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedHadith={setSelectedHadith} />
-        )}
-        {activeTab === 'stories' && !selectedDua && !selectedStory && !selectedHadith && (
-          <StoriesList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedStory={setSelectedStory} />
-        )}
-        
-        {selectedDua && <DuaDetail selectedDua={selectedDua} selectedLang={selectedLang} uiTexts={uiTexts} setSelectedDua={setSelectedDua} />}
-        {selectedHadith && <HadithDetail selectedHadith={selectedHadith} selectedLang={selectedLang} setSelectedHadith={setSelectedHadith} />}
-        {selectedStory && <StoryDetail selectedStory={selectedStory} selectedLang={selectedLang} setSelectedStory={setSelectedStory} />}
       </div>
 
       {/* Bottom Navigation */}

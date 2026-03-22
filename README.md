@@ -1,35 +1,16 @@
-# IslamKids
+# React + Vite
 
-IslamKids ist eine kleine React-/Vite-App für Kinder mit Duas, Hadithen und Geschichten.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Entwicklung starten
+Currently, two official plugins are available:
 
-```bash
-npm install
-npm run dev
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Produktions-Build lokal prüfen
+## React Compiler
 
-```bash
-npm run build
-npm run preview
-```
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Wichtig: Nicht per Doppelklick öffnen
+## Expanding the ESLint configuration
 
-Öffne `index.html` oder `dist/index.html` **nicht** direkt über `file://` (z. B. per Doppelklick im Dateimanager).
-
-Der Browser blockiert bei Vite-Apps in diesem Fall die JavaScript-Module, wodurch die Seite leer bleiben kann.
-
-Nutze stattdessen immer einen Webserver, zum Beispiel:
-
-```bash
-npm run dev
-```
-
-oder für den Build-Ordner:
-
-```bash
-npx serve dist
-```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
