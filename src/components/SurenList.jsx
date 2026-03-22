@@ -10,9 +10,9 @@ export default function SurenList({ suren, onSelect, selectedLang, isDarkMode, f
   );
 
   const labels = {
-    de: { title: "Alle Suren", search: "Suchen..." },
-    al: { title: "Të gjitha Suret", search: "Kërko..." },
-    tr: { title: "Tüm Sureler", search: "Ara..." }
+    de: { title: "Alle Suren", search: "Suchen...", type: "Qur'an-Sure" },
+    al: { title: "Të gjitha Suret", search: "Kërko...", type: "Sure e Kuranit" },
+    tr: { title: "Tüm Sureler", search: "Ara...", type: "Kur'an suresi" }
   };
 
   return (
@@ -52,7 +52,7 @@ export default function SurenList({ suren, onSelect, selectedLang, isDarkMode, f
             
             <div className="flex-1">
               <h3 className="font-bold text-lg mb-0.5">{item.title[selectedLang]}</h3>
-              <p className={`text-sm ${isDarkMode ? 'text-slate-400' : 'text-gray-400'}`}>Quran {item.id <= 114 ? 'Surah' : 'Reflexion'}</p>
+              <p className={`text-sm ${isDarkMode ? 'text-slate-400' : 'text-gray-400'}`}>{labels[selectedLang].type}</p>
             </div>
 
             <div className="flex items-center gap-2">

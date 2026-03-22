@@ -79,9 +79,9 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   };
 
   const labels = {
-    de: { back: "Zurück", share: "Teilen", listen: "Anhören", meaning: "Bedeutung" },
-    al: { back: "Mbrapa", share: "Shpërndo", listen: "Dëgjo", meaning: "Kuptimi" },
-    tr: { back: "Geri", share: "Paylaş", listen: "Dinle", meaning: "Anlamı" }
+    de: { back: "Zurück", share: "Teilen", listen: "Anhören", meaning: "Bedeutung", verses: "Verse", revelation: "Offenbarung" },
+    al: { back: "Mbrapa", share: "Shpërndo", listen: "Dëgjo", meaning: "Kuptimi", verses: "Ajete", revelation: "Shpallja" },
+    tr: { back: "Geri", share: "Paylaş", listen: "Dinle", meaning: "Anlamı", verses: "Ayet", revelation: "Nüzul" }
   };
 
   return (
@@ -112,6 +112,20 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
           <div className={`px-4 py-1 rounded-full text-[10px] font-black tracking-widest ${isDarkMode ? 'bg-green-900/30 text-green-400' : 'bg-green-50 text-green-600'}`}>
             SURE {item.id}
           </div>
+          {(item.verses || item.revelation) && (
+            <div className="flex flex-wrap justify-center gap-2">
+              {item.verses && (
+                <div className={`px-4 py-2 rounded-full text-xs font-bold ${isDarkMode ? 'bg-slate-700 text-slate-200' : 'bg-gray-100 text-gray-700'}`}>
+                  {labels[selectedLang].verses}: {item.verses}
+                </div>
+              )}
+              {item.revelation && (
+                <div className={`px-4 py-2 rounded-full text-xs font-bold ${isDarkMode ? 'bg-slate-700 text-slate-200' : 'bg-gray-100 text-gray-700'}`}>
+                  {labels[selectedLang].revelation}: {item.revelation}
+                </div>
+              )}
+            </div>
+          )}
         </div>
 
         {/* Audio Player UI */}
@@ -153,9 +167,11 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
         )}
 
         <div className="space-y-6">
-          <div className={`p-8 rounded-[2rem] text-center space-y-6 ${isDarkMode ? 'bg-slate-900/50' : 'bg-green-50/30'}`}>
-            <p className="text-4xl font-arabic leading-[4rem] text-green-600 drop-shadow-sm">{item.arabic}</p>
-          </div>
+          {item.arabic && (
+            <div className={`p-8 rounded-[2rem] text-center space-y-6 ${isDarkMode ? 'bg-slate-900/50' : 'bg-green-50/30'}`}>
+              <p className="text-4xl font-arabic leading-[4rem] text-green-600 drop-shadow-sm">{item.arabic}</p>
+            </div>
+          )}
 
           <div className="space-y-4">
             <h4 className={`text-sm font-black uppercase tracking-widest ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>{labels[selectedLang].meaning}</h4>
