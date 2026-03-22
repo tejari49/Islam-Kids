@@ -16,10 +16,14 @@ export default function Home({
   suren,
   isDarkMode, 
   favorites,
-  stats
+  stats,
+  userLocation,
+  setUserLocation
 }) {
   const [prayerTimes, setPrayerTimes] = useState(null);
   const [loadingPrayers, setLoadingPrayers] = useState(true);
+  const [showLocationSettings, setShowLocationSettings] = useState(false);
+  const [locationInput, setLocationInput] = useState({ city: userLocation.city, country: userLocation.country });
 
   // Use useMemo to pick daily items based on the date
   const dailyIndices = useMemo(() => {
@@ -45,10 +49,20 @@ export default function Home({
 
   useEffect(() => {
     const fetchPrayerTimes = async () => {
+      setLoadingPrayers(true);
       try {
-        const response = await fetch('https://api.aladhan.com/v1/timingsByCity?city=Berlin&country=Germany&method=2');
+        let url;
+        if (userLocation.latitude && userLocation.longitude) {
+          url = `https://api.aladhan.com/v1/timings?latitude=${userLocation.latitude}&longitude=${userLocation.longitude}&method=${userLocation.method || 2}`;
+        } else {
+          url = `https://api.aladhan.com/v1/timingsByCity?city=${userLocation.city}&country=${userLocation.country}&method=${userLocation.method || 2}`;
+        }
+        
+        const response = await fetch(url);
         const data = await response.json();
-        setPrayerTimes(data.data.timings);
+        if (data.data) {
+          setPrayerTimes(data.data.timings);
+        }
       } catch (error) {
         console.error("Fehler beim Laden der Gebetszeiten:", error);
       } finally {
@@ -56,7 +70,44 @@ export default function Home({
       }
     };
     fetchPrayerTimes();
-  }, []);
+  }, [userLocation]);
+
+  const detectLocation = () => {
+    if (!navigator.geolocation) {
+      alert("Geolocation wird von deinem Browser nicht unterstützt.");
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        setUserLocation({
+          latitude: position.coords.latitude,
+          longitude: position.coords.longitude,
+          city: "Mein Standort",
+          country: "",
+          method: 2
+        });
+        setShowLocationSettings(false);
+      },
+      (error) => {
+        console.error("Geolocation Fehler:", error);
+        alert("Standort konnte nicht ermittelt werden.");
+      }
+    );
+  };
+
+  const saveManualLocation = () => {
+    if (locationInput.city.trim()) {
+      setUserLocation({
+        ...userLocation,
+        city: locationInput.city,
+        country: locationInput.country,
+        latitude: null,
+        longitude: null
+      });
+      setShowLocationSettings(false);
+    }
+  };
 
   const favoriteItems = [
     ...(favorites.duas || []).map(id => ({ ...duas.find(d => d.id === id), type: 'duas' })),
@@ -144,10 +195,50 @@ export default function Home({
             <Clock className="text-emerald-500" />
             {selectedLang === 'de' ? 'Gebetszeiten' : selectedLang === 'al' ? 'Kohët e Namazit' : 'Namaz Vakitleri'}
           </h2>
-          <div className={`px-3 py-1 rounded-full text-[10px] font-black uppercase transition-colors ${isDarkMode ? 'bg-slate-700 text-slate-400' : 'bg-gray-100 text-gray-500'}`}>
-            Berlin 🇩🇪
-          </div>
+          <button 
+            onClick={() => setShowLocationSettings(!showLocationSettings)}
+            className={`px-3 py-1 rounded-full text-[10px] font-black uppercase transition-all hover:scale-105 active:scale-95 flex items-center gap-1 ${isDarkMode ? 'bg-slate-700 text-slate-400 hover:text-emerald-400' : 'bg-gray-100 text-gray-500 hover:text-emerald-600'}`}
+          >
+            {userLocation.city || "Standort"} 📍
+          </button>
         </div>
+
+        {showLocationSettings && (
+          <div className={`mb-6 p-4 rounded-3xl border-2 animate-in fade-in slide-in-from-top-4 ${isDarkMode ? 'bg-slate-900/50 border-emerald-900/20' : 'bg-emerald-50/20 border-emerald-100'}`}>
+            <div className="space-y-4">
+              <div className="flex flex-col gap-2">
+                <input 
+                  type="text" 
+                  placeholder={selectedLang === 'de' ? "Stadt (z.B. Berlin)" : "Qyteti"}
+                  value={locationInput.city}
+                  onChange={(e) => setLocationInput({ ...locationInput, city: e.target.value })}
+                  className={`px-4 py-2 rounded-xl border-2 outline-none focus:border-emerald-500 transition-colors ${isDarkMode ? 'bg-slate-800 border-slate-700 text-white' : 'bg-white border-gray-100'}`}
+                />
+                <input 
+                  type="text" 
+                  placeholder={selectedLang === 'de' ? "Land (optional)" : "Shteti"}
+                  value={locationInput.country}
+                  onChange={(e) => setLocationInput({ ...locationInput, country: e.target.value })}
+                  className={`px-4 py-2 rounded-xl border-2 outline-none focus:border-emerald-500 transition-colors ${isDarkMode ? 'bg-slate-800 border-slate-700 text-white' : 'bg-white border-gray-100'}`}
+                />
+              </div>
+              <div className="flex gap-2">
+                <button 
+                  onClick={saveManualLocation}
+                  className="flex-1 bg-emerald-500 text-white py-2 rounded-xl font-bold hover:bg-emerald-600 transition-colors"
+                >
+                  {selectedLang === 'de' ? "Speichern" : "Ruaj"}
+                </button>
+                <button 
+                  onClick={detectLocation}
+                  className={`flex-1 py-2 rounded-xl font-bold border-2 transition-colors ${isDarkMode ? 'border-indigo-500/30 text-indigo-400 hover:bg-indigo-500/10' : 'border-indigo-100 text-indigo-600 hover:bg-indigo-50'}`}
+                >
+                  {selectedLang === 'de' ? "GPS Ortung" : "GPS"}
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
 
         {loadingPrayers ? (
           <div className="flex justify-center py-4">

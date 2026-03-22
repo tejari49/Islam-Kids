@@ -38,6 +38,15 @@ export default function App() {
     return saved ? JSON.parse(saved) : { xp: 0, quizzesPlayed: 0, itemsRead: 0 };
   });
 
+  const [userLocation, setUserLocation] = useState(() => {
+    const saved = localStorage.getItem('userLocation');
+    return saved ? JSON.parse(saved) : { city: 'Berlin', country: 'Germany', method: 2 };
+  });
+
+  useEffect(() => {
+    localStorage.setItem('userLocation', JSON.stringify(userLocation));
+  }, [userLocation]);
+
   useEffect(() => {
     localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
     if (isDarkMode) {
@@ -208,6 +217,8 @@ export default function App() {
                     favorites={favorites}
                     stats={stats}
                     setSelectedSure={setSelectedSure}
+                    userLocation={userLocation}
+                    setUserLocation={setUserLocation}
                   />
                 )}
                 {activeTab === 'duas' && !selectedDua && !selectedStory && !selectedHadith && (
