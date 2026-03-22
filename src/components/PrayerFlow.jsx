@@ -21,6 +21,7 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
     }
+    stopSpeechPlayback();
     setIsPlaying(false);
     setIsLoadingAudio(false);
   }, [currentSlide, step]);
@@ -57,11 +58,17 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
 
   const toggleAudio = async () => {
     const currentStepData = prayerSteps[currentSlide];
-    if (!currentStepData || (!currentStepData.ayah && !currentStepData.audio && !currentStepData.audioAyahs)) return;
+    if (!currentStepData || (!currentStepData.ayah && !currentStepData.audio && !currentStepData.audioAyahs && !currentStepData.arabic)) return;
 
     if (isPlaying) {
       audioRef.current.pause();
+      toggleSpeechPause(true);
       setIsPlaying(false);
+      return;
+    }
+
+    if (toggleSpeechPause(false)) {
+      setIsPlaying(true);
       return;
     }
 
@@ -69,6 +76,18 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
       audioRef.current.playbackRate = playbackRate;
       audioRef.current.play();
       setIsPlaying(true);
+      return;
+    }
+
+    if ((!currentStepData.audio && !currentStepData.ayah && !currentStepData.audioAyahs) && canUseSpeechSynthesis()) {
+      speakArabicText(currentStepData.arabic, playbackRate, {
+        onStart: () => setIsPlaying(true),
+        onEnd: () => setIsPlaying(false),
+        onError: (error) => {
+          console.error("Speech audio error:", error);
+          setIsPlaying(false);
+        }
+      });
       return;
     }
 
@@ -111,6 +130,15 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
 
         await audioRef.current.play();
         setIsPlaying(true);
+      } else if (canUseSpeechSynthesis()) {
+        speakArabicText(currentStepData.arabic, playbackRate, {
+          onStart: () => setIsPlaying(true),
+          onEnd: () => setIsPlaying(false),
+          onError: (error) => {
+            console.error("Speech audio error:", error);
+            setIsPlaying(false);
+          }
+        });
       }
     } catch (error) {
       console.error("Audio error:", error);
