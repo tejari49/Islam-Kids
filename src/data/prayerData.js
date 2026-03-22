@@ -21,7 +21,7 @@ export const prayerSteps = [
   { 
     id: 1, 
     image: "🧍", 
-    illustration: "/images/prayer/takbir.png",
+    illustration: "/images/prayer/takbir.svg",
     title: { de: "Qiyam & Takbir", al: "Kijami & Tekbiri", tr: "Kıyam ve Tekbir" }, 
     arabic: "اللهُ أَكْبَر",
     transliteration: "Allahu Akbar",
@@ -34,7 +34,7 @@ export const prayerSteps = [
   { 
     id: 2, 
     image: "📖", 
-    illustration: "/images/prayer/qiyam.png",
+    illustration: "/images/prayer/qiyam.svg",
     title: { de: "Al-Fatiha lesen", al: "Leximi i Fatihasë", tr: "Fatiha'yı okumak" }, 
     audioAyahs: ["1:1", "1:2", "1:3", "1:4", "1:5", "1:6", "1:7"],
     arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ... الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
@@ -48,7 +48,7 @@ export const prayerSteps = [
   { 
     id: 3, 
     image: "🙇", 
-    illustration: "/images/prayer/ruku.png",
+    illustration: "/images/prayer/ruku.svg",
     title: { de: "Ruku (Verbeugung)", al: "Rukuja (Përkulja)", tr: "Rüku (Eğilmek)" }, 
     arabic: "سُبْحَانَ رَبِّيَ الْعَظِيم",
     transliteration: "Subhana Rabbiyal Azim (3x)",
@@ -61,7 +61,7 @@ export const prayerSteps = [
   { 
     id: 4, 
     image: "🧍", 
-    illustration: "/images/prayer/qiyam.png",
+    illustration: "/images/prayer/qiyam.svg",
     title: { de: "Wieder aufstehen", al: "Ngritja përsëri", tr: "Tekrar doğrulmak" }, 
     arabic: "سَمِعَ اللَّهُ لِمَنْ حَمِدَه",
     transliteration: "Sami 'Allahu liman hamidah",
@@ -74,7 +74,7 @@ export const prayerSteps = [
   { 
     id: 5, 
     image: "🧎", 
-    illustration: "/images/prayer/sujud.png",
+    illustration: "/images/prayer/sujud.svg",
     title: { de: "Sujud (Niederwerfung)", al: "Sexhdeja (Përulja)", tr: "Secde (Yere kapanmak)" }, 
     arabic: "سُبْحَانَ رَبِّيَ الْأَعْلَى",
     transliteration: "Subhana Rabbiyal A'la (3x)",
@@ -87,7 +87,7 @@ export const prayerSteps = [
   { 
     id: 6, 
     image: "🧎‍♂️", 
-    illustration: "/images/prayer/sitting.png",
+    illustration: "/images/prayer/sitting.svg",
     title: { de: "Sitzen (At-tahiyyat)", al: "Ulja (Ettehijatu)", tr: "Oturmak (Ettehiyyatü)" }, 
     arabic: "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَات...",
     transliteration: "At-tahiyyatu lillahi was-salawatu wat-tayyibat...",
