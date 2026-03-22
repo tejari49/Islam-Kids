@@ -105,14 +105,58 @@ export default function App() {
     setSelectedLang(langs[(currentIndex + 1) % langs.length]);
   };
 
-  const handleTabChange = React.useCallback((tab) => {
-    setActiveTab(tab);
+  const clearSelections = React.useCallback(() => {
     setSelectedDua(null);
     setSelectedStory(null);
     setSelectedHadith(null);
     setSelectedSure(null);
     setSelectedFeature(null);
   }, []);
+
+  const openDua = React.useCallback((dua) => {
+    setSelectedStory(null);
+    setSelectedHadith(null);
+    setSelectedSure(null);
+    setSelectedFeature(null);
+    setSelectedDua(dua);
+  }, []);
+
+  const openStory = React.useCallback((story) => {
+    setSelectedDua(null);
+    setSelectedHadith(null);
+    setSelectedSure(null);
+    setSelectedFeature(null);
+    setSelectedStory(story);
+  }, []);
+
+  const openHadith = React.useCallback((hadith) => {
+    setSelectedDua(null);
+    setSelectedStory(null);
+    setSelectedSure(null);
+    setSelectedFeature(null);
+    setSelectedHadith(hadith);
+  }, []);
+
+  const openSure = React.useCallback((sure) => {
+    setSelectedDua(null);
+    setSelectedStory(null);
+    setSelectedHadith(null);
+    setSelectedFeature(null);
+    setSelectedSure(sure);
+  }, []);
+
+  const openFeature = React.useCallback((feature) => {
+    setSelectedDua(null);
+    setSelectedStory(null);
+    setSelectedHadith(null);
+    setSelectedSure(null);
+    setSelectedFeature(feature);
+  }, []);
+
+  const handleTabChange = React.useCallback((tab) => {
+    setActiveTab(tab);
+    clearSelections();
+  }, [clearSelections]);
 
   // Level Logic
   const level = Math.floor(stats.xp / 100) + 1;
@@ -204,15 +248,15 @@ export default function App() {
 
             {!selectedFeature && (
               <>
-                {activeTab === 'home' && !selectedDua && !selectedStory && !selectedHadith && (
+                {activeTab === 'home' && !selectedDua && !selectedStory && !selectedHadith && !selectedSure && (
                   <Home 
                     selectedLang={selectedLang} 
                     uiTexts={uiTexts} 
                     handleTabChange={handleTabChange} 
-                    setSelectedDua={setSelectedDua} 
-                    setSelectedStory={setSelectedStory}
-                    setSelectedHadith={setSelectedHadith}
-                    setSelectedFeature={setSelectedFeature}
+                    setSelectedDua={openDua}
+                    setSelectedStory={openStory}
+                    setSelectedHadith={openHadith}
+                    setSelectedFeature={openFeature}
                     duas={duas}
                     hadiths={hadiths}
                     stories={stories}
@@ -220,7 +264,7 @@ export default function App() {
                     isDarkMode={isDarkMode}
                     favorites={favorites}
                     stats={stats}
-                    setSelectedSure={setSelectedSure}
+                    setSelectedSure={openSure}
                     userLocation={userLocation}
                     setUserLocation={updateLocation}
                   />
@@ -229,7 +273,7 @@ export default function App() {
                   <DuasList 
                     selectedLang={selectedLang} 
                     uiTexts={uiTexts} 
-                    setSelectedDua={setSelectedDua} 
+                    setSelectedDua={openDua}
                     duas={duas} 
                     isDarkMode={isDarkMode}
                     toggleFavorite={toggleFavorite}
@@ -240,7 +284,7 @@ export default function App() {
                   <HadithsList 
                     selectedLang={selectedLang} 
                     uiTexts={uiTexts} 
-                    setSelectedHadith={setSelectedHadith} 
+                    setSelectedHadith={openHadith}
                     hadiths={hadiths} 
                     isDarkMode={isDarkMode}
                     toggleFavorite={toggleFavorite}
@@ -251,7 +295,7 @@ export default function App() {
                   <StoriesList 
                     selectedLang={selectedLang} 
                     uiTexts={uiTexts} 
-                    setSelectedStory={setSelectedStory} 
+                    setSelectedStory={openStory}
                     stories={stories} 
                     isDarkMode={isDarkMode}
                     toggleFavorite={toggleFavorite}
@@ -261,10 +305,10 @@ export default function App() {
                 {activeTab === 'suren' && !selectedDua && !selectedStory && !selectedHadith && !selectedSure && (
                   <SurenList 
                     selectedLang={selectedLang} 
-                    setSelectedSure={setSelectedSure} 
+                    setSelectedSure={openSure}
                     suren={suren} 
                     isDarkMode={isDarkMode}
-                    onSelect={setSelectedSure}
+                    onSelect={openSure}
                     toggleFavorite={toggleFavorite}
                     favorites={favorites}
                   />
@@ -322,7 +366,7 @@ export default function App() {
       </div>
 
       {/* Bottom Navigation */}
-      {!selectedDua && !selectedStory && !selectedHadith && !selectedFeature && (
+      {!selectedDua && !selectedStory && !selectedHadith && !selectedSure && !selectedFeature && (
         <div className={`fixed bottom-0 max-w-md w-full border-t flex justify-between px-2 py-3 pb-6 shadow-[0_-10px_40px_rgba(0,0,0,0.05)] z-20 transition-colors ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-100'}`}>
           <button 
             onClick={() => handleTabChange('home')}
