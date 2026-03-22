@@ -127,15 +127,24 @@ export default function DuaDetail({
             {selectedDua.arabic}
           </p>
           
-          <div className={`p-4 rounded-xl border transition-colors ${isDarkMode ? 'bg-slate-700/50 border-slate-600' : 'bg-gray-50 border-gray-100'}`}>
-            <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>Aussprache</p>
-            <p className={`text-lg font-medium ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{selectedDua.transliteration}</p>
-          </div>
+          {selectedDua.transliteration && (
+            <div className={`p-4 rounded-xl border transition-colors ${isDarkMode ? 'bg-slate-700/50 border-slate-600' : 'bg-gray-50 border-gray-100'}`}>
+              <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>Aussprache</p>
+              <p className={`text-lg font-medium ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{selectedDua.transliteration}</p>
+            </div>
+          )}
 
           <div className={`p-4 rounded-xl border transition-colors ${isDarkMode ? 'bg-blue-900/10 border-blue-900/30' : 'bg-blue-50 border-blue-100'}`}>
             <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-blue-400/60' : 'text-blue-400'}`}>Bedeutung</p>
             <p className={`text-lg font-medium ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{selectedDua.meaning[selectedLang]}</p>
           </div>
+
+          {selectedDua.source && (
+            <div className={`p-4 rounded-xl border transition-colors ${isDarkMode ? 'bg-emerald-900/10 border-emerald-900/30' : 'bg-emerald-50 border-emerald-100'}`}>
+              <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-emerald-400/60' : 'text-emerald-500'}`}>Quelle</p>
+              <p className={`text-sm font-semibold ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{selectedDua.source}</p>
+            </div>
+          )}
         </div>
       </div>
     </div>
