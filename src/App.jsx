@@ -43,6 +43,7 @@ export default function App() {
     setSelectedDua(null);
     setSelectedStory(null);
     setSelectedHadith(null);
+    setSelectedFeature(null);
   };
 
   return (
@@ -71,39 +72,48 @@ export default function App() {
           </div>
         ) : (
           <>
-            {activeTab === 'home' && !selectedDua && !selectedStory && !selectedHadith && (
-              <Home 
-                selectedLang={selectedLang} 
-                uiTexts={uiTexts} 
-                handleTabChange={handleTabChange} 
-                setSelectedDua={setSelectedDua} 
-                setSelectedStory={setSelectedStory}
-                setSelectedHadith={setSelectedHadith}
-                setSelectedFeature={setSelectedFeature}
-                duas={duas}
-                hadiths={hadiths}
-                stories={stories}
-              />
+            {/* Spezielle Features (Beten lernen) haben Vorrang */}
+            {selectedFeature === 'prayer' && (
+              <PrayerFlow selectedLang={selectedLang} setSelectedFeature={setSelectedFeature} />
             )}
-            {activeTab === 'duas' && !selectedDua && !selectedStory && !selectedHadith && !selectedFeature && (
-              <DuasList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedDua={setSelectedDua} duas={duas} />
+
+            {!selectedFeature && (
+              <>
+                {activeTab === 'home' && !selectedDua && !selectedStory && !selectedHadith && (
+                  <Home 
+                    selectedLang={selectedLang} 
+                    uiTexts={uiTexts} 
+                    handleTabChange={handleTabChange} 
+                    setSelectedDua={setSelectedDua} 
+                    setSelectedStory={setSelectedStory}
+                    setSelectedHadith={setSelectedHadith}
+                    setSelectedFeature={setSelectedFeature}
+                    duas={duas}
+                    hadiths={hadiths}
+                    stories={stories}
+                  />
+                )}
+                {activeTab === 'duas' && !selectedDua && !selectedStory && !selectedHadith && (
+                  <DuasList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedDua={setSelectedDua} duas={duas} />
+                )}
+                {activeTab === 'hadiths' && !selectedDua && !selectedStory && !selectedHadith && (
+                  <HadithsList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedHadith={setSelectedHadith} hadiths={hadiths} />
+                )}
+                {activeTab === 'stories' && !selectedDua && !selectedStory && !selectedHadith && (
+                  <StoriesList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedStory={setSelectedStory} stories={stories} />
+                )}
+                
+                {selectedDua && <DuaDetail selectedDua={selectedDua} selectedLang={selectedLang} uiTexts={uiTexts} setSelectedDua={setSelectedDua} />}
+                {selectedHadith && <HadithDetail selectedHadith={selectedHadith} selectedLang={selectedLang} setSelectedHadith={setSelectedHadith} />}
+                {selectedStory && <StoryDetail selectedStory={selectedStory} selectedLang={selectedLang} setSelectedStory={setSelectedStory} />}
+              </>
             )}
-            {activeTab === 'hadiths' && !selectedDua && !selectedStory && !selectedHadith && !selectedFeature && (
-              <HadithsList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedHadith={setSelectedHadith} hadiths={hadiths} />
-            )}
-            {activeTab === 'stories' && !selectedDua && !selectedStory && !selectedHadith && !selectedFeature && (
-              <StoriesList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedStory={setSelectedStory} stories={stories} />
-            )}
-            
-            {!selectedFeature && selectedDua && <DuaDetail selectedDua={selectedDua} selectedLang={selectedLang} uiTexts={uiTexts} setSelectedDua={setSelectedDua} />}
-            {!selectedFeature && selectedHadith && <HadithDetail selectedHadith={selectedHadith} selectedLang={selectedLang} setSelectedHadith={setSelectedHadith} />}
-            {!selectedFeature && selectedStory && <StoryDetail selectedStory={selectedStory} selectedLang={selectedLang} setSelectedStory={setSelectedStory} />}
           </>
         )}
       </div>
 
       {/* Bottom Navigation */}
-      {!selectedDua && !selectedStory && !selectedHadith && (
+      {!selectedDua && !selectedStory && !selectedHadith && !selectedFeature && (
         <div className="fixed bottom-0 max-w-md w-full bg-white border-t border-gray-100 flex justify-between px-2 py-3 pb-6 shadow-[0_-10px_40px_rgba(0,0,0,0.05)] z-20">
           <button 
             onClick={() => handleTabChange('home')}
