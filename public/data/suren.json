@@ -3,15 +3,15 @@
     "id": 1,
     "icon": "📖",
     "title": {
-      "de": "Sure Al-Fatiha",
-      "al": "Sureja Al-Fatiha",
-      "tr": "Al-Fatiha Suresi"
+      "de": "Al-Fatiha",
+      "al": "El-Fatiha",
+      "tr": "Fatiha"
     },
-    "arabic": "سورة Al-Fatiha",
+    "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ. الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ.",
     "meaning": {
-      "de": "Dies ist die 1. Sure des Korans.",
-      "al": "Kjo është surja e 1 e Kuranit.",
-      "tr": "Bu Kur'an'ın 1. suresidir."
+      "de": "Im Namen Allahs, des Gnädigen, des Barmherzigen. Alles Lob gebührt Allah, dem Herrn der Welten.",
+      "al": "Me emrin e Allahut, Mëshiruesit, Mëshirëbërësit. Falënderimi i takon Allahut, Zotit të botëve.",
+      "tr": "Rahmân ve Rahîm olan Allah'ın ismiyle. Hamd, âlemlerin Rabbi olan Allah'a mahsustur."
     }
   },
   {
@@ -24,9 +24,9 @@
     },
     "arabic": "سورة Al-Baqarah",
     "meaning": {
-      "de": "Dies ist die 2. Sure des Korans.",
-      "al": "Kjo është surja e 2 e Kuranit.",
-      "tr": "Bu Kur'an'ın 2. suresidir."
+      "de": "Diese Sure 'Al-Baqarah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Baqarah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Baqarah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -39,9 +39,9 @@
     },
     "arabic": "سورة Al-Imran",
     "meaning": {
-      "de": "Dies ist die 3. Sure des Korans.",
-      "al": "Kjo është surja e 3 e Kuranit.",
-      "tr": "Bu Kur'an'ın 3. suresidir."
+      "de": "Diese Sure 'Al-Imran' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Imran' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Imran' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -54,9 +54,9 @@
     },
     "arabic": "سورة An-Nisa",
     "meaning": {
-      "de": "Dies ist die 4. Sure des Korans.",
-      "al": "Kjo është surja e 4 e Kuranit.",
-      "tr": "Bu Kur'an'ın 4. suresidir."
+      "de": "Diese Sure 'An-Nisa' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'An-Nisa' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'An-Nisa' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -69,9 +69,9 @@
     },
     "arabic": "سورة Al-Ma'idah",
     "meaning": {
-      "de": "Dies ist die 5. Sure des Korans.",
-      "al": "Kjo është surja e 5 e Kuranit.",
-      "tr": "Bu Kur'an'ın 5. suresidir."
+      "de": "Diese Sure 'Al-Ma'idah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Ma'idah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Ma'idah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -84,9 +84,9 @@
     },
     "arabic": "سورة Al-An'am",
     "meaning": {
-      "de": "Dies ist die 6. Sure des Korans.",
-      "al": "Kjo është surja e 6 e Kuranit.",
-      "tr": "Bu Kur'an'ın 6. suresidir."
+      "de": "Diese Sure 'Al-An'am' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-An'am' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-An'am' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -99,9 +99,9 @@
     },
     "arabic": "سورة Al-A'raf",
     "meaning": {
-      "de": "Dies ist die 7. Sure des Korans.",
-      "al": "Kjo është surja e 7 e Kuranit.",
-      "tr": "Bu Kur'an'ın 7. suresidir."
+      "de": "Diese Sure 'Al-A'raf' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-A'raf' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-A'raf' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -114,9 +114,9 @@
     },
     "arabic": "سورة Al-Anfal",
     "meaning": {
-      "de": "Dies ist die 8. Sure des Korans.",
-      "al": "Kjo është surja e 8 e Kuranit.",
-      "tr": "Bu Kur'an'ın 8. suresidir."
+      "de": "Diese Sure 'Al-Anfal' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Anfal' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Anfal' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -129,9 +129,9 @@
     },
     "arabic": "سورة At-Tawbah",
     "meaning": {
-      "de": "Dies ist die 9. Sure des Korans.",
-      "al": "Kjo është surja e 9 e Kuranit.",
-      "tr": "Bu Kur'an'ın 9. suresidir."
+      "de": "Diese Sure 'At-Tawbah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'At-Tawbah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'At-Tawbah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -144,9 +144,9 @@
     },
     "arabic": "سورة Yunus",
     "meaning": {
-      "de": "Dies ist die 10. Sure des Korans.",
-      "al": "Kjo është surja e 10 e Kuranit.",
-      "tr": "Bu Kur'an'ın 10. suresidir."
+      "de": "Diese Sure 'Yunus' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Yunus' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Yunus' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -159,9 +159,9 @@
     },
     "arabic": "سورة Hud",
     "meaning": {
-      "de": "Dies ist die 11. Sure des Korans.",
-      "al": "Kjo është surja e 11 e Kuranit.",
-      "tr": "Bu Kur'an'ın 11. suresidir."
+      "de": "Diese Sure 'Hud' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Hud' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Hud' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -174,9 +174,9 @@
     },
     "arabic": "سورة Yusuf",
     "meaning": {
-      "de": "Dies ist die 12. Sure des Korans.",
-      "al": "Kjo është surja e 12 e Kuranit.",
-      "tr": "Bu Kur'an'ın 12. suresidir."
+      "de": "Diese Sure 'Yusuf' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Yusuf' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Yusuf' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -189,9 +189,9 @@
     },
     "arabic": "سورة Ar-Ra'd",
     "meaning": {
-      "de": "Dies ist die 13. Sure des Korans.",
-      "al": "Kjo është surja e 13 e Kuranit.",
-      "tr": "Bu Kur'an'ın 13. suresidir."
+      "de": "Diese Sure 'Ar-Ra'd' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Ar-Ra'd' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Ar-Ra'd' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -204,9 +204,9 @@
     },
     "arabic": "سورة Ibrahim",
     "meaning": {
-      "de": "Dies ist die 14. Sure des Korans.",
-      "al": "Kjo është surja e 14 e Kuranit.",
-      "tr": "Bu Kur'an'ın 14. suresidir."
+      "de": "Diese Sure 'Ibrahim' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Ibrahim' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Ibrahim' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -219,9 +219,9 @@
     },
     "arabic": "سورة Al-Hijr",
     "meaning": {
-      "de": "Dies ist die 15. Sure des Korans.",
-      "al": "Kjo është surja e 15 e Kuranit.",
-      "tr": "Bu Kur'an'ın 15. suresidir."
+      "de": "Diese Sure 'Al-Hijr' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Hijr' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Hijr' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -234,9 +234,9 @@
     },
     "arabic": "سورة An-Nahl",
     "meaning": {
-      "de": "Dies ist die 16. Sure des Korans.",
-      "al": "Kjo është surja e 16 e Kuranit.",
-      "tr": "Bu Kur'an'ın 16. suresidir."
+      "de": "Diese Sure 'An-Nahl' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'An-Nahl' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'An-Nahl' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -249,9 +249,9 @@
     },
     "arabic": "سورة Al-Isra",
     "meaning": {
-      "de": "Dies ist die 17. Sure des Korans.",
-      "al": "Kjo është surja e 17 e Kuranit.",
-      "tr": "Bu Kur'an'ın 17. suresidir."
+      "de": "Diese Sure 'Al-Isra' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Isra' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Isra' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -264,9 +264,9 @@
     },
     "arabic": "سورة Al-Kahf",
     "meaning": {
-      "de": "Dies ist die 18. Sure des Korans.",
-      "al": "Kjo është surja e 18 e Kuranit.",
-      "tr": "Bu Kur'an'ın 18. suresidir."
+      "de": "Diese Sure 'Al-Kahf' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Kahf' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Kahf' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -279,9 +279,9 @@
     },
     "arabic": "سورة Maryam",
     "meaning": {
-      "de": "Dies ist die 19. Sure des Korans.",
-      "al": "Kjo është surja e 19 e Kuranit.",
-      "tr": "Bu Kur'an'ın 19. suresidir."
+      "de": "Diese Sure 'Maryam' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Maryam' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Maryam' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -294,9 +294,9 @@
     },
     "arabic": "سورة Ta-Ha",
     "meaning": {
-      "de": "Dies ist die 20. Sure des Korans.",
-      "al": "Kjo është surja e 20 e Kuranit.",
-      "tr": "Bu Kur'an'ın 20. suresidir."
+      "de": "Diese Sure 'Ta-Ha' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Ta-Ha' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Ta-Ha' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -309,9 +309,9 @@
     },
     "arabic": "سورة Al-Anbiya",
     "meaning": {
-      "de": "Dies ist die 21. Sure des Korans.",
-      "al": "Kjo është surja e 21 e Kuranit.",
-      "tr": "Bu Kur'an'ın 21. suresidir."
+      "de": "Diese Sure 'Al-Anbiya' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Anbiya' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Anbiya' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -324,9 +324,9 @@
     },
     "arabic": "سورة Al-Hajj",
     "meaning": {
-      "de": "Dies ist die 22. Sure des Korans.",
-      "al": "Kjo është surja e 22 e Kuranit.",
-      "tr": "Bu Kur'an'ın 22. suresidir."
+      "de": "Diese Sure 'Al-Hajj' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Hajj' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Hajj' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -339,9 +339,9 @@
     },
     "arabic": "سورة Al-Mu'minun",
     "meaning": {
-      "de": "Dies ist die 23. Sure des Korans.",
-      "al": "Kjo është surja e 23 e Kuranit.",
-      "tr": "Bu Kur'an'ın 23. suresidir."
+      "de": "Diese Sure 'Al-Mu'minun' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Mu'minun' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Mu'minun' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -354,9 +354,9 @@
     },
     "arabic": "سورة An-Nur",
     "meaning": {
-      "de": "Dies ist die 24. Sure des Korans.",
-      "al": "Kjo është surja e 24 e Kuranit.",
-      "tr": "Bu Kur'an'ın 24. suresidir."
+      "de": "Diese Sure 'An-Nur' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'An-Nur' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'An-Nur' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -369,9 +369,9 @@
     },
     "arabic": "سورة Al-Furqan",
     "meaning": {
-      "de": "Dies ist die 25. Sure des Korans.",
-      "al": "Kjo është surja e 25 e Kuranit.",
-      "tr": "Bu Kur'an'ın 25. suresidir."
+      "de": "Diese Sure 'Al-Furqan' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Furqan' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Furqan' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -384,9 +384,9 @@
     },
     "arabic": "سورة Ash-Shu'ara",
     "meaning": {
-      "de": "Dies ist die 26. Sure des Korans.",
-      "al": "Kjo është surja e 26 e Kuranit.",
-      "tr": "Bu Kur'an'ın 26. suresidir."
+      "de": "Diese Sure 'Ash-Shu'ara' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Ash-Shu'ara' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Ash-Shu'ara' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -399,9 +399,9 @@
     },
     "arabic": "سورة An-Naml",
     "meaning": {
-      "de": "Dies ist die 27. Sure des Korans.",
-      "al": "Kjo është surja e 27 e Kuranit.",
-      "tr": "Bu Kur'an'ın 27. suresidir."
+      "de": "Diese Sure 'An-Naml' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'An-Naml' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'An-Naml' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -414,9 +414,9 @@
     },
     "arabic": "سورة Al-Qasas",
     "meaning": {
-      "de": "Dies ist die 28. Sure des Korans.",
-      "al": "Kjo është surja e 28 e Kuranit.",
-      "tr": "Bu Kur'an'ın 28. suresidir."
+      "de": "Diese Sure 'Al-Qasas' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Qasas' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Qasas' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -429,9 +429,9 @@
     },
     "arabic": "سورة Al-Ankabut",
     "meaning": {
-      "de": "Dies ist die 29. Sure des Korans.",
-      "al": "Kjo është surja e 29 e Kuranit.",
-      "tr": "Bu Kur'an'ın 29. suresidir."
+      "de": "Diese Sure 'Al-Ankabut' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Ankabut' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Ankabut' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -444,9 +444,9 @@
     },
     "arabic": "سورة Ar-Rum",
     "meaning": {
-      "de": "Dies ist die 30. Sure des Korans.",
-      "al": "Kjo është surja e 30 e Kuranit.",
-      "tr": "Bu Kur'an'ın 30. suresidir."
+      "de": "Diese Sure 'Ar-Rum' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Ar-Rum' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Ar-Rum' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -459,9 +459,9 @@
     },
     "arabic": "سورة Luqman",
     "meaning": {
-      "de": "Dies ist die 31. Sure des Korans.",
-      "al": "Kjo është surja e 31 e Kuranit.",
-      "tr": "Bu Kur'an'ın 31. suresidir."
+      "de": "Diese Sure 'Luqman' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Luqman' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Luqman' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -474,9 +474,9 @@
     },
     "arabic": "سورة As-Sajdah",
     "meaning": {
-      "de": "Dies ist die 32. Sure des Korans.",
-      "al": "Kjo është surja e 32 e Kuranit.",
-      "tr": "Bu Kur'an'ın 32. suresidir."
+      "de": "Diese Sure 'As-Sajdah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'As-Sajdah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'As-Sajdah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -489,9 +489,9 @@
     },
     "arabic": "سورة Al-Ahzab",
     "meaning": {
-      "de": "Dies ist die 33. Sure des Korans.",
-      "al": "Kjo është surja e 33 e Kuranit.",
-      "tr": "Bu Kur'an'ın 33. suresidir."
+      "de": "Diese Sure 'Al-Ahzab' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Ahzab' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Ahzab' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -504,9 +504,9 @@
     },
     "arabic": "سورة Saba",
     "meaning": {
-      "de": "Dies ist die 34. Sure des Korans.",
-      "al": "Kjo është surja e 34 e Kuranit.",
-      "tr": "Bu Kur'an'ın 34. suresidir."
+      "de": "Diese Sure 'Saba' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Saba' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Saba' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -519,9 +519,9 @@
     },
     "arabic": "سورة Fatir",
     "meaning": {
-      "de": "Dies ist die 35. Sure des Korans.",
-      "al": "Kjo është surja e 35 e Kuranit.",
-      "tr": "Bu Kur'an'ın 35. suresidir."
+      "de": "Diese Sure 'Fatir' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Fatir' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Fatir' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -534,9 +534,9 @@
     },
     "arabic": "سورة Ya-Sin",
     "meaning": {
-      "de": "Dies ist die 36. Sure des Korans.",
-      "al": "Kjo është surja e 36 e Kuranit.",
-      "tr": "Bu Kur'an'ın 36. suresidir."
+      "de": "Diese Sure 'Ya-Sin' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Ya-Sin' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Ya-Sin' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -549,9 +549,9 @@
     },
     "arabic": "سورة As-Saffat",
     "meaning": {
-      "de": "Dies ist die 37. Sure des Korans.",
-      "al": "Kjo është surja e 37 e Kuranit.",
-      "tr": "Bu Kur'an'ın 37. suresidir."
+      "de": "Diese Sure 'As-Saffat' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'As-Saffat' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'As-Saffat' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -564,9 +564,9 @@
     },
     "arabic": "سورة Sad",
     "meaning": {
-      "de": "Dies ist die 38. Sure des Korans.",
-      "al": "Kjo është surja e 38 e Kuranit.",
-      "tr": "Bu Kur'an'ın 38. suresidir."
+      "de": "Diese Sure 'Sad' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Sad' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Sad' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -579,9 +579,9 @@
     },
     "arabic": "سورة Az-Zumar",
     "meaning": {
-      "de": "Dies ist die 39. Sure des Korans.",
-      "al": "Kjo është surja e 39 e Kuranit.",
-      "tr": "Bu Kur'an'ın 39. suresidir."
+      "de": "Diese Sure 'Az-Zumar' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Az-Zumar' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Az-Zumar' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -594,9 +594,9 @@
     },
     "arabic": "سورة Ghafir",
     "meaning": {
-      "de": "Dies ist die 40. Sure des Korans.",
-      "al": "Kjo është surja e 40 e Kuranit.",
-      "tr": "Bu Kur'an'ın 40. suresidir."
+      "de": "Diese Sure 'Ghafir' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Ghafir' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Ghafir' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -609,9 +609,9 @@
     },
     "arabic": "سورة Fussilat",
     "meaning": {
-      "de": "Dies ist die 41. Sure des Korans.",
-      "al": "Kjo është surja e 41 e Kuranit.",
-      "tr": "Bu Kur'an'ın 41. suresidir."
+      "de": "Diese Sure 'Fussilat' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Fussilat' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Fussilat' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -624,9 +624,9 @@
     },
     "arabic": "سورة Ash-Shura",
     "meaning": {
-      "de": "Dies ist die 42. Sure des Korans.",
-      "al": "Kjo është surja e 42 e Kuranit.",
-      "tr": "Bu Kur'an'ın 42. suresidir."
+      "de": "Diese Sure 'Ash-Shura' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Ash-Shura' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Ash-Shura' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -639,9 +639,9 @@
     },
     "arabic": "سورة Az-Zukhruf",
     "meaning": {
-      "de": "Dies ist die 43. Sure des Korans.",
-      "al": "Kjo është surja e 43 e Kuranit.",
-      "tr": "Bu Kur'an'ın 43. suresidir."
+      "de": "Diese Sure 'Az-Zukhruf' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Az-Zukhruf' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Az-Zukhruf' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -654,9 +654,9 @@
     },
     "arabic": "سورة Ad-Dukhan",
     "meaning": {
-      "de": "Dies ist die 44. Sure des Korans.",
-      "al": "Kjo është surja e 44 e Kuranit.",
-      "tr": "Bu Kur'an'ın 44. suresidir."
+      "de": "Diese Sure 'Ad-Dukhan' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Ad-Dukhan' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Ad-Dukhan' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -669,9 +669,9 @@
     },
     "arabic": "سورة Al-Jathiyah",
     "meaning": {
-      "de": "Dies ist die 45. Sure des Korans.",
-      "al": "Kjo është surja e 45 e Kuranit.",
-      "tr": "Bu Kur'an'ın 45. suresidir."
+      "de": "Diese Sure 'Al-Jathiyah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Jathiyah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Jathiyah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -684,9 +684,9 @@
     },
     "arabic": "سورة Al-Ahqaf",
     "meaning": {
-      "de": "Dies ist die 46. Sure des Korans.",
-      "al": "Kjo është surja e 46 e Kuranit.",
-      "tr": "Bu Kur'an'ın 46. suresidir."
+      "de": "Diese Sure 'Al-Ahqaf' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Ahqaf' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Ahqaf' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -699,9 +699,9 @@
     },
     "arabic": "سورة Muhammad",
     "meaning": {
-      "de": "Dies ist die 47. Sure des Korans.",
-      "al": "Kjo është surja e 47 e Kuranit.",
-      "tr": "Bu Kur'an'ın 47. suresidir."
+      "de": "Diese Sure 'Muhammad' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Muhammad' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Muhammad' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -714,9 +714,9 @@
     },
     "arabic": "سورة Al-Fath",
     "meaning": {
-      "de": "Dies ist die 48. Sure des Korans.",
-      "al": "Kjo është surja e 48 e Kuranit.",
-      "tr": "Bu Kur'an'ın 48. suresidir."
+      "de": "Diese Sure 'Al-Fath' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Fath' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Fath' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -729,9 +729,9 @@
     },
     "arabic": "سورة Al-Hujurat",
     "meaning": {
-      "de": "Dies ist die 49. Sure des Korans.",
-      "al": "Kjo është surja e 49 e Kuranit.",
-      "tr": "Bu Kur'an'ın 49. suresidir."
+      "de": "Diese Sure 'Al-Hujurat' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Hujurat' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Hujurat' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -744,9 +744,9 @@
     },
     "arabic": "سورة Qaf",
     "meaning": {
-      "de": "Dies ist die 50. Sure des Korans.",
-      "al": "Kjo është surja e 50 e Kuranit.",
-      "tr": "Bu Kur'an'ın 50. suresidir."
+      "de": "Diese Sure 'Qaf' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Qaf' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Qaf' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -759,9 +759,9 @@
     },
     "arabic": "سورة Adh-Dhariyat",
     "meaning": {
-      "de": "Dies ist die 51. Sure des Korans.",
-      "al": "Kjo është surja e 51 e Kuranit.",
-      "tr": "Bu Kur'an'ın 51. suresidir."
+      "de": "Diese Sure 'Adh-Dhariyat' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Adh-Dhariyat' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Adh-Dhariyat' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -774,9 +774,9 @@
     },
     "arabic": "سورة At-Tur",
     "meaning": {
-      "de": "Dies ist die 52. Sure des Korans.",
-      "al": "Kjo është surja e 52 e Kuranit.",
-      "tr": "Bu Kur'an'ın 52. suresidir."
+      "de": "Diese Sure 'At-Tur' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'At-Tur' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'At-Tur' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -789,9 +789,9 @@
     },
     "arabic": "سورة An-Najm",
     "meaning": {
-      "de": "Dies ist die 53. Sure des Korans.",
-      "al": "Kjo është surja e 53 e Kuranit.",
-      "tr": "Bu Kur'an'ın 53. suresidir."
+      "de": "Diese Sure 'An-Najm' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'An-Najm' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'An-Najm' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -804,9 +804,9 @@
     },
     "arabic": "سورة Al-Qamar",
     "meaning": {
-      "de": "Dies ist die 54. Sure des Korans.",
-      "al": "Kjo është surja e 54 e Kuranit.",
-      "tr": "Bu Kur'an'ın 54. suresidir."
+      "de": "Diese Sure 'Al-Qamar' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Qamar' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Qamar' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -819,9 +819,9 @@
     },
     "arabic": "سورة Ar-Rahman",
     "meaning": {
-      "de": "Dies ist die 55. Sure des Korans.",
-      "al": "Kjo është surja e 55 e Kuranit.",
-      "tr": "Bu Kur'an'ın 55. suresidir."
+      "de": "Diese Sure 'Ar-Rahman' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Ar-Rahman' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Ar-Rahman' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -834,9 +834,9 @@
     },
     "arabic": "سورة Al-Waqi'ah",
     "meaning": {
-      "de": "Dies ist die 56. Sure des Korans.",
-      "al": "Kjo është surja e 56 e Kuranit.",
-      "tr": "Bu Kur'an'ın 56. suresidir."
+      "de": "Diese Sure 'Al-Waqi'ah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Waqi'ah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Waqi'ah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -849,9 +849,9 @@
     },
     "arabic": "سورة Al-Hadid",
     "meaning": {
-      "de": "Dies ist die 57. Sure des Korans.",
-      "al": "Kjo është surja e 57 e Kuranit.",
-      "tr": "Bu Kur'an'ın 57. suresidir."
+      "de": "Diese Sure 'Al-Hadid' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Hadid' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Hadid' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -864,9 +864,9 @@
     },
     "arabic": "سورة Al-Mujadila",
     "meaning": {
-      "de": "Dies ist die 58. Sure des Korans.",
-      "al": "Kjo është surja e 58 e Kuranit.",
-      "tr": "Bu Kur'an'ın 58. suresidir."
+      "de": "Diese Sure 'Al-Mujadila' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Mujadila' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Mujadila' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -879,9 +879,9 @@
     },
     "arabic": "سورة Al-Hashr",
     "meaning": {
-      "de": "Dies ist die 59. Sure des Korans.",
-      "al": "Kjo është surja e 59 e Kuranit.",
-      "tr": "Bu Kur'an'ın 59. suresidir."
+      "de": "Diese Sure 'Al-Hashr' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Hashr' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Hashr' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -894,9 +894,9 @@
     },
     "arabic": "سورة Al-Mumtahanah",
     "meaning": {
-      "de": "Dies ist die 60. Sure des Korans.",
-      "al": "Kjo është surja e 60 e Kuranit.",
-      "tr": "Bu Kur'an'ın 60. suresidir."
+      "de": "Diese Sure 'Al-Mumtahanah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Mumtahanah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Mumtahanah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -909,9 +909,9 @@
     },
     "arabic": "سورة As-Saff",
     "meaning": {
-      "de": "Dies ist die 61. Sure des Korans.",
-      "al": "Kjo është surja e 61 e Kuranit.",
-      "tr": "Bu Kur'an'ın 61. suresidir."
+      "de": "Diese Sure 'As-Saff' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'As-Saff' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'As-Saff' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -924,9 +924,9 @@
     },
     "arabic": "سورة Al-Jumu'ah",
     "meaning": {
-      "de": "Dies ist die 62. Sure des Korans.",
-      "al": "Kjo është surja e 62 e Kuranit.",
-      "tr": "Bu Kur'an'ın 62. suresidir."
+      "de": "Diese Sure 'Al-Jumu'ah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Jumu'ah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Jumu'ah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -939,9 +939,9 @@
     },
     "arabic": "سورة Al-Munafiqun",
     "meaning": {
-      "de": "Dies ist die 63. Sure des Korans.",
-      "al": "Kjo është surja e 63 e Kuranit.",
-      "tr": "Bu Kur'an'ın 63. suresidir."
+      "de": "Diese Sure 'Al-Munafiqun' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Munafiqun' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Munafiqun' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -954,9 +954,9 @@
     },
     "arabic": "سورة At-Taghabun",
     "meaning": {
-      "de": "Dies ist die 64. Sure des Korans.",
-      "al": "Kjo është surja e 64 e Kuranit.",
-      "tr": "Bu Kur'an'ın 64. suresidir."
+      "de": "Diese Sure 'At-Taghabun' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'At-Taghabun' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'At-Taghabun' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -969,9 +969,9 @@
     },
     "arabic": "سورة At-Talaq",
     "meaning": {
-      "de": "Dies ist die 65. Sure des Korans.",
-      "al": "Kjo është surja e 65 e Kuranit.",
-      "tr": "Bu Kur'an'ın 65. suresidir."
+      "de": "Diese Sure 'At-Talaq' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'At-Talaq' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'At-Talaq' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -984,9 +984,9 @@
     },
     "arabic": "سورة At-Tahrim",
     "meaning": {
-      "de": "Dies ist die 66. Sure des Korans.",
-      "al": "Kjo është surja e 66 e Kuranit.",
-      "tr": "Bu Kur'an'ın 66. suresidir."
+      "de": "Diese Sure 'At-Tahrim' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'At-Tahrim' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'At-Tahrim' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -999,9 +999,9 @@
     },
     "arabic": "سورة Al-Mulk",
     "meaning": {
-      "de": "Dies ist die 67. Sure des Korans.",
-      "al": "Kjo është surja e 67 e Kuranit.",
-      "tr": "Bu Kur'an'ın 67. suresidir."
+      "de": "Diese Sure 'Al-Mulk' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Mulk' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Mulk' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1014,9 +1014,9 @@
     },
     "arabic": "سورة Al-Qalam",
     "meaning": {
-      "de": "Dies ist die 68. Sure des Korans.",
-      "al": "Kjo është surja e 68 e Kuranit.",
-      "tr": "Bu Kur'an'ın 68. suresidir."
+      "de": "Diese Sure 'Al-Qalam' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Qalam' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Qalam' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1029,9 +1029,9 @@
     },
     "arabic": "سورة Al-Haqqah",
     "meaning": {
-      "de": "Dies ist die 69. Sure des Korans.",
-      "al": "Kjo është surja e 69 e Kuranit.",
-      "tr": "Bu Kur'an'ın 69. suresidir."
+      "de": "Diese Sure 'Al-Haqqah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Haqqah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Haqqah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1044,9 +1044,9 @@
     },
     "arabic": "سورة Al-Ma'arij",
     "meaning": {
-      "de": "Dies ist die 70. Sure des Korans.",
-      "al": "Kjo është surja e 70 e Kuranit.",
-      "tr": "Bu Kur'an'ın 70. suresidir."
+      "de": "Diese Sure 'Al-Ma'arij' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Ma'arij' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Ma'arij' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1059,9 +1059,9 @@
     },
     "arabic": "سورة Nuh",
     "meaning": {
-      "de": "Dies ist die 71. Sure des Korans.",
-      "al": "Kjo është surja e 71 e Kuranit.",
-      "tr": "Bu Kur'an'ın 71. suresidir."
+      "de": "Diese Sure 'Nuh' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Nuh' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Nuh' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1074,9 +1074,9 @@
     },
     "arabic": "سورة Al-Jinn",
     "meaning": {
-      "de": "Dies ist die 72. Sure des Korans.",
-      "al": "Kjo është surja e 72 e Kuranit.",
-      "tr": "Bu Kur'an'ın 72. suresidir."
+      "de": "Diese Sure 'Al-Jinn' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Jinn' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Jinn' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1089,9 +1089,9 @@
     },
     "arabic": "سورة Al-Muzzammil",
     "meaning": {
-      "de": "Dies ist die 73. Sure des Korans.",
-      "al": "Kjo është surja e 73 e Kuranit.",
-      "tr": "Bu Kur'an'ın 73. suresidir."
+      "de": "Diese Sure 'Al-Muzzammil' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Muzzammil' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Muzzammil' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1104,9 +1104,9 @@
     },
     "arabic": "سورة Al-Muddaththir",
     "meaning": {
-      "de": "Dies ist die 74. Sure des Korans.",
-      "al": "Kjo është surja e 74 e Kuranit.",
-      "tr": "Bu Kur'an'ın 74. suresidir."
+      "de": "Diese Sure 'Al-Muddaththir' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Muddaththir' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Muddaththir' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1119,9 +1119,9 @@
     },
     "arabic": "سورة Al-Qiyamah",
     "meaning": {
-      "de": "Dies ist die 75. Sure des Korans.",
-      "al": "Kjo është surja e 75 e Kuranit.",
-      "tr": "Bu Kur'an'ın 75. suresidir."
+      "de": "Diese Sure 'Al-Qiyamah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Qiyamah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Qiyamah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1134,9 +1134,9 @@
     },
     "arabic": "سورة Al-Insan",
     "meaning": {
-      "de": "Dies ist die 76. Sure des Korans.",
-      "al": "Kjo është surja e 76 e Kuranit.",
-      "tr": "Bu Kur'an'ın 76. suresidir."
+      "de": "Diese Sure 'Al-Insan' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Insan' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Insan' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1149,9 +1149,9 @@
     },
     "arabic": "سورة Al-Mursalat",
     "meaning": {
-      "de": "Dies ist die 77. Sure des Korans.",
-      "al": "Kjo është surja e 77 e Kuranit.",
-      "tr": "Bu Kur'an'ın 77. suresidir."
+      "de": "Diese Sure 'Al-Mursalat' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Mursalat' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Mursalat' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1164,9 +1164,9 @@
     },
     "arabic": "سورة An-Naba",
     "meaning": {
-      "de": "Dies ist die 78. Sure des Korans.",
-      "al": "Kjo është surja e 78 e Kuranit.",
-      "tr": "Bu Kur'an'ın 78. suresidir."
+      "de": "Diese Sure 'An-Naba' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'An-Naba' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'An-Naba' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1179,9 +1179,9 @@
     },
     "arabic": "سورة An-Nazi'at",
     "meaning": {
-      "de": "Dies ist die 79. Sure des Korans.",
-      "al": "Kjo është surja e 79 e Kuranit.",
-      "tr": "Bu Kur'an'ın 79. suresidir."
+      "de": "Diese Sure 'An-Nazi'at' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'An-Nazi'at' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'An-Nazi'at' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1194,9 +1194,9 @@
     },
     "arabic": "سورة 'Abasa",
     "meaning": {
-      "de": "Dies ist die 80. Sure des Korans.",
-      "al": "Kjo është surja e 80 e Kuranit.",
-      "tr": "Bu Kur'an'ın 80. suresidir."
+      "de": "Diese Sure ''Abasa' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure ''Abasa' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu ''Abasa' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1209,9 +1209,9 @@
     },
     "arabic": "سورة At-Takwir",
     "meaning": {
-      "de": "Dies ist die 81. Sure des Korans.",
-      "al": "Kjo është surja e 81 e Kuranit.",
-      "tr": "Bu Kur'an'ın 81. suresidir."
+      "de": "Diese Sure 'At-Takwir' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'At-Takwir' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'At-Takwir' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1224,9 +1224,9 @@
     },
     "arabic": "سورة Al-Infitar",
     "meaning": {
-      "de": "Dies ist die 82. Sure des Korans.",
-      "al": "Kjo është surja e 82 e Kuranit.",
-      "tr": "Bu Kur'an'ın 82. suresidir."
+      "de": "Diese Sure 'Al-Infitar' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Infitar' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Infitar' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1239,9 +1239,9 @@
     },
     "arabic": "سورة Al-Mutaffifin",
     "meaning": {
-      "de": "Dies ist die 83. Sure des Korans.",
-      "al": "Kjo është surja e 83 e Kuranit.",
-      "tr": "Bu Kur'an'ın 83. suresidir."
+      "de": "Diese Sure 'Al-Mutaffifin' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Mutaffifin' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Mutaffifin' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1254,9 +1254,9 @@
     },
     "arabic": "سورة Al-Inshiqaq",
     "meaning": {
-      "de": "Dies ist die 84. Sure des Korans.",
-      "al": "Kjo është surja e 84 e Kuranit.",
-      "tr": "Bu Kur'an'ın 84. suresidir."
+      "de": "Diese Sure 'Al-Inshiqaq' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Inshiqaq' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Inshiqaq' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1269,9 +1269,9 @@
     },
     "arabic": "سورة Al-Buruj",
     "meaning": {
-      "de": "Dies ist die 85. Sure des Korans.",
-      "al": "Kjo është surja e 85 e Kuranit.",
-      "tr": "Bu Kur'an'ın 85. suresidir."
+      "de": "Diese Sure 'Al-Buruj' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Buruj' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Buruj' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1284,9 +1284,9 @@
     },
     "arabic": "سورة At-Tariq",
     "meaning": {
-      "de": "Dies ist die 86. Sure des Korans.",
-      "al": "Kjo është surja e 86 e Kuranit.",
-      "tr": "Bu Kur'an'ın 86. suresidir."
+      "de": "Diese Sure 'At-Tariq' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'At-Tariq' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'At-Tariq' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1299,9 +1299,9 @@
     },
     "arabic": "سورة Al-A'la",
     "meaning": {
-      "de": "Dies ist die 87. Sure des Korans.",
-      "al": "Kjo është surja e 87 e Kuranit.",
-      "tr": "Bu Kur'an'ın 87. suresidir."
+      "de": "Diese Sure 'Al-A'la' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-A'la' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-A'la' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1314,9 +1314,9 @@
     },
     "arabic": "سورة Al-Ghashiyah",
     "meaning": {
-      "de": "Dies ist die 88. Sure des Korans.",
-      "al": "Kjo është surja e 88 e Kuranit.",
-      "tr": "Bu Kur'an'ın 88. suresidir."
+      "de": "Diese Sure 'Al-Ghashiyah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Ghashiyah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Ghashiyah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1329,9 +1329,9 @@
     },
     "arabic": "سورة Al-Fajr",
     "meaning": {
-      "de": "Dies ist die 89. Sure des Korans.",
-      "al": "Kjo është surja e 89 e Kuranit.",
-      "tr": "Bu Kur'an'ın 89. suresidir."
+      "de": "Diese Sure 'Al-Fajr' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Fajr' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Fajr' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1344,9 +1344,9 @@
     },
     "arabic": "سورة Al-Balad",
     "meaning": {
-      "de": "Dies ist die 90. Sure des Korans.",
-      "al": "Kjo është surja e 90 e Kuranit.",
-      "tr": "Bu Kur'an'ın 90. suresidir."
+      "de": "Diese Sure 'Al-Balad' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Balad' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Balad' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1359,9 +1359,9 @@
     },
     "arabic": "سورة Ash-Shams",
     "meaning": {
-      "de": "Dies ist die 91. Sure des Korans.",
-      "al": "Kjo është surja e 91 e Kuranit.",
-      "tr": "Bu Kur'an'ın 91. suresidir."
+      "de": "Diese Sure 'Ash-Shams' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Ash-Shams' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Ash-Shams' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1374,9 +1374,9 @@
     },
     "arabic": "سورة Al-Layl",
     "meaning": {
-      "de": "Dies ist die 92. Sure des Korans.",
-      "al": "Kjo është surja e 92 e Kuranit.",
-      "tr": "Bu Kur'an'ın 92. suresidir."
+      "de": "Diese Sure 'Al-Layl' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Layl' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Layl' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1389,9 +1389,9 @@
     },
     "arabic": "سورة Ad-Duha",
     "meaning": {
-      "de": "Dies ist die 93. Sure des Korans.",
-      "al": "Kjo është surja e 93 e Kuranit.",
-      "tr": "Bu Kur'an'ın 93. suresidir."
+      "de": "Diese Sure 'Ad-Duha' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Ad-Duha' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Ad-Duha' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1404,9 +1404,9 @@
     },
     "arabic": "سورة Ash-Sharh",
     "meaning": {
-      "de": "Dies ist die 94. Sure des Korans.",
-      "al": "Kjo është surja e 94 e Kuranit.",
-      "tr": "Bu Kur'an'ın 94. suresidir."
+      "de": "Diese Sure 'Ash-Sharh' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Ash-Sharh' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Ash-Sharh' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1419,9 +1419,9 @@
     },
     "arabic": "سورة At-Tin",
     "meaning": {
-      "de": "Dies ist die 95. Sure des Korans.",
-      "al": "Kjo është surja e 95 e Kuranit.",
-      "tr": "Bu Kur'an'ın 95. suresidir."
+      "de": "Diese Sure 'At-Tin' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'At-Tin' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'At-Tin' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1434,9 +1434,9 @@
     },
     "arabic": "سورة Al-'Alaq",
     "meaning": {
-      "de": "Dies ist die 96. Sure des Korans.",
-      "al": "Kjo është surja e 96 e Kuranit.",
-      "tr": "Bu Kur'an'ın 96. suresidir."
+      "de": "Diese Sure 'Al-'Alaq' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-'Alaq' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-'Alaq' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1449,9 +1449,9 @@
     },
     "arabic": "سورة Al-Qadr",
     "meaning": {
-      "de": "Dies ist die 97. Sure des Korans.",
-      "al": "Kjo është surja e 97 e Kuranit.",
-      "tr": "Bu Kur'an'ın 97. suresidir."
+      "de": "Diese Sure 'Al-Qadr' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Qadr' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Qadr' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1464,9 +1464,9 @@
     },
     "arabic": "سورة Al-Bayyinah",
     "meaning": {
-      "de": "Dies ist die 98. Sure des Korans.",
-      "al": "Kjo është surja e 98 e Kuranit.",
-      "tr": "Bu Kur'an'ın 98. suresidir."
+      "de": "Diese Sure 'Al-Bayyinah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Bayyinah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Bayyinah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1479,9 +1479,9 @@
     },
     "arabic": "سورة Az-Zalzalah",
     "meaning": {
-      "de": "Dies ist die 99. Sure des Korans.",
-      "al": "Kjo është surja e 99 e Kuranit.",
-      "tr": "Bu Kur'an'ın 99. suresidir."
+      "de": "Diese Sure 'Az-Zalzalah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Az-Zalzalah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Az-Zalzalah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1494,9 +1494,9 @@
     },
     "arabic": "سورة Al-'Adiyat",
     "meaning": {
-      "de": "Dies ist die 100. Sure des Korans.",
-      "al": "Kjo është surja e 100 e Kuranit.",
-      "tr": "Bu Kur'an'ın 100. suresidir."
+      "de": "Diese Sure 'Al-'Adiyat' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-'Adiyat' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-'Adiyat' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1509,9 +1509,9 @@
     },
     "arabic": "سورة Al-Qari'ah",
     "meaning": {
-      "de": "Dies ist die 101. Sure des Korans.",
-      "al": "Kjo është surja e 101 e Kuranit.",
-      "tr": "Bu Kur'an'ın 101. suresidir."
+      "de": "Diese Sure 'Al-Qari'ah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Qari'ah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Qari'ah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1524,9 +1524,9 @@
     },
     "arabic": "سورة At-Takathur",
     "meaning": {
-      "de": "Dies ist die 102. Sure des Korans.",
-      "al": "Kjo është surja e 102 e Kuranit.",
-      "tr": "Bu Kur'an'ın 102. suresidir."
+      "de": "Diese Sure 'At-Takathur' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'At-Takathur' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'At-Takathur' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1539,9 +1539,9 @@
     },
     "arabic": "سورة Al-'Asr",
     "meaning": {
-      "de": "Dies ist die 103. Sure des Korans.",
-      "al": "Kjo është surja e 103 e Kuranit.",
-      "tr": "Bu Kur'an'ın 103. suresidir."
+      "de": "Diese Sure 'Al-'Asr' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-'Asr' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-'Asr' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1554,9 +1554,9 @@
     },
     "arabic": "سورة Al-Humazah",
     "meaning": {
-      "de": "Dies ist die 104. Sure des Korans.",
-      "al": "Kjo është surja e 104 e Kuranit.",
-      "tr": "Bu Kur'an'ın 104. suresidir."
+      "de": "Diese Sure 'Al-Humazah' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Humazah' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Humazah' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1569,9 +1569,9 @@
     },
     "arabic": "سورة Al-Fil",
     "meaning": {
-      "de": "Dies ist die 105. Sure des Korans.",
-      "al": "Kjo është surja e 105 e Kuranit.",
-      "tr": "Bu Kur'an'ın 105. suresidir."
+      "de": "Diese Sure 'Al-Fil' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Fil' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Fil' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1584,9 +1584,9 @@
     },
     "arabic": "سورة Quraysh",
     "meaning": {
-      "de": "Dies ist die 106. Sure des Korans.",
-      "al": "Kjo është surja e 106 e Kuranit.",
-      "tr": "Bu Kur'an'ın 106. suresidir."
+      "de": "Diese Sure 'Quraysh' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Quraysh' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Quraysh' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1599,9 +1599,9 @@
     },
     "arabic": "سورة Al-Ma'un",
     "meaning": {
-      "de": "Dies ist die 107. Sure des Korans.",
-      "al": "Kjo është surja e 107 e Kuranit.",
-      "tr": "Bu Kur'an'ın 107. suresidir."
+      "de": "Diese Sure 'Al-Ma'un' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Ma'un' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Ma'un' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1614,9 +1614,9 @@
     },
     "arabic": "سورة Al-Kawthar",
     "meaning": {
-      "de": "Dies ist die 108. Sure des Korans.",
-      "al": "Kjo është surja e 108 e Kuranit.",
-      "tr": "Bu Kur'an'ın 108. suresidir."
+      "de": "Diese Sure 'Al-Kawthar' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Kawthar' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Kawthar' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1629,9 +1629,9 @@
     },
     "arabic": "سورة Al-Kafirun",
     "meaning": {
-      "de": "Dies ist die 109. Sure des Korans.",
-      "al": "Kjo është surja e 109 e Kuranit.",
-      "tr": "Bu Kur'an'ın 109. suresidir."
+      "de": "Diese Sure 'Al-Kafirun' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Kafirun' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Kafirun' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1644,9 +1644,9 @@
     },
     "arabic": "سورة An-Nasr",
     "meaning": {
-      "de": "Dies ist die 110. Sure des Korans.",
-      "al": "Kjo është surja e 110 e Kuranit.",
-      "tr": "Bu Kur'an'ın 110. suresidir."
+      "de": "Diese Sure 'An-Nasr' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'An-Nasr' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'An-Nasr' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
@@ -1659,54 +1659,54 @@
     },
     "arabic": "سورة Al-Masad",
     "meaning": {
-      "de": "Dies ist die 111. Sure des Korans.",
-      "al": "Kjo është surja e 111 e Kuranit.",
-      "tr": "Bu Kur'an'ın 111. suresidir."
+      "de": "Diese Sure 'Al-Masad' ist ein wichtiger Teil des Korans und enthält wertvolle Lehren für uns alle.",
+      "al": "Kjo sure 'Al-Masad' është një pjesë e rëndësishme e Kuranit dhe përmban mësime të vlefshme për të gjithë ne.",
+      "tr": "Bu 'Al-Masad' suresi Kur'an'ın önemli bir parçasıdır ve hepimiz için değerli dersler içerir."
     }
   },
   {
     "id": 112,
     "icon": "📖",
     "title": {
-      "de": "Sure Al-Ikhlas",
-      "al": "Sureja Al-Ikhlas",
-      "tr": "Al-Ikhlas Suresi"
+      "de": "Al-Ikhlas",
+      "al": "El-Ihlas",
+      "tr": "İhlâs"
     },
-    "arabic": "سورة Al-Ikhlas",
+    "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ. اللَّهُ الصَّمَدُ. لَمْ يَلِدْ وَلَمْ يُولَدْ.",
     "meaning": {
-      "de": "Dies ist die 112. Sure des Korans.",
-      "al": "Kjo është surja e 112 e Kuranit.",
-      "tr": "Bu Kur'an'ın 112. suresidir."
+      "de": "Sprich: Er ist Allah, ein Einziger. Allah, der Absolute. Er zeugt nicht und ist nicht gezeugt worden.",
+      "al": "Thuaj: Ai, Allahu është Një! Allahu është Ai, të Cilit çdo krijesë i drejtohet për çdo nevojë. As nuk ka lindur dikë, as nuk është i lindur.",
+      "tr": "De ki: O Allah birdir. Allah sameddir. O, doğurmamış ve doğurulmamıştır."
     }
   },
   {
     "id": 113,
     "icon": "📖",
     "title": {
-      "de": "Sure Al-Falaq",
-      "al": "Sureja Al-Falaq",
-      "tr": "Al-Falaq Suresi"
+      "de": "Al-Falaq",
+      "al": "El-Felek",
+      "tr": "Felak"
     },
-    "arabic": "سورة Al-Falaq",
+    "arabic": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ. مِنْ شَرِّ مَا خَلَقَ.",
     "meaning": {
-      "de": "Dies ist die 113. Sure des Korans.",
-      "al": "Kjo është surja e 113 e Kuranit.",
-      "tr": "Bu Kur'an'ın 113. suresidir."
+      "de": "Sprich: Ich nehme meine Zuflucht beim Herrn des Tagesanbruchs, vor dem Übel dessen, was Er erschaffen hat.",
+      "al": "Thuaj: Mbështetem te Zoti i agimit, prej sherrit të asaj që Ai krijoi.",
+      "tr": "De ki: Yarattığı şeylerin kötülüğünden, karanlığı çöktüğü zaman gecenin kötülüğünden sabahın Rabbine sığınırım."
     }
   },
   {
     "id": 114,
     "icon": "📖",
     "title": {
-      "de": "Sure An-Nas",
-      "al": "Sureja An-Nas",
-      "tr": "An-Nas Suresi"
+      "de": "An-Nas",
+      "al": "En-Nas",
+      "tr": "Nâs"
     },
-    "arabic": "سورة An-Nas",
+    "arabic": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ. مَلِكِ النَّاسِ. إِلَهِ النَّاسِ.",
     "meaning": {
-      "de": "Dies ist die 114. Sure des Korans.",
-      "al": "Kjo është surja e 114 e Kuranit.",
-      "tr": "Bu Kur'an'ın 114. suresidir."
+      "de": "Sprich: Ich nehme meine Zuflucht beim Herrn der Menschen, dem König der Menschen, dem Gott der Menschen.",
+      "al": "Thuaj: Mbështetem te Zoti i njerëzve, Sundimtari i njerëzve, Hyji i njerëzve.",
+      "tr": "De ki: İnsanların Rabbine, insanların melikine, insanların ilâhına sığınırım."
     }
   },
   {
@@ -1719,9 +1719,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1734,9 +1734,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1749,9 +1749,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1764,9 +1764,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1779,9 +1779,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1794,9 +1794,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1809,9 +1809,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1824,9 +1824,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1839,9 +1839,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1854,9 +1854,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1869,9 +1869,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1884,9 +1884,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1899,9 +1899,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1914,9 +1914,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1929,9 +1929,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1944,9 +1944,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1959,9 +1959,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1974,9 +1974,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -1989,9 +1989,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2004,9 +2004,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2019,9 +2019,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2034,9 +2034,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2049,9 +2049,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2064,9 +2064,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2079,9 +2079,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2094,9 +2094,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2109,9 +2109,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2124,9 +2124,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2139,9 +2139,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2154,9 +2154,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2169,9 +2169,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2184,9 +2184,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2199,9 +2199,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2214,9 +2214,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2229,9 +2229,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   },
   {
@@ -2244,9 +2244,9 @@
     },
     "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
     "meaning": {
-      "de": "Mit der Erschwernis kommt die Erleichterung.",
-      "al": "Me vështirësinë vjen lehtësimi.",
-      "tr": "Zorlukla beraber bir kolaylık vardır."
+      "de": "Mit der Erschwernis kommt die Erleichterung. Wahrlich, mit der Erschwernis kommt die Erleichterung.",
+      "al": "Me vështirësinë vjen lehtësimi. Me të vërtetë, me vështirësinë vjen lehtësimi.",
+      "tr": "Şüphesiz her güçlükle beraber bir kolaylık vardır. Evet, her güçlükle beraber bir kolaylık vardır."
     }
   }
 ]
