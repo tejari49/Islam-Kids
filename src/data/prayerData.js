@@ -21,6 +21,7 @@ export const prayerSteps = [
   { 
     id: 1, 
     image: "🧍", 
+    illustration: "/images/prayer/takbir.png",
     title: { de: "Qiyam & Takbir", al: "Kijami & Tekbiri", tr: "Kıyam ve Tekbir" }, 
     arabic: "اللهُ أَكْبَر",
     transliteration: "Allahu Akbar",
@@ -33,6 +34,7 @@ export const prayerSteps = [
   { 
     id: 2, 
     image: "📖", 
+    illustration: "/images/prayer/qiyam.png",
     title: { de: "Al-Fatiha lesen", al: "Leximi i Fatihasë", tr: "Fatiha'yı okumak" }, 
     ayah: "1", // Surah 1 (Al-Fatiha)
     arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ... الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
@@ -46,6 +48,7 @@ export const prayerSteps = [
   { 
     id: 3, 
     image: "🙇", 
+    illustration: "/images/prayer/ruku.png",
     title: { de: "Ruku (Verbeugung)", al: "Rukuja (Përkulja)", tr: "Rüku (Eğilmek)" }, 
     arabic: "سُبْحَانَ رَبِّيَ الْعَظِيم",
     transliteration: "Subhana Rabbiyal Azim (3x)",
@@ -58,6 +61,7 @@ export const prayerSteps = [
   { 
     id: 4, 
     image: "🧍", 
+    illustration: "/images/prayer/qiyam.png",
     title: { de: "Wieder aufstehen", al: "Ngritja përsëri", tr: "Tekrar doğrulmak" }, 
     arabic: "سَمِعَ اللَّهُ لِمَنْ حَمِدَه",
     transliteration: "Sami 'Allahu liman hamidah",
@@ -70,6 +74,7 @@ export const prayerSteps = [
   { 
     id: 5, 
     image: "🧎", 
+    illustration: "/images/prayer/sujud.png",
     title: { de: "Sujud (Niederwerfung)", al: "Sexhdeja (Përulja)", tr: "Secde (Yere kapanmak)" }, 
     arabic: "سُبْحَانَ رَبِّيَ الْأَعْلَى",
     transliteration: "Subhana Rabbiyal A'la (3x)",
@@ -82,6 +87,7 @@ export const prayerSteps = [
   { 
     id: 6, 
     image: "🧎‍♂️", 
+    illustration: "/images/prayer/sitting.png",
     title: { de: "Sitzen (At-tahiyyat)", al: "Ulja (Ettehijatu)", tr: "Oturmak (Ettehiyyatü)" }, 
     arabic: "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَات...",
     transliteration: "At-tahiyyatu lillahi was-salawatu wat-tayyibat...",

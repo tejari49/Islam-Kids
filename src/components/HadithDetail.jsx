@@ -10,11 +10,14 @@ export default function HadithDetail({
   isFavorite,
   incrementStat 
 }) {
+  const hasIncremented = React.useRef(false);
+
   React.useEffect(() => {
-    if (selectedHadith) {
+    if (selectedHadith && !hasIncremented.current) {
       incrementStat('itemsRead');
+      hasIncremented.current = true;
     }
-  }, [selectedHadith?.id]);
+  }, [selectedHadith?.id, incrementStat]);
 
   if (!selectedHadith) return null;
 

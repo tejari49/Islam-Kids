@@ -10,11 +10,14 @@ export default function StoryDetail({
   isFavorite,
   incrementStat 
 }) {
+  const hasIncremented = React.useRef(false);
+
   React.useEffect(() => {
-    if (selectedStory) {
+    if (selectedStory && !hasIncremented.current) {
       incrementStat('itemsRead');
+      hasIncremented.current = true;
     }
-  }, [selectedStory?.id]);
+  }, [selectedStory?.id, incrementStat]);
 
   if (!selectedStory) return null;
 

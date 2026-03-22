@@ -8,18 +8,21 @@ export default function DuaDetail({
   setSelectedDua, 
   isDarkMode, 
   toggleFavorite, 
-  isFavorite 
+  isFavorite,
+  incrementStat
 }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoadingAudio, setIsLoadingAudio] = useState(false);
   const [currentAudioUrl, setCurrentAudioUrl] = useState(null);
   const audioRef = useRef(null);
+  const hasIncremented = useRef(false);
 
   useEffect(() => {
-    if (selectedDua) {
+    if (selectedDua && !hasIncremented.current) {
       incrementStat('itemsRead');
+      hasIncremented.current = true;
     }
-  }, [selectedDua?.id]);
+  }, [selectedDua?.id, incrementStat]);
 
   useEffect(() => {
     if (audioRef.current) {
