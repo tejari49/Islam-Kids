@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Calendar, Heart, Clock, Loader2, Play, BookOpen, GraduationCap, Trophy, Music } from 'lucide-react';
+import { Calendar, Heart, Clock, Loader2, GraduationCap, Trophy } from 'lucide-react';
 
 export default function Home({ 
   selectedLang, 
@@ -24,6 +24,7 @@ export default function Home({
   const [loadingPrayers, setLoadingPrayers] = useState(true);
   const [showLocationSettings, setShowLocationSettings] = useState(false);
   const [locationInput, setLocationInput] = useState({ city: userLocation.city, country: userLocation.country });
+  const [locationError, setLocationError] = useState('');
 
   // Use useMemo to pick daily items based on the date
   const dailyIndices = useMemo(() => {
@@ -48,50 +49,102 @@ export default function Home({
    const dailySure = suren[dailyIndices.sure];
 
   useEffect(() => {
+    setLocationInput({ city: userLocation.city || '', country: userLocation.country || '' });
+  }, [userLocation.city, userLocation.country]);
+
+  useEffect(() => {
     const fetchPrayerTimes = async () => {
       setLoadingPrayers(true);
+      setLocationError('');
       try {
+        const today = new Intl.DateTimeFormat('en-GB').format(new Date()).replace(/\//g, '-');
         let url;
-        if (userLocation.latitude && userLocation.longitude) {
-          url = `https://api.aladhan.com/v1/timings?latitude=${userLocation.latitude}&longitude=${userLocation.longitude}&method=${userLocation.method || 2}`;
+        if (userLocation.latitude != null && userLocation.longitude != null) {
+          url = `https://api.aladhan.com/v1/timings/${today}?latitude=${userLocation.latitude}&longitude=${userLocation.longitude}&method=${userLocation.method || 2}`;
         } else {
-          url = `https://api.aladhan.com/v1/timingsByCity?city=${userLocation.city}&country=${userLocation.country}&method=${userLocation.method || 2}`;
+          url = `https://api.aladhan.com/v1/timingsByCity/${today}?city=${encodeURIComponent(userLocation.city)}&country=${encodeURIComponent(userLocation.country || '')}&method=${userLocation.method || 2}`;
         }
         
         const response = await fetch(url);
         const data = await response.json();
-        if (data.data) {
-          setPrayerTimes(data.data.timings);
+        if (data.data?.timings) {
+          const formattedTimings = Object.fromEntries(
+            Object.entries(data.data.timings).map(([name, value]) => [name, value.split(' ')[0]])
+          );
+          setPrayerTimes(formattedTimings);
+        } else {
+          setLocationError(selectedLang === 'de' ? 'Gebetszeiten konnten für diesen Ort nicht geladen werden.' : 'Prayer times could not be loaded.');
         }
       } catch (error) {
         console.error("Fehler beim Laden der Gebetszeiten:", error);
+        setLocationError(selectedLang === 'de' ? 'Gebetszeiten konnten nicht geladen werden.' : 'Prayer times could not be loaded.');
       } finally {
         setLoadingPrayers(false);
       }
     };
     fetchPrayerTimes();
-  }, [userLocation]);
+  }, [selectedLang, userLocation]);
 
-  const detectLocation = () => {
+  const reverseGeocode = async (latitude, longitude) => {
+    const response = await fetch(
+      `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${latitude}&longitude=${longitude}&localityLanguage=de`
+    );
+    const data = await response.json();
+    return {
+      city: data.city || data.locality || data.principalSubdivision || 'Mein Standort',
+      country: data.countryName || ''
+    };
+  };
+
+  const detectLocation = async () => {
     if (!navigator.geolocation) {
       alert("Geolocation wird von deinem Browser nicht unterstützt.");
       return;
     }
 
     navigator.geolocation.getCurrentPosition(
-      (position) => {
-        setUserLocation({
-          latitude: position.coords.latitude,
-          longitude: position.coords.longitude,
-          city: "Mein Standort",
-          country: "",
-          method: 2
-        });
-        setShowLocationSettings(false);
+      async (position) => {
+        try {
+          setLoadingPrayers(true);
+          const latitude = position.coords.latitude;
+          const longitude = position.coords.longitude;
+          const resolvedLocation = await reverseGeocode(latitude, longitude);
+
+          setUserLocation({
+            latitude,
+            longitude,
+            city: resolvedLocation.city,
+            country: resolvedLocation.country,
+            method: 2,
+            source: 'gps'
+          });
+          setShowLocationSettings(false);
+        } catch (error) {
+          console.error("Reverse-Geocoding Fehler:", error);
+          setUserLocation({
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude,
+            city: "Mein Standort",
+            country: "",
+            method: 2,
+            source: 'gps'
+          });
+        } finally {
+          setLoadingPrayers(false);
+        }
       },
       (error) => {
         console.error("Geolocation Fehler:", error);
-        alert("Standort konnte nicht ermittelt werden.");
+        if (error.code === error.PERMISSION_DENIED) {
+          alert("Bitte erlaube den GPS-Zugriff in deinem Browser, damit die Gebetszeiten für deinen Standort berechnet werden.");
+        } else {
+          alert("Standort konnte nicht ermittelt werden.");
+        }
+      },
+      {
+        enableHighAccuracy: true,
+        timeout: 10000,
+        maximumAge: 0
       }
     );
   };
@@ -103,7 +156,8 @@ export default function Home({
         city: locationInput.city,
         country: locationInput.country,
         latitude: null,
-        longitude: null
+        longitude: null,
+        source: 'manual'
       });
       setShowLocationSettings(false);
     }
@@ -236,6 +290,11 @@ export default function Home({
                   {selectedLang === 'de' ? "GPS Ortung" : "GPS"}
                 </button>
               </div>
+              <p className={`text-xs leading-relaxed ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>
+                {selectedLang === 'de'
+                  ? 'Mit GPS werden dein aktueller Ort und passende Gebetszeiten automatisch geladen. Bitte erlaube die Standortfreigabe im Browser.'
+                  : 'Allow browser location access to use GPS-based prayer times.'}
+              </p>
             </div>
           </div>
         )}
@@ -245,14 +304,21 @@ export default function Home({
             <Loader2 className="animate-spin text-emerald-500" />
           </div>
         ) : (
-          <div className="grid grid-cols-5 gap-2">
-            {['Fajr', 'Dhuhr', 'Asr', 'Maghrib', 'Isha'].map((name) => (
-              <div key={name} className={`flex flex-col items-center p-3 rounded-2xl border transition-colors ${isDarkMode ? 'bg-slate-700/50 border-emerald-900/20' : 'bg-emerald-50/30 border-emerald-50'}`}>
-                <span className={`text-[10px] font-black uppercase mb-1 transition-colors ${isDarkMode ? 'text-emerald-400/60' : 'text-emerald-600'}`}>{name}</span>
-                <span className={`text-sm font-bold transition-colors ${isDarkMode ? 'text-white' : 'text-emerald-900'}`}>{prayerTimes?.[name]}</span>
-              </div>
-            ))}
-          </div>
+          <>
+            {locationError && (
+              <p className={`mb-4 text-sm font-semibold ${isDarkMode ? 'text-red-300' : 'text-red-600'}`}>
+                {locationError}
+              </p>
+            )}
+            <div className="grid grid-cols-5 gap-2">
+              {['Fajr', 'Dhuhr', 'Asr', 'Maghrib', 'Isha'].map((name) => (
+                <div key={name} className={`flex flex-col items-center p-3 rounded-2xl border transition-colors ${isDarkMode ? 'bg-slate-700/50 border-emerald-900/20' : 'bg-emerald-50/30 border-emerald-50'}`}>
+                  <span className={`text-[10px] font-black uppercase mb-1 transition-colors ${isDarkMode ? 'text-emerald-400/60' : 'text-emerald-600'}`}>{name}</span>
+                  <span className={`text-sm font-bold transition-colors ${isDarkMode ? 'text-white' : 'text-emerald-900'}`}>{prayerTimes?.[name] || '--:--'}</span>
+                </div>
+              ))}
+            </div>
+          </>
         )}
       </section>
 
