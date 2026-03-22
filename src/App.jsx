@@ -43,6 +43,10 @@ export default function App() {
     return saved ? JSON.parse(saved) : { city: 'Berlin', country: 'Germany', method: 2 };
   });
 
+  const updateLocation = React.useCallback((newLocation) => {
+    setUserLocation(newLocation);
+  }, []);
+
   useEffect(() => {
     localStorage.setItem('userLocation', JSON.stringify(userLocation));
   }, [userLocation]);
@@ -64,15 +68,15 @@ export default function App() {
     localStorage.setItem('stats', JSON.stringify(stats));
   }, [stats]);
 
-  const addXp = (amount) => {
+  const addXp = React.useCallback((amount) => {
     setStats(prev => ({ ...prev, xp: prev.xp + amount }));
-  };
+  }, []);
 
-  const incrementStat = (key) => {
+  const incrementStat = React.useCallback((key) => {
     setStats(prev => ({ ...prev, [key]: (prev[key] || 0) + 1 }));
-  };
+  }, []);
 
-  const toggleFavorite = (type, id) => {
+  const toggleFavorite = React.useCallback((type, id) => {
     setFavorites(prev => {
       const current = prev[type] || [];
       const exists = current.includes(id);
@@ -81,7 +85,7 @@ export default function App() {
         [type]: exists ? current.filter(itemId => itemId !== id) : [...current, id]
       };
     });
-  };
+  }, []);
 
   const uiTexts = {
     de: { welcome: "Hallo! Lass uns lernen 🌟", duas: "Duas", stories: "Stories", hadiths: "Hadithe", suren: "Suren", selectDua: "Wähle ein Dua aus:", selectStory: "Wähle eine Geschichte:", selectHadith: "Wähle einen Hadith:", listen: "Anhören", source: "Quelle", prophet: "Prophet", sleep: "Schlafen", parents: "Eltern", level: "Level", xp: "EP" },
@@ -101,14 +105,14 @@ export default function App() {
     setSelectedLang(langs[(currentIndex + 1) % langs.length]);
   };
 
-  const handleTabChange = (tab) => {
+  const handleTabChange = React.useCallback((tab) => {
     setActiveTab(tab);
     setSelectedDua(null);
     setSelectedStory(null);
     setSelectedHadith(null);
     setSelectedSure(null);
     setSelectedFeature(null);
-  };
+  }, []);
 
   // Level Logic
   const level = Math.floor(stats.xp / 100) + 1;
@@ -218,7 +222,7 @@ export default function App() {
                     stats={stats}
                     setSelectedSure={setSelectedSure}
                     userLocation={userLocation}
-                    setUserLocation={setUserLocation}
+                    setUserLocation={updateLocation}
                   />
                 )}
                 {activeTab === 'duas' && !selectedDua && !selectedStory && !selectedHadith && (
