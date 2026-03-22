@@ -1,121 +1,124 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import React, { useState } from 'react';
+import { Home as HomeIcon, BookOpen, MessageCircle, Library } from 'lucide-react';
+import Home from './components/Home';
+import DuasList from './components/DuasList';
+import DuaDetail from './components/DuaDetail';
+import HadithsList from './components/HadithsList';
+import HadithDetail from './components/HadithDetail';
+import StoriesList from './components/StoriesList';
+import StoryDetail from './components/StoryDetail';
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const [activeTab, setActiveTab] = useState('home');
+  const [selectedLang, setSelectedLang] = useState('de');
+  const [selectedDua, setSelectedDua] = useState(null);
+  const [selectedStory, setSelectedStory] = useState(null);
+  const [selectedHadith, setSelectedHadith] = useState(null);
+
+  const uiTexts = {
+    de: { welcome: "Hallo! Lass uns lernen 🌟", duas: "Meine Duas", stories: "Geschichten", hadiths: "Hadithe", selectDua: "Wähle ein Dua aus:", selectStory: "Wähle eine Geschichte:", selectHadith: "Wähle einen Hadith:", listen: "Anhören", source: "Quelle", prophet: "Prophet", sleep: "Schlafen", parents: "Eltern" },
+    al: { welcome: "Përshëndetje! Le të mësojmë 🌟", duas: "Duatë e mia", stories: "Tregime", hadiths: "Hadithe", selectDua: "Zgjidh një Dua:", selectStory: "Zgjidh një tregim:", selectHadith: "Zgjidh një Hadith:", listen: "Dëgjo", source: "Burimi", prophet: "Profeti", sleep: "Gjumi", parents: "Prindërit" },
+    tr: { welcome: "Merhaba! Hadi öğrenelim 🌟", duas: "Dualarım", stories: "Hikayeler", hadiths: "Hadisler", selectDua: "Bir Dua seç:", selectStory: "Bir hikaye seç:", selectHadith: "Bir Hadis seç:", listen: "Dinle", source: "Kaynak", prophet: "Peygamber", sleep: "Uyku", parents: "Anne Baba" }
+  };
+
+  const langMap = {
+    de: '🇩🇪 DE',
+    al: '🇦🇱 AL',
+    tr: '🇹🇷 TR'
+  };
+
+  const cycleLanguage = () => {
+    const langs = ['de', 'al', 'tr'];
+    const currentIndex = langs.indexOf(selectedLang);
+    setSelectedLang(langs[(currentIndex + 1) % langs.length]);
+  };
+
+  const handleTabChange = (tab) => {
+    setActiveTab(tab);
+    setSelectedDua(null);
+    setSelectedStory(null);
+    setSelectedHadith(null);
+  };
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
+    <div className="max-w-md mx-auto min-h-screen bg-gray-50 font-sans relative overflow-hidden">
+      
+      {/* Top Header */}
+      <div className="bg-white p-4 shadow-sm flex flex-row items-center justify-between z-10 relative">
+        <div className="w-16"></div>
+        <h1 className="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-600">
+          IslamKids
+        </h1>
+        <button 
+          onClick={cycleLanguage} 
+          className="w-16 flex items-center justify-end bg-gray-50 px-3 py-1 rounded-full text-sm font-bold text-gray-700 shadow-sm border border-gray-200 active:scale-95 transition-transform cursor-pointer"
+          title="Sprache wechseln"
         >
-          Count is {count}
+          {langMap[selectedLang]}
         </button>
-      </section>
+      </div>
 
-      <div className="ticks"></div>
+      <div className="h-full overflow-y-auto">
+        {activeTab === 'home' && !selectedDua && !selectedStory && !selectedHadith && (
+          <Home 
+            selectedLang={selectedLang} 
+            uiTexts={uiTexts} 
+            handleTabChange={handleTabChange} 
+            setSelectedDua={setSelectedDua} 
+            setSelectedStory={setSelectedStory} 
+          />
+        )}
+        {activeTab === 'duas' && !selectedDua && !selectedStory && !selectedHadith && (
+          <DuasList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedDua={setSelectedDua} />
+        )}
+        {activeTab === 'hadiths' && !selectedDua && !selectedStory && !selectedHadith && (
+          <HadithsList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedHadith={setSelectedHadith} />
+        )}
+        {activeTab === 'stories' && !selectedDua && !selectedStory && !selectedHadith && (
+          <StoriesList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedStory={setSelectedStory} />
+        )}
+        
+        {selectedDua && <DuaDetail selectedDua={selectedDua} selectedLang={selectedLang} uiTexts={uiTexts} setSelectedDua={setSelectedDua} />}
+        {selectedHadith && <HadithDetail selectedHadith={selectedHadith} selectedLang={selectedLang} setSelectedHadith={setSelectedHadith} />}
+        {selectedStory && <StoryDetail selectedStory={selectedStory} selectedLang={selectedLang} setSelectedStory={setSelectedStory} />}
+      </div>
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+      {/* Bottom Navigation */}
+      {!selectedDua && !selectedStory && !selectedHadith && (
+        <div className="fixed bottom-0 max-w-md w-full bg-white border-t border-gray-100 flex justify-between px-2 py-3 pb-6 shadow-[0_-10px_40px_rgba(0,0,0,0.05)] z-20">
+          <button 
+            onClick={() => handleTabChange('home')}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'home' ? 'text-green-500' : 'text-gray-400 hover:text-gray-600'}`}
+          >
+            <HomeIcon size={22} />
+            <span className="text-[10px] font-bold">Home</span>
+          </button>
+          
+          <button 
+            onClick={() => handleTabChange('duas')}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'duas' ? 'text-green-500' : 'text-gray-400 hover:text-gray-600'}`}
+          >
+            <BookOpen size={22} />
+            <span className="text-[10px] font-bold">{uiTexts[selectedLang].duas}</span>
+          </button>
+
+          <button 
+            onClick={() => handleTabChange('hadiths')}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'hadiths' ? 'text-yellow-500' : 'text-gray-400 hover:text-gray-600'}`}
+          >
+            <MessageCircle size={22} />
+            <span className="text-[10px] font-bold">{uiTexts[selectedLang].hadiths}</span>
+          </button>
+
+          <button 
+            onClick={() => handleTabChange('stories')}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'stories' ? 'text-purple-500' : 'text-gray-400 hover:text-gray-600'}`}
+          >
+            <Library size={22} />
+            <span className="text-[10px] font-bold">{uiTexts[selectedLang].stories}</span>
+          </button>
         </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+      )}
+    </div>
+  );
 }
-
-export default App
