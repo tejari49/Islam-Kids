@@ -13,9 +13,11 @@ export default function DuaDetail({
 }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoadingAudio, setIsLoadingAudio] = useState(false);
-  const [currentAudioUrl, setCurrentAudioUrl] = useState(null);
+  const [currentAudioQueue, setCurrentAudioQueue] = useState([]);
+  const [currentAudioIndex, setCurrentAudioIndex] = useState(0);
   const audioRef = useRef(null);
   const hasIncremented = useRef(false);
+  const audioAyahRefs = selectedDua?.audioAyahs?.length ? selectedDua.audioAyahs : (selectedDua?.ayah ? [selectedDua.ayah] : []);
 
   useEffect(() => {
     if (selectedDua && !hasIncremented.current) {
@@ -30,8 +32,34 @@ export default function DuaDetail({
     }
     setIsPlaying(false);
     setIsLoadingAudio(false);
-    setCurrentAudioUrl(null);
+    setCurrentAudioQueue([]);
+    setCurrentAudioIndex(0);
   }, [selectedDua]);
+
+  const loadQueueItem = async (urls, index) => {
+    if (!audioRef.current || !urls[index]) return;
+
+    audioRef.current.src = urls[index];
+    audioRef.current.load();
+    await audioRef.current.play();
+    setCurrentAudioIndex(index);
+    setIsPlaying(true);
+  };
+
+  const handleAudioEnded = async () => {
+    if (currentAudioIndex < currentAudioQueue.length - 1) {
+      try {
+        await loadQueueItem(currentAudioQueue, currentAudioIndex + 1);
+      } catch (error) {
+        console.error("Fehler beim Abspielen der nächsten Aya:", error);
+        setIsPlaying(false);
+      }
+      return;
+    }
+
+    setIsPlaying(false);
+    setCurrentAudioIndex(0);
+  };
 
   const toggleAudio = async () => {
     if (!audioRef.current) return;
@@ -42,7 +70,7 @@ export default function DuaDetail({
       return;
     }
 
-    if (currentAudioUrl) {
+    if (currentAudioQueue.length > 0) {
       try {
         await audioRef.current.play();
         setIsPlaying(true);
@@ -55,17 +83,16 @@ export default function DuaDetail({
     setIsLoadingAudio(true);
     
     try {
-      const response = await fetch(`https://api.alquran.cloud/v1/ayah/${selectedDua.ayah}/ar.alafasy`);
-      const data = await response.json();
-      const urlToPlay = data.data.audio;
+      const responses = await Promise.all(
+        audioAyahRefs.map(async (ayahRef) => {
+          const response = await fetch(`https://api.alquran.cloud/v1/ayah/${ayahRef}/ar.alafasy`);
+          const data = await response.json();
+          return data.data.audio;
+        })
+      );
 
-      setCurrentAudioUrl(urlToPlay);
-      
-      audioRef.current.src = urlToPlay;
-      audioRef.current.load();
-      
-      await audioRef.current.play();
-      setIsPlaying(true);
+      setCurrentAudioQueue(responses);
+      await loadQueueItem(responses, 0);
 
     } catch (error) {
       console.error("Fehler beim Laden des Audios:", error);
@@ -79,7 +106,7 @@ export default function DuaDetail({
 
   return (
     <div className={`p-6 pb-24 space-y-6 flex flex-col min-h-screen relative transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-gray-50'}`}>
-      <audio ref={audioRef} onEnded={() => setIsPlaying(false)} />
+      <audio ref={audioRef} onEnded={handleAudioEnded} />
 
       <div className="flex justify-between items-center mb-4">
         <button 
@@ -88,7 +115,7 @@ export default function DuaDetail({
         >
           <ChevronLeft size={20} /> {selectedLang === 'de' ? 'Zurück' : selectedLang === 'al' ? 'Mbrapsht' : 'Geri'}
         </button>
-        {selectedDua.ayah && selectedDua.ayah !== "" && (
+        {audioAyahRefs.length > 0 && (
           <button 
             onClick={toggleAudio}
             disabled={isLoadingAudio}
@@ -127,15 +154,24 @@ export default function DuaDetail({
             {selectedDua.arabic}
           </p>
           
-          <div className={`p-4 rounded-xl border transition-colors ${isDarkMode ? 'bg-slate-700/50 border-slate-600' : 'bg-gray-50 border-gray-100'}`}>
-            <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>Aussprache</p>
-            <p className={`text-lg font-medium ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{selectedDua.transliteration}</p>
-          </div>
+          {selectedDua.transliteration && (
+            <div className={`p-4 rounded-xl border transition-colors ${isDarkMode ? 'bg-slate-700/50 border-slate-600' : 'bg-gray-50 border-gray-100'}`}>
+              <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>Aussprache</p>
+              <p className={`text-lg font-medium ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{selectedDua.transliteration}</p>
+            </div>
+          )}
 
           <div className={`p-4 rounded-xl border transition-colors ${isDarkMode ? 'bg-blue-900/10 border-blue-900/30' : 'bg-blue-50 border-blue-100'}`}>
             <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-blue-400/60' : 'text-blue-400'}`}>Bedeutung</p>
             <p className={`text-lg font-medium ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{selectedDua.meaning[selectedLang]}</p>
           </div>
+
+          {selectedDua.source && (
+            <div className={`p-4 rounded-xl border transition-colors ${isDarkMode ? 'bg-emerald-900/10 border-emerald-900/30' : 'bg-emerald-50 border-emerald-100'}`}>
+              <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-emerald-400/60' : 'text-emerald-500'}`}>Quelle</p>
+              <p className={`text-sm font-semibold ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{selectedDua.source}</p>
+            </div>
+          )}
         </div>
       </div>
     </div>
