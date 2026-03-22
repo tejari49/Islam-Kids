@@ -18,10 +18,77 @@ export const prayers = [
 ];
 
 export const prayerSteps = [
-  { id: 1, image: "🧍", title: { de: "Qiyam & Takbir", al: "Kijami & Tekbiri", tr: "Kıyam ve Tekbir" }, text: { de: "Stehe aufrecht in Richtung Mekka, hebe die Hände und sage 'Allahu Akbar'.", al: "Qëndro drejt drejt Mekës, ngri duart dhe thuaj 'Allahu Ekber'.", tr: "Mekke'ye (Kıble'ye) doğru dik dur, ellerini kaldır ve 'Allahu Ekber' de." } },
-  { id: 2, image: "📖", title: { de: "Al-Fatiha lesen", al: "Leximi i Fatihasë", tr: "Fatiha'yı okumak" }, text: { de: "Lege die rechte Hand über die linke auf deine Brust und lese die Sure Al-Fatiha.", al: "Vendos dorën e djathtë mbi të majtën në gjoks dhe lexo Suren El-Fatiha.", tr: "Sağ elini sol elinin üzerine göğsüne koy ve Fatiha Suresi'ni oku." } },
-  { id: 3, image: "🙇", title: { de: "Ruku (Verbeugung)", al: "Rukuja (Përkulja)", tr: "Rüku (Eğilmek)" }, text: { de: "Verbeuge dich, stütze die Hände auf die Knie und sage 3x 'Subhana Rabbiyal Azim'.", al: "Përkulu, mbështet duart në gjunjë dhe thuaj 3x 'Subhane Rabbijel Adhim'.", tr: "Eğil, ellerini dizlerine koy ve 3 kez 'Sübhane Rabbiyel Azim' de." } },
-  { id: 4, image: "🧍", title: { de: "Wieder aufstehen", al: "Ngritja përsëri", tr: "Tekrar doğrulmak" }, text: { de: "Stehe wieder auf und sage 'Sami Allahu liman hamidah'.", al: "Ngrihu përsëri dhe thuaj 'Semi Allahu limen hamideh'.", tr: "Tekrar doğrul ve 'Semi Allahu limen hamideh' de." } },
-  { id: 5, image: "🧎", title: { de: "Sujud (Niederwerfung)", al: "Sexhdeja (Përulja)", tr: "Secde (Yere kapanmak)" }, text: { de: "Gehe auf den Boden. Stirn, Nase, Hände, Knie und Zehen berühren den Boden. Sage 3x 'Subhana Rabbiyal A'la'.", al: "Shko në tokë. Balli, hunda, duart, gjunjët dhe gishtat e këmbëve prekin tokën. Thuaj 3x 'Subhane Rabbijel A'la'.", tr: "Yere kapan. Alnın, burnun, ellerin, dizlerin ve ayak parmakların yere değsin. 3 kez 'Sübhane Rabbiyel A'la' de." } },
-  { id: 6, image: "🧎‍♂️", title: { de: "Sitzen (Tashahhud)", al: "Ulja (Teshahudi)", tr: "Oturmak (Teşehhüd)" }, text: { de: "Setze dich auf, lese das Tashahhud und am Ende des Gebets machst du Taslim (Kopf nach rechts und links drehen).", al: "Ulu, lexo Teshahudin dhe në fund të namazit bën Teslim (duke kthyer kokën djathtas dhe majtas).", tr: "Otur, Teşehhüd'ü oku ve namazın sonunda Teslim yap (başını sağa ve sola çevirerek selam ver)." } }
+  { 
+    id: 1, 
+    image: "🧍", 
+    title: { de: "Qiyam & Takbir", al: "Kijami & Tekbiri", tr: "Kıyam ve Tekbir" }, 
+    arabic: "اللهُ أَكْبَر",
+    transliteration: "Allahu Akbar",
+    text: { 
+      de: "Stehe aufrecht in Richtung Mekka und sage 'Allahu Akbar'. Allah ist der Größte.", 
+      al: "Qëndro drejt drejt Mekës dhe thuaj 'Allahu Ekber'. Allahu është më i madhi.", 
+      tr: "Mekke'ye doğru dik dur ve 'Allahu Ekber' de. Allah en büyüktür." 
+    }
+  },
+  { 
+    id: 2, 
+    image: "📖", 
+    title: { de: "Al-Fatiha lesen", al: "Leximi i Fatihasë", tr: "Fatiha'yı okumak" }, 
+    ayah: "1", // Surah 1 (Al-Fatiha)
+    arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ... الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+    transliteration: "Bismillaahir Rahmaanir Raheem. Alhamdu lillaahi Rabbil 'aalameen...",
+    text: { 
+      de: "Lege die Hände auf die Brust und rezitiere die Eröffnungssure des Korans.", 
+      al: "Vendos duart në gjoks dhe lexo suren hapëse të Kur'anit.", 
+      tr: "Ellerini göğsüne koy ve Kur'an'ın açılış suresini oku." 
+    }
+  },
+  { 
+    id: 3, 
+    image: "🙇", 
+    title: { de: "Ruku (Verbeugung)", al: "Rukuja (Përkulja)", tr: "Rüku (Eğilmek)" }, 
+    arabic: "سُبْحَانَ رَبِّيَ الْعَظِيم",
+    transliteration: "Subhana Rabbiyal Azim (3x)",
+    text: { 
+      de: "Verbeuge dich und preise Allah: 'Gepriesen sei mein Herr, der Gewaltige'.", 
+      al: "Përkulu dhe lëvdo Allahun: 'I lavdëruar qoftë Zoti im, i Madhërishmi'.", 
+      tr: "Eğil ve Allah'ı tesbih et: 'Yüce Rabbim noksan sıfatlardan uzaktır'." 
+    }
+  },
+  { 
+    id: 4, 
+    image: "🧍", 
+    title: { de: "Wieder aufstehen", al: "Ngritja përsëri", tr: "Tekrar doğrulmak" }, 
+    arabic: "سَمِعَ اللَّهُ لِمَنْ حَمِدَه",
+    transliteration: "Sami 'Allahu liman hamidah",
+    text: { 
+      de: "Stehe wieder auf und sage: 'Allah hört den, der Ihn lobt'.", 
+      al: "Ngrihu përsëri dhe thuaj: 'Allahu e dëgjon atë që e lavdëron'.", 
+      tr: "Tekrar doğrul ve 'Allah kendisine hamd edeni işitir' de." 
+    }
+  },
+  { 
+    id: 5, 
+    image: "🧎", 
+    title: { de: "Sujud (Niederwerfung)", al: "Sexhdeja (Përulja)", tr: "Secde (Yere kapanmak)" }, 
+    arabic: "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+    transliteration: "Subhana Rabbiyal A'la (3x)",
+    text: { 
+      de: "Gehe in die Niederwerfung und sage: 'Gepriesen sei mein Herr, der Höchste'.", 
+      al: "Shko në sexhde dhe thuaj: 'I lavdëruar qoftë Zoti im, i Larti'.", 
+      tr: "Secdeye git ve 'En yüce olan Rabbim noksan sıfatlardan uzaktır' de." 
+    }
+  },
+  { 
+    id: 6, 
+    image: "🧎‍♂️", 
+    title: { de: "Sitzen (At-tahiyyat)", al: "Ulja (Ettehijatu)", tr: "Oturmak (Ettehiyyatü)" }, 
+    arabic: "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَات...",
+    transliteration: "At-tahiyyatu lillahi was-salawatu wat-tayyibat...",
+    text: { 
+      de: "Setze dich aufrecht hin, bezeuge deinen Glauben und beende das Gebet mit dem Friedensgruß.", 
+      al: "Ulu drejt, dëshmo besimin tënd dhe përfundo namazin me selamin e paqes.", 
+      tr: "Otur, kelime-i şehadet getir ve namazı selam vererek bitir." 
+    }
+  }
 ];
