@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { ChevronLeft, Play, Pause, Loader2, Heart } from 'lucide-react';
+import { fetchAyahQueue, joinAyahTexts } from '../utils/quranAudio';
 
 export default function DuaDetail({ 
   selectedDua, 
@@ -15,9 +16,20 @@ export default function DuaDetail({
   const [isLoadingAudio, setIsLoadingAudio] = useState(false);
   const [currentAudioQueue, setCurrentAudioQueue] = useState([]);
   const [currentAudioIndex, setCurrentAudioIndex] = useState(0);
+  const [audioAyahs, setAudioAyahs] = useState([]);
   const audioRef = useRef(null);
   const hasIncremented = useRef(false);
   const audioAyahRefs = selectedDua?.audioAyahs?.length ? selectedDua.audioAyahs : (selectedDua?.ayah ? [selectedDua.ayah] : []);
+  const apiArabicText = joinAyahTexts(audioAyahs);
+  const showsFullAyahText = Boolean(apiArabicText);
+  const displayArabic = showsFullAyahText ? apiArabicText : selectedDua?.arabic;
+
+  const normalizeArabic = (value = '') =>
+    value
+      .normalize('NFKD')
+      .replace(/[\u064B-\u065F\u0610-\u061A\u06D6-\u06ED]/g, '')
+      .replace(/[^؀-ۿ0-9A-Za-z]+/g, '');
+  const hasTextMismatch = showsFullAyahText && normalizeArabic(apiArabicText) !== normalizeArabic(selectedDua?.arabic || '');
 
   useEffect(() => {
     if (selectedDua && !hasIncremented.current) {
@@ -34,6 +46,7 @@ export default function DuaDetail({
     setIsLoadingAudio(false);
     setCurrentAudioQueue([]);
     setCurrentAudioIndex(0);
+    setAudioAyahs([]);
   }, [selectedDua]);
 
   const loadQueueItem = async (urls, index) => {
@@ -57,6 +70,9 @@ export default function DuaDetail({
       return;
     }
 
+    if (audioRef.current) {
+      audioRef.current.currentTime = 0;
+    }
     setIsPlaying(false);
     setCurrentAudioIndex(0);
   };
@@ -72,7 +88,11 @@ export default function DuaDetail({
 
     if (currentAudioQueue.length > 0) {
       try {
-        await audioRef.current.play();
+        if (audioRef.current.src) {
+          await audioRef.current.play();
+        } else {
+          await loadQueueItem(currentAudioQueue, 0);
+        }
         setIsPlaying(true);
       } catch (err) {
         console.error("Fehler beim Abspielen:", err);
@@ -83,14 +103,10 @@ export default function DuaDetail({
     setIsLoadingAudio(true);
     
     try {
-      const responses = await Promise.all(
-        audioAyahRefs.map(async (ayahRef) => {
-          const response = await fetch(`https://api.alquran.cloud/v1/ayah/${ayahRef}/ar.alafasy`);
-          const data = await response.json();
-          return data.data.audio;
-        })
-      );
+      const ayahs = await fetchAyahQueue(audioAyahRefs);
+      const responses = ayahs.map((ayah) => ayah.audio);
 
+      setAudioAyahs(ayahs);
       setCurrentAudioQueue(responses);
       await loadQueueItem(responses, 0);
 
@@ -151,8 +167,26 @@ export default function DuaDetail({
 
         <div className="space-y-6 py-4">
           <p className={`text-4xl font-arabic leading-relaxed transition-colors ${isDarkMode ? 'text-green-400' : 'text-green-700'}`} dir="rtl">
-            {selectedDua.arabic}
+            {displayArabic}
           </p>
+
+          {hasTextMismatch && (
+            <div className={`p-4 rounded-xl border text-left transition-colors ${isDarkMode ? 'bg-amber-900/10 border-amber-800/40' : 'bg-amber-50 border-amber-100'}`}>
+              <p className={`text-xs uppercase font-bold tracking-wider mb-2 ${isDarkMode ? 'text-amber-300' : 'text-amber-700'}`}>
+                {selectedLang === 'de' ? 'Dua-Auszug' : selectedLang === 'al' ? 'Pjesa e duasë' : 'Dua özeti'}
+              </p>
+              <p className={`text-2xl font-arabic leading-relaxed ${isDarkMode ? 'text-amber-100' : 'text-amber-900'}`} dir="rtl">
+                {selectedDua.arabic}
+              </p>
+              <p className={`text-xs mt-3 ${isDarkMode ? 'text-amber-200/80' : 'text-amber-800/80'}`}>
+                {selectedLang === 'de'
+                  ? 'Das Audio spielt die vollständige Quran-Aya aus der API-Datenbank.'
+                  : selectedLang === 'al'
+                    ? 'Audio luan ajetin e plotë nga databaza e Kuranit.'
+                    : 'Ses, API veritabanındaki tam Kur’an ayetini oynatır.'}
+              </p>
+            </div>
+          )}
           
           {selectedDua.transliteration && (
             <div className={`p-4 rounded-xl border transition-colors ${isDarkMode ? 'bg-slate-700/50 border-slate-600' : 'bg-gray-50 border-gray-100'}`}>

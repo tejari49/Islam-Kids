@@ -1,4 +1,7 @@
 import { useState, useEffect } from 'react';
+import { duas as localDuas } from '../data/duas';
+import { hadiths as localHadiths } from '../data/hadiths';
+import { stories as localStories } from '../data/stories';
 
 export function useData() {
   const [duas, setDuas] = useState([]);
@@ -10,26 +13,19 @@ export function useData() {
   useEffect(() => {
     async function loadData() {
       try {
-        const [duasRes, hadithsRes, storiesRes, surenRes] = await Promise.all([
-          fetch('data/duas.json'),
-          fetch('data/hadiths.json'),
-          fetch('data/stories.json'),
-          fetch('data/suren.json')
-        ]);
+        const surenRes = await fetch('data/suren.json');
+        const surenData = await surenRes.json();
 
-        const [duasData, hadithsData, storiesData, surenData] = await Promise.all([
-          duasRes.json(),
-          hadithsRes.json(),
-          storiesRes.json(),
-          surenRes.json()
-        ]);
-
-        setDuas(duasData);
-        setHadiths(hadithsData);
-        setStories(storiesData);
+        setDuas(localDuas);
+        setHadiths(localHadiths);
+        setStories(localStories);
         setSuren(surenData);
       } catch (error) {
-        console.error("Fehler beim Laden der Daten (JSON DB):", error);
+        console.error("Fehler beim Laden der Daten:", error);
+
+        setDuas(localDuas);
+        setHadiths(localHadiths);
+        setStories(localStories);
       } finally {
         setLoading(false);
       }
