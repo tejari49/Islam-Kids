@@ -216,9 +216,18 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
         </div>
 
         <div className={`flex-1 flex flex-col items-center justify-start text-center space-y-6 p-6 rounded-[3rem] shadow-xl border-2 relative overflow-hidden transition-colors ${isDarkMode ? 'bg-slate-800 border-indigo-900/30 shadow-slate-950/50' : 'bg-white border-indigo-100'}`}>
-          <div className="text-8xl h-32 flex items-center justify-center mt-2">
-            {currentStep.image}
-          </div>
+          {currentStep.illustration ? (
+            <img 
+              key={currentStep.id}
+              src={currentStep.illustration} 
+              alt={currentStep.title[selectedLang]}
+              className="h-48 w-48 object-contain mx-auto mt-2 drop-shadow-2xl transition-all duration-300 animate-fade-in"
+            />
+          ) : (
+            <div className="text-8xl h-32 flex items-center justify-center mt-2">
+              {currentStep.image}
+            </div>
+          )}
           
           <div className="space-y-4 w-full">
             <h2 className={`text-2xl font-bold transition-colors ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{currentStep.title[selectedLang]}</h2>
