@@ -124,5 +124,75 @@
       "al": "Profeti Musa iku me popullin e tij nga Faraoni mizor dhe ushtria e tij. Papritmas u gjendën në bregun e një deti të thellë dhe nuk mund të shkonin më tej. Ushtria ishte pikërisht pas tyre! Por Musa nuk i humbi shpresat. Allahu e urdhëroi ta godiste ujin me shkopin e tij. Atëherë deti u nda në mënyrë të mrekullueshme dhe formoi një rrugë të thatë! Musa dhe njerëzit e tij kaluan të sigurt në anën tjetër. Shpëtimi i vërtetë vjen gjithmonë nga Allahu.",
       "tr": "Musa Peygamber, zalim Firavun ve ordusundan kavmiyle birlikte kaçıyordu. Aniden derin bir denizin kıyısına geldiler ve daha fazla ilerleyemediler. Ordu hemen arkalarındaydı! Ama Musa umutsuzluğa kapılmadı. Allah ona asasını suya vurmasını emretti. Sonra deniz mucizevi bir şekilde ikiye yarıldı ve kuru bir yol oluşturdu! Musa ve kavmi güvenle karşıya geçebildiler. Gerçek kurtuluş her zaman Allah'tan gelir."
     }
+  },
+  {
+    "id": 10,
+    "icon": "🕷️",
+    "title": {
+      "de": "Prophet Muhammad und die Spinne",
+      "al": "Profeti Muhamed dhe Merimanga",
+      "tr": "Muhammed Peygamber ve Örümcek"
+    },
+    "content": {
+      "de": "Als Prophet Muhammad (saw) und sein bester Freund Abu Bakr vor Feinden fliehen mussten, versteckten sie sich in der Höhle Thawr. Die Feinde suchten überall nach ihnen. Doch Allah schickte eine kleine Spinne, die in Rekordzeit ein Netz über den Höhleneingang spann! Als die Feinde kamen, sahen sie das Spinnennetz und dachten: 'Hier kann niemand reingegangen sein, sonst wäre das Netz kaputt.' So beschützte Allah unseren Propheten durch eine kleine, fleißige Spinne.",
+      "al": "Kur Profeti Muhamed (a.s) dhe shoku i tij i ngushtë Ebu Bekri u detyruan të iknin nga armiqtë, ata u fshehën në shpellën Theur. Armiqtë po i kërkonin kudo. Por Allahu dërgoi një merimangë të vogël, e cila në kohë rekord thuri një rrjetë mbi hyrjen e shpellës! Kur erdhën armiqtë, panë rrjetën dhe menduan: 'Askush nuk mund të ketë hyrë këtu, përndryshe rrjeta do të ishte prishur.' Kështu Allahu e mbrojti Profetin tonë përmes një merimange të vogël.",
+      "tr": "Peygamberimiz Muhammed (s.a.v.) ve en yakın arkadaşı Ebu Bekir düşmanlardan kaçmak zorunda kaldıklarında Sevr Mağarası'na saklandılar. Düşmanlar onları her yerde aradı. Ancak Allah, mağaranın girişine rekor sürede ağ ören küçük bir örümcek gönderdi! Düşmanlar geldiğinde ağı gördüler ve 'Buraya kimse girmiş olamaz, yoksa ağ bozulurdu' diye düşündüler. Böylece Allah, Peygamberimizi küçük ve çalışkan bir örümcek aracılığıyla korudu."
+    }
+  },
+  {
+    "id": 11,
+    "icon": "🐜",
+    "title": {
+      "de": "Prophet Sulaiman und die winzige Ameise",
+      "al": "Profeti Sulejman dhe Milingona e vogël",
+      "tr": "Süleyman Peygamber ve Küçük Karınca"
+    },
+    "content": {
+      "de": "Prophet Sulaiman (Salomo) konnte die Sprache aller Tiere verstehen! Eines Tages marschierte er mit seiner riesigen Armee. Da hörte er, wie eine winzige Ameise rief: 'Ameisen, geht schnell in eure Häuser, damit Sulaiman und seine Armee euch nicht zertreten!' Sulaiman lächelte und ließ seine Armee anhalten, damit keine einzige Ameise verletzt wurde. Er dankte Allah für diese Gnade, selbst auf die kleinsten Tiere Rücksicht nehmen zu können.",
+      "al": "Profeti Sulejman mund të kuptonte gjuhën e të gjitha kafshëve! Një ditë ai po marshonte me ushtrinë e tij të madhe. Atëherë ai dëgjoi një milingonë të vogël duke thirrur: 'O milingona, hyni shpejt në shtëpitë tuaja, që Sulejmani dhe ushtria e tij të mos ju shkelin!' Sulejmani buzëqeshi dhe ndaloi ushtrinë e tij në mënyrë që asnjë milingonë e vetme të mos lëndohej. Ai falënderoi Allahun për këtë mëshirë.",
+      "tr": "Süleyman Peygamber tüm hayvanların dilini anlayabiliyordu! Bir gün devasa ordusuyla yürüyordu. Sonra küçük bir karıncanın şöyle bağırdığını duydu: 'Karıncalar, hemen evlerinize girin, Süleyman ve ordusu sizi ezmesin!' Süleyman gülümsedi ve hiçbir karıncanın zarar görmemesi için ordusunu durdurdu. En küçük hayvanlara bile merhamet edebildiği için Allah'a şükretti."
+    }
+  },
+  {
+    "id": 12,
+    "icon": "👶",
+    "title": {
+      "de": "Der junge Prophet Ismail",
+      "al": "Profeti i ri Ismail",
+      "tr": "Genç İsmail Peygamber"
+    },
+    "content": {
+      "de": "Als Prophet Ismail noch ein kleines Baby war, wurde er mit seiner Mutter Hadschar in einer einsamen, heißen Wüste gelassen. Das Wasser war leer und Ismail weinte vor Durst. Seine Mutter lief panisch zwischen zwei Hügeln (Safa und Marwa) hin und her, um Hilfe zu suchen. Da ließ Allah plötzlich eine Quelle mit frischem Wasser direkt neben Ismails kleinen Füßen aus dem Boden sprudeln! Diese heilige Quelle heißt 'Zamzam' und fließt noch bis heute in Mekka.",
+      "al": "Kur Profeti Ismail ishte ende një foshnjë e vogël, ai mbeti me nënën e tij Haxharen në një shkretëtirë të vetmuar dhe të nxehtë. Uji u mbarua dhe Ismaili po qante nga etja. Nëna e tij vrapoi në panik mes dy kodrave (Safa dhe Merve) për të kërkuar ndihmë. Papritur, Allahu bëri që një burim me ujë të freskët të shpërthejë direkt pranë këmbëve të vogla të Ismailit! Ky burim i shenjtë quhet 'Zemzem' dhe rrjedh edhe sot në Mekë.",
+      "tr": "İsmail Peygamber henüz küçük bir bebekken, annesi Hacer ile birlikte ıssız ve sıcak bir çölde bırakılmıştı. Su bitmişti ve İsmail susuzluktan ağlıyordu. Annesi yardım aramak için Safa ve Merve tepeleri arasında çaresizce koştu. Derken Allah aniden İsmail'in küçük ayaklarının hemen yanından taze su fışkırtıverdi! Bu kutsal kaynağın adı 'Zemzem'dir ve bugün hala Mekke'de akmaktadır."
+    }
+  },
+  {
+    "id": 13,
+    "icon": "🐪",
+    "title": {
+      "de": "Das weinende Kamel",
+      "al": "Deveja që qante",
+      "tr": "Ağlayan Deve"
+    },
+    "content": {
+      "de": "Einmal ging der Prophet Muhammad (saw) in einen Garten. Dort war ein Kamel, das sehr traurig war. Als das Kamel den Propheten sah, kamen ihm Tränen aus den Augen. Der Prophet ging liebevoll zu ihm, streichelte es und fragte, wem das Kamel gehört. Er rief den Besitzer und sagte streng: 'Fürchtest du Allah nicht wegen dieses Tieres? Das Kamel hat sich bei mir beschwert, dass du ihm zu wenig zu essen gibst und es zu hart arbeiten lässt!' Der Islam lehrt uns, immer gut zu Tieren zu sein.",
+      "al": "Njëherë Profeti Muhamed (a.s) shkoi në një kopsht. Aty kishte një deve që ishte shumë e trishtuar. Kur deveja pa Profetin, i dolën lot nga sytë. Profeti u afrua me dashuri, e përkëdheli dhe pyeti se e kujt ishte deveja. Ai thirri pronarin dhe i tha rreptësisht: 'A nuk i frikësohesh Allahut për këtë kafshë? Deveja m'u ankua se ti i jep pak për të ngrënë dhe e bën të punojë shumë!' Islami na mëson të jemi gjithmonë të mirë me kafshët.",
+      "tr": "Bir keresinde Peygamberimiz Muhammed (s.a.v.) bir bahçeye gitti. Orada çok üzgün bir deve vardı. Deve Peygamber'i görünce gözlerinden yaşlar süzüldü. Peygamber sevgiyle ona yaklaştı, başını okşadı ve devenin kime ait olduğunu sordu. Sahibini çağırdı ve sertçe şöyle dedi: 'Bu hayvan hakkında Allah'tan korkmuyor musun? Deve bana, ona çok az yiyecek verdiğini ve onu çok fazla çalıştırdığını şikayet etti!' İslam bize her zaman hayvanlara iyi davranmayı öğretir."
+    }
+  },
+  {
+    "id": 14,
+    "icon": "🐋",
+    "title": {
+      "de": "Prophet Yunus im Bauch des Wals",
+      "al": "Profeti Junus në barkun e balenës",
+      "tr": "Yunus Peygamber ve Balina"
+    },
+    "content": {
+      "de": "Prophet Yunus war traurig, weil die Menschen ihm nicht zuhören wollten, und fuhr heimlich mit einem Schiff weg. Da kam ein schlimmer Sturm auf! Yunus sprang ins Meer und wurde von einem RIESIGEN Wal verschluckt. Es war dunkel, gruselig und kalt im Bauch des Fisches. Aber Yunus betete intensiv und bat Allah um Verzeihung (La ilaha illa anta, subhanaka). Allah erhörte sein Dua, und der Wal spuckte ihn sicher an den Strand! Mit Reue und Gebet kann Allah uns aus jeder großen Gefahr retten.",
+      "al": "Profeti Junus ishte i trishtuar sepse njerëzit nuk donin ta dëgjonin dhe iku fshehurazi me një anije. Aty shpërtheu një stuhi e tmerrshme! Junusi u hodh në det dhe u gëlltit nga një balenë GJIGANTE. Ishte errësirë ​​dhe ftohtë në barkun e peshkut. Por Junusi u lut me intensitet dhe i kërkoi falje Allahut (La ilahe il-la ente, subhaneke). Allahu ia pranoi lutjen dhe balena e nxori të sigurt në plazh! Me pendim dhe lutje, Allahu mund të na shpëtojë nga çdo rrezik.",
+      "tr": "Yunus Peygamber, insanlar onu dinlemediği için üzüldü ve gizlice bir gemiyle uzaklaştı. Sonra korkunç bir fırtına koptu! Yunus denize atladı ve DEVASA bir balina onu yuttu. Balığın karnı karanlık, korkutucu ve soğuktu. Ancak Yunus şiddetle dua etti ve Allah'tan af diledi (La ilahe illa ente, subhaneke). Allah duasını kabul etti ve balina onu güvenli bir şekilde sahile tükürdü! Tövbe ve dua ile Allah bizi her büyük tehlikeden kurtarabilir."
+    }
   }
 ]

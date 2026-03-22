@@ -157,5 +157,105 @@
       "tr": "Bir hediye birine 'Seni seviyorum ve seni düşünüyorum!' demektir. Kalpleri birleştirir ve hem vereni hem de alanı mutlu eder."
     },
     "source": "Al-Bukhari (Al-Adab Al-Mufrad)"
+  },
+  {
+    "id": 9,
+    "icon": "😺",
+    "title": {
+      "de": "Güte zu Tieren (Die Katze)",
+      "al": "Mirësia ndaj kafshëve (Macja)",
+      "tr": "Hayvanlara Merhamet (Kedi)"
+    },
+    "text": {
+      "de": "Eine Frau wurde im Höllenfeuer bestraft wegen einer Katze. Sie hatte sie eingesperrt, bis sie verhungerte, ohne ihr Essen zu geben oder sie jagen zu lassen.",
+      "al": "Një grua u dënua në zjarrin e Xhehenemit për shkak të një maceje. Ajo e kishte mbyllur derisa ngordhi nga uria, pa i dhënë ushqim dhe pa e lënë të gjuante.",
+      "tr": "Bir kadın bir kedi yüzünden cehennemde cezalandırıldı. Onu, yiyecek vermeden veya avlanmasına izin vermeden açlıktan ölene kadar hapsetmişti."
+    },
+    "explanation": {
+      "de": "Wir müssen alle Tiere respektvoll behandeln! Haustiere müssen gefüttert werden und dürfen nicht gequält werden. Tiere zu quälen ist im Islam eine große Sünde.",
+      "al": "Ne duhet t'i trajtojmë të gjitha kafshët me respekt! Kafshët shtëpiake duhet të ushqehen dhe nuk duhet të torturohen. Torturimi i kafshëve është një mëkat i madh në Islam.",
+      "tr": "Tüm hayvanlara saygıyla davranmalıyız! Evcil hayvanlar beslenmeli ve eziyet görmemelidir. İslam'da hayvanlara eziyet etmek büyük bir günahtır."
+    },
+    "source": "Bukhari"
+  },
+  {
+    "id": 10,
+    "icon": "🧹",
+    "title": {
+      "de": "Sauberkeit und Hygiene",
+      "al": "Pastërtia",
+      "tr": "Temizlik"
+    },
+    "text": {
+      "de": "Sauberkeit ist der halbe Glaube.",
+      "al": "Pastërtia është gjysma e besimit.",
+      "tr": "Temizlik imanın yarısıdır."
+    },
+    "explanation": {
+      "de": "Es ist Allah so wichtig, dass wir uns waschen (z.B. Wudu machen), unsere Zähne putzen und ordentliche Kleidung tragen, dass es als die halbe Religion zählt!",
+      "al": "Për Allahun është aq e rëndësishme që ne të lahemi (p.sh. të marrim abdes), të lajmë dhëmbët dhe të mbajmë rroba të pastra, saqë kjo llogaritet si gjysma e fesë!",
+      "tr": "Allah için yıkanmamız (örneğin abdest almamız), dişlerimizi fırçalamamız ve temiz giysiler giymemiz o kadar önemlidir ki bu dinin yarısı sayılır!"
+    },
+    "source": "Muslim"
+  },
+  {
+    "id": 11,
+    "icon": "🤐",
+    "title": {
+      "de": "Gutes sprechen oder schweigen",
+      "al": "Flasni mirë ose heshtni",
+      "tr": "Ya Hayır Söyle Ya Da Sus"
+    },
+    "text": {
+      "de": "Wer an Allah und den Jüngsten Tag glaubt, der soll etwas Gutes sagen oder schweigen.",
+      "al": "Kush beson në Allahun dhe Ditën e Gjykimit, le të flasë mirë ose le të heshtë.",
+      "tr": "Allah'a ve ahiret gününe inanan ya hayır söylesin ya da sussun."
+    },
+    "explanation": {
+      "de": "Wenn wir wütend sind oder über jemanden lästern wollen, sollten wir einfach den Mund halten. Wir sollen unsere Worte nutzen, um anderen eine Freude zu machen!",
+      "al": "Kur jemi të zemëruar ose duam të përgojojmë dikë, thjesht duhet të mbyllim gojën. Ne duhet t'i përdorim fjalët tona për t'i bërë të tjerët të lumtur!",
+      "tr": "Kızgınsak veya birinin arkasından konuşmak istiyorsak, sadece çenemizi kapalı tutmalıyız. Sözlerimizi başkalarını mutlu etmek için kullanmalıyız!"
+    },
+    "source": "Bukhari & Muslim"
+  },
+  {
+    "id": 12,
+    "icon": "🤝",
+    "title": {
+      "de": "Streit schnell beenden",
+      "al": "Mos mbani inat",
+      "tr": "Küs Kalmamak"
+    },
+    "text": {
+      "de": "Es ist einem Muslim nicht erlaubt, seinen Bruder länger als drei Tage zu meiden.",
+      "al": "Nuk i lejohet muslimanit ta braktisë vëllain e tij për më shumë se tre ditë.",
+      "tr": "Bir Müslümanın kardeşine üç günden fazla dargın kalması helal olmaz."
+    },
+    "explanation": {
+      "de": "Streiten ist normal, aber wir sollten uns danach ganz schnell wieder vertragen. Lange böse aufeinander sein, mag Allah überhaupt nicht.",
+      "al": "Grindja është normale, por ne duhet të pajtohemi shumë shpejt. Të jesh i inatosur për një kohë të gjatë nuk i pëlqen Allahut.",
+      "tr": "Tartışmak normaldir ama sonrasında hemen barışmalıyız. Birbirimize uzun süre dargın kalmak Allah'ın hiç hoşuna gitmez."
+    },
+    "source": "Bukhari"
+  },
+  {
+    "id": 13,
+    "icon": "😃",
+    "title": {
+      "de": "Ein Lächeln ist Sadaqa",
+      "al": "Buzëqeshja është Sadaka",
+      "tr": "Tebessüm Sadakadır"
+    },
+    "text": {
+      "de": "Dein Lächeln für deinen Bruder (oder deine Schwester) ist eine Sadaqa (gute Tat).",
+      "al": "Buzëqeshja jote për vëllain tënd është Sadaka (vepër e mirë).",
+      "tr": "Kardeşine gülümsemen senin için bir sadakadır."
+    },
+    "explanation": {
+      "de": "Sadaqa bedeutet spenden. Aber wir müssen nicht immer Geld spenden! Wenn wir einfach freundlich lächeln und andere fröhlich machen, belohnt Allah das wie eine Spende.",
+      "al": "Sadaka do të thotë të dhurosh. Por nuk kemi pse të dhurojmë gjithmonë para! Kur ne thjesht buzëqeshim dhe i bëjmë të tjerët të lumtur, Allahu na shpërblen njëlloj.",
+      "tr": "Sadaka bağış demektir. Ama her zaman para bağışlamak zorunda değiliz! Nazikçe gülümsediğimizde ve başkalarını mutlu ettiğimizde, Allah bunu bize sevap yazar."
+    },
+    "source": "Tirmidhi"
   }
 ]

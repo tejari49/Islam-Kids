@@ -7,6 +7,7 @@ import HadithsList from './components/HadithsList';
 import HadithDetail from './components/HadithDetail';
 import StoriesList from './components/StoriesList';
 import StoryDetail from './components/StoryDetail';
+import PrayerFlow from './components/PrayerFlow';
 
 import { useData } from './hooks/useData';
 
@@ -17,6 +18,7 @@ export default function App() {
   const [selectedDua, setSelectedDua] = useState(null);
   const [selectedStory, setSelectedStory] = useState(null);
   const [selectedHadith, setSelectedHadith] = useState(null);
+  const [selectedFeature, setSelectedFeature] = useState(null);
 
   const uiTexts = {
     de: { welcome: "Hallo! Lass uns lernen 🌟", duas: "Meine Duas", stories: "Geschichten", hadiths: "Hadithe", selectDua: "Wähle ein Dua aus:", selectStory: "Wähle eine Geschichte:", selectHadith: "Wähle einen Hadith:", listen: "Anhören", source: "Quelle", prophet: "Prophet", sleep: "Schlafen", parents: "Eltern" },
@@ -77,24 +79,25 @@ export default function App() {
                 setSelectedDua={setSelectedDua} 
                 setSelectedStory={setSelectedStory}
                 setSelectedHadith={setSelectedHadith}
+                setSelectedFeature={setSelectedFeature}
                 duas={duas}
                 hadiths={hadiths}
                 stories={stories}
               />
             )}
-            {activeTab === 'duas' && !selectedDua && !selectedStory && !selectedHadith && (
+            {activeTab === 'duas' && !selectedDua && !selectedStory && !selectedHadith && !selectedFeature && (
               <DuasList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedDua={setSelectedDua} duas={duas} />
             )}
-            {activeTab === 'hadiths' && !selectedDua && !selectedStory && !selectedHadith && (
+            {activeTab === 'hadiths' && !selectedDua && !selectedStory && !selectedHadith && !selectedFeature && (
               <HadithsList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedHadith={setSelectedHadith} hadiths={hadiths} />
             )}
-            {activeTab === 'stories' && !selectedDua && !selectedStory && !selectedHadith && (
+            {activeTab === 'stories' && !selectedDua && !selectedStory && !selectedHadith && !selectedFeature && (
               <StoriesList selectedLang={selectedLang} uiTexts={uiTexts} setSelectedStory={setSelectedStory} stories={stories} />
             )}
             
-            {selectedDua && <DuaDetail selectedDua={selectedDua} selectedLang={selectedLang} uiTexts={uiTexts} setSelectedDua={setSelectedDua} />}
-            {selectedHadith && <HadithDetail selectedHadith={selectedHadith} selectedLang={selectedLang} setSelectedHadith={setSelectedHadith} />}
-            {selectedStory && <StoryDetail selectedStory={selectedStory} selectedLang={selectedLang} setSelectedStory={setSelectedStory} />}
+            {!selectedFeature && selectedDua && <DuaDetail selectedDua={selectedDua} selectedLang={selectedLang} uiTexts={uiTexts} setSelectedDua={setSelectedDua} />}
+            {!selectedFeature && selectedHadith && <HadithDetail selectedHadith={selectedHadith} selectedLang={selectedLang} setSelectedHadith={setSelectedHadith} />}
+            {!selectedFeature && selectedStory && <StoryDetail selectedStory={selectedStory} selectedLang={selectedLang} setSelectedStory={setSelectedStory} />}
           </>
         )}
       </div>

@@ -388,5 +388,124 @@
       "tr": "Rabbimiz! Bize gözümüzü aydınlatacak eşler ve zürriyetler bağışla ve bizi takva sahiplerine önder kıl."
     },
     "ayah": "25:74"
+  },
+  {
+    "id": 24,
+    "icon": "🚪",
+    "title": {
+      "de": "Beim Betreten des Hauses",
+      "al": "Kur hyn në shtëpi",
+      "tr": "Eve girerken"
+    },
+    "arabic": "بِسْمِ اللهِ وَلَجْنَا، وَبِسْمِ اللهِ خَرَجْنَا، وَعَلَى رَبِّنَا تَوَكَّلْنَا",
+    "transliteration": "Bismillahi walajna, wa bismillahi kharajna, wa 'ala Rabbina tawakkalna.",
+    "meaning": {
+      "de": "Im Namen Allahs treten wir ein, im Namen Allahs gehen wir hinaus und auf unseren Herrn vertrauen wir.",
+      "al": "Në emër të Allahut hymë, në emër të Allahut dalim dhe te Zoti ynë mbështetemi.",
+      "tr": "Allah'ın adıyla girdik, Allah'ın adıyla çıktık ve Rabbimize tevekkül ettik."
+    },
+    "ayah": ""
+  },
+  {
+    "id": 25,
+    "icon": "🏃",
+    "title": {
+      "de": "Beim Verlassen des Hauses",
+      "al": "Kur del nga shtëpia",
+      "tr": "Evden çıkarken"
+    },
+    "arabic": "بِسْمِ اللهِ، تَوَكَّلْتُ عَلَى اللهِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ",
+    "transliteration": "Bismillahi, tawakkaltu 'alallahi, wa la hawla wa la quwwata illa billah.",
+    "meaning": {
+      "de": "Im Namen Allahs, ich vertraue auf Allah, es gibt keine Macht und keine Kraft außer durch Allah.",
+      "al": "Në emër të Allahut, u mbështeta tek Allahu, s'ka as fuqi e as forcë pa ndihmën e Allahut.",
+      "tr": "Allah'ın adıyla, Allah'a tevekkül ettim. Allah'tan başka güç ve kuvvet yoktur."
+    },
+    "ayah": ""
+  },
+  {
+    "id": 26,
+    "icon": "👕",
+    "title": {
+      "de": "Beim Anziehen der Kleidung",
+      "al": "Kur vesh rrobat",
+      "tr": "Kıyafet Giyerken"
+    },
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي هَذَا (الثَّوْبَ) وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ",
+    "transliteration": "Alhamdulillahil-ladhi kasani hadha (ath-thawba) wa razaqanihi min ghairi hawlin minni wa la quwwatin.",
+    "meaning": {
+      "de": "Alles Lob gebührt Allah, Der mir dies angezogen hat und es mir ohne mein Zutun und ohne meine Kraft gewährt hat.",
+      "al": "Një falënderim për Allahun, i cili më veshi me këtë dhe ma dhuroi atë pa fuqinë as forcën time.",
+      "tr": "Benim hiçbir gücüm ve kuvvetim olmadan bana bu elbiseyi giydiren ve beni rızıklandıran Allah'a hamdolsun."
+    },
+    "ayah": ""
+  },
+  {
+    "id": 27,
+    "icon": "🛏️",
+    "title": {
+      "de": "Vor dem Schlafen",
+      "al": "Para gjumit",
+      "tr": "Uyumadan önce"
+    },
+    "arabic": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+    "transliteration": "Bismika Allahumma amutu wa ahya.",
+    "meaning": {
+      "de": "In Deinem Namen, oh Allah, sterbe (schlafe) ich und lebe (erwache) ich.",
+      "al": "Me emrin Tënd, o Allah, vdes (fle) dhe ringjallem (zgjohem).",
+      "tr": "Senin isminle Allah'ım, ölür (uyur) ve dirilirim (uyanırım)."
+    },
+    "ayah": ""
+  },
+  {
+    "id": 28,
+    "icon": "☀️",
+    "title": {
+      "de": "Beim Aufwachen",
+      "al": "Kur zgjohesh",
+      "tr": "Uyanırken"
+    },
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+    "transliteration": "Alhamdulillahil-ladhi ahyana ba'da ma amatana wa ilaihin-nushur.",
+    "meaning": {
+      "de": "Alles Lob gebührt Allah, Der uns das Leben nach unserem Tod (Schlaf) wiedergegeben hat und zu Ihm ist die Rückkehr.",
+      "al": "Falënderimi i takon Allahut që na ringjalli pasi na bëri të vdekur (bëmë gjumë) dhe te Ai është rikthimi.",
+      "tr": "Bizi öldükten (uyuduktan) sonra dirilten Allah'a hamdolsun. Ve diriliş ancak O'nadır."
+    },
+    "ayah": ""
+  },
+  {
+    "id": 29,
+    "icon": "🚽",
+    "title": {
+      "de": "Beim Betreten des Bades (Toilette)",
+      "al": "Kur hyn në banjo",
+      "tr": "Tuvalete girerken"
+    },
+    "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبْثِ وَالْخَبَائِثِ",
+    "transliteration": "Allahumma inni a'udhu bika minal-khubthi wal-khaba'ith.",
+    "meaning": {
+      "de": "Oh Allah, ich nehme Zuflucht bei Dir vor den bösen Dschinn (männlichen und weiblichen).",
+      "al": "O Allah, kërkoj mbrojtje tek Ti nga xhinët dhe xhineshat e këqija.",
+      "tr": "Allah'ım, dişi ve erkek şeytanların kötülüğünden sana sığınırım."
+    },
+    "ayah": ""
+  },
+  {
+    "id": 30,
+    "icon": "🧼",
+    "title": {
+      "de": "Beim Verlassen des Bades",
+      "al": "Kur del nga banjo",
+      "tr": "Tuvaletten çıkarken"
+    },
+    "arabic": "غُفْرَانَكَ",
+    "transliteration": "Ghufranaka.",
+    "meaning": {
+      "de": "Ich bitte um Deine Vergebung.",
+      "al": "O Zot më fal.",
+      "tr": "Affını dilerim (Allah'ım)."
+    },
+    "ayah": ""
   }
 ]

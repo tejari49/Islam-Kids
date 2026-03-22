@@ -71,23 +71,24 @@ export default function DuaDetail({ selectedDua, selectedLang, uiTexts, setSelec
         >
           <ChevronLeft size={20} /> Zurück
         </button>
-        
-        <button 
-          onClick={toggleAudio}
-          disabled={isLoadingAudio}
-          className={`flex flex-row items-center gap-2 px-5 py-2 rounded-full shadow-sm font-bold text-white transition-all transform active:scale-95 cursor-pointer ${
-            isLoadingAudio ? 'bg-gray-400' : isPlaying ? 'bg-red-500' : 'bg-green-500 hover:bg-green-600'
-          }`}
-        >
-          {isLoadingAudio ? (
-            <Loader2 size={20} className="animate-spin" />
-          ) : isPlaying ? (
-            <Pause size={20} />
-          ) : (
-            <Play size={20} className="ml-1" />
-          )}
-          {uiTexts[selectedLang].listen || 'Anhören'}
-        </button>
+        {selectedDua.ayah && selectedDua.ayah !== "" && (
+          <button 
+            onClick={toggleAudio}
+            disabled={isLoadingAudio}
+            className={`flex flex-row items-center gap-2 px-5 py-2 rounded-full shadow-sm font-bold text-white transition-all transform active:scale-95 cursor-pointer ${
+              isLoadingAudio ? 'bg-gray-400' : isPlaying ? 'bg-red-500' : 'bg-green-500 hover:bg-green-600'
+            }`}
+          >
+            {isLoadingAudio ? (
+              <Loader2 size={20} className="animate-spin" />
+            ) : isPlaying ? (
+              <Pause size={20} />
+            ) : (
+              <Play size={20} className="ml-1" />
+            )}
+            {uiTexts[selectedLang].listen || 'Anhören'}
+          </button>
+        )}
       </div>
 
       <div className="bg-white rounded-3xl p-8 shadow-sm border-2 border-green-100 text-center space-y-8 flex-1">
