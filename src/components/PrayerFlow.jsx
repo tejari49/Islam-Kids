@@ -1,16 +1,19 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, CheckCircle2, Droplets, ArrowRight, Play, Pause, Loader2, FastForward } from 'lucide-react';
 import { wuduSteps, prayers, prayerSteps } from '../data/prayerData';
+import { fetchAyahQueue, joinAyahTexts } from '../utils/quranAudio';
 
 export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMode }) {
   const [step, setStep] = useState('select_prayer'); // select_prayer, ask_wudu, wudu_guide, prayer_guide
   const [selectedPrayer, setSelectedPrayer] = useState(null);
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [imageFailed, setImageFailed] = useState(false);
   
   // Audio states
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoadingAudio, setIsLoadingAudio] = useState(false);
   const [playbackRate, setPlaybackRate] = useState(1.0);
+  const [currentStepAyahs, setCurrentStepAyahs] = useState([]);
   const audioRef = useRef(null);
 
   useEffect(() => {
@@ -19,13 +22,44 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
     }
+    setImageFailed(false);
     setIsPlaying(false);
     setIsLoadingAudio(false);
   }, [currentSlide, step]);
 
+  useEffect(() => {
+    let isCancelled = false;
+    const currentStepData = prayerSteps[currentSlide];
+
+    const loadAyahData = async () => {
+      if (step !== 'prayer_guide' || !currentStepData?.audioAyahs?.length) {
+        setCurrentStepAyahs([]);
+        return;
+      }
+
+      try {
+        const ayahs = await fetchAyahQueue(currentStepData.audioAyahs);
+        if (!isCancelled) {
+          setCurrentStepAyahs(ayahs);
+        }
+      } catch (error) {
+        console.error("Fehler beim Laden der Gebets-Ayat:", error);
+        if (!isCancelled) {
+          setCurrentStepAyahs([]);
+        }
+      }
+    };
+
+    loadAyahData();
+
+    return () => {
+      isCancelled = true;
+    };
+  }, [currentSlide, step]);
+
   const toggleAudio = async () => {
     const currentStepData = prayerSteps[currentSlide];
-    if (!currentStepData || (!currentStepData.ayah && !currentStepData.audio)) return;
+    if (!currentStepData || (!currentStepData.ayah && !currentStepData.audio && !currentStepData.audioAyahs)) return;
 
     if (isPlaying) {
       audioRef.current.pause();
@@ -42,17 +76,41 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
 
     setIsLoadingAudio(true);
     try {
-      let audioUrl = currentStepData.audio;
-      
-      if (currentStepData.ayah) {
-        const response = await fetch(`https://api.alquran.cloud/v1/ayah/${currentStepData.ayah}/ar.alafasy`);
-        const data = await response.json();
-        audioUrl = data.data.audio;
+      let audioUrls = currentStepData.audio ? [currentStepData.audio] : [];
+
+      if (currentStepData.audioAyahs?.length) {
+        const ayahs = currentStepAyahs.length > 0 ? currentStepAyahs : await fetchAyahQueue(currentStepData.audioAyahs);
+        setCurrentStepAyahs(ayahs);
+        audioUrls = ayahs.map((ayah) => ayah.audio);
+      } else if (currentStepData.ayah) {
+        const ayah = await fetchAyahQueue([currentStepData.ayah]);
+        audioUrls = ayah.map((item) => item.audio);
       }
 
-      if (audioUrl) {
-        audioRef.current.src = audioUrl;
+      if (audioUrls.length > 0) {
+        audioRef.current.src = audioUrls[0];
         audioRef.current.playbackRate = playbackRate;
+
+        if (audioUrls.length > 1) {
+          let nextIndex = 1;
+          audioRef.current.onended = async () => {
+            if (nextIndex < audioUrls.length) {
+              audioRef.current.src = audioUrls[nextIndex];
+              audioRef.current.playbackRate = playbackRate;
+              nextIndex += 1;
+              await audioRef.current.play();
+              return;
+            }
+            audioRef.current.currentTime = 0;
+            setIsPlaying(false);
+          };
+        } else {
+          audioRef.current.onended = () => {
+            audioRef.current.currentTime = 0;
+            setIsPlaying(false);
+          };
+        }
+
         await audioRef.current.play();
         setIsPlaying(true);
       }
@@ -197,7 +255,9 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
 
   if (step === 'prayer_guide') {
     const currentStep = prayerSteps[currentSlide];
-    const hasAudio = currentStep.ayah || currentStep.audio;
+    const apiArabicText = joinAyahTexts(currentStepAyahs);
+    const displayArabic = apiArabicText || currentStep.arabic;
+    const hasAudio = currentStep.ayah || currentStep.audio || currentStep.audioAyahs;
 
     return (
       <div className={`p-6 pb-24 flex flex-col min-h-screen transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-indigo-50'}`}>
@@ -216,11 +276,12 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
         </div>
 
         <div className={`flex-1 flex flex-col items-center justify-start text-center space-y-6 p-6 rounded-[3rem] shadow-xl border-2 relative overflow-hidden transition-colors ${isDarkMode ? 'bg-slate-800 border-indigo-900/30 shadow-slate-950/50' : 'bg-white border-indigo-100'}`}>
-          {currentStep.illustration ? (
+          {currentStep.illustration && !imageFailed ? (
             <img 
               key={currentStep.id}
               src={currentStep.illustration} 
               alt={currentStep.title[selectedLang]}
+              onError={() => setImageFailed(true)}
               className="h-48 w-48 object-contain mx-auto mt-2 drop-shadow-2xl transition-all duration-300 animate-fade-in"
             />
           ) : (
@@ -233,8 +294,10 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
             <h2 className={`text-2xl font-bold transition-colors ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{currentStep.title[selectedLang]}</h2>
             
             <div className={`p-6 rounded-3xl border space-y-4 transition-colors ${isDarkMode ? 'bg-green-900/10 border-green-900/20' : 'bg-green-50/50 border-green-100'}`}>
-              <p className={`text-4xl font-arabic leading-normal transition-colors ${isDarkMode ? 'text-green-400' : 'text-green-700'}`} dir="rtl">{currentStep.arabic}</p>
-              <p className={`text-sm font-medium italic transition-colors ${isDarkMode ? 'text-green-500/50' : 'text-green-600/70'}`}>{currentStep.transliteration}</p>
+              <p className={`text-4xl font-arabic leading-normal transition-colors ${isDarkMode ? 'text-green-400' : 'text-green-700'}`} dir="rtl">{displayArabic}</p>
+              {!apiArabicText && (
+                <p className={`text-sm font-medium italic transition-colors ${isDarkMode ? 'text-green-500/50' : 'text-green-600/70'}`}>{currentStep.transliteration}</p>
+              )}
             </div>
 
             <p className={`text-md leading-relaxed px-2 transition-colors ${isDarkMode ? 'text-slate-400' : 'text-gray-600'}`}>
