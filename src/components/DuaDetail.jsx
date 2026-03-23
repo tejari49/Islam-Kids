@@ -1,7 +1,72 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { ChevronLeft, Play, Pause, Loader2, Heart } from 'lucide-react';
-import { fetchAyahQueue, joinAyahTexts } from '../utils/quranAudio';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
+import { ChevronLeft, Play, Pause, Loader2, Heart, Languages } from 'lucide-react';
+import { fetchAyahQueue, fetchAyahTranslationQueue, joinAyahTexts } from '../utils/quranAudio';
 import { canUseSpeechSynthesis, speakArabicText, stopSpeechPlayback, toggleSpeechPause } from '../utils/audio';
+
+const detailLabels = {
+  de: {
+    back: 'Zurück',
+    partialDua: 'Dua-Auszug',
+    fullPlayback: 'Vollständige Wiedergabe',
+    fullPlaybackHint: 'Hier wird die vollständige Aya bzw. die komplette Audio-Wiedergabe angezeigt.',
+    excerptHint: 'Das ist der kurze Dua-Teil, der Kindern zum Lernen gezeigt wird.',
+    audioInfo: 'Das Audio spielt die vollständige Quran-Aya aus der API-Datenbank.',
+    pronunciation: 'Aussprache',
+    translation: 'Übersetzung',
+    meaning: 'Bedeutung',
+    meaningHint: 'Kurz erklärt',
+    source: 'Quelle',
+    translationFallback: 'Für diese Sprache wurde keine vollständige API-Übersetzung gefunden. Es wird die gespeicherte Dua-Bedeutung angezeigt.',
+    spokenWord: 'Mitlaufendes Wort-Highlight aktiv'
+  },
+  al: {
+    back: 'Mbrapsht',
+    partialDua: 'Pjesa e duasë',
+    fullPlayback: 'Leximi i plotë',
+    fullPlaybackHint: 'Këtu shfaqet ajeti i plotë ose i gjithë teksti që luhet në audio.',
+    excerptHint: 'Kjo është pjesa e shkurtër e duasë për t’u mësuar më lehtë nga fëmijët.',
+    audioInfo: 'Audio luan ajetin e plotë nga databaza e Kuranit.',
+    pronunciation: 'Shqiptimi',
+    translation: 'Përkthimi',
+    meaning: 'Kuptimi',
+    meaningHint: 'Shpjegim i shkurtër',
+    source: 'Burimi',
+    translationFallback: 'Për këtë gjuhë nuk u gjet një përkthim i plotë nga API. Po shfaqet kuptimi i ruajtur i duasë.',
+    spokenWord: 'Fjala që po lexohet theksohet'
+  },
+  tr: {
+    back: 'Geri',
+    partialDua: 'Dua özeti',
+    fullPlayback: 'Tam okunan metin',
+    fullPlaybackHint: 'Burada sesle okunan tam ayet ya da tam metin gösterilir.',
+    excerptHint: 'Bu, çocukların öğrenmesi için gösterilen kısa dua kısmıdır.',
+    audioInfo: 'Ses, API veritabanındaki tam Kur’an ayetini oynatır.',
+    pronunciation: 'Okunuş',
+    translation: 'Tercüme',
+    meaning: 'Anlamı',
+    meaningHint: 'Kısa açıklama',
+    source: 'Kaynak',
+    translationFallback: 'Bu dil için tam API tercümesi bulunamadı. Kayıtlı dua anlamı gösteriliyor.',
+    spokenWord: 'Konuşulan kelime vurgulanıyor'
+  }
+};
+
+function tokenizeArabicText(text = '') {
+  return text
+    .split(/(\s+)/)
+    .filter((token) => token.length > 0)
+    .map((token) => ({
+      text: token,
+      isSpace: /^\s+$/.test(token)
+    }));
+}
+
+function normalizeComparableText(value = '') {
+  return value
+    .normalize('NFKD')
+    .replace(/[\u064B-\u065F\u0610-\u061A\u06D6-\u06ED]/g, '')
+    .replace(/[^؀-ۿ0-9A-Za-z]+/g, '');
+}
 
 export default function DuaDetail({ 
   selectedDua, 
@@ -18,26 +83,32 @@ export default function DuaDetail({
   const [currentAudioQueue, setCurrentAudioQueue] = useState([]);
   const [currentAudioIndex, setCurrentAudioIndex] = useState(0);
   const [audioAyahs, setAudioAyahs] = useState([]);
+  const [translationAyahs, setTranslationAyahs] = useState([]);
+  const [currentWordIndex, setCurrentWordIndex] = useState(-1);
+  const [translationEdition, setTranslationEdition] = useState('');
   const audioRef = useRef(null);
   const hasIncremented = useRef(false);
   const audioAyahRefs = selectedDua?.audioAyahs?.length ? selectedDua.audioAyahs : (selectedDua?.ayah ? [selectedDua.ayah] : []);
+  const audioAyahRefKey = audioAyahRefs.join('|');
   const apiArabicText = joinAyahTexts(audioAyahs);
+  const apiTranslationText = joinAyahTexts(translationAyahs);
   const showsFullAyahText = Boolean(apiArabicText);
   const displayArabic = showsFullAyahText ? apiArabicText : selectedDua?.arabic;
+  const displayTranslation = apiTranslationText || selectedDua?.meaning?.[selectedLang] || '';
+  const labels = detailLabels[selectedLang] || detailLabels.de;
+  const hasTextMismatch = showsFullAyahText && normalizeComparableText(apiArabicText) !== normalizeComparableText(selectedDua?.arabic || '');
+  const showSeparateMeaning = Boolean(apiTranslationText) && Boolean(selectedDua?.meaning?.[selectedLang]) && apiTranslationText.trim() !== selectedDua.meaning[selectedLang].trim();
 
-  const normalizeArabic = (value = '') =>
-    value
-      .normalize('NFKD')
-      .replace(/[\u064B-\u065F\u0610-\u061A\u06D6-\u06ED]/g, '')
-      .replace(/[^؀-ۿ0-9A-Za-z]+/g, '');
-  const hasTextMismatch = showsFullAyahText && normalizeArabic(apiArabicText) !== normalizeArabic(selectedDua?.arabic || '');
+  useEffect(() => {
+    hasIncremented.current = false;
+  }, [selectedDua?.id]);
 
   useEffect(() => {
     if (selectedDua && !hasIncremented.current) {
       incrementStat('itemsRead');
       hasIncremented.current = true;
     }
-  }, [selectedDua?.id, incrementStat]);
+  }, [selectedDua, incrementStat]);
 
   useEffect(() => {
     if (audioRef.current) {
@@ -51,28 +122,43 @@ export default function DuaDetail({
     setCurrentAudioQueue([]);
     setCurrentAudioIndex(0);
     setAudioAyahs([]);
+    setTranslationAyahs([]);
+    setCurrentWordIndex(-1);
+    setTranslationEdition('');
   }, [selectedDua]);
 
   useEffect(() => {
     let isCancelled = false;
+    const currentRefs = audioAyahRefKey ? audioAyahRefKey.split('|').filter(Boolean) : [];
 
     const loadAyahData = async () => {
-      if (audioAyahRefs.length === 0) {
+      if (currentRefs.length === 0) {
         setAudioAyahs([]);
+        setCurrentAudioQueue([]);
+        setTranslationAyahs([]);
+        setTranslationEdition('');
         return;
       }
 
       try {
-        const ayahs = await fetchAyahQueue(audioAyahRefs);
+        const [ayahs, translations] = await Promise.all([
+          fetchAyahQueue(currentRefs),
+          fetchAyahTranslationQueue(currentRefs, selectedLang)
+        ]);
+
         if (!isCancelled) {
           setAudioAyahs(ayahs);
           setCurrentAudioQueue(ayahs.map((ayah) => ayah.audio));
+          setTranslationAyahs(translations);
+          setTranslationEdition(translations.find((entry) => entry.edition)?.edition || '');
         }
       } catch (error) {
-        console.error("Fehler beim Laden der Aya-Daten:", error);
+        console.error('Fehler beim Laden der Aya-Daten:', error);
         if (!isCancelled) {
           setAudioAyahs([]);
           setCurrentAudioQueue([]);
+          setTranslationAyahs([]);
+          setTranslationEdition('');
         }
       }
     };
@@ -82,15 +168,45 @@ export default function DuaDetail({
     return () => {
       isCancelled = true;
     };
-  }, [selectedDua?.id]);
+  }, [audioAyahRefKey, selectedLang]);
+
+  const currentAyahText = audioAyahs[currentAudioIndex]?.text || displayArabic || '';
+
+  const currentAyahWordCount = useMemo(() => {
+    return tokenizeArabicText(currentAyahText).filter((token) => !token.isSpace).length;
+  }, [currentAyahText]);
+
+  const updateWordHighlight = () => {
+    if (!audioRef.current) {
+      setCurrentWordIndex(-1);
+      return;
+    }
+
+    const duration = audioRef.current.duration || 0;
+    const currentTime = audioRef.current.currentTime || 0;
+
+    if (!duration || !currentAyahWordCount) {
+      setCurrentWordIndex(-1);
+      return;
+    }
+
+    const progress = Math.min(Math.max(currentTime / duration, 0), 0.999999);
+    const nextWordIndex = Math.min(
+      currentAyahWordCount - 1,
+      Math.floor(progress * currentAyahWordCount)
+    );
+
+    setCurrentWordIndex(nextWordIndex);
+  };
 
   const loadQueueItem = async (urls, index) => {
     if (!audioRef.current || !urls[index]) return;
 
+    setCurrentWordIndex(0);
+    setCurrentAudioIndex(index);
     audioRef.current.src = urls[index];
     audioRef.current.load();
     await audioRef.current.play();
-    setCurrentAudioIndex(index);
     setIsPlaying(true);
   };
 
@@ -99,8 +215,9 @@ export default function DuaDetail({
       try {
         await loadQueueItem(currentAudioQueue, currentAudioIndex + 1);
       } catch (error) {
-        console.error("Fehler beim Abspielen der nächsten Aya:", error);
+        console.error('Fehler beim Abspielen der nächsten Aya:', error);
         setIsPlaying(false);
+        setCurrentWordIndex(-1);
       }
       return;
     }
@@ -110,6 +227,7 @@ export default function DuaDetail({
     }
     setIsPlaying(false);
     setCurrentAudioIndex(0);
+    setCurrentWordIndex(-1);
   };
 
   const toggleAudio = async () => {
@@ -136,7 +254,7 @@ export default function DuaDetail({
         }
         setIsPlaying(true);
       } catch (err) {
-        console.error("Fehler beim Abspielen:", err);
+        console.error('Fehler beim Abspielen:', err);
       }
       return;
     }
@@ -146,14 +264,17 @@ export default function DuaDetail({
 
       try {
         const ayahs = await fetchAyahQueue(audioAyahRefs);
+        const translations = await fetchAyahTranslationQueue(audioAyahRefs, selectedLang);
         const responses = ayahs.map((ayah) => ayah.audio);
 
         setAudioAyahs(ayahs);
+        setTranslationAyahs(translations);
+        setTranslationEdition(translations.find((entry) => entry.edition)?.edition || '');
         setCurrentAudioQueue(responses);
         await loadQueueItem(responses, 0);
       } catch (error) {
-        console.error("Fehler beim Laden des Audios:", error);
-        alert("Audio konnte nicht geladen werden. Bitte überprüfe deine Internetverbindung.");
+        console.error('Fehler beim Laden des Audios:', error);
+        alert('Audio konnte nicht geladen werden. Bitte überprüfe deine Internetverbindung.');
       } finally {
         setIsLoadingAudio(false);
       }
@@ -163,31 +284,82 @@ export default function DuaDetail({
     if (canUseSpeechSynthesis()) {
       try {
         speakArabicText(selectedDua?.arabic, 0.9, {
-          onStart: () => setIsPlaying(true),
-          onEnd: () => setIsPlaying(false),
+          onStart: () => {
+            setCurrentWordIndex(0);
+            setIsPlaying(true);
+          },
+          onEnd: () => {
+            setCurrentWordIndex(-1);
+            setIsPlaying(false);
+          },
           onError: (error) => {
-            console.error("Sprachausgabe Fehler:", error);
+            console.error('Sprachausgabe Fehler:', error);
+            setCurrentWordIndex(-1);
             setIsPlaying(false);
           }
         });
       } catch (error) {
-        console.error("Sprachausgabe konnte nicht gestartet werden:", error);
+        console.error('Sprachausgabe konnte nicht gestartet werden:', error);
       }
     }
+  };
+
+  const renderHighlightedArabic = () => {
+    const ayahGroups = audioAyahs.length > 0 ? audioAyahs : [{ text: displayArabic }];
+
+    return ayahGroups.map((ayah, ayahIndex) => {
+      const tokens = tokenizeArabicText(ayah.text || '');
+      let wordCounter = -1;
+
+      return (
+        <span key={`${ayah.ayahRef || 'dua'}-${ayahIndex}`} className="inline">
+          {tokens.map((token, tokenIndex) => {
+            if (token.isSpace) {
+              return <span key={`space-${ayahIndex}-${tokenIndex}`}>{token.text}</span>;
+            }
+
+            wordCounter += 1;
+            const isCurrentWord = ayahIndex === currentAudioIndex && wordCounter === currentWordIndex && isPlaying;
+            const isCompletedWord = ayahIndex < currentAudioIndex || (ayahIndex === currentAudioIndex && wordCounter < currentWordIndex);
+
+            return (
+              <span
+                key={`word-${ayahIndex}-${tokenIndex}`}
+                className={`inline-block mx-[0.08em] px-1 py-0.5 rounded-xl transition-all duration-150 ${
+                  isCurrentWord
+                    ? (isDarkMode ? 'bg-amber-300 text-slate-950 shadow-lg scale-105' : 'bg-amber-200 text-green-950 shadow-sm scale-105')
+                    : isCompletedWord
+                      ? (isDarkMode ? 'text-green-200/85 bg-white/5' : 'text-green-800/80 bg-green-100/60')
+                      : ''
+                }`}
+              >
+                {token.text}
+              </span>
+            );
+          })}
+          {ayahIndex < ayahGroups.length - 1 && <span className="mx-2"> </span>}
+        </span>
+      );
+    });
   };
 
   if (!selectedDua) return null;
 
   return (
     <div className={`p-6 pb-24 space-y-6 flex flex-col min-h-screen relative transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-gray-50'}`}>
-      <audio ref={audioRef} onEnded={handleAudioEnded} />
+      <audio
+        ref={audioRef}
+        onEnded={handleAudioEnded}
+        onTimeUpdate={updateWordHighlight}
+        onLoadedMetadata={updateWordHighlight}
+      />
 
       <div className="flex justify-between items-center mb-4">
         <button 
           onClick={() => setSelectedDua(null)}
           className={`flex flex-row items-center gap-2 font-bold px-4 py-2 rounded-full shadow-sm border transition-colors cursor-pointer ${isDarkMode ? 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700' : 'bg-white text-gray-600 border-gray-100 hover:bg-gray-50'}`}
         >
-          <ChevronLeft size={20} /> {selectedLang === 'de' ? 'Zurück' : selectedLang === 'al' ? 'Mbrapsht' : 'Geri'}
+          <ChevronLeft size={20} /> {labels.back}
         </button>
         {(audioAyahRefs.length > 0 || canUseSpeechSynthesis()) && (
           <button 
@@ -224,43 +396,87 @@ export default function DuaDetail({
         </h2>
 
         <div className="space-y-6 py-4">
-          <p className={`text-4xl font-arabic leading-relaxed transition-colors ${isDarkMode ? 'text-green-400' : 'text-green-700'}`} dir="rtl">
-            {displayArabic}
-          </p>
-
-          {hasTextMismatch && (
-            <div className={`p-4 rounded-xl border text-left transition-colors ${isDarkMode ? 'bg-amber-900/10 border-amber-800/40' : 'bg-amber-50 border-amber-100'}`}>
-              <p className={`text-xs uppercase font-bold tracking-wider mb-2 ${isDarkMode ? 'text-amber-300' : 'text-amber-700'}`}>
-                {selectedLang === 'de' ? 'Dua-Auszug' : selectedLang === 'al' ? 'Pjesa e duasë' : 'Dua özeti'}
+          <div className={`p-5 rounded-2xl border text-left transition-colors ${isDarkMode ? 'bg-green-900/10 border-green-900/30' : 'bg-green-50 border-green-100'}`}>
+            <div className="flex items-center justify-between gap-3 mb-3 flex-wrap">
+              <p className={`text-xs uppercase font-bold tracking-wider ${isDarkMode ? 'text-green-300' : 'text-green-700'}`}>
+                {labels.fullPlayback}
               </p>
-              <p className={`text-2xl font-arabic leading-relaxed ${isDarkMode ? 'text-amber-100' : 'text-amber-900'}`} dir="rtl">
-                {selectedDua.arabic}
-              </p>
-              <p className={`text-xs mt-3 ${isDarkMode ? 'text-amber-200/80' : 'text-amber-800/80'}`}>
-                {selectedLang === 'de'
-                  ? 'Das Audio spielt die vollständige Quran-Aya aus der API-Datenbank.'
-                  : selectedLang === 'al'
-                    ? 'Audio luan ajetin e plotë nga databaza e Kuranit.'
-                    : 'Ses, API veritabanındaki tam Kur’an ayetini oynatır.'}
-              </p>
+              {isPlaying && (
+                <div className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-bold ${isDarkMode ? 'bg-slate-700 text-amber-300' : 'bg-white text-amber-700 border border-amber-100'}`}>
+                  <Languages size={12} />
+                  {labels.spokenWord}
+                </div>
+              )}
             </div>
-          )}
-          
+
+            <p className={`text-4xl font-arabic leading-relaxed text-right transition-colors ${isDarkMode ? 'text-green-400' : 'text-green-700'}`} dir="rtl">
+              {renderHighlightedArabic()}
+            </p>
+
+            <p className={`text-xs mt-4 ${isDarkMode ? 'text-green-200/80' : 'text-green-800/80'}`}>
+              {labels.fullPlaybackHint}
+            </p>
+          </div>
+
+          <div className={`p-4 rounded-xl border text-left transition-colors ${isDarkMode ? 'bg-blue-900/10 border-blue-900/30' : 'bg-blue-50 border-blue-100'}`}>
+            <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-blue-300/80' : 'text-blue-500'}`}>{labels.translation}</p>
+            <p className={`text-lg font-medium leading-relaxed ${isDarkMode ? 'text-slate-100' : 'text-gray-800'}`}>
+              {displayTranslation}
+            </p>
+            {!apiTranslationText && showsFullAyahText && (
+              <p className={`text-xs mt-3 ${isDarkMode ? 'text-blue-200/75' : 'text-blue-700/80'}`}>
+                {labels.translationFallback}
+              </p>
+            )}
+            {translationEdition && (
+              <p className={`text-[11px] mt-3 font-semibold ${isDarkMode ? 'text-blue-200/60' : 'text-blue-700/70'}`}>
+                {translationEdition}
+              </p>
+            )}
+          </div>
+
           {selectedDua.transliteration && (
             <div className={`p-4 rounded-xl border transition-colors ${isDarkMode ? 'bg-slate-700/50 border-slate-600' : 'bg-gray-50 border-gray-100'}`}>
-              <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>Aussprache</p>
+              <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>{labels.pronunciation}</p>
               <p className={`text-lg font-medium ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{selectedDua.transliteration}</p>
             </div>
           )}
 
-          <div className={`p-4 rounded-xl border transition-colors ${isDarkMode ? 'bg-blue-900/10 border-blue-900/30' : 'bg-blue-50 border-blue-100'}`}>
-            <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-blue-400/60' : 'text-blue-400'}`}>Bedeutung</p>
-            <p className={`text-lg font-medium ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{selectedDua.meaning[selectedLang]}</p>
-          </div>
+          {showSeparateMeaning && (
+            <div className={`p-4 rounded-xl border transition-colors ${isDarkMode ? 'bg-indigo-900/10 border-indigo-900/30' : 'bg-indigo-50 border-indigo-100'}`}>
+              <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-indigo-300/80' : 'text-indigo-500'}`}>{labels.meaning}</p>
+              <p className={`text-lg font-medium ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{selectedDua.meaning[selectedLang]}</p>
+              <p className={`text-xs mt-3 ${isDarkMode ? 'text-indigo-200/70' : 'text-indigo-700/75'}`}>{labels.meaningHint}</p>
+            </div>
+          )}
+
+          {hasTextMismatch && (
+            <div className={`p-4 rounded-xl border text-left transition-colors ${isDarkMode ? 'bg-amber-900/10 border-amber-800/40' : 'bg-amber-50 border-amber-100'}`}>
+              <p className={`text-xs uppercase font-bold tracking-wider mb-2 ${isDarkMode ? 'text-amber-300' : 'text-amber-700'}`}>
+                {labels.partialDua}
+              </p>
+              <p className={`text-2xl font-arabic leading-relaxed text-right ${isDarkMode ? 'text-amber-100' : 'text-amber-900'}`} dir="rtl">
+                {selectedDua.arabic}
+              </p>
+              <p className={`text-base mt-4 font-medium ${isDarkMode ? 'text-amber-50' : 'text-amber-900'}`}>
+                {selectedDua.meaning[selectedLang]}
+              </p>
+              <p className={`text-xs mt-3 ${isDarkMode ? 'text-amber-200/80' : 'text-amber-800/80'}`}>
+                {labels.excerptHint} {labels.audioInfo}
+              </p>
+            </div>
+          )}
+          
+          {!showSeparateMeaning && !displayTranslation && selectedDua.meaning?.[selectedLang] && (
+            <div className={`p-4 rounded-xl border transition-colors ${isDarkMode ? 'bg-blue-900/10 border-blue-900/30' : 'bg-blue-50 border-blue-100'}`}>
+              <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-blue-400/60' : 'text-blue-400'}`}>{labels.meaning}</p>
+              <p className={`text-lg font-medium ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{selectedDua.meaning[selectedLang]}</p>
+            </div>
+          )}
 
           {selectedDua.source && (
             <div className={`p-4 rounded-xl border transition-colors ${isDarkMode ? 'bg-emerald-900/10 border-emerald-900/30' : 'bg-emerald-50 border-emerald-100'}`}>
-              <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-emerald-400/60' : 'text-emerald-500'}`}>Quelle</p>
+              <p className={`text-xs uppercase font-bold tracking-wider mb-1 ${isDarkMode ? 'text-emerald-400/60' : 'text-emerald-500'}`}>{labels.source}</p>
               <p className={`text-sm font-semibold ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{selectedDua.source}</p>
             </div>
           )}
