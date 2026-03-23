@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-label="Prayer pose cartoon">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#94a3b8" flood-opacity="0.28"/>
+    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef2ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="480" rx="40" fill="url(#bg)"/>
+  <ellipse cx="240" cy="425" rx="140" ry="18" fill="#e2e8f0"/>
+  <rect x="92" y="315" width="296" height="90" rx="22" fill="#c7d2fe" stroke="#6366f1" stroke-width="6"/>
+  <rect x="105" y="328" width="270" height="64" rx="18" fill="#eef2ff" opacity="0.8"/>
+  <path d="M 192 208 Q 250 178 302 204 L 330 234 Q 300 262 236 260 Q 194 258 162 234 Z" fill="#dbeafe" stroke="#1f2937" stroke-width="4"/><path d="M 150 244 Q 174 234 188 222 L 198 238 Q 176 254 154 260 Z" fill="#f2c29b" stroke="#1f2937" stroke-width="3"/><path d="M 330 242 Q 314 226 300 218 L 288 234 Q 302 252 324 262 Z" fill="#f2c29b" stroke="#1f2937" stroke-width="3"/><path d="M 138 260 Q 150 244 170 242 Q 190 242 198 258 Q 184 278 156 282 Q 142 276 138 260 Z" fill="#1f2937"/><circle cx="126" cy="254" r="33" fill="#f2c29b" stroke="#1f2937" stroke-width="4"/><path d="M 96 230 Q 126 198 156 230 L 150 212 L 102 212 Z" fill="#1f2937"/><circle cx="136" cy="252" r="4" fill="#1f2937"/><path d="M 120 266 Q 130 272 140 266" stroke="#1f2937" stroke-width="3" fill="none" stroke-linecap="round"/><line x1="210" y1="252" x2="192" y2="320" stroke="#1f2937" stroke-width="16" stroke-linecap="round"/><line x1="262" y1="252" x2="278" y2="320" stroke="#1f2937" stroke-width="16" stroke-linecap="round"/><path d="M 176 320 Q 194 296 214 296 L 214 330 Q 190 336 176 320 Z" fill="#1f2937"/><path d="M 286 320 Q 272 296 250 296 L 250 330 Q 274 336 286 320 Z" fill="#1f2937"/>
+</svg>

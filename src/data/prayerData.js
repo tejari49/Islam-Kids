@@ -17,84 +17,173 @@ export const prayers = [
   { id: 'isha', name: { de: "Isha (Nacht)", al: "Jacia (Natë)", tr: "Yatsı Namazı" }, rakats: 4, icon: "🌌" }
 ];
 
+const illustrationSet = (name) => ({
+  boy: `/images/prayer/boy/${name}.svg`,
+  girl: `/images/prayer/girl/${name}.svg`
+});
+
 export const prayerSteps = [
-  { 
-    id: 1, 
-    image: "🧍", 
-    illustration: "/images/prayer/takbir.svg",
-    title: { de: "Qiyam & Takbir", al: "Kijami & Tekbiri", tr: "Kıyam ve Tekbir" }, 
-    arabic: "اللهُ أَكْبَر",
-    transliteration: "Allahu Akbar",
-    text: { 
-      de: "Stehe aufrecht in Richtung Mekka und sage 'Allahu Akbar'. Allah ist der Größte.", 
-      al: "Qëndro drejt drejt Mekës dhe thuaj 'Allahu Ekber'. Allahu është më i madhi.", 
-      tr: "Mekke'ye doğru dik dur ve 'Allahu Ekber' de. Allah en büyüktür." 
+  {
+    id: 1,
+    image: "🙌",
+    illustrations: illustrationSet('takbir'),
+    title: { de: 'Takbir al-Ihram', al: 'Tekbiri fillestar', tr: 'İftitah Tekbiri' },
+    arabic: 'اللّٰهُ أَكْبَر',
+    transliteration: 'Allahu Akbar',
+    text: {
+      de: 'Starte das Gebet im Stehen und hebe beide Hände zum Takbir.',
+      al: 'Fillo namazin në këmbë dhe ngriji të dy duart për tekbir.',
+      tr: 'Namaza ayakta başla ve tekbir için iki elini kaldır.'
+    },
+    poseNotes: {
+      de: ['Füße parallel und etwa schulterbreit.', 'Hände bis zu Ohren oder Schultern anheben.', 'Finger locker zusammen, Handflächen nach vorne.', 'Blick ruhig nach unten zum Gebetsplatz.'],
+      al: ['Këmbët paralel dhe afërsisht sa gjerësia e shpatullave.', 'Duart ngrihen deri te veshët ose shpatullat.', 'Gishtat butë bashkë, pëllëmbët përpara.', 'Shikimi i qetë poshtë në vendin e sexhdes.'],
+      tr: ['Ayaklar paralel ve yaklaşık omuz genişliğinde.', 'Eller kulaklara veya omuzlara kadar kaldırılır.', 'Parmaklar rahatça bitişik, avuç içleri öne bakar.', 'Bakış secde yerine doğru sakindir.']
     }
   },
-  { 
-    id: 2, 
-    image: "📖", 
-    illustration: "/images/prayer/qiyam.svg",
-    title: { de: "Al-Fatiha lesen", al: "Leximi i Fatihasë", tr: "Fatiha'yı okumak" }, 
-    audioAyahs: ["1:1", "1:2", "1:3", "1:4", "1:5", "1:6", "1:7"],
-    arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ... الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
-    transliteration: "Bismillaahir Rahmaanir Raheem. Alhamdu lillaahi Rabbil 'aalameen...",
-    text: { 
-      de: "Lege die Hände auf die Brust und rezitiere die Eröffnungssure des Korans.", 
-      al: "Vendos duart në gjoks dhe lexo suren hapëse të Kur'anit.", 
-      tr: "Ellerini göğsüne koy ve Kur'an'ın açılış suresini oku." 
+  {
+    id: 2,
+    image: '📖',
+    illustrations: illustrationSet('qiyam'),
+    title: { de: 'Qiyam und Al-Fatiha', al: 'Kijami dhe El-Fatiha', tr: 'Kıyam ve Fatiha' },
+    audioAyahs: ['1:1', '1:2', '1:3', '1:4', '1:5', '1:6', '1:7'],
+    arabic: 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ... الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ',
+    transliteration: 'Bismillaahir Rahmaanir Raheem ... Alhamdu lillaahi Rabbil aalameen',
+    text: {
+      de: 'Stehe ruhig und rezitiere Al-Fatiha in der stehenden Haltung.',
+      al: 'Qëndro i qetë dhe lexo El-Fatihanë në këmbë.',
+      tr: 'Sakin şekilde ayakta dur ve kıyamda Fatiha’yı oku.'
+    },
+    poseNotes: {
+      de: ['Rechte Hand liegt über der linken auf Brust oder Oberbauch.', 'Schultern entspannt, Rücken gerade.', 'Füße bleiben ruhig auf dem Boden.', 'Blick bleibt auf den Platz der Niederwerfung gerichtet.'],
+      al: ['Dora e djathtë mbi të majtën në gjoks ose sipër barkut.', 'Shpatullat të qeta, shpina drejt.', 'Këmbët qëndrojnë të palëvizshme në tokë.', 'Shikimi mbetet te vendi i sexhdes.'],
+      tr: ['Sağ el sol elin üzerine göğüste veya üst karında durur.', 'Omuzlar rahat, sırt düzdür.', 'Ayaklar yerde sakin kalır.', 'Bakış secde yerine yönelir.']
     }
   },
-  { 
-    id: 3, 
-    image: "🙇", 
-    illustration: "/images/prayer/ruku.svg",
-    title: { de: "Ruku (Verbeugung)", al: "Rukuja (Përkulja)", tr: "Rüku (Eğilmek)" }, 
-    arabic: "سُبْحَانَ رَبِّيَ الْعَظِيم",
-    transliteration: "Subhana Rabbiyal Azim (3x)",
-    text: { 
-      de: "Verbeuge dich und preise Allah: 'Gepriesen sei mein Herr, der Gewaltige'.", 
-      al: "Përkulu dhe lëvdo Allahun: 'I lavdëruar qoftë Zoti im, i Madhërishmi'.", 
-      tr: "Eğil ve Allah'ı tesbih et: 'Yüce Rabbim noksan sıfatlardan uzaktır'." 
+  {
+    id: 3,
+    image: '🙇',
+    illustrations: illustrationSet('ruku'),
+    title: { de: 'Ruku', al: 'Rukuja', tr: 'Rükû' },
+    arabic: 'سُبْحَانَ رَبِّيَ الْعَظِيم',
+    transliteration: 'Subhana Rabbiyal Azim',
+    text: {
+      de: 'Beuge dich in den Ruku und preise Allah.',
+      al: 'Përkulu në ruku dhe lartëso Allahun.',
+      tr: 'Rükûya eğil ve Allah’ı tesbih et.'
+    },
+    poseNotes: {
+      de: ['Rücken möglichst gerade und nahezu waagrecht.', 'Hände fest auf die Knie, Finger leicht gespreizt.', 'Kopf in einer Linie mit dem Rücken.', 'Beine stabil, Blick schräg nach unten.'],
+      al: ['Shpina sa më drejt dhe pothuajse horizontale.', 'Duart fort mbi gjunjë, gishtat pak të hapur.', 'Koka në një vijë me shpinën.', 'Këmbët të qëndrueshme, shikimi pjerrtas poshtë.'],
+      tr: ['Sırt mümkün olduğunca düz ve neredeyse yatay.', 'Eller dizlere yerleşir, parmaklar hafif açık.', 'Baş sırtla aynı hizada olur.', 'Bacaklar sabit, bakış çapraz aşağıdadır.']
     }
   },
-  { 
-    id: 4, 
-    image: "🧍", 
-    illustration: "/images/prayer/qiyam.svg",
-    title: { de: "Wieder aufstehen", al: "Ngritja përsëri", tr: "Tekrar doğrulmak" }, 
-    arabic: "سَمِعَ اللَّهُ لِمَنْ حَمِدَه",
-    transliteration: "Sami 'Allahu liman hamidah",
-    text: { 
-      de: "Stehe wieder auf und sage: 'Allah hört den, der Ihn lobt'.", 
-      al: "Ngrihu përsëri dhe thuaj: 'Allahu e dëgjon atë që e lavdëron'.", 
-      tr: "Tekrar doğrul ve 'Allah kendisine hamd edeni işitir' de." 
+  {
+    id: 4,
+    image: '🧍',
+    illustrations: illustrationSet('qawmah'),
+    title: { de: 'Qawmah', al: 'Kthimi në këmbë', tr: 'Kavme' },
+    arabic: 'سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ',
+    transliteration: 'Sami Allahu liman hamidah',
+    text: {
+      de: 'Richte dich vollständig auf und lobe Allah nach dem Ruku.',
+      al: 'Drejtohu plotësisht dhe lëvdo Allahun pas rukusë.',
+      tr: 'Rükûdan sonra tamamen doğrul ve Allah’a hamd et.'
+    },
+    poseNotes: {
+      de: ['Wieder ganz gerade stehen.', 'Arme locker an den Seiten.', 'Brust geöffnet, Schultern ruhig.', 'Blick wieder zum Niederwerfungsplatz senken.'],
+      al: ['Qëndro sërish plotësisht drejt.', 'Krahët lirshëm anash.', 'Gjoksi i hapur, shpatullat të qeta.', 'Shikimi sërish poshtë në vendin e sexhdes.'],
+      tr: ['Tekrar tamamen dik dur.', 'Kollar yanlarda rahat dursun.', 'Göğüs açık, omuzlar sakin.', 'Bakış yine secde yerine insin.']
     }
   },
-  { 
-    id: 5, 
-    image: "🧎", 
-    illustration: "/images/prayer/sujud.svg",
-    title: { de: "Sujud (Niederwerfung)", al: "Sexhdeja (Përulja)", tr: "Secde (Yere kapanmak)" }, 
-    arabic: "سُبْحَانَ رَبِّيَ الْأَعْلَى",
-    transliteration: "Subhana Rabbiyal A'la (3x)",
-    text: { 
-      de: "Gehe in die Niederwerfung und sage: 'Gepriesen sei mein Herr, der Höchste'.", 
-      al: "Shko në sexhde dhe thuaj: 'I lavdëruar qoftë Zoti im, i Larti'.", 
-      tr: "Secdeye git ve 'En yüce olan Rabbim noksan sıfatlardan uzaktır' de." 
+  {
+    id: 5,
+    image: '🛐',
+    illustrations: illustrationSet('sujud-first'),
+    title: { de: 'Erste Sujud', al: 'Sexhdja e parë', tr: 'Birinci Secde' },
+    arabic: 'سُبْحَانَ رَبِّيَ الْأَعْلَى',
+    transliteration: "Subhana Rabbiyal A'la",
+    text: {
+      de: 'Gehe in die Niederwerfung und preise deinen höchsten Herrn.',
+      al: 'Shko në sexhde dhe lartëso Zotin tënd më të Lartin.',
+      tr: 'Secdeye git ve en yüce Rabbini tesbih et.'
+    },
+    poseNotes: {
+      de: ['Stirn und Nase liegen auf dem Boden.', 'Beide Hände flach neben dem Kopf.', 'Ellbogen bleiben angehoben und nicht breit am Boden.', 'Zehen sind aufgestellt und zeigen zur Qibla.'],
+      al: ['Balli dhe hunda prekin tokën.', 'Të dy duart shtrirë pranë kokës.', 'Bërrylat të ngritur dhe jo të hapur në tokë.', 'Gishtat e këmbëve të mbështetur dhe drejt Kibles.'],
+      tr: ['Alın ve burun yere değsin.', 'İki el başın yanında düz dursun.', 'Dirsekler yerde yayılmadan kalkık kalsın.', 'Ayak parmakları kıbleye dönük olsun.']
     }
   },
-  { 
-    id: 6, 
-    image: "🧎‍♂️", 
-    illustration: "/images/prayer/sitting.svg",
-    title: { de: "Sitzen (At-tahiyyat)", al: "Ulja (Ettehijatu)", tr: "Oturmak (Ettehiyyatü)" }, 
-    arabic: "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَات...",
-    transliteration: "At-tahiyyatu lillahi was-salawatu wat-tayyibat...",
-    text: { 
-      de: "Setze dich aufrecht hin, bezeuge deinen Glauben und beende das Gebet mit dem Friedensgruß.", 
-      al: "Ulu drejt, dëshmo besimin tënd dhe përfundo namazin me selamin e paqes.", 
-      tr: "Otur, kelime-i şehadet getir ve namazı selam vererek bitir." 
+  {
+    id: 6,
+    image: '🧎',
+    illustrations: illustrationSet('jalsa'),
+    title: { de: 'Sitzen zwischen den Sujud', al: 'Ulja mes dy sexhdeve', tr: 'İki secde arası oturuş' },
+    arabic: 'رَبِّ اغْفِرْ لِي',
+    transliteration: 'Rabbighfir li',
+    text: {
+      de: 'Setze dich kurz aufrecht zwischen den beiden Niederwerfungen.',
+      al: 'Ulu shkurt drejt mes dy sexhdeve.',
+      tr: 'İki secde arasında kısa ve dik otur.'
+    },
+    poseNotes: {
+      de: ['Oberkörper aufrecht.', 'Hände entspannt auf die Oberschenkel.', 'Gewicht ruhig im Sitzen, Füße geordnet.', 'Blick nach unten, ohne zu spielen oder zu wackeln.'],
+      al: ['Pjesa e sipërme e trupit drejt.', 'Duart qetë mbi kofshë.', 'Pesha e qetë në ulje, këmbët të rregulluara.', 'Shikimi poshtë pa luajtur apo lëkundur trupin.'],
+      tr: ['Üst beden dik olsun.', 'Eller rahatça uylukların üstünde dursun.', 'Otururken denge sakin, ayaklar düzenli.', 'Bakış aşağıda, oynama veya sallanma yok.']
+    }
+  },
+  {
+    id: 7,
+    image: '🛐',
+    illustrations: illustrationSet('sujud-second'),
+    title: { de: 'Zweite Sujud', al: 'Sexhdja e dytë', tr: 'İkinci Secde' },
+    arabic: 'سُبْحَانَ رَبِّيَ الْأَعْلَى',
+    transliteration: "Subhana Rabbiyal A'la",
+    text: {
+      de: 'Mache die zweite Niederwerfung genauso ruhig und sauber.',
+      al: 'Bëje sexhden e dytë po aq qetë dhe saktë.',
+      tr: 'İkinci secdeyi de aynı sakinlik ve düzgünlükle yap.'
+    },
+    poseNotes: {
+      de: ['Wieder mit Stirn und Nase auf den Boden.', 'Handflächen bleiben neben dem Kopf.', 'Zehen sind aufgestellt und nach vorne gerichtet.', 'Bleibe für den Dhikr einen Moment ruhig.'],
+      al: ['Sërish me ballin dhe hundën në tokë.', 'Pëllëmbët mbeten pranë kokës.', 'Gishtat e këmbëve të mbështetur dhe përpara.', 'Qëndro pak i qetë për dhikrin.'],
+      tr: ['Yine alın ve burun yere gelir.', 'Avuç içleri başın yanında kalır.', 'Ayak parmakları dik ve öne dönük olur.', 'Tesbih için kısa bir an sakin kal.']
+    }
+  },
+  {
+    id: 8,
+    image: '🪑',
+    illustrations: illustrationSet('tashahhud'),
+    title: { de: 'Tashahhud', al: 'Ettehijatu', tr: 'Tahiyyat' },
+    arabic: 'التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ',
+    transliteration: 'At-tahiyyatu lillahi was-salawatu wat-tayyibat',
+    text: {
+      de: 'Sitze für At-Tahiyyat und sprich das Bekenntnis des Gebets.',
+      al: 'Ulu për Ettehijatin dhe thuaj dëshminë e namazit.',
+      tr: 'Tahiyyat için otur ve namazdaki şehadeti oku.'
+    },
+    poseNotes: {
+      de: ['Sitze aufrecht und ruhig.', 'Hände liegen auf den Oberschenkeln.', 'Rechter Zeigefinger kann beim Tashahhud erhoben werden.', 'Blick bleibt nach vorne unten gerichtet.'],
+      al: ['Ulu drejt dhe qetë.', 'Duart mbi kofshë.', 'Gishti tregues i djathtë mund të ngrihet në Ettehijat.', 'Shikimi mbetet përpara-poshtë.'],
+      tr: ['Dik ve sakin otur.', 'Eller uylukların üstünde dursun.', 'Tahiyyatta sağ işaret parmağı kaldırılabilir.', 'Bakış öne ve aşağıya yönelir.']
+    }
+  },
+  {
+    id: 9,
+    image: '👋',
+    illustrations: illustrationSet('salam'),
+    title: { de: 'Salam', al: 'Selami', tr: 'Selam' },
+    arabic: 'السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ',
+    transliteration: 'As-salamu alaikum wa rahmatullah',
+    text: {
+      de: 'Beende das Gebet mit dem Friedensgruß nach rechts und links.',
+      al: 'Përfundo namazin me selam djathtas dhe majtas.',
+      tr: 'Namazı sağa ve sola selam vererek bitir.'
+    },
+    poseNotes: {
+      de: ['Bleibe im Sitzen stabil.', 'Drehe den Kopf sanft zur Seite.', 'Schultern bleiben tief und entspannt.', 'Beende ruhig und ohne Hast.'],
+      al: ['Qëndro i qëndrueshëm në ulje.', 'Ktheje kokën butë anash.', 'Shpatullat mbeten poshtë dhe të qeta.', 'Përfundo qetë pa nxitim.'],
+      tr: ['Oturuşta dengeli kal.', 'Başını yumuşakça yana çevir.', 'Omuzlar aşağıda ve rahat kalsın.', 'Namazı acele etmeden tamamla.']
     }
   }
 ];
