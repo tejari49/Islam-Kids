@@ -75,12 +75,10 @@ const uiText = {
 
 const learnerCards = {
   boy: {
-    emoji: '🧒',
-    accent: 'from-sky-500 to-indigo-500'
+    image: '/images/prayer/choice-boy.png',
   },
   girl: {
-    emoji: '👧',
-    accent: 'from-pink-500 to-fuchsia-500'
+    image: '/images/prayer/choice-girl.png',
   }
 };
 
@@ -286,8 +284,13 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
               className={`w-full p-5 rounded-[2rem] shadow-sm border-2 text-left transition-all active:scale-[0.98] cursor-pointer ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-indigo-100 hover:border-indigo-300'}`}
             >
               <div className="flex items-center gap-4">
-                <div className={`w-20 h-20 rounded-[1.5rem] flex items-center justify-center text-5xl bg-gradient-to-br ${learnerCards[learner].accent} text-white shadow-lg`}>
-                  {learnerCards[learner].emoji}
+                <div className={`w-24 h-24 rounded-[1.5rem] overflow-hidden border shadow-lg transition-colors ${isDarkMode ? 'bg-slate-700 border-slate-600' : 'bg-slate-50 border-indigo-100'}`}>
+                  <img
+                    src={learnerCards[learner].image}
+                    alt={learner === 'boy' ? t.forBoy : t.forGirl}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="flex-1">
                   <div className={`text-xl font-bold transition-colors ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>
@@ -455,7 +458,7 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
               src={illustration}
               alt={currentStep.title[selectedLang]}
               onError={() => setImageFailed(true)}
-              className="h-64 w-full max-w-[18rem] object-contain mx-auto mt-1 drop-shadow-2xl transition-all duration-300 animate-fade-in"
+              className="h-72 w-full max-w-[20rem] object-contain mx-auto mt-1 drop-shadow-2xl transition-all duration-300 animate-fade-in"
             />
           ) : (
             <div className="text-8xl h-32 flex items-center justify-center mt-2">

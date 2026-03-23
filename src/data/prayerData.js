@@ -18,8 +18,8 @@ export const prayers = [
 ];
 
 const illustrationSet = (name) => ({
-  boy: `/images/prayer/boy/${name}.svg`,
-  girl: `/images/prayer/girl/${name}.svg`
+  boy: `/images/prayer/boy/${name}.png`,
+  girl: `/images/prayer/girl/${name}.png`
 });
 
 export const prayerSteps = [
