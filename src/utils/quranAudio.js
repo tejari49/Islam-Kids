@@ -1,5 +1,10 @@
 export async function fetchAyahBundle(ayahRef) {
   const response = await fetch(`https://api.alquran.cloud/v1/ayah/${ayahRef}/ar.alafasy`);
+
+  if (!response.ok) {
+    throw new Error(`Aya ${ayahRef} konnte nicht geladen werden (HTTP ${response.status}).`);
+  }
+
   const data = await response.json();
 
   if (!data?.data?.audio) {

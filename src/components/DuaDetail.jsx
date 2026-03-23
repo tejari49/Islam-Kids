@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { ChevronLeft, Play, Pause, Loader2, Heart } from 'lucide-react';
 import { fetchAyahQueue, joinAyahTexts } from '../utils/quranAudio';
+import { canUseSpeechSynthesis, speakArabicText, stopSpeechPlayback, toggleSpeechPause } from '../utils/audio';
 
 export default function DuaDetail({ 
   selectedDua, 
@@ -41,6 +42,8 @@ export default function DuaDetail({
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.pause();
+      audioRef.current.removeAttribute('src');
+      audioRef.current.load();
     }
     stopSpeechPlayback();
     setIsPlaying(false);
@@ -111,7 +114,7 @@ export default function DuaDetail({
 
   const toggleAudio = async () => {
     if (!audioRef.current) return;
-    
+
     if (isPlaying) {
       audioRef.current.pause();
       toggleSpeechPause(true);
@@ -122,22 +125,6 @@ export default function DuaDetail({
     if (toggleSpeechPause(false)) {
       setIsPlaying(true);
       return;
-    }
-
-    if (canUseSpeechSynthesis()) {
-      try {
-        speakArabicText(selectedDua?.arabic, 0.9, {
-          onStart: () => setIsPlaying(true),
-          onEnd: () => setIsPlaying(false),
-          onError: (error) => {
-            console.error("Sprachausgabe Fehler:", error);
-            setIsPlaying(false);
-          }
-        });
-        return;
-      } catch (error) {
-        console.error("Sprachausgabe konnte nicht gestartet werden:", error);
-      }
     }
 
     if (currentAudioQueue.length > 0) {
@@ -154,21 +141,38 @@ export default function DuaDetail({
       return;
     }
 
-    setIsLoadingAudio(true);
-    
-    try {
-      const ayahs = await fetchAyahQueue(audioAyahRefs);
-      const responses = ayahs.map((ayah) => ayah.audio);
+    if (audioAyahRefs.length > 0) {
+      setIsLoadingAudio(true);
 
-      setAudioAyahs(ayahs);
-      setCurrentAudioQueue(responses);
-      await loadQueueItem(responses, 0);
+      try {
+        const ayahs = await fetchAyahQueue(audioAyahRefs);
+        const responses = ayahs.map((ayah) => ayah.audio);
 
-    } catch (error) {
-      console.error("Fehler beim Laden des Audios:", error);
-      alert("Audio konnte nicht geladen werden. Bitte überprüfe deine Internetverbindung.");
-    } finally {
-      setIsLoadingAudio(false);
+        setAudioAyahs(ayahs);
+        setCurrentAudioQueue(responses);
+        await loadQueueItem(responses, 0);
+      } catch (error) {
+        console.error("Fehler beim Laden des Audios:", error);
+        alert("Audio konnte nicht geladen werden. Bitte überprüfe deine Internetverbindung.");
+      } finally {
+        setIsLoadingAudio(false);
+      }
+      return;
+    }
+
+    if (canUseSpeechSynthesis()) {
+      try {
+        speakArabicText(selectedDua?.arabic, 0.9, {
+          onStart: () => setIsPlaying(true),
+          onEnd: () => setIsPlaying(false),
+          onError: (error) => {
+            console.error("Sprachausgabe Fehler:", error);
+            setIsPlaying(false);
+          }
+        });
+      } catch (error) {
+        console.error("Sprachausgabe konnte nicht gestartet werden:", error);
+      }
     }
   };
 

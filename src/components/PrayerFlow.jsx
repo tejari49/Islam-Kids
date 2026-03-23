@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, CheckCircle2, Droplets, ArrowRight, Play, Pause, Loader2, FastForward } from 'lucide-react';
 import { wuduSteps, prayers, prayerSteps } from '../data/prayerData';
 import { fetchAyahQueue, joinAyahTexts } from '../utils/quranAudio';
+import { canUseSpeechSynthesis, speakArabicText, toggleSpeechPause } from '../utils/audio';
 
 export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMode }) {
   const [step, setStep] = useState('select_prayer'); // select_prayer, ask_wudu, wudu_guide, prayer_guide
