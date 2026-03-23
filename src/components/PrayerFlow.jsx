@@ -73,12 +73,14 @@ const uiText = {
   }
 };
 
+const withBase = (path) => `${import.meta.env.BASE_URL}${path}`.replace(/(?<!:)\/\/+/g, '/');
+
 const learnerCards = {
   boy: {
-    image: '/images/prayer/choice-boy.png',
+    image: withBase('images/prayer/choice-boy.png'),
   },
   girl: {
-    image: '/images/prayer/choice-girl.png',
+    image: withBase('images/prayer/choice-girl.png'),
   }
 };
 

@@ -17,9 +17,11 @@ export const prayers = [
   { id: 'isha', name: { de: "Isha (Nacht)", al: "Jacia (Natë)", tr: "Yatsı Namazı" }, rakats: 4, icon: "🌌" }
 ];
 
+const withBase = (path) => `${import.meta.env.BASE_URL}${path}`.replace(/(?<!:)\/\/+/g, '/');
+
 const illustrationSet = (name) => ({
-  boy: `/images/prayer/boy/${name}.png`,
-  girl: `/images/prayer/girl/${name}.png`
+  boy: withBase(`images/prayer/boy/${name}.png`),
+  girl: withBase(`images/prayer/girl/${name}.png`)
 });
 
 export const prayerSteps = [
