@@ -15,7 +15,23 @@
       "tr": "Rabbim, ilmimi artır."
     },
     "ayah": "20:114",
-    "source": "Quran 20:114"
+    "source": "Quran 20:114",
+    "pronunciation": {
+      "de": "Wa qul rabbi zidni ilma",
+      "al": "Ve kul rabbi zidni ilma",
+      "tr": "Ve kul rabbi zidni ilma"
+    },
+    "when": {
+      "de": "Wenn du lernen, lesen oder den Quran besser verstehen möchtest.",
+      "al": "Kur dëshiron të mësosh, të lexosh ose ta kuptosh më mirë Kuranin.",
+      "tr": "Öğrenmek, okumak veya Kur’an’ı daha iyi anlamak istediğinde."
+    },
+    "explanation": {
+      "de": "Mit diesem Dua bittest du Allah, dir nützliches Wissen zu geben und dein Herz fürs Lernen zu öffnen.",
+      "al": "Me këtë dua i kërkon Allahut të të japë dije të dobishme dhe ta hapë zemrën për mësim.",
+      "tr": "Bu dua ile Allah’tan faydalı ilim vermesini ve kalbini öğrenmeye açmasını istersin."
+    },
+    "topic": "knowledge"
   },
   {
     "id": 2,
@@ -33,7 +49,23 @@
       "tr": "Rabbim, beni küçükken yetiştirdikleri gibi Sen de onlara merhamet et."
     },
     "ayah": "17:24",
-    "source": "Quran 17:24"
+    "source": "Quran 17:24",
+    "pronunciation": {
+      "de": "Rabbi rhamhuma kama rabbayani saghira",
+      "al": "Rabbi rhamhuma kema rabbajani saghira",
+      "tr": "Rabbi rhamhuma kema rabbeyani sağira"
+    },
+    "when": {
+      "de": "Wenn du für Mama und Papa beten oder Allah für ihre Fürsorge danken möchtest.",
+      "al": "Kur dëshiron të bësh dua për nënën dhe babanë ose ta falënderosh Allahun për kujdesin e tyre.",
+      "tr": "Anne ve baban için dua etmek veya onların emeği için Allah’a şükretmek istediğinde."
+    },
+    "explanation": {
+      "de": "Du bittest Allah, deinen Eltern Barmherzigkeit zu schenken, so wie sie dich mit Liebe großgezogen haben.",
+      "al": "I kërkon Allahut t’i mëshirojë prindërit e tu, ashtu siç të rritën me dashuri.",
+      "tr": "Allah’tan anne ve babana merhamet etmesini, seni sevgiyle büyüttükleri gibi onlara iyilik vermesini istersin."
+    },
+    "topic": "parents"
   },
   {
     "id": 3,
@@ -51,7 +83,23 @@
       "tr": "Rabbimiz, bize dünyada da iyilik ver, ahirette de iyilik ver ve bizi ateş azabından koru."
     },
     "ayah": "2:201",
-    "source": "Quran 2:201"
+    "source": "Quran 2:201",
+    "pronunciation": {
+      "de": "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina adhaban-nar",
+      "al": "Rabbena atina fid-dunja haseneten ve fil-ahireti haseneten ve kina adhaben-nar",
+      "tr": "Rabbena atina fid-dünya haseneten ve fil-ahireti haseneten ve kına azaben-nar"
+    },
+    "when": {
+      "de": "Wenn du Allah um Gutes im Alltag, im Glauben und im Jenseits bitten möchtest.",
+      "al": "Kur dëshiron t’i kërkosh Allahut të mira në jetën e përditshme, në fe dhe në ahiret.",
+      "tr": "Allah’tan dünyada, dinde ve ahirette hayır istemek istediğinde."
+    },
+    "explanation": {
+      "de": "Dieses Dua ist sehr umfassend: Du bittest um alles Gute hier auf der Erde und auch um Gutes im Jenseits.",
+      "al": "Kjo dua është shumë e plotë: kërkon çdo të mirë në këtë botë dhe edhe në botën tjetër.",
+      "tr": "Bu dua çok kapsamlıdır: Dünyada da ahirette de her türlü hayrı istemiş olursun."
+    },
+    "topic": "goodness"
   },
   {
     "id": 4,
@@ -69,7 +117,23 @@
       "tr": "Senden başka ilah yoktur. Seni tenzih ederim. Gerçekten ben zalimlerden oldum."
     },
     "ayah": "21:87",
-    "source": "Quran 21:87"
+    "source": "Quran 21:87",
+    "pronunciation": {
+      "de": "La ilaha illa anta subhanaka inni kuntu minaz-zalimin",
+      "al": "La ilahe illa ente subhaneke inni kuntu minez-zalimin",
+      "tr": "La ilahe illa ente subhaneke inni küntü minez-zalimin"
+    },
+    "when": {
+      "de": "Wenn du traurig bist, einen Fehler gemacht hast oder Allah um Hilfe bitten möchtest.",
+      "al": "Kur je i mërzitur, ke bërë një gabim ose dëshiron t’i kërkosh Allahut ndihmë.",
+      "tr": "Üzgün olduğunda, bir hata yaptığında veya Allah’tan yardım istemek istediğinde."
+    },
+    "explanation": {
+      "de": "Dieses Dua lehrt dich, Allah zu loben, deinen Fehler ehrlich zuzugeben und auf Seine Hilfe zu vertrauen.",
+      "al": "Kjo dua të mëson ta madhërosh Allahun, ta pranosh sinqerisht gabimin dhe të mbështetesh te ndihma e Tij.",
+      "tr": "Bu dua Allah’ı yüceltmeyi, hatanı dürüstçe kabul etmeyi ve O’nun yardımına güvenmeyi öğretir."
+    },
+    "topic": "repentance"
   },
   {
     "id": 5,
@@ -87,7 +151,23 @@
       "tr": "Rabbimiz, üzerimize sabır yağdır, ayaklarımızı sağlamlaştır ve inkârcı topluluğa karşı bize yardım et."
     },
     "ayah": "2:250",
-    "source": "Quran 2:250"
+    "source": "Quran 2:250",
+    "pronunciation": {
+      "de": "Rabbana afrigh alayna sabran wa thabbit aqdamana wansurna alal-qawmil-kafirin",
+      "al": "Rabbena efrigh alejna sabren ve thebbit ekdamena vensurna alel-kavmil-kafirin",
+      "tr": "Rabbena efrig aleyna sabran ve sebbit akdamena vensurna alel-kavmil-kafirin"
+    },
+    "when": {
+      "de": "Wenn etwas schwer ist und du Geduld, Mut und Standhaftigkeit brauchst.",
+      "al": "Kur diçka është e vështirë dhe ke nevojë për durim, guxim dhe qëndrueshmëri.",
+      "tr": "Bir şey zor geldiğinde ve sabra, cesarete, sağlam durmaya ihtiyaç duyduğunda."
+    },
+    "explanation": {
+      "de": "Du bittest Allah darum, dein Herz ruhig zu machen, deine Schritte fest zu halten und dir Kraft zu geben.",
+      "al": "I kërkon Allahut ta qetësojë zemrën tënde, t’i forcojë hapat e tu dhe të të japë forcë.",
+      "tr": "Allah’tan kalbini sakinleştirmesini, adımlarını sağlamlaştırmasını ve sana güç vermesini istersin."
+    },
+    "topic": "patience"
   },
   {
     "id": 6,
@@ -105,7 +185,23 @@
       "tr": "Rabbim, göğsümü genişlet."
     },
     "ayah": "20:25",
-    "source": "Quran 20:25"
+    "source": "Quran 20:25",
+    "pronunciation": {
+      "de": "Rabbi shrah li sadri",
+      "al": "Rabbi shrah li sadri",
+      "tr": "Rabbi şrah li sadri"
+    },
+    "when": {
+      "de": "Wenn du nervös bist, sprechen musst oder ein offenes, ruhiges Herz brauchst.",
+      "al": "Kur je nervoz, duhet të flasësh ose ke nevojë për zemër të hapur dhe të qetë.",
+      "tr": "Heyecanlandığında, konuşman gerektiğinde veya açık ve sakin bir kalbe ihtiyaç duyduğunda."
+    },
+    "explanation": {
+      "de": "Du bittest Allah darum, dein Herz weit zu machen, damit du ruhig, mutig und klar bleiben kannst.",
+      "al": "I kërkon Allahut ta zgjerojë zemrën tënde, që të mbetesh i qetë, i guximshëm dhe i kthjellët.",
+      "tr": "Allah’tan kalbini genişletmesini, böylece sakin, cesur ve açık olabilmeni istersin."
+    },
+    "topic": "heart"
   },
   {
     "id": 7,
@@ -123,7 +219,23 @@
       "tr": "Rabbimiz, eşlerimizden ve soyumuzdan bize göz aydınlığı bağışla ve bizi takva sahiplerine önder kıl."
     },
     "ayah": "25:74",
-    "source": "Quran 25:74"
+    "source": "Quran 25:74",
+    "pronunciation": {
+      "de": "Rabbana hab lana min azwajina wa dhurriyyatina qurrata ayunin wajalna lil-muttaqina imama",
+      "al": "Rabbena heb lena min ezvaxhina ve dhurriyyatina kurrete ajunin vexhalna lil-muttekin imama",
+      "tr": "Rabbena heb lena min ezvacina ve zürriyyatina kurrete a’yunin vec’alna lil-muttakine imama"
+    },
+    "when": {
+      "de": "Wenn du Allah um Frieden, Liebe und Segen für deine Familie bitten möchtest.",
+      "al": "Kur dëshiron t’i kërkosh Allahut paqe, dashuri dhe bereqet për familjen tënde.",
+      "tr": "Ailen için huzur, sevgi ve bereket istemek istediğinde."
+    },
+    "explanation": {
+      "de": "Du bittest Allah darum, dass deine Familie eine Freude für das Herz ist und gemeinsam Gutes tut.",
+      "al": "I kërkon Allahut që familja jote të jetë gëzim për zemrën dhe së bashku të bëjë mirësi.",
+      "tr": "Allah’tan ailenin kalbe sevinç olmasını ve birlikte iyilik yapmayı istemiş olursun."
+    },
+    "topic": "family"
   },
   {
     "id": 8,
@@ -141,7 +253,23 @@
       "tr": "Rabbimiz, bizi doğru yola ilettikten sonra kalplerimizi eğriltme; bize katından rahmet bağışla. Şüphesiz Sen çok bağışta bulunansın."
     },
     "ayah": "3:8",
-    "source": "Quran 3:8"
+    "source": "Quran 3:8",
+    "pronunciation": {
+      "de": "Rabbana la tuzigh qulubana bada idh hadaytana wa hab lana min ladunka rahmah innaka antal-Wahhab",
+      "al": "Rabbena la tuzig kulubena ba’de idh hedejtena ve heb lena min ledunke rahmeh inneke entel-Vehhab",
+      "tr": "Rabbena la tuziğ kulubena ba’de iz hedeytena ve heb lena min ledünke rahmeh inneke entel-Vehhab"
+    },
+    "when": {
+      "de": "Wenn du Allah um ein festes Herz und beständige Rechtleitung bitten möchtest.",
+      "al": "Kur dëshiron t’i kërkosh Allahut zemër të qëndrueshme dhe udhëzim të vazhdueshëm.",
+      "tr": "Allah’tan sabit bir kalp ve sürekli hidayet istemek istediğinde."
+    },
+    "explanation": {
+      "de": "Du bittest Allah darum, dass dein Herz auf dem guten Weg bleibt und Er dich mit Seiner Barmherzigkeit begleitet.",
+      "al": "I kërkon Allahut që zemra jote të mbetet në rrugën e mirë dhe Ai të të shoqërojë me mëshirën e Tij.",
+      "tr": "Allah’tan kalbinin doğru yolda kalmasını ve seni rahmetiyle desteklemesini istersin."
+    },
+    "topic": "guidance"
   },
   {
     "id": 9,
@@ -159,7 +287,23 @@
       "tr": "Rabbim, bana ve anne babama verdiğin nimete şükretmemi ve Senin razı olacağın salih amel işlememi ilham et."
     },
     "ayah": "27:19",
-    "source": "Quran 27:19"
+    "source": "Quran 27:19",
+    "pronunciation": {
+      "de": "Rabbi awzini an ashkura nimataka allati anamta alayya wa ala walidayya wa an amala salihan tardah",
+      "al": "Rabbi evzini en eshkura ni’meteke elleti en’amte alejje ve ala validejje ve en a’mele salihan terdah",
+      "tr": "Rabbi evzi’ni en eşkure ni’metekelleti en’amte aleyye ve ala valideyye ve en a’mele salihan terdah"
+    },
+    "when": {
+      "de": "Wenn du Allah für Seine Gaben danken und gute Taten machen möchtest.",
+      "al": "Kur dëshiron ta falënderosh Allahun për dhuntitë e Tij dhe të bësh vepra të mira.",
+      "tr": "Allah’a nimetleri için şükretmek ve güzel ameller yapmak istediğinde."
+    },
+    "explanation": {
+      "de": "Mit diesem Dua bittest du Allah, dir ein dankbares Herz und gute Taten zu schenken, die Ihm gefallen.",
+      "al": "Me këtë dua i kërkon Allahut zemër falënderuese dhe vepra të mira që i pëlqejnë Atij.",
+      "tr": "Bu dua ile Allah’tan şükreden bir kalp ve O’nu razı edecek güzel ameller istersin."
+    },
+    "topic": "gratitude"
   },
   {
     "id": 10,
@@ -181,6 +325,88 @@
     "audioAyahs": [
       "23:97",
       "23:98"
-    ]
+    ],
+    "pronunciation": {
+      "de": "Rabbi audhu bika min hamazatish-shayatin wa audhu bika rabbi an yahdurun",
+      "al": "Rabbi audhu bike min hemezatish-shejatini ve audhu bike rabbi en jahdurun",
+      "tr": "Rabbi eûzü bike min hemezati’ş-şeyatin ve eûzü bike rabbi en yahdurun"
+    },
+    "when": {
+      "de": "Wenn du Allah um Schutz vor schlechten Gedanken, Streit oder Einflüsterungen bitten möchtest.",
+      "al": "Kur dëshiron t’i kërkosh Allahut mbrojtje nga mendimet e këqija, grindjet ose nxitjet e shejtanit.",
+      "tr": "Kötü düşüncelerden, tartışmadan veya şeytanın vesvesesinden korunmak istediğinde."
+    },
+    "explanation": {
+      "de": "Du bittest Allah darum, dass schlechte Einflüsse und Einflüsterungen von dir fernbleiben.",
+      "al": "I kërkon Allahut që ndikimet e këqija dhe vesveset të qëndrojnë larg teje.",
+      "tr": "Allah’tan kötü etkilerin ve şeytanın vesvesesinin senden uzak kalmasını istersin."
+    },
+    "topic": "protection"
+  },
+  {
+    "id": 11,
+    "icon": "🧭",
+    "title": {
+      "de": "Für rechtgeleitete Entscheidungen",
+      "al": "Për vendime të drejta",
+      "tr": "Doğru kararlar için"
+    },
+    "arabic": "رَبِّ أَدْخِلْنِي مُدْخَلَ صِدْقٍ وَأَخْرِجْنِي مُخْرَجَ صِدْقٍ وَاجْعَل لِّي مِن لَّدُنكَ سُلْطَانًا نَّصِيرًا",
+    "pronunciation": {
+      "de": "Rabbi adkhilni mudkhala sidqin wa akhrijni mukhraja sidqin wajal li min ladunka sultanan nasira",
+      "al": "Rabbi edkhilni mudkhale sidkin ve ehrijni muhrraxhe sidkin vexhal li min ledunke sultanen nesira",
+      "tr": "Rabbi edhilni müdhale sıdkın ve ahricni muhrace sıdkın vec’al li min ledünke sultanen nasira"
+    },
+    "meaning": {
+      "de": "Mein Herr, lasse mich in Wahrhaftigkeit eintreten und in Wahrhaftigkeit austreten und gib mir von Dir eine helfende Kraft.",
+      "al": "Zoti im, më fut me sinqeritet dhe më nxirr me sinqeritet, dhe më jep prej Teje fuqi ndihmuese.",
+      "tr": "Rabbim, beni doğrulukla girdir, doğrulukla çıkar ve katından bana yardımcı bir güç ver."
+    },
+    "explanation": {
+      "de": "Dieses Dua hilft dir, Allah um Ehrlichkeit, Klarheit und Hilfe bei wichtigen Schritten zu bitten.",
+      "al": "Kjo dua të ndihmon t’i kërkosh Allahut sinqeritet, qartësi dhe ndihmë në hapa të rëndësishëm.",
+      "tr": "Bu dua ile önemli adımlarda Allah’tan dürüstlük, açıklık ve yardım istersin."
+    },
+    "when": {
+      "de": "Wenn ein neuer Schritt beginnt, zum Beispiel Schule, Reise oder eine wichtige Aufgabe.",
+      "al": "Kur fillon një hap i ri, për shembull shkolla, një udhëtim ose një detyrë e rëndësishme.",
+      "tr": "Yeni bir adım başlarken; okul, yolculuk veya önemli bir görev öncesinde."
+    },
+    "ayah": "17:80",
+    "source": "Quran 17:80",
+    "topic": "guidance"
+  },
+  {
+    "id": 12,
+    "icon": "🌤️",
+    "title": {
+      "de": "Damit ich das Gebet bewahre",
+      "al": "Që ta ruaj namazin",
+      "tr": "Namazı korumak için"
+    },
+    "arabic": "رَبِّ اجْعَلْنِي مُقِيمَ الصَّلَاةِ وَمِن ذُرِّيَّتِي",
+    "pronunciation": {
+      "de": "Rabbi j alni muqimas-salati wa min dhurriyyati",
+      "al": "Rabbi xhalni mukimes-salati ve min dhurriyyeti",
+      "tr": "Rabbi’c alni mukîme’s-salati ve min zürriyyeti"
+    },
+    "meaning": {
+      "de": "Mein Herr, mache mich zu einem, der das Gebet verrichtet, und auch von meiner Nachkommenschaft.",
+      "al": "Zoti im, më bëj prej atyre që e falin namazin, edhe nga pasardhësit e mi.",
+      "tr": "Rabbim, beni namazı dosdoğru kılanlardan eyle, soyumdan da."
+    },
+    "explanation": {
+      "de": "Mit diesem Dua bittest du Allah, dir zu helfen, regelmäßig und aufrichtig zu beten.",
+      "al": "Me këtë dua i kërkon Allahut të të ndihmojë të falesh rregullisht dhe me sinqeritet.",
+      "tr": "Bu dua ile Allah’tan düzenli ve samimi şekilde namaz kılabilmek için yardım istersin."
+    },
+    "when": {
+      "de": "Wenn du Allah darum bitten möchtest, das Gebet zu lieben und nicht zu vergessen.",
+      "al": "Kur dëshiron t’i kërkosh Allahut ta duash namazin dhe të mos e harrosh.",
+      "tr": "Namazı sevmek ve aksatmamak için Allah’a dua etmek istediğinde."
+    },
+    "ayah": "14:40",
+    "source": "Quran 14:40",
+    "topic": "prayer"
   }
 ]

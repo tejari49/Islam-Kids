@@ -3,7 +3,6 @@ import { Calendar, Heart, Clock, Loader2, GraduationCap, Trophy } from 'lucide-r
 
 export default function Home({ 
   selectedLang, 
-  uiTexts, 
   handleTabChange, 
   setSelectedDua, 
   setSelectedStory,
@@ -330,7 +329,7 @@ export default function Home({
             {selectedLang === 'de' ? 'Deine Favoriten' : 'Të preferuarat'}
           </h2>
           <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
-            {favoriteItems.map((item, idx) => (
+            {favoriteItems.map((item) => (
               <button 
                 key={`${item.type}-${item.id}`}
                 onClick={() => {
@@ -384,6 +383,19 @@ export default function Home({
               <div className="text-left flex-1">
                 <p className="text-[10px] font-black text-yellow-500 uppercase tracking-widest mb-1">Täglicher Hadith</p>
                 <h3 className={`font-bold text-xl leading-tight transition-colors ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{dailyHadith.title[selectedLang]}</h3>
+              </div>
+            </button>
+          )}
+
+          {dailyStory && (
+            <button 
+              onClick={() => setSelectedStory(dailyStory)}
+              className={`w-full p-6 rounded-[2.5rem] border-2 flex items-center gap-5 transition-all hover:scale-[1.01] active:scale-[0.98] shadow-sm ${isDarkMode ? 'bg-slate-800 border-purple-900/30 shadow-slate-950/30' : 'bg-white border-purple-50'}`}
+            >
+              <div className="text-5xl">📚</div>
+              <div className="text-left flex-1">
+                <p className="text-[10px] font-black text-purple-500 uppercase tracking-widest mb-1">Story des Tages</p>
+                <h3 className={`font-bold text-xl leading-tight transition-colors ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{dailyStory.title[selectedLang]}</h3>
               </div>
             </button>
           )}

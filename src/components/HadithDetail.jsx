@@ -17,7 +17,7 @@ export default function HadithDetail({
       incrementStat('itemsRead');
       hasIncremented.current = true;
     }
-  }, [selectedHadith?.id, incrementStat]);
+  }, [selectedHadith, incrementStat]);
 
   if (!selectedHadith) return null;
 
