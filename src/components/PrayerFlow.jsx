@@ -10,7 +10,10 @@ import {
   Loader2,
   FastForward,
   BadgeCheck,
-  Volume2
+  Volume2,
+  Compass,
+  LocateFixed,
+  ExternalLink
 } from 'lucide-react';
 import { wuduSteps, prayers, prayerSteps } from '../data/prayerData';
 import { fetchAyahQueue, joinAyahTexts } from '../utils/quranAudio';
@@ -28,6 +31,17 @@ const uiText = {
     changeLearner: 'Figur ändern',
     areYouReady: 'Bist du sauber?',
     haveWudu: 'Hast du schon Wudu gemacht?',
+    qiblaCheck: 'Hast du die richtige Gebetsrichtung (Qibla)?',
+    qiblaYes: 'Ja, Richtung passt',
+    qiblaNo: 'Nein, zeig Kompass',
+    qiblaTitle: 'Qibla-Kompass',
+    qiblaHint: 'Halte das Handy flach und drehe dich, bis der Pfeil zur Qibla zeigt.',
+    qiblaHeading: 'Deine Richtung',
+    qiblaDirection: 'Qibla-Richtung',
+    locationNeeded: 'Standort wird benötigt, um die Qibla zu berechnen.',
+    requestCompass: 'Kompass aktivieren',
+    openQiblaFinder: 'Qibla Finder öffnen',
+    qiblaAccuracy: 'Je nach Gerät kann der Kompass leicht abweichen.',
     yesReady: 'Ja, ich bin bereit!',
     showWudu: 'Nein, zeig mir Wudu',
     step: 'Schritt',
@@ -56,6 +70,17 @@ const uiText = {
     changeLearner: 'Ndrysho figurën',
     areYouReady: 'A je i pastër?',
     haveWudu: 'A ke marrë abdes?',
+    qiblaCheck: 'A e ke drejtimin e saktë të namazit (Kibla)?',
+    qiblaYes: 'Po, drejtimi është i saktë',
+    qiblaNo: 'Jo, më trego kompasin',
+    qiblaTitle: 'Kompasi i Kiblës',
+    qiblaHint: 'Mbaje telefonin drejt dhe rrotullohu derisa shigjeta të tregojë Kiblën.',
+    qiblaHeading: 'Drejtimi yt',
+    qiblaDirection: 'Drejtimi i Kiblës',
+    locationNeeded: 'Nevojitet lokacioni për të llogaritur Kiblën.',
+    requestCompass: 'Aktivizo kompasin',
+    openQiblaFinder: 'Hap Qibla Finder',
+    qiblaAccuracy: 'Në varësi të pajisjes, kompasi mund të ketë devijim të vogël.',
     yesReady: 'Po, jam gati!',
     showWudu: 'Jo, më trego abdesin',
     step: 'Hapi',
@@ -84,6 +109,17 @@ const uiText = {
     changeLearner: 'Karakteri değiştir',
     areYouReady: 'Temiz misin?',
     haveWudu: 'Abdest aldın mı?',
+    qiblaCheck: 'Doğru kıble yönünü buldun mu?',
+    qiblaYes: 'Evet, yön doğru',
+    qiblaNo: 'Hayır, pusulayı göster',
+    qiblaTitle: 'Kıble Pusulası',
+    qiblaHint: 'Telefonu düz tut ve ok kıbleyi gösterene kadar dön.',
+    qiblaHeading: 'Senin yönün',
+    qiblaDirection: 'Kıble yönü',
+    locationNeeded: 'Kıble hesabı için konum izni gerekiyor.',
+    requestCompass: 'Pusulayı aç',
+    openQiblaFinder: 'Qibla Finder aç',
+    qiblaAccuracy: 'Cihaza göre pusulada küçük sapmalar olabilir.',
     yesReady: 'Evet, hazırım!',
     showWudu: 'Hayır, abdesti göster',
     step: 'Adım',
@@ -108,6 +144,30 @@ const learnerCards = {
   boy: { image: withBase('images/prayer/choice-boy.png') },
   girl: { image: withBase('images/prayer/choice-girl.png') }
 };
+
+const KAABA_COORDS = { lat: 21.4225, lon: 39.8262 };
+
+function toRadians(value) {
+  return (value * Math.PI) / 180;
+}
+
+function toDegrees(value) {
+  return (value * 180) / Math.PI;
+}
+
+function normalizeAngle(value) {
+  return ((value % 360) + 360) % 360;
+}
+
+function calculateQiblaBearing(latitude, longitude) {
+  const lat1 = toRadians(latitude);
+  const lon1 = toRadians(longitude);
+  const lat2 = toRadians(KAABA_COORDS.lat);
+  const lon2 = toRadians(KAABA_COORDS.lon);
+  const y = Math.sin(lon2 - lon1) * Math.cos(lat2);
+  const x = Math.cos(lat1) * Math.sin(lat2) - Math.sin(lat1) * Math.cos(lat2) * Math.cos(lon2 - lon1);
+  return normalizeAngle(toDegrees(Math.atan2(y, x)));
+}
 
 function InfoCard({ title, children, isDarkMode, tone = 'slate' }) {
   const tones = {
@@ -141,6 +201,11 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
   const [currentStepAyahs, setCurrentStepAyahs] = useState([]);
   const [currentAudioQueue, setCurrentAudioQueue] = useState([]);
   const [currentAudioIndex, setCurrentAudioIndex] = useState(0);
+  const [qiblaBearing, setQiblaBearing] = useState(null);
+  const [deviceHeading, setDeviceHeading] = useState(null);
+  const [locationError, setLocationError] = useState('');
+  const [compassError, setCompassError] = useState('');
+  const [needsCompassPermission, setNeedsCompassPermission] = useState(false);
   const audioRef = useRef(null);
 
   const currentStepData = prayerSteps[currentSlide];
@@ -166,6 +231,61 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
     setIsPlaying(false);
     setIsLoadingAudio(false);
   }, [currentSlide, step, selectedLearner]);
+
+  useEffect(() => {
+    if (step !== 'qibla_compass') return undefined;
+
+    let watchId = null;
+
+    if (navigator.geolocation) {
+      watchId = navigator.geolocation.watchPosition(
+        (position) => {
+          const { latitude, longitude } = position.coords;
+          setQiblaBearing(calculateQiblaBearing(latitude, longitude));
+          setLocationError('');
+        },
+        () => {
+          setLocationError(t.locationNeeded);
+        },
+        { enableHighAccuracy: true, maximumAge: 10000, timeout: 15000 }
+      );
+    } else {
+      setLocationError(t.locationNeeded);
+    }
+
+    return () => {
+      if (watchId != null) {
+        navigator.geolocation.clearWatch(watchId);
+      }
+    };
+  }, [step, t.locationNeeded]);
+
+  useEffect(() => {
+    if (step !== 'qibla_compass') return undefined;
+    setNeedsCompassPermission(
+      typeof window !== 'undefined'
+      && typeof window.DeviceOrientationEvent !== 'undefined'
+      && typeof window.DeviceOrientationEvent.requestPermission === 'function'
+    );
+
+    const onOrientation = (event) => {
+      const alpha = typeof event.webkitCompassHeading === 'number' ? event.webkitCompassHeading : event.alpha;
+      if (alpha == null) return;
+      const heading = typeof event.webkitCompassHeading === 'number' ? alpha : normalizeAngle(360 - alpha);
+      setDeviceHeading(heading);
+      setCompassError('');
+    };
+
+    if (typeof window !== 'undefined' && 'DeviceOrientationEvent' in window) {
+      window.addEventListener('deviceorientation', onOrientation, true);
+    } else {
+      setCompassError(t.qiblaAccuracy);
+    }
+
+    return () => {
+      window.removeEventListener('deviceorientation', onOrientation, true);
+    };
+  }, [step, t.qiblaAccuracy]);
 
   useEffect(() => {
     let isCancelled = false;
@@ -209,6 +329,22 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
     setSelectedPrayer(prayer);
     setCurrentSlide(0);
     setStep('ask_wudu');
+  };
+
+  const requestCompassPermission = async () => {
+    try {
+      if (typeof window !== 'undefined' && typeof window.DeviceOrientationEvent !== 'undefined' && typeof window.DeviceOrientationEvent.requestPermission === 'function') {
+        const permissionState = await window.DeviceOrientationEvent.requestPermission();
+        if (permissionState !== 'granted') {
+          setCompassError(t.qiblaAccuracy);
+        } else {
+          setNeedsCompassPermission(false);
+        }
+      }
+    } catch (error) {
+      console.error('Kompass-Permission konnte nicht angefragt werden.', error);
+      setCompassError(t.qiblaAccuracy);
+    }
   };
 
   const nextSlide = (listLength, onFinish) => {
@@ -403,7 +539,7 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
 
         <div className="flex flex-col w-full px-4 gap-4 mt-8">
           <button
-            onClick={() => { setCurrentSlide(0); setStep('prayer_guide'); }}
+            onClick={() => { setCurrentSlide(0); setStep('ask_qibla'); }}
             className="w-full bg-green-500 text-white font-bold text-xl py-5 rounded-3xl hover:bg-green-600 active:scale-95 transition-all shadow-lg flex items-center justify-center gap-3 cursor-pointer"
           >
             <CheckCircle2 size={24} /> {t.yesReady}
@@ -416,6 +552,107 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
             {t.showWudu}
           </button>
         </div>
+      </div>
+    );
+  }
+
+  if (step === 'ask_qibla') {
+    return (
+      <div className={`p-6 pb-24 flex flex-col items-center justify-center min-h-[80vh] text-center space-y-8 transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-blue-50/50'}`}>
+        <div className={`w-32 h-32 rounded-full flex items-center justify-center mb-4 shadow-inner transition-colors ${isDarkMode ? 'bg-slate-800' : 'bg-blue-100'}`}>
+          <Compass size={64} className="text-indigo-500" />
+        </div>
+        <h2 className={`text-3xl font-bold transition-colors ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>
+          {t.qiblaCheck}
+        </h2>
+
+        <div className="flex flex-col w-full px-4 gap-4 mt-8">
+          <button
+            onClick={() => { setCurrentSlide(0); setStep('prayer_guide'); }}
+            className="w-full bg-green-500 text-white font-bold text-xl py-5 rounded-3xl hover:bg-green-600 active:scale-95 transition-all shadow-lg flex items-center justify-center gap-3 cursor-pointer"
+          >
+            <CheckCircle2 size={24} /> {t.qiblaYes}
+          </button>
+
+          <button
+            onClick={() => setStep('qibla_compass')}
+            className={`w-full font-bold text-xl py-5 rounded-3xl border-2 transition-all shadow-sm cursor-pointer ${isDarkMode ? 'bg-slate-800 text-indigo-400 border-indigo-900/30' : 'bg-white text-indigo-600 border-indigo-200 hover:bg-indigo-50'}`}
+          >
+            {t.qiblaNo}
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  if (step === 'qibla_compass') {
+    const delta = qiblaBearing == null || deviceHeading == null
+      ? null
+      : normalizeAngle(qiblaBearing - deviceHeading);
+
+    return (
+      <div className={`p-6 pb-24 flex flex-col min-h-screen transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-indigo-50'}`}>
+        <div className="flex justify-between items-center mb-6">
+          <button onClick={() => setStep('ask_qibla')} className={`p-2 rounded-full shadow-sm cursor-pointer ${isDarkMode ? 'bg-slate-800' : 'bg-white'}`}>
+            <ChevronLeft size={24} className={isDarkMode ? 'text-white' : 'text-gray-600'} />
+          </button>
+          <h2 className={`text-xl font-black transition-colors ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{t.qiblaTitle}</h2>
+        </div>
+
+        <div className={`p-6 rounded-[2rem] border shadow-sm text-center space-y-4 ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-indigo-100'}`}>
+          <p className={`text-sm leading-relaxed ${isDarkMode ? 'text-slate-300' : 'text-gray-600'}`}>{t.qiblaHint}</p>
+
+          <div className="relative mx-auto w-56 h-56 rounded-full border-8 border-indigo-200 flex items-center justify-center bg-gradient-to-b from-indigo-100 to-white overflow-hidden">
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div
+                className="text-indigo-600 transition-transform duration-300"
+                style={{ transform: `rotate(${delta ?? 0}deg)` }}
+              >
+                <LocateFixed size={72} />
+              </div>
+            </div>
+            <div className="absolute top-3 text-[10px] font-black tracking-wider text-indigo-600">QIBLA</div>
+            <Compass size={28} className="text-slate-500" />
+          </div>
+
+          <div className={`grid grid-cols-2 gap-2 text-xs font-bold ${isDarkMode ? 'text-slate-200' : 'text-gray-700'}`}>
+            <div className={`p-3 rounded-xl ${isDarkMode ? 'bg-slate-900/60' : 'bg-indigo-50'}`}>
+              {t.qiblaDirection}: {qiblaBearing == null ? '—' : `${Math.round(qiblaBearing)}°`}
+            </div>
+            <div className={`p-3 rounded-xl ${isDarkMode ? 'bg-slate-900/60' : 'bg-indigo-50'}`}>
+              {t.qiblaHeading}: {deviceHeading == null ? '—' : `${Math.round(deviceHeading)}°`}
+            </div>
+          </div>
+
+          {!!locationError && <p className="text-xs text-red-500">{locationError}</p>}
+          {!!compassError && <p className="text-xs text-amber-500">{compassError}</p>}
+          <p className={`text-[11px] ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>{t.qiblaAccuracy}</p>
+
+          {needsCompassPermission && (
+            <button
+              onClick={requestCompassPermission}
+              className={`w-full py-3 rounded-2xl font-bold text-sm border transition-colors ${isDarkMode ? 'bg-slate-900 text-indigo-300 border-indigo-900/40' : 'bg-indigo-50 text-indigo-700 border-indigo-100'}`}
+            >
+              {t.requestCompass}
+            </button>
+          )}
+
+          <a
+            href="https://qiblafinder.withgoogle.com/"
+            target="_blank"
+            rel="noreferrer"
+            className={`inline-flex items-center gap-1 text-sm font-bold underline ${isDarkMode ? 'text-indigo-300' : 'text-indigo-700'}`}
+          >
+            {t.openQiblaFinder} <ExternalLink size={14} />
+          </a>
+        </div>
+
+        <button
+          onClick={() => { setCurrentSlide(0); setStep('prayer_guide'); }}
+          className="mt-6 w-full bg-green-500 text-white font-bold text-lg py-4 rounded-3xl hover:bg-green-600 active:scale-95 transition-all shadow-lg flex items-center justify-center gap-2"
+        >
+          <ArrowRight size={20} /> {t.next}
+        </button>
       </div>
     );
   }
@@ -452,7 +689,7 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
             <ChevronLeft size={32} />
           </button>
           <button
-            onClick={() => nextSlide(wuduSteps.length, () => setStep('prayer_guide'))}
+            onClick={() => nextSlide(wuduSteps.length, () => setStep('ask_qibla'))}
             className="flex-1 bg-blue-500 text-white font-bold text-xl py-5 rounded-3xl shadow-lg hover:bg-blue-600 active:scale-[0.98] flex items-center justify-center gap-2 cursor-pointer"
           >
             {currentSlide === wuduSteps.length - 1 ? t.startPrayer : t.next}
