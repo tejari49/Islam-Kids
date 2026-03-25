@@ -33,16 +33,10 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: |
-          npm config set include dev
-          npm ci --include=dev --legacy-peer-deps
-          npm install --no-save vite @vitejs/plugin-react @tailwindcss/vite vite-plugin-pwa tailwindcss --legacy-peer-deps
-        env:
-          NODE_ENV: development
-          NPM_CONFIG_OMIT: ""
+        run: npm ci --include=dev --legacy-peer-deps
 
       - name: Build
-        run: npx vite build
+        run: npx --yes --package vite --package @vitejs/plugin-react --package @tailwindcss/vite --package vite-plugin-pwa --package tailwindcss vite build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
