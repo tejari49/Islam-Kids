@@ -36,15 +36,13 @@ jobs:
         run: |
           npm config set include dev
           npm ci --include=dev --legacy-peer-deps
-          if [ ! -x node_modules/.bin/vite ]; then
-            npm install --no-save vite @vitejs/plugin-react @tailwindcss/vite vite-plugin-pwa tailwindcss
-          fi
+          npm install --no-save vite @vitejs/plugin-react @tailwindcss/vite vite-plugin-pwa tailwindcss --legacy-peer-deps
         env:
           NODE_ENV: development
           NPM_CONFIG_OMIT: ""
 
       - name: Build
-        run: npm run build
+        run: npx vite build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
