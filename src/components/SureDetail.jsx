@@ -124,7 +124,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   const audioRef = useRef(null);
   const hasIncremented = useRef(false);
 
-  const verses = surahBundle?.verses || [];
+  const verses = useMemo(() => surahBundle?.verses || [], [surahBundle?.verses]);
 
   useEffect(() => {
     if (['de', 'al', 'tr'].includes(selectedLang)) {
