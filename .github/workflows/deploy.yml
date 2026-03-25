@@ -38,7 +38,7 @@ jobs:
           test -x node_modules/.bin/vite
 
       - name: Build
-        run: npm run build
+        run: npx --yes --package vite --package @vitejs/plugin-react --package @tailwindcss/vite --package vite-plugin-pwa --package tailwindcss vite build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
