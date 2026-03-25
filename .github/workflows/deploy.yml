@@ -34,12 +34,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci --include=dev --legacy-peer-deps
-        env:
-          NODE_ENV: development
-          NPM_CONFIG_PRODUCTION: "false"
 
       - name: Build
-        run: npm run build
+        run: npx --yes --package vite --package @vitejs/plugin-react --package @tailwindcss/vite --package vite-plugin-pwa --package tailwindcss vite build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
