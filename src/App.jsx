@@ -72,6 +72,13 @@ export default function App() {
   const [selectedSure, setSelectedSure] = useState(null);
   const [selectedFeature, setSelectedFeature] = useState(null);
   const [showChangelog, setShowChangelog] = useState(() => localStorage.getItem('seenChangelogVersion') !== CHANGELOG_VERSION);
+  const [fontScale, setFontScale] = useState(() => {
+    const saved = Number(localStorage.getItem('fontScalePercent'));
+    if (Number.isFinite(saved) && saved >= 85 && saved <= 120) {
+      return saved;
+    }
+    return 100;
+  });
 
   const [isDarkMode, setIsDarkMode] = useState(() => localStorage.getItem('theme') === 'dark');
   const [favorites, setFavorites] = useState(() => {
@@ -106,6 +113,14 @@ export default function App() {
       document.documentElement.classList.remove('dark');
     }
   }, [isDarkMode]);
+
+  useEffect(() => {
+    localStorage.setItem('fontScalePercent', String(fontScale));
+    document.documentElement.style.fontSize = `${fontScale}%`;
+    return () => {
+      document.documentElement.style.fontSize = '';
+    };
+  }, [fontScale]);
 
   useEffect(() => {
     localStorage.setItem('favorites', JSON.stringify(favorites));
@@ -150,6 +165,14 @@ export default function App() {
     const langs = ['de', 'al', 'tr'];
     const currentIndex = langs.indexOf(selectedLang);
     setSelectedLang(langs[(currentIndex + 1) % langs.length]);
+  };
+
+  const increaseFont = () => {
+    setFontScale((prev) => Math.min(prev + 5, 120));
+  };
+
+  const decreaseFont = () => {
+    setFontScale((prev) => Math.max(prev - 5, 85));
   };
 
   const clearSelections = React.useCallback(() => {
@@ -210,13 +233,29 @@ export default function App() {
     <div className={`max-w-md mx-auto min-h-screen font-sans relative overflow-hidden transition-colors duration-300 ${isDarkMode ? 'bg-slate-900 text-slate-100' : 'bg-gray-50 text-gray-900'}`}>
       <div className={`p-4 shadow-sm flex flex-col z-10 relative transition-colors ${isDarkMode ? 'bg-slate-800 border-b border-slate-700' : 'bg-white'}`}>
         <div className="flex flex-row items-center justify-between w-full mb-3">
-          <button 
-            onClick={() => setIsDarkMode(!isDarkMode)}
-            className={`p-2 rounded-full transition-all ${isDarkMode ? 'bg-slate-700 text-yellow-400' : 'bg-gray-100 text-gray-600'}`}
-            title={isDarkMode ? 'Tag-Modus' : 'Nacht-Modus'}
-          >
-            {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
-          </button>
+          <div className="flex items-center gap-1">
+            <button
+              onClick={decreaseFont}
+              className={`w-8 h-8 rounded-full transition-all font-black active:scale-95 ${isDarkMode ? 'bg-slate-700 text-slate-200' : 'bg-gray-100 text-gray-700'}`}
+              title="Schrift kleiner"
+            >
+              A
+            </button>
+            <button
+              onClick={increaseFont}
+              className={`w-9 h-9 rounded-full transition-all font-black text-lg active:scale-95 ${isDarkMode ? 'bg-slate-700 text-white' : 'bg-gray-100 text-gray-800'}`}
+              title="Schrift größer"
+            >
+              A
+            </button>
+            <button 
+              onClick={() => setIsDarkMode(!isDarkMode)}
+              className={`p-2 rounded-full transition-all ${isDarkMode ? 'bg-slate-700 text-yellow-400' : 'bg-gray-100 text-gray-600'}`}
+              title={isDarkMode ? 'Tag-Modus' : 'Nacht-Modus'}
+            >
+              {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+            </button>
+          </div>
 
           <h1 className="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-600">
             IslamKids
