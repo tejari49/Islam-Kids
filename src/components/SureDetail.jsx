@@ -1,13 +1,12 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { ChevronLeft, Heart, BookOpen, Share2, Play, Pause, Loader2, Volume2, AlertCircle, ScrollText, Languages } from 'lucide-react';
-import { fetchSurahBundle } from '../utils/quranAudio';
+import { ChevronLeft, Heart, BookOpen, Share2, Play, Pause, Loader2, Volume2, AlertCircle, ScrollText, Languages, ChevronDown } from 'lucide-react';
+import { fetchAyahQueue, fetchSurahBundle } from '../utils/quranAudio';
 
 const LABELS = {
   de: {
     back: 'Zurück',
     share: 'Teilen',
     listen: 'Anhören',
-    meaning: 'Bedeutung',
     verses: 'Verse',
     revelation: 'Offenbarung',
     pronunciation: 'Aussprache',
@@ -21,15 +20,19 @@ const LABELS = {
     meccan: 'Mekkanisch',
     medinan: 'Medinensisch',
     textLanguage: 'Textsprache',
-    arabicOnly: 'Nur Arabisch',
-    playerTitle: 'Rezitation der ganzen Sure',
-    copied: 'Link kopiert'
+    playerTitle: 'Rezitation der Sure (Aya für Aya)',
+    copied: 'Link kopiert',
+    showFullText: 'Volltext anzeigen',
+    hideFullText: 'Volltext ausblenden',
+    marqueeOn: 'Laufschrift an',
+    marqueeOff: 'Laufschrift aus',
+    wordHighlight: 'Wort-Highlight aktiv',
+    currentAyah: 'Aktuelle Aya'
   },
   al: {
     back: 'Mbrapa',
     share: 'Shpërndo',
     listen: 'Dëgjo',
-    meaning: 'Kuptimi',
     verses: 'Ajete',
     revelation: 'Shpallja',
     pronunciation: 'Shqiptimi',
@@ -43,15 +46,19 @@ const LABELS = {
     meccan: 'Mekase',
     medinan: 'Medinase',
     textLanguage: 'Gjuha e tekstit',
-    arabicOnly: 'Vetëm arabisht',
-    playerTitle: 'Recitim i gjithë sures',
-    copied: 'Lidhja u kopjua'
+    playerTitle: 'Recitim i sures (ajet pas ajeti)',
+    copied: 'Lidhja u kopjua',
+    showFullText: 'Shfaq tekstin e plotë',
+    hideFullText: 'Fshih tekstin e plotë',
+    marqueeOn: 'Tekst rrjedhës aktiv',
+    marqueeOff: 'Tekst rrjedhës joaktiv',
+    wordHighlight: 'Theksimi i fjalës aktiv',
+    currentAyah: 'Ajeti aktual'
   },
   tr: {
     back: 'Geri',
     share: 'Paylaş',
     listen: 'Dinle',
-    meaning: 'Anlamı',
     verses: 'Ayet',
     revelation: 'Nüzul',
     pronunciation: 'Okunuş',
@@ -65,9 +72,14 @@ const LABELS = {
     meccan: 'Mekkî',
     medinan: 'Medenî',
     textLanguage: 'Metin dili',
-    arabicOnly: 'Sadece Arapça',
-    playerTitle: 'Surenin tamamının kıraati',
-    copied: 'Bağlantı kopyalandı'
+    playerTitle: 'Sure kıraati (ayet ayet)',
+    copied: 'Bağlantı kopyalandı',
+    showFullText: 'Tam metni göster',
+    hideFullText: 'Tam metni gizle',
+    marqueeOn: 'Kayan yazı açık',
+    marqueeOff: 'Kayan yazı kapalı',
+    wordHighlight: 'Kelime vurgulama aktif',
+    currentAyah: 'Aktif ayet'
   }
 };
 
@@ -85,6 +97,13 @@ function formatRevelation(value, labels) {
   return value;
 }
 
+function tokenizeArabicText(text = '') {
+  return text
+    .split(/(\s+)/)
+    .filter((token) => token.length > 0)
+    .map((token) => ({ text: token, isSpace: /^\s+$/.test(token) }));
+}
+
 export default function SureDetail({ item, onBack, selectedLang, isDarkMode, favorites, toggleFavorite, incrementStat }) {
   const labels = LABELS[selectedLang] || LABELS.de;
   const [translationLang, setTranslationLang] = useState(['de', 'al', 'tr'].includes(selectedLang) ? selectedLang : 'de');
@@ -95,8 +114,17 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   const [surahBundle, setSurahBundle] = useState(null);
   const [isLoadingSurah, setIsLoadingSurah] = useState(true);
   const [loadError, setLoadError] = useState('');
+  const [currentAyahIndex, setCurrentAyahIndex] = useState(0);
+  const [currentWordIndex, setCurrentWordIndex] = useState(-1);
+  const [isLoadingAudio, setIsLoadingAudio] = useState(false);
+  const [audioQueue, setAudioQueue] = useState([]);
+  const [showFullText, setShowFullText] = useState(true);
+  const [marqueeEnabled, setMarqueeEnabled] = useState(false);
+
   const audioRef = useRef(null);
   const hasIncremented = useRef(false);
+
+  const verses = surahBundle?.verses || [];
 
   useEffect(() => {
     if (['de', 'al', 'tr'].includes(selectedLang)) {
@@ -112,6 +140,86 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   }, [incrementStat]);
 
   useEffect(() => {
+    const audio = new Audio();
+    audio.crossOrigin = 'anonymous';
+    audioRef.current = audio;
+
+    const setAudioData = () => setDuration(audio.duration || 0);
+    const setAudioTime = () => setCurrentTime(audio.currentTime || 0);
+    const setBuffering = () => setIsBuffering(true);
+    const clearBuffering = () => setIsBuffering(false);
+
+    const updateWordHighlight = () => {
+      const verse = verses[currentAyahIndex];
+      if (!verse?.arabic) {
+        setCurrentWordIndex(-1);
+        return;
+      }
+      const words = tokenizeArabicText(verse.arabic).filter((token) => !token.isSpace);
+      const localDuration = audio.duration || 0;
+      const localTime = audio.currentTime || 0;
+      if (!words.length || !localDuration) {
+        setCurrentWordIndex(-1);
+        return;
+      }
+      const progress = Math.min(Math.max(localTime / localDuration, 0), 0.999999);
+      setCurrentWordIndex(Math.floor(progress * words.length));
+    };
+
+    const onEnded = async () => {
+      if (currentAyahIndex < audioQueue.length - 1) {
+        const nextIndex = currentAyahIndex + 1;
+        const nextUrl = audioQueue[nextIndex];
+        if (!nextUrl) {
+          setIsPlaying(false);
+          return;
+        }
+        setCurrentAyahIndex(nextIndex);
+        setCurrentWordIndex(0);
+        audio.src = nextUrl;
+        audio.load();
+        try {
+          await audio.play();
+          setIsPlaying(true);
+        } catch (error) {
+          console.error('Nächste Aya konnte nicht abgespielt werden.', error);
+          setIsPlaying(false);
+          setCurrentWordIndex(-1);
+        }
+        return;
+      }
+      setIsPlaying(false);
+      setCurrentWordIndex(-1);
+      setCurrentTime(0);
+      setCurrentAyahIndex(0);
+      audio.currentTime = 0;
+    };
+
+    const onPause = () => setIsPlaying(false);
+
+    audio.addEventListener('loadeddata', setAudioData);
+    audio.addEventListener('timeupdate', setAudioTime);
+    audio.addEventListener('timeupdate', updateWordHighlight);
+    audio.addEventListener('waiting', setBuffering);
+    audio.addEventListener('playing', clearBuffering);
+    audio.addEventListener('canplay', clearBuffering);
+    audio.addEventListener('ended', onEnded);
+    audio.addEventListener('pause', onPause);
+
+    return () => {
+      audio.pause();
+      audio.removeEventListener('loadeddata', setAudioData);
+      audio.removeEventListener('timeupdate', setAudioTime);
+      audio.removeEventListener('timeupdate', updateWordHighlight);
+      audio.removeEventListener('waiting', setBuffering);
+      audio.removeEventListener('playing', clearBuffering);
+      audio.removeEventListener('canplay', clearBuffering);
+      audio.removeEventListener('ended', onEnded);
+      audio.removeEventListener('pause', onPause);
+    };
+  }, [audioQueue, currentAyahIndex, verses]);
+
+  useEffect(() => {
     let cancelled = false;
 
     const loadSurah = async () => {
@@ -122,6 +230,16 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
         const data = await fetchSurahBundle(item.id, translationLang);
         if (!cancelled) {
           setSurahBundle(data);
+          setAudioQueue([]);
+          setCurrentAyahIndex(0);
+          setCurrentWordIndex(-1);
+          setCurrentTime(0);
+          setDuration(0);
+          if (audioRef.current) {
+            audioRef.current.pause();
+            audioRef.current.removeAttribute('src');
+            audioRef.current.load();
+          }
         }
       } catch (error) {
         console.error('Fehler beim Laden der vollständigen Sure:', error);
@@ -143,49 +261,35 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
     };
   }, [item.id, translationLang, labels.error]);
 
-  useEffect(() => {
-    const surahAudioUrl = surahBundle?.surahAudioUrl;
+  const loadAudioQueue = async () => {
+    if (!verses.length) return [];
+    const ayahRefs = verses.map((verse) => verse.ayahRef).filter(Boolean);
+    if (!ayahRefs.length) return [];
 
-    if (!surahAudioUrl) {
-      if (audioRef.current) {
-        audioRef.current.pause();
-      }
-      return undefined;
+    setIsLoadingAudio(true);
+    try {
+      const ayahs = await fetchAyahQueue(ayahRefs);
+      const urls = ayahs.map((ayah) => ayah.audio).filter(Boolean);
+      setAudioQueue(urls);
+      return urls;
+    } catch (error) {
+      console.error('Sure-Audio konnte nicht als Aya-Queue geladen werden.', error);
+      return [];
+    } finally {
+      setIsLoadingAudio(false);
     }
+  };
 
-    const audio = new Audio(surahAudioUrl);
-    audio.crossOrigin = 'anonymous';
-    audioRef.current = audio;
+  const startAyah = async (index, queue = audioQueue) => {
+    if (!audioRef.current || !queue[index]) return;
+    setCurrentAyahIndex(index);
+    setCurrentWordIndex(0);
     setCurrentTime(0);
-    setDuration(0);
-    setIsPlaying(false);
-
-    const setAudioData = () => setDuration(audio.duration || 0);
-    const setAudioTime = () => setCurrentTime(audio.currentTime || 0);
-    const setBuffering = () => setIsBuffering(true);
-    const clearBuffering = () => setIsBuffering(false);
-    const onEnded = () => setIsPlaying(false);
-    const onPause = () => setIsPlaying(false);
-
-    audio.addEventListener('loadeddata', setAudioData);
-    audio.addEventListener('timeupdate', setAudioTime);
-    audio.addEventListener('waiting', setBuffering);
-    audio.addEventListener('playing', clearBuffering);
-    audio.addEventListener('canplay', clearBuffering);
-    audio.addEventListener('ended', onEnded);
-    audio.addEventListener('pause', onPause);
-
-    return () => {
-      audio.pause();
-      audio.removeEventListener('loadeddata', setAudioData);
-      audio.removeEventListener('timeupdate', setAudioTime);
-      audio.removeEventListener('waiting', setBuffering);
-      audio.removeEventListener('playing', clearBuffering);
-      audio.removeEventListener('canplay', clearBuffering);
-      audio.removeEventListener('ended', onEnded);
-      audio.removeEventListener('pause', onPause);
-    };
-  }, [surahBundle?.surahAudioUrl]);
+    audioRef.current.src = queue[index];
+    audioRef.current.load();
+    await audioRef.current.play();
+    setIsPlaying(true);
+  };
 
   const togglePlay = async () => {
     if (!audioRef.current) return;
@@ -194,10 +298,18 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
       if (isPlaying) {
         audioRef.current.pause();
         setIsPlaying(false);
-      } else {
-        await audioRef.current.play();
-        setIsPlaying(true);
+        return;
       }
+
+      const queue = audioQueue.length ? audioQueue : await loadAudioQueue();
+      if (!queue.length) return;
+
+      if (audioRef.current.src) {
+        await audioRef.current.play();
+      } else {
+        await startAyah(currentAyahIndex, queue);
+      }
+      setIsPlaying(true);
     } catch (error) {
       console.error('Audio konnte nicht abgespielt werden.', error);
       setIsPlaying(false);
@@ -244,166 +356,225 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   }, [surahBundle?.revelationType, item.revelation, labels]);
 
   const renderedPronunciation = surahBundle?.englishName || item.title?.de?.replace('Sure ', '') || '';
-  const verses = surahBundle?.verses || [];
   const hasTranslation = translationLang !== 'ar' && verses.some((verse) => Boolean(verse.translation));
 
   return (
-    <div className={`p-6 pb-40 min-h-screen transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-gray-50'}`}>
-      <div className="flex justify-between items-center mb-8">
-        <button onClick={onBack} className={`p-3 rounded-2xl shadow-sm transition-all active:scale-90 ${isDarkMode ? 'bg-slate-800 text-white' : 'bg-white text-gray-600'}`} title={labels.back}>
-          <ChevronLeft size={24} />
+    <div className={`p-4 pb-36 min-h-screen transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-gray-50'}`}>
+      <div className="flex justify-between items-center mb-5">
+        <button onClick={onBack} className={`p-2.5 rounded-2xl shadow-sm transition-all active:scale-90 ${isDarkMode ? 'bg-slate-800 text-white' : 'bg-white text-gray-600'}`} title={labels.back}>
+          <ChevronLeft size={20} />
         </button>
         <div className="flex gap-2">
-          <button onClick={handleShare} className={`p-3 rounded-2xl transition-all ${isDarkMode ? 'bg-slate-800 text-white' : 'bg-white text-gray-500'}`} title={labels.share}>
-            <Share2 size={24} />
+          <button onClick={handleShare} className={`p-2.5 rounded-2xl transition-all ${isDarkMode ? 'bg-slate-800 text-white' : 'bg-white text-gray-500'}`} title={labels.share}>
+            <Share2 size={20} />
           </button>
           <button
             onClick={() => toggleFavorite('suren', item.id)}
-            className={`p-3 rounded-2xl shadow-sm transition-all active:scale-90 ${favorites.suren?.includes(item.id) ? 'bg-red-50 text-red-500' : (isDarkMode ? 'bg-slate-800 text-slate-500' : 'bg-white text-gray-300')}`}
+            className={`p-2.5 rounded-2xl shadow-sm transition-all active:scale-90 ${favorites.suren?.includes(item.id) ? 'bg-red-50 text-red-500' : (isDarkMode ? 'bg-slate-800 text-slate-500' : 'bg-white text-gray-300')}`}
           >
-            <Heart size={24} fill={favorites.suren?.includes(item.id) ? 'currentColor' : 'none'} />
+            <Heart size={20} fill={favorites.suren?.includes(item.id) ? 'currentColor' : 'none'} />
           </button>
         </div>
       </div>
 
-      <div className={`p-8 rounded-[3rem] shadow-xl space-y-8 border-2 ${isDarkMode ? 'bg-slate-800 border-green-900/20 shadow-slate-950/50' : 'bg-white border-green-50 shadow-green-900/5'}`}>
-        <div className="flex flex-col items-center text-center space-y-4">
-          <div className="w-20 h-20 bg-green-500 rounded-3xl flex items-center justify-center text-white text-3xl shadow-lg shadow-green-500/20">
-            <BookOpen size={40} />
+      <div className={`p-5 rounded-[2rem] shadow-xl space-y-5 border ${isDarkMode ? 'bg-slate-800 border-green-900/20 shadow-slate-950/50' : 'bg-white border-green-50 shadow-green-900/5'}`}>
+        <div className="flex flex-col items-center text-center space-y-3">
+          <div className="w-14 h-14 bg-green-500 rounded-2xl flex items-center justify-center text-white shadow-lg shadow-green-500/20">
+            <BookOpen size={28} />
           </div>
-          <h2 className={`text-4xl font-black ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{item.title[selectedLang]}</h2>
-          <div className={`text-3xl font-arabic leading-relaxed ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
+          <h2 className={`text-2xl font-black ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{item.title[selectedLang]}</h2>
+          <div className={`text-2xl font-arabic leading-relaxed ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
             {surahBundle?.arabicName || item.arabic || '—'}
           </div>
-          <div className={`px-4 py-1 rounded-full text-[10px] font-black tracking-widest ${isDarkMode ? 'bg-green-900/30 text-green-400' : 'bg-green-50 text-green-600'}`}>
-            SURE {item.id}
-          </div>
-          <div className="flex flex-wrap justify-center gap-2">
-            <div className={`px-4 py-2 rounded-full text-xs font-bold ${isDarkMode ? 'bg-slate-700 text-slate-200' : 'bg-gray-100 text-gray-700'}`}>
+          <div className="flex flex-wrap justify-center gap-2 text-xs">
+            <div className={`px-3 py-1.5 rounded-full font-bold ${isDarkMode ? 'bg-slate-700 text-slate-200' : 'bg-gray-100 text-gray-700'}`}>
               {labels.verses}: {surahBundle?.versesCount || item.verses}
             </div>
             {renderedRevelation && (
-              <div className={`px-4 py-2 rounded-full text-xs font-bold ${isDarkMode ? 'bg-slate-700 text-slate-200' : 'bg-gray-100 text-gray-700'}`}>
+              <div className={`px-3 py-1.5 rounded-full font-bold ${isDarkMode ? 'bg-slate-700 text-slate-200' : 'bg-gray-100 text-gray-700'}`}>
                 {labels.revelation}: {renderedRevelation}
               </div>
             )}
           </div>
         </div>
 
-        <div className={`p-5 rounded-[2rem] ${isDarkMode ? 'bg-slate-900/50' : 'bg-green-50/50'}`}>
-          <div className="flex items-center gap-2 mb-3">
-            <Languages size={18} className={isDarkMode ? 'text-green-300' : 'text-green-700'} />
-            <div className={`text-xs font-black uppercase tracking-widest ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>{labels.textLanguage}</div>
+        <div className={`p-4 rounded-2xl ${isDarkMode ? 'bg-slate-900/50' : 'bg-green-50/50'}`}>
+          <div className="flex items-center gap-2 mb-2">
+            <Languages size={16} className={isDarkMode ? 'text-green-300' : 'text-green-700'} />
+            <div className={`text-[11px] font-black uppercase tracking-widest ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>{labels.textLanguage}</div>
           </div>
           <div className="flex flex-wrap gap-2">
             {TRANSLATION_OPTIONS.map((option) => (
               <button
                 key={option.value}
                 onClick={() => setTranslationLang(option.value)}
-                className={`px-4 py-2 rounded-full text-sm font-black transition-all ${translationLang === option.value
+                className={`px-3 py-1.5 rounded-full text-xs font-black transition-all ${translationLang === option.value
                   ? 'bg-green-500 text-white shadow-lg shadow-green-500/20'
                   : (isDarkMode ? 'bg-slate-800 text-slate-300' : 'bg-white text-gray-600 border border-gray-200')}`}
               >
                 {option.label}
               </button>
             ))}
+            <button
+              onClick={() => setMarqueeEnabled((prev) => !prev)}
+              className={`px-3 py-1.5 rounded-full text-xs font-black transition-all ${marqueeEnabled
+                ? 'bg-indigo-500 text-white'
+                : (isDarkMode ? 'bg-slate-800 text-slate-300' : 'bg-white text-gray-600 border border-gray-200')}`}
+            >
+              {marqueeEnabled ? labels.marqueeOn : labels.marqueeOff}
+            </button>
           </div>
         </div>
 
-        <div className={`grid grid-cols-1 gap-4 ${isDarkMode ? 'text-slate-300' : 'text-gray-700'}`}>
-          <div className={`p-5 rounded-[2rem] ${isDarkMode ? 'bg-slate-900/50' : 'bg-green-50/50'}`}>
-            <div className={`text-xs font-black uppercase tracking-widest mb-2 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>{labels.pronunciation}</div>
-            <div className="text-lg font-bold">{renderedPronunciation}</div>
+        <div className={`grid grid-cols-1 gap-3 ${isDarkMode ? 'text-slate-300' : 'text-gray-700'}`}>
+          <div className={`p-4 rounded-2xl ${isDarkMode ? 'bg-slate-900/50' : 'bg-green-50/50'}`}>
+            <div className={`text-[11px] font-black uppercase tracking-widest mb-1 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>{labels.pronunciation}</div>
+            <div className="text-base font-bold">{renderedPronunciation}</div>
           </div>
-          <div className={`p-5 rounded-[2rem] ${isDarkMode ? 'bg-slate-900/50' : 'bg-green-50/50'}`}>
-            <div className={`text-xs font-black uppercase tracking-widest mb-2 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>{labels.explanation}</div>
-            <div className="text-base leading-relaxed">{item.meaning[selectedLang]}</div>
+          <div className={`p-4 rounded-2xl ${isDarkMode ? 'bg-slate-900/50' : 'bg-green-50/50'}`}>
+            <div className={`text-[11px] font-black uppercase tracking-widest mb-1 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>{labels.explanation}</div>
+            <div className="text-sm leading-relaxed">{item.meaning[selectedLang]}</div>
           </div>
         </div>
 
-        <div className="space-y-5">
-          <div className="flex items-center gap-3">
-            <ScrollText className={isDarkMode ? 'text-green-400' : 'text-green-600'} size={20} />
-            <h3 className={`text-lg font-black ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{labels.completeText}</h3>
-          </div>
+        <div className="space-y-4">
+          <button
+            onClick={() => setShowFullText((prev) => !prev)}
+            className={`w-full flex items-center justify-between p-3 rounded-2xl border transition-all ${isDarkMode ? 'bg-slate-900/50 border-slate-700 text-slate-200' : 'bg-gray-50 border-gray-200 text-gray-700'}`}
+          >
+            <span className="flex items-center gap-2 font-black text-sm">
+              <ScrollText size={16} className={isDarkMode ? 'text-green-400' : 'text-green-600'} />
+              {labels.completeText}
+            </span>
+            <span className="flex items-center gap-2 text-xs font-bold">
+              {showFullText ? labels.hideFullText : labels.showFullText}
+              <ChevronDown size={16} className={`transition-transform ${showFullText ? 'rotate-180' : ''}`} />
+            </span>
+          </button>
 
           {isLoadingSurah && (
-            <div className={`p-8 rounded-[2rem] flex items-center justify-center gap-3 ${isDarkMode ? 'bg-slate-900/50 text-slate-300' : 'bg-gray-50 text-gray-600'}`}>
-              <Loader2 className="animate-spin" size={20} />
-              <span className="font-medium">{labels.loading}</span>
+            <div className={`p-6 rounded-2xl flex items-center justify-center gap-3 ${isDarkMode ? 'bg-slate-900/50 text-slate-300' : 'bg-gray-50 text-gray-600'}`}>
+              <Loader2 className="animate-spin" size={18} />
+              <span className="text-sm font-medium">{labels.loading}</span>
             </div>
           )}
 
           {loadError && !isLoadingSurah && (
-            <div className={`p-5 rounded-[2rem] flex items-start gap-3 ${isDarkMode ? 'bg-red-950/30 text-red-200' : 'bg-red-50 text-red-700'}`}>
-              <AlertCircle size={20} className="mt-0.5 shrink-0" />
-              <span className="font-medium">{loadError}</span>
+            <div className={`p-4 rounded-2xl flex items-start gap-3 ${isDarkMode ? 'bg-red-950/30 text-red-200' : 'bg-red-50 text-red-700'}`}>
+              <AlertCircle size={18} className="mt-0.5 shrink-0" />
+              <span className="text-sm font-medium">{loadError}</span>
             </div>
           )}
 
-          {!isLoadingSurah && surahBundle && (
+          {!isLoadingSurah && surahBundle && showFullText && (
             <>
               {translationLang !== 'ar' && surahBundle.translationEdition && (
-                <div className={`px-4 py-3 rounded-2xl text-sm font-semibold ${isDarkMode ? 'bg-slate-900/50 text-slate-300' : 'bg-green-50 text-green-800'}`}>
+                <div className={`px-4 py-2 rounded-xl text-xs font-semibold ${isDarkMode ? 'bg-slate-900/50 text-slate-300' : 'bg-green-50 text-green-800'}`}>
                   {labels.translationSource}: {surahBundle.translationEdition}
                 </div>
               )}
 
               {translationLang !== 'ar' && !hasTranslation && (
-                <div className={`px-4 py-3 rounded-2xl text-sm font-semibold ${isDarkMode ? 'bg-yellow-950/30 text-yellow-200' : 'bg-yellow-50 text-yellow-800'}`}>
+                <div className={`px-4 py-2 rounded-xl text-xs font-semibold ${isDarkMode ? 'bg-yellow-950/30 text-yellow-200' : 'bg-yellow-50 text-yellow-800'}`}>
                   {labels.noTranslation}
                 </div>
               )}
 
-              <div className="space-y-4">
-                {verses.map((verse) => (
-                  <div key={verse.number || verse.numberInSurah} className={`p-5 rounded-[2rem] border ${isDarkMode ? 'bg-slate-900/40 border-slate-700' : 'bg-gray-50 border-gray-100'}`}>
-                    <div className="flex items-center justify-between gap-3 mb-4">
-                      <div className={`w-10 h-10 rounded-2xl flex items-center justify-center text-sm font-black ${isDarkMode ? 'bg-slate-700 text-green-300' : 'bg-white text-green-700 shadow-sm'}`}>
-                        {verse.numberInSurah}
+              <div className="space-y-3">
+                {verses.map((verse, index) => {
+                  const isCurrentAyah = index === currentAyahIndex && isPlaying;
+                  const tokens = tokenizeArabicText(verse.arabic);
+                  let highlightedWordCounter = -1;
+
+                  return (
+                    <div
+                      key={verse.number || verse.numberInSurah}
+                      className={`p-4 rounded-2xl border transition-colors ${isCurrentAyah
+                        ? (isDarkMode ? 'bg-emerald-900/20 border-emerald-500/30' : 'bg-emerald-50 border-emerald-200')
+                        : (isDarkMode ? 'bg-slate-900/40 border-slate-700' : 'bg-gray-50 border-gray-100')}`}
+                    >
+                      <div className="flex items-center justify-between gap-2 mb-2">
+                        <div className={`w-8 h-8 rounded-xl flex items-center justify-center text-xs font-black ${isDarkMode ? 'bg-slate-700 text-green-300' : 'bg-white text-green-700 shadow-sm'}`}>
+                          {verse.numberInSurah}
+                        </div>
+                        {isCurrentAyah && (
+                          <span className={`text-[10px] font-black uppercase tracking-wider ${isDarkMode ? 'text-emerald-300' : 'text-emerald-700'}`}>
+                            {labels.currentAyah}
+                          </span>
+                        )}
                       </div>
+
+                      {marqueeEnabled ? (
+                        <div className={`surah-marquee-track ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
+                          <div className="surah-marquee-content font-arabic text-2xl">
+                            {verse.arabic}
+                          </div>
+                        </div>
+                      ) : (
+                        <p className={`text-2xl leading-[2.8rem] text-right mb-3 font-arabic ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
+                          {tokens.map((token, tokenIndex) => {
+                            if (token.isSpace) {
+                              return <span key={`${token.text}-${tokenIndex}`}>{token.text}</span>;
+                            }
+
+                            highlightedWordCounter += 1;
+                            const isWordHighlighted = isCurrentAyah && highlightedWordCounter === currentWordIndex;
+                            return (
+                              <span
+                                key={`${token.text}-${tokenIndex}`}
+                                className={isWordHighlighted ? 'bg-yellow-300/80 text-slate-900 rounded px-0.5 transition-colors' : ''}
+                              >
+                                {token.text}
+                              </span>
+                            );
+                          })}
+                        </p>
+                      )}
+
+                      {translationLang !== 'ar' && verse.translation && (
+                        <div className={`pt-3 border-t ${isDarkMode ? 'border-slate-700 text-slate-200' : 'border-gray-200 text-gray-700'}`}>
+                          <div className={`text-[10px] font-black uppercase tracking-widest mb-1 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>{labels.translation}</div>
+                          <p className="text-sm leading-relaxed">{verse.translation}</p>
+                        </div>
+                      )}
                     </div>
-                    <p className={`text-3xl leading-[3.4rem] text-right mb-4 ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
-                      {verse.arabic}
-                    </p>
-                    {translationLang !== 'ar' && verse.translation && (
-                      <div className={`pt-4 border-t ${isDarkMode ? 'border-slate-700 text-slate-200' : 'border-gray-200 text-gray-700'}`}>
-                        <div className={`text-[10px] font-black uppercase tracking-widest mb-2 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>{labels.translation}</div>
-                        <p className="text-base leading-relaxed">{verse.translation}</p>
-                      </div>
-                    )}
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </>
           )}
         </div>
       </div>
 
-      {surahBundle?.surahAudioUrl && !isLoadingSurah && (
+      {surahBundle && !isLoadingSurah && (
         <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md px-4 pb-4 z-30">
-          <div className={`rounded-[2rem] border shadow-2xl p-4 ${isDarkMode ? 'bg-slate-900/95 border-slate-700 backdrop-blur' : 'bg-white/95 border-gray-200 backdrop-blur'}`}>
-            <div className="flex items-center gap-4">
+          <div className={`rounded-[1.5rem] border shadow-2xl p-3 ${isDarkMode ? 'bg-slate-900/95 border-slate-700 backdrop-blur' : 'bg-white/95 border-gray-200 backdrop-blur'}`}>
+            <div className="flex items-center gap-3">
               <button
                 onClick={togglePlay}
-                className={`w-14 h-14 rounded-2xl flex items-center justify-center shadow-lg transition-all active:scale-90 ${
+                className={`w-12 h-12 rounded-xl flex items-center justify-center shadow-lg transition-all active:scale-90 ${
                   isPlaying ? 'bg-red-500 shadow-red-500/20' : 'bg-green-500 shadow-green-500/20'
                 } text-white`}
                 title={labels.listen}
+                disabled={isLoadingAudio}
               >
-                {isBuffering && !isPlaying ? (
-                  <Loader2 className="animate-spin" size={26} />
+                {(isBuffering || isLoadingAudio) && !isPlaying ? (
+                  <Loader2 className="animate-spin" size={22} />
                 ) : isPlaying ? (
-                  <Pause size={26} />
+                  <Pause size={22} />
                 ) : (
-                  <Play size={26} className="ml-1" />
+                  <Play size={22} className="ml-0.5" />
                 )}
               </button>
 
-              <div className="flex-1 min-w-0 space-y-2">
+              <div className="flex-1 min-w-0 space-y-1.5">
                 <div className="flex justify-between items-center gap-2 text-[10px] font-black uppercase tracking-widest opacity-70">
                   <span className="flex items-center gap-1 truncate"><Volume2 size={12} /> {labels.playerTitle}</span>
                   <span>{formatTime(currentTime)} / {formatTime(duration)}</span>
+                </div>
+                <div className="flex items-center justify-between text-[10px] opacity-70 font-bold">
+                  <span>{labels.wordHighlight}</span>
+                  <span>{currentAyahIndex + 1}/{verses.length || 0}</span>
                 </div>
                 <input
                   type="range"
@@ -411,7 +582,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
                   max={duration || 0}
                   value={currentTime}
                   onChange={handleProgressChange}
-                  className="w-full h-2 rounded-full bg-gray-200 accent-green-500 cursor-pointer appearance-none"
+                  className="w-full h-1.5 rounded-full bg-gray-200 accent-green-500 cursor-pointer appearance-none"
                 />
               </div>
             </div>
