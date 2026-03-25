@@ -15,7 +15,7 @@ import SurenList from './components/SurenList';
 import SureDetail from './components/SureDetail';
 import { useData } from './hooks/useData';
 
-const CHANGELOG_VERSION = '2026-03-24-content-audio-quiz-v1';
+const CHANGELOG_VERSION = '2026-03-24-quiz-redesign-v2';
 
 const changelogTexts = {
   de: {
@@ -23,11 +23,13 @@ const changelogTexts = {
     subtitle: 'Beim ersten Start siehst du kurz, was verbessert wurde.',
     close: 'Verstanden',
     items: [
-      'Quiz erweitert: jetzt auch Fragen zu Inhalt, Gebetsschritten, Formulierungen und Geschichten.',
+      'Quiz komplett neu gestaltet: keine verwirrenden Symbol-Fragen mehr, sondern abwechslungsreiche Aufgaben zu Bedeutung, Reihenfolge, Alltag, Gebetsschritten und Geschichten.',
       'Duas neu geordnet: überall dieselbe Reihenfolge mit Arabisch, Aussprache, Erklärung und „Wann sage ich das?“.',
       'Audio bereinigt: keine Browser-KI-Stimme mehr als Fallback, sondern nur noch echte API-Rezitation dort, wo sie verlässlich vorhanden ist.',
       'Geschichten ergänzt und ausgebaut: mehr Hintergrund, längere Erklärungen und klarere Lehren für Kinder.',
-      'Darstellung aufgeräumt: bessere Übersicht, weniger Durcheinander und klarere Karten.'
+      'Darstellung aufgeräumt: bessere Übersicht, weniger Durcheinander und klarere Karten.',
+      'Vollständiger Koran eingebaut: ganze Suren werden jetzt vollständig aus dem GitHub-Projekt fawazahmed0/quran-api geladen – mit Arabisch und vollständiger Übersetzung.',
+      'Surah-Ansicht verbessert: fester Audio-Player unten, damit der Abspielknopf immer sichtbar bleibt.'
     ]
   },
   al: {
@@ -35,11 +37,13 @@ const changelogTexts = {
     subtitle: 'Në hapjen e parë shfaqet shkurt çfarë është përmirësuar.',
     close: 'Në rregull',
     items: [
-      'Kuizi është zgjeruar: tani ka pyetje edhe për përmbajtjen, hapat e namazit, formulimet dhe historitë.',
+      'Kuizi u ridizenjua plotësisht: nuk ka më pyetje ngatërruese me simbole, por detyra më të larmishme për kuptimin, renditjen, përditshmërinë, hapat e namazit dhe historitë.',
       'Duatë janë riorganizuar: kudo e njëjta renditje me arabishten, shqiptimin, shpjegimin dhe “Kur thuhet kjo?”.',
       'Audio është pastruar: nuk përdoret më zëri artificial i shfletuesit si rezervë, por vetëm recitim i vërtetë nga API aty ku është i besueshëm.',
       'Historitë janë shtuar dhe zgjeruar: më shumë sfond, më shumë përmbajtje dhe mësime më të qarta për fëmijë.',
-      'Pamja është rregulluar: më shumë qartësi, më pak rrëmujë dhe karta më të kuptueshme.'
+      'Pamja është rregulluar: më shumë qartësi, më pak rrëmujë dhe karta më të kuptueshme.',
+      'Kurani i plotë është integruar: suret e plota ngarkohen tani nga projekti GitHub fawazahmed0/quran-api me arabisht dhe përkthim të plotë.',
+      'Pamja e sures u përmirësua: butoni i dëgjimit qëndron poshtë gjithmonë i dukshëm.'
     ]
   },
   tr: {
@@ -47,11 +51,13 @@ const changelogTexts = {
     subtitle: 'İlk açılışta nelerin geliştirildiğini kısaca görürsün.',
     close: 'Tamam',
     items: [
-      'Quiz genişletildi: artık içerik, namaz adımları, okunan ifadeler ve hikâyeler hakkında da sorular var.',
+      'Quiz tamamen yenilendi: artık kafa karıştıran sembol soruları yok; bunun yerine anlam, sıra, günlük hayat, namaz adımları ve hikâyelerle ilgili daha çeşitli görevler var.',
       'Dualar yeniden düzenlendi: her yerde aynı sıra ile Arapça, okunuş, açıklama ve “Bunu ne zaman söylerim?” gösteriliyor.',
       'Ses temizlendi: tarayıcıdaki yapay okuma yedeği kaldırıldı; yalnızca güvenilir yerlerde gerçek API kıraati kullanılıyor.',
       'Hikâyeler genişletildi ve yenileri eklendi: daha fazla arka plan, daha çok içerik ve çocuklar için daha açık dersler.',
-      'Görünüm düzenlendi: daha net kartlar, daha az karışıklık ve daha iyi akış.'
+      'Görünüm düzenlendi: daha net kartlar, daha az karışıklık ve daha iyi akış.',
+      'Tam Kur’an entegre edildi: surelerin tamamı artık GitHub projesi fawazahmed0/quran-api üzerinden Arapça ve tam çeviriyle yükleniyor.',
+      'Sure görünümü iyileştirildi: oynatma düğmesi artık altta sabit ve sürekli görünür.'
     ]
   }
 };
@@ -269,6 +275,7 @@ export default function App() {
                 setSelectedFeature={setSelectedFeature} 
                 isDarkMode={isDarkMode} 
                 addXp={addXp}
+                suren={suren}
               />
             )}
             {selectedFeature === 'achievements' && (
