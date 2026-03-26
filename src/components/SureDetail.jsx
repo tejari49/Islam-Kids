@@ -29,7 +29,9 @@ const LABELS = {
     wordHighlight: 'Wort-Highlight aktiv',
     currentAyah: 'Aktuelle Aya',
     showAyah: 'Aya anzeigen',
-    hideAyah: 'Aya ausblenden'
+    hideAyah: 'Aya ausblenden',
+    tapArabicHint: 'Tipp: Auf arabischen Text tippen, um Audio zu starten/pausieren.',
+    translationPreview: 'Kurze Übersetzung'
   },
   al: {
     back: 'Mbrapa',
@@ -57,7 +59,9 @@ const LABELS = {
     wordHighlight: 'Theksimi i fjalës aktiv',
     currentAyah: 'Ajeti aktual',
     showAyah: 'Shfaq ajetin',
-    hideAyah: 'Fshih ajetin'
+    hideAyah: 'Fshih ajetin',
+    tapArabicHint: 'Këshillë: Prek tekstin arabisht për ta luajtur/ndalur audion.',
+    translationPreview: 'Përkthim i shkurtër'
   },
   tr: {
     back: 'Geri',
@@ -85,7 +89,9 @@ const LABELS = {
     wordHighlight: 'Kelime vurgulama aktif',
     currentAyah: 'Aktif ayet',
     showAyah: 'Ayeti göster',
-    hideAyah: 'Ayeti gizle'
+    hideAyah: 'Ayeti gizle',
+    tapArabicHint: 'İpucu: Oynat/duraklat için Arapça metne dokun.',
+    translationPreview: 'Kısa çeviri'
   }
 };
 
@@ -130,6 +136,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   const [showFullText, setShowFullText] = useState(true);
   const [marqueeEnabled, setMarqueeEnabled] = useState(false);
   const [expandedAyahNumber, setExpandedAyahNumber] = useState(null);
+  const [showTapHint, setShowTapHint] = useState(true);
 
   const audioRef = useRef(null);
   const hasIncremented = useRef(false);
@@ -327,6 +334,25 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
     }
   };
 
+  const toggleAyahPlayback = async (index) => {
+    setShowTapHint(false);
+    if (!audioRef.current) return;
+
+    try {
+      if (isPlaying && currentAyahIndex === index) {
+        audioRef.current.pause();
+        setIsPlaying(false);
+        return;
+      }
+
+      const queue = audioQueue.length ? audioQueue : await loadAudioQueue();
+      if (!queue.length || !queue[index]) return;
+      await startAyah(index, queue);
+    } catch (error) {
+      console.error('Aya konnte nicht abgespielt werden.', error);
+    }
+  };
+
   const handleProgressChange = (event) => {
     const time = Number(event.target.value);
     if (audioRef.current) {
@@ -493,6 +519,11 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
               <span className="text-sm font-medium">{loadError}</span>
             </div>
           )}
+          {showTapHint && (
+            <div className={`px-4 py-2 rounded-xl text-xs font-semibold ${isDarkMode ? 'bg-slate-900/50 text-slate-300' : 'bg-indigo-50 text-indigo-700'}`}>
+              {labels.tapArabicHint}
+            </div>
+          )}
 
           {!isLoadingSurah && surahBundle && showFullText && (
             <>
@@ -545,13 +576,13 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
                       {isExpanded && (
                         <>
                           {marqueeEnabled ? (
-                            <div className={`surah-marquee-track ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
+                            <button onClick={() => toggleAyahPlayback(index)} className={`surah-marquee-track w-full text-right cursor-pointer ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
                               <div className="surah-marquee-content font-arabic text-2xl">
                                 {verse.arabic}
                               </div>
-                            </div>
+                            </button>
                           ) : (
-                            <p className={`text-2xl leading-[2.8rem] text-right mb-3 font-arabic ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
+                            <button onClick={() => toggleAyahPlayback(index)} className={`w-full text-2xl leading-[2.8rem] text-right mb-3 font-arabic cursor-pointer ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
                               {tokens.map((token, tokenIndex) => {
                                 if (token.isSpace) {
                                   return <span key={`${token.text}-${tokenIndex}`}>{token.text}</span>;
@@ -568,7 +599,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
                                   </span>
                                 );
                               })}
-                            </p>
+                            </button>
                           )}
 
                           {translationLang !== 'ar' && verse.translation && (
@@ -580,8 +611,14 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
                         </>
                       )}
                       {!isExpanded && (
-                        <div className={`text-xs pl-2 ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>
-                          …
+                        <div className={`text-xs pl-2 space-y-2 ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>
+                          <div>…</div>
+                          {translationLang !== 'ar' && verse.translation && (
+                            <div className={`text-[11px] rounded-lg px-2 py-1 ${isDarkMode ? 'bg-slate-800 text-slate-300' : 'bg-white text-gray-600'}`}>
+                              <span className="font-black uppercase tracking-wide">{labels.translationPreview}: </span>
+                              <span>{verse.translation.slice(0, 120)}{verse.translation.length > 120 ? '…' : ''}</span>
+                            </div>
+                          )}
                         </div>
                       )}
                     </div>
