@@ -116,6 +116,23 @@ function tokenizeArabicText(text = '') {
     .map((token) => ({ text: token, isSpace: /^\s+$/.test(token) }));
 }
 
+function buildEveryAyahUrl(ayahRef = '') {
+  const [surahPart, ayahPart] = String(ayahRef).split(':');
+  const surahNumber = Number(surahPart);
+  const ayahNumber = Number(ayahPart);
+  if (!Number.isFinite(surahNumber) || !Number.isFinite(ayahNumber)) return '';
+  return `https://everyayah.com/data/Alafasy_128kbps/${String(surahNumber).padStart(3, '0')}${String(ayahNumber).padStart(3, '0')}.mp3`;
+}
+
+function prefersBlockedHost(url = '') {
+  try {
+    const parsed = new URL(url);
+    return parsed.hostname.includes('cdn.islamic.network');
+  } catch (error) {
+    return false;
+  }
+}
+
 export default function SureDetail({ item, onBack, selectedLang, isDarkMode, favorites, toggleFavorite, incrementStat, appSettings }) {
   const labels = LABELS[selectedLang] || LABELS.de;
   const [translationLang, setTranslationLang] = useState(() => {
@@ -306,7 +323,14 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
     setIsLoadingAudio(true);
     try {
       const ayahs = await fetchAyahQueue(ayahRefs);
-      const urls = ayahs.map((ayah) => ayah.audio).filter(Boolean);
+      const urls = ayahs
+        .map((ayah, index) => {
+          const ayahRef = ayah?.ayahRef || ayahRefs[index] || '';
+          const fallbackUrl = buildEveryAyahUrl(ayahRef);
+          if (!ayah?.audio) return fallbackUrl;
+          return prefersBlockedHost(ayah.audio) ? (fallbackUrl || ayah.audio) : ayah.audio;
+        })
+        .filter(Boolean);
       setAudioQueue(urls);
       return urls;
     } catch (error) {
