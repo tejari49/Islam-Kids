@@ -31,6 +31,9 @@ jobs:
         with:
           node-version: 22
 
+      - name: Update npm (workaround for intermittent npm ci crash)
+        run: npm install -g npm@11
+
       - name: Install dependencies
         run: |
           node --version
