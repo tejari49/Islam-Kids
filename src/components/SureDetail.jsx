@@ -110,9 +110,12 @@ function tokenizeArabicText(text = '') {
     .map((token) => ({ text: token, isSpace: /^\s+$/.test(token) }));
 }
 
-export default function SureDetail({ item, onBack, selectedLang, isDarkMode, favorites, toggleFavorite, incrementStat }) {
+export default function SureDetail({ item, onBack, selectedLang, isDarkMode, favorites, toggleFavorite, incrementStat, appSettings }) {
   const labels = LABELS[selectedLang] || LABELS.de;
-  const [translationLang, setTranslationLang] = useState(['de', 'al', 'tr'].includes(selectedLang) ? selectedLang : 'de');
+  const [translationLang, setTranslationLang] = useState(() => {
+    if (appSettings?.showTranslationDefault === false) return 'ar';
+    return ['de', 'al', 'tr'].includes(selectedLang) ? selectedLang : 'de';
+  });
   const [isPlaying, setIsPlaying] = useState(false);
   const [duration, setDuration] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
@@ -135,9 +138,9 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
 
   useEffect(() => {
     if (['de', 'al', 'tr'].includes(selectedLang)) {
-      setTranslationLang(selectedLang);
+      setTranslationLang(appSettings?.showTranslationDefault === false ? 'ar' : selectedLang);
     }
-  }, [selectedLang]);
+  }, [selectedLang, appSettings?.showTranslationDefault]);
 
   useEffect(() => {
     if (!hasIncremented.current) {
@@ -370,12 +373,18 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   };
 
   useEffect(() => {
-    if (!isPlaying) return;
+    if (!isPlaying || appSettings?.autoOpenCurrentAyah === false) return;
     const currentAyah = verses[currentAyahIndex]?.numberInSurah;
     if (currentAyah) {
       setExpandedAyahNumber(currentAyah);
     }
-  }, [isPlaying, currentAyahIndex, verses]);
+  }, [isPlaying, currentAyahIndex, verses, appSettings?.autoOpenCurrentAyah]);
+
+  useEffect(() => {
+    if (!appSettings?.autoPlaySurah || isPlaying || !surahBundle || isLoadingSurah) return;
+    togglePlay();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [appSettings?.autoPlaySurah, surahBundle, isLoadingSurah]);
 
   return (
     <div className={`p-4 pb-36 min-h-screen transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-gray-50'}`}>
