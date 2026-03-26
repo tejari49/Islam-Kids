@@ -113,7 +113,7 @@ function isCorsBlockedAudioUrl(url = '') {
 function pickPlayableAudioUrl(candidates = []) {
   const valid = candidates.filter(Boolean);
   const nonBlocked = valid.find((url) => !isCorsBlockedAudioUrl(url));
-  return nonBlocked || valid[0] || '';
+  return nonBlocked || '';
 }
 
 function normalizeEditionEntries(payload) {
@@ -278,15 +278,15 @@ export async function fetchAyahBundle(ayahRef) {
   try {
     const data = await fetchEditionAyah(ayahRef, SURAH_AUDIO_EDITION);
     const preferredAudio = pickPlayableAudioUrl([
+      everyAyahFallback,
       data?.audioSecondary?.[0],
       data?.audioSecondary?.[1],
-      everyAyahFallback,
       data?.audio
     ]);
 
     return {
       ayahRef,
-      audio: preferredAudio,
+      audio: preferredAudio || everyAyahFallback,
       text: data?.text || '',
       surahName: data?.surah?.englishName || '',
       numberInSurah: data?.numberInSurah || ayahNumber || null
