@@ -173,7 +173,6 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
 
   useEffect(() => {
     const audio = new Audio();
-    audio.crossOrigin = 'anonymous';
     audioRef.current = audio;
 
     const setAudioData = () => setDuration(audio.duration || 0);
