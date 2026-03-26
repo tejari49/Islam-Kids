@@ -126,7 +126,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   const [audioQueue, setAudioQueue] = useState([]);
   const [showFullText, setShowFullText] = useState(true);
   const [marqueeEnabled, setMarqueeEnabled] = useState(false);
-  const [expandedAyahs, setExpandedAyahs] = useState(() => ({}));
+  const [expandedAyahNumber, setExpandedAyahNumber] = useState(null);
 
   const audioRef = useRef(null);
   const hasIncremented = useRef(false);
@@ -242,7 +242,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
           setCurrentWordIndex(-1);
           setCurrentTime(0);
           setDuration(0);
-          setExpandedAyahs({});
+          setExpandedAyahNumber(null);
           if (audioRef.current) {
             audioRef.current.pause();
             audioRef.current.removeAttribute('src');
@@ -366,11 +366,16 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   const renderedPronunciation = surahBundle?.englishName || item.title?.de?.replace('Sure ', '') || '';
   const hasTranslation = translationLang !== 'ar' && verses.some((verse) => Boolean(verse.translation));
   const toggleAyahExpanded = (ayahNumber) => {
-    setExpandedAyahs((prev) => ({
-      ...prev,
-      [ayahNumber]: !prev[ayahNumber]
-    }));
+    setExpandedAyahNumber((prev) => (prev === ayahNumber ? null : ayahNumber));
   };
+
+  useEffect(() => {
+    if (!isPlaying) return;
+    const currentAyah = verses[currentAyahIndex]?.numberInSurah;
+    if (currentAyah) {
+      setExpandedAyahNumber(currentAyah);
+    }
+  }, [isPlaying, currentAyahIndex, verses]);
 
   return (
     <div className={`p-4 pb-36 min-h-screen transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-gray-50'}`}>
@@ -497,7 +502,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
               <div className="space-y-3">
                 {verses.map((verse, index) => {
                   const isCurrentAyah = index === currentAyahIndex && isPlaying;
-                  const isExpanded = expandedAyahs[verse.numberInSurah] ?? isCurrentAyah;
+                  const isExpanded = expandedAyahNumber === verse.numberInSurah;
                   const tokens = tokenizeArabicText(verse.arabic);
                   let highlightedWordCounter = -1;
 
