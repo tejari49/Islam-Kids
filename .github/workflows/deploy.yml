@@ -12,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
 
 jobs:
@@ -30,15 +30,28 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
 
-      - name: Install dependencies
+      - name: Pin npm 10 (stable with Node 20)
+        run: npm install -g npm@10.8.2
+
+      - name: Install dependencies (retry on npm crash)
         run: |
-          npm ci --include=dev --legacy-peer-deps
+          node --version
+          npm --version
+          for attempt in 1 2 3; do
+            echo "Install attempt ${attempt}/3"
+            npm install --include=dev --legacy-peer-deps --no-audit --no-fund && break
+            if [ "$attempt" -eq 3 ]; then
+              echo "npm install failed after 3 attempts"
+              exit 1
+            fi
+            npm cache clean --force
+            sleep 5
+          done
           test -x node_modules/.bin/vite
 
       - name: Build
-        run: npx --yes --package vite --package @vitejs/plugin-react --package @tailwindcss/vite --package vite-plugin-pwa --package tailwindcss vite build
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
