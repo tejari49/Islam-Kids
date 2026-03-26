@@ -332,40 +332,73 @@ export async function fetchSurahBundle(surahId, lang = 'de') {
     return cached;
   }
 
-  const editions = await fetchQuranApiEditions();
-  const arabicEdition = selectPreferredEdition(editions, 'ar');
-  const translationEdition = lang === 'ar' ? null : selectPreferredEdition(editions, lang);
+  let bundle = null;
+  try {
+    const editions = await fetchQuranApiEditions();
+    const arabicEdition = selectPreferredEdition(editions, 'ar');
+    const translationEdition = lang === 'ar' ? null : selectPreferredEdition(editions, lang);
 
-  if (!arabicEdition) {
-    throw new Error('Keine arabische Quran-Edition aus quran-api gefunden.');
+    if (!arabicEdition) {
+      throw new Error('Keine arabische Quran-Edition aus quran-api gefunden.');
+    }
+
+    const [arabicPayload, translationPayload] = await Promise.all([
+      fetchJsonWithFallback(buildChapterUrls(arabicEdition, surahId)),
+      translationEdition ? fetchJsonWithFallback(buildChapterUrls(translationEdition, surahId)).catch((error) => {
+        console.warn(`Suren-Übersetzung ${translationEdition.name} für Sure ${surahId} konnte nicht geladen werden.`, error);
+        return null;
+      }) : Promise.resolve(null)
+    ]);
+
+    const arabicChapter = normalizeChapterPayload(arabicPayload);
+    const translationChapter = translationPayload ? normalizeChapterPayload(translationPayload) : null;
+
+    if (!arabicChapter?.verses?.length) {
+      throw new Error(`Sure ${surahId} konnte nicht vollständig aus quran-api geladen werden.`);
+    }
+
+    bundle = {
+      id: surahId,
+      arabicName: arabicChapter.arabicName || '',
+      englishName: arabicChapter.transliteration || '',
+      englishMeaning: arabicChapter.translatedName || '',
+      revelationType: arabicChapter.revelationType || '',
+      versesCount: arabicChapter.versesCount || arabicChapter.verses.length,
+      translationEdition: translationEdition ? `${translationEdition.author || translationEdition.name}` : '',
+      surahAudioUrl: buildSurahAudioUrl(surahId),
+      verses: mergeSurahVerses(surahId, arabicChapter, translationChapter)
+    };
+  } catch (error) {
+    console.warn(`quran-api Fallback für Sure ${surahId} wird verwendet.`, error);
+    const arabicEdition = 'quran-uthmani';
+    const translationEdition = lang === 'ar' ? null : (TRANSLATION_EDITIONS[lang]?.[0] || TRANSLATION_EDITIONS.de[0]);
+    const editions = translationEdition ? `${arabicEdition},${translationEdition}` : arabicEdition;
+    const payload = await fetchJson(`${API_BASE}/surah/${surahId}/editions/${editions}`);
+    const entries = Array.isArray(payload) ? payload : [payload];
+    const arabicData = entries.find((entry) => entry?.edition?.language === 'ar') || entries[0];
+    const translationData = entries.find((entry) => entry?.edition?.language !== 'ar') || null;
+
+    bundle = {
+      id: surahId,
+      arabicName: arabicData?.name || '',
+      englishName: arabicData?.englishName || '',
+      englishMeaning: arabicData?.englishNameTranslation || '',
+      revelationType: arabicData?.revelationType || '',
+      versesCount: arabicData?.numberOfAyahs || (arabicData?.ayahs?.length ?? 0),
+      translationEdition: translationData?.edition?.englishName || '',
+      surahAudioUrl: buildSurahAudioUrl(surahId),
+      verses: (arabicData?.ayahs || []).map((ayah, index) => ({
+        number: ayah.number,
+        numberInSurah: ayah.numberInSurah,
+        juz: ayah.juz,
+        page: ayah.page,
+        arabic: ayah.text,
+        translation: translationData?.ayahs?.[index]?.text || '',
+        audio: '',
+        ayahRef: `${surahId}:${ayah.numberInSurah}`
+      }))
+    };
   }
-
-  const [arabicPayload, translationPayload] = await Promise.all([
-    fetchJsonWithFallback(buildChapterUrls(arabicEdition, surahId)),
-    translationEdition ? fetchJsonWithFallback(buildChapterUrls(translationEdition, surahId)).catch((error) => {
-      console.warn(`Suren-Übersetzung ${translationEdition.name} für Sure ${surahId} konnte nicht geladen werden.`, error);
-      return null;
-    }) : Promise.resolve(null)
-  ]);
-
-  const arabicChapter = normalizeChapterPayload(arabicPayload);
-  const translationChapter = translationPayload ? normalizeChapterPayload(translationPayload) : null;
-
-  if (!arabicChapter?.verses?.length) {
-    throw new Error(`Sure ${surahId} konnte nicht vollständig aus quran-api geladen werden.`);
-  }
-
-  const bundle = {
-    id: surahId,
-    arabicName: arabicChapter.arabicName || '',
-    englishName: arabicChapter.transliteration || '',
-    englishMeaning: arabicChapter.translatedName || '',
-    revelationType: arabicChapter.revelationType || '',
-    versesCount: arabicChapter.versesCount || arabicChapter.verses.length,
-    translationEdition: translationEdition ? `${translationEdition.author || translationEdition.name}` : '',
-    surahAudioUrl: buildSurahAudioUrl(surahId),
-    verses: mergeSurahVerses(surahId, arabicChapter, translationChapter)
-  };
 
   setStorageItem(cacheKey, bundle);
   return bundle;

@@ -17,6 +17,33 @@ import { useData } from './hooks/useData';
 
 const CHANGELOG_HISTORY = [
   {
+    version: '2026-03-26-prayer-audio-ux-v2',
+    date: '2026-03-26',
+    items: {
+      de: [
+        'Gebets-Hinweise sind jetzt als Accordion ein-/ausblendbar.',
+        'Bei Gebetsschritten ohne API-Audio kannst du nun eigene Audio-Aufnahmen erstellen, speichern, abspielen und löschen.',
+        'Arabischer Text reagiert jetzt auf Tippen: Audio startet/pausiert direkt mit kurzem Hinweis.',
+        'Geschwindigkeitsschalter im Gebetsablauf wurde entfernt.',
+        'Suren laden robuster: zusätzlicher API-Fallback verhindert „Sure konnte nicht vollständig geladen werden“ in vielen Fällen.'
+      ],
+      al: [
+        'Udhëzimet e namazit tani hapen/mbyllen me accordion.',
+        'Kur mungon audio nga API, tani mund të regjistrosh, ruash, luash dhe fshish audio personale.',
+        'Teksti arabisht tani reagon me prekje: audio nis/ndalet direkt me një hint të shkurtër.',
+        'U hoq kontrolli i shpejtësisë në rrjedhën e namazit.',
+        'Ngarkimi i sureve u forcua me fallback shtesë API për të shmangur gabimet e ngarkimit të pjesshëm.'
+      ],
+      tr: [
+        'Namaz ipuçları artık accordion ile aç/kapat yapılabiliyor.',
+        'API sesi olmayan adımlarda artık kendi ses kaydını oluşturup kaydedebilir, oynatabilir ve silebilirsin.',
+        'Arapça metne dokununca ses doğrudan başlatılır/duraklatılır; kısa bir ipucu gösterilir.',
+        'Namaz akışındaki hız ayarı kaldırıldı.',
+        'Sure yükleme daha dayanıklı hale getirildi: ek API fallback ile eksik yüklenme hataları azaltıldı.'
+      ]
+    }
+  },
+  {
     version: '2026-03-26-font-scale-text-only-v1',
     date: '2026-03-26',
     items: {
