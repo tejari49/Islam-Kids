@@ -140,8 +140,23 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
 
   const audioRef = useRef(null);
   const hasIncremented = useRef(false);
+  const audioQueueRef = useRef([]);
+  const currentAyahIndexRef = useRef(0);
+  const versesRef = useRef([]);
 
   const verses = useMemo(() => surahBundle?.verses || [], [surahBundle?.verses]);
+
+  useEffect(() => {
+    audioQueueRef.current = audioQueue;
+  }, [audioQueue]);
+
+  useEffect(() => {
+    currentAyahIndexRef.current = currentAyahIndex;
+  }, [currentAyahIndex]);
+
+  useEffect(() => {
+    versesRef.current = verses;
+  }, [verses]);
 
   useEffect(() => {
     if (['de', 'al', 'tr'].includes(selectedLang)) {
@@ -167,7 +182,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
     const clearBuffering = () => setIsBuffering(false);
 
     const updateWordHighlight = () => {
-      const verse = verses[currentAyahIndex];
+      const verse = versesRef.current[currentAyahIndexRef.current];
       if (!verse?.arabic) {
         setCurrentWordIndex(-1);
         return;
@@ -184,9 +199,12 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
     };
 
     const onEnded = async () => {
-      if (currentAyahIndex < audioQueue.length - 1) {
-        const nextIndex = currentAyahIndex + 1;
-        const nextUrl = audioQueue[nextIndex];
+      const queue = audioQueueRef.current;
+      const currentIndex = currentAyahIndexRef.current;
+
+      if (currentIndex < queue.length - 1) {
+        const nextIndex = currentIndex + 1;
+        const nextUrl = queue[nextIndex];
         if (!nextUrl) {
           setIsPlaying(false);
           return;
@@ -225,6 +243,8 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
 
     return () => {
       audio.pause();
+      audio.removeAttribute('src');
+      audio.load();
       audio.removeEventListener('loadeddata', setAudioData);
       audio.removeEventListener('timeupdate', setAudioTime);
       audio.removeEventListener('timeupdate', updateWordHighlight);
@@ -234,7 +254,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
       audio.removeEventListener('ended', onEnded);
       audio.removeEventListener('pause', onPause);
     };
-  }, [audioQueue, currentAyahIndex, verses]);
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
