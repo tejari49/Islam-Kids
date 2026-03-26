@@ -27,7 +27,9 @@ const LABELS = {
     marqueeOn: 'Laufschrift an',
     marqueeOff: 'Laufschrift aus',
     wordHighlight: 'Wort-Highlight aktiv',
-    currentAyah: 'Aktuelle Aya'
+    currentAyah: 'Aktuelle Aya',
+    showAyah: 'Aya anzeigen',
+    hideAyah: 'Aya ausblenden'
   },
   al: {
     back: 'Mbrapa',
@@ -53,7 +55,9 @@ const LABELS = {
     marqueeOn: 'Tekst rrjedhës aktiv',
     marqueeOff: 'Tekst rrjedhës joaktiv',
     wordHighlight: 'Theksimi i fjalës aktiv',
-    currentAyah: 'Ajeti aktual'
+    currentAyah: 'Ajeti aktual',
+    showAyah: 'Shfaq ajetin',
+    hideAyah: 'Fshih ajetin'
   },
   tr: {
     back: 'Geri',
@@ -79,7 +83,9 @@ const LABELS = {
     marqueeOn: 'Kayan yazı açık',
     marqueeOff: 'Kayan yazı kapalı',
     wordHighlight: 'Kelime vurgulama aktif',
-    currentAyah: 'Aktif ayet'
+    currentAyah: 'Aktif ayet',
+    showAyah: 'Ayeti göster',
+    hideAyah: 'Ayeti gizle'
   }
 };
 
@@ -104,9 +110,12 @@ function tokenizeArabicText(text = '') {
     .map((token) => ({ text: token, isSpace: /^\s+$/.test(token) }));
 }
 
-export default function SureDetail({ item, onBack, selectedLang, isDarkMode, favorites, toggleFavorite, incrementStat }) {
+export default function SureDetail({ item, onBack, selectedLang, isDarkMode, favorites, toggleFavorite, incrementStat, appSettings }) {
   const labels = LABELS[selectedLang] || LABELS.de;
-  const [translationLang, setTranslationLang] = useState(['de', 'al', 'tr'].includes(selectedLang) ? selectedLang : 'de');
+  const [translationLang, setTranslationLang] = useState(() => {
+    if (appSettings?.showTranslationDefault === false) return 'ar';
+    return ['de', 'al', 'tr'].includes(selectedLang) ? selectedLang : 'de';
+  });
   const [isPlaying, setIsPlaying] = useState(false);
   const [duration, setDuration] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
@@ -120,6 +129,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   const [audioQueue, setAudioQueue] = useState([]);
   const [showFullText, setShowFullText] = useState(true);
   const [marqueeEnabled, setMarqueeEnabled] = useState(false);
+  const [expandedAyahNumber, setExpandedAyahNumber] = useState(null);
 
   const audioRef = useRef(null);
   const hasIncremented = useRef(false);
@@ -128,9 +138,9 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
 
   useEffect(() => {
     if (['de', 'al', 'tr'].includes(selectedLang)) {
-      setTranslationLang(selectedLang);
+      setTranslationLang(appSettings?.showTranslationDefault === false ? 'ar' : selectedLang);
     }
-  }, [selectedLang]);
+  }, [selectedLang, appSettings?.showTranslationDefault]);
 
   useEffect(() => {
     if (!hasIncremented.current) {
@@ -235,6 +245,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
           setCurrentWordIndex(-1);
           setCurrentTime(0);
           setDuration(0);
+          setExpandedAyahNumber(null);
           if (audioRef.current) {
             audioRef.current.pause();
             audioRef.current.removeAttribute('src');
@@ -357,6 +368,23 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
 
   const renderedPronunciation = surahBundle?.englishName || item.title?.de?.replace('Sure ', '') || '';
   const hasTranslation = translationLang !== 'ar' && verses.some((verse) => Boolean(verse.translation));
+  const toggleAyahExpanded = (ayahNumber) => {
+    setExpandedAyahNumber((prev) => (prev === ayahNumber ? null : ayahNumber));
+  };
+
+  useEffect(() => {
+    if (!isPlaying || appSettings?.autoOpenCurrentAyah === false) return;
+    const currentAyah = verses[currentAyahIndex]?.numberInSurah;
+    if (currentAyah) {
+      setExpandedAyahNumber(currentAyah);
+    }
+  }, [isPlaying, currentAyahIndex, verses, appSettings?.autoOpenCurrentAyah]);
+
+  useEffect(() => {
+    if (!appSettings?.autoPlaySurah || isPlaying || !surahBundle || isLoadingSurah) return;
+    togglePlay();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [appSettings?.autoPlaySurah, surahBundle, isLoadingSurah]);
 
   return (
     <div className={`p-4 pb-36 min-h-screen transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-gray-50'}`}>
@@ -483,6 +511,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
               <div className="space-y-3">
                 {verses.map((verse, index) => {
                   const isCurrentAyah = index === currentAyahIndex && isPlaying;
+                  const isExpanded = expandedAyahNumber === verse.numberInSurah;
                   const tokens = tokenizeArabicText(verse.arabic);
                   let highlightedWordCounter = -1;
 
@@ -493,48 +522,66 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
                         ? (isDarkMode ? 'bg-emerald-900/20 border-emerald-500/30' : 'bg-emerald-50 border-emerald-200')
                         : (isDarkMode ? 'bg-slate-900/40 border-slate-700' : 'bg-gray-50 border-gray-100')}`}
                     >
-                      <div className="flex items-center justify-between gap-2 mb-2">
+                      <button
+                        onClick={() => toggleAyahExpanded(verse.numberInSurah)}
+                        className={`w-full flex items-center justify-between gap-2 mb-2 rounded-xl p-2 transition-colors ${isDarkMode ? 'hover:bg-slate-800/60' : 'hover:bg-white'}`}
+                      >
                         <div className={`w-8 h-8 rounded-xl flex items-center justify-center text-xs font-black ${isDarkMode ? 'bg-slate-700 text-green-300' : 'bg-white text-green-700 shadow-sm'}`}>
                           {verse.numberInSurah}
                         </div>
-                        {isCurrentAyah && (
-                          <span className={`text-[10px] font-black uppercase tracking-wider ${isDarkMode ? 'text-emerald-300' : 'text-emerald-700'}`}>
-                            {labels.currentAyah}
+                        <div className="flex items-center gap-2">
+                          {isCurrentAyah && (
+                            <span className={`text-[10px] font-black uppercase tracking-wider ${isDarkMode ? 'text-emerald-300' : 'text-emerald-700'}`}>
+                              {labels.currentAyah}
+                            </span>
+                          )}
+                          <span className={`text-[10px] font-black uppercase tracking-wider ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>
+                            {isExpanded ? labels.hideAyah : labels.showAyah}
                           </span>
-                        )}
-                      </div>
-
-                      {marqueeEnabled ? (
-                        <div className={`surah-marquee-track ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
-                          <div className="surah-marquee-content font-arabic text-2xl">
-                            {verse.arabic}
-                          </div>
+                          <ChevronDown size={16} className={`transition-transform ${isExpanded ? 'rotate-180' : ''}`} />
                         </div>
-                      ) : (
-                        <p className={`text-2xl leading-[2.8rem] text-right mb-3 font-arabic ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
-                          {tokens.map((token, tokenIndex) => {
-                            if (token.isSpace) {
-                              return <span key={`${token.text}-${tokenIndex}`}>{token.text}</span>;
-                            }
+                      </button>
 
-                            highlightedWordCounter += 1;
-                            const isWordHighlighted = isCurrentAyah && highlightedWordCounter === currentWordIndex;
-                            return (
-                              <span
-                                key={`${token.text}-${tokenIndex}`}
-                                className={isWordHighlighted ? 'bg-yellow-300/80 text-slate-900 rounded px-0.5 transition-colors' : ''}
-                              >
-                                {token.text}
-                              </span>
-                            );
-                          })}
-                        </p>
+                      {isExpanded && (
+                        <>
+                          {marqueeEnabled ? (
+                            <div className={`surah-marquee-track ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
+                              <div className="surah-marquee-content font-arabic text-2xl">
+                                {verse.arabic}
+                              </div>
+                            </div>
+                          ) : (
+                            <p className={`text-2xl leading-[2.8rem] text-right mb-3 font-arabic ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
+                              {tokens.map((token, tokenIndex) => {
+                                if (token.isSpace) {
+                                  return <span key={`${token.text}-${tokenIndex}`}>{token.text}</span>;
+                                }
+
+                                highlightedWordCounter += 1;
+                                const isWordHighlighted = isCurrentAyah && highlightedWordCounter === currentWordIndex;
+                                return (
+                                  <span
+                                    key={`${token.text}-${tokenIndex}`}
+                                    className={isWordHighlighted ? 'bg-yellow-300/80 text-slate-900 rounded px-0.5 transition-colors' : ''}
+                                  >
+                                    {token.text}
+                                  </span>
+                                );
+                              })}
+                            </p>
+                          )}
+
+                          {translationLang !== 'ar' && verse.translation && (
+                            <div className={`pt-3 border-t ${isDarkMode ? 'border-slate-700 text-slate-200' : 'border-gray-200 text-gray-700'}`}>
+                              <div className={`text-[10px] font-black uppercase tracking-widest mb-1 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>{labels.translation}</div>
+                              <p className="text-sm leading-relaxed">{verse.translation}</p>
+                            </div>
+                          )}
+                        </>
                       )}
-
-                      {translationLang !== 'ar' && verse.translation && (
-                        <div className={`pt-3 border-t ${isDarkMode ? 'border-slate-700 text-slate-200' : 'border-gray-200 text-gray-700'}`}>
-                          <div className={`text-[10px] font-black uppercase tracking-widest mb-1 ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>{labels.translation}</div>
-                          <p className="text-sm leading-relaxed">{verse.translation}</p>
+                      {!isExpanded && (
+                        <div className={`text-xs pl-2 ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>
+                          …
                         </div>
                       )}
                     </div>

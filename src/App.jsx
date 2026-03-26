@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Home as HomeIcon, BookOpen, MessageCircle, Library, Moon, Sun, Trophy, Sparkles } from 'lucide-react';
+import { Home as HomeIcon, BookOpen, MessageCircle, Library, Moon, Sun, Trophy, Sparkles, Settings, History, CheckCircle2 } from 'lucide-react';
 import Home from './components/Home';
 import DuasList from './components/DuasList';
 import DuaDetail from './components/DuaDetail';
@@ -15,52 +15,61 @@ import SurenList from './components/SurenList';
 import SureDetail from './components/SureDetail';
 import { useData } from './hooks/useData';
 
-const CHANGELOG_VERSION = '2026-03-24-quiz-redesign-v2';
-
-const changelogTexts = {
-  de: {
-    title: 'Neu in dieser Version',
-    subtitle: 'Beim ersten Start siehst du kurz, was verbessert wurde.',
-    close: 'Verstanden',
-    items: [
-      'Quiz komplett neu gestaltet: keine verwirrenden Symbol-Fragen mehr, sondern abwechslungsreiche Aufgaben zu Bedeutung, Reihenfolge, Alltag, Gebetsschritten und Geschichten.',
-      'Duas neu geordnet: überall dieselbe Reihenfolge mit Arabisch, Aussprache, Erklärung und „Wann sage ich das?“.',
-      'Audio bereinigt: keine Browser-KI-Stimme mehr als Fallback, sondern nur noch echte API-Rezitation dort, wo sie verlässlich vorhanden ist.',
-      'Geschichten ergänzt und ausgebaut: mehr Hintergrund, längere Erklärungen und klarere Lehren für Kinder.',
-      'Darstellung aufgeräumt: bessere Übersicht, weniger Durcheinander und klarere Karten.',
-      'Vollständiger Koran eingebaut: ganze Suren werden jetzt vollständig aus dem GitHub-Projekt fawazahmed0/quran-api geladen – mit Arabisch und vollständiger Übersetzung.',
-      'Surah-Ansicht verbessert: fester Audio-Player unten, damit der Abspielknopf immer sichtbar bleibt.'
-    ]
+const CHANGELOG_HISTORY = [
+  {
+    version: '2026-03-26-settings-and-strict-ayah',
+    date: '2026-03-26',
+    items: {
+      de: [
+        'Neue Einstellungen: Auto-Play, Auto-Fokus auf aktuelle Aya, Standard-Übersetzung und Kinder-Modus.',
+        'Suren-Ansicht verbessert: strikter Accordion-Modus (nur eine Aya gleichzeitig geöffnet).',
+        'Changelog-Historie eingebaut: beim Start einmalig + Verlauf in den Einstellungen.',
+        'Deploy stabilisiert über vorgebautes dist-Artefakt (ohne CI-Build-Crash).'
+      ],
+      al: [
+        'U shtuan cilësime të reja: Auto-Play, fokus automatik te ajeti aktual, përkthimi standard dhe mënyra për fëmijë.',
+        'Pamja e sures u përmirësua: modalitet strict accordion (vetëm një ajet i hapur).',
+        'U shtua historiku i ndryshimeve: shfaqje një herë në nisje + listë në cilësime.',
+        'Deploy u stabilizua me dist të ndërtuar paraprakisht (pa crash në CI build).'
+      ],
+      tr: [
+        'Yeni ayarlar eklendi: Otomatik oynatma, aktif ayete otomatik odak, varsayılan çeviri ve çocuk modu.',
+        'Sure görünümü geliştirildi: strict accordion modu (aynı anda sadece bir ayet açık).',
+        'Sürüm geçmişi eklendi: açılışta bir kez gösterim + ayarlarda geçmiş listesi.',
+        'Deploy, önceden oluşturulmuş dist ile stabilize edildi (CI build çökmesi olmadan).'
+      ]
+    }
   },
-  al: {
-    title: 'E re në këtë version',
-    subtitle: 'Në hapjen e parë shfaqet shkurt çfarë është përmirësuar.',
-    close: 'Në rregull',
-    items: [
-      'Kuizi u ridizenjua plotësisht: nuk ka më pyetje ngatërruese me simbole, por detyra më të larmishme për kuptimin, renditjen, përditshmërinë, hapat e namazit dhe historitë.',
-      'Duatë janë riorganizuar: kudo e njëjta renditje me arabishten, shqiptimin, shpjegimin dhe “Kur thuhet kjo?”.',
-      'Audio është pastruar: nuk përdoret më zëri artificial i shfletuesit si rezervë, por vetëm recitim i vërtetë nga API aty ku është i besueshëm.',
-      'Historitë janë shtuar dhe zgjeruar: më shumë sfond, më shumë përmbajtje dhe mësime më të qarta për fëmijë.',
-      'Pamja është rregulluar: më shumë qartësi, më pak rrëmujë dhe karta më të kuptueshme.',
-      'Kurani i plotë është integruar: suret e plota ngarkohen tani nga projekti GitHub fawazahmed0/quran-api me arabisht dhe përkthim të plotë.',
-      'Pamja e sures u përmirësua: butoni i dëgjimit qëndron poshtë gjithmonë i dukshëm.'
-    ]
-  },
-  tr: {
-    title: 'Bu sürümde yeniler',
-    subtitle: 'İlk açılışta nelerin geliştirildiğini kısaca görürsün.',
-    close: 'Tamam',
-    items: [
-      'Quiz tamamen yenilendi: artık kafa karıştıran sembol soruları yok; bunun yerine anlam, sıra, günlük hayat, namaz adımları ve hikâyelerle ilgili daha çeşitli görevler var.',
-      'Dualar yeniden düzenlendi: her yerde aynı sıra ile Arapça, okunuş, açıklama ve “Bunu ne zaman söylerim?” gösteriliyor.',
-      'Ses temizlendi: tarayıcıdaki yapay okuma yedeği kaldırıldı; yalnızca güvenilir yerlerde gerçek API kıraati kullanılıyor.',
-      'Hikâyeler genişletildi ve yenileri eklendi: daha fazla arka plan, daha çok içerik ve çocuklar için daha açık dersler.',
-      'Görünüm düzenlendi: daha net kartlar, daha az karışıklık ve daha iyi akış.',
-      'Tam Kur’an entegre edildi: surelerin tamamı artık GitHub projesi fawazahmed0/quran-api üzerinden Arapça ve tam çeviriyle yükleniyor.',
-      'Sure görünümü iyileştirildi: oynatma düğmesi artık altta sabit ve sürekli görünür.'
-    ]
+  {
+    version: '2026-03-24-quiz-redesign-v2',
+    date: '2026-03-24',
+    items: {
+      de: [
+        'Quiz komplett neu gestaltet.',
+        'Duas neu geordnet mit einheitlicher Struktur.',
+        'Vollständiger Koran mit vollständigen Suren integriert.'
+      ],
+      al: [
+        'Kuizi u ridizenjua plotësisht.',
+        'Duatë u riorganizuan me strukturë të njëjtë.',
+        'Kurani i plotë me sure të plota u integrua.'
+      ],
+      tr: [
+        'Quiz tamamen yenilendi.',
+        'Dualar tek tip yapıya getirildi.',
+        'Tam surelerle birlikte Kur’an entegrasyonu eklendi.'
+      ]
+    }
   }
+];
+const CHANGELOG_VERSION = CHANGELOG_HISTORY[0].version;
+
+const changelogModalTexts = {
+  de: { title: 'Neu in dieser Version', subtitle: 'Beim ersten Start siehst du kurz, was verbessert wurde.', close: 'Verstanden' },
+  al: { title: 'E re në këtë version', subtitle: 'Në hapjen e parë shfaqet shkurt çfarë është përmirësuar.', close: 'Në rregull' },
+  tr: { title: 'Bu sürümde yeniler', subtitle: 'İlk açılışta nelerin geliştirildiğini kısaca görürsün.', close: 'Tamam' }
 };
+
 
 export default function App() {
   const { duas, hadiths, stories, suren, loading } = useData();
@@ -72,6 +81,15 @@ export default function App() {
   const [selectedSure, setSelectedSure] = useState(null);
   const [selectedFeature, setSelectedFeature] = useState(null);
   const [showChangelog, setShowChangelog] = useState(() => localStorage.getItem('seenChangelogVersion') !== CHANGELOG_VERSION);
+  const [appSettings, setAppSettings] = useState(() => {
+    const saved = localStorage.getItem('appSettings');
+    return saved ? JSON.parse(saved) : {
+      autoPlaySurah: false,
+      autoOpenCurrentAyah: true,
+      showTranslationDefault: true,
+      kidsMode: false
+    };
+  });
   const [fontScale, setFontScale] = useState(() => {
     const saved = Number(localStorage.getItem('fontScalePercent'));
     if (Number.isFinite(saved) && saved >= 85 && saved <= 120) {
@@ -130,6 +148,10 @@ export default function App() {
     localStorage.setItem('stats', JSON.stringify(stats));
   }, [stats]);
 
+  useEffect(() => {
+    localStorage.setItem('appSettings', JSON.stringify(appSettings));
+  }, [appSettings]);
+
   const addXp = React.useCallback((amount) => {
     setStats((prev) => ({ ...prev, xp: prev.xp + amount }));
   }, []);
@@ -173,6 +195,10 @@ export default function App() {
 
   const decreaseFont = () => {
     setFontScale((prev) => Math.max(prev - 5, 85));
+  };
+
+  const toggleSetting = (key) => {
+    setAppSettings((prev) => ({ ...prev, [key]: !prev[key] }));
   };
 
   const clearSelections = React.useCallback(() => {
@@ -222,7 +248,8 @@ export default function App() {
 
   const level = Math.floor(stats.xp / 100) + 1;
   const currentLevelXp = stats.xp % 100;
-  const changelog = changelogTexts[selectedLang] || changelogTexts.de;
+  const changelog = changelogModalTexts[selectedLang] || changelogModalTexts.de;
+  const latestChangelogItems = CHANGELOG_HISTORY[0].items[selectedLang] || CHANGELOG_HISTORY[0].items.de;
 
   const closeChangelog = () => {
     localStorage.setItem('seenChangelogVersion', CHANGELOG_VERSION);
@@ -230,7 +257,7 @@ export default function App() {
   };
 
   return (
-    <div className={`max-w-md mx-auto min-h-screen font-sans relative overflow-hidden transition-colors duration-300 ${isDarkMode ? 'bg-slate-900 text-slate-100' : 'bg-gray-50 text-gray-900'}`}>
+    <div className={`max-w-md mx-auto min-h-screen font-sans relative overflow-hidden transition-colors duration-300 ${appSettings.kidsMode ? 'text-[1.04em]' : ''} ${isDarkMode ? 'bg-slate-900 text-slate-100' : 'bg-gray-50 text-gray-900'}`}>
       <div className={`p-4 shadow-sm flex flex-col z-10 relative transition-colors ${isDarkMode ? 'bg-slate-800 border-b border-slate-700' : 'bg-white'}`}>
         <div className="flex flex-row items-center justify-between w-full mb-3">
           <div className="flex items-center gap-1">
@@ -254,6 +281,15 @@ export default function App() {
               title={isDarkMode ? 'Tag-Modus' : 'Nacht-Modus'}
             >
               {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+            </button>
+            <button
+              onClick={() => setSelectedFeature(selectedFeature === 'settings' ? null : 'settings')}
+              className={`p-2 rounded-full transition-all ${selectedFeature === 'settings'
+                ? 'bg-emerald-500 text-white'
+                : (isDarkMode ? 'bg-slate-700 text-slate-200' : 'bg-gray-100 text-gray-700')}`}
+              title="Einstellungen"
+            >
+              <Settings size={20} />
             </button>
           </div>
 
@@ -325,6 +361,69 @@ export default function App() {
                 stats={stats}
                 favorites={favorites}
               />
+            )}
+            {selectedFeature === 'settings' && (
+              <div className={`p-6 pb-24 min-h-screen space-y-5 ${isDarkMode ? 'bg-slate-900 text-white' : 'bg-gray-50 text-gray-900'}`}>
+                <div className="flex items-center gap-3">
+                  <div className={`p-3 rounded-2xl ${isDarkMode ? 'bg-emerald-900/30 text-emerald-300' : 'bg-emerald-50 text-emerald-700'}`}>
+                    <Settings size={22} />
+                  </div>
+                  <div>
+                    <h2 className="text-2xl font-black">Einstellungen</h2>
+                    <p className={`text-xs ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>Dashboard für Funktionen & Verhalten</p>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 gap-3">
+                  {[
+                    ['autoPlaySurah', 'Automatische Suren-Wiedergabe'],
+                    ['autoOpenCurrentAyah', 'Aktuelle Aya automatisch öffnen'],
+                    ['showTranslationDefault', 'Übersetzung standardmäßig anzeigen'],
+                    ['kidsMode', 'Kinder-Modus (größere Buttons)']
+                  ].map(([key, label]) => (
+                    <button
+                      key={key}
+                      onClick={() => toggleSetting(key)}
+                      className={`w-full p-4 rounded-2xl border flex items-center justify-between transition-colors ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-200'}`}
+                    >
+                      <span className="text-sm font-bold text-left">{label}</span>
+                      <span className={`px-2 py-1 rounded-full text-xs font-black ${appSettings[key]
+                        ? 'bg-emerald-500 text-white'
+                        : (isDarkMode ? 'bg-slate-700 text-slate-300' : 'bg-gray-100 text-gray-600')}`}>
+                        {appSettings[key] ? 'AN' : 'AUS'}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+
+                <div className={`p-4 rounded-2xl border ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-200'}`}>
+                  <div className="flex items-center gap-2 mb-3">
+                    <History size={16} />
+                    <h3 className="text-sm font-black uppercase tracking-wide">Changelog Verlauf</h3>
+                  </div>
+                  <div className="space-y-3">
+                    {CHANGELOG_HISTORY.map((entry) => {
+                      const items = entry.items[selectedLang] || entry.items.de;
+                      return (
+                        <div key={entry.version} className={`p-3 rounded-xl ${isDarkMode ? 'bg-slate-900' : 'bg-gray-50'}`}>
+                          <div className="flex items-center justify-between mb-2">
+                            <span className="text-xs font-black">{entry.version}</span>
+                            <span className={`text-[10px] ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>{entry.date}</span>
+                          </div>
+                          <ul className="space-y-1">
+                            {items.map((item) => (
+                              <li key={item} className="text-xs flex items-start gap-2">
+                                <CheckCircle2 size={12} className="mt-0.5 shrink-0 text-emerald-500" />
+                                <span>{item}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
             )}
 
             {!selectedFeature && (
@@ -438,6 +537,7 @@ export default function App() {
                     toggleFavorite={toggleFavorite}
                     favorites={favorites}
                     incrementStat={incrementStat}
+                    appSettings={appSettings}
                   />
                 )}
               </>
@@ -504,7 +604,7 @@ export default function App() {
             </div>
 
             <div className="space-y-3 mb-6">
-              {changelog.items.map((item) => (
+              {latestChangelogItems.map((item) => (
                 <div key={item} className={`flex items-start gap-3 p-3 rounded-2xl ${isDarkMode ? 'bg-slate-800' : 'bg-gray-50'}`}>
                   <span className={`mt-1 w-2 h-2 rounded-full flex-shrink-0 ${isDarkMode ? 'bg-emerald-400' : 'bg-emerald-500'}`}></span>
                   <p className={`text-sm leading-relaxed ${isDarkMode ? 'text-slate-200' : 'text-gray-700'}`}>{item}</p>

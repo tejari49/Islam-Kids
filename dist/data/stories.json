@@ -11,6 +11,27 @@
       "de": "Prophet Muhammad (s.a.w.) war der letzte Gesandte Allahs...",
       "al": "Profeti Muhamed (s.a.w.) ishte i dërguari i fundit i Allahut...",
       "tr": "Hz. Muhammed (s.a.v.) Allah'ın son elçisidir..."
+    },
+    "featured": true,
+    "summary": {
+      "de": "Prophet Muhammad war ehrlich, barmherzig und ein Vorbild für Kinder und Erwachsene.",
+      "al": "Profeti Muhamed ishte i sinqertë, i mëshirshëm dhe shembull për fëmijë e të rritur.",
+      "tr": "Hz. Muhammed dürüst, merhametli ve çocuklar ile büyükler için örnekti."
+    },
+    "background": {
+      "de": "Muhammad, Allahs letzter Prophet, wuchs in Mekka auf. Schon vor seiner Prophetenzeit nannten ihn die Menschen Al-Amin, also den Vertrauenswürdigen.",
+      "al": "Muhamedi, profeti i fundit i Allahut, u rrit në Mekë. Edhe para profetësisë njerëzit e quanin El-Emin, pra i besueshmi.",
+      "tr": "Allah’ın son peygamberi Muhammed Mekke’de büyüdü. Peygamberlikten önce bile insanlar ona El-Emin yani güvenilir derdi."
+    },
+    "story": {
+      "de": "Er sprach freundlich, half den Armen und behandelte Kinder mit Wärme. Wenn er mit Kindern sprach, hörte er ihnen zu und machte ihnen Mut. Er war sanft zu Tieren, gerecht im Handel und ehrlich in jedem Wort. Als Allah ihn zum Propheten machte, brachte er den Menschen den Quran und zeigte ihnen, wie man Allah liebt, betet, dankbar ist und anderen Gutes tut.",
+      "al": "Ai fliste me butësi, i ndihmonte të varfrit dhe i trajtonte fëmijët me ngrohtësi. Kur fliste me fëmijët, i dëgjonte dhe u jepte zemër. Ai ishte i butë me kafshët, i drejtë në tregti dhe i sinqertë në çdo fjalë. Kur Allahu e bëri profet, ai ua solli njerëzve Kuranin dhe u tregoi si ta duan Allahun, si të falen, të jenë falënderues dhe të bëjnë mirësi.",
+      "tr": "O yumuşak konuşur, fakirlere yardım eder ve çocuklara sıcak davranırdı. Çocuklarla konuştuğunda onları dinler, cesaret verirdi. Hayvanlara merhametliydi, alışverişte adildi ve her sözünde doğruydu. Allah onu peygamber yaptığında insanlara Kur’an’ı getirdi ve Allah’ı sevmeyi, namaz kılmayı, şükretmeyi ve iyilik yapmayı öğretti."
+    },
+    "lesson": {
+      "de": "Wir lernen: Ein guter Muslim ist ehrlich, freundlich und barmherzig.",
+      "al": "Mësojmë: Muslimani i mirë është i sinqertë, i sjellshëm dhe i mëshirshëm.",
+      "tr": "Öğreniyoruz: İyi bir Müslüman dürüst, nazik ve merhametlidir."
     }
   },
   {
@@ -25,6 +46,27 @@
       "de": "Prophet Nuh baute eine große Arche...",
       "al": "Profeti Nuh ndërtoi një varkë të madhe...",
       "tr": "Hz. Nuh büyük bir gemi inşa etti..."
+    },
+    "featured": true,
+    "summary": {
+      "de": "Prophet Nuh baute auf Allahs Befehl die Arche und blieb geduldig.",
+      "al": "Profeti Nuh ndërtoi Arkën me urdhrin e Allahut dhe mbeti i durueshëm.",
+      "tr": "Nuh Peygamber Allah’ın emriyle gemiyi yaptı ve sabırlı kaldı."
+    },
+    "background": {
+      "de": "Nuh rief sein Volk lange Zeit zu Allah. Viele hörten nicht auf ihn und spotteten über ihn.",
+      "al": "Nuhu e thirri popullin e tij për një kohë të gjatë tek Allahu. Shumë nuk e dëgjuan dhe u tallën me të.",
+      "tr": "Nuh uzun süre kavmini Allah’a çağırdı. Birçoğu onu dinlemedi ve onunla alay etti."
+    },
+    "story": {
+      "de": "Allah befahl Nuh, ein großes Schiff zu bauen. Obwohl noch keine Flut zu sehen war, gehorchte Nuh sofort. Menschen lachten und fragten, warum er an einem trockenen Ort ein Schiff baue. Nuh blieb ruhig und vertraute Allah. Als die große Flut kam, rettete Allah Nuh, die Gläubigen und die Tiere auf der Arche.",
+      "al": "Allahu e urdhëroi Nuhun të ndërtonte një anije të madhe. Edhe pse ende nuk shihej përmbytje, Nuhu iu bind menjëherë. Njerëzit qeshnin dhe pyesnin pse po ndërtonte anije në një vend të thatë. Nuhu mbeti i qetë dhe i besoi Allahut. Kur erdhi përmbytja e madhe, Allahu e shpëtoi Nuhun, besimtarët dhe kafshët në Arkë.",
+      "tr": "Allah, Nuh’a büyük bir gemi yapmasını emretti. Ortada tufan yokken bile Nuh hemen itaat etti. İnsanlar kuru bir yerde neden gemi yaptığını sorup güldüler. Nuh sakin kaldı ve Allah’a güvendi. Büyük tufan gelince Allah Nuh’u, inananları ve hayvanları gemide kurtardı."
+    },
+    "lesson": {
+      "de": "Wir lernen: Auch wenn andere lachen, bleiben wir geduldig und vertrauen Allah.",
+      "al": "Mësojmë: Edhe kur të tjerët qeshin, ne mbetemi të durueshëm dhe i besojmë Allahut.",
+      "tr": "Öğreniyoruz: Başkaları güldüğünde bile sabırlı olur ve Allah’a güveniriz."
     }
   },
   {
@@ -39,6 +81,27 @@
       "de": "Prophet Musa teilte das Meer mit seinem Stab...",
       "al": "Profeti Musa ndau detin me shkopin e tij...",
       "tr": "Hz. Musa denizi asasıyla yardı..."
+    },
+    "featured": true,
+    "summary": {
+      "de": "Prophet Musa wurde von Allah beschützt und führte sein Volk durch das Meer.",
+      "al": "Profeti Musa u mbrojt nga Allahu dhe e kaloi popullin e tij përmes detit.",
+      "tr": "Musa Peygamber Allah tarafından korundu ve kavmini denizden geçirdi."
+    },
+    "background": {
+      "de": "Zur Zeit von Musa war Firawn ein ungerechter Herrscher. Er wollte Macht und glaubte nicht an Allah.",
+      "al": "Në kohën e Musait, Faraoni ishte sundimtar i padrejtë. Ai donte pushtet dhe nuk besonte në Allah.",
+      "tr": "Musa zamanında Firavun zalim bir hükümdardı. Güç istiyor ve Allah’a iman etmiyordu."
+    },
+    "story": {
+      "de": "Allah rettete Musa schon als Baby. Später bekam Musa von Allah die Aufgabe, Firawn zur Wahrheit einzuladen. Als Firawn weiter stolz blieb, führte Musa sein Volk fort. Vor ihnen war das Meer und hinter ihnen Firawns Armee. Musa vertraute Allah. Allah befahl ihm, mit dem Stab auf das Meer zu schlagen, und das Meer teilte sich. Musa und sein Volk gingen sicher hindurch.",
+      "al": "Allahu e shpëtoi Musain që foshnjë. Më vonë Musa mori nga Allahu detyrën ta ftonte Faraonin në të vërtetën. Kur Faraoni mbeti krenar, Musa e nxori popullin e tij. Përpara ishte deti dhe pas tyre ushtria e Faraonit. Musa i besoi Allahut. Allahu e urdhëroi ta godiste detin me shkop dhe deti u nda. Musa dhe populli i tij kaluan të sigurt.",
+      "tr": "Allah Musa’yı daha bebekken kurtardı. Sonra Musa’ya Firavun’u gerçeğe çağırma görevi verdi. Firavun kibirli kalınca Musa kavmini yola çıkardı. Önlerinde deniz, arkalarında Firavun’un ordusu vardı. Musa Allah’a güvendi. Allah ona asasını denize vurmasını emretti ve deniz yarıldı. Musa ile kavmi güvenle geçti."
+    },
+    "lesson": {
+      "de": "Wir lernen: Wenn wir Allah vertrauen, öffnet Er auch in schweren Momenten einen Weg.",
+      "al": "Mësojmë: Kur i besojmë Allahut, Ai hap rrugë edhe në çaste të vështira.",
+      "tr": "Öğreniyoruz: Allah’a güvendiğimizde, zor anlarda bile O bir çıkış yolu açar."
     }
   },
   {
@@ -53,6 +116,27 @@
       "de": "Prophet Ibrahim vertraute Allah im Feuer...",
       "al": "Profeti Ibrahim i besoi Allahut në zjarr...",
       "tr": "Hz. İbrahim ateşte Allah'a tevekkül etti..."
+    },
+    "featured": true,
+    "summary": {
+      "de": "Prophet Ibrahim vertraute Allah selbst dann, als er ins Feuer geworfen wurde.",
+      "al": "Profeti Ibrahim i besoi Allahut edhe kur u hodh në zjarr.",
+      "tr": "İbrahim Peygamber ateşe atıldığında bile Allah’a güvendi."
+    },
+    "background": {
+      "de": "Ibrahim lebte unter Menschen, die Götzen anbeteten. Er zeigte ihnen mutig, dass nur Allah angebetet werden darf.",
+      "al": "Ibrahimi jetoi mes njerëzve që adhuronin idhuj. Ai u tregoi me guxim se vetëm Allahu meriton adhurim.",
+      "tr": "İbrahim putlara tapan bir toplum içinde yaşadı. Sadece Allah’a ibadet edilmesi gerektiğini onlara cesaretle anlattı."
+    },
+    "story": {
+      "de": "Ibrahim liebte die Wahrheit. Er dachte über Sonne, Mond und Sterne nach und erkannte, dass nur Allah der wahre Herr ist. Als sein Volk ihn wegen seines Glaubens bestrafen wollte, warf es ihn in ein großes Feuer. Doch Allah befahl dem Feuer, kühl und sicher zu sein. Ibrahim blieb unversehrt, weil Allah ihn beschützte.",
+      "al": "Ibrahimi e donte të vërtetën. Ai mendoi për diellin, hënën dhe yjet dhe e kuptoi se vetëm Allahu është Zoti i vërtetë. Kur populli i tij deshi ta ndëshkonte për besimin e tij, e hodhi në një zjarr të madh. Por Allahu e urdhëroi zjarrin të bëhej i ftohtë dhe i sigurt. Ibrahimi mbeti i paprekur, sepse Allahu e mbrojti.",
+      "tr": "İbrahim gerçeği severdi. Güneş, ay ve yıldızlar üzerinde düşündü ve gerçek Rabbin sadece Allah olduğunu anladı. Kavmi onu inancı yüzünden cezalandırmak isteyince büyük bir ateşe attı. Ama Allah ateşe serin ve güvenli olmasını emretti. İbrahim’e hiçbir şey olmadı; çünkü Allah onu korudu."
+    },
+    "lesson": {
+      "de": "Wir lernen: Wahrheit, Mut und Tawakkul gehören zusammen.",
+      "al": "Mësojmë: E vërteta, guximi dhe tevekkuli shkojnë bashkë.",
+      "tr": "Öğreniyoruz: Hakikat, cesaret ve tevekkül birlikte yürür."
     }
   },
   {
@@ -67,6 +151,27 @@
       "de": "Prophet Yunus war im Bauch des Waldes...",
       "al": "Profeti Junus ishte në barkun e balenës...",
       "tr": "Hz. Yunus balığın karnındaydı..."
+    },
+    "featured": true,
+    "summary": {
+      "de": "Prophet Yunus rief im Dunkeln zu Allah und Allah rettete ihn.",
+      "al": "Profeti Junus e thirri Allahun në errësirë dhe Allahu e shpëtoi.",
+      "tr": "Yunus Peygamber karanlıkta Allah’a dua etti ve Allah onu kurtardı."
+    },
+    "background": {
+      "de": "Yunus wurde zu seinem Volk geschickt. Als viele nicht hörten, verließ er sie zu früh und geriet später in große Not.",
+      "al": "Junusi u dërgua te populli i tij. Kur shumë nuk dëgjuan, ai u largua shumë herët dhe më vonë ra në një vështirësi të madhe.",
+      "tr": "Yunus kavmine gönderildi. Birçok kişi dinlemeyince erken ayrıldı ve sonra büyük bir sıkıntıyla karşılaştı."
+    },
+    "story": {
+      "de": "Yunus stieg in ein Schiff und landete schließlich im Meer. Ein großer Fisch verschluckte ihn. In dieser tiefen Dunkelheit erkannte Yunus seine Lage und machte ehrliche Dua zu Allah: “Es gibt keinen Gott außer Dir, gepriesen seist Du, ich gehörte zu den Ungerechten.” Allah hörte seine Dua und rettete ihn.",
+      "al": "Junusi hipi në një anije dhe më pas përfundoi në det. Një peshk i madh e gëlltiti. Në atë errësirë të thellë, Junusi e kuptoi gjendjen e tij dhe bëri dua të sinqertë: “Nuk ka zot tjetër përveç Teje, i lartësuar qofsh, unë isha nga të padrejtët.” Allahu e dëgjoi duanë e tij dhe e shpëtoi.",
+      "tr": "Yunus bir gemiye bindi ve sonra denize düştü. Büyük bir balık onu yuttu. Bu derin karanlıkta Yunus halini anladı ve içtenlikle dua etti: “Senden başka ilah yoktur, seni tenzih ederim; ben gerçekten yanlış yapanlardan oldum.” Allah onun duasını kabul etti ve onu kurtardı."
+    },
+    "lesson": {
+      "de": "Wir lernen: Auch nach einem Fehler dürfen wir sofort zu Allah zurückkehren.",
+      "al": "Mësojmë: Edhe pas një gabimi mund të kthehemi menjëherë tek Allahu.",
+      "tr": "Öğreniyoruz: Hata yaptıktan sonra da hemen Allah’a dönebiliriz."
     }
   },
   {
@@ -81,6 +186,27 @@
       "de": "Engel sind Wesen aus Licht...",
       "al": "Engjëjt janë qenie prej drite...",
       "tr": "Melekler nurdan varlıklardır..."
+    },
+    "featured": true,
+    "summary": {
+      "de": "Engel sind aus Licht erschaffen und gehorchen Allah immer.",
+      "al": "Engjëjt janë krijuar nga drita dhe i binden Allahut gjithmonë.",
+      "tr": "Melekler nurdan yaratılmıştır ve Allah’a daima itaat ederler."
+    },
+    "background": {
+      "de": "Im Islam gehören Engel zu den unsichtbaren Geschöpfen Allahs. Wir sehen sie nicht, aber wir glauben an sie.",
+      "al": "Në Islam, engjëjt janë nga krijesat e padukshme të Allahut. Ne nuk i shohim, por besojmë në ta.",
+      "tr": "İslam’da melekler Allah’ın görünmeyen varlıkları arasındadır. Biz onları görmeyiz ama onlara iman ederiz."
+    },
+    "story": {
+      "de": "Engel essen nicht, trinken nicht und machen keine Sünden. Jibril brachte die Offenbarung zu den Propheten. Andere Engel schreiben unsere guten und schlechten Taten auf. Manche Engel schützen uns mit Allahs Erlaubnis. Wenn wir an Engel denken, erinnern wir uns daran, dass Allah alles sieht und dass gute Taten wichtig sind.",
+      "al": "Engjëjt nuk hanë, nuk pinë dhe nuk bëjnë gjynahe. Xhibrili e solli shpalljen te profetët. Engjëj të tjerë i shkruajnë veprat tona të mira dhe të këqija. Disa engjëj na mbrojnë me lejen e Allahut. Kur mendojmë për engjëjt, kujtojmë se Allahu sheh gjithçka dhe se veprat e mira janë të rëndësishme.",
+      "tr": "Melekler yemez, içmez ve günah işlemez. Cebrail vahyi peygamberlere getirdi. Başka melekler iyi ve kötü amellerimizi yazar. Bazı melekler Allah’ın izniyle bizi korur. Melekleri düşündüğümüzde Allah’ın her şeyi gördüğünü ve güzel amellerin önemli olduğunu hatırlarız."
+    },
+    "lesson": {
+      "de": "Wir lernen: Allahs Welt ist größer, als wir sehen können.",
+      "al": "Mësojmë: Bota e Allahut është më e madhe se ajo që mund të shohim.",
+      "tr": "Öğreniyoruz: Allah’ın âlemi, görebildiğimizden daha büyüktür."
     }
   },
   {
@@ -95,6 +221,27 @@
       "de": "Die Kabah ist das Haus Allahs...",
       "al": "Qabja është shtëpia e Allahut...",
       "tr": "Kabe Allah'ın evidir..."
+    },
+    "featured": true,
+    "summary": {
+      "de": "Die Kabah ist das Haus Allahs und ein Ort der Einheit für Muslime.",
+      "al": "Qabja është shtëpia e Allahut dhe vend bashkimi për muslimanët.",
+      "tr": "Kâbe Allah’ın evidir ve Müslümanlar için birlik yeridir."
+    },
+    "background": {
+      "de": "Die Kabah steht in Mekka. Muslime auf der ganzen Welt wenden sich beim Gebet in ihre Richtung.",
+      "al": "Qabja ndodhet në Mekë. Muslimanët në mbarë botën drejtohen nga ajo në namaz.",
+      "tr": "Kâbe Mekke’dedir. Dünyadaki Müslümanlar namazda ona yönelir."
+    },
+    "story": {
+      "de": "Allah machte die Kabah zu einem besonderen Ort der Anbetung. Später bauten Prophet Ibrahim und sein Sohn Ismail ihre Mauern wieder auf. Wenn Muslime nach Mekka zur Hajj oder Umrah reisen, sehen sie die Kabah als Zeichen der Einheit: Menschen aus vielen Ländern beten denselben Herrn an.",
+      "al": "Allahu e bëri Qaben vend të veçantë adhurimi. Më vonë Profeti Ibrahim dhe djali i tij Ismaili i ngritën përsëri muret e saj. Kur muslimanët shkojnë në Mekë për Haxh ose Umre, e shohin Qaben si shenjë bashkimi: njerëz nga shumë vende adhurojnë të njëjtin Zot.",
+      "tr": "Allah Kâbe’yi özel bir ibadet yeri yaptı. Sonra Hz. İbrahim ile oğlu İsmail onun duvarlarını yeniden yükseltti. Müslümanlar hac veya umre için Mekke’ye gittiklerinde Kâbe’yi birlik işareti olarak görürler: Birçok ülkeden insan aynı Rabbe ibadet eder."
+    },
+    "lesson": {
+      "de": "Wir lernen: Muslime sind eine Ummah und richten sich gemeinsam zu Allah.",
+      "al": "Mësojmë: Muslimanët janë një umet dhe drejtohen së bashku tek Allahu.",
+      "tr": "Öğreniyoruz: Müslümanlar tek ümmettir ve birlikte Allah’a yönelir."
     }
   },
   {
@@ -109,6 +256,27 @@
       "de": "Himmel und Erde sind von Allah erschaffen...",
       "al": "Qielli dhe toka janë krijuar nga Allahu...",
       "tr": "Gökleri ve yeri Allah yarattı..."
+    },
+    "featured": true,
+    "summary": {
+      "de": "Allah hat Himmel, Erde, Tiere und Menschen erschaffen.",
+      "al": "Allahu krijoi qiellin, tokën, kafshët dhe njerëzit.",
+      "tr": "Allah göğü, yeri, hayvanları ve insanları yarattı."
+    },
+    "background": {
+      "de": "Wenn wir in die Natur schauen, sehen wir viele Zeichen von Allahs Macht und Weisheit.",
+      "al": "Kur shikojmë natyrën, shohim shumë shenja të fuqisë dhe urtësisë së Allahut.",
+      "tr": "Doğaya baktığımızda Allah’ın kudret ve hikmetinin birçok işaretini görürüz."
+    },
+    "story": {
+      "de": "Der Himmel mit Sonne, Mond und Sternen, das Meer, die Berge, die Bäume und die Tiere – all das ist von Allah erschaffen. Auch unser Körper, unsere Augen und unser Herz sind Gaben von Ihm. Wenn ein Kind über die Schöpfung nachdenkt, lernt es zu staunen, dankbar zu sein und sorgsam mit Allahs Welt umzugehen.",
+      "al": "Qielli me diellin, hënën dhe yjet, deti, malet, pemët dhe kafshët – të gjitha këto i krijoi Allahu. Edhe trupi ynë, sytë tanë dhe zemra jonë janë dhurata prej Tij. Kur një fëmijë mendon për krijimin, mëson të mahnitet, të jetë falënderues dhe të sillet me kujdes me botën e Allahut.",
+      "tr": "Güneş, ay ve yıldızlarla gökyüzü; deniz, dağlar, ağaçlar ve hayvanlar… hepsini Allah yarattı. Bedenimiz, gözlerimiz ve kalbimiz de O’nun nimetidir. Bir çocuk yaratılış üzerinde düşündüğünde hayret etmeyi, şükretmeyi ve Allah’ın dünyasına özenle davranmayı öğrenir."
+    },
+    "lesson": {
+      "de": "Wir lernen: Wer Allahs Schöpfung sieht, erinnert sich leichter an Allah.",
+      "al": "Mësojmë: Kush e sheh krijimin e Allahut, e kujton më lehtë Allahun.",
+      "tr": "Öğreniyoruz: Allah’ın yaratışını gören kişi Allah’ı daha kolay hatırlar."
     }
   },
   {
@@ -123,6 +291,27 @@
       "de": "Prophet Sulaiman konnte mit Tieren sprechen...",
       "al": "Profeti Sulejman mund të fliste me kafshët...",
       "tr": "Hz. Süleyman hayvanlarla konuşabiliyordu..."
+    },
+    "featured": true,
+    "summary": {
+      "de": "Prophet Sulaiman bekam von Allah besondere Gaben und blieb dankbar.",
+      "al": "Profeti Sulejman mori dhunti të veçanta nga Allahu dhe mbeti falënderues.",
+      "tr": "Süleyman Peygamber Allah’tan özel nimetler aldı ve şükreden kaldı."
+    },
+    "background": {
+      "de": "Sulaiman war Prophet und Herrscher. Allah gab ihm Wissen, Weisheit und besondere Fähigkeiten.",
+      "al": "Sulejmani ishte profet dhe sundimtar. Allahu i dha dije, urtësi dhe aftësi të veçanta.",
+      "tr": "Süleyman hem peygamber hem hükümdardı. Allah ona ilim, hikmet ve özel yetenekler verdi."
+    },
+    "story": {
+      "de": "Allah gab Sulaiman eine besondere Gabe: Er konnte Tiere verstehen. Einmal hörte er eine Ameise, die andere Ameisen warnte, damit sie nicht zertreten werden. Sulaiman lächelte und dankte Allah. Obwohl er Macht hatte, blieb er nicht hochmütig. Er wusste: Alle Gaben kommen von Allah.",
+      "al": "Allahu i dha Sulejmanit një dhunti të veçantë: ai mund t’i kuptonte kafshët. Një herë dëgjoi një milingonë që paralajmëronte milingonat e tjera që të mos shkeleshin. Sulejmani buzëqeshi dhe e falënderoi Allahun. Edhe pse kishte pushtet, ai nuk u bë mendjemadh. Ai e dinte: të gjitha dhuntitë vijnë nga Allahu.",
+      "tr": "Allah, Süleyman’a hayvanları anlama nimeti verdi. Bir gün diğer karıncaları ezilmemeleri için uyaran bir karıncayı duydu. Süleyman gülümsedi ve Allah’a şükretti. Güç sahibi olmasına rağmen kibirlenmedi. Çünkü bütün nimetlerin Allah’tan geldiğini biliyordu."
+    },
+    "lesson": {
+      "de": "Wir lernen: Wer viel hat, sollte noch dankbarer und demütiger sein.",
+      "al": "Mësojmë: Kush ka shumë, duhet të jetë edhe më falënderues dhe modest.",
+      "tr": "Öğreniyoruz: Çok nimeti olan kişi daha da şükreden ve alçakgönüllü olmalıdır."
     }
   },
   {
@@ -137,6 +326,267 @@
       "de": "Ali war ein tapferer Freund des Propheten...",
       "al": "Aliu ishte një mik trim i Profetit...",
       "tr": "Hz. Ali Peygamber'in cesur bir dostuydu..."
+    },
+    "featured": true,
+    "summary": {
+      "de": "Ali war mutig und treu und unterstützte den Propheten mit ganzem Herzen.",
+      "al": "Aliu ishte trim dhe besnik dhe e ndihmoi Profetin me gjithë zemër.",
+      "tr": "Ali cesur ve sadıktı; Peygamber’i bütün kalbiyle destekledi."
+    },
+    "background": {
+      "de": "Ali war einer der jungen Gefährten des Propheten und wuchs in seiner Nähe auf.",
+      "al": "Aliu ishte një nga sahabët e rinj të Profetit dhe u rrit pranë tij.",
+      "tr": "Ali, Peygamberimizin genç sahabilerindendi ve onun yakınında büyüdü."
+    },
+    "story": {
+      "de": "Ali liebte den Propheten und den Islam. Er war mutig, klug und bereit, für das Gute einzustehen. In schwierigen Zeiten zeigte er Loyalität und Vertrauen. Seine Geschichte erinnert Kinder daran, dass echter Mut nicht nur stark sein bedeutet, sondern auch treu, ehrlich und hilfsbereit zu bleiben.",
+      "al": "Aliu e donte Profetin dhe Islamin. Ai ishte trim, i mençur dhe i gatshëm të qëndronte për të mirën. Në kohë të vështira tregoi besnikëri dhe besim. Historia e tij u kujton fëmijëve se guximi i vërtetë nuk do të thotë vetëm forcë, por edhe besnikëri, sinqeritet dhe gatishmëri për të ndihmuar.",
+      "tr": "Ali, Peygamberi ve İslam’ı çok severdi. Cesur, akıllı ve iyilik için ayağa kalkmaya hazırdı. Zor zamanlarda sadakat ve güven gösterdi. Onun hikâyesi çocuklara gerçek cesaretin sadece güçlü olmak değil; sadık, dürüst ve yardımsever kalmak olduğunu hatırlatır."
+    },
+    "lesson": {
+      "de": "Wir lernen: Mut ist am schönsten, wenn er mit Treue und Güte verbunden ist.",
+      "al": "Mësojmë: Guximi është më i bukur kur shoqërohet me besnikëri dhe mirësi.",
+      "tr": "Öğreniyoruz: Cesaret, sadakat ve iyilikle birleşince en güzel hâline ulaşır."
+    }
+  },
+  {
+    "id": 151,
+    "icon": "💧",
+    "title": {
+      "de": "Hajar und Zamzam",
+      "al": "Haxherja dhe Zemzemi",
+      "tr": "Hacer ve Zemzem"
+    },
+    "featured": true,
+    "summary": {
+      "de": "Allah schenkte Hajar und Ismail in der Wüste die Quelle Zamzam.",
+      "al": "Allahu ia dhuroi Haxheres dhe Ismailit burimin Zemzem në shkretëtirë.",
+      "tr": "Allah çölde Hacer ile İsmail’e Zemzem suyunu verdi."
+    },
+    "background": {
+      "de": "Hajar war mit ihrem kleinen Sohn Ismail in einem trockenen Tal bei Mekka. Es gab wenig Wasser und keine Stadt.",
+      "al": "Haxherja ishte me djalin e saj të vogël Ismailin në një luginë të thatë pranë Mekës. Kishte pak ujë dhe nuk kishte qytet.",
+      "tr": "Hacer, küçük oğlu İsmail ile Mekke yakınında kuru bir vadideydi. Su azdı ve orada şehir yoktu."
+    },
+    "story": {
+      "de": "Als das Wasser knapp wurde, lief Hajar zwischen den Hügeln Safa und Marwa hin und her, um Hilfe zu suchen. Sie gab nicht auf und vertraute Allah. Dann ließ Allah neben dem kleinen Ismail Wasser aus der Erde sprudeln. Diese Quelle heißt Zamzam und spendet bis heute Wasser. So zeigte Allah: Wer auf Ihn vertraut, den lässt Er nicht allein.",
+      "al": "Kur uji u pakësua, Haxherja vrapoi mes kodrave Safa dhe Merva duke kërkuar ndihmë. Ajo nuk u dorëzua dhe i besoi Allahut. Pastaj Allahu bëri që pranë Ismailit të vogël të dilte ujë nga toka. Ky burim quhet Zemzem dhe jep ujë edhe sot. Kështu Allahu tregoi: kush i beson Atij, Ai nuk e lë vetëm.",
+      "tr": "Su azaldığında Hacer yardım aramak için Safa ile Merve tepeleri arasında koştu. Vazgeçmedi ve Allah’a güvendi. Sonra Allah, küçük İsmail’in yanında yerden su çıkardı. Bu kaynağa Zemzem denir ve hâlâ su verir. Böylece Allah gösterdi ki O’na güveneni yalnız bırakmaz."
+    },
+    "lesson": {
+      "de": "Wir lernen: Tawakkul bedeutet, Allah zu vertrauen und trotzdem aktiv das Gute zu suchen.",
+      "al": "Mësojmë: Tevekkuli do të thotë t’i besosh Allahut dhe njëkohësisht ta kërkosh të mirën me përpjekje.",
+      "tr": "Öğreniyoruz: Tevekkül, Allah’a güvenirken aynı zamanda gayret göstermektir."
+    }
+  },
+  {
+    "id": 152,
+    "icon": "📜",
+    "title": {
+      "de": "Die erste Offenbarung",
+      "al": "Shpallja e parë",
+      "tr": "İlk vahiy"
+    },
+    "featured": true,
+    "summary": {
+      "de": "Im Berg Hira begann die Offenbarung des Quran mit dem Wort „Lies“.",
+      "al": "Në malin Hira shpallja e Kuranit filloi me fjalën “Lexo”.",
+      "tr": "Hira mağarasında Kur’an vahyi “Oku” emriyle başladı."
+    },
+    "background": {
+      "de": "Bevor Muhammad Prophet wurde, zog er sich gern zum Nachdenken in die Höhle Hira zurück.",
+      "al": "Para se Muhamedi të bëhej profet, ai tërhiqej shpesh në shpellën Hira për të menduar.",
+      "tr": "Hz. Muhammed peygamber olmadan önce düşünmek için Hira mağarasına çekilirdi."
+    },
+    "story": {
+      "de": "Dort kam der Engel Jibril zu ihm und brachte die ersten Worte des Quran: „Lies im Namen deines Herrn…“ Muhammad war tief bewegt. Von diesem Moment an begann seine Sendung als Prophet. Die erste Offenbarung erinnert uns daran, wie wichtig Wissen, Lesen und Lernen im Islam sind.",
+      "al": "Atje erdhi engjëlli Xhibril dhe i solli fjalët e para të Kuranit: “Lexo në emrin e Zotit tënd…” Muhamedi u prek thellë. Nga ai çast filloi misioni i tij si profet. Shpallja e parë na kujton sa të rëndësishme janë dija, leximi dhe mësimi në Islam.",
+      "tr": "Orada Cebrail ona geldi ve Kur’an’ın ilk sözlerini getirdi: “Rabbinin adıyla oku…” Hz. Muhammed çok derinden etkilendi. O andan itibaren peygamberlik görevi başladı. İlk vahiy, İslam’da ilmin, okumanın ve öğrenmenin ne kadar önemli olduğunu bize hatırlatır."
+    },
+    "lesson": {
+      "de": "Wir lernen: Wissen ist ein Geschenk und Lernen ist ein Weg zu Allah.",
+      "al": "Mësojmë: Dija është dhuratë dhe mësimi është rrugë drejt Allahut.",
+      "tr": "Öğreniyoruz: İlim nimettir ve öğrenmek Allah’a giden bir yoldur."
+    }
+  },
+  {
+    "id": 153,
+    "icon": "🕌",
+    "title": {
+      "de": "Bilal und die Standhaftigkeit",
+      "al": "Bilali dhe qëndrueshmëria",
+      "tr": "Bilal ve sebat"
+    },
+    "featured": true,
+    "summary": {
+      "de": "Bilal blieb im Glauben standhaft und sagte trotz schwerer Prüfungen „Ahad, Ahad“.",
+      "al": "Bilali mbeti i palëkundur në besim dhe tha “Ehad, Ehad” edhe në sprova të rënda.",
+      "tr": "Bilal ağır işkencelere rağmen imanında sabit kaldı ve “Ehad, Ehad” dedi."
+    },
+    "background": {
+      "de": "Bilal war einer der frühen Muslime. Sein Glaube wurde stark geprüft.",
+      "al": "Bilali ishte nga muslimanët e parë. Besimi i tij u sprovua rëndë.",
+      "tr": "Bilal ilk Müslümanlardandı. İmanı ağır şekilde sınandı."
+    },
+    "story": {
+      "de": "Menschen wollten Bilal zwingen, den Glauben an Allah aufzugeben. Doch Bilal blieb standhaft. Er wiederholte: „Ahad, Ahad“ – Allah ist Einer. Seine Geschichte zeigt große innere Stärke. Später wurde Bilal der erste Muadhdhin, der die Menschen zum Gebet rief.",
+      "al": "Njerëzit donin ta detyronin Bilalin ta linte besimin në Allah. Por Bilali qëndroi i palëkundur. Ai përsëriste: “Ehad, Ehad” – Allahu është Një. Historia e tij tregon forcë të madhe të brendshme. Më vonë Bilali u bë myezini i parë që i thërriste njerëzit në namaz.",
+      "tr": "İnsanlar Bilal’i Allah’a olan imanından vazgeçirmeye çalıştı. Ama Bilal sabit kaldı. “Ehad, Ehad” yani “Allah tektir” diye tekrar etti. Onun hikâyesi büyük iç güç gösterir. Daha sonra Bilal, insanları namaza çağıran ilk müezzin oldu."
+    },
+    "lesson": {
+      "de": "Wir lernen: Ein starkes Herz hält an der Wahrheit fest.",
+      "al": "Mësojmë: Zemra e fortë mbahet fort pas së vërtetës.",
+      "tr": "Öğreniyoruz: Güçlü bir kalp hakikate sımsıkı tutunur."
+    }
+  },
+  {
+    "id": 154,
+    "icon": "🤝",
+    "title": {
+      "de": "Yusuf vergibt seinen Brüdern",
+      "al": "Jusufi i fal vëllezërit e tij",
+      "tr": "Yusuf kardeşlerini affediyor"
+    },
+    "featured": true,
+    "summary": {
+      "de": "Prophet Yusuf zeigte Geduld und vergab seinen Brüdern am Ende großzügig.",
+      "al": "Profeti Jusuf tregoi durim dhe në fund ua fali bujarisht vëllezërve të tij.",
+      "tr": "Yusuf Peygamber sabır gösterdi ve sonunda kardeşlerini cömertçe affetti."
+    },
+    "background": {
+      "de": "Yusuf erlebte schwere Prüfungen: Trennung, Ungerechtigkeit und Einsamkeit.",
+      "al": "Jusufi përjetoi sprova të rënda: ndarje, padrejtësi dhe vetmi.",
+      "tr": "Yusuf ayrılık, haksızlık ve yalnızlık gibi ağır imtihanlar yaşadı."
+    },
+    "story": {
+      "de": "Trotz vieler schwerer Momente blieb Yusuf rein im Herzen und vertraute Allah. Später gab Allah ihm eine ehrenvolle Stellung. Als seine Brüder wieder vor ihm standen, hätte Yusuf sich rächen können. Stattdessen vergab er ihnen und behandelte sie mit Großzügigkeit. So zeigt uns Yusuf, dass Vergebung ein Zeichen von Stärke ist.",
+      "al": "Pavarësisht shumë çasteve të vështira, Jusufi mbeti i pastër në zemër dhe i besoi Allahut. Më pas Allahu i dha pozitë të nderuar. Kur vëllezërit e tij qëndruan sërish para tij, Jusufi mund të hakmerrej. Por ai i fali dhe i trajtoi me bujari. Kështu Jusufi na tregon se falja është shenjë force.",
+      "tr": "Yusuf birçok zor an yaşamasına rağmen kalbini temiz tuttu ve Allah’a güvendi. Sonra Allah ona onurlu bir konum verdi. Kardeşleri yeniden karşısına çıktığında intikam alabilirdi. Ama onları affetti ve cömert davrandı. Böylece Yusuf bize affetmenin güç işareti olduğunu gösterir."
+    },
+    "lesson": {
+      "de": "Wir lernen: Geduld und Vergebung machen das Herz groß.",
+      "al": "Mësojmë: Durimi dhe falja e bëjnë zemrën të madhe.",
+      "tr": "Öğreniyoruz: Sabır ve affetmek kalbi büyütür."
+    }
+  },
+  {
+    "id": 155,
+    "icon": "🐜",
+    "title": {
+      "de": "Sulaiman und die Ameise",
+      "al": "Sulejmani dhe milingona",
+      "tr": "Süleyman ve karınca"
+    },
+    "featured": true,
+    "summary": {
+      "de": "Eine kleine Ameise erinnerte Sulaiman an Dankbarkeit und Aufmerksamkeit.",
+      "al": "Një milingonë e vogël ia kujtoi Sulejmanit falënderimin dhe vëmendjen.",
+      "tr": "Küçük bir karınca Süleyman’a şükür ve dikkatli olmayı hatırlattı."
+    },
+    "background": {
+      "de": "Allah hatte Sulaiman viele besondere Gaben gegeben.",
+      "al": "Allahu i kishte dhënë Sulejmanit shumë dhunti të veçanta.",
+      "tr": "Allah Süleyman’a birçok özel nimet vermişti."
+    },
+    "story": {
+      "de": "Als Sulaiman mit seinem Heer unterwegs war, hörte er eine Ameise die anderen warnen. Er lächelte über diese feine Beobachtung und dankte Allah. Obwohl die Ameise klein war, war sie wichtig. Die Geschichte zeigt: Auch kleine Geschöpfe verdienen Respekt und Fürsorge.",
+      "al": "Kur Sulejmani po udhëtonte me ushtrinë e tij, ai dëgjoi një milingonë që po i paralajmëronte të tjerat. Ai buzëqeshi për këtë vëzhgim të hollë dhe e falënderoi Allahun. Edhe pse milingona ishte e vogël, ajo ishte e rëndësishme. Historia tregon: edhe krijesat e vogla meritojnë respekt dhe kujdes.",
+      "tr": "Süleyman ordusuyla giderken diğerlerini uyaran bir karınca duydu. Bu ince davranış karşısında gülümsedi ve Allah’a şükretti. Karınca küçük olsa da önemliydi. Hikâye şunu gösterir: Küçük canlılar bile saygı ve özen hak eder."
+    },
+    "lesson": {
+      "de": "Wir lernen: Ein gutes Herz achtet auch auf die Kleinen.",
+      "al": "Mësojmë: Zemra e mirë kujdeset edhe për të vegjlit.",
+      "tr": "Öğreniyoruz: Güzel bir kalp küçük olanlara da dikkat eder."
+    }
+  },
+  {
+    "id": 156,
+    "icon": "🛡️",
+    "title": {
+      "de": "Die Leute der Höhle",
+      "al": "Banorët e shpellës",
+      "tr": "Ashab-ı Kehf"
+    },
+    "featured": true,
+    "summary": {
+      "de": "Junge Gläubige suchten Schutz bei Allah und Allah bewahrte sie in der Höhle.",
+      "al": "Djem besimtarë kërkuan strehim tek Allahu dhe Allahu i ruajti në shpellë.",
+      "tr": "Genç müminler Allah’a sığındı; Allah onları mağarada korudu."
+    },
+    "background": {
+      "de": "Diese jungen Menschen lebten in einer Zeit, in der es schwer war, offen an Allah zu glauben.",
+      "al": "Këta të rinj jetuan në një kohë kur ishte e vështirë të besohej haptas në Allah.",
+      "tr": "Bu gençler, Allah’a açıkça inanmanın zor olduğu bir zamanda yaşadılar."
+    },
+    "story": {
+      "de": "Die jungen Gläubigen wollten ihren Iman schützen. Deshalb zogen sie sich in eine Höhle zurück und baten Allah um Barmherzigkeit und den richtigen Weg. Allah ließ sie lange schlafen und schützte sie. Ihre Geschichte zeigt, dass Allah die Herzen derer stärkt, die Ihm treu bleiben.",
+      "al": "Të rinjtë besimtarë donin ta ruanin imanin e tyre. Prandaj u tërhoqën në një shpellë dhe i kërkuan Allahut mëshirë dhe rrugë të drejtë. Allahu i bëri të flinin gjatë dhe i mbrojti. Historia e tyre tregon se Allahu ua forcon zemrat atyre që i qëndrojnë besnikë.",
+      "tr": "Genç müminler imanlarını korumak istedi. Bu yüzden bir mağaraya çekildiler ve Allah’tan merhamet ile doğru yol istediler. Allah onları uzun süre uyuttu ve korudu. Hikâyeleri, Allah’ın kendisine sadık kalanların kalbini güçlendirdiğini gösterir."
+    },
+    "lesson": {
+      "de": "Wir lernen: Allah schützt den Iman, wenn wir aufrichtig zu Ihm fliehen.",
+      "al": "Mësojmë: Allahu e mbron imanin kur ne i drejtohemi Atij me sinqeritet.",
+      "tr": "Öğreniyoruz: Samimiyetle Allah’a sığınan kişinin imanını Allah korur."
+    }
+  },
+  {
+    "id": 157,
+    "icon": "🐘",
+    "title": {
+      "de": "Die Elefantenarmee",
+      "al": "Ushtria e elefantëve",
+      "tr": "Fil ordusu"
+    },
+    "featured": true,
+    "summary": {
+      "de": "Allah beschützte die Kabah vor einer großen Elefantenarmee.",
+      "al": "Allahu e mbrojti Qaben nga një ushtri e madhe me elefantë.",
+      "tr": "Allah Kâbe’yi büyük bir fil ordusundan korudu."
+    },
+    "background": {
+      "de": "Ein Herrscher wollte die Kabah angreifen und glaubte, niemand könne ihn aufhalten.",
+      "al": "Një sundimtar donte ta sulmonte Qaben dhe mendonte se askush s’mund ta ndalte.",
+      "tr": "Bir hükümdar Kâbe’ye saldırmak istedi ve kimsenin onu durduramayacağını sandı."
+    },
+    "story": {
+      "de": "Die Armee kam mit großen Elefanten. Für die Menschen in Mekka war das eine beängstigende Situation. Doch Allah ist der beste Beschützer. Er sandte kleine Vögel, die die Armee besiegten. So blieb die Kabah geschützt. Diese Geschichte lehrt uns, dass Allah nicht auf große Mittel angewiesen ist, um Seine Macht zu zeigen.",
+      "al": "Ushtria erdhi me elefantë të mëdhenj. Për njerëzit e Mekës kjo ishte një situatë e frikshme. Por Allahu është Mbrojtësi më i mirë. Ai dërgoi zogj të vegjël që e mposhtën ushtrinë. Kështu Qabja mbeti e mbrojtur. Kjo histori na mëson se Allahu nuk ka nevojë për mjete të mëdha për ta treguar fuqinë e Tij.",
+      "tr": "Ordu büyük fillerle geldi. Mekke halkı için bu korkutucu bir durumdu. Ama en iyi koruyucu Allah’tır. Allah küçük kuşlar gönderdi ve orduyu yenilgiye uğrattı. Böylece Kâbe korundu. Bu hikâye bize Allah’ın kudretini göstermek için büyük araçlara muhtaç olmadığını öğretir."
+    },
+    "lesson": {
+      "de": "Wir lernen: Allahs Schutz ist stärker als jede Macht der Menschen.",
+      "al": "Mësojmë: Mbrojtja e Allahut është më e fortë se çdo fuqi njerëzore.",
+      "tr": "Öğreniyoruz: Allah’ın koruması insanların gücünden daha büyüktür."
+    }
+  },
+  {
+    "id": 158,
+    "icon": "🧱",
+    "title": {
+      "de": "Ibrahim und Ismail bauen die Kabah",
+      "al": "Ibrahimi dhe Ismaili ndërtojnë Qaben",
+      "tr": "İbrahim ve İsmail Kâbe’yi inşa ediyor"
+    },
+    "featured": true,
+    "summary": {
+      "de": "Ibrahim und Ismail bauten die Kabah und baten Allah, ihre Arbeit anzunehmen.",
+      "al": "Ibrahimi dhe Ismaili e ndërtuan Qaben dhe i kërkuan Allahut ta pranojë punën e tyre.",
+      "tr": "İbrahim ile İsmail Kâbe’yi inşa etti ve Allah’tan amellerini kabul etmesini istedi."
+    },
+    "background": {
+      "de": "Allah ehrte Ibrahim und Ismail mit einer besonderen Aufgabe in Mekka.",
+      "al": "Allahu e nderoi Ibrahimin dhe Ismailin me një detyrë të veçantë në Mekë.",
+      "tr": "Allah, İbrahim ve İsmail’i Mekke’de özel bir görevle onurlandırdı."
+    },
+    "story": {
+      "de": "Vater und Sohn arbeiteten zusammen und hoben die Mauern der Kabah. Während sie bauten, machten sie nicht stolz auf ihre Arbeit, sondern baten: „Unser Herr, nimm es von uns an.“ So lernt man, dass gute Werke nicht nur getan, sondern auch mit Aufrichtigkeit für Allah gemacht werden sollen.",
+      "al": "Babë e bir punuan së bashku dhe ngritën muret e Qabes. Gjatë ndërtimit nuk u bënë krenarë për veprën e tyre, por u lutën: “Zoti ynë, pranoje prej nesh.” Kështu mësojmë se veprat e mira jo vetëm bëhen, por duhen bërë me sinqeritet për Allahun.",
+      "tr": "Baba ile oğul birlikte çalıştı ve Kâbe’nin duvarlarını yükseltti. İnşa ederken yaptıkları iş ile kibirlenmediler; “Rabbimiz, bizden kabul buyur” diye dua ettiler. Böylece iyi işlerin sadece yapılması değil, samimiyetle Allah için yapılması gerektiğini öğreniriz."
+    },
+    "lesson": {
+      "de": "Wir lernen: Gute Arbeit wird schön, wenn sie mit Demut und Dua verbunden ist.",
+      "al": "Mësojmë: Puna e mirë bëhet më e bukur kur shoqërohet me përulësi dhe dua.",
+      "tr": "Öğreniyoruz: Güzel amel, tevazu ve dua ile daha da güzelleşir."
     }
   },
   {
