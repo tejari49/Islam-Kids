@@ -30,7 +30,8 @@ const LABELS = {
     currentAyah: 'Aktuelle Aya',
     showAyah: 'Aya anzeigen',
     hideAyah: 'Aya ausblenden',
-    tapArabicHint: 'Tipp: Auf arabischen Text tippen, um Audio zu starten/pausieren.'
+    tapArabicHint: 'Tipp: Auf arabischen Text tippen, um Audio zu starten/pausieren.',
+    translationPreview: 'Kurze Übersetzung'
   },
   al: {
     back: 'Mbrapa',
@@ -59,7 +60,8 @@ const LABELS = {
     currentAyah: 'Ajeti aktual',
     showAyah: 'Shfaq ajetin',
     hideAyah: 'Fshih ajetin',
-    tapArabicHint: 'Këshillë: Prek tekstin arabisht për ta luajtur/ndalur audion.'
+    tapArabicHint: 'Këshillë: Prek tekstin arabisht për ta luajtur/ndalur audion.',
+    translationPreview: 'Përkthim i shkurtër'
   },
   tr: {
     back: 'Geri',
@@ -88,7 +90,8 @@ const LABELS = {
     currentAyah: 'Aktif ayet',
     showAyah: 'Ayeti göster',
     hideAyah: 'Ayeti gizle',
-    tapArabicHint: 'İpucu: Oynat/duraklat için Arapça metne dokun.'
+    tapArabicHint: 'İpucu: Oynat/duraklat için Arapça metne dokun.',
+    translationPreview: 'Kısa çeviri'
   }
 };
 
@@ -608,8 +611,14 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
                         </>
                       )}
                       {!isExpanded && (
-                        <div className={`text-xs pl-2 ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>
-                          …
+                        <div className={`text-xs pl-2 space-y-2 ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>
+                          <div>…</div>
+                          {translationLang !== 'ar' && verse.translation && (
+                            <div className={`text-[11px] rounded-lg px-2 py-1 ${isDarkMode ? 'bg-slate-800 text-slate-300' : 'bg-white text-gray-600'}`}>
+                              <span className="font-black uppercase tracking-wide">{labels.translationPreview}: </span>
+                              <span>{verse.translation.slice(0, 120)}{verse.translation.length > 120 ? '…' : ''}</span>
+                            </div>
+                          )}
                         </div>
                       )}
                     </div>

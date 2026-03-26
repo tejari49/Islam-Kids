@@ -252,19 +252,35 @@ function normalizeMetaList(payload) {
 }
 
 export async function fetchAyahBundle(ayahRef) {
-  const data = await fetchEditionAyah(ayahRef, SURAH_AUDIO_EDITION);
+  const [surahPart, ayahPart] = String(ayahRef).split(':');
+  const surahNumber = Number(surahPart);
+  const ayahNumber = Number(ayahPart);
+  const everyAyahFallback = Number.isFinite(surahNumber) && Number.isFinite(ayahNumber)
+    ? `https://everyayah.com/data/Alafasy_128kbps/${String(surahNumber).padStart(3, '0')}${String(ayahNumber).padStart(3, '0')}.mp3`
+    : '';
 
-  if (!data?.audio) {
-    throw new Error(`Kein Audio für Aya ${ayahRef} gefunden.`);
+  try {
+    const data = await fetchEditionAyah(ayahRef, SURAH_AUDIO_EDITION);
+
+    return {
+      ayahRef,
+      audio: data?.audio || data?.audioSecondary?.[0] || everyAyahFallback,
+      text: data?.text || '',
+      surahName: data?.surah?.englishName || '',
+      numberInSurah: data?.numberInSurah || ayahNumber || null
+    };
+  } catch (error) {
+    if (!everyAyahFallback) {
+      throw error;
+    }
+    return {
+      ayahRef,
+      audio: everyAyahFallback,
+      text: '',
+      surahName: '',
+      numberInSurah: ayahNumber || null
+    };
   }
-
-  return {
-    ayahRef,
-    audio: data.audio,
-    text: data.text,
-    surahName: data.surah?.englishName || '',
-    numberInSurah: data.numberInSurah || null
-  };
 }
 
 export async function fetchAyahQueue(ayahRefs = []) {

@@ -17,6 +17,24 @@ import { useData } from './hooks/useData';
 
 const CHANGELOG_HISTORY = [
   {
+    version: '2026-03-26-suren-audio-translation-hotfix-v1',
+    date: '2026-03-26',
+    items: {
+      de: [
+        'Suren-Audio Hotfix: zusätzliche Fallback-Audioquelle aktiviert, falls API-Audio nicht verfügbar ist.',
+        'Suren-Übersetzung verbessert: in zugeklappten Aya-Karten wird jetzt eine kurze Übersetzungs-Vorschau angezeigt.'
+      ],
+      al: [
+        'Hotfix për audion e sureve: u shtua burim rezervë audio kur API nuk kthen audio.',
+        'Përkthimi i sureve u përmirësua: në kartat e mbyllura të ajeteve shfaqet një paragjykim i shkurtër i përkthimit.'
+      ],
+      tr: [
+        'Sure sesi için hotfix: API sesi yoksa ek yedek ses kaynağı kullanılıyor.',
+        'Sure çevirisi iyileştirildi: kapalı ayet kartlarında kısa çeviri önizlemesi gösteriliyor.'
+      ]
+    }
+  },
+  {
     version: '2026-03-26-prayer-audio-ux-v2',
     date: '2026-03-26',
     items: {
