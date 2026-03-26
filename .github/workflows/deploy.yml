@@ -29,20 +29,21 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: npm
+          node-version: 22
 
       - name: Update npm (workaround for intermittent npm ci crash)
         run: npm install -g npm@11
 
       - name: Install dependencies
         run: |
+          node --version
           npm --version
-          npm ci --include=dev --legacy-peer-deps --no-audit --no-fund
+          npm cache clean --force
+          npm ci --include=dev --no-audit --no-fund
           test -x node_modules/.bin/vite
 
       - name: Build
-        run: npx --yes --package vite --package @vitejs/plugin-react --package @tailwindcss/vite --package vite-plugin-pwa --package tailwindcss vite build
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
