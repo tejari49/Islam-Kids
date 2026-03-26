@@ -17,10 +17,11 @@ import { useData } from './hooks/useData';
 
 const CHANGELOG_HISTORY = [
   {
-    version: '2026-03-26-daily-progress-v1',
+    version: '2026-03-26-font-scale-text-only-v1',
     date: '2026-03-26',
     items: {
       de: [
+        'Schriftgröße verbessert: A-/A+ skaliert jetzt nur Text, ohne das gesamte Layout/Design zu verzerren.',
         'Neues Tagesziel-System: täglicher Lernfortschritt mit automatischem Tages-Reset.',
         'Neue Einstellungen: Auto-Play, Auto-Fokus auf aktuelle Aya, Standard-Übersetzung und Kinder-Modus.',
         'Suren-Ansicht verbessert: strikter Accordion-Modus (nur eine Aya gleichzeitig geöffnet).',
@@ -28,6 +29,7 @@ const CHANGELOG_HISTORY = [
         'Deploy stabilisiert über vorgebautes dist-Artefakt (ohne CI-Build-Crash).'
       ],
       al: [
+        'Përmirësim i madhësisë së shkronjës: A-/A+ tani ndryshon vetëm tekstin, jo gjithë dizajnin/layout-in.',
         'Sistem i ri i objektivit ditor: progres ditor me reset automatik çdo ditë.',
         'U shtuan cilësime të reja: Auto-Play, fokus automatik te ajeti aktual, përkthimi standard dhe mënyra për fëmijë.',
         'Pamja e sures u përmirësua: modalitet strict accordion (vetëm një ajet i hapur).',
@@ -35,6 +37,7 @@ const CHANGELOG_HISTORY = [
         'Deploy u stabilizua me dist të ndërtuar paraprakisht (pa crash në CI build).'
       ],
       tr: [
+        'Yazı boyutu iyileştirildi: A-/A+ artık tüm tasarımı değil sadece metni ölçekler.',
         'Yeni günlük hedef sistemi: otomatik günlük sıfırlama ile öğrenme takibi.',
         'Yeni ayarlar eklendi: Otomatik oynatma, aktif ayete otomatik odak, varsayılan çeviri ve çocuk modu.',
         'Sure görünümü geliştirildi: strict accordion modu (aynı anda sadece bir ayet açık).',
@@ -148,9 +151,11 @@ export default function App() {
 
   useEffect(() => {
     localStorage.setItem('fontScalePercent', String(fontScale));
-    document.documentElement.style.fontSize = `${fontScale}%`;
+    document.documentElement.style.textSizeAdjust = `${fontScale}%`;
+    document.documentElement.style.webkitTextSizeAdjust = `${fontScale}%`;
     return () => {
-      document.documentElement.style.fontSize = '';
+      document.documentElement.style.textSizeAdjust = '';
+      document.documentElement.style.webkitTextSizeAdjust = '';
     };
   }, [fontScale]);
 
