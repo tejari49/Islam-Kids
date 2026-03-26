@@ -8,12 +8,14 @@ import {
   Play,
   Pause,
   Loader2,
-  FastForward,
   BadgeCheck,
   Volume2,
   Compass,
   LocateFixed,
-  ExternalLink
+  ExternalLink,
+  ChevronDown,
+  Mic,
+  Square
 } from 'lucide-react';
 import { wuduSteps, prayers, prayerSteps } from '../data/prayerData';
 import { fetchAyahQueue, joinAyahTexts } from '../utils/quranAudio';
@@ -56,6 +58,14 @@ const uiText = {
     authenticAudio: 'Authentisches API-Audio',
     authenticAudioHint: 'Es wird nur echte Rezitation aus einer Quran-Audio-API abgespielt.',
     noAudio: 'Für diesen Gebetssatz ist aktuell kein verlässliches API-Audio hinterlegt.',
+    ownAudio: 'Eigenes Audio',
+    ownAudioHint: 'Du kannst jetzt eine eigene Aufnahme speichern und später wiedergeben.',
+    startRecording: 'Aufnahme starten',
+    stopRecording: 'Aufnahme stoppen',
+    playOwnAudio: 'Eigene Aufnahme abspielen',
+    pauseOwnAudio: 'Eigene Aufnahme pausieren',
+    deleteOwnAudio: 'Aufnahme löschen',
+    tapArabicHint: 'Tipp: Tippe auf den arabischen Text, um Audio abzuspielen/zu pausieren.',
     prayerFinished: 'MashaAllah, du hast die Gebetsanleitung abgeschlossen.'
   },
   al: {
@@ -95,6 +105,14 @@ const uiText = {
     authenticAudio: 'Audio autentike nga API',
     authenticAudioHint: 'Këtu luhet vetëm recitim i vërtetë nga një API e Kuranit.',
     noAudio: 'Për këtë tekst të namazit nuk është lidhur ende audio e besueshme nga API.',
+    ownAudio: 'Audio personale',
+    ownAudioHint: 'Mund ta ruash një incizim personal dhe ta luash më vonë.',
+    startRecording: 'Nis incizimin',
+    stopRecording: 'Ndal incizimin',
+    playOwnAudio: 'Luaj incizimin',
+    pauseOwnAudio: 'Pauzo incizimin',
+    deleteOwnAudio: 'Fshij incizimin',
+    tapArabicHint: 'Këshillë: Prek tekstin arab për ta luajtur/ndalur audion.',
     prayerFinished: 'MashaAllah, e përfundove udhëzimin e namazit.'
   },
   tr: {
@@ -134,6 +152,14 @@ const uiText = {
     authenticAudio: 'Gerçek API sesi',
     authenticAudioHint: 'Burada sadece gerçek kıraat içeren Kur’an API sesi oynatılır.',
     noAudio: 'Bu namaz cümlesi için henüz güvenilir API sesi eklenmemiştir.',
+    ownAudio: 'Kendi sesin',
+    ownAudioHint: 'Kendi kaydını kaydedip istediğin zaman oynatabilirsin.',
+    startRecording: 'Kaydı başlat',
+    stopRecording: 'Kaydı durdur',
+    playOwnAudio: 'Kayıt çal',
+    pauseOwnAudio: 'Kaydı duraklat',
+    deleteOwnAudio: 'Kaydı sil',
+    tapArabicHint: 'İpucu: Oynat/duraklat için Arapça metne dokun.',
     prayerFinished: 'MashaAllah, namaz rehberini tamamladın.'
   }
 };
@@ -197,7 +223,10 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
   const [imageFailed, setImageFailed] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoadingAudio, setIsLoadingAudio] = useState(false);
-  const [playbackRate, setPlaybackRate] = useState(1.0);
+  const [isRecording, setIsRecording] = useState(false);
+  const [customAudioUrl, setCustomAudioUrl] = useState('');
+  const [showWatchFor, setShowWatchFor] = useState(false);
+  const [showArabicTapHint, setShowArabicTapHint] = useState(true);
   const [currentStepAyahs, setCurrentStepAyahs] = useState([]);
   const [currentAudioQueue, setCurrentAudioQueue] = useState([]);
   const [currentAudioIndex, setCurrentAudioIndex] = useState(0);
@@ -207,6 +236,8 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
   const [compassError, setCompassError] = useState('');
   const [needsCompassPermission, setNeedsCompassPermission] = useState(false);
   const audioRef = useRef(null);
+  const mediaRecorderRef = useRef(null);
+  const recordChunksRef = useRef([]);
 
   const currentStepData = prayerSteps[currentSlide];
 
@@ -230,7 +261,15 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
     setImageFailed(false);
     setIsPlaying(false);
     setIsLoadingAudio(false);
+    setShowWatchFor(false);
+    setShowArabicTapHint(true);
   }, [currentSlide, step, selectedLearner]);
+
+  useEffect(() => {
+    const key = `prayerCustomAudio:${currentStepData?.id || 'unknown'}`;
+    const savedAudio = localStorage.getItem(key) || '';
+    setCustomAudioUrl(savedAudio);
+  }, [currentStepData?.id]);
 
   useEffect(() => {
     if (step !== 'qibla_compass') return undefined;
@@ -362,7 +401,6 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
     setCurrentAudioIndex(index);
     audioRef.current.src = urls[index];
     audioRef.current.load();
-    audioRef.current.playbackRate = playbackRate;
     await audioRef.current.play();
     setIsPlaying(true);
   };
@@ -396,7 +434,6 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
 
     try {
       if (audioRef.current.src) {
-        audioRef.current.playbackRate = playbackRate;
         await audioRef.current.play();
         setIsPlaying(true);
         return;
@@ -428,14 +465,69 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
     }
   };
 
-  const changeSpeed = () => {
-    const speeds = [1.0, 0.75, 0.5];
-    const nextIndex = (speeds.indexOf(playbackRate) + 1) % speeds.length;
-    const nextSpeed = speeds[nextIndex];
-    setPlaybackRate(nextSpeed);
-    if (audioRef.current) {
-      audioRef.current.playbackRate = nextSpeed;
+  const toggleArabicAudio = async () => {
+    setShowArabicTapHint(false);
+    if (hasAudio) {
+      await toggleAudio();
+      return;
     }
+    if (!audioRef.current || !customAudioUrl) return;
+    if (isPlaying) {
+      audioRef.current.pause();
+      setIsPlaying(false);
+      return;
+    }
+    audioRef.current.src = customAudioUrl;
+    audioRef.current.load();
+    await audioRef.current.play();
+    setIsPlaying(true);
+  };
+
+  const startRecording = async () => {
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const mediaRecorder = new MediaRecorder(stream);
+      mediaRecorderRef.current = mediaRecorder;
+      recordChunksRef.current = [];
+
+      mediaRecorder.ondataavailable = (event) => {
+        if (event.data?.size > 0) {
+          recordChunksRef.current.push(event.data);
+        }
+      };
+
+      mediaRecorder.onstop = () => {
+        const blob = new Blob(recordChunksRef.current, { type: 'audio/webm' });
+        const reader = new FileReader();
+        reader.onloadend = () => {
+          const base64 = typeof reader.result === 'string' ? reader.result : '';
+          if (!base64) return;
+          const key = `prayerCustomAudio:${currentStepData?.id || 'unknown'}`;
+          localStorage.setItem(key, base64);
+          setCustomAudioUrl(base64);
+        };
+        reader.readAsDataURL(blob);
+        stream.getTracks().forEach((track) => track.stop());
+      };
+
+      mediaRecorder.start();
+      setIsRecording(true);
+    } catch (error) {
+      console.error('Audioaufnahme konnte nicht gestartet werden.', error);
+    }
+  };
+
+  const stopRecording = () => {
+    if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
+      mediaRecorderRef.current.stop();
+    }
+    setIsRecording(false);
+  };
+
+  const removeCustomAudio = () => {
+    const key = `prayerCustomAudio:${currentStepData?.id || 'unknown'}`;
+    localStorage.removeItem(key);
+    setCustomAudioUrl('');
   };
 
   if (step === 'select_gender') {
@@ -744,10 +836,19 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
             <h2 className={`text-2xl font-bold transition-colors ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{currentStepData.title[selectedLang]}</h2>
 
             <InfoCard title={t.arabic} isDarkMode={isDarkMode} tone="green">
-              <p className={`text-3xl font-arabic leading-relaxed text-right ${isDarkMode ? 'text-green-400' : 'text-green-700'}`} dir="rtl">
+              <button
+                onClick={toggleArabicAudio}
+                className={`w-full text-3xl font-arabic leading-relaxed text-right cursor-pointer ${isDarkMode ? 'text-green-400' : 'text-green-700'}`}
+                dir="rtl"
+              >
                 {displayArabic}
-              </p>
+              </button>
             </InfoCard>
+            {showArabicTapHint && (
+              <div className={`px-3 py-2 rounded-xl text-xs ${isDarkMode ? 'bg-slate-700 text-slate-200' : 'bg-indigo-50 text-indigo-700'}`}>
+                {t.tapArabicHint}
+              </div>
+            )}
 
             {currentStepData.transliteration && (
               <InfoCard title={t.pronunciation} isDarkMode={isDarkMode} tone="blue">
@@ -765,15 +866,20 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
 
             {!!currentStepData.poseNotes?.[selectedLang]?.length && (
               <div className={`text-left p-4 rounded-3xl border transition-colors ${isDarkMode ? 'bg-slate-900/60 border-slate-700' : 'bg-slate-50 border-slate-200'}`}>
-                <div className={`font-bold mb-3 transition-colors ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{t.watchFor}</div>
-                <div className="space-y-2">
-                  {currentStepData.poseNotes[selectedLang].map((note, noteIndex) => (
-                    <div key={`${currentStepData.id}-${noteIndex}`} className="flex items-start gap-2">
-                      <span className={`mt-1 w-2 h-2 rounded-full flex-shrink-0 ${isDarkMode ? 'bg-indigo-400' : 'bg-indigo-500'}`}></span>
-                      <p className={`text-sm leading-relaxed transition-colors ${isDarkMode ? 'text-slate-300' : 'text-gray-600'}`}>{note}</p>
-                    </div>
-                  ))}
-                </div>
+                <button onClick={() => setShowWatchFor((prev) => !prev)} className="w-full flex items-center justify-between">
+                  <div className={`font-bold transition-colors ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{t.watchFor}</div>
+                  <ChevronDown size={18} className={`transition-transform ${showWatchFor ? 'rotate-180' : ''}`} />
+                </button>
+                {showWatchFor && (
+                  <div className="space-y-2 mt-3">
+                    {currentStepData.poseNotes[selectedLang].map((note, noteIndex) => (
+                      <div key={`${currentStepData.id}-${noteIndex}`} className="flex items-start gap-2">
+                        <span className={`mt-1 w-2 h-2 rounded-full flex-shrink-0 ${isDarkMode ? 'bg-indigo-400' : 'bg-indigo-500'}`}></span>
+                        <p className={`text-sm leading-relaxed transition-colors ${isDarkMode ? 'text-slate-300' : 'text-gray-600'}`}>{note}</p>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
             )}
 
@@ -786,13 +892,6 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
                   </div>
                   <div className="flex items-center gap-3">
                     <button
-                      onClick={changeSpeed}
-                      className={`p-3 rounded-2xl font-bold text-xs flex flex-col items-center gap-1 active:scale-95 transition-all ${isDarkMode ? 'bg-slate-700 text-slate-300' : 'bg-white text-gray-600 border border-emerald-100'}`}
-                    >
-                      <FastForward size={16} />
-                      {playbackRate}x
-                    </button>
-                    <button
                       onClick={toggleAudio}
                       disabled={isLoadingAudio}
                       className={`p-5 rounded-3xl shadow-lg transition-all transform active:scale-90 flex items-center justify-center ${isLoadingAudio ? 'bg-gray-200 text-gray-500' : isPlaying ? 'bg-red-500 text-white' : 'bg-green-500 text-white hover:bg-green-600'}`}
@@ -804,8 +903,36 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
                 <p className={`text-xs mt-3 text-left ${isDarkMode ? 'text-emerald-200/80' : 'text-emerald-800/80'}`}>{t.authenticAudioHint}</p>
               </div>
             ) : (
-              <div className={`p-4 rounded-2xl border text-left ${isDarkMode ? 'bg-slate-900/60 border-slate-700 text-slate-400' : 'bg-gray-50 border-gray-100 text-gray-500'}`}>
+              <div className={`p-4 rounded-2xl border text-left space-y-3 ${isDarkMode ? 'bg-slate-900/60 border-slate-700 text-slate-400' : 'bg-gray-50 border-gray-100 text-gray-500'}`}>
                 <p className="text-sm leading-relaxed">{t.noAudio}</p>
+                <div className={`p-3 rounded-xl border ${isDarkMode ? 'border-slate-700 bg-slate-800' : 'border-gray-200 bg-white'}`}>
+                  <div className="flex items-center gap-2 mb-2">
+                    <Mic size={16} />
+                    <span className="text-sm font-bold">{t.ownAudio}</span>
+                  </div>
+                  <p className="text-xs mb-3">{t.ownAudioHint}</p>
+                  <div className="flex flex-wrap gap-2">
+                    {!isRecording ? (
+                      <button onClick={startRecording} className="px-3 py-2 rounded-xl text-xs font-bold bg-emerald-500 text-white">
+                        {t.startRecording}
+                      </button>
+                    ) : (
+                      <button onClick={stopRecording} className="px-3 py-2 rounded-xl text-xs font-bold bg-red-500 text-white flex items-center gap-1">
+                        <Square size={12} /> {t.stopRecording}
+                      </button>
+                    )}
+                    {customAudioUrl && (
+                      <>
+                        <button onClick={toggleArabicAudio} className="px-3 py-2 rounded-xl text-xs font-bold bg-indigo-500 text-white">
+                          {isPlaying ? t.pauseOwnAudio : t.playOwnAudio}
+                        </button>
+                        <button onClick={removeCustomAudio} className={`px-3 py-2 rounded-xl text-xs font-bold ${isDarkMode ? 'bg-slate-700 text-white' : 'bg-gray-200 text-gray-700'}`}>
+                          {t.deleteOwnAudio}
+                        </button>
+                      </>
+                    )}
+                  </div>
+                </div>
               </div>
             )}
           </div>
