@@ -17,22 +17,25 @@ import { useData } from './hooks/useData';
 
 const CHANGELOG_HISTORY = [
   {
-    version: '2026-03-26-settings-and-strict-ayah',
+    version: '2026-03-26-daily-progress-v1',
     date: '2026-03-26',
     items: {
       de: [
+        'Neues Tagesziel-System: täglicher Lernfortschritt mit automatischem Tages-Reset.',
         'Neue Einstellungen: Auto-Play, Auto-Fokus auf aktuelle Aya, Standard-Übersetzung und Kinder-Modus.',
         'Suren-Ansicht verbessert: strikter Accordion-Modus (nur eine Aya gleichzeitig geöffnet).',
         'Changelog-Historie eingebaut: beim Start einmalig + Verlauf in den Einstellungen.',
         'Deploy stabilisiert über vorgebautes dist-Artefakt (ohne CI-Build-Crash).'
       ],
       al: [
+        'Sistem i ri i objektivit ditor: progres ditor me reset automatik çdo ditë.',
         'U shtuan cilësime të reja: Auto-Play, fokus automatik te ajeti aktual, përkthimi standard dhe mënyra për fëmijë.',
         'Pamja e sures u përmirësua: modalitet strict accordion (vetëm një ajet i hapur).',
         'U shtua historiku i ndryshimeve: shfaqje një herë në nisje + listë në cilësime.',
         'Deploy u stabilizua me dist të ndërtuar paraprakisht (pa crash në CI build).'
       ],
       tr: [
+        'Yeni günlük hedef sistemi: otomatik günlük sıfırlama ile öğrenme takibi.',
         'Yeni ayarlar eklendi: Otomatik oynatma, aktif ayete otomatik odak, varsayılan çeviri ve çocuk modu.',
         'Sure görünümü geliştirildi: strict accordion modu (aynı anda sadece bir ayet açık).',
         'Sürüm geçmişi eklendi: açılışta bir kez gösterim + ayarlarda geçmiş listesi.',
@@ -72,6 +75,7 @@ const changelogModalTexts = {
 
 
 export default function App() {
+  const getTodayKey = () => new Date().toISOString().slice(0, 10);
   const { duas, hadiths, stories, suren, loading } = useData();
   const [activeTab, setActiveTab] = useState('home');
   const [selectedLang, setSelectedLang] = useState('de');
@@ -87,7 +91,9 @@ export default function App() {
       autoPlaySurah: false,
       autoOpenCurrentAyah: true,
       showTranslationDefault: true,
-      kidsMode: false
+      kidsMode: false,
+      dailyGoalEnabled: true,
+      dailyGoalTarget: 3
     };
   });
   const [fontScale, setFontScale] = useState(() => {
@@ -107,6 +113,14 @@ export default function App() {
   const [stats, setStats] = useState(() => {
     const saved = localStorage.getItem('stats');
     return saved ? JSON.parse(saved) : { xp: 0, quizzesPlayed: 0, itemsRead: 0 };
+  });
+  const [dailyProgress, setDailyProgress] = useState(() => {
+    const saved = localStorage.getItem('dailyProgress');
+    const today = getTodayKey();
+    if (!saved) return { date: today, done: 0 };
+    const parsed = JSON.parse(saved);
+    if (parsed?.date !== today) return { date: today, done: 0 };
+    return { date: parsed.date, done: Number(parsed.done) || 0 };
   });
 
   const [userLocation, setUserLocation] = useState(() => {
@@ -149,6 +163,10 @@ export default function App() {
   }, [stats]);
 
   useEffect(() => {
+    localStorage.setItem('dailyProgress', JSON.stringify(dailyProgress));
+  }, [dailyProgress]);
+
+  useEffect(() => {
     localStorage.setItem('appSettings', JSON.stringify(appSettings));
   }, [appSettings]);
 
@@ -158,6 +176,15 @@ export default function App() {
 
   const incrementStat = React.useCallback((key) => {
     setStats((prev) => ({ ...prev, [key]: (prev[key] || 0) + 1 }));
+    if (key === 'itemsRead') {
+      const today = getTodayKey();
+      setDailyProgress((prev) => {
+        if (prev.date !== today) {
+          return { date: today, done: 1 };
+        }
+        return { ...prev, done: prev.done + 1 };
+      });
+    }
   }, []);
 
   const toggleFavorite = React.useCallback((type, id) => {
@@ -248,6 +275,10 @@ export default function App() {
 
   const level = Math.floor(stats.xp / 100) + 1;
   const currentLevelXp = stats.xp % 100;
+  const dailyTarget = Math.max(1, Number(appSettings.dailyGoalTarget) || 3);
+  const todayKey = getTodayKey();
+  const todayDone = dailyProgress.date === todayKey ? dailyProgress.done : 0;
+  const dailyPercent = Math.min(100, Math.round((todayDone / dailyTarget) * 100));
   const changelog = changelogModalTexts[selectedLang] || changelogModalTexts.de;
   const latestChangelogItems = CHANGELOG_HISTORY[0].items[selectedLang] || CHANGELOG_HISTORY[0].items.de;
 
@@ -318,6 +349,17 @@ export default function App() {
           </div>
           <div className="text-[10px] font-black text-slate-400">{currentLevelXp}/100 {uiTexts[selectedLang].xp}</div>
         </div>
+        {appSettings.dailyGoalEnabled && (
+          <div className={`mt-2 px-2 py-2 rounded-xl border ${isDarkMode ? 'bg-slate-900 border-slate-700' : 'bg-emerald-50/60 border-emerald-100'}`}>
+            <div className="flex items-center justify-between text-[11px] font-bold">
+              <span>Tagesziel</span>
+              <span>{todayDone}/{dailyTarget}</span>
+            </div>
+            <div className={`mt-1 h-2 rounded-full overflow-hidden ${isDarkMode ? 'bg-slate-700' : 'bg-white'}`}>
+              <div className="h-full bg-gradient-to-r from-emerald-400 to-green-600 transition-all" style={{ width: `${dailyPercent}%` }} />
+            </div>
+          </div>
+        )}
       </div>
 
       <div className="h-[calc(100vh-170px)] overflow-y-auto">
@@ -379,7 +421,8 @@ export default function App() {
                     ['autoPlaySurah', 'Automatische Suren-Wiedergabe'],
                     ['autoOpenCurrentAyah', 'Aktuelle Aya automatisch öffnen'],
                     ['showTranslationDefault', 'Übersetzung standardmäßig anzeigen'],
-                    ['kidsMode', 'Kinder-Modus (größere Buttons)']
+                    ['kidsMode', 'Kinder-Modus (größere Buttons)'],
+                    ['dailyGoalEnabled', 'Tagesziel anzeigen']
                   ].map(([key, label]) => (
                     <button
                       key={key}
@@ -394,6 +437,27 @@ export default function App() {
                       </span>
                     </button>
                   ))}
+                </div>
+                <div className={`p-4 rounded-2xl border ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-200'}`}>
+                  <h3 className="text-sm font-black mb-3">Tagesziel (Lesen)</h3>
+                  <div className="flex items-center justify-between">
+                    <button
+                      onClick={() => setAppSettings((prev) => ({ ...prev, dailyGoalTarget: Math.max(1, (Number(prev.dailyGoalTarget) || 3) - 1) }))}
+                      className={`px-3 py-2 rounded-xl font-black ${isDarkMode ? 'bg-slate-700' : 'bg-gray-100'}`}
+                    >
+                      -
+                    </button>
+                    <div className="text-center">
+                      <div className="text-lg font-black">{dailyTarget}</div>
+                      <div className={`text-[11px] ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>Inhalte pro Tag</div>
+                    </div>
+                    <button
+                      onClick={() => setAppSettings((prev) => ({ ...prev, dailyGoalTarget: Math.min(20, (Number(prev.dailyGoalTarget) || 3) + 1) }))}
+                      className={`px-3 py-2 rounded-xl font-black ${isDarkMode ? 'bg-slate-700' : 'bg-gray-100'}`}
+                    >
+                      +
+                    </button>
+                  </div>
                 </div>
 
                 <div className={`p-4 rounded-2xl border ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-200'}`}>
