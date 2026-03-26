@@ -32,9 +32,13 @@ jobs:
           node-version: 20
           cache: npm
 
+      - name: Update npm (workaround for intermittent npm ci crash)
+        run: npm install -g npm@11
+
       - name: Install dependencies
         run: |
-          npm ci --include=dev --legacy-peer-deps
+          npm --version
+          npm ci --include=dev --legacy-peer-deps --no-audit --no-fund
           test -x node_modules/.bin/vite
 
       - name: Build
