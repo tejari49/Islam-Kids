@@ -63,12 +63,12 @@ export default function SurenList({ suren, onSelect, selectedLang, isDarkMode, f
 
   return (
     <div className={`p-6 pb-24 min-h-screen transition-colors ${isDarkMode ? 'bg-slate-900 text-white' : 'bg-gray-50'}`}>
-      <div className="flex items-center justify-between gap-3 mb-8">
+      <div className="flex items-center justify-between gap-3 mb-6">
         <div className="flex items-center gap-3">
           <div className="p-3 bg-green-500 rounded-2xl text-white shadow-lg shadow-green-500/20">
             <BookOpen size={28} />
           </div>
-          <h1 className="text-3xl font-black">{currentLabels.title}</h1>
+          <h1 className="text-2xl font-black">{currentLabels.title}</h1>
         </div>
         {isRefreshingMeta && <Loader2 className="animate-spin text-green-500" size={20} />}
       </div>
@@ -91,7 +91,7 @@ export default function SurenList({ suren, onSelect, selectedLang, isDarkMode, f
           <div
             key={item.id}
             onClick={() => onSelect(item)}
-            className={`flex items-center gap-4 p-5 rounded-3xl border-2 transition-all cursor-pointer group hover:scale-[1.02] active:scale-95 ${
+          className={`flex items-center gap-3 p-4 rounded-3xl border-2 transition-all cursor-pointer group hover:scale-[1.02] active:scale-95 ${
               isDarkMode ? 'bg-slate-800 border-slate-700 hover:border-green-900/40' : 'bg-white border-green-50 hover:border-green-100 shadow-sm'
             }`}
           >
@@ -100,8 +100,8 @@ export default function SurenList({ suren, onSelect, selectedLang, isDarkMode, f
             </div>
 
             <div className="flex-1 min-w-0">
-              <h3 className="font-bold text-lg mb-0.5 truncate">{item.title[selectedLang]}</h3>
-              <p className={`text-2xl font-arabic leading-tight truncate ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
+              <h3 className="font-bold text-base mb-0.5 truncate">{item.title[selectedLang]}</h3>
+              <p className={`text-xl font-arabic leading-tight truncate ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">
                 {item.arabic || '—'}
               </p>
               <p className={`text-sm mt-1 ${isDarkMode ? 'text-slate-400' : 'text-gray-400'}`}>
