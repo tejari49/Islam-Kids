@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ChevronLeft, Heart, BookOpen, Share2, Play, Pause, Loader2, Volume2, AlertCircle, ScrollText, Languages, ChevronDown } from 'lucide-react';
-import { fetchAyahQueue, fetchSurahBundle } from '../utils/quranAudio';
+import { fetchAyahBundle, fetchSurahBundle } from '../utils/quranAudio';
 
 const LABELS = {
   de: {
@@ -116,6 +116,23 @@ function tokenizeArabicText(text = '') {
     .map((token) => ({ text: token, isSpace: /^\s+$/.test(token) }));
 }
 
+function buildEveryAyahUrl(ayahRef = '') {
+  const [surahPart, ayahPart] = String(ayahRef).split(':');
+  const surahNumber = Number(surahPart);
+  const ayahNumber = Number(ayahPart);
+  if (!Number.isFinite(surahNumber) || !Number.isFinite(ayahNumber)) return '';
+  return `https://verses.quran.com/Alafasy/mp3/${String(surahNumber).padStart(3, '0')}${String(ayahNumber).padStart(3, '0')}.mp3`;
+}
+
+function prefersBlockedHost(url = '') {
+  try {
+    const parsed = new URL(url);
+    return parsed.hostname.includes('cdn.islamic.network');
+  } catch (error) {
+    return false;
+  }
+}
+
 export default function SureDetail({ item, onBack, selectedLang, isDarkMode, favorites, toggleFavorite, incrementStat, appSettings }) {
   const labels = LABELS[selectedLang] || LABELS.de;
   const [translationLang, setTranslationLang] = useState(() => {
@@ -140,8 +157,23 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
 
   const audioRef = useRef(null);
   const hasIncremented = useRef(false);
+  const audioQueueRef = useRef([]);
+  const currentAyahIndexRef = useRef(0);
+  const versesRef = useRef([]);
 
   const verses = useMemo(() => surahBundle?.verses || [], [surahBundle?.verses]);
+
+  useEffect(() => {
+    audioQueueRef.current = audioQueue;
+  }, [audioQueue]);
+
+  useEffect(() => {
+    currentAyahIndexRef.current = currentAyahIndex;
+  }, [currentAyahIndex]);
+
+  useEffect(() => {
+    versesRef.current = verses;
+  }, [verses]);
 
   useEffect(() => {
     if (['de', 'al', 'tr'].includes(selectedLang)) {
@@ -158,7 +190,6 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
 
   useEffect(() => {
     const audio = new Audio();
-    audio.crossOrigin = 'anonymous';
     audioRef.current = audio;
 
     const setAudioData = () => setDuration(audio.duration || 0);
@@ -167,7 +198,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
     const clearBuffering = () => setIsBuffering(false);
 
     const updateWordHighlight = () => {
-      const verse = verses[currentAyahIndex];
+      const verse = versesRef.current[currentAyahIndexRef.current];
       if (!verse?.arabic) {
         setCurrentWordIndex(-1);
         return;
@@ -184,9 +215,12 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
     };
 
     const onEnded = async () => {
-      if (currentAyahIndex < audioQueue.length - 1) {
-        const nextIndex = currentAyahIndex + 1;
-        const nextUrl = audioQueue[nextIndex];
+      const queue = audioQueueRef.current;
+      const currentIndex = currentAyahIndexRef.current;
+
+      if (currentIndex < queue.length - 1) {
+        const nextIndex = currentIndex + 1;
+        const nextUrl = queue[nextIndex];
         if (!nextUrl) {
           setIsPlaying(false);
           return;
@@ -225,6 +259,8 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
 
     return () => {
       audio.pause();
+      audio.removeAttribute('src');
+      audio.load();
       audio.removeEventListener('loadeddata', setAudioData);
       audio.removeEventListener('timeupdate', setAudioTime);
       audio.removeEventListener('timeupdate', updateWordHighlight);
@@ -234,7 +270,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
       audio.removeEventListener('ended', onEnded);
       audio.removeEventListener('pause', onPause);
     };
-  }, [audioQueue, currentAyahIndex, verses]);
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -286,8 +322,14 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
 
     setIsLoadingAudio(true);
     try {
-      const ayahs = await fetchAyahQueue(ayahRefs);
-      const urls = ayahs.map((ayah) => ayah.audio).filter(Boolean);
+      const directUrls = ayahRefs.map((ayahRef) => buildEveryAyahUrl(ayahRef)).filter(Boolean);
+      if (directUrls.length) {
+        setAudioQueue(directUrls);
+        return directUrls;
+      }
+
+      const ayahs = await Promise.all(ayahRefs.map((ayahRef) => fetchAyahBundle(ayahRef)));
+      const urls = ayahs.map((ayah) => ayah?.audio).filter((url) => url && !prefersBlockedHost(url));
       setAudioQueue(urls);
       return urls;
     } catch (error) {
