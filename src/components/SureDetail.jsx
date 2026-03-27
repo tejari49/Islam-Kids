@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ChevronLeft, Heart, BookOpen, Share2, Play, Pause, Loader2, Volume2, AlertCircle, ScrollText, Languages, ChevronDown } from 'lucide-react';
-import { fetchAyahQueue, fetchSurahBundle } from '../utils/quranAudio';
+import { fetchAyahBundle, fetchSurahBundle } from '../utils/quranAudio';
 
 const LABELS = {
   de: {
@@ -322,15 +322,14 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
 
     setIsLoadingAudio(true);
     try {
-      const ayahs = await fetchAyahQueue(ayahRefs);
-      const urls = ayahs
-        .map((ayah, index) => {
-          const ayahRef = ayah?.ayahRef || ayahRefs[index] || '';
-          const fallbackUrl = buildEveryAyahUrl(ayahRef);
-          if (!ayah?.audio) return fallbackUrl;
-          return prefersBlockedHost(ayah.audio) ? (fallbackUrl || ayah.audio) : ayah.audio;
-        })
-        .filter(Boolean);
+      const directUrls = ayahRefs.map((ayahRef) => buildEveryAyahUrl(ayahRef)).filter(Boolean);
+      if (directUrls.length) {
+        setAudioQueue(directUrls);
+        return directUrls;
+      }
+
+      const ayahs = await Promise.all(ayahRefs.map((ayahRef) => fetchAyahBundle(ayahRef)));
+      const urls = ayahs.map((ayah) => ayah?.audio).filter((url) => url && !prefersBlockedHost(url));
       setAudioQueue(urls);
       return urls;
     } catch (error) {
