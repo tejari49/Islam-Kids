@@ -11,7 +11,7 @@ const SURAH_AUDIO_BITRATE = 128;
 const SURAH_AUDIO_EDITION = 'ar.alafasy';
 const SURAH_CACHE_TTL = 1000 * 60 * 60 * 24 * 7;
 const SURAH_META_CACHE_TTL = 1000 * 60 * 60 * 24 * 30;
-const CACHE_VERSION = '2026-03-24-fawaz-quran-v1';
+const CACHE_VERSION = '2026-03-26-audio-cors-fallback-v1';
 
 const QURAN_API_LANGUAGE = {
   de: 'German',
@@ -98,6 +98,22 @@ function buildSurahAudioUrl(surahId, edition = SURAH_AUDIO_EDITION, bitrate = SU
 
 function getCacheKey(prefix, ...parts) {
   return `${CACHE_VERSION}:${prefix}:${parts.join(':')}`;
+}
+
+function isCorsBlockedAudioUrl(url = '') {
+  if (!url) return true;
+  try {
+    const parsed = new URL(url);
+    return parsed.hostname.includes('cdn.islamic.network');
+  } catch (error) {
+    return true;
+  }
+}
+
+function pickPlayableAudioUrl(candidates = []) {
+  const valid = candidates.filter(Boolean);
+  const nonBlocked = valid.find((url) => !isCorsBlockedAudioUrl(url));
+  return nonBlocked || '';
 }
 
 function normalizeEditionEntries(payload) {
@@ -261,10 +277,16 @@ export async function fetchAyahBundle(ayahRef) {
 
   try {
     const data = await fetchEditionAyah(ayahRef, SURAH_AUDIO_EDITION);
+    const preferredAudio = pickPlayableAudioUrl([
+      everyAyahFallback,
+      data?.audioSecondary?.[0],
+      data?.audioSecondary?.[1],
+      data?.audio
+    ]);
 
     return {
       ayahRef,
-      audio: data?.audio || data?.audioSecondary?.[0] || everyAyahFallback,
+      audio: preferredAudio || everyAyahFallback,
       text: data?.text || '',
       surahName: data?.surah?.englishName || '',
       numberInSurah: data?.numberInSurah || ayahNumber || null
