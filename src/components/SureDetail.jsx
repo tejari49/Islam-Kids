@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ChevronLeft, Heart, BookOpen, Share2, Play, Pause, Loader2, Volume2, AlertCircle, ScrollText, Languages, ChevronDown } from 'lucide-react';
 import { fetchAyahBundle, fetchSurahBundle } from '../utils/quranAudio';
+import { speakArabicText, stopSpeechPlayback } from '../utils/audio';
 
 const LABELS = {
   de: {
@@ -154,12 +155,14 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   const [marqueeEnabled, setMarqueeEnabled] = useState(false);
   const [expandedAyahNumber, setExpandedAyahNumber] = useState(null);
   const [showTapHint, setShowTapHint] = useState(true);
+  const [isSpeechFallback, setIsSpeechFallback] = useState(false);
 
   const audioRef = useRef(null);
   const hasIncremented = useRef(false);
   const audioQueueRef = useRef([]);
   const currentAyahIndexRef = useRef(0);
   const versesRef = useRef([]);
+  const isSpeechFallbackRef = useRef(false);
 
   const verses = useMemo(() => surahBundle?.verses || [], [surahBundle?.verses]);
 
@@ -174,6 +177,10 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   useEffect(() => {
     versesRef.current = verses;
   }, [verses]);
+
+  useEffect(() => {
+    isSpeechFallbackRef.current = isSpeechFallback;
+  }, [isSpeechFallback]);
 
   useEffect(() => {
     if (['de', 'al', 'tr'].includes(selectedLang)) {
@@ -246,7 +253,11 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
       audio.currentTime = 0;
     };
 
-    const onPause = () => setIsPlaying(false);
+    const onPause = () => {
+      if (!isSpeechFallbackRef.current) {
+        setIsPlaying(false);
+      }
+    };
 
     audio.addEventListener('loadeddata', setAudioData);
     audio.addEventListener('timeupdate', setAudioTime);
@@ -261,6 +272,7 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
       audio.pause();
       audio.removeAttribute('src');
       audio.load();
+      stopSpeechPlayback();
       audio.removeEventListener('loadeddata', setAudioData);
       audio.removeEventListener('timeupdate', setAudioTime);
       audio.removeEventListener('timeupdate', updateWordHighlight);
@@ -294,6 +306,8 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
             audioRef.current.removeAttribute('src');
             audioRef.current.load();
           }
+          stopSpeechPlayback();
+          setIsSpeechFallback(false);
         }
       } catch (error) {
         console.error('Fehler beim Laden der vollständigen Sure:', error);
@@ -341,14 +355,52 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
   };
 
   const startAyah = async (index, queue = audioQueue) => {
-    if (!audioRef.current || !queue[index]) return;
+    if (!audioRef.current) return;
     setCurrentAyahIndex(index);
     setCurrentWordIndex(0);
     setCurrentTime(0);
-    audioRef.current.src = queue[index];
-    audioRef.current.load();
-    await audioRef.current.play();
-    setIsPlaying(true);
+
+    const startSpeech = () => {
+      const verseText = versesRef.current[index]?.arabic || '';
+      if (!verseText) return false;
+
+      setIsSpeechFallback(true);
+      setIsBuffering(false);
+      speakArabicText(verseText, 1, {
+        onStart: () => setIsPlaying(true),
+        onEnd: () => {
+          const nextIndex = index + 1;
+          if (nextIndex < versesRef.current.length) {
+            startAyah(nextIndex, queue);
+            return;
+          }
+          setIsPlaying(false);
+          setCurrentWordIndex(-1);
+        },
+        onError: () => {
+          setIsPlaying(false);
+          setCurrentWordIndex(-1);
+        }
+      });
+      return true;
+    };
+
+    if (!queue[index]) {
+      startSpeech();
+      return;
+    }
+
+    try {
+      setIsSpeechFallback(false);
+      audioRef.current.src = queue[index];
+      audioRef.current.load();
+      await audioRef.current.play();
+      setIsPlaying(true);
+    } catch (error) {
+      if (!startSpeech()) {
+        throw error;
+      }
+    }
   };
 
   const togglePlay = async () => {
@@ -356,7 +408,11 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
 
     try {
       if (isPlaying) {
-        audioRef.current.pause();
+        if (isSpeechFallbackRef.current) {
+          stopSpeechPlayback();
+        } else {
+          audioRef.current.pause();
+        }
         setIsPlaying(false);
         return;
       }
