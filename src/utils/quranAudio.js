@@ -9,9 +9,10 @@ const API_BASE = 'https://api.alquran.cloud/v1';
 const QURAN_API_BASE = 'https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1';
 const SURAH_AUDIO_BITRATE = 128;
 const SURAH_AUDIO_EDITION = 'ar.alafasy';
+const CORS_PROXY_BASE = 'https://corsproxy.io/?';
 const SURAH_CACHE_TTL = 1000 * 60 * 60 * 24 * 7;
 const SURAH_META_CACHE_TTL = 1000 * 60 * 60 * 24 * 30;
-const CACHE_VERSION = '2026-03-27-audio-fallback-source-v2';
+const CACHE_VERSION = '2026-03-27-audio-proxy-fallback-v3';
 
 const QURAN_API_LANGUAGE = {
   de: 'German',
@@ -110,10 +111,17 @@ function isCorsBlockedAudioUrl(url = '') {
   }
 }
 
+function withCorsProxy(url = '') {
+  if (!url) return '';
+  return `${CORS_PROXY_BASE}${encodeURIComponent(url)}`;
+}
+
 function pickPlayableAudioUrl(candidates = []) {
   const valid = candidates.filter(Boolean);
   const nonBlocked = valid.find((url) => !isCorsBlockedAudioUrl(url));
-  return nonBlocked || '';
+  if (nonBlocked) return nonBlocked;
+  if (!valid.length) return '';
+  return withCorsProxy(valid[0]);
 }
 
 function normalizeEditionEntries(payload) {
@@ -442,4 +450,4 @@ export async function fetchSurahBundle(surahId, lang = 'de') {
   return bundle;
 }
 
-export { TRANSLATION_EDITIONS, SURAH_AUDIO_EDITION, SURAH_AUDIO_BITRATE, buildSurahAudioUrl };
+export { TRANSLATION_EDITIONS, SURAH_AUDIO_EDITION, SURAH_AUDIO_BITRATE, buildSurahAudioUrl, withCorsProxy, isCorsBlockedAudioUrl };

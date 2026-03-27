@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ChevronLeft, Heart, BookOpen, Share2, Play, Pause, Loader2, Volume2, AlertCircle, ScrollText, Languages, ChevronDown } from 'lucide-react';
-import { fetchAyahBundle, fetchSurahBundle } from '../utils/quranAudio';
+import { fetchAyahBundle, fetchSurahBundle, isCorsBlockedAudioUrl, withCorsProxy } from '../utils/quranAudio';
 import { speakArabicText, stopSpeechPlayback } from '../utils/audio';
 
 const LABELS = {
@@ -126,12 +126,7 @@ function buildEveryAyahUrl(ayahRef = '') {
 }
 
 function prefersBlockedHost(url = '') {
-  try {
-    const parsed = new URL(url);
-    return parsed.hostname.includes('cdn.islamic.network');
-  } catch (error) {
-    return false;
-  }
+  return isCorsBlockedAudioUrl(url);
 }
 
 export default function SureDetail({ item, onBack, selectedLang, isDarkMode, favorites, toggleFavorite, incrementStat, appSettings }) {
@@ -343,7 +338,13 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
       }
 
       const ayahs = await Promise.all(ayahRefs.map((ayahRef) => fetchAyahBundle(ayahRef)));
-      const urls = ayahs.map((ayah) => ayah?.audio).filter((url) => url && !prefersBlockedHost(url));
+      const urls = ayahs
+        .map((ayah) => {
+          const url = ayah?.audio || '';
+          if (!url) return '';
+          return prefersBlockedHost(url) ? withCorsProxy(url) : url;
+        })
+        .filter(Boolean);
       setAudioQueue(urls);
       return urls;
     } catch (error) {
@@ -392,11 +393,25 @@ export default function SureDetail({ item, onBack, selectedLang, isDarkMode, fav
 
     try {
       setIsSpeechFallback(false);
-      audioRef.current.src = queue[index];
+      const playbackUrl = prefersBlockedHost(queue[index]) ? withCorsProxy(queue[index]) : queue[index];
+      audioRef.current.src = playbackUrl;
       audioRef.current.load();
       await audioRef.current.play();
       setIsPlaying(true);
     } catch (error) {
+      try {
+        const proxiedUrl = withCorsProxy(queue[index]);
+        if (proxiedUrl) {
+          audioRef.current.src = proxiedUrl;
+          audioRef.current.load();
+          await audioRef.current.play();
+          setIsPlaying(true);
+          setIsSpeechFallback(false);
+          return;
+        }
+      } catch (proxyError) {
+        console.warn('Audio konnte auch über CORS-Proxy nicht abgespielt werden.', proxyError);
+      }
       if (!startSpeech()) {
         throw error;
       }
