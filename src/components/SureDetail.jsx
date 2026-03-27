@@ -121,7 +121,7 @@ function buildEveryAyahUrl(ayahRef = '') {
   const surahNumber = Number(surahPart);
   const ayahNumber = Number(ayahPart);
   if (!Number.isFinite(surahNumber) || !Number.isFinite(ayahNumber)) return '';
-  return `https://everyayah.com/data/Alafasy_128kbps/${String(surahNumber).padStart(3, '0')}${String(ayahNumber).padStart(3, '0')}.mp3`;
+  return `https://verses.quran.com/Alafasy/mp3/${String(surahNumber).padStart(3, '0')}${String(ayahNumber).padStart(3, '0')}.mp3`;
 }
 
 function prefersBlockedHost(url = '') {
