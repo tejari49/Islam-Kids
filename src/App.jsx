@@ -10,9 +10,8 @@ import StoryDetail from './components/StoryDetail';
 import PrayerFlow from './components/PrayerFlow';
 import Quiz from './components/Quiz';
 import QuranTrainer from './components/QuranTrainer';
+import ArabicAlphabet from './components/ArabicAlphabet';
 import Achievements from './components/Achievements';
-import SurenList from './components/SurenList';
-import SureDetail from './components/SureDetail';
 import { useData } from './hooks/useData';
 
 const CHANGELOG_HISTORY = [
@@ -130,7 +129,6 @@ export default function App() {
   const [selectedDua, setSelectedDua] = useState(null);
   const [selectedStory, setSelectedStory] = useState(null);
   const [selectedHadith, setSelectedHadith] = useState(null);
-  const [selectedSure, setSelectedSure] = useState(null);
   const [selectedFeature, setSelectedFeature] = useState(null);
   const [showChangelog, setShowChangelog] = useState(() => localStorage.getItem('seenChangelogVersion') !== CHANGELOG_VERSION);
   const [appSettings, setAppSettings] = useState(() => {
@@ -282,14 +280,12 @@ export default function App() {
     setSelectedDua(null);
     setSelectedStory(null);
     setSelectedHadith(null);
-    setSelectedSure(null);
     setSelectedFeature(null);
   }, []);
 
   const openDua = React.useCallback((dua) => {
     setSelectedStory(null);
     setSelectedHadith(null);
-    setSelectedSure(null);
     setSelectedFeature(null);
     setSelectedDua(dua);
   }, []);
@@ -297,7 +293,6 @@ export default function App() {
   const openStory = React.useCallback((story) => {
     setSelectedDua(null);
     setSelectedHadith(null);
-    setSelectedSure(null);
     setSelectedFeature(null);
     setSelectedStory(story);
   }, []);
@@ -305,17 +300,8 @@ export default function App() {
   const openHadith = React.useCallback((hadith) => {
     setSelectedDua(null);
     setSelectedStory(null);
-    setSelectedSure(null);
     setSelectedFeature(null);
     setSelectedHadith(hadith);
-  }, []);
-
-  const openSure = React.useCallback((sure) => {
-    setSelectedDua(null);
-    setSelectedStory(null);
-    setSelectedHadith(null);
-    setSelectedFeature(null);
-    setSelectedSure(sure);
   }, []);
 
   const handleTabChange = React.useCallback((tab) => {
@@ -454,6 +440,13 @@ export default function App() {
                 favorites={favorites}
               />
             )}
+            {selectedFeature === 'alphabet' && (
+              <ArabicAlphabet
+                selectedLang={selectedLang}
+                setSelectedFeature={setSelectedFeature}
+                isDarkMode={isDarkMode}
+              />
+            )}
             {selectedFeature === 'settings' && (
               <div className={`p-6 pb-24 min-h-screen space-y-5 ${isDarkMode ? 'bg-slate-900 text-white' : 'bg-gray-50 text-gray-900'}`}>
                 <div className="flex items-center gap-3">
@@ -542,7 +535,7 @@ export default function App() {
 
             {!selectedFeature && (
               <>
-                {activeTab === 'home' && !selectedDua && !selectedStory && !selectedHadith && !selectedSure && (
+                {activeTab === 'home' && !selectedDua && !selectedStory && !selectedHadith && (
                   <Home
                     selectedLang={selectedLang}
                     uiTexts={uiTexts}
@@ -550,7 +543,6 @@ export default function App() {
                     setSelectedDua={openDua}
                     setSelectedStory={openStory}
                     setSelectedHadith={openHadith}
-                    setSelectedSure={openSure}
                     setSelectedFeature={setSelectedFeature}
                     duas={duas}
                     hadiths={hadiths}
@@ -585,7 +577,7 @@ export default function App() {
                     favorites={favorites}
                   />
                 )}
-                {activeTab === 'stories' && !selectedDua && !selectedStory && !selectedHadith && !selectedSure && (
+                {activeTab === 'stories' && !selectedDua && !selectedStory && !selectedHadith && (
                   <StoriesList 
                     selectedLang={selectedLang} 
                     uiTexts={uiTexts} 
@@ -596,18 +588,6 @@ export default function App() {
                     favorites={favorites}
                   />
                 )}
-                {activeTab === 'suren' && !selectedDua && !selectedStory && !selectedHadith && !selectedSure && (
-                  <SurenList 
-                    selectedLang={selectedLang} 
-                    setSelectedSure={openSure}
-                    suren={suren} 
-                    isDarkMode={isDarkMode}
-                    onSelect={openSure}
-                    toggleFavorite={toggleFavorite}
-                    favorites={favorites}
-                  />
-                )}
-                
                 {selectedDua && (
                   <DuaDetail 
                     selectedDua={selectedDua} 
@@ -642,29 +622,17 @@ export default function App() {
                     incrementStat={incrementStat}
                   />
                 )}
-                {selectedSure && (
-                  <SureDetail 
-                    item={selectedSure} 
-                    selectedLang={selectedLang} 
-                    onBack={() => setSelectedSure(null)} 
-                    isDarkMode={isDarkMode}
-                    toggleFavorite={toggleFavorite}
-                    favorites={favorites}
-                    incrementStat={incrementStat}
-                    appSettings={appSettings}
-                  />
-                )}
               </>
             )}
           </>
         )}
       </div>
 
-      {!selectedDua && !selectedStory && !selectedHadith && !selectedSure && !selectedFeature && (
+      {!selectedDua && !selectedStory && !selectedHadith && !selectedFeature && (
         <div className={`fixed bottom-0 max-w-md w-full border-t flex justify-between px-2 py-3 pb-6 shadow-[0_-10px_40px_rgba(0,0,0,0.05)] z-20 transition-colors ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-100'}`}>
           <button 
             onClick={() => handleTabChange('home')}
-            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'home' ? 'text-green-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'home' ? 'text-green-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
           >
             <HomeIcon size={22} />
             <span className="text-[10px] font-bold">Home</span>
@@ -672,23 +640,15 @@ export default function App() {
           
           <button 
             onClick={() => handleTabChange('duas')}
-            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'duas' ? 'text-green-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'duas' ? 'text-green-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
           >
             <BookOpen size={22} />
             <span className="text-[10px] font-bold">{uiTexts[selectedLang].duas}</span>
           </button>
-
-          <button 
-            onClick={() => handleTabChange('suren')}
-            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'suren' ? 'text-green-600' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
-          >
-            <BookOpen size={22} />
-            <span className="text-[10px] font-bold">{uiTexts[selectedLang].suren}</span>
-          </button>
           
           <button 
             onClick={() => handleTabChange('hadiths')}
-            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'hadiths' ? 'text-yellow-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'hadiths' ? 'text-yellow-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
           >
             <MessageCircle size={22} />
             <span className="text-[10px] font-bold">{uiTexts[selectedLang].hadiths}</span>
@@ -696,7 +656,7 @@ export default function App() {
 
           <button 
             onClick={() => handleTabChange('stories')}
-            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'stories' ? 'text-purple-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'stories' ? 'text-purple-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
           >
             <Library size={22} />
             <span className="text-[10px] font-bold">{uiTexts[selectedLang].stories}</span>
