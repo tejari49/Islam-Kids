@@ -7,7 +7,6 @@ export default function Home({
   setSelectedDua, 
   setSelectedStory,
   setSelectedHadith,
-  setSelectedSure,
   setSelectedFeature,
   duas, 
   hadiths, 
@@ -218,14 +217,14 @@ export default function Home({
           </button>
 
           <button 
-            onClick={() => handleTabChange('suren')}
+            onClick={() => setSelectedFeature('alphabet')}
             className={`p-5 rounded-3xl border-2 flex flex-col items-center gap-3 transition-all hover:scale-[1.02] active:scale-[0.95] shadow-md ${isDarkMode ? 'bg-blue-900/20 border-blue-500/30' : 'bg-white border-blue-100'}`}
           >
-            <div className="text-4xl">📜</div>
+            <div className="text-4xl">🔤</div>
             <h3 className={`font-black text-sm transition-colors ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>
-              {selectedLang === 'de' ? 'Alle Suren' : selectedLang === 'al' ? 'Të gjitha Suret' : 'Tüm Sureler'}
+              {selectedLang === 'de' ? 'Arabisches Alphabet' : selectedLang === 'al' ? 'Alfabeti Arab' : 'Arap Alfabesi'}
             </h3>
-            <span className="text-[10px] font-black text-blue-500 bg-blue-50 border border-blue-100 px-2 py-0.5 rounded-full uppercase">114 + 36</span>
+            <span className="text-[10px] font-black text-blue-500 bg-blue-50 border border-blue-100 px-2 py-0.5 rounded-full uppercase">28 Harf</span>
           </button>
 
           <button 
