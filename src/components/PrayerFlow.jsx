@@ -43,6 +43,8 @@ const uiText = {
     locationNeeded: 'Standort wird benötigt, um die Qibla zu berechnen.',
     requestCompass: 'Kompass aktivieren',
     openQiblaFinder: 'Qibla Finder öffnen',
+    openMapsDirection: 'Richtung in Google Maps öffnen',
+    qiblaAirline: 'Luftlinie nach Mekka',
     qiblaAccuracy: 'Je nach Gerät kann der Kompass leicht abweichen.',
     yesReady: 'Ja, ich bin bereit!',
     showWudu: 'Nein, zeig mir Wudu',
@@ -90,6 +92,8 @@ const uiText = {
     locationNeeded: 'Nevojitet lokacioni për të llogaritur Kiblën.',
     requestCompass: 'Aktivizo kompasin',
     openQiblaFinder: 'Hap Qibla Finder',
+    openMapsDirection: 'Hape drejtimin në Google Maps',
+    qiblaAirline: 'Distanca ajrore për në Mekë',
     qiblaAccuracy: 'Në varësi të pajisjes, kompasi mund të ketë devijim të vogël.',
     yesReady: 'Po, jam gati!',
     showWudu: 'Jo, më trego abdesin',
@@ -137,6 +141,8 @@ const uiText = {
     locationNeeded: 'Kıble hesabı için konum izni gerekiyor.',
     requestCompass: 'Pusulayı aç',
     openQiblaFinder: 'Qibla Finder aç',
+    openMapsDirection: 'Yönü Google Maps\'te aç',
+    qiblaAirline: 'Mekke’ye kuş uçuşu mesafe',
     qiblaAccuracy: 'Cihaza göre pusulada küçük sapmalar olabilir.',
     yesReady: 'Evet, hazırım!',
     showWudu: 'Hayır, abdesti göster',
@@ -195,6 +201,15 @@ function calculateQiblaBearing(latitude, longitude) {
   return normalizeAngle(toDegrees(Math.atan2(y, x)));
 }
 
+function calculateDistanceKm(lat1, lon1, lat2, lon2) {
+  const earthRadiusKm = 6371;
+  const dLat = toRadians(lat2 - lat1);
+  const dLon = toRadians(lon2 - lon1);
+  const a = Math.sin(dLat / 2) ** 2
+    + Math.cos(toRadians(lat1)) * Math.cos(toRadians(lat2)) * Math.sin(dLon / 2) ** 2;
+  return earthRadiusKm * (2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)));
+}
+
 function InfoCard({ title, children, isDarkMode, tone = 'slate' }) {
   const tones = {
     green: isDarkMode ? 'bg-green-900/10 border-green-900/30' : 'bg-green-50 border-green-100',
@@ -231,6 +246,7 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
   const [currentAudioQueue, setCurrentAudioQueue] = useState([]);
   const [currentAudioIndex, setCurrentAudioIndex] = useState(0);
   const [qiblaBearing, setQiblaBearing] = useState(null);
+  const [currentCoords, setCurrentCoords] = useState(null);
   const [deviceHeading, setDeviceHeading] = useState(null);
   const [locationError, setLocationError] = useState('');
   const [compassError, setCompassError] = useState('');
@@ -281,6 +297,7 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
         (position) => {
           const { latitude, longitude } = position.coords;
           setQiblaBearing(calculateQiblaBearing(latitude, longitude));
+          setCurrentCoords({ latitude, longitude });
           setLocationError('');
         },
         () => {
@@ -681,6 +698,12 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
     const delta = qiblaBearing == null || deviceHeading == null
       ? null
       : normalizeAngle(qiblaBearing - deviceHeading);
+    const airlineDistanceKm = currentCoords
+      ? calculateDistanceKm(currentCoords.latitude, currentCoords.longitude, KAABA_COORDS.lat, KAABA_COORDS.lon)
+      : null;
+    const mapsDirectionUrl = currentCoords
+      ? `https://www.google.com/maps/dir/?api=1&origin=${currentCoords.latitude},${currentCoords.longitude}&destination=${KAABA_COORDS.lat},${KAABA_COORDS.lon}&travelmode=walking`
+      : `https://www.google.com/maps/search/?api=1&query=${KAABA_COORDS.lat},${KAABA_COORDS.lon}`;
 
     return (
       <div className={`p-6 pb-24 flex flex-col min-h-screen transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-indigo-50'}`}>
@@ -716,6 +739,10 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
             </div>
           </div>
 
+          <div className={`p-3 rounded-xl text-xs font-bold ${isDarkMode ? 'bg-slate-900/60 text-slate-200' : 'bg-indigo-50 text-gray-700'}`}>
+            {t.qiblaAirline}: {airlineDistanceKm == null ? '—' : `${Math.round(airlineDistanceKm)} km`}
+          </div>
+
           {!!locationError && <p className="text-xs text-red-500">{locationError}</p>}
           {!!compassError && <p className="text-xs text-amber-500">{compassError}</p>}
           <p className={`text-[11px] ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>{t.qiblaAccuracy}</p>
@@ -736,6 +763,15 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
             className={`inline-flex items-center gap-1 text-sm font-bold underline ${isDarkMode ? 'text-indigo-300' : 'text-indigo-700'}`}
           >
             {t.openQiblaFinder} <ExternalLink size={14} />
+          </a>
+
+          <a
+            href={mapsDirectionUrl}
+            target="_blank"
+            rel="noreferrer"
+            className={`inline-flex items-center gap-1 text-sm font-bold underline ml-3 ${isDarkMode ? 'text-emerald-300' : 'text-emerald-700'}`}
+          >
+            {t.openMapsDirection} <ExternalLink size={14} />
           </a>
         </div>
 
