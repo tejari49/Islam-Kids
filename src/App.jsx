@@ -16,6 +16,27 @@ import { useData } from './hooks/useData';
 
 const CHANGELOG_HISTORY = [
   {
+    version: '2026-03-28-learning-rework-v1',
+    date: '2026-03-28',
+    items: {
+      de: [
+        '„Alle Suren“ wurde aus der Navigation entfernt; Fokus liegt jetzt auf „Suren lernen“.',
+        'Neues Lernmodul „Arabisches Alphabet“ auf der Startseite hinzugefügt.',
+        'Suren-Lernen erweitert: Wort-Highlight während Audio + zusätzliche Bedeutungsbox pro Sure.'
+      ],
+      al: [
+        '“Të gjitha suret” u hoq nga navigimi; fokusi tani është te “Mëso Sura”.',
+        'U shtua moduli i ri “Alfabeti Arab” në faqen kryesore.',
+        'Mësimi i sureve u zgjerua: theksim i fjalës gjatë audios + kuti shtesë për kuptimin e sures.'
+      ],
+      tr: [
+        '"Tüm Sureler" sekmeden kaldırıldı; odak artık "Sureleri Öğren" bölümünde.',
+        'Ana sayfaya yeni "Arap Alfabesi" öğrenme modülü eklendi.',
+        'Sure öğrenme geliştirildi: ses sırasında kelime vurgusu + sure anlamı kutusu.'
+      ]
+    }
+  },
+  {
     version: '2026-03-26-suren-audio-translation-hotfix-v1',
     date: '2026-03-26',
     items: {
