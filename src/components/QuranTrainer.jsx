@@ -3,6 +3,38 @@ import { ChevronLeft, Play, Pause, Loader2, Music, Search } from 'lucide-react';
 import { fetchAyahBundle, fetchSurahBundle } from '../utils/quranAudio';
 
 const SHORT_SURAH_IDS = [114, 113, 112, 111, 110, 109, 108, 107, 106, 105];
+const SURAH_GUIDES = {
+  1: {
+    de: {
+      summary: 'Al-Fatiha ist eine tägliche Bitte um Allahs Führung auf den geraden Weg.',
+      lessons: ['Beginne alles mit Dank an Allah.', 'Bitte bewusst um Rechtleitung und Standhaftigkeit.']
+    }
+  },
+  112: {
+    de: {
+      summary: 'Al-Ikhlas erklärt den reinen Tauhid: Allah ist Einer, einzigartig und braucht niemanden.',
+      lessons: ['Glaube ohne Beigesellung (Schirk).', 'Nur Allah anbeten und nur Ihn um Hilfe bitten.']
+    }
+  },
+  113: {
+    de: {
+      summary: 'Al-Falaq ist ein Schutzgebet gegen äußere Gefahren, Neid und schädliche Einflüsse.',
+      lessons: ['Suche Schutz bei Allah statt bei Aberglauben.', 'Bleibe achtsam gegenüber Neid und bösen Absichten.']
+    }
+  },
+  114: {
+    de: {
+      summary: 'An-Nas lehrt, Schutz vor inneren Einflüsterungen und seelischen Angriffen zu suchen.',
+      lessons: ['Achte auf deine Gedanken und Absichten.', 'Suche bei Angst oder Unruhe Zuflucht bei Allah.']
+    }
+  },
+  107: {
+    de: {
+      summary: 'Al-Maun erinnert daran, dass Glaube ohne Mitgefühl und Hilfe für Bedürftige unvollständig ist.',
+      lessons: ['Vernachlässige keine kleinen guten Taten.', 'Frömmigkeit zeigt sich auch im Umgang mit Menschen.']
+    }
+  }
+};
 
 const LABELS = {
   de: {
@@ -51,6 +83,21 @@ function tokenizeArabic(text = '') {
     .split(/(\s+)/)
     .filter((token) => token.length > 0)
     .map((token) => ({ text: token, isSpace: /^\s+$/.test(token) }));
+}
+
+function buildGuideText(surah, lang = 'de') {
+  const guide = SURAH_GUIDES[surah?.id]?.[lang] || SURAH_GUIDES[surah?.id]?.de;
+  if (guide) return guide;
+
+  const rawMeaning = surah?.meaning?.[lang] || surah?.meaning?.de || '';
+  const clean = rawMeaning.replace(/The Opening|The Opening’|The Opening'/gi, 'die Eröffnung').trim();
+  return {
+    summary: clean || 'Diese Sure stärkt den Glauben, erinnert an gutes Verhalten und ruft zu Allahs Nähe auf.',
+    lessons: [
+      'Überlege: Was soll ich heute praktisch umsetzen?',
+      'Frage dich: Welche Eigenschaft möchte Allah in mir stärken?'
+    ]
+  };
 }
 
 export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkMode, addXp, suren = [] }) {
@@ -311,6 +358,7 @@ export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkM
 
   const currentVerse = surahBundle?.verses?.[currentAyahIndex];
   const highlightedArabic = tokenizeArabic(currentVerse?.arabic || '');
+  const guide = buildGuideText(selectedSurah, selectedLang);
 
   return (
     <div className={`p-6 pb-24 flex flex-col min-h-screen transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-indigo-50/50'}`}>
@@ -369,7 +417,15 @@ export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkM
 
               <div className={`p-6 rounded-[2rem] ${isDarkMode ? 'bg-slate-900/50 text-slate-200' : 'bg-emerald-50 text-emerald-900'}`}>
                 <p className="text-xs font-black uppercase tracking-widest mb-2">{labels.meaningTitle}</p>
-                <p className="text-sm leading-relaxed">{selectedSurah?.meaning?.[selectedLang] || selectedSurah?.meaning?.de || '—'}</p>
+                <p className="text-sm leading-relaxed">{guide.summary}</p>
+                <ul className="mt-3 space-y-2">
+                  {guide.lessons.map((lesson) => (
+                    <li key={lesson} className="text-sm leading-relaxed flex items-start gap-2">
+                      <span className="mt-1 inline-block w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                      <span>{lesson}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
 
