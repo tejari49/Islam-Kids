@@ -10,12 +10,32 @@ import StoryDetail from './components/StoryDetail';
 import PrayerFlow from './components/PrayerFlow';
 import Quiz from './components/Quiz';
 import QuranTrainer from './components/QuranTrainer';
+import ArabicAlphabet from './components/ArabicAlphabet';
 import Achievements from './components/Achievements';
-import SurenList from './components/SurenList';
-import SureDetail from './components/SureDetail';
 import { useData } from './hooks/useData';
 
 const CHANGELOG_HISTORY = [
+  {
+    version: '2026-03-28-learning-rework-v1',
+    date: '2026-03-28',
+    items: {
+      de: [
+        '„Alle Suren“ wurde aus der Navigation entfernt; Fokus liegt jetzt auf „Suren lernen“.',
+        'Neues Lernmodul „Arabisches Alphabet“ auf der Startseite hinzugefügt.',
+        'Suren-Lernen erweitert: Wort-Highlight während Audio + zusätzliche Bedeutungsbox pro Sure.'
+      ],
+      al: [
+        '“Të gjitha suret” u hoq nga navigimi; fokusi tani është te “Mëso Sura”.',
+        'U shtua moduli i ri “Alfabeti Arab” në faqen kryesore.',
+        'Mësimi i sureve u zgjerua: theksim i fjalës gjatë audios + kuti shtesë për kuptimin e sures.'
+      ],
+      tr: [
+        '"Tüm Sureler" sekmeden kaldırıldı; odak artık "Sureleri Öğren" bölümünde.',
+        'Ana sayfaya yeni "Arap Alfabesi" öğrenme modülü eklendi.',
+        'Sure öğrenme geliştirildi: ses sırasında kelime vurgusu + sure anlamı kutusu.'
+      ]
+    }
+  },
   {
     version: '2026-03-26-suren-audio-translation-hotfix-v1',
     date: '2026-03-26',
@@ -126,12 +146,15 @@ export default function App() {
   const getTodayKey = () => new Date().toISOString().slice(0, 10);
   const { duas, hadiths, stories, suren, loading } = useData();
   const [activeTab, setActiveTab] = useState('home');
-  const [selectedLang, setSelectedLang] = useState('de');
+  const [selectedLang, setSelectedLang] = useState(() => localStorage.getItem('selectedLang') || 'de');
   const [selectedDua, setSelectedDua] = useState(null);
   const [selectedStory, setSelectedStory] = useState(null);
   const [selectedHadith, setSelectedHadith] = useState(null);
-  const [selectedSure, setSelectedSure] = useState(null);
   const [selectedFeature, setSelectedFeature] = useState(null);
+  const [trainerStartSurahId, setTrainerStartSurahId] = useState(null);
+  const [showLanguagePicker, setShowLanguagePicker] = useState(() => !localStorage.getItem('selectedLang'));
+  const [deferredInstallPrompt, setDeferredInstallPrompt] = useState(null);
+  const [showInstallPrompt, setShowInstallPrompt] = useState(false);
   const [showChangelog, setShowChangelog] = useState(() => localStorage.getItem('seenChangelogVersion') !== CHANGELOG_VERSION);
   const [appSettings, setAppSettings] = useState(() => {
     const saved = localStorage.getItem('appSettings');
@@ -178,6 +201,23 @@ export default function App() {
 
   const updateLocation = React.useCallback((newLocation) => {
     setUserLocation(newLocation);
+  }, []);
+
+  useEffect(() => {
+    if (!selectedLang) return;
+    localStorage.setItem('selectedLang', selectedLang);
+  }, [selectedLang]);
+
+  useEffect(() => {
+    const onBeforeInstallPrompt = (event) => {
+      event.preventDefault();
+      setDeferredInstallPrompt(event);
+      if (!localStorage.getItem('dismissedInstallPrompt')) {
+        setShowInstallPrompt(true);
+      }
+    };
+    window.addEventListener('beforeinstallprompt', onBeforeInstallPrompt);
+    return () => window.removeEventListener('beforeinstallprompt', onBeforeInstallPrompt);
   }, []);
 
 
@@ -282,14 +322,13 @@ export default function App() {
     setSelectedDua(null);
     setSelectedStory(null);
     setSelectedHadith(null);
-    setSelectedSure(null);
     setSelectedFeature(null);
+    setTrainerStartSurahId(null);
   }, []);
 
   const openDua = React.useCallback((dua) => {
     setSelectedStory(null);
     setSelectedHadith(null);
-    setSelectedSure(null);
     setSelectedFeature(null);
     setSelectedDua(dua);
   }, []);
@@ -297,7 +336,6 @@ export default function App() {
   const openStory = React.useCallback((story) => {
     setSelectedDua(null);
     setSelectedHadith(null);
-    setSelectedSure(null);
     setSelectedFeature(null);
     setSelectedStory(story);
   }, []);
@@ -305,18 +343,39 @@ export default function App() {
   const openHadith = React.useCallback((hadith) => {
     setSelectedDua(null);
     setSelectedStory(null);
-    setSelectedSure(null);
     setSelectedFeature(null);
     setSelectedHadith(hadith);
   }, []);
 
-  const openSure = React.useCallback((sure) => {
+  const openTrainerForSurah = React.useCallback((surah) => {
+    if (!surah?.id) return;
     setSelectedDua(null);
     setSelectedStory(null);
     setSelectedHadith(null);
-    setSelectedFeature(null);
-    setSelectedSure(sure);
+    setTrainerStartSurahId(surah.id);
+    setSelectedFeature('trainer');
   }, []);
+
+  const selectLanguage = (lang) => {
+    setSelectedLang(lang);
+    setShowLanguagePicker(false);
+    if (deferredInstallPrompt && !localStorage.getItem('dismissedInstallPrompt')) {
+      setShowInstallPrompt(true);
+    }
+  };
+
+  const triggerInstall = async () => {
+    if (!deferredInstallPrompt) return;
+    deferredInstallPrompt.prompt();
+    await deferredInstallPrompt.userChoice.catch(() => null);
+    setDeferredInstallPrompt(null);
+    setShowInstallPrompt(false);
+  };
+
+  const closeInstallPrompt = () => {
+    localStorage.setItem('dismissedInstallPrompt', '1');
+    setShowInstallPrompt(false);
+  };
 
   const handleTabChange = React.useCallback((tab) => {
     setActiveTab(tab);
@@ -443,6 +502,8 @@ export default function App() {
                 isDarkMode={isDarkMode} 
                 addXp={addXp}
                 suren={suren}
+                initialSurahId={trainerStartSurahId}
+                onInitialSurahConsumed={() => setTrainerStartSurahId(null)}
               />
             )}
             {selectedFeature === 'achievements' && (
@@ -452,6 +513,13 @@ export default function App() {
                 isDarkMode={isDarkMode}
                 stats={stats}
                 favorites={favorites}
+              />
+            )}
+            {selectedFeature === 'alphabet' && (
+              <ArabicAlphabet
+                selectedLang={selectedLang}
+                setSelectedFeature={setSelectedFeature}
+                isDarkMode={isDarkMode}
               />
             )}
             {selectedFeature === 'settings' && (
@@ -542,7 +610,7 @@ export default function App() {
 
             {!selectedFeature && (
               <>
-                {activeTab === 'home' && !selectedDua && !selectedStory && !selectedHadith && !selectedSure && (
+                {activeTab === 'home' && !selectedDua && !selectedStory && !selectedHadith && (
                   <Home
                     selectedLang={selectedLang}
                     uiTexts={uiTexts}
@@ -550,8 +618,8 @@ export default function App() {
                     setSelectedDua={openDua}
                     setSelectedStory={openStory}
                     setSelectedHadith={openHadith}
-                    setSelectedSure={openSure}
                     setSelectedFeature={setSelectedFeature}
+                    openTrainerForSurah={openTrainerForSurah}
                     duas={duas}
                     hadiths={hadiths}
                     stories={stories}
@@ -585,7 +653,7 @@ export default function App() {
                     favorites={favorites}
                   />
                 )}
-                {activeTab === 'stories' && !selectedDua && !selectedStory && !selectedHadith && !selectedSure && (
+                {activeTab === 'stories' && !selectedDua && !selectedStory && !selectedHadith && (
                   <StoriesList 
                     selectedLang={selectedLang} 
                     uiTexts={uiTexts} 
@@ -596,18 +664,6 @@ export default function App() {
                     favorites={favorites}
                   />
                 )}
-                {activeTab === 'suren' && !selectedDua && !selectedStory && !selectedHadith && !selectedSure && (
-                  <SurenList 
-                    selectedLang={selectedLang} 
-                    setSelectedSure={openSure}
-                    suren={suren} 
-                    isDarkMode={isDarkMode}
-                    onSelect={openSure}
-                    toggleFavorite={toggleFavorite}
-                    favorites={favorites}
-                  />
-                )}
-                
                 {selectedDua && (
                   <DuaDetail 
                     selectedDua={selectedDua} 
@@ -642,29 +698,17 @@ export default function App() {
                     incrementStat={incrementStat}
                   />
                 )}
-                {selectedSure && (
-                  <SureDetail 
-                    item={selectedSure} 
-                    selectedLang={selectedLang} 
-                    onBack={() => setSelectedSure(null)} 
-                    isDarkMode={isDarkMode}
-                    toggleFavorite={toggleFavorite}
-                    favorites={favorites}
-                    incrementStat={incrementStat}
-                    appSettings={appSettings}
-                  />
-                )}
               </>
             )}
           </>
         )}
       </div>
 
-      {!selectedDua && !selectedStory && !selectedHadith && !selectedSure && !selectedFeature && (
+      {!selectedDua && !selectedStory && !selectedHadith && !selectedFeature && (
         <div className={`fixed bottom-0 max-w-md w-full border-t flex justify-between px-2 py-3 pb-6 shadow-[0_-10px_40px_rgba(0,0,0,0.05)] z-20 transition-colors ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-100'}`}>
           <button 
             onClick={() => handleTabChange('home')}
-            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'home' ? 'text-green-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'home' ? 'text-green-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
           >
             <HomeIcon size={22} />
             <span className="text-[10px] font-bold">Home</span>
@@ -672,23 +716,15 @@ export default function App() {
           
           <button 
             onClick={() => handleTabChange('duas')}
-            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'duas' ? 'text-green-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'duas' ? 'text-green-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
           >
             <BookOpen size={22} />
             <span className="text-[10px] font-bold">{uiTexts[selectedLang].duas}</span>
           </button>
-
-          <button 
-            onClick={() => handleTabChange('suren')}
-            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'suren' ? 'text-green-600' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
-          >
-            <BookOpen size={22} />
-            <span className="text-[10px] font-bold">{uiTexts[selectedLang].suren}</span>
-          </button>
           
           <button 
             onClick={() => handleTabChange('hadiths')}
-            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'hadiths' ? 'text-yellow-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'hadiths' ? 'text-yellow-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
           >
             <MessageCircle size={22} />
             <span className="text-[10px] font-bold">{uiTexts[selectedLang].hadiths}</span>
@@ -696,7 +732,7 @@ export default function App() {
 
           <button 
             onClick={() => handleTabChange('stories')}
-            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/5 cursor-pointer ${activeTab === 'stories' ? 'text-purple-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
+            className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-colors w-1/4 cursor-pointer ${activeTab === 'stories' ? 'text-purple-500' : isDarkMode ? 'text-slate-400 hover:text-slate-200' : 'text-gray-400 hover:text-gray-600'}`}
           >
             <Library size={22} />
             <span className="text-[10px] font-bold">{uiTexts[selectedLang].stories}</span>
@@ -732,6 +768,33 @@ export default function App() {
             >
               {changelog.close}
             </button>
+          </div>
+        </div>
+      )}
+
+      {showLanguagePicker && (
+        <div className="absolute inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-6">
+          <div className={`w-full rounded-[2rem] border-2 p-6 ${isDarkMode ? 'bg-slate-900 border-slate-700 text-white' : 'bg-white border-gray-100 text-gray-900'}`}>
+            <h2 className="text-xl font-black mb-2">Sprache wählen</h2>
+            <p className={`text-sm mb-4 ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>Bitte wähle deine Sprache beim ersten Start.</p>
+            <div className="grid grid-cols-1 gap-3">
+              <button onClick={() => selectLanguage('de')} className="py-3 rounded-2xl bg-emerald-500 text-white font-black">🇩🇪 Deutsch</button>
+              <button onClick={() => selectLanguage('al')} className={`py-3 rounded-2xl font-black ${isDarkMode ? 'bg-slate-800 border border-slate-700' : 'bg-gray-100'}`}>🇦🇱 Shqip</button>
+              <button onClick={() => selectLanguage('tr')} className={`py-3 rounded-2xl font-black ${isDarkMode ? 'bg-slate-800 border border-slate-700' : 'bg-gray-100'}`}>🇹🇷 Türkçe</button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {showInstallPrompt && !showLanguagePicker && (
+        <div className="absolute inset-0 z-40 bg-slate-950/55 backdrop-blur-sm flex items-end justify-center p-4">
+          <div className={`w-full rounded-[1.5rem] border p-4 ${isDarkMode ? 'bg-slate-900 border-slate-700 text-white' : 'bg-white border-gray-200 text-gray-900'}`}>
+            <h3 className="font-black mb-1">App installieren?</h3>
+            <p className={`text-sm mb-3 ${isDarkMode ? 'text-slate-400' : 'text-gray-600'}`}>Füge IslamKids als PWA zum Startbildschirm hinzu.</p>
+            <div className="flex gap-2">
+              <button onClick={triggerInstall} className="flex-1 py-2.5 rounded-xl bg-emerald-500 text-white font-bold">Installieren</button>
+              <button onClick={closeInstallPrompt} className={`flex-1 py-2.5 rounded-xl font-bold ${isDarkMode ? 'bg-slate-800' : 'bg-gray-100'}`}>Später</button>
+            </div>
           </div>
         </div>
       )}

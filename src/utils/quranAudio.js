@@ -9,9 +9,10 @@ const API_BASE = 'https://api.alquran.cloud/v1';
 const QURAN_API_BASE = 'https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1';
 const SURAH_AUDIO_BITRATE = 128;
 const SURAH_AUDIO_EDITION = 'ar.alafasy';
+const CORS_PROXY_BASE = 'https://corsproxy.io/?';
 const SURAH_CACHE_TTL = 1000 * 60 * 60 * 24 * 7;
 const SURAH_META_CACHE_TTL = 1000 * 60 * 60 * 24 * 30;
-const CACHE_VERSION = '2026-03-24-fawaz-quran-v1';
+const CACHE_VERSION = '2026-03-27-audio-proxy-fallback-v3';
 
 const QURAN_API_LANGUAGE = {
   de: 'German',
@@ -98,6 +99,29 @@ function buildSurahAudioUrl(surahId, edition = SURAH_AUDIO_EDITION, bitrate = SU
 
 function getCacheKey(prefix, ...parts) {
   return `${CACHE_VERSION}:${prefix}:${parts.join(':')}`;
+}
+
+function isCorsBlockedAudioUrl(url = '') {
+  if (!url) return true;
+  try {
+    const parsed = new URL(url);
+    return parsed.hostname.includes('cdn.islamic.network');
+  } catch (error) {
+    return true;
+  }
+}
+
+function withCorsProxy(url = '') {
+  if (!url) return '';
+  return `${CORS_PROXY_BASE}${encodeURIComponent(url)}`;
+}
+
+function pickPlayableAudioUrl(candidates = []) {
+  const valid = candidates.filter(Boolean);
+  const nonBlocked = valid.find((url) => !isCorsBlockedAudioUrl(url));
+  if (nonBlocked) return nonBlocked;
+  if (!valid.length) return '';
+  return withCorsProxy(valid[0]);
 }
 
 function normalizeEditionEntries(payload) {
@@ -256,15 +280,21 @@ export async function fetchAyahBundle(ayahRef) {
   const surahNumber = Number(surahPart);
   const ayahNumber = Number(ayahPart);
   const everyAyahFallback = Number.isFinite(surahNumber) && Number.isFinite(ayahNumber)
-    ? `https://everyayah.com/data/Alafasy_128kbps/${String(surahNumber).padStart(3, '0')}${String(ayahNumber).padStart(3, '0')}.mp3`
+    ? `https://verses.quran.com/Alafasy/mp3/${String(surahNumber).padStart(3, '0')}${String(ayahNumber).padStart(3, '0')}.mp3`
     : '';
 
   try {
     const data = await fetchEditionAyah(ayahRef, SURAH_AUDIO_EDITION);
+    const preferredAudio = pickPlayableAudioUrl([
+      everyAyahFallback,
+      data?.audioSecondary?.[0],
+      data?.audioSecondary?.[1],
+      data?.audio
+    ]);
 
     return {
       ayahRef,
-      audio: data?.audio || data?.audioSecondary?.[0] || everyAyahFallback,
+      audio: preferredAudio || everyAyahFallback,
       text: data?.text || '',
       surahName: data?.surah?.englishName || '',
       numberInSurah: data?.numberInSurah || ayahNumber || null
@@ -420,4 +450,4 @@ export async function fetchSurahBundle(surahId, lang = 'de') {
   return bundle;
 }
 
-export { TRANSLATION_EDITIONS, SURAH_AUDIO_EDITION, SURAH_AUDIO_BITRATE, buildSurahAudioUrl };
+export { TRANSLATION_EDITIONS, SURAH_AUDIO_EDITION, SURAH_AUDIO_BITRATE, buildSurahAudioUrl, withCorsProxy, isCorsBlockedAudioUrl };

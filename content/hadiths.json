@@ -198,5 +198,45 @@
       "tr": "Bu hadis çocukları Kur’an’ı sevgiyle öğrenmeye, anlamaya ve başkalarına öğretmeye teşvik eder."
     },
     "source": "Sahih al-Bukhari 5027"
+  },
+  {
+    "id": 11,
+    "icon": "🤝",
+    "title": {
+      "de": "Hilf deinem Bruder",
+      "al": "Ndihmo vëllanë tënd",
+      "tr": "Kardeşine yardım et"
+    },
+    "text": {
+      "de": "Allah hilft dem Diener, solange der Diener seinem Bruder hilft.",
+      "al": "Allahu e ndihmon robin sa kohë ai e ndihmon vëllanë e tij.",
+      "tr": "Kul kardeşine yardım ettiği sürece Allah da kula yardım eder."
+    },
+    "explanation": {
+      "de": "Der Hadith zeigt: Wer anderen hilft, bekommt selbst Hilfe von Allah.",
+      "al": "Hadithi tregon: kush ndihmon të tjerët, merr ndihmën e Allahut.",
+      "tr": "Hadis şunu öğretir: Başkasına yardım eden, Allah’ın yardımını görür."
+    },
+    "source": "Sahih Muslim"
+  },
+  {
+    "id": 12,
+    "icon": "🧼",
+    "title": {
+      "de": "Sauberkeit gehört zum Glauben",
+      "al": "Pastërtia është nga imani",
+      "tr": "Temizlik imandandır"
+    },
+    "text": {
+      "de": "Reinheit ist die Hälfte des Glaubens.",
+      "al": "Pastërtia është gjysma e imanit.",
+      "tr": "Temizlik imanın yarısıdır."
+    },
+    "explanation": {
+      "de": "Körper, Kleidung und Umgebung sauber zu halten ist Teil des Islam.",
+      "al": "Të mbash trupin, rrobat dhe ambientin të pastër është pjesë e Islamit.",
+      "tr": "Bedeni, kıyafeti ve çevreyi temiz tutmak İslam’ın bir parçasıdır."
+    },
+    "source": "Sahih Muslim"
   }
 ]

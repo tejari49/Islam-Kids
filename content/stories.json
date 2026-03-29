@@ -2548,5 +2548,47 @@
       "al": "Ishte njëherë një fëmijë që mësoi se sa e rëndësishme është Paqja (Nr. 150)...",
       "tr": "Bir zamanlar Barışnün ne kadar önemli olduğunu öğrenen bir çocuk varmış (No. 150)..."
     }
+  },
+  {
+    "id": 159,
+    "icon": "💧",
+    "title": {
+      "de": "Der durstige Hund",
+      "al": "Qeni i etur",
+      "tr": "Susuz köpek"
+    },
+    "content": {
+      "de": "Ein Mann sah einen sehr durstigen Hund. Er füllte seinen Schuh mit Wasser und gab dem Hund zu trinken. Allah vergab ihm dafür seine Sünden.",
+      "al": "Një burrë pa një qen shumë të etur. E mbushi këpucën me ujë dhe i dha qenit të pijë. Allahu e fali për këtë vepër.",
+      "tr": "Bir adam çok susamış bir köpek gördü. Ayakkabısına su doldurup köpeğe içirdi. Allah bu iyiliği sebebiyle onu bağışladı."
+    }
+  },
+  {
+    "id": 160,
+    "icon": "🗣️",
+    "title": {
+      "de": "Sprich Gutes oder schweige",
+      "al": "Thuaj mirë ose hesht",
+      "tr": "Ya hayır söyle ya sus"
+    },
+    "content": {
+      "de": "Der Prophet lehrte: Wer an Allah und den Jüngsten Tag glaubt, soll Gutes sprechen oder schweigen. Worte können Herzen heilen oder verletzen.",
+      "al": "Profeti mësoi: kush beson në Allahun dhe Ditën e Fundit, le të flasë mirë ose të heshtë. Fjalët mund të shërojnë ose të lëndojnë zemrat.",
+      "tr": "Peygamberimiz öğretti: Allah’a ve ahiret gününe inanan ya hayır söylesin ya sussun. Sözler kalpleri iyileştirebilir veya incitebilir."
+    }
+  },
+  {
+    "id": 161,
+    "icon": "🌱",
+    "title": {
+      "de": "Der Baum als Sadaqa",
+      "al": "Pema si sadaka",
+      "tr": "Sadaka olan ağaç"
+    },
+    "content": {
+      "de": "Der Prophet sagte: Wenn ein Muslim einen Baum pflanzt und Menschen oder Tiere davon essen, ist es für ihn eine Sadaqa.",
+      "al": "Profeti tha: kur një musliman mbjell një pemë dhe njerëzit ose kafshët hanë prej saj, kjo është sadaka për të.",
+      "tr": "Peygamberimiz buyurdu: Bir Müslüman ağaç diker de insan veya hayvan ondan yerse bu onun için sadakadır."
+    }
   }
 ]

@@ -3,6 +3,38 @@ import { ChevronLeft, Play, Pause, Loader2, Music, Search } from 'lucide-react';
 import { fetchAyahBundle, fetchSurahBundle } from '../utils/quranAudio';
 
 const SHORT_SURAH_IDS = [114, 113, 112, 111, 110, 109, 108, 107, 106, 105];
+const SURAH_GUIDES = {
+  1: {
+    de: {
+      summary: 'Al-Fatiha ist eine tägliche Bitte um Allahs Führung auf den geraden Weg.',
+      lessons: ['Beginne alles mit Dank an Allah.', 'Bitte bewusst um Rechtleitung und Standhaftigkeit.']
+    }
+  },
+  112: {
+    de: {
+      summary: 'Al-Ikhlas erklärt den reinen Tauhid: Allah ist Einer, einzigartig und braucht niemanden.',
+      lessons: ['Glaube ohne Beigesellung (Schirk).', 'Nur Allah anbeten und nur Ihn um Hilfe bitten.']
+    }
+  },
+  113: {
+    de: {
+      summary: 'Al-Falaq ist ein Schutzgebet gegen äußere Gefahren, Neid und schädliche Einflüsse.',
+      lessons: ['Suche Schutz bei Allah statt bei Aberglauben.', 'Bleibe achtsam gegenüber Neid und bösen Absichten.']
+    }
+  },
+  114: {
+    de: {
+      summary: 'An-Nas lehrt, Schutz vor inneren Einflüsterungen und seelischen Angriffen zu suchen.',
+      lessons: ['Achte auf deine Gedanken und Absichten.', 'Suche bei Angst oder Unruhe Zuflucht bei Allah.']
+    }
+  },
+  107: {
+    de: {
+      summary: 'Al-Maun erinnert daran, dass Glaube ohne Mitgefühl und Hilfe für Bedürftige unvollständig ist.',
+      lessons: ['Vernachlässige keine kleinen guten Taten.', 'Frömmigkeit zeigt sich auch im Umgang mit Menschen.']
+    }
+  }
+};
 
 const LABELS = {
   de: {
@@ -14,7 +46,9 @@ const LABELS = {
     reciter: 'Stimme von Mishary Alafasy',
     complete: 'vollständig',
     loading: 'Sure wird geladen …',
-    done: 'Masha’Allah! Du hast die Sure beendet! +50 EP'
+    done: 'Masha’Allah! Du hast die Sure beendet! +50 EP',
+    meaningTitle: 'Bedeutung der Sure',
+    liveWord: 'Aktives Wort'
   },
   al: {
     title: 'Mëso Sura',
@@ -25,7 +59,9 @@ const LABELS = {
     reciter: 'Zëri i Mishary Alafasy',
     complete: 'e plotë',
     loading: 'Sureja po ngarkohet …',
-    done: 'Masha’Allah! E përfundove suren! +50 XP'
+    done: 'Masha’Allah! E përfundove suren! +50 XP',
+    meaningTitle: 'Kuptimi i sures',
+    liveWord: 'Fjala aktive'
   },
   tr: {
     title: 'Sureleri Öğren',
@@ -36,16 +72,41 @@ const LABELS = {
     reciter: 'Mishary Alafasy kıraati',
     complete: 'tamamı',
     loading: 'Sure yükleniyor …',
-    done: 'Masha’Allah! Sureyi tamamladın! +50 XP'
+    done: 'Masha’Allah! Sureyi tamamladın! +50 XP',
+    meaningTitle: 'Surenin anlamı',
+    liveWord: 'Aktif kelime'
   }
 };
 
-export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkMode, addXp, suren = [] }) {
+function tokenizeArabic(text = '') {
+  return text
+    .split(/(\s+)/)
+    .filter((token) => token.length > 0)
+    .map((token) => ({ text: token, isSpace: /^\s+$/.test(token) }));
+}
+
+function buildGuideText(surah, lang = 'de') {
+  const guide = SURAH_GUIDES[surah?.id]?.[lang] || SURAH_GUIDES[surah?.id]?.de;
+  if (guide) return guide;
+
+  const rawMeaning = surah?.meaning?.[lang] || surah?.meaning?.de || '';
+  const clean = rawMeaning.replace(/The Opening|The Opening’|The Opening'/gi, 'die Eröffnung').trim();
+  return {
+    summary: clean || 'Diese Sure stärkt den Glauben, erinnert an gutes Verhalten und ruft zu Allahs Nähe auf.',
+    lessons: [
+      'Überlege: Was soll ich heute praktisch umsetzen?',
+      'Frage dich: Welche Eigenschaft möchte Allah in mir stärken?'
+    ]
+  };
+}
+
+export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkMode, addXp, suren = [], initialSurahId = null, onInitialSurahConsumed = () => {} }) {
   const labels = LABELS[selectedLang] || LABELS.de;
   const [selectedSurah, setSelectedSurah] = useState(null);
   const [surahBundle, setSurahBundle] = useState(null);
   const [loading, setLoading] = useState(false);
   const [currentAyahIndex, setCurrentAyahIndex] = useState(0);
+  const [currentWordIndex, setCurrentWordIndex] = useState(-1);
   const [isPlaying, setIsPlaying] = useState(false);
   const [search, setSearch] = useState('');
   const audioRef = useRef(null);
@@ -57,6 +118,15 @@ export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkM
   ), [suren, selectedLang, search]);
 
   useEffect(() => {
+    if (!initialSurahId || selectedSurah) return;
+    const match = suren.find((surah) => surah.id === initialSurahId);
+    if (match) {
+      setSelectedSurah(match);
+    }
+    onInitialSurahConsumed();
+  }, [initialSurahId, suren, selectedSurah, onInitialSurahConsumed]);
+
+  useEffect(() => {
     let cancelled = false;
 
     const loadSelectedSurah = async () => {
@@ -64,6 +134,7 @@ export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkM
 
       setLoading(true);
       setCurrentAyahIndex(0);
+      setCurrentWordIndex(-1);
       setIsPlaying(false);
 
       try {
@@ -176,6 +247,26 @@ export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkM
     };
   }, [currentAyahIndex, surahBundle, addXp, labels.done]);
 
+  useEffect(() => {
+    const audio = audioRef.current;
+    const verse = surahBundle?.verses?.[currentAyahIndex];
+    if (!audio || !verse?.arabic) return undefined;
+
+    const onTimeUpdate = () => {
+      const words = tokenizeArabic(verse.arabic).filter((token) => !token.isSpace);
+      const duration = audio.duration || 0;
+      if (!words.length || !duration) {
+        setCurrentWordIndex(-1);
+        return;
+      }
+      const progress = Math.min(Math.max((audio.currentTime || 0) / duration, 0), 0.999999);
+      setCurrentWordIndex(Math.floor(progress * words.length));
+    };
+
+    audio.addEventListener('timeupdate', onTimeUpdate);
+    return () => audio.removeEventListener('timeupdate', onTimeUpdate);
+  }, [surahBundle, currentAyahIndex]);
+
   useEffect(() => () => {
     if (audioRef.current) {
       audioRef.current.pause();
@@ -204,6 +295,7 @@ export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkM
     if (!surahBundle?.verses?.length) return;
     const safeIndex = Math.max(0, Math.min(nextIndex, surahBundle.verses.length - 1));
     setCurrentAyahIndex(safeIndex);
+    setCurrentWordIndex(-1);
     setIsPlaying(false);
     if (audioRef.current) {
       audioRef.current.pause();
@@ -274,6 +366,8 @@ export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkM
   }
 
   const currentVerse = surahBundle?.verses?.[currentAyahIndex];
+  const highlightedArabic = tokenizeArabic(currentVerse?.arabic || '');
+  const guide = buildGuideText(selectedSurah, selectedLang);
 
   return (
     <div className={`p-6 pb-24 flex flex-col min-h-screen transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-indigo-50/50'}`}>
@@ -301,7 +395,27 @@ export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkM
 
             <div className="flex-1 overflow-y-auto space-y-6">
               <div className={`p-6 rounded-[2rem] ${isDarkMode ? 'bg-slate-900/50' : 'bg-indigo-50/60'}`}>
-                <p className={`text-4xl font-arabic leading-[3.5rem] text-right ${isDarkMode ? 'text-indigo-300' : 'text-indigo-700'}`} dir="rtl">{currentVerse.arabic}</p>
+                <p className={`text-4xl font-arabic leading-[3.5rem] text-right ${isDarkMode ? 'text-indigo-300' : 'text-indigo-700'}`} dir="rtl">
+                  {(() => {
+                    let wordPosition = -1;
+                    return highlightedArabic.map((token, index) => {
+                      if (token.isSpace) return <span key={`s-${index}`}>{token.text}</span>;
+                      wordPosition += 1;
+                      const isActive = wordPosition === currentWordIndex;
+                      return (
+                        <span
+                          key={`w-${index}`}
+                          className={isActive ? 'bg-emerald-400/50 rounded-xl px-1' : ''}
+                        >
+                          {token.text}
+                        </span>
+                      );
+                    });
+                  })()}
+                </p>
+                <div className={`mt-3 text-xs font-bold ${isDarkMode ? 'text-emerald-300' : 'text-emerald-700'}`}>
+                  {labels.liveWord}: {currentWordIndex >= 0 ? currentWordIndex + 1 : '—'}
+                </div>
               </div>
 
               {currentVerse.translation && (
@@ -309,6 +423,19 @@ export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkM
                   <p className="text-base leading-relaxed">{currentVerse.translation}</p>
                 </div>
               )}
+
+              <div className={`p-6 rounded-[2rem] ${isDarkMode ? 'bg-slate-900/50 text-slate-200' : 'bg-emerald-50 text-emerald-900'}`}>
+                <p className="text-xs font-black uppercase tracking-widest mb-2">{labels.meaningTitle}</p>
+                <p className="text-sm leading-relaxed">{guide.summary}</p>
+                <ul className="mt-3 space-y-2">
+                  {guide.lessons.map((lesson) => (
+                    <li key={lesson} className="text-sm leading-relaxed flex items-start gap-2">
+                      <span className="mt-1 inline-block w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                      <span>{lesson}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
 
             <div className="mt-8 flex items-center justify-center gap-6">
