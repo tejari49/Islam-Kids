@@ -476,5 +476,209 @@
       "tr": "Bu dua Allah’ın verdiği nimetlere şükretmeyi öğretir."
     },
     "topic": "dankbarkeit"
+  },
+  {
+    "id": 15,
+    "icon": "🛌",
+    "title": {
+      "de": "Dua vor dem Schlafen",
+      "al": "Dua para gjumit",
+      "tr": "Uyumadan önce dua"
+    },
+    "arabic": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+    "transliteration": "Bismika Allahumma amutu wa ahya.",
+    "meaning": {
+      "de": "Mit Deinem Namen, o Allah, sterbe und lebe ich.",
+      "al": "Mit Deinem Namen, o Allah, sterbe und lebe ich.",
+      "tr": "Mit Deinem Namen, o Allah, sterbe und lebe ich."
+    },
+    "ayah": "",
+    "source": "Sunnah",
+    "pronunciation": {
+      "de": "Bismika Allahumma amutu wa ahya.",
+      "al": "Bismika Allahumma amutu wa ahya.",
+      "tr": "Bismika Allahumma amutu wa ahya."
+    },
+    "when": {
+      "de": "Vor dem Einschlafen.",
+      "al": "Vor dem Einschlafen.",
+      "tr": "Vor dem Einschlafen."
+    },
+    "explanation": {
+      "de": "Ein kurzes Dua für den Alltag, damit du Allah immer gedenkst.",
+      "al": "Një dua i shkurtër për jetën e përditshme që ta përmendësh Allahun gjithmonë.",
+      "tr": "Günlük hayatta Allah’ı anmak için kısa bir dua."
+    },
+    "topic": "sleep"
+  },
+  {
+    "id": 16,
+    "icon": "🌅",
+    "title": {
+      "de": "Dua nach dem Aufwachen",
+      "al": "Dua pas zgjimit",
+      "tr": "Uyanınca dua"
+    },
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا",
+    "transliteration": "Alhamdu lillahil-ladhi ahyana.",
+    "meaning": {
+      "de": "Alles Lob gebührt Allah, der uns wieder leben ließ.",
+      "al": "Alles Lob gebührt Allah, der uns wieder leben ließ.",
+      "tr": "Alles Lob gebührt Allah, der uns wieder leben ließ."
+    },
+    "ayah": "",
+    "source": "Sunnah",
+    "pronunciation": {
+      "de": "Alhamdu lillahil-ladhi ahyana.",
+      "al": "Alhamdu lillahil-ladhi ahyana.",
+      "tr": "Alhamdu lillahil-ladhi ahyana."
+    },
+    "when": {
+      "de": "Direkt nach dem Aufwachen.",
+      "al": "Direkt nach dem Aufwachen.",
+      "tr": "Direkt nach dem Aufwachen."
+    },
+    "explanation": {
+      "de": "Ein kurzes Dua für den Alltag, damit du Allah immer gedenkst.",
+      "al": "Një dua i shkurtër për jetën e përditshme që ta përmendësh Allahun gjithmonë.",
+      "tr": "Günlük hayatta Allah’ı anmak için kısa bir dua."
+    },
+    "topic": "morning"
+  },
+  {
+    "id": 17,
+    "icon": "🏠",
+    "title": {
+      "de": "Dua beim Betreten des Hauses",
+      "al": "Dua gjatë hyrjes në shtëpi",
+      "tr": "Eve girerken dua"
+    },
+    "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ الْمَوْلِجِ",
+    "transliteration": "Allahumma inni asaluka khayral mawliji.",
+    "meaning": {
+      "de": "O Allah, ich bitte Dich um Gutes beim Eintreten.",
+      "al": "O Allah, ich bitte Dich um Gutes beim Eintreten.",
+      "tr": "O Allah, ich bitte Dich um Gutes beim Eintreten."
+    },
+    "ayah": "",
+    "source": "Sunnah",
+    "pronunciation": {
+      "de": "Allahumma inni asaluka khayral mawliji.",
+      "al": "Allahumma inni asaluka khayral mawliji.",
+      "tr": "Allahumma inni asaluka khayral mawliji."
+    },
+    "when": {
+      "de": "Wenn du nach Hause kommst.",
+      "al": "Wenn du nach Hause kommst.",
+      "tr": "Wenn du nach Hause kommst."
+    },
+    "explanation": {
+      "de": "Ein kurzes Dua für den Alltag, damit du Allah immer gedenkst.",
+      "al": "Një dua i shkurtër për jetën e përditshme që ta përmendësh Allahun gjithmonë.",
+      "tr": "Günlük hayatta Allah’ı anmak için kısa bir dua."
+    },
+    "topic": "home"
+  },
+  {
+    "id": 18,
+    "icon": "🚪",
+    "title": {
+      "de": "Dua beim Verlassen des Hauses",
+      "al": "Dua gjatë daljes nga shtëpia",
+      "tr": "Evden çıkarken dua"
+    },
+    "arabic": "بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ",
+    "transliteration": "Bismillahi tawakkaltu alallah.",
+    "meaning": {
+      "de": "Im Namen Allahs, ich vertraue auf Allah.",
+      "al": "Im Namen Allahs, ich vertraue auf Allah.",
+      "tr": "Im Namen Allahs, ich vertraue auf Allah."
+    },
+    "ayah": "",
+    "source": "Sunnah",
+    "pronunciation": {
+      "de": "Bismillahi tawakkaltu alallah.",
+      "al": "Bismillahi tawakkaltu alallah.",
+      "tr": "Bismillahi tawakkaltu alallah."
+    },
+    "when": {
+      "de": "Wenn du aus dem Haus gehst.",
+      "al": "Wenn du aus dem Haus gehst.",
+      "tr": "Wenn du aus dem Haus gehst."
+    },
+    "explanation": {
+      "de": "Ein kurzes Dua für den Alltag, damit du Allah immer gedenkst.",
+      "al": "Një dua i shkurtër për jetën e përditshme që ta përmendësh Allahun gjithmonë.",
+      "tr": "Günlük hayatta Allah’ı anmak için kısa bir dua."
+    },
+    "topic": "travel"
+  },
+  {
+    "id": 19,
+    "icon": "🕌",
+    "title": {
+      "de": "Dua auf dem Weg zur Moschee",
+      "al": "Dua gjatë rrugës për në xhami",
+      "tr": "Camiye giderken dua"
+    },
+    "arabic": "اللَّهُمَّ اجْعَلْ فِي قَلْبِي نُورًا",
+    "transliteration": "Allahumma j‘al fi qalbi nuran.",
+    "meaning": {
+      "de": "O Allah, gib Licht in mein Herz.",
+      "al": "O Allah, gib Licht in mein Herz.",
+      "tr": "O Allah, gib Licht in mein Herz."
+    },
+    "ayah": "",
+    "source": "Sunnah",
+    "pronunciation": {
+      "de": "Allahumma j‘al fi qalbi nuran.",
+      "al": "Allahumma j‘al fi qalbi nuran.",
+      "tr": "Allahumma j‘al fi qalbi nuran."
+    },
+    "when": {
+      "de": "Auf dem Weg zum Gebet.",
+      "al": "Auf dem Weg zum Gebet.",
+      "tr": "Auf dem Weg zum Gebet."
+    },
+    "explanation": {
+      "de": "Ein kurzes Dua für den Alltag, damit du Allah immer gedenkst.",
+      "al": "Një dua i shkurtër për jetën e përditshme që ta përmendësh Allahun gjithmonë.",
+      "tr": "Günlük hayatta Allah’ı anmak için kısa bir dua."
+    },
+    "topic": "prayer"
+  },
+  {
+    "id": 20,
+    "icon": "🧒",
+    "title": {
+      "de": "Dua für Eltern",
+      "al": "Dua për prindërit",
+      "tr": "Anne-baba için dua"
+    },
+    "arabic": "رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا",
+    "transliteration": "Rabbir hamhuma kama rabbayani saghira.",
+    "meaning": {
+      "de": "Mein Herr, erbarme Dich ihrer, wie sie mich klein aufgezogen haben.",
+      "al": "Mein Herr, erbarme Dich ihrer, wie sie mich klein aufgezogen haben.",
+      "tr": "Mein Herr, erbarme Dich ihrer, wie sie mich klein aufgezogen haben."
+    },
+    "ayah": "",
+    "source": "Quran 17:24",
+    "pronunciation": {
+      "de": "Rabbir hamhuma kama rabbayani saghira.",
+      "al": "Rabbir hamhuma kama rabbayani saghira.",
+      "tr": "Rabbir hamhuma kama rabbayani saghira."
+    },
+    "when": {
+      "de": "Wenn du für deine Eltern betest.",
+      "al": "Wenn du für deine Eltern betest.",
+      "tr": "Wenn du für deine Eltern betest."
+    },
+    "explanation": {
+      "de": "Ein kurzes Dua für den Alltag, damit du Allah immer gedenkst.",
+      "al": "Një dua i shkurtër për jetën e përditshme që ta përmendësh Allahun gjithmonë.",
+      "tr": "Günlük hayatta Allah’ı anmak için kısa bir dua."
+    },
+    "topic": "parents"
   }
 ]

@@ -2590,5 +2590,89 @@
       "al": "Profeti tha: kur një musliman mbjell një pemë dhe njerëzit ose kafshët hanë prej saj, kjo është sadaka për të.",
       "tr": "Peygamberimiz buyurdu: Bir Müslüman ağaç diker de insan veya hayvan ondan yerse bu onun için sadakadır."
     }
+  },
+  {
+    "id": 162,
+    "icon": "🌧️",
+    "title": {
+      "de": "Der Regen als Barmherzigkeit",
+      "al": "Shiu si mëshirë",
+      "tr": "Rahmet olan yağmur"
+    },
+    "content": {
+      "de": "Ein Kind sah den Regen und lernte: Jede Versorgung kommt von Allah. Statt zu meckern sagte es Alhamdulillah.",
+      "al": "Ein Kind sah den Regen und lernte: Jede Versorgung kommt von Allah. Statt zu meckern sagte es Alhamdulillah.",
+      "tr": "Ein Kind sah den Regen und lernte: Jede Versorgung kommt von Allah. Statt zu meckern sagte es Alhamdulillah."
+    }
+  },
+  {
+    "id": 163,
+    "icon": "🍞",
+    "title": {
+      "de": "Teilen macht reich",
+      "al": "Ndarja të pasuron",
+      "tr": "Paylaşmak zenginleştirir"
+    },
+    "content": {
+      "de": "Ein Junge teilte sein Brot in der Schule. Am Ende hatte er nicht weniger, sondern neue Freunde und Baraka.",
+      "al": "Ein Junge teilte sein Brot in der Schule. Am Ende hatte er nicht weniger, sondern neue Freunde und Baraka.",
+      "tr": "Ein Junge teilte sein Brot in der Schule. Am Ende hatte er nicht weniger, sondern neue Freunde und Baraka."
+    }
+  },
+  {
+    "id": 164,
+    "icon": "🧕",
+    "title": {
+      "de": "Wahrheit lohnt sich",
+      "al": "E vërteta ia vlen",
+      "tr": "Doğruluk kazandırır"
+    },
+    "content": {
+      "de": "Ein Mädchen sagte die Wahrheit, obwohl sie Angst hatte. Ihre Ehrlichkeit brachte Vertrauen und Respekt.",
+      "al": "Ein Mädchen sagte die Wahrheit, obwohl sie Angst hatte. Ihre Ehrlichkeit brachte Vertrauen und Respekt.",
+      "tr": "Ein Mädchen sagte die Wahrheit, obwohl sie Angst hatte. Ihre Ehrlichkeit brachte Vertrauen und Respekt."
+    }
+  },
+  {
+    "id": 165,
+    "icon": "🧎",
+    "title": {
+      "de": "Kleine Schritte im Gebet",
+      "al": "Hapa të vegjël në namaz",
+      "tr": "Namazda küçük adımlar"
+    },
+    "content": {
+      "de": "Ein Kind begann mit einem Gebet pünktlich. Jeden Tag wurde es besser und merkte, dass Beständigkeit wichtiger ist als Perfektion.",
+      "al": "Ein Kind begann mit einem Gebet pünktlich. Jeden Tag wurde es besser und merkte, dass Beständigkeit wichtiger ist als Perfektion.",
+      "tr": "Ein Kind begann mit einem Gebet pünktlich. Jeden Tag wurde es besser und merkte, dass Beständigkeit wichtiger ist als Perfektion."
+    }
+  },
+  {
+    "id": 166,
+    "icon": "🌙",
+    "title": {
+      "de": "Abend mit Dhikr",
+      "al": "Mbrëmje me dhikr",
+      "tr": "Zikirle akşam"
+    },
+    "content": {
+      "de": "Vor dem Schlafen sprach ein Kind Dhikr. Es schlief ruhiger und fühlte sich beschützt.",
+      "al": "Vor dem Schlafen sprach ein Kind Dhikr. Es schlief ruhiger und fühlte sich beschützt.",
+      "tr": "Vor dem Schlafen sprach ein Kind Dhikr. Es schlief ruhiger und fühlte sich beschützt."
+    }
+  },
+  {
+    "id": 167,
+    "icon": "🤍",
+    "title": {
+      "de": "Verzeihen macht das Herz leicht",
+      "al": "Falja e lehtëson zemrën",
+      "tr": "Affetmek kalbi hafifletir"
+    },
+    "content": {
+      "de": "Zwei Freunde stritten. Als einer verzieh, kam der Frieden zurück. So lernte er die Stärke der Vergebung.",
+      "al": "Zwei Freunde stritten. Als einer verzieh, kam der Frieden zurück. So lernte er die Stärke der Vergebung.",
+      "tr": "Zwei Freunde stritten. Als einer verzieh, kam der Frieden zurück. So lernte er die Stärke der Vergebung."
+    }
   }
 ]

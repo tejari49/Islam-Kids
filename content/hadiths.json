@@ -238,5 +238,125 @@
       "tr": "Bedeni, kıyafeti ve çevreyi temiz tutmak İslam’ın bir parçasıdır."
     },
     "source": "Sahih Muslim"
+  },
+  {
+    "id": 13,
+    "icon": "💖",
+    "title": {
+      "de": "Allah liebt Sanftmut",
+      "al": "Allahu e do butësinë",
+      "tr": "Allah yumuşaklığı sever"
+    },
+    "text": {
+      "de": "Allah ist sanft und liebt Sanftmut in allen Angelegenheiten.",
+      "al": "Allah ist sanft und liebt Sanftmut in allen Angelegenheiten.",
+      "tr": "Allah ist sanft und liebt Sanftmut in allen Angelegenheiten."
+    },
+    "explanation": {
+      "de": "Ein einfacher Hadith für Kinder mit praktischer Lehre im Alltag.",
+      "al": "Një hadith i thjeshtë për fëmijë me mësim praktik në përditshmëri.",
+      "tr": "Çocuklar için günlük hayata uygun pratik ders içeren kısa bir hadis."
+    },
+    "source": "Sahih Muslim"
+  },
+  {
+    "id": 14,
+    "icon": "🤲",
+    "title": {
+      "de": "Bete oft zu Allah",
+      "al": "Lutu shpesh Allahut",
+      "tr": "Allah’a çok dua et"
+    },
+    "text": {
+      "de": "Das Dua ist die Essenz der Anbetung.",
+      "al": "Das Dua ist die Essenz der Anbetung.",
+      "tr": "Das Dua ist die Essenz der Anbetung."
+    },
+    "explanation": {
+      "de": "Ein einfacher Hadith für Kinder mit praktischer Lehre im Alltag.",
+      "al": "Një hadith i thjeshtë për fëmijë me mësim praktik në përditshmëri.",
+      "tr": "Çocuklar için günlük hayata uygun pratik ders içeren kısa bir hadis."
+    },
+    "source": "Jami at-Tirmidhi"
+  },
+  {
+    "id": 15,
+    "icon": "🕊️",
+    "title": {
+      "de": "Barmherzigkeit zeigen",
+      "al": "Trego mëshirë",
+      "tr": "Merhamet göster"
+    },
+    "text": {
+      "de": "Die Barmherzigen erbarmt Allah. Seid barmherzig zu den Menschen auf der Erde.",
+      "al": "Die Barmherzigen erbarmt Allah. Seid barmherzig zu den Menschen auf der Erde.",
+      "tr": "Die Barmherzigen erbarmt Allah. Seid barmherzig zu den Menschen auf der Erde."
+    },
+    "explanation": {
+      "de": "Ein einfacher Hadith für Kinder mit praktischer Lehre im Alltag.",
+      "al": "Një hadith i thjeshtë për fëmijë me mësim praktik në përditshmëri.",
+      "tr": "Çocuklar için günlük hayata uygun pratik ders içeren kısa bir hadis."
+    },
+    "source": "Jami at-Tirmidhi"
+  },
+  {
+    "id": 16,
+    "icon": "🧭",
+    "title": {
+      "de": "Erleichtern, nicht erschweren",
+      "al": "Lehtësoni, mos vështirësoni",
+      "tr": "Kolaylaştırın, zorlaştırmayın"
+    },
+    "text": {
+      "de": "Macht es leicht und macht es nicht schwer.",
+      "al": "Macht es leicht und macht es nicht schwer.",
+      "tr": "Macht es leicht und macht es nicht schwer."
+    },
+    "explanation": {
+      "de": "Ein einfacher Hadith für Kinder mit praktischer Lehre im Alltag.",
+      "al": "Një hadith i thjeshtë për fëmijë me mësim praktik në përditshmëri.",
+      "tr": "Çocuklar için günlük hayata uygun pratik ders içeren kısa bir hadis."
+    },
+    "source": "Sahih al-Bukhari"
+  },
+  {
+    "id": 17,
+    "icon": "🎁",
+    "title": {
+      "de": "Liebe für den Bruder",
+      "al": "Duaje për vëllanë tënd",
+      "tr": "Kardeşin için sev"
+    },
+    "text": {
+      "de": "Keiner glaubt vollkommen, bis er für seinen Bruder liebt, was er für sich liebt.",
+      "al": "Keiner glaubt vollkommen, bis er für seinen Bruder liebt, was er für sich liebt.",
+      "tr": "Keiner glaubt vollkommen, bis er für seinen Bruder liebt, was er für sich liebt."
+    },
+    "explanation": {
+      "de": "Ein einfacher Hadith für Kinder mit praktischer Lehre im Alltag.",
+      "al": "Një hadith i thjeshtë për fëmijë me mësim praktik në përditshmëri.",
+      "tr": "Çocuklar için günlük hayata uygun pratik ders içeren kısa bir hadis."
+    },
+    "source": "Sahih al-Bukhari & Muslim"
+  },
+  {
+    "id": 18,
+    "icon": "🫶",
+    "title": {
+      "de": "Dankbar sein",
+      "al": "Ji mirënjohës",
+      "tr": "Şükretmek"
+    },
+    "text": {
+      "de": "Wer den Menschen nicht dankt, dankt Allah nicht.",
+      "al": "Wer den Menschen nicht dankt, dankt Allah nicht.",
+      "tr": "Wer den Menschen nicht dankt, dankt Allah nicht."
+    },
+    "explanation": {
+      "de": "Ein einfacher Hadith für Kinder mit praktischer Lehre im Alltag.",
+      "al": "Një hadith i thjeshtë për fëmijë me mësim praktik në përditshmëri.",
+      "tr": "Çocuklar için günlük hayata uygun pratik ders içeren kısa bir hadis."
+    },
+    "source": "Jami at-Tirmidhi"
   }
 ]
