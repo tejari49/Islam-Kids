@@ -43,6 +43,12 @@ const uiText = {
     locationNeeded: 'Standort wird benötigt, um die Qibla zu berechnen.',
     requestCompass: 'Kompass aktivieren',
     openQiblaFinder: 'Qibla Finder öffnen',
+    openMapsDirection: 'Richtung in Google Maps öffnen',
+    qiblaAirline: 'Luftlinie nach Mekka',
+    qiblaAligned: 'Perfekt ausgerichtet ✅',
+    qiblaTurnLeft: 'Drehe dich nach links',
+    qiblaTurnRight: 'Drehe dich nach rechts',
+    qiblaTurnBy: 'um',
     qiblaAccuracy: 'Je nach Gerät kann der Kompass leicht abweichen.',
     yesReady: 'Ja, ich bin bereit!',
     showWudu: 'Nein, zeig mir Wudu',
@@ -90,6 +96,12 @@ const uiText = {
     locationNeeded: 'Nevojitet lokacioni për të llogaritur Kiblën.',
     requestCompass: 'Aktivizo kompasin',
     openQiblaFinder: 'Hap Qibla Finder',
+    openMapsDirection: 'Hape drejtimin në Google Maps',
+    qiblaAirline: 'Distanca ajrore për në Mekë',
+    qiblaAligned: 'Drejtim i saktë ✅',
+    qiblaTurnLeft: 'Rrotullohu majtas',
+    qiblaTurnRight: 'Rrotullohu djathtas',
+    qiblaTurnBy: 'për',
     qiblaAccuracy: 'Në varësi të pajisjes, kompasi mund të ketë devijim të vogël.',
     yesReady: 'Po, jam gati!',
     showWudu: 'Jo, më trego abdesin',
@@ -137,6 +149,12 @@ const uiText = {
     locationNeeded: 'Kıble hesabı için konum izni gerekiyor.',
     requestCompass: 'Pusulayı aç',
     openQiblaFinder: 'Qibla Finder aç',
+    openMapsDirection: 'Yönü Google Maps\'te aç',
+    qiblaAirline: 'Mekke’ye kuş uçuşu mesafe',
+    qiblaAligned: 'Yön doğru ✅',
+    qiblaTurnLeft: 'Sola dön',
+    qiblaTurnRight: 'Sağa dön',
+    qiblaTurnBy: 'kadar',
     qiblaAccuracy: 'Cihaza göre pusulada küçük sapmalar olabilir.',
     yesReady: 'Evet, hazırım!',
     showWudu: 'Hayır, abdesti göster',
@@ -185,6 +203,10 @@ function normalizeAngle(value) {
   return ((value % 360) + 360) % 360;
 }
 
+function signedDeltaToTarget(target, current) {
+  return ((target - current + 540) % 360) - 180;
+}
+
 function calculateQiblaBearing(latitude, longitude) {
   const lat1 = toRadians(latitude);
   const lon1 = toRadians(longitude);
@@ -193,6 +215,15 @@ function calculateQiblaBearing(latitude, longitude) {
   const y = Math.sin(lon2 - lon1) * Math.cos(lat2);
   const x = Math.cos(lat1) * Math.sin(lat2) - Math.sin(lat1) * Math.cos(lat2) * Math.cos(lon2 - lon1);
   return normalizeAngle(toDegrees(Math.atan2(y, x)));
+}
+
+function calculateDistanceKm(lat1, lon1, lat2, lon2) {
+  const earthRadiusKm = 6371;
+  const dLat = toRadians(lat2 - lat1);
+  const dLon = toRadians(lon2 - lon1);
+  const a = Math.sin(dLat / 2) ** 2
+    + Math.cos(toRadians(lat1)) * Math.cos(toRadians(lat2)) * Math.sin(dLon / 2) ** 2;
+  return earthRadiusKm * (2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)));
 }
 
 function InfoCard({ title, children, isDarkMode, tone = 'slate' }) {
@@ -231,6 +262,7 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
   const [currentAudioQueue, setCurrentAudioQueue] = useState([]);
   const [currentAudioIndex, setCurrentAudioIndex] = useState(0);
   const [qiblaBearing, setQiblaBearing] = useState(null);
+  const [currentCoords, setCurrentCoords] = useState(null);
   const [deviceHeading, setDeviceHeading] = useState(null);
   const [locationError, setLocationError] = useState('');
   const [compassError, setCompassError] = useState('');
@@ -281,6 +313,7 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
         (position) => {
           const { latitude, longitude } = position.coords;
           setQiblaBearing(calculateQiblaBearing(latitude, longitude));
+          setCurrentCoords({ latitude, longitude });
           setLocationError('');
         },
         () => {
@@ -681,6 +714,21 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
     const delta = qiblaBearing == null || deviceHeading == null
       ? null
       : normalizeAngle(qiblaBearing - deviceHeading);
+    const signedDelta = qiblaBearing == null || deviceHeading == null
+      ? null
+      : signedDeltaToTarget(qiblaBearing, deviceHeading);
+    const isAligned = signedDelta != null && Math.abs(signedDelta) <= 8;
+    const turnInstruction = signedDelta == null
+      ? '—'
+      : isAligned
+        ? t.qiblaAligned
+        : `${signedDelta < 0 ? t.qiblaTurnLeft : t.qiblaTurnRight} ${Math.round(Math.abs(signedDelta))}° ${t.qiblaTurnBy}`;
+    const airlineDistanceKm = currentCoords
+      ? calculateDistanceKm(currentCoords.latitude, currentCoords.longitude, KAABA_COORDS.lat, KAABA_COORDS.lon)
+      : null;
+    const mapsDirectionUrl = currentCoords
+      ? `https://www.google.com/maps/dir/?api=1&origin=${currentCoords.latitude},${currentCoords.longitude}&destination=${KAABA_COORDS.lat},${KAABA_COORDS.lon}&travelmode=walking`
+      : `https://www.google.com/maps/search/?api=1&query=${KAABA_COORDS.lat},${KAABA_COORDS.lon}`;
 
     return (
       <div className={`p-6 pb-24 flex flex-col min-h-screen transition-colors ${isDarkMode ? 'bg-slate-900' : 'bg-indigo-50'}`}>
@@ -693,11 +741,16 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
 
         <div className={`p-6 rounded-[2rem] border shadow-sm text-center space-y-4 ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-indigo-100'}`}>
           <p className={`text-sm leading-relaxed ${isDarkMode ? 'text-slate-300' : 'text-gray-600'}`}>{t.qiblaHint}</p>
+          <div className={`p-3 rounded-xl text-sm font-black ${isAligned
+            ? (isDarkMode ? 'bg-emerald-900/40 text-emerald-200' : 'bg-emerald-50 text-emerald-700')
+            : (isDarkMode ? 'bg-indigo-900/40 text-indigo-200' : 'bg-indigo-50 text-indigo-700')}`}>
+            {turnInstruction}
+          </div>
 
           <div className="relative mx-auto w-56 h-56 rounded-full border-8 border-indigo-200 flex items-center justify-center bg-gradient-to-b from-indigo-100 to-white overflow-hidden">
             <div className="absolute inset-0 flex items-center justify-center">
               <div
-                className="text-indigo-600 transition-transform duration-300"
+                className={`transition-transform duration-300 ${isAligned ? 'text-emerald-600' : 'text-indigo-600'}`}
                 style={{ transform: `rotate(${delta ?? 0}deg)` }}
               >
                 <LocateFixed size={72} />
@@ -714,6 +767,10 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
             <div className={`p-3 rounded-xl ${isDarkMode ? 'bg-slate-900/60' : 'bg-indigo-50'}`}>
               {t.qiblaHeading}: {deviceHeading == null ? '—' : `${Math.round(deviceHeading)}°`}
             </div>
+          </div>
+
+          <div className={`p-3 rounded-xl text-xs font-bold ${isDarkMode ? 'bg-slate-900/60 text-slate-200' : 'bg-indigo-50 text-gray-700'}`}>
+            {t.qiblaAirline}: {airlineDistanceKm == null ? '—' : `${Math.round(airlineDistanceKm)} km`}
           </div>
 
           {!!locationError && <p className="text-xs text-red-500">{locationError}</p>}
@@ -736,6 +793,15 @@ export default function PrayerFlow({ selectedLang, setSelectedFeature, isDarkMod
             className={`inline-flex items-center gap-1 text-sm font-bold underline ${isDarkMode ? 'text-indigo-300' : 'text-indigo-700'}`}
           >
             {t.openQiblaFinder} <ExternalLink size={14} />
+          </a>
+
+          <a
+            href={mapsDirectionUrl}
+            target="_blank"
+            rel="noreferrer"
+            className={`inline-flex items-center gap-1 text-sm font-bold underline ml-3 ${isDarkMode ? 'text-emerald-300' : 'text-emerald-700'}`}
+          >
+            {t.openMapsDirection} <ExternalLink size={14} />
           </a>
         </div>
 
