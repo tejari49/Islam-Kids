@@ -146,11 +146,15 @@ export default function App() {
   const getTodayKey = () => new Date().toISOString().slice(0, 10);
   const { duas, hadiths, stories, suren, loading } = useData();
   const [activeTab, setActiveTab] = useState('home');
-  const [selectedLang, setSelectedLang] = useState('de');
+  const [selectedLang, setSelectedLang] = useState(() => localStorage.getItem('selectedLang') || 'de');
   const [selectedDua, setSelectedDua] = useState(null);
   const [selectedStory, setSelectedStory] = useState(null);
   const [selectedHadith, setSelectedHadith] = useState(null);
   const [selectedFeature, setSelectedFeature] = useState(null);
+  const [trainerStartSurahId, setTrainerStartSurahId] = useState(null);
+  const [showLanguagePicker, setShowLanguagePicker] = useState(() => !localStorage.getItem('selectedLang'));
+  const [deferredInstallPrompt, setDeferredInstallPrompt] = useState(null);
+  const [showInstallPrompt, setShowInstallPrompt] = useState(false);
   const [showChangelog, setShowChangelog] = useState(() => localStorage.getItem('seenChangelogVersion') !== CHANGELOG_VERSION);
   const [appSettings, setAppSettings] = useState(() => {
     const saved = localStorage.getItem('appSettings');
@@ -197,6 +201,23 @@ export default function App() {
 
   const updateLocation = React.useCallback((newLocation) => {
     setUserLocation(newLocation);
+  }, []);
+
+  useEffect(() => {
+    if (!selectedLang) return;
+    localStorage.setItem('selectedLang', selectedLang);
+  }, [selectedLang]);
+
+  useEffect(() => {
+    const onBeforeInstallPrompt = (event) => {
+      event.preventDefault();
+      setDeferredInstallPrompt(event);
+      if (!localStorage.getItem('dismissedInstallPrompt')) {
+        setShowInstallPrompt(true);
+      }
+    };
+    window.addEventListener('beforeinstallprompt', onBeforeInstallPrompt);
+    return () => window.removeEventListener('beforeinstallprompt', onBeforeInstallPrompt);
   }, []);
 
 
@@ -302,6 +323,7 @@ export default function App() {
     setSelectedStory(null);
     setSelectedHadith(null);
     setSelectedFeature(null);
+    setTrainerStartSurahId(null);
   }, []);
 
   const openDua = React.useCallback((dua) => {
@@ -324,6 +346,36 @@ export default function App() {
     setSelectedFeature(null);
     setSelectedHadith(hadith);
   }, []);
+
+  const openTrainerForSurah = React.useCallback((surah) => {
+    if (!surah?.id) return;
+    setSelectedDua(null);
+    setSelectedStory(null);
+    setSelectedHadith(null);
+    setTrainerStartSurahId(surah.id);
+    setSelectedFeature('trainer');
+  }, []);
+
+  const selectLanguage = (lang) => {
+    setSelectedLang(lang);
+    setShowLanguagePicker(false);
+    if (deferredInstallPrompt && !localStorage.getItem('dismissedInstallPrompt')) {
+      setShowInstallPrompt(true);
+    }
+  };
+
+  const triggerInstall = async () => {
+    if (!deferredInstallPrompt) return;
+    deferredInstallPrompt.prompt();
+    await deferredInstallPrompt.userChoice.catch(() => null);
+    setDeferredInstallPrompt(null);
+    setShowInstallPrompt(false);
+  };
+
+  const closeInstallPrompt = () => {
+    localStorage.setItem('dismissedInstallPrompt', '1');
+    setShowInstallPrompt(false);
+  };
 
   const handleTabChange = React.useCallback((tab) => {
     setActiveTab(tab);
@@ -450,6 +502,8 @@ export default function App() {
                 isDarkMode={isDarkMode} 
                 addXp={addXp}
                 suren={suren}
+                initialSurahId={trainerStartSurahId}
+                onInitialSurahConsumed={() => setTrainerStartSurahId(null)}
               />
             )}
             {selectedFeature === 'achievements' && (
@@ -565,6 +619,7 @@ export default function App() {
                     setSelectedStory={openStory}
                     setSelectedHadith={openHadith}
                     setSelectedFeature={setSelectedFeature}
+                    openTrainerForSurah={openTrainerForSurah}
                     duas={duas}
                     hadiths={hadiths}
                     stories={stories}
@@ -713,6 +768,33 @@ export default function App() {
             >
               {changelog.close}
             </button>
+          </div>
+        </div>
+      )}
+
+      {showLanguagePicker && (
+        <div className="absolute inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-6">
+          <div className={`w-full rounded-[2rem] border-2 p-6 ${isDarkMode ? 'bg-slate-900 border-slate-700 text-white' : 'bg-white border-gray-100 text-gray-900'}`}>
+            <h2 className="text-xl font-black mb-2">Sprache wählen</h2>
+            <p className={`text-sm mb-4 ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>Bitte wähle deine Sprache beim ersten Start.</p>
+            <div className="grid grid-cols-1 gap-3">
+              <button onClick={() => selectLanguage('de')} className="py-3 rounded-2xl bg-emerald-500 text-white font-black">🇩🇪 Deutsch</button>
+              <button onClick={() => selectLanguage('al')} className={`py-3 rounded-2xl font-black ${isDarkMode ? 'bg-slate-800 border border-slate-700' : 'bg-gray-100'}`}>🇦🇱 Shqip</button>
+              <button onClick={() => selectLanguage('tr')} className={`py-3 rounded-2xl font-black ${isDarkMode ? 'bg-slate-800 border border-slate-700' : 'bg-gray-100'}`}>🇹🇷 Türkçe</button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {showInstallPrompt && !showLanguagePicker && (
+        <div className="absolute inset-0 z-40 bg-slate-950/55 backdrop-blur-sm flex items-end justify-center p-4">
+          <div className={`w-full rounded-[1.5rem] border p-4 ${isDarkMode ? 'bg-slate-900 border-slate-700 text-white' : 'bg-white border-gray-200 text-gray-900'}`}>
+            <h3 className="font-black mb-1">App installieren?</h3>
+            <p className={`text-sm mb-3 ${isDarkMode ? 'text-slate-400' : 'text-gray-600'}`}>Füge IslamKids als PWA zum Startbildschirm hinzu.</p>
+            <div className="flex gap-2">
+              <button onClick={triggerInstall} className="flex-1 py-2.5 rounded-xl bg-emerald-500 text-white font-bold">Installieren</button>
+              <button onClick={closeInstallPrompt} className={`flex-1 py-2.5 rounded-xl font-bold ${isDarkMode ? 'bg-slate-800' : 'bg-gray-100'}`}>Später</button>
+            </div>
           </div>
         </div>
       )}

@@ -8,6 +8,7 @@ export default function Home({
   setSelectedStory,
   setSelectedHadith,
   setSelectedFeature,
+  openTrainerForSurah,
   duas, 
   hadiths, 
   stories, 
@@ -335,7 +336,7 @@ export default function Home({
                   if (item.type === 'duas') setSelectedDua(item);
                   else if (item.type === 'hadiths') setSelectedHadith(item);
                   else if (item.type === 'stories') setSelectedStory(item);
-                  else if (item.type === 'suren') setSelectedSure(item);
+                  else if (item.type === 'suren') openTrainerForSurah(item);
                 }}
                 className={`flex-shrink-0 w-32 p-4 rounded-3xl border-2 flex flex-col items-center gap-2 transition-all hover:scale-105 active:scale-95 shadow-sm ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-100'}`}
               >
@@ -399,9 +400,9 @@ export default function Home({
             </button>
           )}
 
-           {dailySure && (
+          {dailySure && (
             <button 
-              onClick={() => setSelectedSure(dailySure)}
+              onClick={() => openTrainerForSurah(dailySure)}
               className={`w-full p-6 rounded-[2.5rem] border-2 flex items-center gap-5 transition-all hover:scale-[1.01] active:scale-[0.98] shadow-sm ${isDarkMode ? 'bg-slate-800 border-green-900/30 shadow-slate-950/30' : 'bg-white border-green-50'}`}
             >
               <div className="text-5xl">📖</div>

@@ -100,7 +100,7 @@ function buildGuideText(surah, lang = 'de') {
   };
 }
 
-export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkMode, addXp, suren = [] }) {
+export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkMode, addXp, suren = [], initialSurahId = null, onInitialSurahConsumed = () => {} }) {
   const labels = LABELS[selectedLang] || LABELS.de;
   const [selectedSurah, setSelectedSurah] = useState(null);
   const [surahBundle, setSurahBundle] = useState(null);
@@ -116,6 +116,15 @@ export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkM
     surah.title[selectedLang].toLowerCase().includes(search.toLowerCase()) ||
     surah.arabic?.includes(search)
   ), [suren, selectedLang, search]);
+
+  useEffect(() => {
+    if (!initialSurahId || selectedSurah) return;
+    const match = suren.find((surah) => surah.id === initialSurahId);
+    if (match) {
+      setSelectedSurah(match);
+    }
+    onInitialSurahConsumed();
+  }, [initialSurahId, suren, selectedSurah, onInitialSurahConsumed]);
 
   useEffect(() => {
     let cancelled = false;

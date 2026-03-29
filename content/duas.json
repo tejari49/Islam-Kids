@@ -408,5 +408,73 @@
     "ayah": "14:40",
     "source": "Quran 14:40",
     "topic": "prayer"
+  },
+  {
+    "id": 13,
+    "icon": "🛡️",
+    "title": {
+      "de": "Dua bei Angst",
+      "al": "Dua kur ke frikë",
+      "tr": "Korku anında dua"
+    },
+    "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+    "transliteration": "Hasbunallahu wa ni‘mal wakeel.",
+    "meaning": {
+      "de": "Allah genügt uns, und Er ist der beste Beschützer.",
+      "al": "Allahu na mjafton dhe Ai është mbrojtësi më i mirë.",
+      "tr": "Allah bize yeter; O ne güzel vekildir."
+    },
+    "ayah": "3:173",
+    "source": "Quran 3:173",
+    "pronunciation": {
+      "de": "Hasbunallahu wa nimel wakeel",
+      "al": "Hasbunallahu wa nimel wakeel",
+      "tr": "Hasbunallahu ve nimel vekil"
+    },
+    "when": {
+      "de": "Wenn du nervös bist, Angst hast oder dich unsicher fühlst.",
+      "al": "Kur je i/e shqetësuar, ke frikë ose ndihesh i/e pasigurt.",
+      "tr": "Gergin, korkmuş veya güvensiz hissettiğinde."
+    },
+    "explanation": {
+      "de": "Dieses Dua erinnert daran, dass Allah dich schützt und begleitet.",
+      "al": "Ky dua të kujton se Allahu të mbron dhe të shoqëron.",
+      "tr": "Bu dua Allah’ın seni koruduğunu ve yalnız bırakmadığını hatırlatır."
+    },
+    "topic": "schutz"
+  },
+  {
+    "id": 14,
+    "icon": "🍽️",
+    "title": {
+      "de": "Dua nach dem Essen",
+      "al": "Dua pas ushqimit",
+      "tr": "Yemekten sonra dua"
+    },
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَسَقَانَا",
+    "transliteration": "Alhamdu lillahil-ladhi at‘amana wa saqana.",
+    "meaning": {
+      "de": "Alles Lob gebührt Allah, der uns zu essen und zu trinken gab.",
+      "al": "Falënderimi i takon Allahut që na ushqeu dhe na dha të pimë.",
+      "tr": "Bizi yediren ve içiren Allah’a hamd olsun."
+    },
+    "ayah": "",
+    "source": "Sunnah",
+    "pronunciation": {
+      "de": "Alhamdu lillahil ladhi atamana wa saqana",
+      "al": "Alhamdu lillahil ladhi atamana wa saqana",
+      "tr": "Elhamdülillahil lezi etamena ve sekana"
+    },
+    "when": {
+      "de": "Nach dem Essen oder Trinken.",
+      "al": "Pas ngrënies ose pirjes.",
+      "tr": "Yemek veya içecekten sonra."
+    },
+    "explanation": {
+      "de": "Mit diesem Dua lernst du Dankbarkeit für jede Versorgung von Allah.",
+      "al": "Me këtë dua mëson mirënjohjen për çdo furnizim nga Allahu.",
+      "tr": "Bu dua Allah’ın verdiği nimetlere şükretmeyi öğretir."
+    },
+    "topic": "dankbarkeit"
   }
 ]
