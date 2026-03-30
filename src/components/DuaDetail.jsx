@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { ChevronLeft, Play, Pause, Loader2, Heart, Volume2, BookOpenText } from 'lucide-react';
 import { fetchAyahQueue, fetchAyahTranslationQueue, joinAyahTexts } from '../utils/quranAudio';
+import { canUseSpeechSynthesis, speakArabicText, stopSpeechPlayback } from '../utils/audio';
 
 const detailLabels = {
   de: {
@@ -15,7 +16,13 @@ const detailLabels = {
     source: 'Quelle',
     audioMissing: 'Für diese Sprache wurde keine API-Übersetzung geladen. Es wird die gespeicherte Erklärung gezeigt.',
     excerptNote: 'Kurze Lernfassung für Kinder',
-    wordHighlight: 'Wort-Highlight aktiv'
+    wordHighlight: 'Wort-Highlight aktiv',
+    voiceApi: 'Voice-API Aussprache',
+    voiceApiHint: 'Wenn keine API-Rezitation verfügbar ist, kannst du die Dua per Sprachsynthese anhören.',
+    flowTitle: 'Lernablauf',
+    flow1: '1) Hören',
+    flow2: '2) Verstehen',
+    flow3: '3) Anwenden'
   },
   al: {
     back: 'Mbrapsht',
@@ -29,7 +36,13 @@ const detailLabels = {
     source: 'Burimi',
     audioMissing: 'Për këtë gjuhë nuk u ngarkua përkthim nga API. Po shfaqet shpjegimi i ruajtur.',
     excerptNote: 'Version i shkurtër për fëmijë',
-    wordHighlight: 'Fjala që po lexohet theksohet'
+    wordHighlight: 'Fjala që po lexohet theksohet',
+    voiceApi: 'Shqiptim me Voice-API',
+    voiceApiHint: 'Kur nuk ka recitim nga API, mund ta dëgjosh duanë me sintezë zëri.',
+    flowTitle: 'Rrjedha e mësimit',
+    flow1: '1) Dëgjo',
+    flow2: '2) Kupto',
+    flow3: '3) Zbato'
   },
   tr: {
     back: 'Geri',
@@ -43,7 +56,13 @@ const detailLabels = {
     source: 'Kaynak',
     audioMissing: 'Bu dil için API çevirisi yüklenemedi. Kayıtlı açıklama gösteriliyor.',
     excerptNote: 'Çocuklar için kısa öğrenme metni',
-    wordHighlight: 'Okunan kelime vurgulanıyor'
+    wordHighlight: 'Okunan kelime vurgulanıyor',
+    voiceApi: 'Voice-API okunuşu',
+    voiceApiHint: 'API kıraati yoksa duayı ses sentezi ile dinleyebilirsin.',
+    flowTitle: 'Öğrenme akışı',
+    flow1: '1) Dinle',
+    flow2: '2) Anla',
+    flow3: '3) Uygula'
   }
 };
 
@@ -78,6 +97,7 @@ export default function DuaDetail({
   const [translationAyahs, setTranslationAyahs] = useState([]);
   const [currentWordIndex, setCurrentWordIndex] = useState(-1);
   const [translationEdition, setTranslationEdition] = useState('');
+  const [isVoicePlaying, setIsVoicePlaying] = useState(false);
   const audioRef = useRef(null);
   const hasIncremented = useRef(false);
   const labels = detailLabels[selectedLang] || detailLabels.de;
@@ -120,6 +140,8 @@ export default function DuaDetail({
     setTranslationAyahs([]);
     setCurrentWordIndex(-1);
     setTranslationEdition('');
+    setIsVoicePlaying(false);
+    stopSpeechPlayback();
   }, [selectedDua]);
 
   useEffect(() => {
@@ -259,6 +281,22 @@ export default function DuaDetail({
     }
   };
 
+  const toggleVoiceApi = () => {
+    if (!canUseSpeechSynthesis()) return;
+    if (isVoicePlaying) {
+      stopSpeechPlayback();
+      setIsVoicePlaying(false);
+      return;
+    }
+    const text = (apiArabicText || selectedDua?.arabic || '').trim();
+    if (!text) return;
+    speakArabicText(text, 0.7, {
+      onStart: () => setIsVoicePlaying(true),
+      onEnd: () => setIsVoicePlaying(false),
+      onError: () => setIsVoicePlaying(false)
+    });
+  };
+
   const renderHighlightedArabic = (text = '') => {
     const tokens = tokenizeArabicText(text);
     let wordCounter = -1;
@@ -343,6 +381,15 @@ export default function DuaDetail({
           </h2>
         </div>
 
+        <div className={`p-4 rounded-2xl border transition-colors ${isDarkMode ? 'bg-indigo-900/10 border-indigo-900/30' : 'bg-indigo-50 border-indigo-100'}`}>
+          <p className={`text-xs uppercase font-bold tracking-wider mb-2 ${isDarkMode ? 'text-indigo-300' : 'text-indigo-700'}`}>{labels.flowTitle}</p>
+          <div className="grid grid-cols-3 gap-2 text-[12px] font-semibold">
+            <div className={`rounded-xl px-3 py-2 text-center ${isDarkMode ? 'bg-slate-900 text-slate-200' : 'bg-white text-gray-700'}`}>{labels.flow1}</div>
+            <div className={`rounded-xl px-3 py-2 text-center ${isDarkMode ? 'bg-slate-900 text-slate-200' : 'bg-white text-gray-700'}`}>{labels.flow2}</div>
+            <div className={`rounded-xl px-3 py-2 text-center ${isDarkMode ? 'bg-slate-900 text-slate-200' : 'bg-white text-gray-700'}`}>{labels.flow3}</div>
+          </div>
+        </div>
+
         <div className={`p-5 rounded-3xl border transition-colors ${isDarkMode ? 'bg-green-900/10 border-green-900/30' : 'bg-green-50 border-green-100'}`}>
           <div className="flex items-center justify-between gap-3 mb-3 flex-wrap">
             <p className={`text-xs uppercase font-bold tracking-wider ${isDarkMode ? 'text-green-300' : 'text-green-700'}`}>
@@ -424,6 +471,21 @@ export default function DuaDetail({
                 </p>
               )}
             </div>
+          </div>
+        )}
+
+        {canUseSpeechSynthesis() && (
+          <div className={`p-4 rounded-2xl border transition-colors ${isDarkMode ? 'bg-violet-900/10 border-violet-900/30' : 'bg-violet-50 border-violet-100'}`}>
+            <div className="flex items-center justify-between gap-3">
+              <p className={`text-xs uppercase font-bold tracking-wider ${isDarkMode ? 'text-violet-300' : 'text-violet-700'}`}>{labels.voiceApi}</p>
+              <button
+                onClick={toggleVoiceApi}
+                className={`px-4 py-2 rounded-full text-sm font-bold text-white ${isVoicePlaying ? 'bg-red-500' : 'bg-violet-600 hover:bg-violet-700'}`}
+              >
+                {isVoicePlaying ? <Pause size={16} /> : <Play size={16} />}
+              </button>
+            </div>
+            <p className={`text-xs mt-2 ${isDarkMode ? 'text-violet-200/80' : 'text-violet-800/80'}`}>{labels.voiceApiHint}</p>
           </div>
         )}
         

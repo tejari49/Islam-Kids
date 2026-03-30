@@ -8,30 +8,70 @@ const SURAH_GUIDES = {
     de: {
       summary: 'Al-Fatiha ist eine tägliche Bitte um Allahs Führung auf den geraden Weg.',
       lessons: ['Beginne alles mit Dank an Allah.', 'Bitte bewusst um Rechtleitung und Standhaftigkeit.']
+    },
+    al: {
+      summary: 'El-Fatiha është një lutje e përditshme për udhëzim nga Allahu në rrugën e drejtë.',
+      lessons: ['Nise çdo gjë me falënderim ndaj Allahut.', 'Kërko me vetëdije udhëzim dhe qëndrueshmëri.']
+    },
+    tr: {
+      summary: 'Fatiha, Allah’tan doğru yol için günlük bir hidayet duasıdır.',
+      lessons: ['Her işe Allah’a hamd ile başla.', 'Bilinçli şekilde hidayet ve istikamet iste.']
     }
   },
   112: {
     de: {
       summary: 'Al-Ikhlas erklärt den reinen Tauhid: Allah ist Einer, einzigartig und braucht niemanden.',
       lessons: ['Glaube ohne Beigesellung (Schirk).', 'Nur Allah anbeten und nur Ihn um Hilfe bitten.']
+    },
+    al: {
+      summary: 'El-Ihlas shpjegon teuhidin e pastër: Allahu është Një, unik dhe nuk ka nevojë për askënd.',
+      lessons: ['Besim pa shirk (pa shok i Allahut).', 'Adhuro vetëm Allahun dhe kërko ndihmë vetëm prej Tij.']
+    },
+    tr: {
+      summary: 'İhlâs, saf tevhidi anlatır: Allah birdir, eşsizdir ve kimseye muhtaç değildir.',
+      lessons: ['Şirkten uzak bir iman geliştir.', 'Yalnız Allah’a kulluk et ve yalnız O’ndan yardım iste.']
     }
   },
   113: {
     de: {
       summary: 'Al-Falaq ist ein Schutzgebet gegen äußere Gefahren, Neid und schädliche Einflüsse.',
       lessons: ['Suche Schutz bei Allah statt bei Aberglauben.', 'Bleibe achtsam gegenüber Neid und bösen Absichten.']
+    },
+    al: {
+      summary: 'El-Felek është një lutje mbrojtjeje kundër rreziqeve të jashtme, zilisë dhe ndikimeve të dëmshme.',
+      lessons: ['Kërko mbrojtje te Allahu, jo te bestytnitë.', 'Qëndro i vëmendshëm ndaj zilisë dhe qëllimeve të këqija.']
+    },
+    tr: {
+      summary: 'Felak, dış tehlikelere, hasede ve zararlı etkilere karşı bir korunma duasıdır.',
+      lessons: ['Korunmayı batılda değil Allah’ta ara.', 'Haset ve kötü niyetlere karşı dikkatli ol.']
     }
   },
   114: {
     de: {
       summary: 'An-Nas lehrt, Schutz vor inneren Einflüsterungen und seelischen Angriffen zu suchen.',
       lessons: ['Achte auf deine Gedanken und Absichten.', 'Suche bei Angst oder Unruhe Zuflucht bei Allah.']
+    },
+    al: {
+      summary: 'En-Nas mëson të kërkojmë mbrojtje nga vesveset e brendshme dhe sulmet shpirtërore.',
+      lessons: ['Kujdesu për mendimet dhe qëllimet e tua.', 'Kur ke frikë ose shqetësim, strehohu te Allahu.']
+    },
+    tr: {
+      summary: 'Nâs, iç vesveselerden ve manevi saldırılardan Allah’a sığınmayı öğretir.',
+      lessons: ['Düşünce ve niyetlerini kontrol et.', 'Korku ve huzursuzlukta Allah’a sığın.']
     }
   },
   107: {
     de: {
       summary: 'Al-Maun erinnert daran, dass Glaube ohne Mitgefühl und Hilfe für Bedürftige unvollständig ist.',
       lessons: ['Vernachlässige keine kleinen guten Taten.', 'Frömmigkeit zeigt sich auch im Umgang mit Menschen.']
+    },
+    al: {
+      summary: 'El-Maun kujton se besimi pa dhembshuri dhe ndihmë për nevojtarët mbetet i paplotë.',
+      lessons: ['Mos i neglizho veprat e vogla të mira.', 'Devotshmëria shihet edhe në sjelljen me njerëzit.']
+    },
+    tr: {
+      summary: 'Mâûn, merhamet ve muhtaçlara yardım olmadan imanın eksik kalacağını hatırlatır.',
+      lessons: ['Küçük iyilikleri ihmal etme.', 'Dindarlık insanlarla muamelede de görünür.']
     }
   }
 };
@@ -48,7 +88,11 @@ const LABELS = {
     loading: 'Sure wird geladen …',
     done: 'Masha’Allah! Du hast die Sure beendet! +50 EP',
     meaningTitle: 'Bedeutung der Sure',
-    liveWord: 'Aktives Wort'
+    liveWord: 'Aktives Wort',
+    flowTitle: 'Lernablauf',
+    flow1: '1) Hören',
+    flow2: '2) Mitlesen',
+    flow3: '3) Bedeutung'
   },
   al: {
     title: 'Mëso Sura',
@@ -61,7 +105,11 @@ const LABELS = {
     loading: 'Sureja po ngarkohet …',
     done: 'Masha’Allah! E përfundove suren! +50 XP',
     meaningTitle: 'Kuptimi i sures',
-    liveWord: 'Fjala aktive'
+    liveWord: 'Fjala aktive',
+    flowTitle: 'Rrjedha e mësimit',
+    flow1: '1) Dëgjo',
+    flow2: '2) Lexo së bashku',
+    flow3: '3) Kuptimi'
   },
   tr: {
     title: 'Sureleri Öğren',
@@ -74,7 +122,11 @@ const LABELS = {
     loading: 'Sure yükleniyor …',
     done: 'Masha’Allah! Sureyi tamamladın! +50 XP',
     meaningTitle: 'Surenin anlamı',
-    liveWord: 'Aktif kelime'
+    liveWord: 'Aktif kelime',
+    flowTitle: 'Öğrenme akışı',
+    flow1: '1) Dinle',
+    flow2: '2) Takip et',
+    flow3: '3) Anlam'
   }
 };
 
@@ -90,13 +142,40 @@ function buildGuideText(surah, lang = 'de') {
   if (guide) return guide;
 
   const rawMeaning = surah?.meaning?.[lang] || surah?.meaning?.de || '';
-  const clean = rawMeaning.replace(/The Opening|The Opening’|The Opening'/gi, 'die Eröffnung').trim();
+  const openingByLang = {
+    de: 'die Eröffnung',
+    al: 'Hapja',
+    tr: 'Açılış'
+  };
+  const clean = rawMeaning
+    .replace(/The Opening|The Opening’|The Opening'/gi, openingByLang[lang] || openingByLang.de)
+    .trim();
+  const fallbackByLang = {
+    de: {
+      summary: 'Diese Sure stärkt den Glauben, erinnert an gutes Verhalten und ruft zu Allahs Nähe auf.',
+      lessons: [
+        'Überlege: Was soll ich heute praktisch umsetzen?',
+        'Frage dich: Welche Eigenschaft möchte Allah in mir stärken?'
+      ]
+    },
+    al: {
+      summary: 'Kjo sure forcon besimin, kujton sjelljen e mirë dhe të afron me Allahun.',
+      lessons: [
+        'Mendo: Çfarë duhet të zbatoj sot në praktikë?',
+        'Pyet veten: Cilin tipar dëshiron Allahu ta forcojë te unë?'
+      ]
+    },
+    tr: {
+      summary: 'Bu sure imanı güçlendirir, güzel ahlâkı hatırlatır ve Allah’a yakınlığa çağırır.',
+      lessons: [
+        'Düşün: Bugün pratikte neyi uygulamalıyım?',
+        'Kendine sor: Allah bende hangi özelliği güçlendirmek istiyor?'
+      ]
+    }
+  };
   return {
-    summary: clean || 'Diese Sure stärkt den Glauben, erinnert an gutes Verhalten und ruft zu Allahs Nähe auf.',
-    lessons: [
-      'Überlege: Was soll ich heute praktisch umsetzen?',
-      'Frage dich: Welche Eigenschaft möchte Allah in mir stärken?'
-    ]
+    summary: clean || fallbackByLang[lang]?.summary || fallbackByLang.de.summary,
+    lessons: fallbackByLang[lang]?.lessons || fallbackByLang.de.lessons
   };
 }
 
@@ -391,6 +470,15 @@ export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkM
             <div className="text-center mb-6">
               <div className={`text-4xl font-arabic mb-2 ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">{surahBundle?.arabicName || selectedSurah.arabic}</div>
               <div className={`text-sm font-black uppercase tracking-widest ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>{labels.verse} {currentVerse.numberInSurah} / {surahBundle?.versesCount}</div>
+            </div>
+
+            <div className={`mb-5 p-4 rounded-2xl border ${isDarkMode ? 'bg-indigo-900/10 border-indigo-900/30' : 'bg-indigo-50 border-indigo-100'}`}>
+              <p className={`text-xs uppercase font-bold tracking-wider mb-2 ${isDarkMode ? 'text-indigo-300' : 'text-indigo-700'}`}>{labels.flowTitle}</p>
+              <div className="grid grid-cols-3 gap-2 text-[12px] font-semibold">
+                <div className={`rounded-xl px-3 py-2 text-center ${isDarkMode ? 'bg-slate-900 text-slate-200' : 'bg-white text-gray-700'}`}>{labels.flow1}</div>
+                <div className={`rounded-xl px-3 py-2 text-center ${isDarkMode ? 'bg-slate-900 text-slate-200' : 'bg-white text-gray-700'}`}>{labels.flow2}</div>
+                <div className={`rounded-xl px-3 py-2 text-center ${isDarkMode ? 'bg-slate-900 text-slate-200' : 'bg-white text-gray-700'}`}>{labels.flow3}</div>
+              </div>
             </div>
 
             <div className="flex-1 overflow-y-auto space-y-6">
