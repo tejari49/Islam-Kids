@@ -88,7 +88,11 @@ const LABELS = {
     loading: 'Sure wird geladen …',
     done: 'Masha’Allah! Du hast die Sure beendet! +50 EP',
     meaningTitle: 'Bedeutung der Sure',
-    liveWord: 'Aktives Wort'
+    liveWord: 'Aktives Wort',
+    flowTitle: 'Lernablauf',
+    flow1: '1) Hören',
+    flow2: '2) Mitlesen',
+    flow3: '3) Bedeutung'
   },
   al: {
     title: 'Mëso Sura',
@@ -101,7 +105,11 @@ const LABELS = {
     loading: 'Sureja po ngarkohet …',
     done: 'Masha’Allah! E përfundove suren! +50 XP',
     meaningTitle: 'Kuptimi i sures',
-    liveWord: 'Fjala aktive'
+    liveWord: 'Fjala aktive',
+    flowTitle: 'Rrjedha e mësimit',
+    flow1: '1) Dëgjo',
+    flow2: '2) Lexo së bashku',
+    flow3: '3) Kuptimi'
   },
   tr: {
     title: 'Sureleri Öğren',
@@ -114,7 +122,11 @@ const LABELS = {
     loading: 'Sure yükleniyor …',
     done: 'Masha’Allah! Sureyi tamamladın! +50 XP',
     meaningTitle: 'Surenin anlamı',
-    liveWord: 'Aktif kelime'
+    liveWord: 'Aktif kelime',
+    flowTitle: 'Öğrenme akışı',
+    flow1: '1) Dinle',
+    flow2: '2) Takip et',
+    flow3: '3) Anlam'
   }
 };
 
@@ -458,6 +470,15 @@ export default function QuranTrainer({ selectedLang, setSelectedFeature, isDarkM
             <div className="text-center mb-6">
               <div className={`text-4xl font-arabic mb-2 ${isDarkMode ? 'text-green-300' : 'text-green-700'}`} dir="rtl">{surahBundle?.arabicName || selectedSurah.arabic}</div>
               <div className={`text-sm font-black uppercase tracking-widest ${isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>{labels.verse} {currentVerse.numberInSurah} / {surahBundle?.versesCount}</div>
+            </div>
+
+            <div className={`mb-5 p-4 rounded-2xl border ${isDarkMode ? 'bg-indigo-900/10 border-indigo-900/30' : 'bg-indigo-50 border-indigo-100'}`}>
+              <p className={`text-xs uppercase font-bold tracking-wider mb-2 ${isDarkMode ? 'text-indigo-300' : 'text-indigo-700'}`}>{labels.flowTitle}</p>
+              <div className="grid grid-cols-3 gap-2 text-[12px] font-semibold">
+                <div className={`rounded-xl px-3 py-2 text-center ${isDarkMode ? 'bg-slate-900 text-slate-200' : 'bg-white text-gray-700'}`}>{labels.flow1}</div>
+                <div className={`rounded-xl px-3 py-2 text-center ${isDarkMode ? 'bg-slate-900 text-slate-200' : 'bg-white text-gray-700'}`}>{labels.flow2}</div>
+                <div className={`rounded-xl px-3 py-2 text-center ${isDarkMode ? 'bg-slate-900 text-slate-200' : 'bg-white text-gray-700'}`}>{labels.flow3}</div>
+              </div>
             </div>
 
             <div className="flex-1 overflow-y-auto space-y-6">

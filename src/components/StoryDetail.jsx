@@ -7,21 +7,33 @@ const labels = {
     summary: 'Kurz erklärt',
     background: 'Hintergrund',
     story: 'Die Geschichte',
-    lesson: 'Was wir lernen'
+    lesson: 'Was wir lernen',
+    flow: 'Lernablauf',
+    flow1: '1) Kontext',
+    flow2: '2) Geschichte',
+    flow3: '3) Lektion'
   },
   al: {
     back: 'Mbrapsht',
     summary: 'Shkurt',
     background: 'Sfondi',
     story: 'Historia',
-    lesson: 'Çfarë mësojmë'
+    lesson: 'Çfarë mësojmë',
+    flow: 'Rrjedha e mësimit',
+    flow1: '1) Konteksti',
+    flow2: '2) Historia',
+    flow3: '3) Mësimi'
   },
   tr: {
     back: 'Geri',
     summary: 'Kısa açıklama',
     background: 'Arka plan',
     story: 'Hikâye',
-    lesson: 'Ne öğreniyoruz'
+    lesson: 'Ne öğreniyoruz',
+    flow: 'Öğrenme akışı',
+    flow1: '1) Bağlam',
+    flow2: '2) Hikâye',
+    flow3: '3) Ders'
   }
 };
 
@@ -122,6 +134,15 @@ export default function StoryDetail({
           isDarkMode={isDarkMode}
           tone="purple"
         />
+
+        <div className={`p-4 rounded-2xl border ${isDarkMode ? 'bg-indigo-900/10 border-indigo-900/30' : 'bg-indigo-50 border-indigo-100'}`}>
+          <p className={`text-xs uppercase font-bold tracking-wider mb-2 ${isDarkMode ? 'text-indigo-300' : 'text-indigo-700'}`}>{t.flow}</p>
+          <div className="grid grid-cols-3 gap-2 text-[12px] font-semibold">
+            <div className={`rounded-xl px-3 py-2 text-center ${isDarkMode ? 'bg-slate-900 text-slate-200' : 'bg-white text-gray-700'}`}>{t.flow1}</div>
+            <div className={`rounded-xl px-3 py-2 text-center ${isDarkMode ? 'bg-slate-900 text-slate-200' : 'bg-white text-gray-700'}`}>{t.flow2}</div>
+            <div className={`rounded-xl px-3 py-2 text-center ${isDarkMode ? 'bg-slate-900 text-slate-200' : 'bg-white text-gray-700'}`}>{t.flow3}</div>
+          </div>
+        </div>
 
         <SectionCard
           title={t.background}
