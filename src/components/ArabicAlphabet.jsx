@@ -12,7 +12,21 @@ const LABELS = {
     writeHint: 'Schreibe ein Wort in Lateinschrift und lasse es arabisch darstellen.',
     inputPlaceholder: 'z. B. salam, allah, quran …',
     convert: 'In Arabisch umwandeln',
-    output: 'Arabische Schreibweise'
+    output: 'Arabische Schreibweise',
+    formsTitle: 'Buchstabenformen',
+    formsHint: 'Je nach Position ändert sich die Form eines Buchstabens.',
+    formsIsolated: 'Allein',
+    formsInitial: 'Anfang',
+    formsMedial: 'Mitte',
+    formsFinal: 'Ende',
+    practiceTitle: 'Schreibübung',
+    practiceHint: 'Tippe die arabische Form des gezeigten Buchstabens.',
+    practiceTarget: 'Ziel',
+    practicePlaceholder: 'Arabischen Buchstaben eingeben …',
+    practiceCheck: 'Prüfen',
+    practiceNext: 'Nächster Buchstabe',
+    practiceCorrect: 'Richtig! Sehr gut ✨',
+    practiceWrong: 'Fast! Versuche es nochmal.'
   },
   al: {
     title: 'Alfabeti Arab',
@@ -23,7 +37,21 @@ const LABELS = {
     writeHint: 'Shkruaj një fjalë me shkronja latine dhe shfaqe me shkrim arab.',
     inputPlaceholder: 'p.sh. salam, allah, quran …',
     convert: 'Ktheje në arabisht',
-    output: 'Shkrimi arabisht'
+    output: 'Shkrimi arabisht',
+    formsTitle: 'Format e shkronjave',
+    formsHint: 'Forma e shkronjës ndryshon sipas pozicionit.',
+    formsIsolated: 'E vetme',
+    formsInitial: 'Fillim',
+    formsMedial: 'Mes',
+    formsFinal: 'Fund',
+    practiceTitle: 'Ushtrim shkrimi',
+    practiceHint: 'Shkruaj formën arabe të shkronjës së treguar.',
+    practiceTarget: 'Qëllimi',
+    practicePlaceholder: 'Shkruaj shkronjën arabe …',
+    practiceCheck: 'Kontrollo',
+    practiceNext: 'Shkronja tjetër',
+    practiceCorrect: 'Saktë! Shumë mirë ✨',
+    practiceWrong: 'Afër! Provo edhe një herë.'
   },
   tr: {
     title: 'Arap Alfabesi',
@@ -34,7 +62,21 @@ const LABELS = {
     writeHint: 'Latin harflerle bir kelime yaz, Arapça yazımını göster.',
     inputPlaceholder: 'ör. salam, allah, quran …',
     convert: 'Arapçaya çevir',
-    output: 'Arapça yazı'
+    output: 'Arapça yazı',
+    formsTitle: 'Harf biçimleri',
+    formsHint: 'Harfin şekli konuma göre değişir.',
+    formsIsolated: 'Tek başına',
+    formsInitial: 'Başta',
+    formsMedial: 'Ortada',
+    formsFinal: 'Sonda',
+    practiceTitle: 'Yazma alıştırması',
+    practiceHint: 'Gösterilen harfin Arapça biçimini yaz.',
+    practiceTarget: 'Hedef',
+    practicePlaceholder: 'Arapça harfi yaz …',
+    practiceCheck: 'Kontrol et',
+    practiceNext: 'Sonraki harf',
+    practiceCorrect: 'Doğru! Harika ✨',
+    practiceWrong: 'Yaklaştın! Tekrar dene.'
   }
 };
 
@@ -47,6 +89,37 @@ const LETTERS = [
   { ar: 'ق', translit: 'Qaf' }, { ar: 'ك', translit: 'Kaf' }, { ar: 'ل', translit: 'Lam' }, { ar: 'م', translit: 'Mim' },
   { ar: 'ن', translit: 'Nun' }, { ar: 'ه', translit: 'Haʼ' }, { ar: 'و', translit: 'Waw' }, { ar: 'ي', translit: 'Ya' }
 ];
+
+const LETTER_FORMS = {
+  ا: { initial: 'ا', medial: 'ـا', final: 'ـا' },
+  ب: { initial: 'بـ', medial: 'ـبـ', final: 'ـب' },
+  ت: { initial: 'تـ', medial: 'ـتـ', final: 'ـت' },
+  ث: { initial: 'ثـ', medial: 'ـثـ', final: 'ـث' },
+  ج: { initial: 'جـ', medial: 'ـجـ', final: 'ـج' },
+  ح: { initial: 'حـ', medial: 'ـحـ', final: 'ـح' },
+  خ: { initial: 'خـ', medial: 'ـخـ', final: 'ـخ' },
+  د: { initial: 'د', medial: 'ـد', final: 'ـد' },
+  ذ: { initial: 'ذ', medial: 'ـذ', final: 'ـذ' },
+  ر: { initial: 'ر', medial: 'ـر', final: 'ـر' },
+  ز: { initial: 'ز', medial: 'ـز', final: 'ـز' },
+  س: { initial: 'سـ', medial: 'ـسـ', final: 'ـس' },
+  ش: { initial: 'شـ', medial: 'ـشـ', final: 'ـش' },
+  ص: { initial: 'صـ', medial: 'ـصـ', final: 'ـص' },
+  ض: { initial: 'ضـ', medial: 'ـضـ', final: 'ـض' },
+  ط: { initial: 'طـ', medial: 'ـطـ', final: 'ـط' },
+  ظ: { initial: 'ظـ', medial: 'ـظـ', final: 'ـظ' },
+  ع: { initial: 'عـ', medial: 'ـعـ', final: 'ـع' },
+  غ: { initial: 'غـ', medial: 'ـغـ', final: 'ـغ' },
+  ف: { initial: 'فـ', medial: 'ـفـ', final: 'ـف' },
+  ق: { initial: 'قـ', medial: 'ـقـ', final: 'ـق' },
+  ك: { initial: 'كـ', medial: 'ـكـ', final: 'ـك' },
+  ل: { initial: 'لـ', medial: 'ـلـ', final: 'ـل' },
+  م: { initial: 'مـ', medial: 'ـمـ', final: 'ـم' },
+  ن: { initial: 'نـ', medial: 'ـنـ', final: 'ـن' },
+  ه: { initial: 'هـ', medial: 'ـهـ', final: 'ـه' },
+  و: { initial: 'و', medial: 'ـو', final: 'ـو' },
+  ي: { initial: 'يـ', medial: 'ـيـ', final: 'ـي' }
+};
 
 const WORD_MAP = {
   allah: 'اللّٰه',
@@ -81,7 +154,11 @@ export default function ArabicAlphabet({ selectedLang, setSelectedFeature, isDar
   const [activeLetter, setActiveLetter] = useState('');
   const [latinInput, setLatinInput] = useState('');
   const [arabicOutput, setArabicOutput] = useState('');
+  const [practiceIndex, setPracticeIndex] = useState(0);
+  const [practiceInput, setPracticeInput] = useState('');
+  const [practiceResult, setPracticeResult] = useState('');
   const letters = useMemo(() => LETTERS, []);
+  const practiceLetter = letters[practiceIndex % letters.length];
 
   const playLetter = (letter) => {
     setActiveLetter(letter.ar);
@@ -95,6 +172,22 @@ export default function ArabicAlphabet({ selectedLang, setSelectedFeature, isDar
     const tokens = latinInput.split(/\s+/).filter(Boolean);
     const converted = tokens.map(transliterateWord).join(' ');
     setArabicOutput(converted);
+  };
+
+  const checkPractice = () => {
+    const expected = practiceLetter?.ar || '';
+    if (practiceInput.trim() === expected) {
+      setPracticeResult('correct');
+      setPracticeInput('');
+      return;
+    }
+    setPracticeResult('wrong');
+  };
+
+  const nextPractice = () => {
+    setPracticeResult('');
+    setPracticeInput('');
+    setPracticeIndex((prev) => (prev + 1) % letters.length);
   };
 
   return (
@@ -141,6 +234,52 @@ export default function ArabicAlphabet({ selectedLang, setSelectedFeature, isDar
             <div className="text-2xl font-arabic">{arabicOutput}</div>
           </button>
         )}
+      </div>
+
+      <div className={`p-4 rounded-2xl border mb-4 ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-200'}`}>
+        <div className="text-xs font-black uppercase tracking-widest text-fuchsia-500">{labels.formsTitle}</div>
+        <p className={`text-xs mt-1 mb-3 ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>{labels.formsHint}</p>
+        <div className="grid grid-cols-4 gap-2 text-center">
+          <div className={`rounded-xl p-2 ${isDarkMode ? 'bg-slate-900' : 'bg-gray-50'}`}>
+            <div className="text-[10px] opacity-70">{labels.formsIsolated}</div>
+            <div className="text-2xl font-arabic" dir="rtl">{activeLetter || practiceLetter.ar}</div>
+          </div>
+          <div className={`rounded-xl p-2 ${isDarkMode ? 'bg-slate-900' : 'bg-gray-50'}`}>
+            <div className="text-[10px] opacity-70">{labels.formsInitial}</div>
+            <div className="text-2xl font-arabic" dir="rtl">{LETTER_FORMS[activeLetter || practiceLetter.ar]?.initial}</div>
+          </div>
+          <div className={`rounded-xl p-2 ${isDarkMode ? 'bg-slate-900' : 'bg-gray-50'}`}>
+            <div className="text-[10px] opacity-70">{labels.formsMedial}</div>
+            <div className="text-2xl font-arabic" dir="rtl">{LETTER_FORMS[activeLetter || practiceLetter.ar]?.medial}</div>
+          </div>
+          <div className={`rounded-xl p-2 ${isDarkMode ? 'bg-slate-900' : 'bg-gray-50'}`}>
+            <div className="text-[10px] opacity-70">{labels.formsFinal}</div>
+            <div className="text-2xl font-arabic" dir="rtl">{LETTER_FORMS[activeLetter || practiceLetter.ar]?.final}</div>
+          </div>
+        </div>
+      </div>
+
+      <div className={`p-4 rounded-2xl border mb-4 space-y-3 ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-200'}`}>
+        <div className="text-xs font-black uppercase tracking-widest text-amber-500">{labels.practiceTitle}</div>
+        <p className={`text-xs ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>{labels.practiceHint}</p>
+        <div className={`rounded-xl p-3 text-center ${isDarkMode ? 'bg-slate-900' : 'bg-gray-50'}`}>
+          <div className="text-[11px] opacity-70">{labels.practiceTarget}</div>
+          <div className="text-lg font-semibold">{practiceLetter.translit}</div>
+          <div className="text-2xl font-arabic" dir="rtl">{practiceLetter.ar}</div>
+        </div>
+        <input
+          value={practiceInput}
+          onChange={(event) => setPracticeInput(event.target.value)}
+          placeholder={labels.practicePlaceholder}
+          className={`w-full px-3 py-2 rounded-xl border outline-none ${isDarkMode ? 'bg-slate-900 border-slate-700 text-white placeholder-slate-500' : 'bg-gray-50 border-gray-200 text-gray-900 placeholder-gray-400'}`}
+          dir="rtl"
+        />
+        <div className="grid grid-cols-2 gap-2">
+          <button onClick={checkPractice} className="py-2.5 rounded-xl bg-amber-500 text-white font-bold">{labels.practiceCheck}</button>
+          <button onClick={nextPractice} className={`py-2.5 rounded-xl border font-bold ${isDarkMode ? 'border-slate-600 text-slate-100' : 'border-gray-300 text-gray-700'}`}>{labels.practiceNext}</button>
+        </div>
+        {practiceResult === 'correct' && <div className="text-sm text-emerald-500 font-semibold">{labels.practiceCorrect}</div>}
+        {practiceResult === 'wrong' && <div className="text-sm text-rose-500 font-semibold">{labels.practiceWrong}</div>}
       </div>
 
       <div className="grid grid-cols-4 gap-3">

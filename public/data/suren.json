@@ -9,9 +9,9 @@
     },
     "arabic": "سُورَةُ ٱلْفَاتِحَةِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 7 Versen. Der Name wird meist mit 'The Opening' wiedergegeben.",
-      "al": "Sure mekase me 7 ajete. Emri zakonisht përkthehet si 'The Opening'.",
-      "tr": "7 ayetlik Mekkî sure. İsmi genellikle 'The Opening' olarak çevrilir."
+      "de": "Mekkanische Sure mit 7 Versen. Der Name dieser Sure ist „Al-Fatiha“.",
+      "al": "Sure mekase me 7 ajete. Emri i kësaj sureje është „Al-Fatiha“.",
+      "tr": "7 ayetlik Mekkî sure. Bu surenin adı „Al-Fatiha“dir."
     },
     "verses": 7,
     "revelation": "Meccan"
@@ -24,11 +24,11 @@
       "al": "Sureja Al-Baqarah",
       "tr": "Al-Baqarah Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْبَقَرَةِ",
     "meaning": {
-      "de": "Medinensische Sure mit 286 Versen. Der Name wird meist mit 'The Cow' wiedergegeben.",
-      "al": "Sure medinase me 286 ajete. Emri zakonisht përkthehet si 'The Cow'.",
-      "tr": "286 ayetlik Medenî sure. İsmi genellikle 'The Cow' olarak çevrilir."
+      "de": "Medinensische Sure mit 286 Versen. Der Name dieser Sure ist „Al-Baqarah“.",
+      "al": "Sure medinase me 286 ajete. Emri i kësaj sureje është „Al-Baqarah“.",
+      "tr": "286 ayetlik Medenî sure. Bu surenin adı „Al-Baqarah“dir."
     },
     "verses": 286,
     "revelation": "Medinan"
@@ -41,11 +41,11 @@
       "al": "Sureja Al-Imran",
       "tr": "Al-Imran Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ آلِ عِمْرَانَ",
     "meaning": {
-      "de": "Medinensische Sure mit 200 Versen. Der Name wird meist mit 'The Family of Imran' wiedergegeben.",
-      "al": "Sure medinase me 200 ajete. Emri zakonisht përkthehet si 'The Family of Imran'.",
-      "tr": "200 ayetlik Medenî sure. İsmi genellikle 'The Family of Imran' olarak çevrilir."
+      "de": "Medinensische Sure mit 200 Versen. Der Name dieser Sure ist „Al-Imran“.",
+      "al": "Sure medinase me 200 ajete. Emri i kësaj sureje është „Al-Imran“.",
+      "tr": "200 ayetlik Medenî sure. Bu surenin adı „Al-Imran“dir."
     },
     "verses": 200,
     "revelation": "Medinan"
@@ -58,11 +58,11 @@
       "al": "Sureja An-Nisa",
       "tr": "An-Nisa Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلنِّسَاءِ",
     "meaning": {
-      "de": "Medinensische Sure mit 176 Versen. Der Name wird meist mit 'The Women' wiedergegeben.",
-      "al": "Sure medinase me 176 ajete. Emri zakonisht përkthehet si 'The Women'.",
-      "tr": "176 ayetlik Medenî sure. İsmi genellikle 'The Women' olarak çevrilir."
+      "de": "Medinensische Sure mit 176 Versen. Der Name dieser Sure ist „An-Nisa“.",
+      "al": "Sure medinase me 176 ajete. Emri i kësaj sureje është „An-Nisa“.",
+      "tr": "176 ayetlik Medenî sure. Bu surenin adı „An-Nisa“dir."
     },
     "verses": 176,
     "revelation": "Medinan"
@@ -75,11 +75,11 @@
       "al": "Sureja Al-Ma'idah",
       "tr": "Al-Ma'idah Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْمَائِدَةِ",
     "meaning": {
-      "de": "Medinensische Sure mit 120 Versen. Der Name wird meist mit 'The Table Spread' wiedergegeben.",
-      "al": "Sure medinase me 120 ajete. Emri zakonisht përkthehet si 'The Table Spread'.",
-      "tr": "120 ayetlik Medenî sure. İsmi genellikle 'The Table Spread' olarak çevrilir."
+      "de": "Medinensische Sure mit 120 Versen. Der Name dieser Sure ist „Al-Ma'idah“.",
+      "al": "Sure medinase me 120 ajete. Emri i kësaj sureje është „Al-Ma'idah“.",
+      "tr": "120 ayetlik Medenî sure. Bu surenin adı „Al-Ma'idah“dir."
     },
     "verses": 120,
     "revelation": "Medinan"
@@ -92,11 +92,11 @@
       "al": "Sureja Al-An'am",
       "tr": "Al-An'am Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْأَنْعَامِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 165 Versen. Der Name wird meist mit 'The Cattle' wiedergegeben.",
-      "al": "Sure mekase me 165 ajete. Emri zakonisht përkthehet si 'The Cattle'.",
-      "tr": "165 ayetlik Mekkî sure. İsmi genellikle 'The Cattle' olarak çevrilir."
+      "de": "Mekkanische Sure mit 165 Versen. Der Name dieser Sure ist „Al-An'am“.",
+      "al": "Sure mekase me 165 ajete. Emri i kësaj sureje është „Al-An'am“.",
+      "tr": "165 ayetlik Mekkî sure. Bu surenin adı „Al-An'am“dir."
     },
     "verses": 165,
     "revelation": "Meccan"
@@ -109,11 +109,11 @@
       "al": "Sureja Al-A'raf",
       "tr": "Al-A'raf Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْأَعْرَافِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 206 Versen. Der Name wird meist mit 'The Heights' wiedergegeben.",
-      "al": "Sure mekase me 206 ajete. Emri zakonisht përkthehet si 'The Heights'.",
-      "tr": "206 ayetlik Mekkî sure. İsmi genellikle 'The Heights' olarak çevrilir."
+      "de": "Mekkanische Sure mit 206 Versen. Der Name dieser Sure ist „Al-A'raf“.",
+      "al": "Sure mekase me 206 ajete. Emri i kësaj sureje është „Al-A'raf“.",
+      "tr": "206 ayetlik Mekkî sure. Bu surenin adı „Al-A'raf“dir."
     },
     "verses": 206,
     "revelation": "Meccan"
@@ -126,11 +126,11 @@
       "al": "Sureja Al-Anfal",
       "tr": "Al-Anfal Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْأَنْفَالِ",
     "meaning": {
-      "de": "Medinensische Sure mit 75 Versen. Der Name wird meist mit 'The Spoils of War' wiedergegeben.",
-      "al": "Sure medinase me 75 ajete. Emri zakonisht përkthehet si 'The Spoils of War'.",
-      "tr": "75 ayetlik Medenî sure. İsmi genellikle 'The Spoils of War' olarak çevrilir."
+      "de": "Medinensische Sure mit 75 Versen. Der Name dieser Sure ist „Al-Anfal“.",
+      "al": "Sure medinase me 75 ajete. Emri i kësaj sureje është „Al-Anfal“.",
+      "tr": "75 ayetlik Medenî sure. Bu surenin adı „Al-Anfal“dir."
     },
     "verses": 75,
     "revelation": "Medinan"
@@ -143,11 +143,11 @@
       "al": "Sureja At-Tawbah",
       "tr": "At-Tawbah Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلتَّوْبَةِ",
     "meaning": {
-      "de": "Medinensische Sure mit 129 Versen. Der Name wird meist mit 'The Repentance' wiedergegeben.",
-      "al": "Sure medinase me 129 ajete. Emri zakonisht përkthehet si 'The Repentance'.",
-      "tr": "129 ayetlik Medenî sure. İsmi genellikle 'The Repentance' olarak çevrilir."
+      "de": "Medinensische Sure mit 129 Versen. Der Name dieser Sure ist „At-Tawbah“.",
+      "al": "Sure medinase me 129 ajete. Emri i kësaj sureje është „At-Tawbah“.",
+      "tr": "129 ayetlik Medenî sure. Bu surenin adı „At-Tawbah“dir."
     },
     "verses": 129,
     "revelation": "Medinan"
@@ -160,11 +160,11 @@
       "al": "Sureja Yunus",
       "tr": "Yunus Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ يُونُسَ",
     "meaning": {
-      "de": "Mekkanische Sure mit 109 Versen. Der Name wird meist mit 'Jonah' wiedergegeben.",
-      "al": "Sure mekase me 109 ajete. Emri zakonisht përkthehet si 'Jonah'.",
-      "tr": "109 ayetlik Mekkî sure. İsmi genellikle 'Jonah' olarak çevrilir."
+      "de": "Mekkanische Sure mit 109 Versen. Der Name dieser Sure ist „Yunus“.",
+      "al": "Sure mekase me 109 ajete. Emri i kësaj sureje është „Yunus“.",
+      "tr": "109 ayetlik Mekkî sure. Bu surenin adı „Yunus“dir."
     },
     "verses": 109,
     "revelation": "Meccan"
@@ -177,11 +177,11 @@
       "al": "Sureja Hud",
       "tr": "Hud Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ هُودٍ",
     "meaning": {
-      "de": "Mekkanische Sure mit 123 Versen. Der Name wird meist mit 'Hud' wiedergegeben.",
-      "al": "Sure mekase me 123 ajete. Emri zakonisht përkthehet si 'Hud'.",
-      "tr": "123 ayetlik Mekkî sure. İsmi genellikle 'Hud' olarak çevrilir."
+      "de": "Mekkanische Sure mit 123 Versen. Der Name dieser Sure ist „Hud“.",
+      "al": "Sure mekase me 123 ajete. Emri i kësaj sureje është „Hud“.",
+      "tr": "123 ayetlik Mekkî sure. Bu surenin adı „Hud“dir."
     },
     "verses": 123,
     "revelation": "Meccan"
@@ -194,11 +194,11 @@
       "al": "Sureja Yusuf",
       "tr": "Yusuf Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ يُوسُفَ",
     "meaning": {
-      "de": "Mekkanische Sure mit 111 Versen. Der Name wird meist mit 'Joseph' wiedergegeben.",
-      "al": "Sure mekase me 111 ajete. Emri zakonisht përkthehet si 'Joseph'.",
-      "tr": "111 ayetlik Mekkî sure. İsmi genellikle 'Joseph' olarak çevrilir."
+      "de": "Mekkanische Sure mit 111 Versen. Der Name dieser Sure ist „Yusuf“.",
+      "al": "Sure mekase me 111 ajete. Emri i kësaj sureje është „Yusuf“.",
+      "tr": "111 ayetlik Mekkî sure. Bu surenin adı „Yusuf“dir."
     },
     "verses": 111,
     "revelation": "Meccan"
@@ -211,11 +211,11 @@
       "al": "Sureja Ar-Ra'd",
       "tr": "Ar-Ra'd Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلرَّعْدِ",
     "meaning": {
-      "de": "Medinensische Sure mit 43 Versen. Der Name wird meist mit 'The Thunder' wiedergegeben.",
-      "al": "Sure medinase me 43 ajete. Emri zakonisht përkthehet si 'The Thunder'.",
-      "tr": "43 ayetlik Medenî sure. İsmi genellikle 'The Thunder' olarak çevrilir."
+      "de": "Medinensische Sure mit 43 Versen. Der Name dieser Sure ist „Ar-Ra'd“.",
+      "al": "Sure medinase me 43 ajete. Emri i kësaj sureje është „Ar-Ra'd“.",
+      "tr": "43 ayetlik Medenî sure. Bu surenin adı „Ar-Ra'd“dir."
     },
     "verses": 43,
     "revelation": "Medinan"
@@ -228,11 +228,11 @@
       "al": "Sureja Ibrahim",
       "tr": "Ibrahim Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ إِبْرَاهِيمَ",
     "meaning": {
-      "de": "Mekkanische Sure mit 52 Versen. Der Name wird meist mit 'Abraham' wiedergegeben.",
-      "al": "Sure mekase me 52 ajete. Emri zakonisht përkthehet si 'Abraham'.",
-      "tr": "52 ayetlik Mekkî sure. İsmi genellikle 'Abraham' olarak çevrilir."
+      "de": "Mekkanische Sure mit 52 Versen. Der Name dieser Sure ist „Ibrahim“.",
+      "al": "Sure mekase me 52 ajete. Emri i kësaj sureje është „Ibrahim“.",
+      "tr": "52 ayetlik Mekkî sure. Bu surenin adı „Ibrahim“dir."
     },
     "verses": 52,
     "revelation": "Meccan"
@@ -245,11 +245,11 @@
       "al": "Sureja Al-Hijr",
       "tr": "Al-Hijr Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْحِجْرِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 99 Versen. Der Name wird meist mit 'The Rocky Tract' wiedergegeben.",
-      "al": "Sure mekase me 99 ajete. Emri zakonisht përkthehet si 'The Rocky Tract'.",
-      "tr": "99 ayetlik Mekkî sure. İsmi genellikle 'The Rocky Tract' olarak çevrilir."
+      "de": "Mekkanische Sure mit 99 Versen. Der Name dieser Sure ist „Al-Hijr“.",
+      "al": "Sure mekase me 99 ajete. Emri i kësaj sureje është „Al-Hijr“.",
+      "tr": "99 ayetlik Mekkî sure. Bu surenin adı „Al-Hijr“dir."
     },
     "verses": 99,
     "revelation": "Meccan"
@@ -262,11 +262,11 @@
       "al": "Sureja An-Nahl",
       "tr": "An-Nahl Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلنَّحْلِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 128 Versen. Der Name wird meist mit 'The Bee' wiedergegeben.",
-      "al": "Sure mekase me 128 ajete. Emri zakonisht përkthehet si 'The Bee'.",
-      "tr": "128 ayetlik Mekkî sure. İsmi genellikle 'The Bee' olarak çevrilir."
+      "de": "Mekkanische Sure mit 128 Versen. Der Name dieser Sure ist „An-Nahl“.",
+      "al": "Sure mekase me 128 ajete. Emri i kësaj sureje është „An-Nahl“.",
+      "tr": "128 ayetlik Mekkî sure. Bu surenin adı „An-Nahl“dir."
     },
     "verses": 128,
     "revelation": "Meccan"
@@ -279,11 +279,11 @@
       "al": "Sureja Al-Isra",
       "tr": "Al-Isra Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْإِسْرَاءِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 111 Versen. Der Name wird meist mit 'The Night Journey' wiedergegeben.",
-      "al": "Sure mekase me 111 ajete. Emri zakonisht përkthehet si 'The Night Journey'.",
-      "tr": "111 ayetlik Mekkî sure. İsmi genellikle 'The Night Journey' olarak çevrilir."
+      "de": "Mekkanische Sure mit 111 Versen. Der Name dieser Sure ist „Al-Isra“.",
+      "al": "Sure mekase me 111 ajete. Emri i kësaj sureje është „Al-Isra“.",
+      "tr": "111 ayetlik Mekkî sure. Bu surenin adı „Al-Isra“dir."
     },
     "verses": 111,
     "revelation": "Meccan"
@@ -298,9 +298,9 @@
     },
     "arabic": "سُورَةُ ٱلْكَهْفِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 110 Versen. Der Name wird meist mit 'The Cave' wiedergegeben.",
-      "al": "Sure mekase me 110 ajete. Emri zakonisht përkthehet si 'The Cave'.",
-      "tr": "110 ayetlik Mekkî sure. İsmi genellikle 'The Cave' olarak çevrilir."
+      "de": "Mekkanische Sure mit 110 Versen. Der Name dieser Sure ist „Al-Kahf“.",
+      "al": "Sure mekase me 110 ajete. Emri i kësaj sureje është „Al-Kahf“.",
+      "tr": "110 ayetlik Mekkî sure. Bu surenin adı „Al-Kahf“dir."
     },
     "verses": 110,
     "revelation": "Meccan"
@@ -313,11 +313,11 @@
       "al": "Sureja Maryam",
       "tr": "Maryam Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ مَرْيَمَ",
     "meaning": {
-      "de": "Mekkanische Sure mit 98 Versen. Der Name wird meist mit 'Mary' wiedergegeben.",
-      "al": "Sure mekase me 98 ajete. Emri zakonisht përkthehet si 'Mary'.",
-      "tr": "98 ayetlik Mekkî sure. İsmi genellikle 'Mary' olarak çevrilir."
+      "de": "Mekkanische Sure mit 98 Versen. Der Name dieser Sure ist „Maryam“.",
+      "al": "Sure mekase me 98 ajete. Emri i kësaj sureje është „Maryam“.",
+      "tr": "98 ayetlik Mekkî sure. Bu surenin adı „Maryam“dir."
     },
     "verses": 98,
     "revelation": "Meccan"
@@ -330,11 +330,11 @@
       "al": "Sureja Ta-Ha",
       "tr": "Ta-Ha Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ طَهَ",
     "meaning": {
-      "de": "Mekkanische Sure mit 135 Versen. Der Name wird meist mit 'Ta-Ha' wiedergegeben.",
-      "al": "Sure mekase me 135 ajete. Emri zakonisht përkthehet si 'Ta-Ha'.",
-      "tr": "135 ayetlik Mekkî sure. İsmi genellikle 'Ta-Ha' olarak çevrilir."
+      "de": "Mekkanische Sure mit 135 Versen. Der Name dieser Sure ist „Ta-Ha“.",
+      "al": "Sure mekase me 135 ajete. Emri i kësaj sureje është „Ta-Ha“.",
+      "tr": "135 ayetlik Mekkî sure. Bu surenin adı „Ta-Ha“dir."
     },
     "verses": 135,
     "revelation": "Meccan"
@@ -347,11 +347,11 @@
       "al": "Sureja Al-Anbiya",
       "tr": "Al-Anbiya Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْأَنْبِيَاءِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 112 Versen. Der Name wird meist mit 'The Prophets' wiedergegeben.",
-      "al": "Sure mekase me 112 ajete. Emri zakonisht përkthehet si 'The Prophets'.",
-      "tr": "112 ayetlik Mekkî sure. İsmi genellikle 'The Prophets' olarak çevrilir."
+      "de": "Mekkanische Sure mit 112 Versen. Der Name dieser Sure ist „Al-Anbiya“.",
+      "al": "Sure mekase me 112 ajete. Emri i kësaj sureje është „Al-Anbiya“.",
+      "tr": "112 ayetlik Mekkî sure. Bu surenin adı „Al-Anbiya“dir."
     },
     "verses": 112,
     "revelation": "Meccan"
@@ -364,11 +364,11 @@
       "al": "Sureja Al-Hajj",
       "tr": "Al-Hajj Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْحَجِّ",
     "meaning": {
-      "de": "Medinensische Sure mit 78 Versen. Der Name wird meist mit 'The Pilgrimage' wiedergegeben.",
-      "al": "Sure medinase me 78 ajete. Emri zakonisht përkthehet si 'The Pilgrimage'.",
-      "tr": "78 ayetlik Medenî sure. İsmi genellikle 'The Pilgrimage' olarak çevrilir."
+      "de": "Medinensische Sure mit 78 Versen. Der Name dieser Sure ist „Al-Hajj“.",
+      "al": "Sure medinase me 78 ajete. Emri i kësaj sureje është „Al-Hajj“.",
+      "tr": "78 ayetlik Medenî sure. Bu surenin adı „Al-Hajj“dir."
     },
     "verses": 78,
     "revelation": "Medinan"
@@ -381,11 +381,11 @@
       "al": "Sureja Al-Mu'minun",
       "tr": "Al-Mu'minun Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْمُؤْمِنُونَ",
     "meaning": {
-      "de": "Mekkanische Sure mit 118 Versen. Der Name wird meist mit 'The Believers' wiedergegeben.",
-      "al": "Sure mekase me 118 ajete. Emri zakonisht përkthehet si 'The Believers'.",
-      "tr": "118 ayetlik Mekkî sure. İsmi genellikle 'The Believers' olarak çevrilir."
+      "de": "Mekkanische Sure mit 118 Versen. Der Name dieser Sure ist „Al-Mu'minun“.",
+      "al": "Sure mekase me 118 ajete. Emri i kësaj sureje është „Al-Mu'minun“.",
+      "tr": "118 ayetlik Mekkî sure. Bu surenin adı „Al-Mu'minun“dir."
     },
     "verses": 118,
     "revelation": "Meccan"
@@ -398,11 +398,11 @@
       "al": "Sureja An-Nur",
       "tr": "An-Nur Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلنُّورِ",
     "meaning": {
-      "de": "Medinensische Sure mit 64 Versen. Der Name wird meist mit 'The Light' wiedergegeben.",
-      "al": "Sure medinase me 64 ajete. Emri zakonisht përkthehet si 'The Light'.",
-      "tr": "64 ayetlik Medenî sure. İsmi genellikle 'The Light' olarak çevrilir."
+      "de": "Medinensische Sure mit 64 Versen. Der Name dieser Sure ist „An-Nur“.",
+      "al": "Sure medinase me 64 ajete. Emri i kësaj sureje është „An-Nur“.",
+      "tr": "64 ayetlik Medenî sure. Bu surenin adı „An-Nur“dir."
     },
     "verses": 64,
     "revelation": "Medinan"
@@ -415,11 +415,11 @@
       "al": "Sureja Al-Furqan",
       "tr": "Al-Furqan Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْفُرْقَانِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 77 Versen. Der Name wird meist mit 'The Criterion' wiedergegeben.",
-      "al": "Sure mekase me 77 ajete. Emri zakonisht përkthehet si 'The Criterion'.",
-      "tr": "77 ayetlik Mekkî sure. İsmi genellikle 'The Criterion' olarak çevrilir."
+      "de": "Mekkanische Sure mit 77 Versen. Der Name dieser Sure ist „Al-Furqan“.",
+      "al": "Sure mekase me 77 ajete. Emri i kësaj sureje është „Al-Furqan“.",
+      "tr": "77 ayetlik Mekkî sure. Bu surenin adı „Al-Furqan“dir."
     },
     "verses": 77,
     "revelation": "Meccan"
@@ -432,11 +432,11 @@
       "al": "Sureja Ash-Shu'ara",
       "tr": "Ash-Shu'ara Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلشُّعَرَاءِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 227 Versen. Der Name wird meist mit 'The Poets' wiedergegeben.",
-      "al": "Sure mekase me 227 ajete. Emri zakonisht përkthehet si 'The Poets'.",
-      "tr": "227 ayetlik Mekkî sure. İsmi genellikle 'The Poets' olarak çevrilir."
+      "de": "Mekkanische Sure mit 227 Versen. Der Name dieser Sure ist „Ash-Shu'ara“.",
+      "al": "Sure mekase me 227 ajete. Emri i kësaj sureje është „Ash-Shu'ara“.",
+      "tr": "227 ayetlik Mekkî sure. Bu surenin adı „Ash-Shu'ara“dir."
     },
     "verses": 227,
     "revelation": "Meccan"
@@ -449,11 +449,11 @@
       "al": "Sureja An-Naml",
       "tr": "An-Naml Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلنَّمْلِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 93 Versen. Der Name wird meist mit 'The Ant' wiedergegeben.",
-      "al": "Sure mekase me 93 ajete. Emri zakonisht përkthehet si 'The Ant'.",
-      "tr": "93 ayetlik Mekkî sure. İsmi genellikle 'The Ant' olarak çevrilir."
+      "de": "Mekkanische Sure mit 93 Versen. Der Name dieser Sure ist „An-Naml“.",
+      "al": "Sure mekase me 93 ajete. Emri i kësaj sureje është „An-Naml“.",
+      "tr": "93 ayetlik Mekkî sure. Bu surenin adı „An-Naml“dir."
     },
     "verses": 93,
     "revelation": "Meccan"
@@ -466,11 +466,11 @@
       "al": "Sureja Al-Qasas",
       "tr": "Al-Qasas Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْقَصَصِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 88 Versen. Der Name wird meist mit 'The Stories' wiedergegeben.",
-      "al": "Sure mekase me 88 ajete. Emri zakonisht përkthehet si 'The Stories'.",
-      "tr": "88 ayetlik Mekkî sure. İsmi genellikle 'The Stories' olarak çevrilir."
+      "de": "Mekkanische Sure mit 88 Versen. Der Name dieser Sure ist „Al-Qasas“.",
+      "al": "Sure mekase me 88 ajete. Emri i kësaj sureje është „Al-Qasas“.",
+      "tr": "88 ayetlik Mekkî sure. Bu surenin adı „Al-Qasas“dir."
     },
     "verses": 88,
     "revelation": "Meccan"
@@ -483,11 +483,11 @@
       "al": "Sureja Al-Ankabut",
       "tr": "Al-Ankabut Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْعَنْكَبُوتِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 69 Versen. Der Name wird meist mit 'The Spider' wiedergegeben.",
-      "al": "Sure mekase me 69 ajete. Emri zakonisht përkthehet si 'The Spider'.",
-      "tr": "69 ayetlik Mekkî sure. İsmi genellikle 'The Spider' olarak çevrilir."
+      "de": "Mekkanische Sure mit 69 Versen. Der Name dieser Sure ist „Al-Ankabut“.",
+      "al": "Sure mekase me 69 ajete. Emri i kësaj sureje është „Al-Ankabut“.",
+      "tr": "69 ayetlik Mekkî sure. Bu surenin adı „Al-Ankabut“dir."
     },
     "verses": 69,
     "revelation": "Meccan"
@@ -500,11 +500,11 @@
       "al": "Sureja Ar-Rum",
       "tr": "Ar-Rum Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلرُّومِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 60 Versen. Der Name wird meist mit 'The Romans' wiedergegeben.",
-      "al": "Sure mekase me 60 ajete. Emri zakonisht përkthehet si 'The Romans'.",
-      "tr": "60 ayetlik Mekkî sure. İsmi genellikle 'The Romans' olarak çevrilir."
+      "de": "Mekkanische Sure mit 60 Versen. Der Name dieser Sure ist „Ar-Rum“.",
+      "al": "Sure mekase me 60 ajete. Emri i kësaj sureje është „Ar-Rum“.",
+      "tr": "60 ayetlik Mekkî sure. Bu surenin adı „Ar-Rum“dir."
     },
     "verses": 60,
     "revelation": "Meccan"
@@ -517,11 +517,11 @@
       "al": "Sureja Luqman",
       "tr": "Luqman Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ لُقْمَانَ",
     "meaning": {
-      "de": "Mekkanische Sure mit 34 Versen. Der Name wird meist mit 'Luqman' wiedergegeben.",
-      "al": "Sure mekase me 34 ajete. Emri zakonisht përkthehet si 'Luqman'.",
-      "tr": "34 ayetlik Mekkî sure. İsmi genellikle 'Luqman' olarak çevrilir."
+      "de": "Mekkanische Sure mit 34 Versen. Der Name dieser Sure ist „Luqman“.",
+      "al": "Sure mekase me 34 ajete. Emri i kësaj sureje është „Luqman“.",
+      "tr": "34 ayetlik Mekkî sure. Bu surenin adı „Luqman“dir."
     },
     "verses": 34,
     "revelation": "Meccan"
@@ -534,11 +534,11 @@
       "al": "Sureja As-Sajdah",
       "tr": "As-Sajdah Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلسَّجْدَةِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 30 Versen. Der Name wird meist mit 'The Prostration' wiedergegeben.",
-      "al": "Sure mekase me 30 ajete. Emri zakonisht përkthehet si 'The Prostration'.",
-      "tr": "30 ayetlik Mekkî sure. İsmi genellikle 'The Prostration' olarak çevrilir."
+      "de": "Mekkanische Sure mit 30 Versen. Der Name dieser Sure ist „As-Sajdah“.",
+      "al": "Sure mekase me 30 ajete. Emri i kësaj sureje është „As-Sajdah“.",
+      "tr": "30 ayetlik Mekkî sure. Bu surenin adı „As-Sajdah“dir."
     },
     "verses": 30,
     "revelation": "Meccan"
@@ -551,11 +551,11 @@
       "al": "Sureja Al-Ahzab",
       "tr": "Al-Ahzab Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْأَحْزَابِ",
     "meaning": {
-      "de": "Medinensische Sure mit 73 Versen. Der Name wird meist mit 'The Confederates' wiedergegeben.",
-      "al": "Sure medinase me 73 ajete. Emri zakonisht përkthehet si 'The Confederates'.",
-      "tr": "73 ayetlik Medenî sure. İsmi genellikle 'The Confederates' olarak çevrilir."
+      "de": "Medinensische Sure mit 73 Versen. Der Name dieser Sure ist „Al-Ahzab“.",
+      "al": "Sure medinase me 73 ajete. Emri i kësaj sureje është „Al-Ahzab“.",
+      "tr": "73 ayetlik Medenî sure. Bu surenin adı „Al-Ahzab“dir."
     },
     "verses": 73,
     "revelation": "Medinan"
@@ -568,11 +568,11 @@
       "al": "Sureja Saba",
       "tr": "Saba Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ سَبَإٍ",
     "meaning": {
-      "de": "Mekkanische Sure mit 54 Versen. Der Name wird meist mit 'Sheba' wiedergegeben.",
-      "al": "Sure mekase me 54 ajete. Emri zakonisht përkthehet si 'Sheba'.",
-      "tr": "54 ayetlik Mekkî sure. İsmi genellikle 'Sheba' olarak çevrilir."
+      "de": "Mekkanische Sure mit 54 Versen. Der Name dieser Sure ist „Saba“.",
+      "al": "Sure mekase me 54 ajete. Emri i kësaj sureje është „Saba“.",
+      "tr": "54 ayetlik Mekkî sure. Bu surenin adı „Saba“dir."
     },
     "verses": 54,
     "revelation": "Meccan"
@@ -585,11 +585,11 @@
       "al": "Sureja Fatir",
       "tr": "Fatir Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ فَاطِرٍ",
     "meaning": {
-      "de": "Mekkanische Sure mit 45 Versen. Der Name wird meist mit 'Originator' wiedergegeben.",
-      "al": "Sure mekase me 45 ajete. Emri zakonisht përkthehet si 'Originator'.",
-      "tr": "45 ayetlik Mekkî sure. İsmi genellikle 'Originator' olarak çevrilir."
+      "de": "Mekkanische Sure mit 45 Versen. Der Name dieser Sure ist „Fatir“.",
+      "al": "Sure mekase me 45 ajete. Emri i kësaj sureje është „Fatir“.",
+      "tr": "45 ayetlik Mekkî sure. Bu surenin adı „Fatir“dir."
     },
     "verses": 45,
     "revelation": "Meccan"
@@ -602,11 +602,11 @@
       "al": "Sureja Ya-Sin",
       "tr": "Ya-Sin Suresi"
     },
-    "arabic": "سُورَةُ يسٓ",
+    "arabic": "سُورَةُ يَسٓ",
     "meaning": {
-      "de": "Mekkanische Sure mit 83 Versen. Der Name wird meist mit 'Ya-Sin' wiedergegeben.",
-      "al": "Sure mekase me 83 ajete. Emri zakonisht përkthehet si 'Ya-Sin'.",
-      "tr": "83 ayetlik Mekkî sure. İsmi genellikle 'Ya-Sin' olarak çevrilir."
+      "de": "Mekkanische Sure mit 83 Versen. Der Name dieser Sure ist „Ya-Sin“.",
+      "al": "Sure mekase me 83 ajete. Emri i kësaj sureje është „Ya-Sin“.",
+      "tr": "83 ayetlik Mekkî sure. Bu surenin adı „Ya-Sin“dir."
     },
     "verses": 83,
     "revelation": "Meccan"
@@ -619,11 +619,11 @@
       "al": "Sureja As-Saffat",
       "tr": "As-Saffat Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلصَّافَّاتِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 182 Versen. Der Name wird meist mit 'Those Who Set the Ranks' wiedergegeben.",
-      "al": "Sure mekase me 182 ajete. Emri zakonisht përkthehet si 'Those Who Set the Ranks'.",
-      "tr": "182 ayetlik Mekkî sure. İsmi genellikle 'Those Who Set the Ranks' olarak çevrilir."
+      "de": "Mekkanische Sure mit 182 Versen. Der Name dieser Sure ist „As-Saffat“.",
+      "al": "Sure mekase me 182 ajete. Emri i kësaj sureje është „As-Saffat“.",
+      "tr": "182 ayetlik Mekkî sure. Bu surenin adı „As-Saffat“dir."
     },
     "verses": 182,
     "revelation": "Meccan"
@@ -636,11 +636,11 @@
       "al": "Sureja Sad",
       "tr": "Sad Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ صٓ",
     "meaning": {
-      "de": "Mekkanische Sure mit 88 Versen. Der Name wird meist mit 'Sad' wiedergegeben.",
-      "al": "Sure mekase me 88 ajete. Emri zakonisht përkthehet si 'Sad'.",
-      "tr": "88 ayetlik Mekkî sure. İsmi genellikle 'Sad' olarak çevrilir."
+      "de": "Mekkanische Sure mit 88 Versen. Der Name dieser Sure ist „Sad“.",
+      "al": "Sure mekase me 88 ajete. Emri i kësaj sureje është „Sad“.",
+      "tr": "88 ayetlik Mekkî sure. Bu surenin adı „Sad“dir."
     },
     "verses": 88,
     "revelation": "Meccan"
@@ -653,11 +653,11 @@
       "al": "Sureja Az-Zumar",
       "tr": "Az-Zumar Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلزُّمَرِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 75 Versen. Der Name wird meist mit 'The Groups' wiedergegeben.",
-      "al": "Sure mekase me 75 ajete. Emri zakonisht përkthehet si 'The Groups'.",
-      "tr": "75 ayetlik Mekkî sure. İsmi genellikle 'The Groups' olarak çevrilir."
+      "de": "Mekkanische Sure mit 75 Versen. Der Name dieser Sure ist „Az-Zumar“.",
+      "al": "Sure mekase me 75 ajete. Emri i kësaj sureje është „Az-Zumar“.",
+      "tr": "75 ayetlik Mekkî sure. Bu surenin adı „Az-Zumar“dir."
     },
     "verses": 75,
     "revelation": "Meccan"
@@ -670,11 +670,11 @@
       "al": "Sureja Ghafir",
       "tr": "Ghafir Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ غَافِرٍ",
     "meaning": {
-      "de": "Mekkanische Sure mit 85 Versen. Der Name wird meist mit 'The Forgiver' wiedergegeben.",
-      "al": "Sure mekase me 85 ajete. Emri zakonisht përkthehet si 'The Forgiver'.",
-      "tr": "85 ayetlik Mekkî sure. İsmi genellikle 'The Forgiver' olarak çevrilir."
+      "de": "Mekkanische Sure mit 85 Versen. Der Name dieser Sure ist „Ghafir“.",
+      "al": "Sure mekase me 85 ajete. Emri i kësaj sureje është „Ghafir“.",
+      "tr": "85 ayetlik Mekkî sure. Bu surenin adı „Ghafir“dir."
     },
     "verses": 85,
     "revelation": "Meccan"
@@ -687,11 +687,11 @@
       "al": "Sureja Fussilat",
       "tr": "Fussilat Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ فُصِّلَتْ",
     "meaning": {
-      "de": "Mekkanische Sure mit 54 Versen. Der Name wird meist mit 'Explained in Detail' wiedergegeben.",
-      "al": "Sure mekase me 54 ajete. Emri zakonisht përkthehet si 'Explained in Detail'.",
-      "tr": "54 ayetlik Mekkî sure. İsmi genellikle 'Explained in Detail' olarak çevrilir."
+      "de": "Mekkanische Sure mit 54 Versen. Der Name dieser Sure ist „Fussilat“.",
+      "al": "Sure mekase me 54 ajete. Emri i kësaj sureje është „Fussilat“.",
+      "tr": "54 ayetlik Mekkî sure. Bu surenin adı „Fussilat“dir."
     },
     "verses": 54,
     "revelation": "Meccan"
@@ -704,11 +704,11 @@
       "al": "Sureja Ash-Shura",
       "tr": "Ash-Shura Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلشُّورَىٰ",
     "meaning": {
-      "de": "Mekkanische Sure mit 53 Versen. Der Name wird meist mit 'Consultation' wiedergegeben.",
-      "al": "Sure mekase me 53 ajete. Emri zakonisht përkthehet si 'Consultation'.",
-      "tr": "53 ayetlik Mekkî sure. İsmi genellikle 'Consultation' olarak çevrilir."
+      "de": "Mekkanische Sure mit 53 Versen. Der Name dieser Sure ist „Ash-Shura“.",
+      "al": "Sure mekase me 53 ajete. Emri i kësaj sureje është „Ash-Shura“.",
+      "tr": "53 ayetlik Mekkî sure. Bu surenin adı „Ash-Shura“dir."
     },
     "verses": 53,
     "revelation": "Meccan"
@@ -721,11 +721,11 @@
       "al": "Sureja Az-Zukhruf",
       "tr": "Az-Zukhruf Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلزُّخْرُفِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 89 Versen. Der Name wird meist mit 'Ornaments of Gold' wiedergegeben.",
-      "al": "Sure mekase me 89 ajete. Emri zakonisht përkthehet si 'Ornaments of Gold'.",
-      "tr": "89 ayetlik Mekkî sure. İsmi genellikle 'Ornaments of Gold' olarak çevrilir."
+      "de": "Mekkanische Sure mit 89 Versen. Der Name dieser Sure ist „Az-Zukhruf“.",
+      "al": "Sure mekase me 89 ajete. Emri i kësaj sureje është „Az-Zukhruf“.",
+      "tr": "89 ayetlik Mekkî sure. Bu surenin adı „Az-Zukhruf“dir."
     },
     "verses": 89,
     "revelation": "Meccan"
@@ -738,11 +738,11 @@
       "al": "Sureja Ad-Dukhan",
       "tr": "Ad-Dukhan Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلدُّخَانِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 59 Versen. Der Name wird meist mit 'The Smoke' wiedergegeben.",
-      "al": "Sure mekase me 59 ajete. Emri zakonisht përkthehet si 'The Smoke'.",
-      "tr": "59 ayetlik Mekkî sure. İsmi genellikle 'The Smoke' olarak çevrilir."
+      "de": "Mekkanische Sure mit 59 Versen. Der Name dieser Sure ist „Ad-Dukhan“.",
+      "al": "Sure mekase me 59 ajete. Emri i kësaj sureje është „Ad-Dukhan“.",
+      "tr": "59 ayetlik Mekkî sure. Bu surenin adı „Ad-Dukhan“dir."
     },
     "verses": 59,
     "revelation": "Meccan"
@@ -755,11 +755,11 @@
       "al": "Sureja Al-Jathiyah",
       "tr": "Al-Jathiyah Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْجَاثِيَةِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 37 Versen. Der Name wird meist mit 'The Kneeling' wiedergegeben.",
-      "al": "Sure mekase me 37 ajete. Emri zakonisht përkthehet si 'The Kneeling'.",
-      "tr": "37 ayetlik Mekkî sure. İsmi genellikle 'The Kneeling' olarak çevrilir."
+      "de": "Mekkanische Sure mit 37 Versen. Der Name dieser Sure ist „Al-Jathiyah“.",
+      "al": "Sure mekase me 37 ajete. Emri i kësaj sureje është „Al-Jathiyah“.",
+      "tr": "37 ayetlik Mekkî sure. Bu surenin adı „Al-Jathiyah“dir."
     },
     "verses": 37,
     "revelation": "Meccan"
@@ -772,11 +772,11 @@
       "al": "Sureja Al-Ahqaf",
       "tr": "Al-Ahqaf Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْأَحْقَافِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 35 Versen. Der Name wird meist mit 'The Dunes' wiedergegeben.",
-      "al": "Sure mekase me 35 ajete. Emri zakonisht përkthehet si 'The Dunes'.",
-      "tr": "35 ayetlik Mekkî sure. İsmi genellikle 'The Dunes' olarak çevrilir."
+      "de": "Mekkanische Sure mit 35 Versen. Der Name dieser Sure ist „Al-Ahqaf“.",
+      "al": "Sure mekase me 35 ajete. Emri i kësaj sureje është „Al-Ahqaf“.",
+      "tr": "35 ayetlik Mekkî sure. Bu surenin adı „Al-Ahqaf“dir."
     },
     "verses": 35,
     "revelation": "Meccan"
@@ -789,11 +789,11 @@
       "al": "Sureja Muhammad",
       "tr": "Muhammad Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ مُحَمَّدٍ",
     "meaning": {
-      "de": "Medinensische Sure mit 38 Versen. Der Name wird meist mit 'Muhammad' wiedergegeben.",
-      "al": "Sure medinase me 38 ajete. Emri zakonisht përkthehet si 'Muhammad'.",
-      "tr": "38 ayetlik Medenî sure. İsmi genellikle 'Muhammad' olarak çevrilir."
+      "de": "Medinensische Sure mit 38 Versen. Der Name dieser Sure ist „Muhammad“.",
+      "al": "Sure medinase me 38 ajete. Emri i kësaj sureje është „Muhammad“.",
+      "tr": "38 ayetlik Medenî sure. Bu surenin adı „Muhammad“dir."
     },
     "verses": 38,
     "revelation": "Medinan"
@@ -806,11 +806,11 @@
       "al": "Sureja Al-Fath",
       "tr": "Al-Fath Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْفَتْحِ",
     "meaning": {
-      "de": "Medinensische Sure mit 29 Versen. Der Name wird meist mit 'The Victory' wiedergegeben.",
-      "al": "Sure medinase me 29 ajete. Emri zakonisht përkthehet si 'The Victory'.",
-      "tr": "29 ayetlik Medenî sure. İsmi genellikle 'The Victory' olarak çevrilir."
+      "de": "Medinensische Sure mit 29 Versen. Der Name dieser Sure ist „Al-Fath“.",
+      "al": "Sure medinase me 29 ajete. Emri i kësaj sureje është „Al-Fath“.",
+      "tr": "29 ayetlik Medenî sure. Bu surenin adı „Al-Fath“dir."
     },
     "verses": 29,
     "revelation": "Medinan"
@@ -823,11 +823,11 @@
       "al": "Sureja Al-Hujurat",
       "tr": "Al-Hujurat Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْحُجُرَاتِ",
     "meaning": {
-      "de": "Medinensische Sure mit 18 Versen. Der Name wird meist mit 'The Rooms' wiedergegeben.",
-      "al": "Sure medinase me 18 ajete. Emri zakonisht përkthehet si 'The Rooms'.",
-      "tr": "18 ayetlik Medenî sure. İsmi genellikle 'The Rooms' olarak çevrilir."
+      "de": "Medinensische Sure mit 18 Versen. Der Name dieser Sure ist „Al-Hujurat“.",
+      "al": "Sure medinase me 18 ajete. Emri i kësaj sureje është „Al-Hujurat“.",
+      "tr": "18 ayetlik Medenî sure. Bu surenin adı „Al-Hujurat“dir."
     },
     "verses": 18,
     "revelation": "Medinan"
@@ -840,11 +840,11 @@
       "al": "Sureja Qaf",
       "tr": "Qaf Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ قٓ",
     "meaning": {
-      "de": "Mekkanische Sure mit 45 Versen. Der Name wird meist mit 'Qaf' wiedergegeben.",
-      "al": "Sure mekase me 45 ajete. Emri zakonisht përkthehet si 'Qaf'.",
-      "tr": "45 ayetlik Mekkî sure. İsmi genellikle 'Qaf' olarak çevrilir."
+      "de": "Mekkanische Sure mit 45 Versen. Der Name dieser Sure ist „Qaf“.",
+      "al": "Sure mekase me 45 ajete. Emri i kësaj sureje është „Qaf“.",
+      "tr": "45 ayetlik Mekkî sure. Bu surenin adı „Qaf“dir."
     },
     "verses": 45,
     "revelation": "Meccan"
@@ -857,11 +857,11 @@
       "al": "Sureja Adh-Dhariyat",
       "tr": "Adh-Dhariyat Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلذَّارِيَاتِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 60 Versen. Der Name wird meist mit 'The Winnowing Winds' wiedergegeben.",
-      "al": "Sure mekase me 60 ajete. Emri zakonisht përkthehet si 'The Winnowing Winds'.",
-      "tr": "60 ayetlik Mekkî sure. İsmi genellikle 'The Winnowing Winds' olarak çevrilir."
+      "de": "Mekkanische Sure mit 60 Versen. Der Name dieser Sure ist „Adh-Dhariyat“.",
+      "al": "Sure mekase me 60 ajete. Emri i kësaj sureje është „Adh-Dhariyat“.",
+      "tr": "60 ayetlik Mekkî sure. Bu surenin adı „Adh-Dhariyat“dir."
     },
     "verses": 60,
     "revelation": "Meccan"
@@ -874,11 +874,11 @@
       "al": "Sureja At-Tur",
       "tr": "At-Tur Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلطُّورِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 49 Versen. Der Name wird meist mit 'The Mount' wiedergegeben.",
-      "al": "Sure mekase me 49 ajete. Emri zakonisht përkthehet si 'The Mount'.",
-      "tr": "49 ayetlik Mekkî sure. İsmi genellikle 'The Mount' olarak çevrilir."
+      "de": "Mekkanische Sure mit 49 Versen. Der Name dieser Sure ist „At-Tur“.",
+      "al": "Sure mekase me 49 ajete. Emri i kësaj sureje është „At-Tur“.",
+      "tr": "49 ayetlik Mekkî sure. Bu surenin adı „At-Tur“dir."
     },
     "verses": 49,
     "revelation": "Meccan"
@@ -891,11 +891,11 @@
       "al": "Sureja An-Najm",
       "tr": "An-Najm Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلنَّجْمِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 62 Versen. Der Name wird meist mit 'The Star' wiedergegeben.",
-      "al": "Sure mekase me 62 ajete. Emri zakonisht përkthehet si 'The Star'.",
-      "tr": "62 ayetlik Mekkî sure. İsmi genellikle 'The Star' olarak çevrilir."
+      "de": "Mekkanische Sure mit 62 Versen. Der Name dieser Sure ist „An-Najm“.",
+      "al": "Sure mekase me 62 ajete. Emri i kësaj sureje është „An-Najm“.",
+      "tr": "62 ayetlik Mekkî sure. Bu surenin adı „An-Najm“dir."
     },
     "verses": 62,
     "revelation": "Meccan"
@@ -908,11 +908,11 @@
       "al": "Sureja Al-Qamar",
       "tr": "Al-Qamar Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْقَمَرِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 55 Versen. Der Name wird meist mit 'The Moon' wiedergegeben.",
-      "al": "Sure mekase me 55 ajete. Emri zakonisht përkthehet si 'The Moon'.",
-      "tr": "55 ayetlik Mekkî sure. İsmi genellikle 'The Moon' olarak çevrilir."
+      "de": "Mekkanische Sure mit 55 Versen. Der Name dieser Sure ist „Al-Qamar“.",
+      "al": "Sure mekase me 55 ajete. Emri i kësaj sureje është „Al-Qamar“.",
+      "tr": "55 ayetlik Mekkî sure. Bu surenin adı „Al-Qamar“dir."
     },
     "verses": 55,
     "revelation": "Meccan"
@@ -927,9 +927,9 @@
     },
     "arabic": "سُورَةُ ٱلرَّحْمَٰنِ",
     "meaning": {
-      "de": "Medinensische Sure mit 78 Versen. Der Name wird meist mit 'The Most Merciful' wiedergegeben.",
-      "al": "Sure medinase me 78 ajete. Emri zakonisht përkthehet si 'The Most Merciful'.",
-      "tr": "78 ayetlik Medenî sure. İsmi genellikle 'The Most Merciful' olarak çevrilir."
+      "de": "Medinensische Sure mit 78 Versen. Der Name dieser Sure ist „Ar-Rahman“.",
+      "al": "Sure medinase me 78 ajete. Emri i kësaj sureje është „Ar-Rahman“.",
+      "tr": "78 ayetlik Medenî sure. Bu surenin adı „Ar-Rahman“dir."
     },
     "verses": 78,
     "revelation": "Medinan"
@@ -942,11 +942,11 @@
       "al": "Sureja Al-Waqi'ah",
       "tr": "Al-Waqi'ah Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْوَاقِعَةِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 96 Versen. Der Name wird meist mit 'The Inevitable' wiedergegeben.",
-      "al": "Sure mekase me 96 ajete. Emri zakonisht përkthehet si 'The Inevitable'.",
-      "tr": "96 ayetlik Mekkî sure. İsmi genellikle 'The Inevitable' olarak çevrilir."
+      "de": "Mekkanische Sure mit 96 Versen. Der Name dieser Sure ist „Al-Waqi'ah“.",
+      "al": "Sure mekase me 96 ajete. Emri i kësaj sureje është „Al-Waqi'ah“.",
+      "tr": "96 ayetlik Mekkî sure. Bu surenin adı „Al-Waqi'ah“dir."
     },
     "verses": 96,
     "revelation": "Meccan"
@@ -959,11 +959,11 @@
       "al": "Sureja Al-Hadid",
       "tr": "Al-Hadid Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْحَدِيدِ",
     "meaning": {
-      "de": "Medinensische Sure mit 29 Versen. Der Name wird meist mit 'Iron' wiedergegeben.",
-      "al": "Sure medinase me 29 ajete. Emri zakonisht përkthehet si 'Iron'.",
-      "tr": "29 ayetlik Medenî sure. İsmi genellikle 'Iron' olarak çevrilir."
+      "de": "Medinensische Sure mit 29 Versen. Der Name dieser Sure ist „Al-Hadid“.",
+      "al": "Sure medinase me 29 ajete. Emri i kësaj sureje është „Al-Hadid“.",
+      "tr": "29 ayetlik Medenî sure. Bu surenin adı „Al-Hadid“dir."
     },
     "verses": 29,
     "revelation": "Medinan"
@@ -976,11 +976,11 @@
       "al": "Sureja Al-Mujadila",
       "tr": "Al-Mujadila Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْمُجَادِلَةِ",
     "meaning": {
-      "de": "Medinensische Sure mit 22 Versen. Der Name wird meist mit 'The Pleading Woman' wiedergegeben.",
-      "al": "Sure medinase me 22 ajete. Emri zakonisht përkthehet si 'The Pleading Woman'.",
-      "tr": "22 ayetlik Medenî sure. İsmi genellikle 'The Pleading Woman' olarak çevrilir."
+      "de": "Medinensische Sure mit 22 Versen. Der Name dieser Sure ist „Al-Mujadila“.",
+      "al": "Sure medinase me 22 ajete. Emri i kësaj sureje është „Al-Mujadila“.",
+      "tr": "22 ayetlik Medenî sure. Bu surenin adı „Al-Mujadila“dir."
     },
     "verses": 22,
     "revelation": "Medinan"
@@ -993,11 +993,11 @@
       "al": "Sureja Al-Hashr",
       "tr": "Al-Hashr Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْحَشْرِ",
     "meaning": {
-      "de": "Medinensische Sure mit 24 Versen. Der Name wird meist mit 'The Exile' wiedergegeben.",
-      "al": "Sure medinase me 24 ajete. Emri zakonisht përkthehet si 'The Exile'.",
-      "tr": "24 ayetlik Medenî sure. İsmi genellikle 'The Exile' olarak çevrilir."
+      "de": "Medinensische Sure mit 24 Versen. Der Name dieser Sure ist „Al-Hashr“.",
+      "al": "Sure medinase me 24 ajete. Emri i kësaj sureje është „Al-Hashr“.",
+      "tr": "24 ayetlik Medenî sure. Bu surenin adı „Al-Hashr“dir."
     },
     "verses": 24,
     "revelation": "Medinan"
@@ -1010,11 +1010,11 @@
       "al": "Sureja Al-Mumtahanah",
       "tr": "Al-Mumtahanah Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْمُمْتَحَنَةِ",
     "meaning": {
-      "de": "Medinensische Sure mit 13 Versen. Der Name wird meist mit 'She That Is To Be Examined' wiedergegeben.",
-      "al": "Sure medinase me 13 ajete. Emri zakonisht përkthehet si 'She That Is To Be Examined'.",
-      "tr": "13 ayetlik Medenî sure. İsmi genellikle 'She That Is To Be Examined' olarak çevrilir."
+      "de": "Medinensische Sure mit 13 Versen. Der Name dieser Sure ist „Al-Mumtahanah“.",
+      "al": "Sure medinase me 13 ajete. Emri i kësaj sureje është „Al-Mumtahanah“.",
+      "tr": "13 ayetlik Medenî sure. Bu surenin adı „Al-Mumtahanah“dir."
     },
     "verses": 13,
     "revelation": "Medinan"
@@ -1027,11 +1027,11 @@
       "al": "Sureja As-Saff",
       "tr": "As-Saff Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلصَّفِّ",
     "meaning": {
-      "de": "Medinensische Sure mit 14 Versen. Der Name wird meist mit 'The Ranks' wiedergegeben.",
-      "al": "Sure medinase me 14 ajete. Emri zakonisht përkthehet si 'The Ranks'.",
-      "tr": "14 ayetlik Medenî sure. İsmi genellikle 'The Ranks' olarak çevrilir."
+      "de": "Medinensische Sure mit 14 Versen. Der Name dieser Sure ist „As-Saff“.",
+      "al": "Sure medinase me 14 ajete. Emri i kësaj sureje është „As-Saff“.",
+      "tr": "14 ayetlik Medenî sure. Bu surenin adı „As-Saff“dir."
     },
     "verses": 14,
     "revelation": "Medinan"
@@ -1044,11 +1044,11 @@
       "al": "Sureja Al-Jumu'ah",
       "tr": "Al-Jumu'ah Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْجُمُعَةِ",
     "meaning": {
-      "de": "Medinensische Sure mit 11 Versen. Der Name wird meist mit 'Friday' wiedergegeben.",
-      "al": "Sure medinase me 11 ajete. Emri zakonisht përkthehet si 'Friday'.",
-      "tr": "11 ayetlik Medenî sure. İsmi genellikle 'Friday' olarak çevrilir."
+      "de": "Medinensische Sure mit 11 Versen. Der Name dieser Sure ist „Al-Jumu'ah“.",
+      "al": "Sure medinase me 11 ajete. Emri i kësaj sureje është „Al-Jumu'ah“.",
+      "tr": "11 ayetlik Medenî sure. Bu surenin adı „Al-Jumu'ah“dir."
     },
     "verses": 11,
     "revelation": "Medinan"
@@ -1061,11 +1061,11 @@
       "al": "Sureja Al-Munafiqun",
       "tr": "Al-Munafiqun Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْمُنَافِقُونَ",
     "meaning": {
-      "de": "Medinensische Sure mit 11 Versen. Der Name wird meist mit 'The Hypocrites' wiedergegeben.",
-      "al": "Sure medinase me 11 ajete. Emri zakonisht përkthehet si 'The Hypocrites'.",
-      "tr": "11 ayetlik Medenî sure. İsmi genellikle 'The Hypocrites' olarak çevrilir."
+      "de": "Medinensische Sure mit 11 Versen. Der Name dieser Sure ist „Al-Munafiqun“.",
+      "al": "Sure medinase me 11 ajete. Emri i kësaj sureje është „Al-Munafiqun“.",
+      "tr": "11 ayetlik Medenî sure. Bu surenin adı „Al-Munafiqun“dir."
     },
     "verses": 11,
     "revelation": "Medinan"
@@ -1078,11 +1078,11 @@
       "al": "Sureja At-Taghabun",
       "tr": "At-Taghabun Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلتَّغَابُنِ",
     "meaning": {
-      "de": "Medinensische Sure mit 18 Versen. Der Name wird meist mit 'Mutual Loss and Gain' wiedergegeben.",
-      "al": "Sure medinase me 18 ajete. Emri zakonisht përkthehet si 'Mutual Loss and Gain'.",
-      "tr": "18 ayetlik Medenî sure. İsmi genellikle 'Mutual Loss and Gain' olarak çevrilir."
+      "de": "Medinensische Sure mit 18 Versen. Der Name dieser Sure ist „At-Taghabun“.",
+      "al": "Sure medinase me 18 ajete. Emri i kësaj sureje është „At-Taghabun“.",
+      "tr": "18 ayetlik Medenî sure. Bu surenin adı „At-Taghabun“dir."
     },
     "verses": 18,
     "revelation": "Medinan"
@@ -1095,11 +1095,11 @@
       "al": "Sureja At-Talaq",
       "tr": "At-Talaq Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلطَّلَاقِ",
     "meaning": {
-      "de": "Medinensische Sure mit 12 Versen. Der Name wird meist mit 'Divorce' wiedergegeben.",
-      "al": "Sure medinase me 12 ajete. Emri zakonisht përkthehet si 'Divorce'.",
-      "tr": "12 ayetlik Medenî sure. İsmi genellikle 'Divorce' olarak çevrilir."
+      "de": "Medinensische Sure mit 12 Versen. Der Name dieser Sure ist „At-Talaq“.",
+      "al": "Sure medinase me 12 ajete. Emri i kësaj sureje është „At-Talaq“.",
+      "tr": "12 ayetlik Medenî sure. Bu surenin adı „At-Talaq“dir."
     },
     "verses": 12,
     "revelation": "Medinan"
@@ -1112,11 +1112,11 @@
       "al": "Sureja At-Tahrim",
       "tr": "At-Tahrim Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلتَّحْرِيمِ",
     "meaning": {
-      "de": "Medinensische Sure mit 12 Versen. Der Name wird meist mit 'The Prohibition' wiedergegeben.",
-      "al": "Sure medinase me 12 ajete. Emri zakonisht përkthehet si 'The Prohibition'.",
-      "tr": "12 ayetlik Medenî sure. İsmi genellikle 'The Prohibition' olarak çevrilir."
+      "de": "Medinensische Sure mit 12 Versen. Der Name dieser Sure ist „At-Tahrim“.",
+      "al": "Sure medinase me 12 ajete. Emri i kësaj sureje është „At-Tahrim“.",
+      "tr": "12 ayetlik Medenî sure. Bu surenin adı „At-Tahrim“dir."
     },
     "verses": 12,
     "revelation": "Medinan"
@@ -1131,9 +1131,9 @@
     },
     "arabic": "سُورَةُ ٱلْمُلْكِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 30 Versen. Der Name wird meist mit 'The Sovereignty' wiedergegeben.",
-      "al": "Sure mekase me 30 ajete. Emri zakonisht përkthehet si 'The Sovereignty'.",
-      "tr": "30 ayetlik Mekkî sure. İsmi genellikle 'The Sovereignty' olarak çevrilir."
+      "de": "Mekkanische Sure mit 30 Versen. Der Name dieser Sure ist „Al-Mulk“.",
+      "al": "Sure mekase me 30 ajete. Emri i kësaj sureje është „Al-Mulk“.",
+      "tr": "30 ayetlik Mekkî sure. Bu surenin adı „Al-Mulk“dir."
     },
     "verses": 30,
     "revelation": "Meccan"
@@ -1146,11 +1146,11 @@
       "al": "Sureja Al-Qalam",
       "tr": "Al-Qalam Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْقَلَمِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 52 Versen. Der Name wird meist mit 'The Pen' wiedergegeben.",
-      "al": "Sure mekase me 52 ajete. Emri zakonisht përkthehet si 'The Pen'.",
-      "tr": "52 ayetlik Mekkî sure. İsmi genellikle 'The Pen' olarak çevrilir."
+      "de": "Mekkanische Sure mit 52 Versen. Der Name dieser Sure ist „Al-Qalam“.",
+      "al": "Sure mekase me 52 ajete. Emri i kësaj sureje është „Al-Qalam“.",
+      "tr": "52 ayetlik Mekkî sure. Bu surenin adı „Al-Qalam“dir."
     },
     "verses": 52,
     "revelation": "Meccan"
@@ -1163,11 +1163,11 @@
       "al": "Sureja Al-Haqqah",
       "tr": "Al-Haqqah Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْحَاقَّةِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 52 Versen. Der Name wird meist mit 'The Reality' wiedergegeben.",
-      "al": "Sure mekase me 52 ajete. Emri zakonisht përkthehet si 'The Reality'.",
-      "tr": "52 ayetlik Mekkî sure. İsmi genellikle 'The Reality' olarak çevrilir."
+      "de": "Mekkanische Sure mit 52 Versen. Der Name dieser Sure ist „Al-Haqqah“.",
+      "al": "Sure mekase me 52 ajete. Emri i kësaj sureje është „Al-Haqqah“.",
+      "tr": "52 ayetlik Mekkî sure. Bu surenin adı „Al-Haqqah“dir."
     },
     "verses": 52,
     "revelation": "Meccan"
@@ -1180,11 +1180,11 @@
       "al": "Sureja Al-Ma'arij",
       "tr": "Al-Ma'arij Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْمَعَارِجِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 44 Versen. Der Name wird meist mit 'The Ascending Stairways' wiedergegeben.",
-      "al": "Sure mekase me 44 ajete. Emri zakonisht përkthehet si 'The Ascending Stairways'.",
-      "tr": "44 ayetlik Mekkî sure. İsmi genellikle 'The Ascending Stairways' olarak çevrilir."
+      "de": "Mekkanische Sure mit 44 Versen. Der Name dieser Sure ist „Al-Ma'arij“.",
+      "al": "Sure mekase me 44 ajete. Emri i kësaj sureje është „Al-Ma'arij“.",
+      "tr": "44 ayetlik Mekkî sure. Bu surenin adı „Al-Ma'arij“dir."
     },
     "verses": 44,
     "revelation": "Meccan"
@@ -1197,11 +1197,11 @@
       "al": "Sureja Nuh",
       "tr": "Nuh Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ نُوحٍ",
     "meaning": {
-      "de": "Mekkanische Sure mit 28 Versen. Der Name wird meist mit 'Noah' wiedergegeben.",
-      "al": "Sure mekase me 28 ajete. Emri zakonisht përkthehet si 'Noah'.",
-      "tr": "28 ayetlik Mekkî sure. İsmi genellikle 'Noah' olarak çevrilir."
+      "de": "Mekkanische Sure mit 28 Versen. Der Name dieser Sure ist „Nuh“.",
+      "al": "Sure mekase me 28 ajete. Emri i kësaj sureje është „Nuh“.",
+      "tr": "28 ayetlik Mekkî sure. Bu surenin adı „Nuh“dir."
     },
     "verses": 28,
     "revelation": "Meccan"
@@ -1214,11 +1214,11 @@
       "al": "Sureja Al-Jinn",
       "tr": "Al-Jinn Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْجِنِّ",
     "meaning": {
-      "de": "Mekkanische Sure mit 28 Versen. Der Name wird meist mit 'The Jinn' wiedergegeben.",
-      "al": "Sure mekase me 28 ajete. Emri zakonisht përkthehet si 'The Jinn'.",
-      "tr": "28 ayetlik Mekkî sure. İsmi genellikle 'The Jinn' olarak çevrilir."
+      "de": "Mekkanische Sure mit 28 Versen. Der Name dieser Sure ist „Al-Jinn“.",
+      "al": "Sure mekase me 28 ajete. Emri i kësaj sureje është „Al-Jinn“.",
+      "tr": "28 ayetlik Mekkî sure. Bu surenin adı „Al-Jinn“dir."
     },
     "verses": 28,
     "revelation": "Meccan"
@@ -1231,11 +1231,11 @@
       "al": "Sureja Al-Muzzammil",
       "tr": "Al-Muzzammil Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْمُزَّمِّلِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 20 Versen. Der Name wird meist mit 'The Enshrouded One' wiedergegeben.",
-      "al": "Sure mekase me 20 ajete. Emri zakonisht përkthehet si 'The Enshrouded One'.",
-      "tr": "20 ayetlik Mekkî sure. İsmi genellikle 'The Enshrouded One' olarak çevrilir."
+      "de": "Mekkanische Sure mit 20 Versen. Der Name dieser Sure ist „Al-Muzzammil“.",
+      "al": "Sure mekase me 20 ajete. Emri i kësaj sureje është „Al-Muzzammil“.",
+      "tr": "20 ayetlik Mekkî sure. Bu surenin adı „Al-Muzzammil“dir."
     },
     "verses": 20,
     "revelation": "Meccan"
@@ -1248,11 +1248,11 @@
       "al": "Sureja Al-Muddaththir",
       "tr": "Al-Muddaththir Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْمُدَّثِّرِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 56 Versen. Der Name wird meist mit 'The Cloaked One' wiedergegeben.",
-      "al": "Sure mekase me 56 ajete. Emri zakonisht përkthehet si 'The Cloaked One'.",
-      "tr": "56 ayetlik Mekkî sure. İsmi genellikle 'The Cloaked One' olarak çevrilir."
+      "de": "Mekkanische Sure mit 56 Versen. Der Name dieser Sure ist „Al-Muddaththir“.",
+      "al": "Sure mekase me 56 ajete. Emri i kësaj sureje është „Al-Muddaththir“.",
+      "tr": "56 ayetlik Mekkî sure. Bu surenin adı „Al-Muddaththir“dir."
     },
     "verses": 56,
     "revelation": "Meccan"
@@ -1265,11 +1265,11 @@
       "al": "Sureja Al-Qiyamah",
       "tr": "Al-Qiyamah Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْقِيَامَةِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 40 Versen. Der Name wird meist mit 'The Resurrection' wiedergegeben.",
-      "al": "Sure mekase me 40 ajete. Emri zakonisht përkthehet si 'The Resurrection'.",
-      "tr": "40 ayetlik Mekkî sure. İsmi genellikle 'The Resurrection' olarak çevrilir."
+      "de": "Mekkanische Sure mit 40 Versen. Der Name dieser Sure ist „Al-Qiyamah“.",
+      "al": "Sure mekase me 40 ajete. Emri i kësaj sureje është „Al-Qiyamah“.",
+      "tr": "40 ayetlik Mekkî sure. Bu surenin adı „Al-Qiyamah“dir."
     },
     "verses": 40,
     "revelation": "Meccan"
@@ -1282,11 +1282,11 @@
       "al": "Sureja Al-Insan",
       "tr": "Al-Insan Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْإِنْسَانِ",
     "meaning": {
-      "de": "Medinensische Sure mit 31 Versen. Der Name wird meist mit 'Man' wiedergegeben.",
-      "al": "Sure medinase me 31 ajete. Emri zakonisht përkthehet si 'Man'.",
-      "tr": "31 ayetlik Medenî sure. İsmi genellikle 'Man' olarak çevrilir."
+      "de": "Medinensische Sure mit 31 Versen. Der Name dieser Sure ist „Al-Insan“.",
+      "al": "Sure medinase me 31 ajete. Emri i kësaj sureje është „Al-Insan“.",
+      "tr": "31 ayetlik Medenî sure. Bu surenin adı „Al-Insan“dir."
     },
     "verses": 31,
     "revelation": "Medinan"
@@ -1299,11 +1299,11 @@
       "al": "Sureja Al-Mursalat",
       "tr": "Al-Mursalat Suresi"
     },
-    "arabic": "",
+    "arabic": "سُورَةُ ٱلْمُرْسَلَاتِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 50 Versen. Der Name wird meist mit 'Those Sent Forth' wiedergegeben.",
-      "al": "Sure mekase me 50 ajete. Emri zakonisht përkthehet si 'Those Sent Forth'.",
-      "tr": "50 ayetlik Mekkî sure. İsmi genellikle 'Those Sent Forth' olarak çevrilir."
+      "de": "Mekkanische Sure mit 50 Versen. Der Name dieser Sure ist „Al-Mursalat“.",
+      "al": "Sure mekase me 50 ajete. Emri i kësaj sureje është „Al-Mursalat“.",
+      "tr": "50 ayetlik Mekkî sure. Bu surenin adı „Al-Mursalat“dir."
     },
     "verses": 50,
     "revelation": "Meccan"
@@ -1318,9 +1318,9 @@
     },
     "arabic": "سُورَةُ ٱلنَّبَإِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 40 Versen. Der Name wird meist mit 'The Announcement' wiedergegeben.",
-      "al": "Sure mekase me 40 ajete. Emri zakonisht përkthehet si 'The Announcement'.",
-      "tr": "40 ayetlik Mekkî sure. İsmi genellikle 'The Announcement' olarak çevrilir."
+      "de": "Mekkanische Sure mit 40 Versen. Der Name dieser Sure ist „An-Naba“.",
+      "al": "Sure mekase me 40 ajete. Emri i kësaj sureje është „An-Naba“.",
+      "tr": "40 ayetlik Mekkî sure. Bu surenin adı „An-Naba“dir."
     },
     "verses": 40,
     "revelation": "Meccan"
@@ -1335,9 +1335,9 @@
     },
     "arabic": "سُورَةُ ٱلنَّازِعَاتِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 46 Versen. Der Name wird meist mit 'Those Who Pull Out' wiedergegeben.",
-      "al": "Sure mekase me 46 ajete. Emri zakonisht përkthehet si 'Those Who Pull Out'.",
-      "tr": "46 ayetlik Mekkî sure. İsmi genellikle 'Those Who Pull Out' olarak çevrilir."
+      "de": "Mekkanische Sure mit 46 Versen. Der Name dieser Sure ist „An-Nazi'at“.",
+      "al": "Sure mekase me 46 ajete. Emri i kësaj sureje është „An-Nazi'at“.",
+      "tr": "46 ayetlik Mekkî sure. Bu surenin adı „An-Nazi'at“dir."
     },
     "verses": 46,
     "revelation": "Meccan"
@@ -1352,9 +1352,9 @@
     },
     "arabic": "سُورَةُ عَبَسَ",
     "meaning": {
-      "de": "Mekkanische Sure mit 42 Versen. Der Name wird meist mit 'He Frowned' wiedergegeben.",
-      "al": "Sure mekase me 42 ajete. Emri zakonisht përkthehet si 'He Frowned'.",
-      "tr": "42 ayetlik Mekkî sure. İsmi genellikle 'He Frowned' olarak çevrilir."
+      "de": "Mekkanische Sure mit 42 Versen. Der Name dieser Sure ist „'Abasa“.",
+      "al": "Sure mekase me 42 ajete. Emri i kësaj sureje është „'Abasa“.",
+      "tr": "42 ayetlik Mekkî sure. Bu surenin adı „'Abasa“dir."
     },
     "verses": 42,
     "revelation": "Meccan"
@@ -1369,9 +1369,9 @@
     },
     "arabic": "سُورَةُ ٱلتَّكْوِيرِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 29 Versen. Der Name wird meist mit 'The Overthrowing' wiedergegeben.",
-      "al": "Sure mekase me 29 ajete. Emri zakonisht përkthehet si 'The Overthrowing'.",
-      "tr": "29 ayetlik Mekkî sure. İsmi genellikle 'The Overthrowing' olarak çevrilir."
+      "de": "Mekkanische Sure mit 29 Versen. Der Name dieser Sure ist „At-Takwir“.",
+      "al": "Sure mekase me 29 ajete. Emri i kësaj sureje është „At-Takwir“.",
+      "tr": "29 ayetlik Mekkî sure. Bu surenin adı „At-Takwir“dir."
     },
     "verses": 29,
     "revelation": "Meccan"
@@ -1384,11 +1384,11 @@
       "al": "Sureja Al-Infitar",
       "tr": "Al-Infitar Suresi"
     },
-    "arabic": "سُورَةُ ٱلْإِنفِطَارِ",
+    "arabic": "سُورَةُ ٱلْإِنْفِطَارِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 19 Versen. Der Name wird meist mit 'The Cleaving' wiedergegeben.",
-      "al": "Sure mekase me 19 ajete. Emri zakonisht përkthehet si 'The Cleaving'.",
-      "tr": "19 ayetlik Mekkî sure. İsmi genellikle 'The Cleaving' olarak çevrilir."
+      "de": "Mekkanische Sure mit 19 Versen. Der Name dieser Sure ist „Al-Infitar“.",
+      "al": "Sure mekase me 19 ajete. Emri i kësaj sureje është „Al-Infitar“.",
+      "tr": "19 ayetlik Mekkî sure. Bu surenin adı „Al-Infitar“dir."
     },
     "verses": 19,
     "revelation": "Meccan"
@@ -1403,9 +1403,9 @@
     },
     "arabic": "سُورَةُ ٱلْمُطَفِّفِينَ",
     "meaning": {
-      "de": "Mekkanische Sure mit 36 Versen. Der Name wird meist mit 'Those Who Give Less' wiedergegeben.",
-      "al": "Sure mekase me 36 ajete. Emri zakonisht përkthehet si 'Those Who Give Less'.",
-      "tr": "36 ayetlik Mekkî sure. İsmi genellikle 'Those Who Give Less' olarak çevrilir."
+      "de": "Mekkanische Sure mit 36 Versen. Der Name dieser Sure ist „Al-Mutaffifin“.",
+      "al": "Sure mekase me 36 ajete. Emri i kësaj sureje është „Al-Mutaffifin“.",
+      "tr": "36 ayetlik Mekkî sure. Bu surenin adı „Al-Mutaffifin“dir."
     },
     "verses": 36,
     "revelation": "Meccan"
@@ -1418,11 +1418,11 @@
       "al": "Sureja Al-Inshiqaq",
       "tr": "Al-Inshiqaq Suresi"
     },
-    "arabic": "سُورَةُ ٱلْإِنشِقَاقِ",
+    "arabic": "سُورَةُ ٱلْإِنْشِقَاقِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 25 Versen. Der Name wird meist mit 'The Splitting Open' wiedergegeben.",
-      "al": "Sure mekase me 25 ajete. Emri zakonisht përkthehet si 'The Splitting Open'.",
-      "tr": "25 ayetlik Mekkî sure. İsmi genellikle 'The Splitting Open' olarak çevrilir."
+      "de": "Mekkanische Sure mit 25 Versen. Der Name dieser Sure ist „Al-Inshiqaq“.",
+      "al": "Sure mekase me 25 ajete. Emri i kësaj sureje është „Al-Inshiqaq“.",
+      "tr": "25 ayetlik Mekkî sure. Bu surenin adı „Al-Inshiqaq“dir."
     },
     "verses": 25,
     "revelation": "Meccan"
@@ -1437,9 +1437,9 @@
     },
     "arabic": "سُورَةُ ٱلْبُرُوجِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 22 Versen. Der Name wird meist mit 'The Constellations' wiedergegeben.",
-      "al": "Sure mekase me 22 ajete. Emri zakonisht përkthehet si 'The Constellations'.",
-      "tr": "22 ayetlik Mekkî sure. İsmi genellikle 'The Constellations' olarak çevrilir."
+      "de": "Mekkanische Sure mit 22 Versen. Der Name dieser Sure ist „Al-Buruj“.",
+      "al": "Sure mekase me 22 ajete. Emri i kësaj sureje është „Al-Buruj“.",
+      "tr": "22 ayetlik Mekkî sure. Bu surenin adı „Al-Buruj“dir."
     },
     "verses": 22,
     "revelation": "Meccan"
@@ -1454,9 +1454,9 @@
     },
     "arabic": "سُورَةُ ٱلطَّارِقِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 17 Versen. Der Name wird meist mit 'The Night Comer' wiedergegeben.",
-      "al": "Sure mekase me 17 ajete. Emri zakonisht përkthehet si 'The Night Comer'.",
-      "tr": "17 ayetlik Mekkî sure. İsmi genellikle 'The Night Comer' olarak çevrilir."
+      "de": "Mekkanische Sure mit 17 Versen. Der Name dieser Sure ist „At-Tariq“.",
+      "al": "Sure mekase me 17 ajete. Emri i kësaj sureje është „At-Tariq“.",
+      "tr": "17 ayetlik Mekkî sure. Bu surenin adı „At-Tariq“dir."
     },
     "verses": 17,
     "revelation": "Meccan"
@@ -1471,9 +1471,9 @@
     },
     "arabic": "سُورَةُ ٱلْأَعْلَىٰ",
     "meaning": {
-      "de": "Mekkanische Sure mit 19 Versen. Der Name wird meist mit 'The Most High' wiedergegeben.",
-      "al": "Sure mekase me 19 ajete. Emri zakonisht përkthehet si 'The Most High'.",
-      "tr": "19 ayetlik Mekkî sure. İsmi genellikle 'The Most High' olarak çevrilir."
+      "de": "Mekkanische Sure mit 19 Versen. Der Name dieser Sure ist „Al-A'la“.",
+      "al": "Sure mekase me 19 ajete. Emri i kësaj sureje është „Al-A'la“.",
+      "tr": "19 ayetlik Mekkî sure. Bu surenin adı „Al-A'la“dir."
     },
     "verses": 19,
     "revelation": "Meccan"
@@ -1488,9 +1488,9 @@
     },
     "arabic": "سُورَةُ ٱلْغَاشِيَةِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 26 Versen. Der Name wird meist mit 'The Overwhelming' wiedergegeben.",
-      "al": "Sure mekase me 26 ajete. Emri zakonisht përkthehet si 'The Overwhelming'.",
-      "tr": "26 ayetlik Mekkî sure. İsmi genellikle 'The Overwhelming' olarak çevrilir."
+      "de": "Mekkanische Sure mit 26 Versen. Der Name dieser Sure ist „Al-Ghashiyah“.",
+      "al": "Sure mekase me 26 ajete. Emri i kësaj sureje është „Al-Ghashiyah“.",
+      "tr": "26 ayetlik Mekkî sure. Bu surenin adı „Al-Ghashiyah“dir."
     },
     "verses": 26,
     "revelation": "Meccan"
@@ -1505,9 +1505,9 @@
     },
     "arabic": "سُورَةُ ٱلْفَجْرِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 30 Versen. Der Name wird meist mit 'The Dawn' wiedergegeben.",
-      "al": "Sure mekase me 30 ajete. Emri zakonisht përkthehet si 'The Dawn'.",
-      "tr": "30 ayetlik Mekkî sure. İsmi genellikle 'The Dawn' olarak çevrilir."
+      "de": "Mekkanische Sure mit 30 Versen. Der Name dieser Sure ist „Al-Fajr“.",
+      "al": "Sure mekase me 30 ajete. Emri i kësaj sureje është „Al-Fajr“.",
+      "tr": "30 ayetlik Mekkî sure. Bu surenin adı „Al-Fajr“dir."
     },
     "verses": 30,
     "revelation": "Meccan"
@@ -1522,9 +1522,9 @@
     },
     "arabic": "سُورَةُ ٱلْبَلَدِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 20 Versen. Der Name wird meist mit 'The City' wiedergegeben.",
-      "al": "Sure mekase me 20 ajete. Emri zakonisht përkthehet si 'The City'.",
-      "tr": "20 ayetlik Mekkî sure. İsmi genellikle 'The City' olarak çevrilir."
+      "de": "Mekkanische Sure mit 20 Versen. Der Name dieser Sure ist „Al-Balad“.",
+      "al": "Sure mekase me 20 ajete. Emri i kësaj sureje është „Al-Balad“.",
+      "tr": "20 ayetlik Mekkî sure. Bu surenin adı „Al-Balad“dir."
     },
     "verses": 20,
     "revelation": "Meccan"
@@ -1539,9 +1539,9 @@
     },
     "arabic": "سُورَةُ ٱلشَّمْسِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 15 Versen. Der Name wird meist mit 'The Sun' wiedergegeben.",
-      "al": "Sure mekase me 15 ajete. Emri zakonisht përkthehet si 'The Sun'.",
-      "tr": "15 ayetlik Mekkî sure. İsmi genellikle 'The Sun' olarak çevrilir."
+      "de": "Mekkanische Sure mit 15 Versen. Der Name dieser Sure ist „Ash-Shams“.",
+      "al": "Sure mekase me 15 ajete. Emri i kësaj sureje është „Ash-Shams“.",
+      "tr": "15 ayetlik Mekkî sure. Bu surenin adı „Ash-Shams“dir."
     },
     "verses": 15,
     "revelation": "Meccan"
@@ -1556,9 +1556,9 @@
     },
     "arabic": "سُورَةُ ٱللَّيْلِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 21 Versen. Der Name wird meist mit 'The Night' wiedergegeben.",
-      "al": "Sure mekase me 21 ajete. Emri zakonisht përkthehet si 'The Night'.",
-      "tr": "21 ayetlik Mekkî sure. İsmi genellikle 'The Night' olarak çevrilir."
+      "de": "Mekkanische Sure mit 21 Versen. Der Name dieser Sure ist „Al-Layl“.",
+      "al": "Sure mekase me 21 ajete. Emri i kësaj sureje është „Al-Layl“.",
+      "tr": "21 ayetlik Mekkî sure. Bu surenin adı „Al-Layl“dir."
     },
     "verses": 21,
     "revelation": "Meccan"
@@ -1573,9 +1573,9 @@
     },
     "arabic": "سُورَةُ ٱلضُّحَىٰ",
     "meaning": {
-      "de": "Mekkanische Sure mit 11 Versen. Der Name wird meist mit 'The Morning Brightness' wiedergegeben.",
-      "al": "Sure mekase me 11 ajete. Emri zakonisht përkthehet si 'The Morning Brightness'.",
-      "tr": "11 ayetlik Mekkî sure. İsmi genellikle 'The Morning Brightness' olarak çevrilir."
+      "de": "Mekkanische Sure mit 11 Versen. Der Name dieser Sure ist „Ad-Duha“.",
+      "al": "Sure mekase me 11 ajete. Emri i kësaj sureje është „Ad-Duha“.",
+      "tr": "11 ayetlik Mekkî sure. Bu surenin adı „Ad-Duha“dir."
     },
     "verses": 11,
     "revelation": "Meccan"
@@ -1590,9 +1590,9 @@
     },
     "arabic": "سُورَةُ ٱلشَّرْحِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 8 Versen. Der Name wird meist mit 'The Relief' wiedergegeben.",
-      "al": "Sure mekase me 8 ajete. Emri zakonisht përkthehet si 'The Relief'.",
-      "tr": "8 ayetlik Mekkî sure. İsmi genellikle 'The Relief' olarak çevrilir."
+      "de": "Mekkanische Sure mit 8 Versen. Der Name dieser Sure ist „Ash-Sharh“.",
+      "al": "Sure mekase me 8 ajete. Emri i kësaj sureje është „Ash-Sharh“.",
+      "tr": "8 ayetlik Mekkî sure. Bu surenin adı „Ash-Sharh“dir."
     },
     "verses": 8,
     "revelation": "Meccan"
@@ -1607,9 +1607,9 @@
     },
     "arabic": "سُورَةُ ٱلتِّينِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 8 Versen. Der Name wird meist mit 'The Fig' wiedergegeben.",
-      "al": "Sure mekase me 8 ajete. Emri zakonisht përkthehet si 'The Fig'.",
-      "tr": "8 ayetlik Mekkî sure. İsmi genellikle 'The Fig' olarak çevrilir."
+      "de": "Mekkanische Sure mit 8 Versen. Der Name dieser Sure ist „At-Tin“.",
+      "al": "Sure mekase me 8 ajete. Emri i kësaj sureje është „At-Tin“.",
+      "tr": "8 ayetlik Mekkî sure. Bu surenin adı „At-Tin“dir."
     },
     "verses": 8,
     "revelation": "Meccan"
@@ -1624,9 +1624,9 @@
     },
     "arabic": "سُورَةُ ٱلْعَلَقِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 19 Versen. Der Name wird meist mit 'The Clinging Clot' wiedergegeben.",
-      "al": "Sure mekase me 19 ajete. Emri zakonisht përkthehet si 'The Clinging Clot'.",
-      "tr": "19 ayetlik Mekkî sure. İsmi genellikle 'The Clinging Clot' olarak çevrilir."
+      "de": "Mekkanische Sure mit 19 Versen. Der Name dieser Sure ist „Al-'Alaq“.",
+      "al": "Sure mekase me 19 ajete. Emri i kësaj sureje është „Al-'Alaq“.",
+      "tr": "19 ayetlik Mekkî sure. Bu surenin adı „Al-'Alaq“dir."
     },
     "verses": 19,
     "revelation": "Meccan"
@@ -1641,9 +1641,9 @@
     },
     "arabic": "سُورَةُ ٱلْقَدْرِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 5 Versen. Der Name wird meist mit 'The Decree' wiedergegeben.",
-      "al": "Sure mekase me 5 ajete. Emri zakonisht përkthehet si 'The Decree'.",
-      "tr": "5 ayetlik Mekkî sure. İsmi genellikle 'The Decree' olarak çevrilir."
+      "de": "Mekkanische Sure mit 5 Versen. Der Name dieser Sure ist „Al-Qadr“.",
+      "al": "Sure mekase me 5 ajete. Emri i kësaj sureje është „Al-Qadr“.",
+      "tr": "5 ayetlik Mekkî sure. Bu surenin adı „Al-Qadr“dir."
     },
     "verses": 5,
     "revelation": "Meccan"
@@ -1658,9 +1658,9 @@
     },
     "arabic": "سُورَةُ ٱلْبَيِّنَةِ",
     "meaning": {
-      "de": "Medinensische Sure mit 8 Versen. Der Name wird meist mit 'The Clear Proof' wiedergegeben.",
-      "al": "Sure medinase me 8 ajete. Emri zakonisht përkthehet si 'The Clear Proof'.",
-      "tr": "8 ayetlik Medenî sure. İsmi genellikle 'The Clear Proof' olarak çevrilir."
+      "de": "Medinensische Sure mit 8 Versen. Der Name dieser Sure ist „Al-Bayyinah“.",
+      "al": "Sure medinase me 8 ajete. Emri i kësaj sureje është „Al-Bayyinah“.",
+      "tr": "8 ayetlik Medenî sure. Bu surenin adı „Al-Bayyinah“dir."
     },
     "verses": 8,
     "revelation": "Medinan"
@@ -1675,9 +1675,9 @@
     },
     "arabic": "سُورَةُ ٱلزَّلْزَلَةِ",
     "meaning": {
-      "de": "Medinensische Sure mit 8 Versen. Der Name wird meist mit 'The Earthquake' wiedergegeben.",
-      "al": "Sure medinase me 8 ajete. Emri zakonisht përkthehet si 'The Earthquake'.",
-      "tr": "8 ayetlik Medenî sure. İsmi genellikle 'The Earthquake' olarak çevrilir."
+      "de": "Medinensische Sure mit 8 Versen. Der Name dieser Sure ist „Az-Zalzalah“.",
+      "al": "Sure medinase me 8 ajete. Emri i kësaj sureje është „Az-Zalzalah“.",
+      "tr": "8 ayetlik Medenî sure. Bu surenin adı „Az-Zalzalah“dir."
     },
     "verses": 8,
     "revelation": "Medinan"
@@ -1692,9 +1692,9 @@
     },
     "arabic": "سُورَةُ ٱلْعَادِيَاتِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 11 Versen. Der Name wird meist mit 'The Chargers' wiedergegeben.",
-      "al": "Sure mekase me 11 ajete. Emri zakonisht përkthehet si 'The Chargers'.",
-      "tr": "11 ayetlik Mekkî sure. İsmi genellikle 'The Chargers' olarak çevrilir."
+      "de": "Mekkanische Sure mit 11 Versen. Der Name dieser Sure ist „Al-'Adiyat“.",
+      "al": "Sure mekase me 11 ajete. Emri i kësaj sureje është „Al-'Adiyat“.",
+      "tr": "11 ayetlik Mekkî sure. Bu surenin adı „Al-'Adiyat“dir."
     },
     "verses": 11,
     "revelation": "Meccan"
@@ -1709,9 +1709,9 @@
     },
     "arabic": "سُورَةُ ٱلْقَارِعَةِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 11 Versen. Der Name wird meist mit 'The Striking Calamity' wiedergegeben.",
-      "al": "Sure mekase me 11 ajete. Emri zakonisht përkthehet si 'The Striking Calamity'.",
-      "tr": "11 ayetlik Mekkî sure. İsmi genellikle 'The Striking Calamity' olarak çevrilir."
+      "de": "Mekkanische Sure mit 11 Versen. Der Name dieser Sure ist „Al-Qari'ah“.",
+      "al": "Sure mekase me 11 ajete. Emri i kësaj sureje është „Al-Qari'ah“.",
+      "tr": "11 ayetlik Mekkî sure. Bu surenin adı „Al-Qari'ah“dir."
     },
     "verses": 11,
     "revelation": "Meccan"
@@ -1726,9 +1726,9 @@
     },
     "arabic": "سُورَةُ ٱلتَّكَاثُرِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 8 Versen. Der Name wird meist mit 'Rivalry in World Increase' wiedergegeben.",
-      "al": "Sure mekase me 8 ajete. Emri zakonisht përkthehet si 'Rivalry in World Increase'.",
-      "tr": "8 ayetlik Mekkî sure. İsmi genellikle 'Rivalry in World Increase' olarak çevrilir."
+      "de": "Mekkanische Sure mit 8 Versen. Der Name dieser Sure ist „At-Takathur“.",
+      "al": "Sure mekase me 8 ajete. Emri i kësaj sureje është „At-Takathur“.",
+      "tr": "8 ayetlik Mekkî sure. Bu surenin adı „At-Takathur“dir."
     },
     "verses": 8,
     "revelation": "Meccan"
@@ -1743,9 +1743,9 @@
     },
     "arabic": "سُورَةُ ٱلْعَصْرِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 3 Versen. Der Name wird meist mit 'Time' wiedergegeben.",
-      "al": "Sure mekase me 3 ajete. Emri zakonisht përkthehet si 'Time'.",
-      "tr": "3 ayetlik Mekkî sure. İsmi genellikle 'Time' olarak çevrilir."
+      "de": "Mekkanische Sure mit 3 Versen. Der Name dieser Sure ist „Al-'Asr“.",
+      "al": "Sure mekase me 3 ajete. Emri i kësaj sureje është „Al-'Asr“.",
+      "tr": "3 ayetlik Mekkî sure. Bu surenin adı „Al-'Asr“dir."
     },
     "verses": 3,
     "revelation": "Meccan"
@@ -1760,9 +1760,9 @@
     },
     "arabic": "سُورَةُ ٱلْهُمَزَةِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 9 Versen. Der Name wird meist mit 'The Slanderer' wiedergegeben.",
-      "al": "Sure mekase me 9 ajete. Emri zakonisht përkthehet si 'The Slanderer'.",
-      "tr": "9 ayetlik Mekkî sure. İsmi genellikle 'The Slanderer' olarak çevrilir."
+      "de": "Mekkanische Sure mit 9 Versen. Der Name dieser Sure ist „Al-Humazah“.",
+      "al": "Sure mekase me 9 ajete. Emri i kësaj sureje është „Al-Humazah“.",
+      "tr": "9 ayetlik Mekkî sure. Bu surenin adı „Al-Humazah“dir."
     },
     "verses": 9,
     "revelation": "Meccan"
@@ -1777,9 +1777,9 @@
     },
     "arabic": "سُورَةُ ٱلْفِيلِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 5 Versen. Der Name wird meist mit 'The Elephant' wiedergegeben.",
-      "al": "Sure mekase me 5 ajete. Emri zakonisht përkthehet si 'The Elephant'.",
-      "tr": "5 ayetlik Mekkî sure. İsmi genellikle 'The Elephant' olarak çevrilir."
+      "de": "Mekkanische Sure mit 5 Versen. Der Name dieser Sure ist „Al-Fil“.",
+      "al": "Sure mekase me 5 ajete. Emri i kësaj sureje është „Al-Fil“.",
+      "tr": "5 ayetlik Mekkî sure. Bu surenin adı „Al-Fil“dir."
     },
     "verses": 5,
     "revelation": "Meccan"
@@ -1794,9 +1794,9 @@
     },
     "arabic": "سُورَةُ قُرَيْشٍ",
     "meaning": {
-      "de": "Mekkanische Sure mit 4 Versen. Der Name wird meist mit 'Quraysh' wiedergegeben.",
-      "al": "Sure mekase me 4 ajete. Emri zakonisht përkthehet si 'Quraysh'.",
-      "tr": "4 ayetlik Mekkî sure. İsmi genellikle 'Quraysh' olarak çevrilir."
+      "de": "Mekkanische Sure mit 4 Versen. Der Name dieser Sure ist „Quraysh“.",
+      "al": "Sure mekase me 4 ajete. Emri i kësaj sureje është „Quraysh“.",
+      "tr": "4 ayetlik Mekkî sure. Bu surenin adı „Quraysh“dir."
     },
     "verses": 4,
     "revelation": "Meccan"
@@ -1811,9 +1811,9 @@
     },
     "arabic": "سُورَةُ ٱلْمَاعُونِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 7 Versen. Der Name wird meist mit 'Small Kindnesses' wiedergegeben.",
-      "al": "Sure mekase me 7 ajete. Emri zakonisht përkthehet si 'Small Kindnesses'.",
-      "tr": "7 ayetlik Mekkî sure. İsmi genellikle 'Small Kindnesses' olarak çevrilir."
+      "de": "Mekkanische Sure mit 7 Versen. Der Name dieser Sure ist „Al-Ma'un“.",
+      "al": "Sure mekase me 7 ajete. Emri i kësaj sureje është „Al-Ma'un“.",
+      "tr": "7 ayetlik Mekkî sure. Bu surenin adı „Al-Ma'un“dir."
     },
     "verses": 7,
     "revelation": "Meccan"
@@ -1828,9 +1828,9 @@
     },
     "arabic": "سُورَةُ ٱلْكَوْثَرِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 3 Versen. Der Name wird meist mit 'Abundance' wiedergegeben.",
-      "al": "Sure mekase me 3 ajete. Emri zakonisht përkthehet si 'Abundance'.",
-      "tr": "3 ayetlik Mekkî sure. İsmi genellikle 'Abundance' olarak çevrilir."
+      "de": "Mekkanische Sure mit 3 Versen. Der Name dieser Sure ist „Al-Kawthar“.",
+      "al": "Sure mekase me 3 ajete. Emri i kësaj sureje është „Al-Kawthar“.",
+      "tr": "3 ayetlik Mekkî sure. Bu surenin adı „Al-Kawthar“dir."
     },
     "verses": 3,
     "revelation": "Meccan"
@@ -1845,9 +1845,9 @@
     },
     "arabic": "سُورَةُ ٱلْكَافِرُونَ",
     "meaning": {
-      "de": "Mekkanische Sure mit 6 Versen. Der Name wird meist mit 'The Disbelievers' wiedergegeben.",
-      "al": "Sure mekase me 6 ajete. Emri zakonisht përkthehet si 'The Disbelievers'.",
-      "tr": "6 ayetlik Mekkî sure. İsmi genellikle 'The Disbelievers' olarak çevrilir."
+      "de": "Mekkanische Sure mit 6 Versen. Der Name dieser Sure ist „Al-Kafirun“.",
+      "al": "Sure mekase me 6 ajete. Emri i kësaj sureje është „Al-Kafirun“.",
+      "tr": "6 ayetlik Mekkî sure. Bu surenin adı „Al-Kafirun“dir."
     },
     "verses": 6,
     "revelation": "Meccan"
@@ -1862,9 +1862,9 @@
     },
     "arabic": "سُورَةُ ٱلنَّصْرِ",
     "meaning": {
-      "de": "Medinensische Sure mit 3 Versen. Der Name wird meist mit 'Divine Help' wiedergegeben.",
-      "al": "Sure medinase me 3 ajete. Emri zakonisht përkthehet si 'Divine Help'.",
-      "tr": "3 ayetlik Medenî sure. İsmi genellikle 'Divine Help' olarak çevrilir."
+      "de": "Medinensische Sure mit 3 Versen. Der Name dieser Sure ist „An-Nasr“.",
+      "al": "Sure medinase me 3 ajete. Emri i kësaj sureje është „An-Nasr“.",
+      "tr": "3 ayetlik Medenî sure. Bu surenin adı „An-Nasr“dir."
     },
     "verses": 3,
     "revelation": "Medinan"
@@ -1879,9 +1879,9 @@
     },
     "arabic": "سُورَةُ ٱلْمَسَدِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 5 Versen. Der Name wird meist mit 'The Palm Fiber' wiedergegeben.",
-      "al": "Sure mekase me 5 ajete. Emri zakonisht përkthehet si 'The Palm Fiber'.",
-      "tr": "5 ayetlik Mekkî sure. İsmi genellikle 'The Palm Fiber' olarak çevrilir."
+      "de": "Mekkanische Sure mit 5 Versen. Der Name dieser Sure ist „Al-Masad“.",
+      "al": "Sure mekase me 5 ajete. Emri i kësaj sureje është „Al-Masad“.",
+      "tr": "5 ayetlik Mekkî sure. Bu surenin adı „Al-Masad“dir."
     },
     "verses": 5,
     "revelation": "Meccan"
@@ -1896,9 +1896,9 @@
     },
     "arabic": "سُورَةُ ٱلْإِخْلَاصِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 4 Versen. Der Name wird meist mit 'Sincerity' wiedergegeben.",
-      "al": "Sure mekase me 4 ajete. Emri zakonisht përkthehet si 'Sincerity'.",
-      "tr": "4 ayetlik Mekkî sure. İsmi genellikle 'Sincerity' olarak çevrilir."
+      "de": "Mekkanische Sure mit 4 Versen. Der Name dieser Sure ist „Al-Ikhlas“.",
+      "al": "Sure mekase me 4 ajete. Emri i kësaj sureje është „Al-Ikhlas“.",
+      "tr": "4 ayetlik Mekkî sure. Bu surenin adı „Al-Ikhlas“dir."
     },
     "verses": 4,
     "revelation": "Meccan"
@@ -1913,9 +1913,9 @@
     },
     "arabic": "سُورَةُ ٱلْفَلَقِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 5 Versen. Der Name wird meist mit 'Daybreak' wiedergegeben.",
-      "al": "Sure mekase me 5 ajete. Emri zakonisht përkthehet si 'Daybreak'.",
-      "tr": "5 ayetlik Mekkî sure. İsmi genellikle 'Daybreak' olarak çevrilir."
+      "de": "Mekkanische Sure mit 5 Versen. Der Name dieser Sure ist „Al-Falaq“.",
+      "al": "Sure mekase me 5 ajete. Emri i kësaj sureje është „Al-Falaq“.",
+      "tr": "5 ayetlik Mekkî sure. Bu surenin adı „Al-Falaq“dir."
     },
     "verses": 5,
     "revelation": "Meccan"
@@ -1930,9 +1930,9 @@
     },
     "arabic": "سُورَةُ ٱلنَّاسِ",
     "meaning": {
-      "de": "Mekkanische Sure mit 6 Versen. Der Name wird meist mit 'Mankind' wiedergegeben.",
-      "al": "Sure mekase me 6 ajete. Emri zakonisht përkthehet si 'Mankind'.",
-      "tr": "6 ayetlik Mekkî sure. İsmi genellikle 'Mankind' olarak çevrilir."
+      "de": "Mekkanische Sure mit 6 Versen. Der Name dieser Sure ist „An-Nas“.",
+      "al": "Sure mekase me 6 ajete. Emri i kësaj sureje është „An-Nas“.",
+      "tr": "6 ayetlik Mekkî sure. Bu surenin adı „An-Nas“dir."
     },
     "verses": 6,
     "revelation": "Meccan"

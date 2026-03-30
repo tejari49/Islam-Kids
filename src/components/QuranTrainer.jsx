@@ -8,30 +8,70 @@ const SURAH_GUIDES = {
     de: {
       summary: 'Al-Fatiha ist eine tägliche Bitte um Allahs Führung auf den geraden Weg.',
       lessons: ['Beginne alles mit Dank an Allah.', 'Bitte bewusst um Rechtleitung und Standhaftigkeit.']
+    },
+    al: {
+      summary: 'El-Fatiha është një lutje e përditshme për udhëzim nga Allahu në rrugën e drejtë.',
+      lessons: ['Nise çdo gjë me falënderim ndaj Allahut.', 'Kërko me vetëdije udhëzim dhe qëndrueshmëri.']
+    },
+    tr: {
+      summary: 'Fatiha, Allah’tan doğru yol için günlük bir hidayet duasıdır.',
+      lessons: ['Her işe Allah’a hamd ile başla.', 'Bilinçli şekilde hidayet ve istikamet iste.']
     }
   },
   112: {
     de: {
       summary: 'Al-Ikhlas erklärt den reinen Tauhid: Allah ist Einer, einzigartig und braucht niemanden.',
       lessons: ['Glaube ohne Beigesellung (Schirk).', 'Nur Allah anbeten und nur Ihn um Hilfe bitten.']
+    },
+    al: {
+      summary: 'El-Ihlas shpjegon teuhidin e pastër: Allahu është Një, unik dhe nuk ka nevojë për askënd.',
+      lessons: ['Besim pa shirk (pa shok i Allahut).', 'Adhuro vetëm Allahun dhe kërko ndihmë vetëm prej Tij.']
+    },
+    tr: {
+      summary: 'İhlâs, saf tevhidi anlatır: Allah birdir, eşsizdir ve kimseye muhtaç değildir.',
+      lessons: ['Şirkten uzak bir iman geliştir.', 'Yalnız Allah’a kulluk et ve yalnız O’ndan yardım iste.']
     }
   },
   113: {
     de: {
       summary: 'Al-Falaq ist ein Schutzgebet gegen äußere Gefahren, Neid und schädliche Einflüsse.',
       lessons: ['Suche Schutz bei Allah statt bei Aberglauben.', 'Bleibe achtsam gegenüber Neid und bösen Absichten.']
+    },
+    al: {
+      summary: 'El-Felek është një lutje mbrojtjeje kundër rreziqeve të jashtme, zilisë dhe ndikimeve të dëmshme.',
+      lessons: ['Kërko mbrojtje te Allahu, jo te bestytnitë.', 'Qëndro i vëmendshëm ndaj zilisë dhe qëllimeve të këqija.']
+    },
+    tr: {
+      summary: 'Felak, dış tehlikelere, hasede ve zararlı etkilere karşı bir korunma duasıdır.',
+      lessons: ['Korunmayı batılda değil Allah’ta ara.', 'Haset ve kötü niyetlere karşı dikkatli ol.']
     }
   },
   114: {
     de: {
       summary: 'An-Nas lehrt, Schutz vor inneren Einflüsterungen und seelischen Angriffen zu suchen.',
       lessons: ['Achte auf deine Gedanken und Absichten.', 'Suche bei Angst oder Unruhe Zuflucht bei Allah.']
+    },
+    al: {
+      summary: 'En-Nas mëson të kërkojmë mbrojtje nga vesveset e brendshme dhe sulmet shpirtërore.',
+      lessons: ['Kujdesu për mendimet dhe qëllimet e tua.', 'Kur ke frikë ose shqetësim, strehohu te Allahu.']
+    },
+    tr: {
+      summary: 'Nâs, iç vesveselerden ve manevi saldırılardan Allah’a sığınmayı öğretir.',
+      lessons: ['Düşünce ve niyetlerini kontrol et.', 'Korku ve huzursuzlukta Allah’a sığın.']
     }
   },
   107: {
     de: {
       summary: 'Al-Maun erinnert daran, dass Glaube ohne Mitgefühl und Hilfe für Bedürftige unvollständig ist.',
       lessons: ['Vernachlässige keine kleinen guten Taten.', 'Frömmigkeit zeigt sich auch im Umgang mit Menschen.']
+    },
+    al: {
+      summary: 'El-Maun kujton se besimi pa dhembshuri dhe ndihmë për nevojtarët mbetet i paplotë.',
+      lessons: ['Mos i neglizho veprat e vogla të mira.', 'Devotshmëria shihet edhe në sjelljen me njerëzit.']
+    },
+    tr: {
+      summary: 'Mâûn, merhamet ve muhtaçlara yardım olmadan imanın eksik kalacağını hatırlatır.',
+      lessons: ['Küçük iyilikleri ihmal etme.', 'Dindarlık insanlarla muamelede de görünür.']
     }
   }
 };
@@ -90,13 +130,40 @@ function buildGuideText(surah, lang = 'de') {
   if (guide) return guide;
 
   const rawMeaning = surah?.meaning?.[lang] || surah?.meaning?.de || '';
-  const clean = rawMeaning.replace(/The Opening|The Opening’|The Opening'/gi, 'die Eröffnung').trim();
+  const openingByLang = {
+    de: 'die Eröffnung',
+    al: 'Hapja',
+    tr: 'Açılış'
+  };
+  const clean = rawMeaning
+    .replace(/The Opening|The Opening’|The Opening'/gi, openingByLang[lang] || openingByLang.de)
+    .trim();
+  const fallbackByLang = {
+    de: {
+      summary: 'Diese Sure stärkt den Glauben, erinnert an gutes Verhalten und ruft zu Allahs Nähe auf.',
+      lessons: [
+        'Überlege: Was soll ich heute praktisch umsetzen?',
+        'Frage dich: Welche Eigenschaft möchte Allah in mir stärken?'
+      ]
+    },
+    al: {
+      summary: 'Kjo sure forcon besimin, kujton sjelljen e mirë dhe të afron me Allahun.',
+      lessons: [
+        'Mendo: Çfarë duhet të zbatoj sot në praktikë?',
+        'Pyet veten: Cilin tipar dëshiron Allahu ta forcojë te unë?'
+      ]
+    },
+    tr: {
+      summary: 'Bu sure imanı güçlendirir, güzel ahlâkı hatırlatır ve Allah’a yakınlığa çağırır.',
+      lessons: [
+        'Düşün: Bugün pratikte neyi uygulamalıyım?',
+        'Kendine sor: Allah bende hangi özelliği güçlendirmek istiyor?'
+      ]
+    }
+  };
   return {
-    summary: clean || 'Diese Sure stärkt den Glauben, erinnert an gutes Verhalten und ruft zu Allahs Nähe auf.',
-    lessons: [
-      'Überlege: Was soll ich heute praktisch umsetzen?',
-      'Frage dich: Welche Eigenschaft möchte Allah in mir stärken?'
-    ]
+    summary: clean || fallbackByLang[lang]?.summary || fallbackByLang.de.summary,
+    lessons: fallbackByLang[lang]?.lessons || fallbackByLang.de.lessons
   };
 }
 
