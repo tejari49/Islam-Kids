@@ -8,9 +8,9 @@
       "tr": "Hz. Muhammed"
     },
     "content": {
-      "de": "Prophet Muhammad (s.a.w.) war der letzte Gesandte Allahs...",
-      "al": "Profeti Muhamed (s.a.w.) ishte i dërguari i fundit i Allahut...",
-      "tr": "Hz. Muhammed (s.a.v.) Allah'ın son elçisidir..."
+      "de": "Prophet Muhammad war ehrlich, barmherzig und ein Vorbild für Kinder und Erwachsene.",
+      "al": "Profeti Muhamed ishte i sinqertë, i mëshirshëm dhe shembull për fëmijë e të rritur.",
+      "tr": "Hz. Muhammed dürüst, merhametli ve çocuklar ile büyükler için örnekti."
     },
     "featured": true,
     "summary": {
@@ -43,9 +43,9 @@
       "tr": "Hz. Nuh"
     },
     "content": {
-      "de": "Prophet Nuh baute eine große Arche...",
-      "al": "Profeti Nuh ndërtoi një varkë të madhe...",
-      "tr": "Hz. Nuh büyük bir gemi inşa etti..."
+      "de": "Prophet Nuh baute auf Allahs Befehl die Arche und blieb geduldig.",
+      "al": "Profeti Nuh ndërtoi Arkën me urdhrin e Allahut dhe mbeti i durueshëm.",
+      "tr": "Nuh Peygamber Allah’ın emriyle gemiyi yaptı ve sabırlı kaldı."
     },
     "featured": true,
     "summary": {
@@ -78,9 +78,9 @@
       "tr": "Hz. Musa"
     },
     "content": {
-      "de": "Prophet Musa teilte das Meer mit seinem Stab...",
-      "al": "Profeti Musa ndau detin me shkopin e tij...",
-      "tr": "Hz. Musa denizi asasıyla yardı..."
+      "de": "Prophet Musa wurde von Allah beschützt und führte sein Volk durch das Meer.",
+      "al": "Profeti Musa u mbrojt nga Allahu dhe e kaloi popullin e tij përmes detit.",
+      "tr": "Musa Peygamber Allah tarafından korundu ve kavmini denizden geçirdi."
     },
     "featured": true,
     "summary": {
@@ -113,9 +113,9 @@
       "tr": "Hz. Ibrahim"
     },
     "content": {
-      "de": "Prophet Ibrahim vertraute Allah im Feuer...",
-      "al": "Profeti Ibrahim i besoi Allahut në zjarr...",
-      "tr": "Hz. İbrahim ateşte Allah'a tevekkül etti..."
+      "de": "Prophet Ibrahim vertraute Allah selbst dann, als er ins Feuer geworfen wurde.",
+      "al": "Profeti Ibrahim i besoi Allahut edhe kur u hodh në zjarr.",
+      "tr": "İbrahim Peygamber ateşe atıldığında bile Allah’a güvendi."
     },
     "featured": true,
     "summary": {
@@ -148,9 +148,9 @@
       "tr": "Hz. Yunus"
     },
     "content": {
-      "de": "Prophet Yunus war im Bauch des Waldes...",
-      "al": "Profeti Junus ishte në barkun e balenës...",
-      "tr": "Hz. Yunus balığın karnındaydı..."
+      "de": "Prophet Yunus rief im Dunkeln zu Allah und Allah rettete ihn.",
+      "al": "Profeti Junus e thirri Allahun në errësirë dhe Allahu e shpëtoi.",
+      "tr": "Yunus Peygamber karanlıkta Allah’a dua etti ve Allah onu kurtardı."
     },
     "featured": true,
     "summary": {
@@ -183,9 +183,9 @@
       "tr": "Melekler"
     },
     "content": {
-      "de": "Engel sind Wesen aus Licht...",
-      "al": "Engjëjt janë qenie prej drite...",
-      "tr": "Melekler nurdan varlıklardır..."
+      "de": "Engel sind aus Licht erschaffen und gehorchen Allah immer.",
+      "al": "Engjëjt janë krijuar nga drita dhe i binden Allahut gjithmonë.",
+      "tr": "Melekler nurdan yaratılmıştır ve Allah’a daima itaat ederler."
     },
     "featured": true,
     "summary": {
@@ -218,9 +218,9 @@
       "tr": "Kabe"
     },
     "content": {
-      "de": "Die Kabah ist das Haus Allahs...",
-      "al": "Qabja është shtëpia e Allahut...",
-      "tr": "Kabe Allah'ın evidir..."
+      "de": "Die Kabah ist das Haus Allahs und ein Ort der Einheit für Muslime.",
+      "al": "Qabja është shtëpia e Allahut dhe vend bashkimi për muslimanët.",
+      "tr": "Kâbe Allah’ın evidir ve Müslümanlar için birlik yeridir."
     },
     "featured": true,
     "summary": {
@@ -253,9 +253,9 @@
       "tr": "Allah'ın Yaratışı"
     },
     "content": {
-      "de": "Himmel und Erde sind von Allah erschaffen...",
-      "al": "Qielli dhe toka janë krijuar nga Allahu...",
-      "tr": "Gökleri ve yeri Allah yarattı..."
+      "de": "Allah hat Himmel, Erde, Tiere und Menschen erschaffen.",
+      "al": "Allahu krijoi qiellin, tokën, kafshët dhe njerëzit.",
+      "tr": "Allah göğü, yeri, hayvanları ve insanları yarattı."
     },
     "featured": true,
     "summary": {
@@ -288,9 +288,9 @@
       "tr": "Hz. Süleyman"
     },
     "content": {
-      "de": "Prophet Sulaiman konnte mit Tieren sprechen...",
-      "al": "Profeti Sulejman mund të fliste me kafshët...",
-      "tr": "Hz. Süleyman hayvanlarla konuşabiliyordu..."
+      "de": "Prophet Sulaiman bekam von Allah besondere Gaben und blieb dankbar.",
+      "al": "Profeti Sulejman mori dhunti të veçanta nga Allahu dhe mbeti falënderues.",
+      "tr": "Süleyman Peygamber Allah’tan özel nimetler aldı ve şükreden kaldı."
     },
     "featured": true,
     "summary": {
@@ -323,9 +323,9 @@
       "tr": "Cesur Ali"
     },
     "content": {
-      "de": "Ali war ein tapferer Freund des Propheten...",
-      "al": "Aliu ishte një mik trim i Profetit...",
-      "tr": "Hz. Ali Peygamber'in cesur bir dostuydu..."
+      "de": "Ali war mutig und treu und unterstützte den Propheten mit ganzem Herzen.",
+      "al": "Aliu ishte trim dhe besnik dhe e ndihmoi Profetin me gjithë zemër.",
+      "tr": "Ali cesur ve sadıktı; Peygamber’i bütün kalbiyle destekledi."
     },
     "featured": true,
     "summary": {
@@ -641,8 +641,8 @@
     },
     "content": {
       "de": "Ein Kind sah den Regen und lernte: Jede Versorgung kommt von Allah. Statt zu meckern sagte es Alhamdulillah.",
-      "al": "Ein Kind sah den Regen und lernte: Jede Versorgung kommt von Allah. Statt zu meckern sagte es Alhamdulillah.",
-      "tr": "Ein Kind sah den Regen und lernte: Jede Versorgung kommt von Allah. Statt zu meckern sagte es Alhamdulillah."
+      "al": "Një fëmijë pa shiun dhe mësoi se çdo furnizim vjen nga Allahu. Në vend të ankesës tha: Elhamdulilah.",
+      "tr": "Bir çocuk yağmuru görünce her rızkın Allah’tan geldiğini öğrendi. Şikâyet etmek yerine Elhamdülillah dedi."
     }
   },
   {
@@ -655,8 +655,8 @@
     },
     "content": {
       "de": "Ein Junge teilte sein Brot in der Schule. Am Ende hatte er nicht weniger, sondern neue Freunde und Baraka.",
-      "al": "Ein Junge teilte sein Brot in der Schule. Am Ende hatte er nicht weniger, sondern neue Freunde und Baraka.",
-      "tr": "Ein Junge teilte sein Brot in der Schule. Am Ende hatte er nicht weniger, sondern neue Freunde und Baraka."
+      "al": "Një djalë e ndau bukën e tij në shkollë. Në fund nuk humbi asgjë; fitoi miq të rinj dhe bereqet.",
+      "tr": "Bir çocuk okulda ekmeğini paylaştı. Sonunda eksilmedi; yeni arkadaşlar ve bereket kazandı."
     }
   },
   {
@@ -669,8 +669,8 @@
     },
     "content": {
       "de": "Ein Mädchen sagte die Wahrheit, obwohl sie Angst hatte. Ihre Ehrlichkeit brachte Vertrauen und Respekt.",
-      "al": "Ein Mädchen sagte die Wahrheit, obwohl sie Angst hatte. Ihre Ehrlichkeit brachte Vertrauen und Respekt.",
-      "tr": "Ein Mädchen sagte die Wahrheit, obwohl sie Angst hatte. Ihre Ehrlichkeit brachte Vertrauen und Respekt."
+      "al": "Një vajzë e tha të vërtetën edhe pse kishte frikë. Sinqeriteti i saj solli besim dhe respekt.",
+      "tr": "Bir kız korkmasına rağmen doğruyu söyledi. Dürüstlüğü ona güven ve saygı kazandırdı."
     }
   },
   {
@@ -683,8 +683,8 @@
     },
     "content": {
       "de": "Ein Kind begann mit einem Gebet pünktlich. Jeden Tag wurde es besser und merkte, dass Beständigkeit wichtiger ist als Perfektion.",
-      "al": "Ein Kind begann mit einem Gebet pünktlich. Jeden Tag wurde es besser und merkte, dass Beständigkeit wichtiger ist als Perfektion.",
-      "tr": "Ein Kind begann mit einem Gebet pünktlich. Jeden Tag wurde es besser und merkte, dass Beständigkeit wichtiger ist als Perfektion."
+      "al": "Një fëmijë filloi me një namaz në kohë. Çdo ditë u përmirësua dhe kuptoi se vazhdimësia është më e rëndësishme se perfeksioni.",
+      "tr": "Bir çocuk namaza vaktinde kılmaya bir vakitle başladı. Her gün gelişti ve istikrarın mükemmellikten daha değerli olduğunu fark etti."
     }
   },
   {
@@ -697,8 +697,8 @@
     },
     "content": {
       "de": "Vor dem Schlafen sprach ein Kind Dhikr. Es schlief ruhiger und fühlte sich beschützt.",
-      "al": "Vor dem Schlafen sprach ein Kind Dhikr. Es schlief ruhiger und fühlte sich beschützt.",
-      "tr": "Vor dem Schlafen sprach ein Kind Dhikr. Es schlief ruhiger und fühlte sich beschützt."
+      "al": "Para gjumit një fëmijë bëri dhikr. Fjeti më i qetë dhe u ndje i mbrojtur.",
+      "tr": "Bir çocuk uyumadan önce zikir yaptı. Daha huzurlu uyudu ve kendini korunmuş hissetti."
     }
   },
   {
@@ -711,8 +711,113 @@
     },
     "content": {
       "de": "Zwei Freunde stritten. Als einer verzieh, kam der Frieden zurück. So lernte er die Stärke der Vergebung.",
-      "al": "Zwei Freunde stritten. Als einer verzieh, kam der Frieden zurück. So lernte er die Stärke der Vergebung.",
-      "tr": "Zwei Freunde stritten. Als einer verzieh, kam der Frieden zurück. So lernte er die Stärke der Vergebung."
+      "al": "Dy miq u grindën. Kur njëri fali, paqja u kthye. Kështu mësoi forcën e faljes.",
+      "tr": "İki arkadaş tartıştı. Biri affedince huzur geri geldi. Böylece affetmenin gücünü öğrendi."
+    }
+  },
+  {
+    "id": 28,
+    "icon": "🕳️",
+    "title": {
+      "de": "Die Gefährten der Höhle",
+      "al": "Banorët e shpellës",
+      "tr": "Ashab-ı Kehf"
+    },
+    "content": {
+      "de": "Eine Gruppe junger Gläubiger vertraute Allah und fand Schutz in einer Höhle.",
+      "al": "Një grup të rinjsh besimtarë i besuan Allahut dhe gjetën mbrojtje në një shpellë.",
+      "tr": "Genç müminlerden bir grup Allah’a güvendi ve bir mağarada korunma buldu."
+    },
+    "featured": true,
+    "summary": {
+      "de": "Mutige junge Menschen hielten am Glauben fest, obwohl die Umgebung gegen sie war.",
+      "al": "Të rinj të guximshëm qëndruan të fortë në besim edhe kur mjedisi ishte kundër tyre.",
+      "tr": "Cesur gençler çevreleri karşılarında olsa da imanlarına sımsıkı sarıldı."
+    },
+    "background": {
+      "de": "In ihrer Stadt wurden Götzen angebetet. Die jungen Gläubigen wollten nur Allah dienen und mussten fliehen.",
+      "al": "Në qytetin e tyre adhuroheshin idhuj. Të rinjtë besimtarë donin të adhuronin vetëm Allahun dhe u detyruan të largohen.",
+      "tr": "Şehirlerinde putperestlik yaygındı. Genç müminler yalnız Allah’a kulluk etmek istediler ve hicret etmek zorunda kaldılar."
+    },
+    "story": {
+      "de": "Sie baten Allah um Barmherzigkeit und gingen in eine Höhle. Allah ließ sie lange schlafen und schützte sie. Als sie aufwachten, war die Zeit vergangen und die Wahrheit ihres Glaubens wurde für viele Menschen ein Zeichen.",
+      "al": "Ata i kërkuan Allahut mëshirë dhe hynë në një shpellë. Allahu i vuri në gjumë për një kohë të gjatë dhe i mbrojti. Kur u zgjuan, kishte kaluar shumë kohë dhe besimi i tyre u bë shenjë për njerëzit.",
+      "tr": "Onlar Allah’tan rahmet isteyip mağaraya sığındılar. Allah onları uzun süre uyuttu ve korudu. Uyandıklarında zaman geçmişti; onların imanı insanlara büyük bir ibret oldu."
+    },
+    "lesson": {
+      "de": "Wir lernen: Auch wenige können mit Iman und Mut Großes bewirken.",
+      "al": "Mësojmë: Edhe pak veta, me iman dhe guxim, mund të bëjnë gjëra të mëdha.",
+      "tr": "Öğreniyoruz: Az kişi olsak da iman ve cesaretle büyük işler başarabiliriz."
+    }
+  },
+  {
+    "id": 29,
+    "icon": "💧",
+    "title": {
+      "de": "Das Wasser von Zamzam",
+      "al": "Uji i Zemzemit",
+      "tr": "Zemzem suyu"
+    },
+    "content": {
+      "de": "Allah schenkte Hajar und Ismail in der Wüste die Quelle Zamzam.",
+      "al": "Allahu i dhuroi Haxheres dhe Ismailit burimin e Zemzemit në shkretëtirë.",
+      "tr": "Allah, çölde Hacer ile İsmail’e Zemzem kaynağını nasip etti."
+    },
+    "featured": true,
+    "summary": {
+      "de": "Aus großer Sorge wurde durch Allahs Hilfe eine Quelle voller Segen.",
+      "al": "Nga një shqetësim i madh, me ndihmën e Allahut, doli një burim me bereqet.",
+      "tr": "Büyük bir endişe, Allah’ın yardımıyla bereketli bir kaynağa dönüştü."
+    },
+    "background": {
+      "de": "Hajar war mit ihrem kleinen Sohn Ismail in einem trockenen Tal. Es gab kaum Wasser oder Nahrung.",
+      "al": "Haxherja ishte me djalin e saj të vogël Ismailin në një luginë të thatë. Kishte shumë pak ujë e ushqim.",
+      "tr": "Hacer validemiz küçük oğlu İsmail ile kurak bir vadideydi. Neredeyse hiç su ve yiyecek yoktu."
+    },
+    "story": {
+      "de": "Als das Wasser ausging, lief Hajar zwischen Safa und Marwa hin und her und suchte Hilfe. Allah ließ neben Ismail eine Quelle entspringen: Zamzam. Dieses Wasser blieb eine Gnade für Generationen und stärkte das Vertrauen auf Allah.",
+      "al": "Kur uji mbaroi, Haxherja vrapoi disa herë mes Safas dhe Mervas duke kërkuar ndihmë. Allahu bëri që pranë Ismailit të shpërthente burimi i Zemzemit. Ky ujë mbeti mëshirë për breza dhe forcoi besimin te Allahu.",
+      "tr": "Su tükenince Hacer, Safa ile Merve arasında koşarak çare aradı. Allah, İsmail’in yanında Zemzem’i çıkardı. Bu su nesiller boyu rahmet oldu ve Allah’a tevekkülü öğretti."
+    },
+    "lesson": {
+      "de": "Wir lernen: In Not geben wir nicht auf, sondern machen Dua und handeln.",
+      "al": "Mësojmë: Në vështirësi nuk dorëzohemi; bëjmë dua dhe përpiqemi.",
+      "tr": "Öğreniyoruz: Zorlukta pes etmeyiz; dua eder ve gayret ederiz."
+    }
+  },
+  {
+    "id": 30,
+    "icon": "📜",
+    "title": {
+      "de": "Der Vertrag von Hudaybiyyah",
+      "al": "Marrëveshja e Hudeybijes",
+      "tr": "Hudeybiye anlaşması"
+    },
+    "content": {
+      "de": "Geduld und Weisheit brachten den Muslimen in Hudaybiyyah einen großen Erfolg.",
+      "al": "Durimi dhe urtësia në Hudeybije u bënë fitore e madhe për muslimanët.",
+      "tr": "Hudeybiye’de sabır ve hikmet Müslümanlara büyük bir kazanç getirdi."
+    },
+    "featured": false,
+    "summary": {
+      "de": "Nicht jeder scheinbar schwere Kompromiss ist eine Niederlage.",
+      "al": "Jo çdo kompromis i vështirë në dukje është humbje.",
+      "tr": "Zor görünen her uzlaşma yenilgi değildir."
+    },
+    "background": {
+      "de": "Die Muslime wollten Umrah machen, wurden aber aufgehalten. Es begann eine Verhandlung mit den Quraisch.",
+      "al": "Muslimanët donin të bënin Umre, por u ndaluan. Filluan bisedimet me Kurejshët.",
+      "tr": "Müslümanlar umre yapmak istediler ancak engellendiler. Kureyş ile görüşmeler başladı."
+    },
+    "story": {
+      "de": "Der Prophet akzeptierte Bedingungen, die vielen zunächst schwer erschienen. Doch dieser Frieden öffnete Wege für Begegnung, Da’wah und Sicherheit. Kurz darauf traten viele Menschen in den Islam ein. So zeigte sich, dass Geduld und kluge Entscheidungen große Türen öffnen können.",
+      "al": "Profeti pranoi kushte që në fillim dukeshin të vështira për shumëkënd. Por kjo paqe hapi rrugë për takim, davet dhe siguri. Pas pak kohe shumë njerëz hynë në Islam. Kështu u pa se durimi dhe vendimet e mençura hapin dyer të mëdha.",
+      "tr": "Peygamberimiz, ilk bakışta zor görünen şartları kabul etti. Ancak bu barış; buluşma, tebliğ ve güven ortamı sağladı. Kısa süre sonra birçok insan İslam’a girdi. Böylece sabır ve hikmetli kararların büyük kapılar açtığı görüldü."
+    },
+    "lesson": {
+      "de": "Wir lernen: Geduld und Weitsicht sind oft stärker als schnelle Reaktionen.",
+      "al": "Mësojmë: Durimi dhe largpamësia shpesh janë më të forta se reagimi i shpejtë.",
+      "tr": "Öğreniyoruz: Sabır ve ileri görüş, çoğu zaman hızlı tepkiden daha güçlüdür."
     }
   }
 ]

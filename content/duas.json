@@ -489,8 +489,8 @@
     "transliteration": "Bismika Allahumma amutu wa ahya.",
     "meaning": {
       "de": "Mit Deinem Namen, o Allah, sterbe und lebe ich.",
-      "al": "Mit Deinem Namen, o Allah, sterbe und lebe ich.",
-      "tr": "Mit Deinem Namen, o Allah, sterbe und lebe ich."
+      "al": "Me emrin Tënd, o Allah, unë vdes dhe jetoj.",
+      "tr": "Senin adınla, Allah’ım, ölür ve dirilirim."
     },
     "ayah": "",
     "source": "Sunnah",
@@ -501,8 +501,8 @@
     },
     "when": {
       "de": "Vor dem Einschlafen.",
-      "al": "Vor dem Einschlafen.",
-      "tr": "Vor dem Einschlafen."
+      "al": "Para gjumit.",
+      "tr": "Uyumadan önce."
     },
     "explanation": {
       "de": "Ein kurzes Dua für den Alltag, damit du Allah immer gedenkst.",
@@ -523,8 +523,8 @@
     "transliteration": "Alhamdu lillahil-ladhi ahyana.",
     "meaning": {
       "de": "Alles Lob gebührt Allah, der uns wieder leben ließ.",
-      "al": "Alles Lob gebührt Allah, der uns wieder leben ließ.",
-      "tr": "Alles Lob gebührt Allah, der uns wieder leben ließ."
+      "al": "Falënderimi i takon Allahut që na dha jetë pas vdekjes sonë të vogël (gjumit).",
+      "tr": "Bizi uykudan sonra tekrar dirilten Allah’a hamdolsun."
     },
     "ayah": "",
     "source": "Sunnah",
@@ -535,8 +535,8 @@
     },
     "when": {
       "de": "Direkt nach dem Aufwachen.",
-      "al": "Direkt nach dem Aufwachen.",
-      "tr": "Direkt nach dem Aufwachen."
+      "al": "Menjëherë pasi zgjohesh.",
+      "tr": "Uyanır uyanmaz."
     },
     "explanation": {
       "de": "Ein kurzes Dua für den Alltag, damit du Allah immer gedenkst.",
@@ -557,8 +557,8 @@
     "transliteration": "Allahumma inni asaluka khayral mawliji.",
     "meaning": {
       "de": "O Allah, ich bitte Dich um Gutes beim Eintreten.",
-      "al": "O Allah, ich bitte Dich um Gutes beim Eintreten.",
-      "tr": "O Allah, ich bitte Dich um Gutes beim Eintreten."
+      "al": "O Allah, të kërkoj mirësi në hyrje dhe dalje.",
+      "tr": "Allah’ım, girişimde ve çıkışımda senden hayır isterim."
     },
     "ayah": "",
     "source": "Sunnah",
@@ -569,8 +569,8 @@
     },
     "when": {
       "de": "Wenn du nach Hause kommst.",
-      "al": "Wenn du nach Hause kommst.",
-      "tr": "Wenn du nach Hause kommst."
+      "al": "Kur hyn në shtëpi.",
+      "tr": "Eve girerken."
     },
     "explanation": {
       "de": "Ein kurzes Dua für den Alltag, damit du Allah immer gedenkst.",
@@ -591,8 +591,8 @@
     "transliteration": "Bismillahi tawakkaltu alallah.",
     "meaning": {
       "de": "Im Namen Allahs, ich vertraue auf Allah.",
-      "al": "Im Namen Allahs, ich vertraue auf Allah.",
-      "tr": "Im Namen Allahs, ich vertraue auf Allah."
+      "al": "Me emrin e Allahut, i mbështetem Allahut.",
+      "tr": "Allah’ın adıyla; Allah’a tevekkül ettim."
     },
     "ayah": "",
     "source": "Sunnah",
@@ -603,8 +603,8 @@
     },
     "when": {
       "de": "Wenn du aus dem Haus gehst.",
-      "al": "Wenn du aus dem Haus gehst.",
-      "tr": "Wenn du aus dem Haus gehst."
+      "al": "Kur del nga shtëpia.",
+      "tr": "Evden çıkarken."
     },
     "explanation": {
       "de": "Ein kurzes Dua für den Alltag, damit du Allah immer gedenkst.",
@@ -625,8 +625,8 @@
     "transliteration": "Allahumma j‘al fi qalbi nuran.",
     "meaning": {
       "de": "O Allah, gib Licht in mein Herz.",
-      "al": "O Allah, gib Licht in mein Herz.",
-      "tr": "O Allah, gib Licht in mein Herz."
+      "al": "O Allah, vendos dritë në zemrën time.",
+      "tr": "Allah’ım, kalbime nur ver."
     },
     "ayah": "",
     "source": "Sunnah",
@@ -637,8 +637,8 @@
     },
     "when": {
       "de": "Auf dem Weg zum Gebet.",
-      "al": "Auf dem Weg zum Gebet.",
-      "tr": "Auf dem Weg zum Gebet."
+      "al": "Rrugës për namaz ose xhami.",
+      "tr": "Camiye veya namaza giderken."
     },
     "explanation": {
       "de": "Ein kurzes Dua für den Alltag, damit du Allah immer gedenkst.",
@@ -659,8 +659,8 @@
     "transliteration": "Rabbir hamhuma kama rabbayani saghira.",
     "meaning": {
       "de": "Mein Herr, erbarme Dich ihrer, wie sie mich klein aufgezogen haben.",
-      "al": "Mein Herr, erbarme Dich ihrer, wie sie mich klein aufgezogen haben.",
-      "tr": "Mein Herr, erbarme Dich ihrer, wie sie mich klein aufgezogen haben."
+      "al": "Zoti im, mëshiroji ata ashtu siç më rritën kur isha i vogël.",
+      "tr": "Rabbim, küçükken beni yetiştirdikleri gibi onlara merhamet et."
     },
     "ayah": "",
     "source": "Quran 17:24",
@@ -671,8 +671,8 @@
     },
     "when": {
       "de": "Wenn du für deine Eltern betest.",
-      "al": "Wenn du für deine Eltern betest.",
-      "tr": "Wenn du für deine Eltern betest."
+      "al": "Kur lutesh për prindërit.",
+      "tr": "Anne-baba için dua ederken."
     },
     "explanation": {
       "de": "Ein kurzes Dua für den Alltag, damit du Allah immer gedenkst.",
@@ -680,5 +680,141 @@
       "tr": "Günlük hayatta Allah’ı anmak için kısa bir dua."
     },
     "topic": "parents"
+  },
+  {
+    "id": 21,
+    "icon": "🕊️",
+    "title": {
+      "de": "Dua bei Sorge",
+      "al": "Dua në shqetësim",
+      "tr": "Sıkıntıda dua"
+    },
+    "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+    "transliteration": "Hasbunallahu wa ni‘mal-wakil.",
+    "meaning": {
+      "de": "Allah genügt uns, und Er ist der beste Beschützer.",
+      "al": "Allahu na mjafton dhe Ai është Mbështetësi më i mirë.",
+      "tr": "Allah bize yeter; O ne güzel vekildir."
+    },
+    "ayah": "Quran 3:173",
+    "source": "Quran",
+    "pronunciation": {
+      "de": "Hasbunallahu wa ni‘mal-wakil.",
+      "al": "Hasbunallahu wa ni‘mal-wakil.",
+      "tr": "Hasbunallahu wa ni‘mal-wakil."
+    },
+    "when": {
+      "de": "Bei Angst, Stress oder Unsicherheit.",
+      "al": "Kur ndjen frikë, stres ose pasiguri.",
+      "tr": "Korku, stres ve belirsizlik anında."
+    },
+    "explanation": {
+      "de": "Diese kurze Dhikr-Dua stärkt Vertrauen in Allah in schwierigen Momenten.",
+      "al": "Kjo dua e shkurtër forcon mbështetjen te Allahu në momente të vështira.",
+      "tr": "Bu kısa zikir-dua, zor anlarda Allah’a güveni güçlendirir."
+    },
+    "topic": "patience"
+  },
+  {
+    "id": 22,
+    "icon": "🌧️",
+    "title": {
+      "de": "Dua bei Regen",
+      "al": "Dua kur bie shi",
+      "tr": "Yağmur duası"
+    },
+    "arabic": "اللَّهُمَّ صَيِّبًا نَافِعًا",
+    "transliteration": "Allahumma sayyiban nafi‘an.",
+    "meaning": {
+      "de": "O Allah, lass es einen nützlichen Regen sein.",
+      "al": "O Allah, bëje këtë shi të dobishëm.",
+      "tr": "Allah’ım, bunu faydalı bir yağmur eyle."
+    },
+    "ayah": "",
+    "source": "Sahih al-Bukhari",
+    "pronunciation": {
+      "de": "Allahumma sayyiban nafi‘an.",
+      "al": "Allahumma sayyiban nafi‘an.",
+      "tr": "Allahumma sayyiban nafi‘an."
+    },
+    "when": {
+      "de": "Wenn der Regen beginnt.",
+      "al": "Kur fillon shiu.",
+      "tr": "Yağmur başladığında."
+    },
+    "explanation": {
+      "de": "Eine Sunnah-Dua, die uns Dankbarkeit für Allahs Versorgung lehrt.",
+      "al": "Një dua sunneti që na mëson falënderim për furnizimin e Allahut.",
+      "tr": "Allah’ın nimetine şükretmeyi öğreten bir sünnet duasıdır."
+    },
+    "topic": "weather"
+  },
+  {
+    "id": 23,
+    "icon": "🍽️",
+    "title": {
+      "de": "Dua nach dem Essen",
+      "al": "Dua pas ushqimit",
+      "tr": "Yemekten sonra dua"
+    },
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا وَرَزَقَنِيهِ",
+    "transliteration": "Alhamdu lillahil-ladhi at‘amani hadha wa razaqanihi.",
+    "meaning": {
+      "de": "Alles Lob gebührt Allah, der mir dies zu essen gab und mich damit versorgte.",
+      "al": "Falënderimi i takon Allahut që më ushqeu me këtë dhe më furnizoi.",
+      "tr": "Beni bununla rızıklandıran ve yediren Allah’a hamdolsun."
+    },
+    "ayah": "",
+    "source": "Jami at-Tirmidhi",
+    "pronunciation": {
+      "de": "Alhamdu lillahil-ladhi at‘amani hadha wa razaqanihi.",
+      "al": "Alhamdu lillahil-ladhi at‘amani hadha wa razaqanihi.",
+      "tr": "Alhamdu lillahil-ladhi at‘amani hadha wa razaqanihi."
+    },
+    "when": {
+      "de": "Nachdem du gegessen hast.",
+      "al": "Pasi të hash ushqim.",
+      "tr": "Yemek bitince."
+    },
+    "explanation": {
+      "de": "Diese Dua erinnert uns daran, Essen nicht als selbstverständlich zu sehen.",
+      "al": "Kjo dua na kujton të mos e marrim ushqimin si diçka të zakonshme.",
+      "tr": "Bu dua, yemeği sıradan görmeyip şükretmeyi öğretir."
+    },
+    "topic": "gratitude"
+  },
+  {
+    "id": 24,
+    "icon": "🧠",
+    "title": {
+      "de": "Dua um Wissen",
+      "al": "Dua për dituri",
+      "tr": "İlim duası"
+    },
+    "arabic": "رَبِّ زِدْنِي عِلْمًا",
+    "transliteration": "Rabbi zidni ‘ilma.",
+    "meaning": {
+      "de": "Mein Herr, mehre mich an Wissen.",
+      "al": "Zoti im, ma shto dijen.",
+      "tr": "Rabbim, ilmimi artır."
+    },
+    "ayah": "Quran 20:114",
+    "source": "Quran",
+    "pronunciation": {
+      "de": "Rabbi zidni ‘ilma.",
+      "al": "Rabbi zidni ‘ilma.",
+      "tr": "Rabbi zidni ‘ilma."
+    },
+    "when": {
+      "de": "Vor dem Lernen oder Unterricht.",
+      "al": "Para mësimit ose gjatë studimit.",
+      "tr": "Derse başlamadan önce veya öğrenirken."
+    },
+    "explanation": {
+      "de": "Eine kraftvolle Quran-Dua für Lernende in jedem Alter.",
+      "al": "Një dua e fuqishme nga Kurani për nxënës të çdo moshe.",
+      "tr": "Her yaştan öğrenci için güçlü bir Kur’an duasıdır."
+    },
+    "topic": "knowledge"
   }
 ]
