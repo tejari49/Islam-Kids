@@ -249,8 +249,8 @@
     },
     "text": {
       "de": "Allah ist sanft und liebt Sanftmut in allen Angelegenheiten.",
-      "al": "Allah ist sanft und liebt Sanftmut in allen Angelegenheiten.",
-      "tr": "Allah ist sanft und liebt Sanftmut in allen Angelegenheiten."
+      "al": "Allahu është i Butë dhe e do butësinë në çdo çështje.",
+      "tr": "Allah latiftir ve her işte yumuşaklığı sever."
     },
     "explanation": {
       "de": "Ein einfacher Hadith für Kinder mit praktischer Lehre im Alltag.",
@@ -269,8 +269,8 @@
     },
     "text": {
       "de": "Das Dua ist die Essenz der Anbetung.",
-      "al": "Das Dua ist die Essenz der Anbetung.",
-      "tr": "Das Dua ist die Essenz der Anbetung."
+      "al": "Duaja është thelbi i adhurimit.",
+      "tr": "Dua ibadetin özüdür."
     },
     "explanation": {
       "de": "Ein einfacher Hadith für Kinder mit praktischer Lehre im Alltag.",
@@ -289,8 +289,8 @@
     },
     "text": {
       "de": "Die Barmherzigen erbarmt Allah. Seid barmherzig zu den Menschen auf der Erde.",
-      "al": "Die Barmherzigen erbarmt Allah. Seid barmherzig zu den Menschen auf der Erde.",
-      "tr": "Die Barmherzigen erbarmt Allah. Seid barmherzig zu den Menschen auf der Erde."
+      "al": "Mëshiruesve u mëshiron Mëshiruesi. Tregoni mëshirë ndaj njerëzve në tokë.",
+      "tr": "Merhamet edenlere Rahmân merhamet eder. Yeryüzündekilere merhamet edin."
     },
     "explanation": {
       "de": "Ein einfacher Hadith für Kinder mit praktischer Lehre im Alltag.",
@@ -309,8 +309,8 @@
     },
     "text": {
       "de": "Macht es leicht und macht es nicht schwer.",
-      "al": "Macht es leicht und macht es nicht schwer.",
-      "tr": "Macht es leicht und macht es nicht schwer."
+      "al": "Lehtësoni dhe mos vështirësoni.",
+      "tr": "Kolaylaştırın, zorlaştırmayın."
     },
     "explanation": {
       "de": "Ein einfacher Hadith für Kinder mit praktischer Lehre im Alltag.",
@@ -329,8 +329,8 @@
     },
     "text": {
       "de": "Keiner glaubt vollkommen, bis er für seinen Bruder liebt, was er für sich liebt.",
-      "al": "Keiner glaubt vollkommen, bis er für seinen Bruder liebt, was er für sich liebt.",
-      "tr": "Keiner glaubt vollkommen, bis er für seinen Bruder liebt, was er für sich liebt."
+      "al": "Askush nuk e plotëson imanin derisa të dojë për vëllanë e tij atë që do për veten.",
+      "tr": "Sizden biri, kendisi için sevdiğini kardeşi için de sevmedikçe imanını tamamlamış olmaz."
     },
     "explanation": {
       "de": "Ein einfacher Hadith für Kinder mit praktischer Lehre im Alltag.",
@@ -349,8 +349,8 @@
     },
     "text": {
       "de": "Wer den Menschen nicht dankt, dankt Allah nicht.",
-      "al": "Wer den Menschen nicht dankt, dankt Allah nicht.",
-      "tr": "Wer den Menschen nicht dankt, dankt Allah nicht."
+      "al": "Kush nuk i falënderon njerëzit, nuk e falënderon Allahun.",
+      "tr": "İnsanlara teşekkür etmeyen, Allah’a da şükretmiş olmaz."
     },
     "explanation": {
       "de": "Ein einfacher Hadith für Kinder mit praktischer Lehre im Alltag.",
@@ -358,5 +358,85 @@
       "tr": "Çocuklar için günlük hayata uygun pratik ders içeren kısa bir hadis."
     },
     "source": "Jami at-Tirmidhi"
+  },
+  {
+    "id": 19,
+    "icon": "🌿",
+    "title": {
+      "de": "Gute Taten sind viele",
+      "al": "Veprat e mira janë të shumta",
+      "tr": "İyilik yolları çoktur"
+    },
+    "text": {
+      "de": "Bewahre dich vor dem Feuer, auch wenn es nur mit einer halben Dattel ist.",
+      "al": "Ruaju nga zjarri qoftë edhe me një gjysmë hurme (si sadaka).",
+      "tr": "Yarım hurma ile de olsa kendinizi ateşten koruyun."
+    },
+    "explanation": {
+      "de": "Schon kleine Spenden zählen. Kinder lernen: Auch wenig kann bei Allah groß sein.",
+      "al": "Edhe lëmosha e vogël ka vlerë. Fëmijët mësojnë se edhe pak mund të jetë e madhe tek Allahu.",
+      "tr": "Küçük bir sadaka bile değerlidir. Çocuklar az bir iyiliğin Allah katında büyük olabileceğini öğrenir."
+    },
+    "source": "Sahih al-Bukhari; Sahih Muslim"
+  },
+  {
+    "id": 20,
+    "icon": "🧡",
+    "title": {
+      "de": "Allah schaut auf das Herz",
+      "al": "Allahu shikon zemrën",
+      "tr": "Allah kalbe bakar"
+    },
+    "text": {
+      "de": "Allah schaut nicht auf eure Gestalt und euer Vermögen, sondern auf eure Herzen und eure Taten.",
+      "al": "Allahu nuk shikon pamjen dhe pasurinë tuaj, por zemrat dhe veprat tuaja.",
+      "tr": "Allah sizin şeklinize ve malınıza değil; kalplerinize ve amellerinize bakar."
+    },
+    "explanation": {
+      "de": "Wichtig ist, wie wir innen sind: aufrichtig, freundlich und gerecht.",
+      "al": "E rëndësishme është brendia jonë: sinqeriteti, mirësia dhe drejtësia.",
+      "tr": "Önemli olan iç dünyamızdır: samimiyet, nezaket ve adalet."
+    },
+    "source": "Sahih Muslim"
+  },
+  {
+    "id": 21,
+    "icon": "🤗",
+    "title": {
+      "de": "Besuche die Kranken",
+      "al": "Vizito të sëmurët",
+      "tr": "Hastaları ziyaret et"
+    },
+    "text": {
+      "de": "Wer einen Kranken besucht, ist in Barmherzigkeit, bis er zurückkehrt.",
+      "al": "Kush viziton një të sëmurë është në mëshirë derisa të kthehet.",
+      "tr": "Bir hastayı ziyaret eden kişi dönene kadar rahmet içindedir."
+    },
+    "explanation": {
+      "de": "Kranke zu besuchen stärkt Liebe und Mitgefühl in der Gemeinschaft.",
+      "al": "Vizita te të sëmurët forcon dashurinë dhe dhembshurinë në shoqëri.",
+      "tr": "Hastaları ziyaret etmek toplumda sevgi ve merhameti güçlendirir."
+    },
+    "source": "Sahih Muslim (Bedeutung)"
+  },
+  {
+    "id": 22,
+    "icon": "💬",
+    "title": {
+      "de": "Das beste Wort ist wahr",
+      "al": "Fjala më e mirë është e vërteta",
+      "tr": "En güzel söz doğru sözdür"
+    },
+    "text": {
+      "de": "Sagt die Wahrheit, auch wenn sie schwer ist.",
+      "al": "Thuajeni të vërtetën edhe kur është e vështirë.",
+      "tr": "Zor olsa da doğruyu söyleyin."
+    },
+    "explanation": {
+      "de": "Wahrheit schützt Vertrauen. Kinder lernen mutig und ehrlich zu sein.",
+      "al": "E vërteta e ruan besimin. Fëmijët mësojnë të jenë të guximshëm dhe të sinqertë.",
+      "tr": "Doğruluk güveni korur. Çocuklar cesur ve dürüst olmayı öğrenir."
+    },
+    "source": "Hadith-Bedeutung aus authentischen Lehren"
   }
 ]
